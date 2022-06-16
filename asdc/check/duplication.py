@@ -13,6 +13,8 @@ def operation(path_vuttr_list: List[Path], path_ex_list: List[Path]) -> None:
     docids: Set[DocID] = set()
     sids: Set[SID] = set()
 
+    count_vuttrs: int = 0
+    count_vuttr: int = 0
     for _path_vuttr in path_vuttr_list:
         for path_vuttr in _path_vuttr.iterdir():
             with path_vuttr.open() as inf:
@@ -20,9 +22,14 @@ def operation(path_vuttr_list: List[Path], path_ex_list: List[Path]) -> None:
                     vuttr = VanillaUtterances.parse_raw(line)
                     if vuttr.meta.id in docids:
                         raise KeyError(f"Duplicated DocID: {vuttr.meta.id} ({path_vuttr})")
+                    count_vuttrs += 1
+                    count_vuttr += len(vuttr.utterances)
                     docids.add(vuttr.meta.id)
                     sids.add(SID(id=vuttr.meta.id.id + "-0"))
+    print(f"# VanillaUtterances: {count_vuttrs:,}")
+    print(f"# VanillaUtterance: {count_vuttr:,}")
 
+    count_ex: int = 0
     for _path_ex in path_ex_list:
         for path_ex in _path_ex.iterdir():
             with path_ex.open() as inf:
@@ -31,6 +38,8 @@ def operation(path_vuttr_list: List[Path], path_ex_list: List[Path]) -> None:
                     if ex.sid in sids:
                         raise KeyError(f"Duplicated SID: {ex.sid} ({path_ex})")
                     sids.add(ex.sid)
+                    count_ex += 1
+    print(f"# Example: {count_ex:,}")
 
 
 def get_opts() -> argparse.Namespace:
