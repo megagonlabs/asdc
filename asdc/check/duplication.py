@@ -29,7 +29,7 @@ def operation(path_vuttr_list: List[Path], path_ex_list: List[Path]) -> None:
                 for line in inf:
                     ex = Example.parse_raw(line)
                     if ex.sid in sids:
-                        raise KeyError(f"Duplicated SID: {ex.sid} ({path_vuttr})")
+                        raise KeyError(f"Duplicated SID: {ex.sid} ({path_ex})")
                     sids.add(ex.sid)
 
 
