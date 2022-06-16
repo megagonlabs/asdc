@@ -13,10 +13,7 @@ keywords = []
 
 [tool.poetry.dependencies]
 python = ">=3.8,<4.0"
-tqdm = "*"
-mojimoji = ">=0.0.12"
 pydantic = ">=1.8.2"
-coverage = ">=6.1"
 
 [tool.poetry.dev-dependencies]
 flake8 = ">=3.8.4"
@@ -25,6 +22,7 @@ yamllint = ">=1.25.0"
 pydocstyle = ">=5.1.1"
 black = ">=21.11b1"
 toml = ">=0.10.2"
+coverage = ">=6.1"
 
 [build-system]
 requires = ["poetry"]
