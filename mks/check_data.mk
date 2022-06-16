@@ -53,3 +53,8 @@ check_vanilla: check_vanilla_linenum \
 
 check_example:
 	python3 -m asdc.check.format -i $(DATA_SUP_SCUD_DIR) -t example
+
+check_duplication:
+	python -m asdc.check.duplication \
+		--vuttr $(DATA_ROOT_DIR)/vanilla \
+		--ex $(DATA_SUP_SCUD_DIR)
