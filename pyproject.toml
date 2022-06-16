@@ -1,0 +1,47 @@
+[tool.poetry]
+name = "asdc"
+version = "4.0.0"
+description = ""
+authors = ["Yuta Hayashibe <hayashibe@megagon.ai>"]
+maintainers = ["Yuta Hayashibe <hayashibe@megagon.ai>"]
+license = ""
+readme = "README.md"
+homepage = ""
+repository = ""
+documentation = ""
+keywords = []
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4.0"
+tqdm = "*"
+mojimoji = ">=0.0.12"
+pydantic = ">=1.8.2"
+coverage = ">=6.1"
+
+[tool.poetry.dev-dependencies]
+flake8 = ">=3.8.4"
+isort = ">=5.6.4"
+yamllint = ">=1.25.0"
+pydocstyle = ">=5.1.1"
+black = ">=21.11b1"
+toml = ">=0.10.2"
+
+[build-system]
+requires = ["poetry"]
+
+[tool.poetry.scripts]
+
+[tool.poetry.urls]
+issues = ""
+
+[tool.pyright]
+pythonVersion = "3.8"
+typeCheckingMode = "basic"
+reportUnusedVariable="warning"
+
+[tool.black]
+line-length = 120
+
+[tool.isort]
+profile = "black"
+line_length = 120

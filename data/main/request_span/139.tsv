@@ -1,0 +1,51 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+7598	139	1	agent	この度のご利用、誠にありがとうございます。		0	0	0																									
+7599	139	2	agent	お客様のお宿探しのお手伝いをいたします。		0	0	0																									
+7600	139	3	agent	お客様のご希望をお聞かせいただけますでしょうか？		0	0	0																									
+7601	139	4	user	女三人で広島旅行に行きます。	要求	0	0	0	2632	7601	0	1	女	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7601	139	4	user	女三人で広島旅行に行きます。	要求	0	0	0	2633	7601	1	2	三人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7601	139	4	user	女三人で広島旅行に行きます。	要求	0	0	0	2634	7601	4	2	広島	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7602	139	5	user	観光ホテルを探しています。	要求	0	0	0	2635	7602	0	2	観光	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7602	139	5	user	観光ホテルを探しています。	要求	0	0	0	2636	7602	2	3	ホテル	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+7603	139	6	agent	かしこまりました。		0	0	0																									
+7604	139	7	agent	ご予約する日程と泊数はいつぐらいでしょうか？		0	0	0																									
+7605	139	8	user	９／２９～１０／５くらいで３泊しようと思ってます	要求	0	0	0	2637	7605	0	12	９／２９～１０／５くらい	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	1_weak						0						
+7605	139	8	user	９／２９～１０／５くらいで３泊しようと思ってます	要求	0	0	0	2638	7605	13	2	３泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7606	139	9	agent	かしこまりました。		0	0	0																									
+7607	139	10	agent	ご予算はどのくらいでお考えでしょうか？		0	0	0																									
+7608	139	11	user	出来れば１５０００円くらい以内で考えてます。	要求	0	0	0	2639	7608	4	11	１５０００円くらい以内	予算	YOYO:予算	2_neutral	1_weak	2_neutral	1_weak		1_weak						0						
+7609	139	12	user	ホテルも楽しみたいので内容次第で超えても大丈夫です	要求	0	0	0	2640	7609	0	3	ホテル	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+7609	139	12	user	ホテルも楽しみたいので内容次第で超えても大丈夫です	要求	0	0	0	2641	7609	16	2	超え	予算	YOYO:予算	1_weak	2_neutral	1_weak		2_neutral		310	7609	11	4	内容次第	0						
+7609	139	12	user	ホテルも楽しみたいので内容次第で超えても大丈夫です	要求	0	0	0	2641	7609	16	2	超え	予算	YOYO:予算	1_weak	2_neutral	1_weak		2_neutral		311	7608	4	6	１５０００円	0						
+7610	139	13	agent	かしこまりました。		0	0	0																									
+7611	139	14	agent	観光ホテルをお探しとのことで、行きたい観光地などはお決まりでしょうか？		0	0	0																									
+7612	139	15	user	厳島神社は決めていますがそれ以外はまだ計画中です。	要求	0	0	0	2642	7612	0	4	厳島神社	立地	RIAC:立地 (アクティビティ)	2_neutral	2_neutral	2_neutral	2_neutral	3_strong	2_neutral						0						
+7613	139	16	user	あちこちにアクセス良い場所だと助かります。	要求	0	0	0	2643	7613	0	11	あちこちにアクセス良い	立地	RIBA:立地 (場所)	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+7614	139	17	agent	かしこまりました。		0	0	0																									
+7615	139	18	agent	そうなりますと広島市内のホテルでお探ししますね。		0	0	0																									
+7616	139	19	agent	ホテルも楽しみたいということでしたら露天風呂があるものでお探ししてもよろしいでしょうか？		0	0	0																									
+7617	139	20	user	ぜひお願いします（＊＾＾＊）	はい	0	0	0																									
+7618	139	21	user	あと、牡蠣が食べられる宿が良いです。	要求	0	0	0	2644	7618	3	2	牡蠣	食事	SYNA:食事内容	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+7619	139	22	agent	かしこまりました。		0	0	0																									
+7620	139	23	agent	そうしましたら、地元のカキを使ったコース料理を提供しているホテルをお探ししてよろしいでしょうか？		0	0	0																									
+7621	139	24	user	良いですね！	はい	0	0	0																									
+7622	139	25	user	お願いします。	その他	0	0	0																									
+7623	139	26	user	食事代は予算をオーバーしても問題ないので料理が美味しい宿が良いです。	要求	0	1	0	2646	7623	0	11	食事代は予算をオーバー	予算	YOKA:予算感	1_weak	2_neutral	1_weak		2_neutral							0						
+7623	139	26	user	食事代は予算をオーバーしても問題ないので料理が美味しい宿が良いです。	要求	0	1	0	2647	7623	20	7	料理が美味しい	食事	SYNA:食事内容	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+7624	139	27	agent	かしこまりました。		0	0	0																									
+7625	139	28	agent	その条件でお探ししますね。		0	0	0																									
+7626	139	29	agent	他にご要望はございますか？		0	0	0																									
+7627	139	30	user	出来ればチェックインを早めに出来れば嬉しいです。	要求	0	0	0	2648	7627	4	9	チェックインを早め	サービス	SEIN:チェックイン条件	1_weak	1_weak	1_weak									0						
+7628	139	31	agent	かしこまりました。		0	0	0																									
+7629	139	32	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+7630	139	33	agent	・行先は広島県		0	0	0																									
+7631	139	34	agent	・人数は大人３人		0	0	0																									
+7632	139	35	agent	・宿は観光ホテル		0	0	0																									
+7633	139	36	agent	・日程は９／２９～１０／５くらいで３泊		0	0	0																									
+7634	139	37	agent	・予算はできれば１５０００円以内。		0	0	0																									
+7635	139	38	agent	超えても可		0	0	0																									
+7636	139	39	agent	・様々な観光地にアクセスしやすい広島市内のホテル		0	0	0																									
+7637	139	40	agent	・露天風呂があるホテル		0	0	0																									
+7638	139	41	agent	・お食事は地元のカキのコース料理		0	0	0																									
+7639	139	42	agent	・食事の評判が良い		0	0	0																									
+7640	139	43	agent	・チェックインが早めにできる		0	0	0																									

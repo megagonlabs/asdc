@@ -1,0 +1,61 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+3301	62	1	agent	本日のご利用、誠にありがとうございます。		0	0	0																									
+3302	62	2	agent	ご宿泊先をお探しでしょうか。		0	0	0																									
+3303	62	3	agent	お客様のご希望をお聞かせいただけますでしょうか。		0	0	0																									
+3304	62	4	user	私の娘と姪っ子たちをつれて、河口湖の方へ遊びに行こうと思っています。	要求	0	0	0	1874	3304	0	9	私の娘と姪っ子たち	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+3304	62	4	user	私の娘と姪っ子たちをつれて、河口湖の方へ遊びに行こうと思っています。	要求	0	0	0	1875	3304	14	3	河口湖	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+3305	62	5	user	大人１人と子供３人です。	要求	0	0	0	1876	3305	2	2	１人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+3305	62	5	user	大人１人と子供３人です。	要求	0	0	0	1877	3305	7	2	３人	人数	NIKO:子供人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+3306	62	6	agent	さようでございますか。		0	0	0																									
+3307	62	7	agent	お日付と宿泊日数はお決まりでしょうか？		0	0	0																									
+3308	62	8	user	２月２５日から４泊を考えています。	要求	0	0	0	1878	3308	0	7	２月２５日から	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+3308	62	8	user	２月２５日から４泊を考えています。	要求	0	0	0	1879	3308	7	2	４泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+3309	62	9	agent	かしこまりました。		0	0	0																									
+3310	62	10	agent	河口湖に行かれるとのことですが、お宿も河口湖周辺がよろしいでしょうか？		0	0	0																									
+3311	62	11	user	車で行くので、ある程度離れてても大丈夫ですが、駐車場のあるところが良いです。	要求	0	0	0	1880	3311	0	4	車で行く	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	3_strong						0						
+3311	62	11	user	車で行くので、ある程度離れてても大丈夫ですが、駐車場のあるところが良いです。	要求	0	0	0	1881	3311	23	3	駐車場	サービス	SESE:ホテルサービス	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+3312	62	12	agent	かしこまりました。		0	0	0																									
+3313	62	13	agent	それでは、河口湖へのアクセスがよい、駐車場付きのお宿でいかがでしょうか？		0	0	0																									
+3314	62	14	user	そちらでよろしくお願いします。	はい	0	0	0																									
+3315	62	15	agent	承知しました。		0	0	0																									
+3316	62	16	agent	お宿のタイプはホテルと旅館、どちらかご希望でしょうか？		0	0	0																									
+3317	62	17	agent	お子様が騒ぐのがご心配でしたら、１棟貸しのコテージもおすすめです。		0	0	0																									
+3318	62	18	user	コテージの方が伸び伸び遊べそうですね。	感想	0	0	0	1882	3318	0	4	コテージ	宿	YATY:宿タイプ	1_weak	1_weak	1_weak			2_neutral						0						
+3318	62	18	user	コテージの方が伸び伸び遊べそうですね。	感想	0	0	0	1883	3318	7	8	伸び伸び遊べそう	宿	YAEN:宿環境	1_weak	1_weak	1_weak									0						
+3319	62	19	user	コテージでお願いします。	照応要求	0	0	0	1884	3317	21	4	コテージ	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0		141	3319	0	4	コテージ
+3320	62	20	agent	ありがとうございます。		0	0	0																									
+3321	62	21	agent	それでは、コテージでお調べします。		0	0	0																									
+3322	62	22	agent	コテージですとキッチンがございますので、お客様ご自身でお食事をお作りいただけますが、宿の側でご用意することもできます。		0	0	0																									
+3323	62	23	agent	いかがなさいますか？		0	0	0																									
+3324	62	24	user	大人が私１人なので、宿の方で用意してもらえる方が助かります。	照応要求	0	0	0	1885	3322	42	7	宿の側でご用意	食事	SYUM:食事有無	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0		142	3324	10	6	宿の方で用意
+3324	62	24	user	大人が私１人なので、宿の方で用意してもらえる方が助かります。	照応要求	0	0	0	2182	3324	4	2	１人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+3325	62	25	agent	かしこまりました。		0	0	0																									
+3326	62	26	agent	朝・夕２食付きでよろしいでしょうか？		0	0	0																									
+3327	62	27	user	はい、そちらでお願いします	はい	0	0	0																									
+3328	62	28	agent	かしこまりました。		0	0	0																									
+3329	62	29	agent	お部屋からの眺めで何かご希望はございますでしょうか？		0	0	0																									
+3330	62	30	agent	山梨ですと、富士山の見えるマウンテンビューのお宿も人気です。		0	0	0																									
+3331	62	31	user	富士山の見えるところがいいです。	照応要求	0	0	0	1886	3330	6	15	富士山の見えるマウンテンビュー	部屋	HEEN:部屋環境	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0		143	3331	0	7	富士山の見える
+3332	62	32	agent	それでは、富士山の見えるマウンテンビューのお宿をお調べします。		0	0	0																									
+3333	62	33	agent	ほかにご希望はございますでしょうか？		0	0	0																									
+3334	62	34	user	コテージの外で、バーベキューなどできる所があればそういったところがいいです。	要求	0	0	0	1887	3334	0	19	コテージの外で、バーベキューなどできる	施設	SHLE:施設条件(レジャー)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+3335	62	35	agent	かしこまりました。		0	0	0																									
+3336	62	36	agent	では、バーベキューのできるベランダ付きのコテージにしましょうか？		0	0	0																									
+3337	62	37	user	はい、お願いします。	はい	0	0	0																									
+3338	62	38	agent	かしこまりました。		0	0	0																									
+3339	62	39	agent	食材はお宿のほうでご用意できるところがよろしいでしょうか？		0	0	0																									
+3340	62	40	agent	それともお客様ご自身でご準備なさいますか？		0	0	0																									
+3341	62	41	user	宿で用意してくださるのであれば、お願いしたいです。	照応要求	0	0	0	1888	3339	0	12	食材はお宿のほうでご用意	サービス	SESE:ホテルサービス	2_neutral	2_neutral	1_weak	2_neutral	2_neutral							0	範囲外「食材」	144	3341	0	4	宿で用意
+3342	62	42	agent	承知しました。		0	0	0																									
+3343	62	43	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+3344	62	44	agent	・日付は２月２５日。		0	0	0																									
+3345	62	45	agent	・宿泊日数は４泊。		0	0	0																									
+3346	62	46	agent	・宿泊地は山梨県。		0	0	0																									
+3347	62	47	agent	・人数は大人１名、子供３名。		0	0	0																									
+3348	62	48	agent	・駐車場付きの宿を希望。		0	0	0																									
+3349	62	49	agent	・河口湖へのアクセスがよい宿を希望。		0	0	0																									
+3350	62	50	agent	・宿タイプは１棟貸しのコテージを希望。		0	0	0																									
+3351	62	51	agent	・食事は朝・夕２食付きを希望。		0	0	0																									
+3352	62	52	agent	・富士山の見える宿を希望。		0	0	0																									
+3353	62	53	agent	・バーベキューのできるベランダ付きのコテージを希望。		0	0	0																									
+3354	62	54	agent	・バーベキュー食材を用意してもらえる宿を希望。		0	0	0																									

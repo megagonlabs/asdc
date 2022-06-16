@@ -1,0 +1,51 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+9591	184	1	agent	この度のご利用、誠にありがとうございます。		0	0	0																									
+9592	184	2	agent	お客様のお宿探しのお手伝いをいたします。		0	0	0																									
+9593	184	3	agent	お客様のご希望をお聞かせいただけますでしょうか？		0	0	0																									
+9594	184	4	user	１１月はじめに北海道で紅葉を見に行きたくて宿泊を探してます。	要求	0	0	0	1216	9594	0	6	１１月はじめ	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	3_strong						0						
+9594	184	4	user	１１月はじめに北海道で紅葉を見に行きたくて宿泊を探してます。	要求	0	0	0	1218	9594	7	3	北海道	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9594	184	4	user	１１月はじめに北海道で紅葉を見に行きたくて宿泊を探してます。	要求	0	0	0	1221	9594	11	9	紅葉を見に行きたく	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	2_neutral	3_strong						0						
+9595	184	5	user	私と１０歳の子供３人です。	要求	0	0	0	1228	9595	6	4	子供３人	人数	NIKO:子供人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9595	184	5	user	私と１０歳の子供３人です。	要求	0	0	0	1230	9595	6	2	子供	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9596	184	6	user	２泊くらいで。	要求	0	0	0	1231	9596	0	5	２泊くらい	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	1_weak	1_weak	1_weak						0						
+9597	184	7	agent	紅葉ですね。		0	0	0																									
+9598	184	8	agent	かしこまりました。		0	0	0																									
+9599	184	9	agent	ご予算の方、お決まりでしたらお聞かせいただけますでしょうか？		0	0	0																									
+9600	184	10	user	紅葉シーズンだと高いですかね？	要求	0	0	0	3523	9600	8	2	高い	予算	YOKA:予算感	1_weak	1_weak	1_weak									1						
+9601	184	11	user	いいところがあれば予算はあまり重視してないかもです	要求	0	1	0	3524	9601	9	2	予算	予算	YOKA:予算感	1_weak	1_weak	1_weak				415	9601	0	9	いいところがあれば	0						
+9602	184	12	agent	かしこまりました。		0	0	0																									
+9603	184	13	agent	ハイシーズンではないので、その相場の平均でお探ししますね。		0	0	0																									
+9604	184	14	agent	紅葉鑑賞をご希望ですので、名所がある見晴公園近くの旅館でお探ししてよろしいでしょうか？		0	0	0																									
+9605	184	15	user	それはどこでしょうか？	質問	0	0	0																									
+9606	184	16	agent	函館市の紅葉の名所がある公園になります。		0	0	0																									
+9607	184	17	user	函館ですか。	照応要求	0	0	0	1236	9606	0	3	函館市	旅行	RYAR:旅行エリア	1_weak	1_weak	1_weak									0	＄	246	9607	0	2	函館
+9608	184	18	user	だったら温泉旅館でお願いします	要求	0	0	0	1238	9608	4	4	温泉旅館	宿	YATY:宿タイプ	2_neutral	3_strong	2_neutral	2_neutral		2_neutral						0						
+9609	184	19	agent	温泉旅館ですね。		0	0	0																									
+9610	184	20	agent	かしこまりました。		0	0	0																									
+9611	184	21	agent	お食事の方はいかがなさいましょうか？		0	0	0																									
+9612	184	22	user	朝夜ともつけたいです。	要求	0	0	0	1244	9612	0	2	朝夜	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+9613	184	23	user	北海道ならではのおいしいものが食べられるところがいいですね	要求	0	0	0	1248	9613	0	14	北海道ならではのおいしいもの	食事	SYNA:食事内容	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+9613	184	23	user	北海道ならではのおいしいものが食べられるところがいいですね	要求	0	0	0	1250	9613	0	3	北海道	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	1_weak	3_strong	3_strong						0						
+9614	184	24	agent	朝夜食事付きですね。		0	0	0																									
+9615	184	25	agent	かしこまりました。		0	0	0																									
+9616	184	26	agent	そうしましたら、地元の海産物のお料理がある旅館でお探ししてよろしいでしょうか？		0	0	0																									
+9617	184	27	user	お願いします	はい	0	0	0																									
+9618	184	28	agent	かしこまりました。		0	0	0																									
+9619	184	29	agent	北海道までのご移動は飛行機でよろしいでしょうか？		0	0	0																									
+9620	184	30	user	そうですね。	はい	0	0	0																									
+9621	184	31	user	函館空港ありますよね	伝達	0	0	0																									
+9622	184	32	agent	かしこまりました。		0	0	0																									
+9623	184	33	agent	飛行機の割引がある旅館でお探ししますね。		0	0	0																									
+9624	184	34	agent	他にご要望はございますか？		0	0	0																									
+9625	184	35	user	飛行機割引だと該当少なくならないですか？	確認	0	0	0																									
+9626	184	36	user	他は大丈夫です	いいえ	0	0	0																									
+9627	184	37	agent	あくまで予約の受付ではなく、お探しの条件ですので、あてはまらないものも紹介しますよ。		0	0	0																									
+9628	184	38	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+9629	184	39	agent	・行先は北海道函館市		0	0	0																									
+9630	184	40	agent	・日程は１１月はじめに２泊		0	0	0																									
+9631	184	41	agent	・人数は大人１人、子供３人		0	0	0																									
+9632	184	42	agent	・予算は相場の平均		0	0	0																									
+9633	184	43	agent	・宿は旅館		0	0	0																									
+9634	184	44	agent	・温泉がある		0	0	0																									
+9635	184	45	agent	・朝夕の食事付き		0	0	0																									
+9636	184	46	agent	・飛行機の割引がある		0	0	0																									

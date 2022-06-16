@@ -1,0 +1,71 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+10630	207	1	agent	この度のご利用、誠にありがとうございます。		0	0	0																									
+10631	207	2	agent	お客様のお宿探しのお手伝いをいたします。		0	0	0																									
+10632	207	3	agent	お客様のご希望をお聞かせいただけますでしょうか？		0	0	0																									
+10633	207	4	user	友達３人と私で愛知県に旅行に行きます。	要求	0	0	0	193	10633	0	6	友達３人と私	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+10633	207	4	user	友達３人と私で愛知県に旅行に行きます。	要求	0	0	0	194	10633	7	3	愛知県	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+10634	207	5	user	買い物をたくさんしたいので、市街地の宿を探してください。	要求	0	0	0	195	10634	0	11	買い物をたくさんしたい	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	3_strong						0						
+10634	207	5	user	買い物をたくさんしたいので、市街地の宿を探してください。	要求	0	0	0	196	10634	14	3	市街地	立地	RIEN:立地 (周辺環境)	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+10635	207	6	agent	かしこまりました。		0	0	0																									
+10636	207	7	agent	そうしましたら、市街地の中にあるホテルでお探ししましょうか？		0	0	0																									
+10637	207	8	user	はい。	はい	0	0	0																									
+10638	207	9	user	旅館ではなくホテルがいいです。	要求	0	0	0	197	10638	0	2	旅館	宿	YATY:宿タイプ	2_neutral	3_strong	2_neutral	2_neutral		2_neutral						1						
+10638	207	9	user	旅館ではなくホテルがいいです。	要求	0	0	0	198	10638	6	3	ホテル	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+10639	207	10	agent	ホテルですね。		0	0	0																									
+10640	207	11	agent	かしこまりました。		0	0	0																									
+10641	207	12	agent	ご旅行のお日にちと泊数を教えていただいてよろしいでしょうか？		0	0	0																									
+10642	207	13	user	１２月上旬に３泊です。	要求	0	0	0	199	10642	0	5	１２月上旬	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	3_strong						0						
+10642	207	13	user	１２月上旬に３泊です。	要求	0	0	0	200	10642	6	2	３泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+10643	207	14	user	まだ旅行開始日は確定していません。	要求	0	1	0	202	10643	2	14	旅行開始日は確定していません	スケジュール	SCDA:宿泊日	1_weak	1_weak	1_weak									1						
+10644	207	15	agent	１２月上旬に３泊ですね。		0	0	0																									
+10645	207	16	agent	かしこまりました。		0	0	0																									
+10646	207	17	agent	ご予算の方はどのくらいでお考えでしょうか？		0	0	0																									
+10647	207	18	user	１人あたり１泊８０００円以内です。	要求	0	0	0	203	10647	7	7	８０００円以内	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	26	10647	0	2	１人	0						
+10647	207	18	user	１人あたり１泊８０００円以内です。	要求	0	0	0	203	10647	7	7	８０００円以内	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	27	10647	5	2	１泊	0						
+10648	207	19	user	現地でクレジット決済可能なホテルがいいです。	要求	0	0	0	204	10648	0	12	現地でクレジット決済可能	サービス	SESE:ホテルサービス	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+10648	207	19	user	現地でクレジット決済可能なホテルがいいです。	要求	0	0	0	205	10648	13	3	ホテル	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+10649	207	20	agent	現地でクレジット決済ですね。		0	0	0																									
+10650	207	21	agent	かしこまりました。		0	0	0																									
+10651	207	22	agent	条件に加えておきますね。		0	0	0																									
+10652	207	23	agent	お食事の方はいかがなさいましょうか？		0	0	0																									
+10653	207	24	user	晩ご飯は外で食べたいので、朝ごはんのみホテルで食べるつもりです。	要求	0	0	0	206	10653	0	3	晩ご飯	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						1						
+10653	207	24	user	晩ご飯は外で食べたいので、朝ごはんのみホテルで食べるつもりです。	要求	0	0	0	207	10653	13	6	朝ごはんのみ	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+10653	207	24	user	晩ご飯は外で食べたいので、朝ごはんのみホテルで食べるつもりです。	要求	0	0	0	208	10653	19	3	ホテル	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+10654	207	25	agent	朝食のみですね。		0	0	0																									
+10655	207	26	agent	かしこまりました。		0	0	0																									
+10656	207	27	agent	お部屋のタイプは和、洋のどちらになさいますか？		0	0	0																									
+10657	207	28	user	部屋は洋室で、２人１部屋でツインベットの部屋がいいです。	要求	0	0	0	211	10657	3	2	洋室	部屋	HETY:部屋タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+10657	207	28	user	部屋は洋室で、２人１部屋でツインベットの部屋がいいです。	要求	0	0	0	213	10657	9	3	１部屋	部屋	HENU:部屋数	2_neutral	2_neutral	2_neutral	2_neutral	3_strong	2_neutral	28	10657	7	2	２人	0						
+10657	207	28	user	部屋は洋室で、２人１部屋でツインベットの部屋がいいです。	要求	0	0	0	214	10657	13	6	ツインベット	部屋	HETY:部屋タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+10658	207	29	agent	かしこまりました。		0	0	0																									
+10659	207	30	agent	お伝えいただいた条件でお探ししますね。		0	0	0																									
+10660	207	31	agent	ホテルまでお越しの際は公共交通機関をご利用でしょうか？		0	0	0																									
+10661	207	32	user	はい。	はい	0	0	0																									
+10662	207	33	user	新幹線で行くので、新幹線の駅から徒歩１５分以内のホテルを条件に入れていただけますか？	要求	0	0	0	215	10662	9	14	新幹線の駅から徒歩１５分以内	立地	RIBA:立地 (場所)	2_neutral	1_weak	1_weak	1_weak								0						
+10662	207	33	user	新幹線で行くので、新幹線の駅から徒歩１５分以内のホテルを条件に入れていただけますか？	要求	0	0	0	216	10662	24	3	ホテル	宿	YATY:宿タイプ	2_neutral	1_weak	1_weak	2_neutral								0						
+10663	207	34	agent	かしこまりました。		0	0	0																									
+10664	207	35	agent	新幹線の駅から徒歩１５分圏内であることも条件に加えておきますね。		0	0	0																									
+10665	207	36	agent	新幹線でお越しでしたら、その交通費込みで割引があるホテルも条件に加えて、お探ししましょうか？		0	0	0																									
+10666	207	37	user	交通費とセット割引があると助かります。	はい	0	0	0																									
+10667	207	38	user	あと、到着が遅くなりそうなのでレイトチェックイン可能なホテルも条件に入れたいです。	要求	0	0	0	217	10667	15	9	レイトチェックイン	サービス	SEIN:チェックイン条件	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+10667	207	38	user	あと、到着が遅くなりそうなのでレイトチェックイン可能なホテルも条件に入れたいです。	要求	0	0	0	218	10667	27	3	ホテル	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+10668	207	39	agent	かしこまりました。		0	0	0																									
+10669	207	40	agent	お伝えいただいたことも条件に加えておきますね。		0	0	0																									
+10670	207	41	agent	他にご要望はございますか？		0	0	0																									
+10671	207	42	user	これ以外はありません。	いいえ	0	0	0																									
+10672	207	43	agent	かしこまりました。		0	0	0																									
+10673	207	44	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+10674	207	45	agent	・行先は愛知県		0	0	0																									
+10675	207	46	agent	・人数は大人４人		0	0	0																									
+10676	207	47	agent	・宿はホテル		0	0	0																									
+10677	207	48	agent	・市街地の中にある		0	0	0																									
+10678	207	49	agent	・日程は１２月上旬に３泊		0	0	0																									
+10679	207	50	agent	・予算は１人当たり１泊８０００円		0	0	0																									
+10680	207	51	agent	・現地でクレジット決済ができる		0	0	0																									
+10681	207	52	agent	・朝食のみ		0	0	0																									
+10682	207	53	agent	・部屋は洋室		0	0	0																									
+10683	207	54	agent	・２人１部屋		0	0	0																									
+10684	207	55	agent	・ベッドはツイン		0	0	0																									
+10685	207	56	agent	・新幹線の駅から徒歩１５分圏内		0	0	0																									
+10686	207	57	agent	・新幹線の交通費込みで割引がある		0	0	0																									
+10687	207	58	agent	・レイトチェックインが可能		0	0	0																									

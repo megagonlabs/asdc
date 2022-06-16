@@ -1,0 +1,69 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+2725	51	1	agent	宿予約サービスのご利用ありがとうございます。		0	0	0																									
+2726	51	2	agent	宿について重視したい点をお聞かせください。		0	0	0																									
+2727	51	3	user	８月９日１泊で、大人と子ども２人ずつの４人で新潟に泊まる予定です。	要求	0	0	0	2095	2727	0	4	８月９日	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+2727	51	3	user	８月９日１泊で、大人と子ども２人ずつの４人で新潟に泊まる予定です。	要求	0	0	0	2096	2727	4	2	１泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+2727	51	3	user	８月９日１泊で、大人と子ども２人ずつの４人で新潟に泊まる予定です。	要求	0	0	0	2097	2727	14	4	２人ずつ	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong	246	2727	8	2	大人	0						
+2727	51	3	user	８月９日１泊で、大人と子ども２人ずつの４人で新潟に泊まる予定です。	要求	0	0	0	2097	2727	14	4	２人ずつ	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong	247	2727	11	3	子ども	0						
+2727	51	3	user	８月９日１泊で、大人と子ども２人ずつの４人で新潟に泊まる予定です。	要求	0	0	0	2098	2727	19	2	４人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+2727	51	3	user	８月９日１泊で、大人と子ども２人ずつの４人で新潟に泊まる予定です。	要求	0	0	0	2099	2727	22	2	新潟	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+2728	51	4	user	家族で貸し切り露天風呂に入りたいです。	要求	0	0	0	1679	2728	0	2	家族	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+2728	51	4	user	家族で貸し切り露天風呂に入りたいです。	要求	0	0	0	1680	2728	3	8	貸し切り露天風呂	風呂	FUTY:風呂種類	2_neutral	3_strong	2_neutral	2_neutral		2_neutral						0						
+2729	51	5	agent	さようでございますか。		0	0	0																									
+2730	51	6	agent	露天風呂をお楽しみになりたいとのことですが、客室内に露天風呂が付いたお部屋がよろしいでしょうか？		0	0	0																									
+2731	51	7	agent	それとも宿の公共の貸切のものでよろしいでしょうか？		0	0	0																									
+2732	51	8	user	どっちでもいいですけど、貸し切りにできて、家族だけで入れるのがいいですね。	要求	0	0	0	1681	2732	12	4	貸し切り	風呂	FUTY:風呂種類	1_weak	2_neutral	1_weak		2_neutral							0						
+2732	51	8	user	どっちでもいいですけど、貸し切りにできて、家族だけで入れるのがいいですね。	要求	0	0	0	1682	2732	21	8	家族だけで入れる	風呂	FUTY:風呂種類	1_weak	2_neutral	1_weak		2_neutral							0						
+2733	51	9	agent	かしこまりました。		0	0	0																									
+2734	51	10	agent	それでは貸切露天風呂のあるお宿をお調べいたします。		0	0	0																									
+2735	51	11	agent	お宿のタイプはホテル、旅館、どちらがよろしいでしょうか？		0	0	0																									
+2736	51	12	user	子どもがまだ小さくて騒がしくしてしまうので、ホテルの方がいいかと思ってます。	照応要求	0	0	0	1683	2736	0	9	子どもがまだ小さく	子供	KOKO:子供用サービス	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+2736	51	12	user	子どもがまだ小さくて騒がしくしてしまうので、ホテルの方がいいかと思ってます。	照応要求	0	0	0	1684	2735	7	3	ホテル	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0		132	2736	22	3	ホテル
+2737	51	13	user	子どもについて配慮のある宿が良いですね。	要求	0	0	0	1685	2737	0	12	子どもについて配慮のある	子供	KOKO:子供用サービス	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+2738	51	14	agent	かしこまりました。		0	0	0																									
+2739	51	15	agent	それでは、お子様向けのプレイルームのあるお宿など、いかがでしょうか？		0	0	0																									
+2740	51	16	user	いいですね、そういうのがあると助かります。	はい	0	0	0																									
+2741	51	17	user	あとは子ども用の寝間着の用意がある宿が良いです。	要求	0	0	0	1686	2741	3	8	子ども用の寝間着	子供	KOKO:子供用サービス	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+2742	51	18	agent	承知しました。		0	0	0																									
+2743	51	19	agent	では、お子様向けの寝間着をご用意できるお宿をお調べします。		0	0	0																									
+2744	51	20	agent	お食事はいかがなさいますか？		0	0	0																									
+2745	51	21	agent	朝・夕２食とも、ホテルでお召し上がりになりますか？		0	0	0																									
+2746	51	22	user	朝夕２食ともホテルで食べたいです。	はい	0	0	0																									
+2747	51	23	user	あと、夕食時に子どもの誕生日を祝いたいのですが、サプライズとかやって貰えますかね？	要求	0	0	0	1687	2747	3	2	夕食	食事	SYUM:食事有無	2_neutral	1_weak	2_neutral	2_neutral		2_neutral						0						
+2747	51	23	user	あと、夕食時に子どもの誕生日を祝いたいのですが、サプライズとかやって貰えますかね？	要求	0	0	0	1688	2747	7	12	子どもの誕生日を祝いたい	旅行	RYSC:旅行シーン	2_neutral	1_weak	2_neutral	2_neutral		3_strong						0						
+2747	51	23	user	あと、夕食時に子どもの誕生日を祝いたいのですが、サプライズとかやって貰えますかね？	要求	0	0	0	1689	2747	24	5	サプライズ	食事	SYNA:食事内容	1_weak	1_weak	1_weak				201	2747	3	2	夕食	0						
+2748	51	24	agent	はい、サプライズ演出でケーキをお出しできるホテルがございます。		0	0	0																									
+2749	51	25	agent	そのようにいたしましょうか？		0	0	0																									
+2750	51	26	user	はい、是非お願いしたいです。	はい	0	0	0																									
+2751	51	27	user	あとは蕎麦アレルギー持ちがいるので、事前にメニューを教えて欲しいです。	要求	0	0	0	1690	2751	3	2	蕎麦	食事	SYNA:食事内容	2_neutral	2_neutral	2_neutral	3_strong	2_neutral	3_strong						1						
+2751	51	27	user	あとは蕎麦アレルギー持ちがいるので、事前にメニューを教えて欲しいです。	要求	0	0	0	1691	2751	18	11	事前にメニューを教えて	サービス	SESE:ホテルサービス	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+2752	51	28	agent	かしこまりました。		0	0	0																									
+2753	51	29	agent	事前にメニューをご案内できるお宿をお探しします。		0	0	0																									
+2754	51	30	agent	新潟をご希望とのことでしたが、とくに地域の指定はございますか？		0	0	0																									
+2755	51	31	agent	新潟市、日本海沿い、山間部などございます。		0	0	0																									
+2756	51	32	user	できれば子ども達に海を見せてあげたいので、オーシャンビューの宿があればお願いしたいです。	要求	0	0	0	1692	2756	21	8	オーシャンビュー	部屋	HEEN:部屋環境	1_weak	1_weak	1_weak									0						
+2757	51	33	agent	かしこまりました。		0	0	0																									
+2758	51	34	agent	それでは、オーシャンビューのお部屋をお調べします。		0	0	0																									
+2759	51	35	agent	ほかにご希望はございますでしょうか？		0	0	0																									
+2760	51	36	agent	特にございませんでしたら、以上の条件でお宿をお調べいたします。		0	0	0																									
+2761	51	37	user	あ、あとはランドリールームがある宿でお願いします。	要求	0	0	0	1693	2761	5	8	ランドリールーム	サービス	SESE:ホテルサービス	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+2762	51	38	agent	承知しました。		0	0	0																									
+2763	51	39	agent	ランドリールームのあるお宿をお探しします。		0	0	0																									
+2764	51	40	agent	他にはいかがでしょうか？		0	0	0																									
+2765	51	41	user	子ども達が楽しめる宿でお願いします。	要求	0	0	0	1694	2765	0	9	子ども達が楽しめる	子供	KOKO:子供用サービス	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+2766	51	42	agent	承知しました。		0	0	0																									
+2767	51	43	agent	それでは、以下の条件でお調べいたします。		0	0	0																									
+2768	51	44	agent	・日付は８月９日。		0	0	0																									
+2769	51	45	agent	・宿泊日数は１泊。		0	0	0																									
+2770	51	46	agent	・宿泊地は新潟。		0	0	0																									
+2771	51	47	agent	・人数は大人２名、子供２名。		0	0	0																									
+2772	51	48	agent	・宿タイプはホテルを希望。		0	0	0																									
+2773	51	49	agent	・オーシャンビューの部屋を希望。		0	0	0																									
+2774	51	50	agent	・貸切露天風呂のある宿を希望。		0	0	0																									
+2775	51	51	agent	・子どもたちが楽しめる宿を希望。		0	0	0																									
+2776	51	52	agent	・子ども向けプレイルームのある宿を希望。		0	0	0																									
+2777	51	53	agent	・子ども用の寝間着の用意がある宿を希望。		0	0	0																									
+2778	51	54	agent	・食事は朝・夕２食付きを希望。		0	0	0																									
+2779	51	55	agent	・サプライズ演出で夕食にケーキを出してもらえる宿を希望。		0	0	0																									
+2780	51	56	agent	・蕎麦アレルギー対応のため、事前に食事メニューをご案内できる宿を希望。		0	0	0																									
+2781	51	57	agent	・ランドリールームがある宿を希望。		0	0	0																									

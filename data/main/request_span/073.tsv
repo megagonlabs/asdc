@@ -1,0 +1,68 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+3938	73	1	agent	宿予約サービスのご利用ありがとうございます。		0	0	0																									
+3939	73	2	agent	宿について重視したい点をお聞かせください。		0	0	0																									
+3940	73	3	user	友達と二人で観光地をまわりたいと思ってます。	要求	0	0	0	2039	3940	0	2	友達	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+3940	73	3	user	友達と二人で観光地をまわりたいと思ってます。	要求	0	0	0	2040	3940	3	2	二人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+3940	73	3	user	友達と二人で観光地をまわりたいと思ってます。	要求	0	0	0	2041	3940	6	9	観光地をまわりたい	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	3_strong						0						
+3941	73	4	user	観光地へのアクセスが良い宿を希望です。	要求	0	0	0	2042	3941	0	12	観光地へのアクセスが良い	立地	RIAC:立地 (アクティビティ)	2_neutral	3_strong	2_neutral	2_neutral		2_neutral						0						
+3942	73	5	agent	さようでございますか。		0	0	0																									
+3943	73	6	agent	どちらにいつご宿泊か、お決まりでしょうか？		0	0	0																									
+3944	73	7	user	名古屋近辺を希望で、１１月中旬の予定です。	要求	0	0	0	2043	3944	0	5	名古屋近辺	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	1_weak						0						
+3944	73	7	user	名古屋近辺を希望で、１１月中旬の予定です。	要求	0	0	0	2044	3944	10	5	１１月中旬	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	3_strong						0						
+3945	73	8	agent	かしこまりました。		0	0	0																									
+3946	73	9	agent	何泊なさいますか？		0	0	0																									
+3947	73	10	user	４泊です。	要求	0	0	0	2045	3947	0	2	４泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+3948	73	11	agent	承知しました。		0	0	0																									
+3949	73	12	agent	観光地へのアクセスのよいお宿をご希望とのことですが、そうなりますと、やはりターミナル駅周辺がよろしいかと思います。		0	0	0																									
+3950	73	13	agent	いかがでしょうか？		0	0	0																									
+3951	73	14	user	そうですね。	その他	0	0	0																									
+3952	73	15	user	いいと思います。	はい	0	0	0																									
+3953	73	16	agent	ありがとうございます。		0	0	0																									
+3954	73	17	agent	ほかにお宿について、ご希望はございますでしょうか？		0	0	0																									
+3955	73	18	user	女性２人なので、ベッドはツインがいいです。	要求	0	0	0	2046	3955	0	4	女性２人	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+3955	73	18	user	女性２人なので、ベッドはツインがいいです。	要求	0	0	0	2047	3955	2	2	２人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+3955	73	18	user	女性２人なので、ベッドはツインがいいです。	要求	0	0	0	2049	3955	12	3	ツイン	部屋	HETY:部屋タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+3956	73	19	agent	かしこまりました。		0	0	0																									
+3957	73	20	agent	では、ツインルーム１室でお調べします。		0	0	0																									
+3958	73	21	agent	ご予算はございますか？		0	0	0																									
+3959	73	22	user	１泊１人１万円以内希望です。	要求	0	0	0	2050	3959	4	5	１万円以内	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	242	3959	0	2	１泊	0						
+3959	73	22	user	１泊１人１万円以内希望です。	要求	0	0	0	2050	3959	4	5	１万円以内	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	243	3959	2	2	１人	0						
+3960	73	23	agent	かしこまりました。		0	0	0																									
+3961	73	24	agent	お宿の館内施設のご希望はございますでしょうか？		0	0	0																									
+3962	73	25	agent	４泊の少し長いご宿泊で、ご予算も高いようですので、充実した施設のあるシティホテルでも手配できます。		0	0	0																									
+3963	73	26	user	マッサージやエステがあるといいですね。	要求	0	0	0	2051	3963	0	5	マッサージ	施設	SHPO:施設条件 (プールスパ)	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+3963	73	26	user	マッサージやエステがあるといいですね。	要求	0	0	0	2052	3963	6	3	エステ	施設	SHPO:施設条件 (プールスパ)	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+3964	73	27	agent	かしこまりました。		0	0	0																									
+3965	73	28	agent	それでは、マッサージやエステのあるシティホテルでよろしいでしょうか？		0	0	0																									
+3966	73	29	user	はい。	はい	0	0	0																									
+3967	73	30	agent	ありがとうございます。		0	0	0																									
+3968	73	31	agent	お食事はいかがなさいますか？		0	0	0																									
+3969	73	32	agent	観光ですと朝のみのプランでもよろしいかと思いますが、朝・夕２食付きのプランもございます。		0	0	0																									
+10863	73	33	user	食事は観光先でとりたいと思ってるので、朝のみのプランでいいかなと思いまうｓ。思います。	照応要求	1	0	0	2053	3969	5	3	朝のみ	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0		161	10863	19	3	朝のみ
+3972	73	35	agent	さようでございますか。		0	0	0																									
+3973	73	36	agent	それでは朝食のみのプランをお調べします。		0	0	0																									
+3974	73	37	agent	禁煙・喫煙ルームのご希望はございますか？		0	0	0																									
+3975	73	38	user	禁煙を希望です。	照応要求	0	0	0	2054	3974	0	2	禁煙	部屋	HEJO:部屋条件	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0		162	3975	0	2	禁煙
+3976	73	39	user	加湿器などもかりられる宿がいいですね。	要求	0	0	0	2055	3976	0	3	加湿器	部屋	HEBI:部屋備品	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+3977	73	40	agent	かしこまりました。		0	0	0																									
+3978	73	41	agent	それでは、禁煙ルームで、加湿器貸出サービスのあるお宿をお探しします。		0	0	0																									
+3979	73	42	agent	ほかにご希望はございますでしょうか？		0	0	0																									
+3980	73	43	user	そうですね。	その他	0	0	0																									
+3981	73	44	user	モーニングはバイキングがいいです。	要求	0	0	0	2056	3981	0	5	モーニング	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+3981	73	44	user	モーニングはバイキングがいいです。	要求	0	0	0	2057	3981	6	5	バイキング	食事	SYNA:食事内容	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	244	3981	0	5	モーニング	0						
+3982	73	45	agent	かしこまりました。		0	0	0																									
+3983	73	46	agent	では、バイキングの朝食プランでお調べします。		0	0	0																									
+3984	73	47	agent	ご希望をお聞かせくださり、ありがとうございました。		0	0	0																									
+3985	73	48	agent	それでは以下の条件でお調べしますので、よろしくお願いいたします。		0	0	0																									
+3986	73	49	agent	・日付は１１月中旬。		0	0	0																									
+3987	73	50	agent	・宿泊日数は４泊。		0	0	0																									
+3988	73	51	agent	・宿泊地は愛知県名古屋近辺。		0	0	0																									
+3989	73	52	agent	・人数は大人２名。		0	0	0																									
+3990	73	53	agent	・宿タイプはシティホテル。		0	0	0																									
+3991	73	54	agent	・部屋はツインルーム１室。		0	0	0																									
+3992	73	55	agent	・予算は１泊１人１万円以内。		0	0	0																									
+3993	73	56	agent	・観光地へのアクセスのよいターミナル駅周辺の宿を希望。		0	0	0																									
+3994	73	57	agent	・マッサージやエステのある宿を希望。		0	0	0																									
+3995	73	58	agent	・食事は朝食のみのプランで、バイキングを希望。		0	0	0																									
+3996	73	59	agent	・禁煙ルームを希望。		0	0	0																									
+3997	73	60	agent	・加湿器貸出サービスのある宿を希望。		0	0	0																									

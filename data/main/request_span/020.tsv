@@ -1,0 +1,66 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+1010	20	1	agent	この度はご利用いただきまして、ありがとうございます。		0	0	0																									
+1011	20	2	agent	ご宿泊のご相談を承ります。		0	0	0																									
+1012	20	3	agent	はじめにご宿泊地、お日付、人数をお聞かせいただけますでしょうか。		0	0	0																									
+1013	20	4	user	よろしくお願いします。	その他	0	0	0																									
+1014	20	5	user	宿泊地は岡山、７月１７日から１泊で考えています。	要求	0	0	0	756	1014	4	2	岡山	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+1014	20	5	user	宿泊地は岡山、７月１７日から１泊で考えています。	要求	0	0	0	757	1014	7	7	７月１７日から	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+1014	20	5	user	宿泊地は岡山、７月１７日から１泊で考えています。	要求	0	0	0	758	1014	14	2	１泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+1015	20	6	user	人数は大人が４名です	要求	0	0	0	759	1015	6	2	４名	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+1016	20	7	agent	かしこまりました。		0	0	0																									
+1017	20	8	agent	岡山へのご旅行とのことですが、どのような場所をご希望でしょうか？		0	0	0																									
+1018	20	9	user	一緒に行く母が後楽園に行ってみたいって言ってます。	要求	0	0	0	760	1018	7	3	後楽園	立地	RIAC:立地 (アクティビティ)	2_neutral	2_neutral	2_neutral	3_strong	3_strong	2_neutral						0						
+1018	20	9	user	一緒に行く母が後楽園に行ってみたいって言ってます。	要求	0	0	0	967	1018	5	1	母	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+1019	20	10	agent	承知しました。		0	0	0																									
+1020	20	11	agent	それでは岡山市内でのご宿泊でよろしいでしょうか？		0	0	0																									
+1021	20	12	user	はい、後楽園へのアクセスがよい宿がいいです	要求	0	0	0	761	1021	3	12	後楽園へのアクセスがよい	立地	RIAC:立地 (アクティビティ)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+1022	20	13	agent	かしこまりました。		0	0	0																									
+1023	20	14	agent	４名様でのご宿泊ですが、お部屋は何部屋ご用意しましょうか？		0	0	0																									
+1024	20	15	user	部屋は私たち夫婦で１部屋、両親で１部屋の、合計２部屋でお願いします。	要求	0	0	0	762	1024	9	3	１部屋	部屋	HENU:部屋数	2_neutral	2_neutral	2_neutral	2_neutral	3_strong	2_neutral	89	1024	3	5	私たち夫婦	0						
+1024	20	15	user	部屋は私たち夫婦で１部屋、両親で１部屋の、合計２部屋でお願いします。	要求	0	0	0	763	1024	16	3	１部屋	部屋	HENU:部屋数	2_neutral	2_neutral	2_neutral	2_neutral	3_strong	2_neutral	90	1024	13	2	両親	0						
+1024	20	15	user	部屋は私たち夫婦で１部屋、両親で１部屋の、合計２部屋でお願いします。	要求	0	0	0	764	1024	23	3	２部屋	部屋	HENU:部屋数	2_neutral	2_neutral	2_neutral	2_neutral	3_strong	2_neutral						0						
+1025	20	16	agent	かしこまりました。		0	0	0																									
+1026	20	17	agent	２室ご利用とのことですが、お部屋のタイプはツインとダブル、どちらがよろしいでしょうか？		0	0	0																									
+1027	20	18	user	２部屋とのツインでお願いします。	照応要求	0	0	0	765	1027	0	3	２部屋	部屋	HENU:部屋数	2_neutral	2_neutral	2_neutral	2_neutral	3_strong	2_neutral						0						
+1027	20	18	user	２部屋とのツインでお願いします。	照応要求	0	0	0	766	1026	21	3	ツイン	部屋	HETY:部屋タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0		101	1027	5	3	ツイン
+1028	20	19	agent	承知しました。		0	0	0																									
+1029	20	20	agent	それではツインルームを２部屋ご用意いたします。		0	0	0																									
+1030	20	21	agent	お食事はいかがなさいますか？		0	0	0																									
+1031	20	22	user	朝食のみつけてください	要求	0	0	0	767	1031	0	4	朝食のみ	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+1032	20	23	agent	かしこまりました。		0	0	0																									
+1033	20	24	agent	ご朝食は和食、洋食、バイキングなどのご希望はございますか？		0	0	0																									
+1034	20	25	user	和食がいいです	照応要求	0	0	0	768	1033	4	2	和食	食事	SYNA:食事内容	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0		102	1034	0	2	和食
+1035	20	26	agent	承知しました。		0	0	0																									
+1036	20	27	agent	それでは和食の朝食をご用意いたします。		0	0	0																									
+1037	20	28	agent	こちらは公共交通機関でのご旅行でしょうか？		0	0	0																									
+1038	20	29	agent	駐車場はあったほうがよろしいでしょうか？		0	0	0																									
+1039	20	30	user	車で行くので駐車場があるといいです	はい	0	0	0																									
+1040	20	31	agent	かしこまりました。		0	0	0																									
+1041	20	32	agent	それでは駐車場のあるお宿をお調べいたします。		0	0	0																									
+1042	20	33	agent	ご両親様がご一緒とのことですが、もしご高齢の方でしたらバリアフリー対応のお宿もございます。		0	0	0																									
+1043	20	34	agent	いかがなさいますか？		0	0	0																									
+1044	20	35	user	父が膝が痛いので、階段はあまり上り下りしたくないみたいです。	要求	0	0	0	769	1044	9	15	階段はあまり上り下りしたくない	宿	YAEN:宿環境	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+1045	20	36	agent	かしこまりました。		0	0	0																									
+1046	20	37	agent	それではエレベーター完備のお宿をお探しいたします。		0	0	0																									
+1047	20	38	agent	他にお宿のご希望はございますでしょうか？		0	0	0																									
+1048	20	39	user	エレベーターたすかります。	感想	0	0	0	770	1048	0	6	エレベーター	宿	YAEN:宿環境	1_weak	2_neutral	1_weak		2_neutral							0						
+1049	20	40	user	希望は以上です。	伝達	0	0	0																									
+1050	20	41	agent	かしこまりました。		0	0	0																									
+1051	20	42	agent	お泊りになる日まで、まだお日にちがございますので、早割プランのほうがよろしいでしょうか？		0	0	0																									
+1052	20	43	agent	キャンセルチャージが早く発生しますが、お値段はその分お求めやすくなります。		0	0	0																									
+1053	20	44	user	早割りプランがあるなら使いたいです	はい	0	0	0																									
+1054	20	45	agent	かしこまりました。		0	0	0																									
+1055	20	46	agent	ご希望をお聞かせくださり、ありがとうございました。		0	0	0																									
+1056	20	47	agent	それでは以下の条件でお調べしますので、よろしくお願いいたします。		0	0	0																									
+1057	20	48	agent	・日付は７月１７日。		0	0	0																									
+1058	20	49	agent	・宿泊日数は１泊。		0	0	0																									
+1059	20	50	agent	・宿泊地は岡山市内。		0	0	0																									
+1060	20	51	agent	・人数は４名。		0	0	0																									
+1061	20	52	agent	・部屋数は２室。		0	0	0																									
+1062	20	53	agent	・部屋タイプはツインルームを希望。		0	0	0																									
+1063	20	54	agent	・食事は朝食のみ希望。		0	0	0																									
+1064	20	55	agent	和食がよい。		0	0	0																									
+1065	20	56	agent	・駐車場のある宿を希望。		0	0	0																									
+1066	20	57	agent	・後楽園へのアクセスがよい場所を希望。		0	0	0																									
+1067	20	58	agent	・エレベーター完備の宿を希望。		0	0	0																									
+1068	20	59	agent	・早割プランを希望。		0	0	0																									

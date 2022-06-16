@@ -1,0 +1,79 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+2123	41	1	agent	本日はご利用いただきまして、ありがとうございます。		0	0	0																									
+2124	41	2	agent	ご宿泊のご相談を承ります。		0	0	0																									
+2125	41	3	agent	お客様のご希望をお聞かせいただけますでしょうか。		0	0	0																									
+2126	41	4	user	大人四人で埼玉に行こうと思っています。	要求	0	0	0	1128	2126	2	2	四人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+2126	41	4	user	大人四人で埼玉に行こうと思っています。	要求	0	0	0	1129	2126	5	2	埼玉	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+2127	41	5	agent	かしこまりました。		0	0	0																									
+2128	41	6	agent	お日付と宿泊日数はお決まりでしょうか？		0	0	0																									
+2129	41	7	user	５月９日から１泊でお願いします。	要求	0	0	0	1130	2129	0	6	５月９日から	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+2129	41	7	user	５月９日から１泊でお願いします。	要求	0	0	0	1131	2129	6	2	１泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+2130	41	8	agent	承知しました。		0	0	0																									
+2131	41	9	agent	今回のご宿泊は観光でのご利用でしょうか？		0	0	0																									
+2132	41	10	agent	それとも、ビジネスでしょうか？		0	0	0																									
+2133	41	11	user	ビジネスです。	照応要求	0	0	0	1133	2132	5	4	ビジネス	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0		124	2133	0	4	ビジネス
+2134	41	12	agent	かしこまりました。		0	0	0																									
+2135	41	13	agent	それでは、旅館などよりもホテルがよろしいでしょうか？		0	0	0																									
+2136	41	14	user	はい。	はい	0	0	0																									
+2137	41	15	user	ホテルが希望です。	照応要求	0	0	0	1135	2135	12	3	ホテル	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0		125	2137	0	3	ホテル
+2138	41	16	user	しかも、安いところが良いです。	要求	0	0	0	1136	2138	4	2	安い	予算	YOKA:予算感	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+2139	41	17	agent	承知しました。		0	0	0																									
+2140	41	18	agent	お安いところとなりますと、ご予算はだいたいおいくらくらいでお考えでしょうか？		0	0	0																									
+2141	41	19	user	一人５０００円程度で一泊泊まれるところはありますか？	要求	0	0	0	1138	2141	2	7	５０００円程度	予算	YOYO:予算	1_weak	1_weak	1_weak			1_weak	137	2141	0	2	一人	0						
+2141	41	19	user	一人５０００円程度で一泊泊まれるところはありますか？	要求	0	0	0	1138	2141	2	7	５０００円程度	予算	YOYO:予算	1_weak	1_weak	1_weak			1_weak	138	2141	10	2	一泊	0						
+2142	41	20	agent	はい、ございます。		0	0	0																									
+2143	41	21	agent	それでは、１人１泊５０００円程度のご予算でお探しします。		0	0	0																									
+2144	41	22	agent	お部屋の数はいくつご希望でしょうか？		0	0	0																									
+2145	41	23	user	ありがとうございます。	その他	0	0	0																									
+2146	41	24	user	それぞれに一部屋ずつ希望します。	要求	0	0	0	1139	2146	5	5	一部屋ずつ	部屋	HENU:部屋数	2_neutral	2_neutral	2_neutral	2_neutral	3_strong	2_neutral						0						
+2147	41	25	user	４部屋でお願いします！	要求	0	0	0	1141	2147	0	3	４部屋	部屋	HENU:部屋数	2_neutral	2_neutral	2_neutral	2_neutral	3_strong	2_neutral						0						
+2148	41	26	agent	かしこまりました。		0	0	0																									
+2149	41	27	agent	それではシングルを４部屋でよろしいでしょうか？		0	0	0																									
+2150	41	28	agent	５０００円のご予算ですと、シングルユースのダブルルームでもお探しできます。		0	0	0																									
+2151	41	29	user	すべてシングルで大丈夫です。	照応要求	0	0	0	1142	2149	4	4	シングル	部屋	HETY:部屋タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	139	2151	0	3	すべて	0		126	2151	3	4	シングル
+2152	41	30	agent	かしこまりました。		0	0	0																									
+2153	41	31	agent	ビジネスでのご利用とのことですが、ホテル内でお仕事はなさいますか？		0	0	0																									
+2154	41	32	agent	もしそうでしたら、客室内でインターネット接続ができるお宿もお探しできます。		0	0	0																									
+2155	41	33	user	はい。	はい	0	0	0																									
+2156	41	34	user	ｗｉ－ｆｉが無料で使えるところを希望します。	要求	0	0	0	1144	2156	0	12	ｗｉ－ｆｉが無料で使える	部屋	HESE:部屋設備	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+2157	41	35	agent	かしこまりました。		0	0	0																									
+2158	41	36	agent	では、パソコンやプリンターの貸出サービスはいかがでしょうか？		0	0	0																									
+2159	41	37	user	あったほうが助かります。	照応要求	0	0	0	3546	2158	3	17	パソコンやプリンターの貸出サービス	部屋	HEBI:部屋備品	1_weak	1_weak	1_weak			2_neutral						0		66	2159	0	11	あったほうが助かります
+2160	41	38	user	有料でしょうか？	確認	0	0	0																									
+2161	41	39	agent	パソコンにつきましては有料のお宿が多いです。		0	0	0																									
+2162	41	40	agent	いかがなさいますか？		0	0	0																									
+2163	41	41	user	それでは、パソコンは持参します！	いいえ	0	0	0																									
+2164	41	42	agent	かしこまりました。		0	0	0																									
+2165	41	43	agent	それでは、プリンターのみ無料サービスのあるお宿でよろしいでしょうか？		0	0	0																									
+2166	41	44	user	そうですね。	はい	0	0	0																									
+2167	41	45	user	プリンターはあったほうがありがたいです。	要求	0	0	0	1145	2167	0	5	プリンター	部屋	HEBI:部屋備品	1_weak	1_weak	1_weak			2_neutral						0						
+2168	41	46	user	ちなみに、Ｆａｘサービスもありますか？	要求	0	0	0	1146	2168	5	7	Ｆａｘサービス	部屋	HEBI:部屋備品	1_weak	1_weak	1_weak									0						
+2169	41	47	agent	はい、ｆａｘのあるお宿もございますので、その条件でお調べします。		0	0	0																									
+2170	41	48	agent	お仕事のご準備などで、アーリーチェックインをご希望される方もいらっしゃいますが、早めのチェックインができる宿のほうがよろしいでしょうか？		0	0	0																									
+2171	41	49	agent	特にご希望はございますか？		0	0	0																									
+2172	41	50	user	希望します！	はい	0	0	0																									
+2173	41	51	agent	承知しました。		0	0	0																									
+2174	41	52	agent	お食事はいかがなさいますか？		0	0	0																									
+2175	41	53	user	朝食のみつけてください。	要求	0	0	0	1147	2175	0	4	朝食のみ	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+2176	41	54	agent	かしこまりました。		0	0	0																									
+2177	41	55	agent	それでは朝食付きのプランをお探しします。		0	0	0																									
+2178	41	56	agent	他にご希望はございますでしょうか？		0	0	0																									
+2179	41	57	user	ミーティングスペースがあるところを希望したいのですが。	要求	0	0	0	1148	2179	0	10	ミーティングスペース	サービス	SESE:ホテルサービス	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0	＃					
+2180	41	58	agent	かしこまりました。		0	0	0																									
+2181	41	59	agent	それでは、ミーティングスペースのあるお宿をお探しします。		0	0	0																									
+2182	41	60	agent	他にはございますか？		0	0	0																									
+2183	41	61	user	ないので、宜しくお願い致します。	いいえ	0	0	0																									
+2184	41	62	agent	かしこまりました。		0	0	0																									
+2185	41	63	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+2186	41	64	agent	・日付は５月９日。		0	0	0																									
+2187	41	65	agent	・宿泊日数は１泊。		0	0	0																									
+2188	41	66	agent	・宿泊地は埼玉。		0	0	0																									
+2189	41	67	agent	・人数は大人４人。		0	0	0																									
+2190	41	68	agent	・宿タイプはホテル。		0	0	0																									
+2191	41	69	agent	・予算は１人１泊５０００円程度。		0	0	0																									
+2192	41	70	agent	・部屋はシングルルームを４部屋希望。		0	0	0																									
+2193	41	71	agent	・Ｗｉｆｉ接続が客室内で無料でできる宿を希望。		0	0	0																									
+2194	41	72	agent	・プリンターとＦＡＸのサービスがある宿を希望。		0	0	0																									
+2195	41	73	agent	・アーリーチェックインができる宿を希望。		0	0	0																									
+2196	41	74	agent	・食事は朝食のみ希望。		0	0	0																									
+2197	41	75	agent	・ミーティングスペースのある宿を希望。		0	0	0																									

@@ -1,0 +1,53 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+10192	198	1	agent	本日はご利用いただきまして、ありがとうございます。		0	0	0																									
+10193	198	2	agent	ご宿泊のご相談を承ります。		0	0	0																									
+10194	198	3	agent	お泊りになる地域、お日付、人数がお決まりでしたら、お聞かせいただけますでしょうか。		0	0	0																									
+10195	198	4	user	熊本県に１月中旬で４泊の予定です。	要求	0	0	0	463	10195	0	3	熊本県	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+10195	198	4	user	熊本県に１月中旬で４泊の予定です。	要求	0	0	0	464	10195	4	4	１月中旬	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	3_strong						0						
+10195	198	4	user	熊本県に１月中旬で４泊の予定です。	要求	0	0	0	465	10195	9	2	４泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+10196	198	5	user	祖母と自分と子どもの３人になりますが、祖母が少し足が悪いので階段の昇り降りがあまり激しくない場所を探しています。	要求	0	0	0	467	10196	10	2	３人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+10196	198	5	user	祖母と自分と子どもの３人になりますが、祖母が少し足が悪いので階段の昇り降りがあまり激しくない場所を探しています。	要求	0	0	0	468	10196	30	16	階段の昇り降りがあまり激しくない	宿	YAEN:宿環境	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+10196	198	5	user	祖母と自分と子どもの３人になりますが、祖母が少し足が悪いので階段の昇り降りがあまり激しくない場所を探しています。	要求	0	0	0	498	10196	0	2	祖母	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+10196	198	5	user	祖母と自分と子どもの３人になりますが、祖母が少し足が悪いので階段の昇り降りがあまり激しくない場所を探しています。	要求	0	0	0	499	10196	6	3	子ども	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+10197	198	6	agent	かしこまりました。		0	0	0																									
+10198	198	7	agent	階段の昇り降りが少ない場所でお探ししますね。		0	0	0																									
+10199	198	8	agent	さらにバリアフリー設備があることも条件に加えてお探ししましょうか？		0	0	0																									
+10200	198	9	user	そうですね。	はい	0	0	0																									
+10201	198	10	user	自分でも歩けるのですがエレベーターなどあると助かります。	要求	0	0	0	469	10201	11	6	エレベーター	宿	YAEN:宿環境	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+10202	198	11	agent	かしこまりました。		0	0	0																									
+10203	198	12	agent	エレベーターがあることも条件に加えますね。		0	0	0																									
+10204	198	13	agent	そうしますと、まだ新しいホテルでお探ししましょうか？		0	0	0																									
+10205	198	14	user	新しいホテルでもいいのですがあまり混みあっていない、ひとけの少な目の所だと助かります。	要求	0	0	0	470	10205	0	3	新しい	宿	YAEN:宿環境	1_weak	1_weak	1_weak									0						
+10205	198	14	user	新しいホテルでもいいのですがあまり混みあっていない、ひとけの少な目の所だと助かります。	要求	0	0	0	471	10205	3	3	ホテル	宿	YATY:宿タイプ	1_weak	2_neutral	1_weak		2_neutral							0						
+10205	198	14	user	新しいホテルでもいいのですがあまり混みあっていない、ひとけの少な目の所だと助かります。	要求	0	0	0	472	10205	14	19	あまり混みあっていない、ひとけの少な目	宿	YAEN:宿環境	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+10206	198	15	agent	かしこまりました。		0	0	0																									
+10207	198	16	agent	混みあっていないホテルを優先してお探ししますね。		0	0	0																									
+10208	198	17	agent	お部屋のタイプはいかがなさいましょうか？		0	0	0																									
+10209	198	18	user	洋室和室どちらでも構わないのですが、広めの部屋でお願いします。	要求	0	0	0	473	10209	0	2	洋室	部屋	HETY:部屋タイプ	1_weak	1_weak	1_weak									0						
+10209	198	18	user	洋室和室どちらでも構わないのですが、広めの部屋でお願いします。	要求	0	0	0	474	10209	2	2	和室	部屋	HETY:部屋タイプ	1_weak	1_weak	1_weak									0						
+10209	198	18	user	洋室和室どちらでも構わないのですが、広めの部屋でお願いします。	要求	0	0	0	475	10209	18	5	広めの部屋	部屋	HEEN:部屋環境	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+10210	198	19	agent	広めのお部屋ですね。		0	0	0																									
+10211	198	20	agent	かしこまりました。		0	0	0																									
+10212	198	21	agent	お食事の方はいかがなさいましょう？		0	0	0																									
+10213	198	22	user	１日目は外で食べるので２日目から朝夕でお願い出来ますか？	要求	0	0	0	476	10213	4	5	外で食べる	食事	SYUM:食事有無	2_neutral	1_weak	2_neutral	2_neutral		2_neutral	54	10213	0	3	１日目	0						
+10213	198	22	user	１日目は外で食べるので２日目から朝夕でお願い出来ますか？	要求	0	0	0	477	10213	16	2	朝夕	食事	SYUM:食事有無	2_neutral	1_weak	1_weak	2_neutral			55	10213	11	5	２日目から	0						
+10214	198	23	agent	２日目からですね。		0	0	0																									
+10215	198	24	agent	かしこまりました。		0	0	0																									
+10216	198	25	agent	他にご要望はございますか？		0	0	0																									
+10217	198	26	user	無料送迎があったら嬉しいです。	要求	0	0	0	478	10217	0	4	無料送迎	サービス	SESE:ホテルサービス	1_weak	2_neutral	1_weak		2_neutral	2_neutral						0						
+10218	198	27	user	あとは大丈夫です。	伝達	0	0	0																									
+10219	198	28	agent	宿までの送迎ですね。		0	0	0																									
+10220	198	29	agent	かしこまりました。		0	0	0																									
+10221	198	30	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+10222	198	31	agent	・行先は熊本県		0	0	0																									
+10223	198	32	agent	・人数は大人２人、子供１人		0	0	0																									
+10224	198	33	agent	・日程は１月中旬に４泊		0	0	0																									
+10225	198	34	agent	・階段の昇り降りが少ない宿		0	0	0																									
+10226	198	35	agent	・バリアフリー設備がある		0	0	0																									
+10227	198	36	agent	・エレベーターがある		0	0	0																									
+10228	198	37	agent	・宿はホテル		0	0	0																									
+10229	198	38	agent	・あまり人で混みあっていない		0	0	0																									
+10230	198	39	agent	・お部屋は和洋どちらでも		0	0	0																									
+10231	198	40	agent	・大きめのお部屋		0	0	0																									
+10232	198	41	agent	・２日目から朝夕食事付き		0	0	0																									
+10233	198	42	agent	・宿まで送迎がある		0	0	0																									

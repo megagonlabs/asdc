@@ -1,0 +1,54 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+8505	159	1	agent	この度のご利用、誠にありがとうございます。		0	0	0																									
+8506	159	2	agent	お客様のお宿探しのお手伝いをいたします。		0	0	0																									
+8507	159	3	agent	お客様のご希望をお聞かせいただけますでしょうか？		0	0	0																									
+8508	159	4	user	夏休みに妻と息子と私の母の４人で東北への旅行を考えています。	要求	0	0	0	2271	8508	0	3	夏休み	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	2_neutral	3_strong	3_strong						0						
+8508	159	4	user	夏休みに妻と息子と私の母の４人で東北への旅行を考えています。	要求	0	0	0	2272	8508	4	1	妻	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8508	159	4	user	夏休みに妻と息子と私の母の４人で東北への旅行を考えています。	要求	0	0	0	2273	8508	6	2	息子	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8508	159	4	user	夏休みに妻と息子と私の母の４人で東北への旅行を考えています。	要求	0	0	0	2274	8508	9	3	私の母	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8508	159	4	user	夏休みに妻と息子と私の母の４人で東北への旅行を考えています。	要求	0	0	0	2275	8508	13	2	４人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8508	159	4	user	夏休みに妻と息子と私の母の４人で東北への旅行を考えています。	要求	0	0	0	2276	8508	16	2	東北	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8509	159	5	user	東北の海鮮が食べられる宿を希望します。	要求	0	0	0	2277	8509	0	2	東北	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8509	159	5	user	東北の海鮮が食べられる宿を希望します。	要求	0	0	0	2278	8509	3	8	海鮮が食べられる	食事	SYNA:食事内容	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+8510	159	6	agent	東北地方ですね。		0	0	0																									
+8511	159	7	agent	かしこまりました。		0	0	0																									
+8512	159	8	agent	お日にちはいつぐらいでしょうか？		0	0	0																									
+8513	159	9	user	８月中旬に３泊を予定しています。	要求	0	0	0	2279	8513	0	4	８月中旬	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	3_strong						0						
+8513	159	9	user	８月中旬に３泊を予定しています。	要求	0	0	0	2280	8513	5	2	３泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8514	159	10	agent	かしこまりました。		0	0	0																									
+8515	159	11	agent	その条件でお探ししますね。		0	0	0																									
+8516	159	12	agent	ご予算はどのくらいでお考えでしょうか？		0	0	0																									
+8517	159	13	user	一人当たり１泊２万円以内で考えています。	要求	0	0	0	2281	8517	7	5	２万円以内	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	273	8517	0	2	一人	0						
+8517	159	13	user	一人当たり１泊２万円以内で考えています。	要求	0	0	0	2281	8517	7	5	２万円以内	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	274	8517	5	2	１泊	0						
+8518	159	14	user	朝夕の食事付きでお願いします。	要求	0	0	0	2282	8518	0	2	朝夕	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+8519	159	15	agent	かしこまりました。		0	0	0																									
+8520	159	16	agent	そうしましたら、露天風呂がある旅館でお探ししてよろしいでしょうか？		0	0	0																									
+8521	159	17	user	是非お願いします。	はい	0	0	0																									
+8522	159	18	agent	かしこまりました。		0	0	0																									
+8523	159	19	agent	旅館のお部屋のタイプはいかがなさいましょうか？		0	0	0																									
+8524	159	20	agent	和、洋、離れでお探しできます。		0	0	0																									
+8525	159	21	user	息子が１歳で小さいので和室でお願いいたします。	照応要求	0	0	0	2284	8524	0	1	和	部屋	HETY:部屋タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0		242	8525	11	2	和室
+8525	159	21	user	息子が１歳で小さいので和室でお願いいたします。	照応要求	0	0	0	2285	8525	0	5	息子が１歳	子供	KOYO:幼児サービス	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8526	159	22	agent	和室ですね。		0	0	0																									
+8527	159	23	agent	かしこまりました。		0	0	0																									
+8528	159	24	agent	そうしましたら、お食事もお子様向けメニューがあるところをお探ししてよろしいでしょうか？		0	0	0																									
+8529	159	25	user	はい、お願いします。	はい	0	0	0																									
+8530	159	26	agent	かしこまりました。		0	0	0																									
+8531	159	27	agent	その条件でお探ししますね。		0	0	0																									
+8532	159	28	agent	ほかにご要望はございますか？		0	0	0																									
+8533	159	29	user	新幹線で行く場合は宿泊先までのアクセス方法はどのようになりますか？	質問	0	0	0																									
+8534	159	30	agent	そうしましたら、駅から宿までシャトルバスがあることも条件に加えておきますが、よろしいでしょうか？		0	0	0																									
+8535	159	31	user	お願いします。	はい	0	0	0																									
+8536	159	32	agent	かしこまりました。		0	0	0																									
+8537	159	33	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+8538	159	34	agent	・行先は東北地方		0	0	0																									
+8539	159	35	agent	・地元の海産物が食べられる旅館		0	0	0																									
+8540	159	36	agent	・人数は大人３人、子供１人		0	0	0																									
+8541	159	37	agent	・日程は８月中旬に３泊		0	0	0																									
+8542	159	38	agent	・予算は一人当たり１泊２万円以内		0	0	0																									
+8543	159	39	agent	・朝夕食事付き		0	0	0																									
+8544	159	40	agent	・宿は旅館		0	0	0																									
+8545	159	41	agent	・露天風呂がある		0	0	0																									
+8546	159	42	agent	・部屋は和室		0	0	0																									
+8547	159	43	agent	・お子様向けの食事メニューがある		0	0	0																									
+8548	159	44	agent	・駅から宿までシャトルバスがある		0	0	0																									

@@ -1,0 +1,64 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+2836	53	1	agent	いらっしゃいませ。		0	0	0																									
+2837	53	2	agent	ご利用ありがとうございます。		0	0	0																									
+2838	53	3	agent	ご宿泊先をお探しいたします。		0	0	0																									
+2839	53	4	agent	どのような条件をご希望でしょうか？		0	0	0																									
+2840	53	5	user	８月２７日から３泊で群馬に行く予定です。	要求	0	0	0	1719	2840	0	7	８月２７日から	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+2840	53	5	user	８月２７日から３泊で群馬に行く予定です。	要求	0	0	0	1720	2840	7	2	３泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+2840	53	5	user	８月２７日から３泊で群馬に行く予定です。	要求	0	0	0	1721	2840	10	2	群馬	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+2841	53	6	user	大人３人で楽しめる宿に泊まりたいです。	要求	0	0	0	1722	2841	2	2	３人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+2841	53	6	user	大人３人で楽しめる宿に泊まりたいです。	要求	0	0	0	1723	2841	0	9	大人３人で楽しめる	宿	YAEN:宿環境	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+2842	53	7	agent	かしこまりました。		0	0	0																									
+2843	53	8	agent	大人の方がお楽しみいただける宿となりますと、草津温泉や尾瀬の高原地域などございますが、いかがでしょうか？		0	0	0																									
+2844	53	9	user	草津温泉いいですね、でも尾瀬も行ってみたいな。	照応要求	0	0	0	1724	2843	22	4	草津温泉	立地	RIAC:立地 (アクティビティ)	1_weak	2_neutral	2_neutral		3_strong	1_weak						0		135	2844	0	4	草津温泉
+2844	53	9	user	草津温泉いいですね、でも尾瀬も行ってみたいな。	照応要求	0	0	0	1725	2843	27	7	尾瀬の高原地域	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	1_weak	439	2844	12	2	尾瀬	0						
+2845	53	10	user	どっちもアクセスしやすい宿ってあります？	要求	0	0	0	1726	2845	4	8	アクセスしやすい	立地	RIBA:立地 (場所)	1_weak	1_weak	1_weak	2_neutral			204	2846	3	2	草津	0						
+2845	53	10	user	どっちもアクセスしやすい宿ってあります？	要求	0	0	0	1726	2845	4	8	アクセスしやすい	立地	RIBA:立地 (場所)	1_weak	1_weak	1_weak	2_neutral			205	2846	6	2	尾瀬	0						
+2846	53	11	agent	では、草津と尾瀬の中間地点にあるお宿をお調べしましょうか？		0	0	0																									
+2847	53	12	user	いや、中間というより、どちらにもアクセスしやすい感じの宿でお願いします。	要求	0	0	0	1727	2847	16	8	アクセスしやすい	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	206	2846	3	2	草津	0						
+2847	53	12	user	いや、中間というより、どちらにもアクセスしやすい感じの宿でお願いします。	要求	0	0	0	1727	2847	16	8	アクセスしやすい	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	207	2846	6	2	尾瀬	0						
+2848	53	13	agent	かしこまりました。		0	0	0																									
+2849	53	14	agent	それでは、お客様はお車でのご旅行でしょうか。		0	0	0																									
+2850	53	15	agent	それとも公共交通機関でのご旅行でしょうか？		0	0	0																									
+2851	53	16	user	車で行くつもりです。	照応要求	0	0	0	1728	2849	9	2	お車	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	3_strong						0		136	2851	0	1	車
+2852	53	17	user	なので、駐車場が無料か安い宿がいいです。	要求	0	0	0	1729	2852	4	9	駐車場が無料か安い	サービス	SESE:ホテルサービス	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	2_neutral						0						
+2853	53	18	agent	承知しました。		0	0	0																									
+2854	53	19	agent	無料か料金が安い駐車場のあるお宿をお調べします。		0	0	0																									
+2855	53	20	agent	お宿はホテル、旅館、コテージなど様々ございますが、いかがなさいますか？		0	0	0																									
+2856	53	21	user	どれでもいいんですけど、食事とか持ち込める感じの宿でお願いします。	要求	0	0	0	1730	2856	12	9	食事とか持ち込める	部屋	HEJO:部屋条件	2_neutral	2_neutral	1_weak	2_neutral	2_neutral	2_neutral						0	＃					
+2857	53	22	agent	かしこまりました。		0	0	0																									
+2858	53	23	agent	それではお食事を持ち込める宿ということで承ります。		0	0	0																									
+2859	53	24	agent	お部屋の数は何部屋ご用意しましょうか？		0	0	0																									
+2860	53	25	user	一部屋で、ベッドが３つ用意できる部屋がいいです。	要求	0	0	0	1731	2860	0	3	一部屋	部屋	HENU:部屋数	2_neutral	2_neutral	2_neutral	2_neutral	3_strong	2_neutral						0						
+2860	53	25	user	一部屋で、ベッドが３つ用意できる部屋がいいです。	要求	0	0	0	1732	2860	5	6	ベッドが３つ	部屋	HETY:部屋タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+2861	53	26	agent	さようでございますか。		0	0	0																									
+2862	53	27	agent	それでは、トリプルルームをお調べします。		0	0	0																									
+2863	53	28	agent	ほかにご希望の条件はございますでしょうか？		0	0	0																									
+2864	53	29	user	あとは食事とかの買い物が便利なところがいいです。	要求	0	0	0	1733	2864	3	11	食事とかの買い物が便利	立地	RIEN:立地 (周辺環境)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+2865	53	30	agent	かしこまりました。		0	0	0																									
+2866	53	31	agent	それでは近くに飲食店や商店が集まる場所でお探しします。		0	0	0																									
+2867	53	32	agent	お部屋は禁煙と喫煙、どちらがよろしいでしょうか？		0	0	0																									
+2868	53	33	user	煙草吸うのと吸わないやつがいるので、禁煙の部屋だけど、別に喫煙ルームとかあると助かります。	要求	0	0	0	1734	2868	18	2	禁煙	部屋	HEJO:部屋条件	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+2868	53	33	user	煙草吸うのと吸わないやつがいるので、禁煙の部屋だけど、別に喫煙ルームとかあると助かります。	要求	0	0	0	1735	2868	29	5	喫煙ルーム	サービス	SESE:ホテルサービス	1_weak	2_neutral	1_weak		2_neutral	2_neutral						0						
+2869	53	34	agent	では、お部屋は禁煙で、喫煙コーナーのあるお宿でいかがでしょうか？		0	0	0																									
+2870	53	35	user	はい、喫煙コーナーは外でも良いです。	はい	0	0	0																									
+2871	53	36	agent	かしこまりました。		0	0	0																									
+2872	53	37	agent	ほかにご希望はございますでしょうか？		0	0	0																									
+2873	53	38	agent	特にございませんでしたら、以上の条件でお宿をお調べいたします。		0	0	0																									
+2874	53	39	user	あとは最終日に結婚式出席用のスーツとシャツを持って行く必要があるので、アイロンとか色々準備してある所がいいです。	要求	0	0	0	1736	2874	7	3	結婚式	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+2874	53	39	user	あとは最終日に結婚式出席用のスーツとシャツを持って行く必要があるので、アイロンとか色々準備してある所がいいです。	要求	0	0	0	1737	2874	35	4	アイロン	部屋	HEBI:部屋備品	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+2875	53	40	agent	かしこまりました。		0	0	0																									
+2876	53	41	agent	アイロンなどの備品貸出のあるお宿をお調べします。		0	0	0																									
+2877	53	42	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+2878	53	43	agent	・日付は８月２７日。		0	0	0																									
+2879	53	44	agent	・宿泊日数は３泊。		0	0	0																									
+2880	53	45	agent	・宿泊地は群馬。		0	0	0																									
+2881	53	46	agent	・人数は大人３名。		0	0	0																									
+2882	53	47	agent	・部屋はトリプルルームを１室。		0	0	0																									
+2883	53	48	agent	・草津と尾瀬の両方にアクセスしやすい宿を希望。		0	0	0																									
+2884	53	49	agent	・近くに飲食店や商店が集まる宿を希望。		0	0	0																									
+2885	53	50	agent	・無料か料金が安い駐車場のある宿を希望。		0	0	0																									
+2886	53	51	agent	・食事を持ち込める宿を希望。		0	0	0																									
+2887	53	52	agent	・禁煙ルームを希望。		0	0	0																									
+2888	53	53	agent	また、館内に喫煙コーナーのある宿を希望。		0	0	0																									
+2889	53	54	agent	・アイロンなどの備品貸出のある宿を希望。		0	0	0																									

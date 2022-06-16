@@ -1,0 +1,68 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+1428	28	1	agent	本日はご利用いただきまして、ありがとうございます。		0	0	0																									
+1429	28	2	agent	ご宿泊のご相談を承ります。		0	0	0																									
+1430	28	3	user	外国人の友人三人で、旅行して泊まれる日本的な宿を探しています。	要求	0	0	0	874	1430	4	4	友人三人	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+1430	28	3	user	外国人の友人三人で、旅行して泊まれる日本的な宿を探しています。	要求	0	0	0	875	1430	6	2	三人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+1430	28	3	user	外国人の友人三人で、旅行して泊まれる日本的な宿を探しています。	要求	0	0	0	876	1430	0	3	外国人	宿	YAEN:宿環境	2_neutral	2_neutral	2_neutral	3_strong	2_neutral	3_strong						0						
+1430	28	3	user	外国人の友人三人で、旅行して泊まれる日本的な宿を探しています。	要求	0	0	0	877	1430	18	3	日本的	宿	YAEN:宿環境	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+1431	28	4	agent	かしこまりました。		0	0	0																									
+1432	28	5	agent	それでは旅館をお調べいたします。		0	0	0																									
+1433	28	6	agent	お泊りになる地域、お日付がお決まりでしたら、お聞かせいただけますでしょうか。		0	0	0																									
+1434	28	7	user	岡山の倉敷辺りで、２月１１日から２泊で。	要求	0	0	0	878	1434	0	7	岡山の倉敷辺り	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	1_weak	1_weak	3_strong						0						
+1434	28	7	user	岡山の倉敷辺りで、２月１１日から２泊で。	要求	0	0	0	879	1434	9	7	２月１１日から	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+1434	28	7	user	岡山の倉敷辺りで、２月１１日から２泊で。	要求	0	0	0	880	1434	16	2	２泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+1435	28	8	user	１３日からです。	要求	0	0	0	881	1435	0	5	１３日から	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+1436	28	9	user	すみません。	その他	0	0	0																									
+1437	28	10	agent	かしこまりました。		0	0	0																									
+1438	28	11	agent	お食事につきましても、日本的な和食をご希望でしょうか？		0	0	0																									
+1439	28	12	user	大方、和食を希望です。	はい	0	0	0																									
+1440	28	13	user	今予約すれば、まだ早割とかのある宿が取れますか？	要求	0	0	0	882	1440	9	2	早割	サービス	SESE:ホテルサービス	1_weak	1_weak	1_weak									0						
+1441	28	14	agent	それでは、和食をご用意できるお宿をお調べいたします。		0	0	0																									
+1442	28	15	agent	はい、まだご宿泊までお日にちがございますので、早割プランでお調べいたしましょうか？		0	0	0																									
+1443	28	16	user	はい。	はい	0	0	0																									
+1444	28	17	user	お願いします。	その他	0	0	0																									
+1445	28	18	user	あと、観光で古き良き日本的街並みを見たいと思っています。	要求	0	0	0	883	1445	3	2	観光	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+1445	28	18	user	あと、観光で古き良き日本的街並みを見たいと思っています。	要求	0	0	0	884	1445	6	10	古き良き日本的街並み	立地	RIAC:立地 (アクティビティ)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+1446	28	19	user	外国人の宿泊に慣れているようなオーナーのいる宿泊先だと嬉しいのですが。	要求	0	0	0	885	1446	0	22	外国人の宿泊に慣れているようなオーナーのいる	宿	YAEN:宿環境	1_weak	2_neutral	1_weak		2_neutral	2_neutral						0						
+1447	28	20	agent	かしこまりました。		0	0	0																									
+1448	28	21	agent	それでは、英語が話せるスタッフがいるお宿をお調べしましょうか？		0	0	0																									
+1449	28	22	user	そうですね。	はい	0	0	0																									
+1450	28	23	user	あまり、堅苦しくならない雰囲気の和風テイストの宿でお願いします。	要求	0	0	0	886	1450	4	11	堅苦しくならない雰囲気	宿	YAEN:宿環境	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	1_weak						0						
+1450	28	23	user	あまり、堅苦しくならない雰囲気の和風テイストの宿でお願いします。	要求	0	0	0	887	1450	16	6	和風テイスト	宿	YAEN:宿環境	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+1451	28	24	agent	かしこまりました。		0	0	0																									
+1452	28	25	agent	カジュアルな旅館をお探しいたします。		0	0	0																									
+1453	28	26	agent	お食事は朝・夕２食付きでよろしいでしょうか？		0	0	0																									
+1454	28	27	user	はい。	はい	0	0	0																									
+1455	28	28	user	温泉、和室がついてできるだけ安く費用を抑えられるところがいいのですが。	要求	0	0	0	888	1455	0	2	温泉	風呂	FUTY:風呂種類	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+1455	28	28	user	温泉、和室がついてできるだけ安く費用を抑えられるところがいいのですが。	要求	0	0	0	889	1455	3	2	和室	部屋	HETY:部屋タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+1455	28	28	user	温泉、和室がついてできるだけ安く費用を抑えられるところがいいのですが。	要求	0	0	0	1014	1455	9	7	できるだけ安く	予算	YOKA:予算感	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+1455	28	28	user	温泉、和室がついてできるだけ安く費用を抑えられるところがいいのですが。	要求	0	0	0	1015	1455	16	8	費用を抑えられる	予算	YOKA:予算感	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+1456	28	29	agent	かしこまりました。		0	0	0																									
+1457	28	30	agent	温泉付きのお宿をお調べします。		0	0	0																									
+1458	28	31	agent	部屋数は和室１室で承ります。		0	0	0																									
+1459	28	32	agent	ご予算はおひとり様１泊でおいくらくらいでしょうか？		0	0	0																									
+1460	28	33	user	５千円〜８千円くらいで。	要求	0	0	0	891	1460	0	10	５千円〜８千円くらい	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	1_weak	1_weak	1_weak						0						
+1461	28	34	user	部屋は、男性二人で一部屋、女性一名一部屋でお願いします。	要求	0	0	0	892	1461	9	3	一部屋	部屋	HENU:部屋数	2_neutral	2_neutral	2_neutral	2_neutral	3_strong	2_neutral	99	1461	4	2	男性	0						
+1461	28	34	user	部屋は、男性二人で一部屋、女性一名一部屋でお願いします。	要求	0	0	0	892	1461	9	3	一部屋	部屋	HENU:部屋数	2_neutral	2_neutral	2_neutral	2_neutral	3_strong	2_neutral	100	1461	6	2	二人	0						
+1461	28	34	user	部屋は、男性二人で一部屋、女性一名一部屋でお願いします。	要求	0	0	0	893	1461	17	3	一部屋	部屋	HENU:部屋数	2_neutral	2_neutral	2_neutral	2_neutral	3_strong	2_neutral	101	1461	13	2	女性	0						
+1461	28	34	user	部屋は、男性二人で一部屋、女性一名一部屋でお願いします。	要求	0	0	0	893	1461	17	3	一部屋	部屋	HENU:部屋数	2_neutral	2_neutral	2_neutral	2_neutral	3_strong	2_neutral	102	1461	15	2	一名	0						
+1462	28	35	agent	かしこまりました。		0	0	0																									
+1463	28	36	agent	それでは２部屋で承ります。		0	0	0																									
+1464	28	37	agent	他にご希望はございますでしょうか？		0	0	0																									
+1465	28	38	user	浴衣が選べるサービスなどがあると嬉しいです。	要求	0	0	0	894	1465	0	10	浴衣が選べるサービス	部屋	HEAM:部屋アメニティ	1_weak	2_neutral	1_weak		2_neutral	2_neutral						0						
+1466	28	39	agent	かしこまりました。		0	0	0																									
+1467	28	40	agent	浴衣が選べるサービスのあるお宿をお調べします。		0	0	0																									
+1468	28	41	agent	ご希望をお聞かせくださり、ありがとうございました。		0	0	0																									
+1469	28	42	agent	それでは以下の条件でお調べしますので、よろしくお願いいたします。		0	0	0																									
+1470	28	43	agent	・日付は２月１３日		0	0	0																									
+1471	28	44	agent	・宿泊日数は２泊		0	0	0																									
+1472	28	45	agent	・宿泊地は岡山県倉敷周辺。		0	0	0																									
+1473	28	46	agent	・人数は大人３人。		0	0	0																									
+1474	28	47	agent	・宿タイプはカジュアルな旅館を希望。		0	0	0																									
+1475	28	48	agent	・部屋タイプは和室２室。		0	0	0																									
+1476	28	49	agent	１人用１室、２人用１室。		0	0	0																									
+1477	28	50	agent	・予算は１人１泊５千円〜８千円。		0	0	0																									
+1478	28	51	agent	・食事は朝・夕２食付きで、和食を希望。		0	0	0																									
+1479	28	52	agent	・早割プランを希望。		0	0	0																									
+1480	28	53	agent	・英語が話せるスタッフがいる宿を希望。		0	0	0																									
+1481	28	54	agent	・浴衣が選べるサービスのある宿を希望。		0	0	0																									

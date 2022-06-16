@@ -1,0 +1,54 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+10234	199	1	agent	この度のご利用、誠にありがとうございます。		0	0	0																									
+10235	199	2	agent	お客様のお宿探しのお手伝いをいたします。		0	0	0																									
+10236	199	3	agent	お客様のご希望をお聞かせいただけますでしょうか？		0	0	0																									
+10237	199	4	user	１１月の上旬のお休みに息子と愛媛の温泉に行こうと思っております。	要求	0	0	0	447	10237	0	6	１１月の上旬	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	3_strong						0						
+10237	199	4	user	１１月の上旬のお休みに息子と愛媛の温泉に行こうと思っております。	要求	0	0	0	448	10237	11	2	息子	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+10237	199	4	user	１１月の上旬のお休みに息子と愛媛の温泉に行こうと思っております。	要求	0	0	0	449	10237	14	2	愛媛	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+10237	199	4	user	１１月の上旬のお休みに息子と愛媛の温泉に行こうと思っております。	要求	0	0	0	450	10237	17	2	温泉	風呂	FUTY:風呂種類	2_neutral	2_neutral	2_neutral	3_strong	2_neutral	2_neutral						0						
+10238	199	5	user	よろしくお願いします	その他	0	0	0																									
+10239	199	6	agent	愛媛の温泉ですね。		0	0	0																									
+10240	199	7	agent	かしこまりました。		0	0	0																									
+10241	199	8	agent	お日にちが１１月の上旬とのことですが、ご利用の泊数はお決まりでしょうか？		0	0	0																									
+10242	199	9	user	一泊で金土、土日のどちらかで値段が安い方でお願いします。	要求	0	0	0	451	10242	0	2	一泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+10242	199	9	user	一泊で金土、土日のどちらかで値段が安い方でお願いします。	要求	0	0	0	452	10242	3	10	金土、土日のどちらか	スケジュール	SCSE:時期	2_neutral	2_neutral	1_weak	1_weak	1_weak							0						
+10242	199	9	user	一泊で金土、土日のどちらかで値段が安い方でお願いします。	要求	0	0	0	453	10242	14	5	値段が安い	予算	YOKA:予算感	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+10243	199	10	agent	かしこまりました。		0	0	0																									
+10244	199	11	agent	その条件でお探ししますね。		0	0	0																									
+10245	199	12	agent	ご予算の方はどのくらいでお考えでしょうか？		0	0	0																									
+10246	199	13	user	予算は現地の名物が何か食べれる食事付きのプランか素泊まりでどこかで食べようか迷ってます。	要求	0	0	0	454	10246	3	12	現地の名物が何か食べれる	食事	SYNA:食事内容	2_neutral	2_neutral	2_neutral	1_weak	1_weak	1_weak						0	＃					
+10246	199	13	user	予算は現地の名物が何か食べれる食事付きのプランか素泊まりでどこかで食べようか迷ってます。	要求	0	0	0	455	10246	15	2	食事	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	1_weak						0	＃					
+10246	199	13	user	予算は現地の名物が何か食べれる食事付きのプランか素泊まりでどこかで食べようか迷ってます。	要求	0	0	0	456	10246	24	4	素泊まり	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	1_weak	1_weak	1_weak						0	＃					
+10247	199	14	user	食事付きなら１万５０００円、素泊まりなら１００００円で考えてます。	要求	0	0	0	457	10247	6	7	１万５０００円	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	1_weak	51	10247	0	2	食事	0						
+10247	199	14	user	食事付きなら１万５０００円、素泊まりなら１００００円で考えてます。	要求	0	0	0	459	10247	20	6	１００００円	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	1_weak	52	10247	14	4	素泊まり	0						
+10248	199	15	agent	かしこまりました。		0	0	0																									
+10249	199	16	agent	予算を加味して、温泉をご希望でしたら、温泉がある旅館でお探ししましょうか？		0	0	0																									
+10250	199	17	user	そうですね。	伝達	0	0	0																									
+10251	199	18	user	温泉付きでお願いします。	はい	0	0	0																									
+10252	199	19	user	また道後温泉に行って見たいのでアクセスがしやすい場所だと助かります。	要求	0	0	0	460	10252	2	4	道後温泉	立地	RIAC:立地 (アクティビティ)	2_neutral	2_neutral	2_neutral	3_strong	3_strong	2_neutral						0						
+10252	199	19	user	また道後温泉に行って見たいのでアクセスがしやすい場所だと助かります。	要求	0	0	0	461	10252	15	9	アクセスがしやすい	立地	RIAC:立地 (アクティビティ)	1_weak	2_neutral	2_neutral		2_neutral	2_neutral	53	10252	2	4	道後温泉	0						
+10253	199	20	agent	かしこまりました。		0	0	0																									
+10254	199	21	agent	道後温泉にアクセスしやすいことも条件に加えておきますね。		0	0	0																									
+10255	199	22	agent	お食事は朝夕つけるかたちでお探ししましょうか？		0	0	0																									
+10256	199	23	user	そうですね、朝夕付きでお願いします。	はい	0	0	0																									
+10257	199	24	agent	かしこまりました。		0	0	0																									
+10258	199	25	agent	現地の名物をご希望とのことでしたので、夕食はその名物が食べられる旅館はいかがでしょうか？		0	0	0																									
+10259	199	26	user	それだと嬉しいです！	はい	0	0	0																									
+10260	199	27	user	また子どもが甘いものが好きなのでデザートがついているものだと嬉しいです。	要求	0	0	0	462	10260	16	4	デザート	食事	SYNA:食事内容	1_weak	2_neutral	1_weak		2_neutral	2_neutral						0						
+10261	199	28	agent	かしこまりました。		0	0	0																									
+10262	199	29	agent	デザートがあることも条件に加えておきます。		0	0	0																									
+10263	199	30	agent	他にご要望はございますか？		0	0	0																									
+10264	199	31	user	特にありません。	いいえ	0	0	0																									
+10265	199	32	user	よろしくお願いします！	その他	0	0	0																									
+10266	199	33	agent	かしこまりました。		0	0	0																									
+10267	199	34	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+10268	199	35	agent	・行先は愛媛県		0	0	0																									
+10269	199	36	agent	・人数は大人１人、子供１人		0	0	0																									
+10270	199	37	agent	・日程は１１月上旬に１泊		0	0	0																									
+10271	199	38	agent	・予算は１万円から１万５０００円		0	0	0																									
+10272	199	39	agent	・宿は旅館		0	0	0																									
+10273	199	40	agent	・温泉がある		0	0	0																									
+10274	199	41	agent	・道後温泉にアクセスしやすい		0	0	0																									
+10275	199	42	agent	・朝夕食事付き		0	0	0																									
+10276	199	43	agent	・夕食は現地の名物料理		0	0	0																									
+10277	199	44	agent	・お食事のあとにデザートが付く		0	0	0																									

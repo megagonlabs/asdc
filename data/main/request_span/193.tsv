@@ -1,0 +1,46 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+9982	193	1	agent	この度のご利用、誠にありがとうございます。		0	0	0																									
+9983	193	2	agent	お客様のお宿探しのお手伝いをいたします。		0	0	0																									
+9984	193	3	agent	お客様のご希望をお聞かせいただけますでしょうか？		0	0	0																									
+9985	193	4	user	こんにちは。	その他	0	0	0																									
+9986	193	5	user	親子４人で三重県に遊びに行くのですが子供が騒いでも問題ない宿ってありますでしょうか？	要求	0	0	0	549	9986	0	2	親子	旅行	RYSC:旅行シーン	2_neutral	1_weak	2_neutral	3_strong		3_strong						0						
+9986	193	5	user	親子４人で三重県に遊びに行くのですが子供が騒いでも問題ない宿ってありますでしょうか？	要求	0	0	0	550	9986	2	2	４人	人数	NIOT:大人人数	2_neutral	1_weak	2_neutral	3_strong		3_strong						0						
+9986	193	5	user	親子４人で三重県に遊びに行くのですが子供が騒いでも問題ない宿ってありますでしょうか？	要求	0	0	0	551	9986	5	3	三重県	旅行	RYAR:旅行エリア	2_neutral	1_weak	2_neutral	3_strong		3_strong						0						
+9986	193	5	user	親子４人で三重県に遊びに行くのですが子供が騒いでも問題ない宿ってありますでしょうか？	要求	0	0	0	553	9986	18	11	子供が騒いでも問題ない	子供	KOKO:子供用サービス	2_neutral	1_weak	1_weak	2_neutral								0						
+9987	193	6	agent	子供が騒いでも問題がない宿ですね。		0	0	0																									
+9988	193	7	agent	かしこまりました。		0	0	0																									
+9989	193	8	agent	そうしますと、離れのお部屋がある宿でお探ししましょうか？		0	0	0																									
+9990	193	9	user	そうですね。	その他	0	0	0																									
+9991	193	10	user	離れだとお値段高くなりますでしょうか？	要求	0	0	0	554	9991	0	2	離れ	部屋	HEJO:部屋条件	1_weak	1_weak	1_weak									0						
+9991	193	10	user	離れだとお値段高くなりますでしょうか？	要求	0	0	0	559	9991	4	5	お値段高く	予算	YOKA:予算感	1_weak	1_weak	1_weak									1						
+9992	193	11	user	出来れば４泊で５万円以内に抑えたいのですが大丈夫でしょうか？	要求	0	0	0	556	9992	7	5	５万円以内	予算	YOYO:予算	1_weak	1_weak	1_weak				61	9992	4	2	４泊	0						
+9993	193	12	agent	ご予算の方もかしこまりました。		0	0	0																									
+9994	193	13	agent	そうしましたら、お子様は何名様でいらっしゃいますでしょうか？		0	0	0																									
+9995	193	14	user	子供は２人で小学生です。	要求	0	0	0	561	9995	0	5	子供は２人	人数	NIKO:子供人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9996	193	15	agent	お子様は小学生の２名様ですね。		0	0	0																									
+9997	193	16	agent	そうしましたら、子供料金があって離れのお部屋がある宿でお探ししましょうか？		0	0	0																									
+9998	193	17	user	お願いします。	はい	0	0	0																									
+9999	193	18	user	あと出来れば子供達が遊びに行きやすい場所だと助かります。	要求	0	0	0	562	9999	6	14	子供達が遊びに行きやすい場所	立地	RIAC:立地 (アクティビティ)	1_weak	1_weak	1_weak									0						
+10000	193	19	agent	かしこまりました。		0	0	0																									
+10001	193	20	agent	遊びに行きやすい場所となると市街地にアクセスが良いとかでしょうか？		0	0	0																									
+10002	193	21	user	そうですね。	その他	0	0	0																									
+10003	193	22	user	どこか１日は鈴鹿に行こうと思うので、場所は離れていてもいいのですがアクセスがしやすい場所がいいです。	要求	0	0	0	565	10003	6	2	鈴鹿	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+10003	193	22	user	どこか１日は鈴鹿に行こうと思うので、場所は離れていてもいいのですがアクセスがしやすい場所がいいです。	要求	0	0	0	573	10003	18	26	場所は離れていてもいいのですがアクセスがしやすい場所	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	1_weak	414	10003	6	2	鈴鹿	0						
+10004	193	23	agent	かしこまりました。		0	0	0																									
+10005	193	24	agent	そうしましたら、鈴鹿に近い宿でお探ししますね。		0	0	0																									
+10006	193	25	agent	恐れ入りますが、予約する日付とご利用の泊数を教えていただいてよろしいでしょうか？		0	0	0																									
+10007	193	26	user	ありがとうございます。	その他	0	0	0																									
+10008	193	27	user	旅行日は４月９日から４泊でお願いします	要求	0	0	0	576	10008	4	4	４月９日	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+10008	193	27	user	旅行日は４月９日から４泊でお願いします	要求	0	0	0	577	10008	10	2	４泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+10009	193	28	agent	ご旅行のお日にち、かしこまりました。		0	0	0																									
+10010	193	29	agent	他にご要望はございますか？		0	0	0																									
+10011	193	30	user	大丈夫です。	いいえ	0	0	0																									
+10012	193	31	agent	かしこまりました。		0	0	0																									
+10013	193	32	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+10014	193	33	agent	・行先は三重県		0	0	0																									
+10015	193	34	agent	・人数は大人２人、子供２人		0	0	0																									
+10016	193	35	agent	・予算は５万円以内		0	0	0																									
+10017	193	36	agent	・部屋は離れのお部屋		0	0	0																									
+10018	193	37	agent	・子供料金が適用される		0	0	0																									
+10019	193	38	agent	・鈴鹿に近い		0	0	0																									
+10020	193	39	agent	・日程は４月９日から４泊		0	0	0																									

@@ -1,0 +1,59 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+3998	74	1	agent	本日はご利用いただきまして、ありがとうございます。		0	0	0																									
+3999	74	2	agent	ご宿泊のご相談を承ります。		0	0	0																									
+4000	74	3	agent	お客様のご希望をお聞かせいただけますでしょうか。		0	0	0																									
+4001	74	4	user	家族３人で観光するのに便利な宿をさがしております。	要求	0	0	0	2058	4001	0	2	家族	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+4001	74	4	user	家族３人で観光するのに便利な宿をさがしております。	要求	0	0	0	2059	4001	2	2	３人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+4001	74	4	user	家族３人で観光するのに便利な宿をさがしております。	要求	0	0	0	2060	4001	5	2	観光	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+4001	74	4	user	家族３人で観光するのに便利な宿をさがしております。	要求	0	0	0	2061	4001	5	8	観光するのに便利	立地	RIAC:立地 (アクティビティ)	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+4002	74	5	agent	ご家族３名様でございますね。		0	0	0																									
+4003	74	6	agent	お子様は何名様いらっしゃいますでしょうか？		0	0	0																									
+4004	74	7	user	こどもは小学生が１名です。	要求	0	0	0	2062	4004	8	2	１名	人数	NIKO:子供人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong	245	4004	4	3	小学生	0						
+4005	74	8	agent	かしこまりました。		0	0	0																									
+4006	74	9	agent	どちらにご宿泊なさいますか？		0	0	0																									
+4007	74	10	user	観光地に行くのに便利な場所をさがしてます。	要求	0	0	0	2063	4007	0	10	観光地に行くのに便利	立地	RIAC:立地 (アクティビティ)	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+4008	74	11	agent	承知しました。		0	0	0																									
+4009	74	12	agent	どちらの町かはお決まりでしょうか？		0	0	0																									
+4010	74	13	user	まだ決まってないです。	いいえ	0	0	0																									
+4011	74	14	agent	さようでございますか。		0	0	0																									
+4012	74	15	agent	どのような場所をご希望でしょうか？		0	0	0																									
+4013	74	16	user	有名な観光地にアクセスがいい場所を希望してます。	要求	0	0	0	2064	4013	0	14	有名な観光地にアクセスがいい	立地	RIAC:立地 (アクティビティ)	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+4014	74	17	agent	かしこまりました。		0	0	0																									
+4015	74	18	agent	では、京都市はいかがでしょうか？		0	0	0																									
+4016	74	19	user	いいですね。	はい	0	0	0																									
+4017	74	20	agent	それでは京都市でお調べします。		0	0	0																									
+4018	74	21	agent	ご宿泊されるお日付と宿泊日数はいかがなさいますか？		0	0	0																									
+4019	74	22	user	２月上旬に２泊を予定しております。	要求	0	0	0	2065	4019	0	4	２月上旬	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	3_strong						0						
+4019	74	22	user	２月上旬に２泊を予定しております。	要求	0	0	0	2066	4019	5	2	２泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+4020	74	23	agent	かしこまりました。		0	0	0																									
+4021	74	24	agent	それでは、お宿のタイプはいかがでしょうか？		0	0	0																									
+4022	74	25	agent	ホテル、旅館などがございますが、京都ですと旅館がよろしいかと思います。		0	0	0																									
+4023	74	26	user	はい。	はい	0	0	0																									
+4024	74	27	user	夫が外国人なので日本らしい旅館を希望しております。	要求	0	0	0	2067	4024	0	5	夫が外国人	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+4024	74	27	user	夫が外国人なので日本らしい旅館を希望しております。	要求	0	0	0	2068	4024	8	5	日本らしい	宿	YAEN:宿環境	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+4024	74	27	user	夫が外国人なので日本らしい旅館を希望しております。	要求	0	0	0	2069	4024	13	2	旅館	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+4025	74	28	agent	かしこまりました。		0	0	0																									
+4026	74	29	agent	では、お食事も和食をお召し上がりいただける旅館がよろしいでしょうか？		0	0	0																									
+4027	74	30	user	そうですね。	はい	0	0	0																									
+4028	74	31	user	和食や懐石料理とか精進料理を食べられたら、尚いいですね。	要求	0	0	0	2070	4028	0	2	和食	食事	SYNA:食事内容	1_weak	1_weak	1_weak									0						
+4028	74	31	user	和食や懐石料理とか精進料理を食べられたら、尚いいですね。	要求	0	0	0	2071	4028	3	4	懐石料理	食事	SYNA:食事内容	1_weak	1_weak	1_weak									0						
+4028	74	31	user	和食や懐石料理とか精進料理を食べられたら、尚いいですね。	要求	0	0	0	2072	4028	9	4	精進料理	食事	SYNA:食事内容	1_weak	1_weak	1_weak									0						
+4029	74	32	agent	承知しました。		0	0	0																									
+4030	74	33	agent	では、懐石料理や精進料理などの和食をお召し上がりいただけるお宿をお調べします。		0	0	0																									
+4031	74	34	agent	また、日本の伝統文化を体験できるお宿はいかがでしょうか？		0	0	0																									
+4032	74	35	user	日本文化の体験が宿でできるといいですね。	はい	0	0	0																									
+4033	74	36	user	ただ主人は日本語が苦手なので、英語対応していただける宿だといいのですが。	要求	0	0	0	2073	4033	15	11	英語対応していただける	宿	YAEN:宿環境	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+4034	74	37	agent	かしこまりました。		0	0	0																									
+4035	74	38	agent	それでは、英語を話せるスタッフのいるお宿をお探しします。		0	0	0																									
+4036	74	39	agent	ご希望をお聞かせくださり、ありがとうございました。		0	0	0																									
+4037	74	40	agent	以下の条件に合うお宿をお探しいたします。		0	0	0																									
+4038	74	41	agent	・日付は２月上旬。		0	0	0																									
+4039	74	42	agent	・宿泊日数は２泊。		0	0	0																									
+4040	74	43	agent	・宿泊地は京都市。		0	0	0																									
+4041	74	44	agent	・人数は大人２名、子供１名。		0	0	0																									
+4042	74	45	agent	・有名な観光地にアクセスしやすい宿を希望。		0	0	0																									
+4043	74	46	agent	・宿タイプは旅館。		0	0	0																									
+4044	74	47	agent	・日本らしい雰囲気のある宿を希望。		0	0	0																									
+4045	74	48	agent	・食事は懐石料理や精進料理などの和食を食べられる宿を希望。		0	0	0																									
+4046	74	49	agent	・日本の伝統文化を体験できる宿を希望。		0	0	0																									
+4047	74	50	agent	・英語を話せるスタッフのいる宿を希望。		0	0	0																									

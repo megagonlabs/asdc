@@ -1,0 +1,61 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+4520	84	1	agent	この度のご利用、誠にありがとうございます。		0	0	0																									
+4521	84	2	agent	お客様のお宿探しのお手伝いをいたします。		0	0	0																									
+4522	84	3	agent	お客様のご希望をお聞かせいただけますでしょうか。		0	0	0																									
+4523	84	4	user	家族で１０月に鳥取に観光にいきたいので、宿を探して欲しいです。	要求	0	0	0	2497	4523	0	2	家族	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+4523	84	4	user	家族で１０月に鳥取に観光にいきたいので、宿を探して欲しいです。	要求	0	0	0	2498	4523	3	3	１０月	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+4523	84	4	user	家族で１０月に鳥取に観光にいきたいので、宿を探して欲しいです。	要求	0	0	0	2499	4523	7	2	鳥取	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+4523	84	4	user	家族で１０月に鳥取に観光にいきたいので、宿を探して欲しいです。	要求	0	0	0	2500	4523	10	2	観光	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+4524	84	5	agent	かしこまりました。		0	0	0																									
+4525	84	6	agent	ご家族でのご旅行とのことですが、何名様でしょうか？		0	0	0																									
+4526	84	7	user	三名ですが、車椅子が使える所をお願いします。	要求	0	0	0	2501	4526	0	2	三名	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+4526	84	7	user	三名ですが、車椅子が使える所をお願いします。	要求	0	0	0	2502	4526	6	7	車椅子が使える	宿	YAEN:宿環境	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+4527	84	8	agent	かしこまりました。		0	0	0																									
+4528	84	9	agent	それでは、バリアフリー対応のお宿をお探しします。		0	0	0																									
+4529	84	10	agent	三名様は皆さま大人の方でしょうか？		0	0	0																									
+4530	84	11	user	はい。	はい	0	0	0																									
+4531	84	12	user	母が高齢です、車椅子が必要です。	要求	0	0	0	2503	4531	0	4	母が高齢	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+4531	84	12	user	母が高齢です、車椅子が必要です。	要求	0	0	0	2505	4531	7	3	車椅子	宿	YAEN:宿環境	2_neutral	3_strong	2_neutral	3_strong		3_strong						0						
+4532	84	13	user	バリアフリーをお願いします。	要求	0	0	0	2506	4532	0	6	バリアフリー	宿	YAEN:宿環境	2_neutral	2_neutral	2_neutral	3_strong	2_neutral	2_neutral						0						
+4533	84	14	agent	承知しました。		0	0	0																									
+4534	84	15	agent	お日付と宿泊日数はお決まりでしょうか？		0	0	0																									
+4535	84	16	user	はい。	はい	0	0	0																									
+4536	84	17	user	１０月１日から４泊で。	要求	0	0	0	2508	4536	0	7	１０月１日から	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+4536	84	17	user	１０月１日から４泊で。	要求	0	0	0	2509	4536	7	2	４泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+4537	84	18	agent	ありがとうございます。		0	0	0																									
+4538	84	19	agent	お食事ですが、お母様が高齢とのことですので、高齢者向けのお食事がご用意できる宿がよろしいでしょうか？		0	0	0																									
+4539	84	20	user	食事は普通で構いません。	要求	0	0	0	2531	4539	0	2	食事	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+4539	84	20	user	食事は普通で構いません。	要求	0	0	0	2996	4539	0	5	食事は普通	食事	SYNA:食事内容	1_weak	1_weak	2_neutral			2_neutral						0						
+4540	84	21	agent	かしこまりました。		0	0	0																									
+4541	84	22	agent	朝・夕２食付きのプランになさいますか？		0	0	0																									
+4542	84	23	agent	それとも朝のみ、夕のみなどのご希望はございますでしょうか？		0	0	0																									
+4543	84	24	user	朝、夕食両方とも、３人分お願いします。	照応要求	0	0	0	2535	4541	0	7	朝・夕２食付き	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	348	4543	9	3	３人分	0		178	4543	0	6	朝、夕食両方
+4544	84	25	agent	かしこまりました。		0	0	0																									
+4545	84	26	agent	それでは朝・夕２食付きのプランをお調べいたします。		0	0	0																									
+4546	84	27	agent	こちらのご旅行はお車でしょうか？		0	0	0																									
+4547	84	28	agent	もし公共交通機関でしたら、お母様が車いすとのことですので、大変かと思います。		0	0	0																									
+4548	84	29	agent	よろしければ、最寄り駅から送迎サービスのあるお宿をお調べしますが、いかがでしょうか？		0	0	0																									
+4549	84	30	user	車で参ります。	照応要求	0	0	0	2539	4546	8	2	お車	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	3_strong						0		179	4549	0	1	車
+4550	84	31	user	駐車場はできれば、無料サービスがある宿があれば、探して下さい。	要求	0	0	0	2540	4550	0	18	駐車場はできれば、無料サービスがある	サービス	SESE:ホテルサービス	1_weak	2_neutral	1_weak		2_neutral							0						
+4551	84	32	agent	かしこまりました。		0	0	0																									
+4552	84	33	agent	それでは無料駐車場付きのお宿をお探しします。		0	0	0																									
+4553	84	34	agent	ほかにご希望はございますでしょうか？		0	0	0																									
+4554	84	35	user	家族風呂が有るといいですが。	要求	0	0	0	2542	4554	0	4	家族風呂	風呂	FUTY:風呂種類	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+4555	84	36	agent	かしこまりました。		0	0	0																									
+4556	84	37	agent	では、貸切の家族風呂のあるお宿をお調べします。		0	0	0																									
+4557	84	38	agent	最後に、４泊の少し長いご滞在となりますが、ランドリーサービス付きのお宿がよろしいでしょうか？		0	0	0																									
+4558	84	39	agent	少しでもご旅行のお荷物の負担を減らしていただけるかと思います。		0	0	0																									
+4559	84	40	user	あ、そうですね。	その他	0	0	0																									
+4560	84	41	user	ランドリーあると、助かります。	はい	0	0	0																									
+4561	84	42	agent	かしこまりました。		0	0	0																									
+4562	84	43	agent	ご希望をお聞かせくださり、ありがとうございました。		0	0	0																									
+4563	84	44	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+4564	84	45	agent	・日付は１０月１日。		0	0	0																									
+4565	84	46	agent	・宿泊日数は４泊。		0	0	0																									
+4566	84	47	agent	・宿泊地は鳥取。		0	0	0																									
+4567	84	48	agent	・人数は大人３名。		0	0	0																									
+4568	84	49	agent	・バリアフリー対応の宿を希望。		0	0	0																									
+4569	84	50	agent	・食事は朝・夕２食付きのプランを希望。		0	0	0																									
+4570	84	51	agent	・無料駐車場付きの宿を希望。		0	0	0																									
+4571	84	52	agent	・貸切の家族風呂のある宿を希望。		0	0	0																									
+4572	84	53	agent	・ランドリーサービス付きの宿を希望。		0	0	0																									

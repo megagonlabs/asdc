@@ -1,0 +1,44 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+7166	128	1	user	７月１３日から横浜の元町を観光したいと考えています。	要求	0	0	0	3179	7166	0	7	７月１３日から	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7166	128	1	user	７月１３日から横浜の元町を観光したいと考えています。	要求	0	0	0	3180	7166	7	5	横浜の元町	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7166	128	1	user	７月１３日から横浜の元町を観光したいと考えています。	要求	0	0	0	3181	7166	13	2	観光	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7167	128	2	agent	かしこまりました。		0	0	0																									
+7168	128	3	agent	何名様でのご旅行でしょうか？		0	0	0																									
+7169	128	4	user	大人３名です。	要求	0	0	0	3182	7169	0	4	大人３名	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7170	128	5	agent	かしこまりました。		0	0	0																									
+7171	128	6	agent	７月１３日から何泊のご予定でしょうか？		0	0	0																									
+7172	128	7	user	４泊でお願いします。	要求	0	0	0	3183	7172	0	2	４泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7173	128	8	agent	かしこまりました。		0	0	0																									
+7174	128	9	agent	元町をご観光とのことですが、ホテルの方はそちらに近い方がよろしいでしょうか？		0	0	0																									
+7175	128	10	user	はい、元町周辺で静かなところがいいです。	要求	0	0	0	3184	7175	3	4	元町周辺	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	1_weak						0						
+7175	128	10	user	はい、元町周辺で静かなところがいいです。	要求	0	0	0	3185	7175	8	6	静かなところ	立地	RIEN:立地 (周辺環境)	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+7176	128	11	user	中華街へのアクセスもいいとありがたいです。	要求	0	0	0	3186	7176	0	12	中華街へのアクセスもいい	立地	RIAC:立地 (アクティビティ)	1_weak	2_neutral	1_weak		2_neutral							0						
+7177	128	12	agent	かしこまりました。		0	0	0																									
+7178	128	13	agent	そうなるとご予算の方はどのくらいでお考えですか？		0	0	0																									
+7179	128	14	user	１名３万円くらいまででお願いします。	要求	0	0	0	3187	7179	2	8	３万円くらいまで	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	1_weak	1_weak	1_weak	374	7179	0	2	１名	0						
+7180	128	15	agent	かしこまりました。		0	0	0																									
+7181	128	16	agent	その条件でお探しします。		0	0	0																									
+7182	128	17	agent	また、ほかに観光のご予定はございますか？		0	0	0																									
+7183	128	18	agent	夏なので海などいかがでしょうか。		0	0	0																									
+7184	128	19	user	海が観れたら嬉しいです！	はい	0	0	0																									
+7185	128	20	user	海水浴はする予定はないので、船がみれる場所があればと思います。	要求	0	0	0	3189	7185	14	5	船がみれる	立地	RIAC:立地 (アクティビティ)	1_weak	2_neutral	2_neutral		2_neutral	1_weak						0						
+7186	128	21	agent	かしこまりました。		0	0	0																									
+7187	128	22	agent	そうなると桜木町のビル街から離れたリゾートホテルはいかがでしょうか？		0	0	0																									
+7188	128	23	user	そちらでお願いします。	はい	0	0	0																									
+7189	128	24	user	周辺で食事を楽しみたいので、食事なしの宿泊でお願いします。	要求	0	0	0	3190	7189	0	11	周辺で食事を楽しみたい	立地	RIEN:立地 (周辺環境)	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+7189	128	24	user	周辺で食事を楽しみたいので、食事なしの宿泊でお願いします。	要求	0	0	0	3191	7189	14	2	食事	食事	SYUM:食事有無	2_neutral	3_strong	2_neutral	2_neutral		2_neutral						1						
+7190	128	25	agent	かしこまりました。		0	0	0																									
+7191	128	26	agent	その条件も併せてお探ししますね。		0	0	0																									
+7192	128	27	agent	他にご要望ございますか？		0	0	0																									
+7193	128	28	user	大丈夫です。	いいえ	0	0	0																									
+7194	128	29	user	よろしくお願いします。	その他	0	0	0																									
+7195	128	30	agent	かしこまりました。		0	0	0																									
+7196	128	31	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+7197	128	32	agent	・行先は神奈川県横浜市		0	0	0																									
+7198	128	33	agent	・人数は大人３名		0	0	0																									
+7199	128	34	agent	・日程は７月１３日から４泊		0	0	0																									
+7200	128	35	agent	・ホテルは元町に近く静かなところ		0	0	0																									
+7201	128	36	agent	・中華街へのアクセスが良いホテル		0	0	0																									
+7202	128	37	agent	・ご予算は３万円ほど		0	0	0																									
+7203	128	38	agent	・桜木町のリゾートホテル		0	0	0																									
+7204	128	39	agent	・食事はなし		0	0	0																									

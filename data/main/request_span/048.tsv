@@ -1,0 +1,63 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+2552	48	1	agent	本日のご利用、誠にありがとうございます。		0	0	0																									
+2553	48	2	agent	お客様のお宿探しのお手伝いをいたします。		0	0	0																									
+2554	48	3	agent	どのような条件をご希望でしょうか？		0	0	0																									
+2555	48	4	user	できるだけ安い宿を探してます。	要求	0	0	0	1526	2555	0	7	できるだけ安い	予算	YOKA:予算感	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+2556	48	5	agent	かしこまりました。		0	0	0																									
+2557	48	6	agent	ご予算はどれくらいでお考えでしょうか？		0	0	0																									
+2558	48	7	user	大人３人で１泊なんですけど、１人７０００円以下でしょうか。	要求	0	0	0	1527	2558	2	2	３人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+2558	48	7	user	大人３人で１泊なんですけど、１人７０００円以下でしょうか。	要求	0	0	0	1528	2558	5	2	１泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+2558	48	7	user	大人３人で１泊なんですけど、１人７０００円以下でしょうか。	要求	0	0	0	1530	2558	16	7	７０００円以下	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	181	2558	14	2	１人	0						
+2559	48	8	agent	さようでございますか、お泊りになるお日付と場所をお聞かせいただけますでしょうか。		0	0	0																									
+2560	48	9	user	８月８日の予定で、山形旅行です。	要求	0	0	0	1531	2560	0	4	８月８日	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	2_neutral						0						
+2560	48	9	user	８月８日の予定で、山形旅行です。	要求	0	0	0	1533	2560	9	2	山形	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+2561	48	10	user	夏休みだから高いかもしれないですけど、７０００円と言わず、安ければ安い方がいいです。	要求	0	0	0	1534	2561	29	10	安ければ安い方がいい	予算	YOKA:予算感	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+2561	48	10	user	夏休みだから高いかもしれないですけど、７０００円と言わず、安ければ安い方がいいです。	要求	0	0	0	1536	2561	0	3	夏休み	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	2_neutral	3_strong	3_strong						0						
+2562	48	11	agent	かしこまりました。		0	0	0																									
+2563	48	12	agent	このお日付ですとハイシーズンですが、まだお日にちがございますので早割プランはいかがでしょうか？		0	0	0																									
+2564	48	13	agent	キャンセルチャージが早く発生しますが、そのかわり、お値段はお求めやすくなります。		0	0	0																									
+2565	48	14	user	キャンセルチャージっていつ頃から、どのくらいの値段ですか？	質問	0	0	0																									
+2566	48	15	agent	お宿によって変わりますが、１か月前から段階的に上がっていきます。		0	0	0																									
+2567	48	16	agent	キャンセルの可能性がございますようでしたら、通常プランでお調べしますが、いかがなさいますか？		0	0	0																									
+2568	48	17	user	キャンセルの可能性はないですけど、日付がまだ暫定なので．．．。	伝達	0	0	0																									
+2569	48	18	user	でも安い方がいいので、早割で調べてください。	要求	0	0	0	1537	2569	2	2	安い	予算	YOKA:予算感	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+2569	48	18	user	でも安い方がいいので、早割で調べてください。	要求	0	0	0	1538	2569	11	2	早割	サービス	SESE:ホテルサービス	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+2570	48	19	agent	かしこまりました。		0	0	0																									
+2571	48	20	agent	お宿のタイプですが、お値段重視とのことですので、ビジネスホテルでよろしいでしょうか？		0	0	0																									
+2572	48	21	user	はい、それでもいいです。	はい	0	0	0																									
+2573	48	22	user	食事もついてなくていいです。	要求	0	0	0	1539	2573	0	2	食事	食事	SYUM:食事有無	2_neutral	3_strong	2_neutral	2_neutral		2_neutral						1						
+2574	48	23	agent	かしこまりました。		0	0	0																									
+2575	48	24	agent	それでは、ビジネスホテルの食事なしプランをお調べします。		0	0	0																									
+2576	48	25	agent	お部屋は何室ご利用になりますか？		0	0	0																									
+2577	48	26	user	夫と娘となので、１部屋が安ければ１部屋で。	要求	0	0	0	1540	2577	0	3	夫と娘	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+2577	48	26	user	夫と娘となので、１部屋が安ければ１部屋で。	要求	0	0	0	1541	2577	8	3	１部屋	部屋	HENU:部屋数	2_neutral	2_neutral	1_weak	1_weak	3_strong	2_neutral	187	2577	12	4	安ければ	0						
+2578	48	27	agent	かしこまりました。		0	0	0																									
+2579	48	28	agent	それではトリプルルームか、ツインルームにエキストラベッドをお付けできるお部屋はいかがでしょうか？		0	0	0																									
+2580	48	29	user	そうですね、それでお願いします。	はい	0	0	0																									
+2581	48	30	agent	承知しました。		0	0	0																									
+2582	48	31	agent	宿の場所は駅近くやインター近くなど、ご希望はございますでしょうか？		0	0	0																									
+2583	48	32	user	公共交通機関を使う予定なので、駅からのアクセスは良い方が助かります。	要求	0	0	0	1544	2583	15	11	駅からのアクセスは良い	立地	RIBA:立地 (場所)	1_weak	2_neutral	1_weak		2_neutral	2_neutral						0						
+2584	48	33	agent	かしこまりました。		0	0	0																									
+2585	48	34	agent	それでは駅に近いお宿をお探しします。		0	0	0																									
+2586	48	35	agent	お部屋は禁煙でよろしいでしょうか？		0	0	0																									
+2587	48	36	user	はい、禁煙がいいです。	はい	0	0	0																									
+2588	48	37	agent	かしこまりました。		0	0	0																									
+2589	48	38	agent	禁煙で承ります。		0	0	0																									
+2590	48	39	agent	ほかにご希望はございますでしょうか？		0	0	0																									
+2591	48	40	agent	特にございませんでしたら、以上の条件でお宿をお調べいたします。		0	0	0																									
+2592	48	41	user	はい、とにかくもう安ければ、何でも大丈夫です。	要求	0	0	0	1545	2592	9	4	安ければ	予算	YOKA:予算感	1_weak	3_strong	1_weak			3_strong						0						
+2593	48	42	agent	かしこまりました。		0	0	0																									
+2594	48	43	agent	それでは、できるだけお求めやすいお値段の宿をお探しします。		0	0	0																									
+2595	48	44	agent	それでは、以下の条件でお調べいたします。		0	0	0																									
+2596	48	45	agent	・日付は８月８日。		0	0	0																									
+2597	48	46	agent	・宿泊日数は１泊。		0	0	0																									
+2598	48	47	agent	・宿泊地は山形。		0	0	0																									
+2599	48	48	agent	・人数は大人３名。		0	0	0																									
+2600	48	49	agent	・予算は１人７０００円以下。		0	0	0																									
+2601	48	50	agent	できるだけ安いところを希望。		0	0	0																									
+2602	48	51	agent	・宿タイプはビジネスホテル。		0	0	0																									
+2603	48	52	agent	・部屋はトリプルルームか、ツインルームにエキストラベッドを付けれる部屋を希望。		0	0	0																									
+2604	48	53	agent	・食事なしプランを希望。		0	0	0																									
+2605	48	54	agent	・早割プランを希望。		0	0	0																									
+2606	48	55	agent	・駅に近い宿を希望。		0	0	0																									
+2607	48	56	agent	・禁煙ルームを希望。		0	0	0																									

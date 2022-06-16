@@ -1,0 +1,57 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+4105	76	1	agent	宿予約サービスのご利用ありがとうございます。		0	0	0																									
+4106	76	2	agent	宿について重視したい点をお聞かせください。		0	0	0																									
+4107	76	3	user	景色がいい宿がいいです。	要求	0	0	0	2100	4107	0	5	景色がいい	部屋	HEEN:部屋環境	2_neutral	3_strong	2_neutral	1_weak		2_neutral						0						
+4108	76	4	agent	かしこまりました。		0	0	0																									
+4109	76	5	agent	お泊りになる地域はお決まりでしょうか？		0	0	0																									
+4110	76	6	user	横浜あたりで考えています。	要求	0	0	0	2101	4110	0	5	横浜あたり	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	1_weak	1_weak	3_strong						0						
+4111	76	7	agent	さようでございますか。		0	0	0																									
+4112	76	8	agent	それでは、ベイブリッジの見えるお宿はいかがでしょうか？		0	0	0																									
+4113	76	9	user	いいですね。	はい	0	0	0																									
+4114	76	10	user	夜景も綺麗に見えるとなおいいです。	要求	0	0	0	2102	4114	0	9	夜景も綺麗に見える	部屋	HEEN:部屋環境	1_weak	1_weak	1_weak									0						
+4115	76	11	agent	それでは、高層階のベイブリッジビューのお部屋のあるお宿がよろしいかと思います。		0	0	0																									
+4116	76	12	agent	いかがでしょうか？		0	0	0																									
+4117	76	13	user	いいですね。	はい	0	0	0																									
+4118	76	14	user	結婚記念日に泊まるのでうれしいです。	感想	0	0	0	2103	4118	0	5	結婚記念日	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+4119	76	15	agent	ありがとうございます。		0	0	0																									
+4120	76	16	agent	ご結婚記念日でのご宿泊とのことですが、それでは大人２名様でのご利用でよろしいでしょうか？		0	0	0																									
+4121	76	17	user	はい。	はい	0	0	0																									
+4122	76	18	user	そうです。	はい	0	0	0																									
+4123	76	19	agent	かしこまりました。		0	0	0																									
+4124	76	20	agent	せっかくのご結婚記念日ですので、サプライズケーキをご用意できるお宿はいかがでしょうか？		0	0	0																									
+4125	76	21	user	いいですね。	はい	0	0	0																									
+4126	76	22	user	妻も喜ぶと思います。	伝達	0	0	0																									
+4127	76	23	agent	ありがとうございます。		0	0	0																									
+4128	76	24	agent	ご宿泊されるお日付と宿泊日数はいかがなさいますか？		0	0	0																									
+4129	76	25	user	４月１３日から３泊です。	要求	0	0	0	2104	4129	0	7	４月１３日から	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+4129	76	25	user	４月１３日から３泊です。	要求	0	0	0	2105	4129	7	2	３泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+4130	76	26	user	直前割引が使えるプランはありますか？	要求	0	0	0	2106	4130	0	11	直前割引が使えるプラン	サービス	SESE:ホテルサービス	1_weak	1_weak	1_weak									0						
+4131	76	27	agent	はい、お宿によってはご用意がございますので、お使いいただけるところをお調べします。		0	0	0																									
+4132	76	28	user	お願いいたします。	その他	0	0	0																									
+4133	76	29	agent	かしこまりました。		0	0	0																									
+4134	76	30	agent	お食事はいかがなさいますか？		0	0	0																									
+4135	76	31	user	朝食はビュッフェ形式希望です。	要求	0	0	0	2107	4135	0	2	朝食	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+4135	76	31	user	朝食はビュッフェ形式希望です。	要求	0	0	0	2108	4135	3	7	ビュッフェ形式	食事	SYNA:食事内容	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	249	4135	0	2	朝食	0						
+4136	76	32	agent	それでは、夕食は不要でよろしいでしょうか？		0	0	0																									
+4137	76	33	user	そうですね。	その他	0	0	0																									
+4138	76	34	user	レストランがついてるホテルがあれば尚いいのですが。	要求	0	0	0	2109	4138	0	5	レストラン	施設	SHLE:施設条件(レジャー)	1_weak	1_weak	1_weak									0						
+4138	76	34	user	レストランがついてるホテルがあれば尚いいのですが。	要求	0	0	0	2110	4138	10	3	ホテル	宿	YATY:宿タイプ	1_weak	2_neutral	1_weak		2_neutral							0						
+4139	76	35	agent	かしこまりました。		0	0	0																									
+4140	76	36	agent	それでは、夕食はプランでのご利用ではなく、お宿併設のレストランでお客様ご自身でお召し上がりになるかたちでよろしいでしょうか？		0	0	0																									
+4141	76	37	agent	それとも夕食付きのプランになさいますか？		0	0	0																									
+4142	76	38	user	お宿併設のレストランで自身で食べる方にします。	照応要求	0	0	0	2111	4140	21	10	お宿併設のレストラン	施設	SHLE:施設条件(レジャー)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0		166	4142	0	10	お宿併設のレストラン
+4143	76	39	agent	かしこまりました。		0	0	0																									
+4144	76	40	agent	最後に、お部屋のタイプはツインルームとダブルルーム、どちらになさいますか？		0	0	0																									
+4145	76	41	user	ダブルルームでお願いします。	照応要求	0	0	0	2112	4144	19	6	ダブルルーム	部屋	HETY:部屋タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0		167	4145	0	6	ダブルルーム
+4146	76	42	agent	ご希望をお聞かせくださり、ありがとうございました。		0	0	0																									
+4147	76	43	agent	それでは以下の条件でお調べしますので、よろしくお願いいたします。		0	0	0																									
+4148	76	44	agent	・日付は４月１３日。		0	0	0																									
+4149	76	45	agent	・宿泊日数は３泊。		0	0	0																									
+4150	76	46	agent	・宿泊地は神奈川県横浜。		0	0	0																									
+4151	76	47	agent	・人数は大人２名。		0	0	0																									
+4152	76	48	agent	・部屋タイプはダブルルーム。		0	0	0																									
+4153	76	49	agent	・高層階のベイブリッジビューの部屋を希望。		0	0	0																									
+4154	76	50	agent	・サプライズケーキを用意できる宿を希望。		0	0	0																									
+4155	76	51	agent	・直前割引プランを希望。		0	0	0																									
+4156	76	52	agent	・食事は朝食のみで、ビュッフェ形式を希望。		0	0	0																									
+4157	76	53	agent	・夕食が食べられるレストラン併設の宿を希望。		0	0	0																									

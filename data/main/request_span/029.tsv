@@ -1,0 +1,61 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+1482	29	1	agent	宿予約サービスのご利用ありがとうございます。		0	0	0																									
+1483	29	2	agent	宿について重視したい点をお聞かせください。		0	0	0																									
+1484	29	3	user	親子で、遅い夏休み旅行で福井に行きます。	要求	0	0	0	895	1484	0	2	親子	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+1484	29	3	user	親子で、遅い夏休み旅行で福井に行きます。	要求	0	0	0	896	1484	4	7	遅い夏休み旅行	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	3_strong						0						
+1484	29	3	user	親子で、遅い夏休み旅行で福井に行きます。	要求	0	0	0	897	1484	12	2	福井	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+1484	29	3	user	親子で、遅い夏休み旅行で福井に行きます。	要求	0	0	0	1016	1484	6	3	夏休み	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+1485	29	4	user	アクセス便利なシティホテルを探しています。	要求	0	0	0	898	1485	0	6	アクセス便利	立地	RIBA:立地 (場所)	2_neutral	3_strong	2_neutral	2_neutral		2_neutral						0						
+1485	29	4	user	アクセス便利なシティホテルを探しています。	要求	0	0	0	899	1485	7	6	シティホテル	宿	YATY:宿タイプ	2_neutral	3_strong	2_neutral	2_neutral		2_neutral						0						
+1486	29	5	agent	かしこまりました。		0	0	0																									
+1487	29	6	agent	親子でのご旅行とのことですが、大人１名様と子供１名様でよろしいでしょうか？		0	0	0																									
+1488	29	7	user	はい。	はい	0	0	0																									
+1489	29	8	user	恐竜博物館に行きたいと思っていますが、他にも楽しめる場所などありますか。	要求	0	0	0	900	1489	0	5	恐竜博物館	立地	RIAC:立地 (アクティビティ)	2_neutral	2_neutral	2_neutral	3_strong	3_strong	2_neutral						0						
+1490	29	9	agent	こちらはご宿泊のお手伝い専用ですので、観光名所につきましては別途ご案内させていただければと存じます。		0	0	0																									
+1491	29	10	agent	それでは、観光地にアクセスしやすいターミナルのある福井駅周辺でお調べしましょうか？		0	0	0																									
+1492	29	11	user	はい。	はい	0	0	0																									
+1493	29	12	user	シティホテルの中に、できれば子供が遊べるゲームセンターなどがあるといいなあと思います。	要求	0	0	0	901	1493	0	6	シティホテル	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+1493	29	12	user	シティホテルの中に、できれば子供が遊べるゲームセンターなどがあるといいなあと思います。	要求	0	0	0	902	1493	14	13	子供が遊べるゲームセンター	施設	SHLE:施設条件(レジャー)	1_weak	1_weak	1_weak									0						
+1494	29	13	agent	かしこまりました。		0	0	0																									
+1495	29	14	agent	それでは、館内にゲームセンターのあるシティホテルをお探しいたします。		0	0	0																									
+1496	29	15	agent	こちらのご宿泊ですが、お日付と宿泊日数はご検討されておりますでしょうか？		0	0	0																									
+1497	29	16	user	九月五日〜四泊で。	要求	0	0	0	903	1497	0	5	九月五日〜	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+1497	29	16	user	九月五日〜四泊で。	要求	0	0	0	904	1497	5	2	四泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+1498	29	17	agent	承知しました。		0	0	0																									
+1499	29	18	agent	お子様はベッドをお一人でお使いになられますか？		0	0	0																									
+1500	29	19	user	ダブルベッドでお願いします。	要求	0	0	0	905	1500	0	6	ダブルベッド	部屋	HETY:部屋タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+1501	29	20	agent	かしこまりました。		0	0	0																									
+1502	29	21	agent	それではダブルルームでお調べいたします。		0	0	0																									
+1503	29	22	agent	お食事はいかがでしょうか？		0	0	0																									
+1504	29	23	user	大人は、越前ガニやおそばが食べたいです。	要求	0	0	0	906	1504	4	8	越前ガニやおそば	食事	SYNA:食事内容	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	103	1504	0	2	大人	0						
+1505	29	24	user	子供はバイキングがいいです。	要求	0	0	0	907	1505	3	5	バイキング	食事	SYNA:食事内容	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	104	1505	0	2	子供	0						
+1506	29	25	agent	かしこまりました。		0	0	0																									
+1507	29	26	agent	それでは、ご夕食で大人の方は越前ガニとおそば、お子様はバイキングをお召し上がりいただけるホテルをお調べ致します。		0	0	0																									
+1508	29	27	agent	朝食はいかがなさいますか？		0	0	0																									
+1509	29	28	user	特に、なくてもいいです。	照応要求	0	0	0	908	1508	0	2	朝食	食事	SYUM:食事有無	1_weak	1_weak	1_weak									1		69	1509	3	6	なくてもいい
+1510	29	29	agent	承知しました。		0	0	0																									
+1511	29	30	agent	４泊のご宿泊となりますが、連泊割引のあるお宿がよろしいでしょうか？		0	0	0																									
+1512	29	31	user	そうですね。	はい	0	0	0																									
+1513	29	32	agent	かしこまりました。		0	0	0																									
+1514	29	33	agent	それでは連泊割引のあるプランをお調べいたします。		0	0	0																									
+1515	29	34	agent	ほかにご希望はございますでしょうか？		0	0	0																									
+1516	29	35	user	料金は１泊、１００００円以内でお願いします。	要求	0	0	0	909	1516	6	8	１００００円以内	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	105	1516	3	2	１泊	0						
+1517	29	36	agent	こちらは２名様での合計でよろしいでしょうか？		0	0	0																									
+1518	29	37	user	１人分です。	要求	0	0	0	910	1518	0	3	１人分	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	3_strong						0	#範囲外					
+1519	29	38	user	あと、駅からの送迎も欲しいです。	要求	0	0	0	911	1519	3	6	駅からの送迎	サービス	SESE:ホテルサービス	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+1520	29	39	agent	かしこまりました。		0	0	0																									
+1521	29	40	agent	駅からの送迎のあるお宿をお調べいたします。		0	0	0																									
+1522	29	41	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+1523	29	42	agent	・日付は９月５日。		0	0	0																									
+1524	29	43	agent	・宿泊日数は４泊。		0	0	0																									
+1525	29	44	agent	・宿泊地は福井市。		0	0	0																									
+1526	29	45	agent	・人数は大人１名、子ども１名。		0	0	0																									
+1527	29	46	agent	・予算は１人１泊１万円。		0	0	0																									
+1528	29	47	agent	・宿タイプはシティホテルを希望。		0	0	0																									
+1529	29	48	agent	・部屋タイプはダブルルームを希望。		0	0	0																									
+1530	29	49	agent	・観光地にアクセスしやすいターミナルのある福井駅周辺を希望。		0	0	0																									
+1531	29	50	agent	・館内にゲームセンターのある宿を希望。		0	0	0																									
+1532	29	51	agent	・夕食で大人は越前ガニとそば、子どもはバイキングを希望。		0	0	0																									
+1533	29	52	agent	朝食は不要。		0	0	0																									
+1534	29	53	agent	・連泊割引のある宿を希望。		0	0	0																									
+1535	29	54	agent	・駅からの送迎のある宿を希望。		0	0	0																									

@@ -1,0 +1,48 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+9159	174	1	agent	本日はご利用いただきまして、ありがとうございます。		0	0	0																									
+9160	174	2	agent	ご宿泊のご相談を承ります。		0	0	0																									
+9161	174	3	agent	お泊りになる地域、お日付、人数がお決まりでしたら、お聞かせいただけますでしょうか。		0	0	0																									
+9162	174	4	user	岡山県に９月８日から宿泊したいです。	要求	0	0	0	1429	9162	0	3	岡山県	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9162	174	4	user	岡山県に９月８日から宿泊したいです。	要求	0	0	0	1430	9162	4	6	９月８日から	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9163	174	5	user	大人２人です。	要求	0	0	0	1431	9163	0	4	大人２人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9164	174	6	agent	岡山県ですね。		0	0	0																									
+9165	174	7	agent	かしこまりました。		0	0	0																									
+9166	174	8	agent	９月８日からとのことですが、何泊でのご利用でしょうか？		0	0	0																									
+9167	174	9	user	２泊です。	要求	0	0	0	1432	9167	0	2	２泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9168	174	10	agent	かしこまりました。		0	0	0																									
+9169	174	11	agent	ご予算の方はどのくらいでお考えでしょうか？		0	0	0																									
+9170	174	12	user	一人当たり２万円で考えています。	要求	0	0	0	1433	9170	5	3	２万円	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	3_strong	2_neutral	2_neutral	166	9170	0	2	一人	0						
+9171	174	13	agent	予算の方、かしこまりました。		0	0	0																									
+9172	174	14	agent	そうしましたら、民宿でお探ししてよろしいでしょうか？		0	0	0																									
+9173	174	15	user	できれば旅館のほうがありがたいです。	要求	0	0	0	1434	9173	4	2	旅館	宿	YATY:宿タイプ	1_weak	1_weak	1_weak									0						
+9174	174	16	agent	かしこまりました。		0	0	0																									
+9175	174	17	agent	旅館でお探ししますね。		0	0	0																									
+9176	174	18	agent	お部屋のタイプはいかがなさいましょうか？		0	0	0																									
+9177	174	19	user	特にこだわりはありません。	要求	0	0	0	1435	9177	0	12	特にこだわりはありません	部屋	HETY:部屋タイプ	1_weak	1_weak	1_weak									0						
+9178	174	20	agent	かしこまりました。		0	0	0																									
+9179	174	21	agent	お食事の方はいかがなさいましょうか？		0	0	0																									
+9180	174	22	user	朝食、夕食どちらもついているとありがたいです。	要求	0	0	0	1436	9180	0	5	朝食、夕食	食事	SYUM:食事有無	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+9181	174	23	agent	かしこまりました。		0	0	0																									
+9182	174	24	agent	朝夕食事付きでお探しします。		0	0	0																									
+9183	174	25	agent	夕食は郷土料理のコースでお探ししてよろしいでしょうか？		0	0	0																									
+9184	174	26	user	ぜひそれでお願いいたします。	はい	0	0	0																									
+9185	174	27	user	お酒の飲み放題もあるとうれしいです。	要求	0	0	0	1437	9185	0	7	お酒の飲み放題	食事	SYNA:食事内容	1_weak	2_neutral	1_weak		2_neutral	2_neutral						0						
+9186	174	28	agent	郷土料理とお酒の飲み放題ですね。		0	0	0																									
+9187	174	29	agent	かしこまりました。		0	0	0																									
+9188	174	30	agent	宿までのご移動はお車の予定でしょうか？		0	0	0																									
+9189	174	31	user	駅から宿までのバスがあると助かります。	要求	0	0	0	1438	9189	0	12	駅から宿までのバスがある	サービス	SESE:ホテルサービス	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+9190	174	32	agent	かしこまりました。		0	0	0																									
+9191	174	33	agent	シャトルバスがあることも条件に加えておきます。		0	0	0																									
+9192	174	34	agent	他にご要望はございますか？		0	0	0																									
+9193	174	35	user	特にございません。	いいえ	0	0	0																									
+9194	174	36	agent	かしこまりました。		0	0	0																									
+9195	174	37	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+9196	174	38	agent	・行先は岡山県		0	0	0																									
+9197	174	39	agent	・日程は９月８日から２泊		0	0	0																									
+9198	174	40	agent	・人数は大人２人		0	0	0																									
+9199	174	41	agent	・予算は１人当たり２万円		0	0	0																									
+9200	174	42	agent	・宿は旅館		0	0	0																									
+9201	174	43	agent	・朝夕食事付き		0	0	0																									
+9202	174	44	agent	・夕食は郷土料理のコース		0	0	0																									
+9203	174	45	agent	・お酒の飲み放題がある		0	0	0																									
+9204	174	46	agent	・シャトルバスの送迎がある		0	0	0																									

@@ -1,0 +1,71 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+6433	116	1	agent	この度はご利用いただきまして、誠にありがとうございます。		0	0	0																									
+6434	116	2	agent	ご宿泊のご相談を承ります。		0	0	0																									
+6435	116	3	agent	どのようなお宿をお探しでしょうか？		0	0	0																									
+6436	116	4	user	友人と３人で鳥取に観光に行こうと思っています。	要求	0	0	0	3360	6436	0	2	友人	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+6436	116	4	user	友人と３人で鳥取に観光に行こうと思っています。	要求	0	0	0	3361	6436	3	2	３人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+6436	116	4	user	友人と３人で鳥取に観光に行こうと思っています。	要求	0	0	0	3362	6436	6	2	鳥取	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+6436	116	4	user	友人と３人で鳥取に観光に行こうと思っています。	要求	0	0	0	3363	6436	9	2	観光	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+6437	116	5	user	４月上旬に３泊したいのですが、砂丘へのアクセスが良い宿を探しています。	要求	0	0	0	3364	6437	0	4	４月上旬	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	3_strong						0						
+6437	116	5	user	４月上旬に３泊したいのですが、砂丘へのアクセスが良い宿を探しています。	要求	0	0	0	3365	6437	5	2	３泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+6437	116	5	user	４月上旬に３泊したいのですが、砂丘へのアクセスが良い宿を探しています。	要求	0	0	0	3366	6437	15	11	砂丘へのアクセスが良い	立地	RIAC:立地 (アクティビティ)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+6438	116	6	agent	かしこまりました。		0	0	0																									
+6439	116	7	agent	それでは鳥取市内がよろしいかと思います。		0	0	0																									
+6440	116	8	agent	ご旅行はお車でお向かいになりますか？		0	0	0																									
+6441	116	9	agent	それとも公共交通機関をご利用でしょうか？		0	0	0																									
+6442	116	10	user	車で向かいます。	照応要求	0	0	0	3367	6440	4	2	お車	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	3_strong						0		214	6442	0	1	車
+6443	116	11	user	ですが、お酒が飲みたいので市街地に近いほうが嬉しいです。	要求	0	0	0	3368	6443	4	7	お酒が飲みたい	立地	RIEN:立地 (周辺環境)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+6443	116	11	user	ですが、お酒が飲みたいので市街地に近いほうが嬉しいです。	要求	0	0	0	3369	6443	13	6	市街地に近い	立地	RIEN:立地 (周辺環境)	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+6444	116	12	agent	かしこまりました。		0	0	0																									
+6445	116	13	agent	それでは、市街地のお宿をお調べします。		0	0	0																									
+6446	116	14	agent	お車とのことですので、無料駐車場のあるお宿はいかがでしょうか？		0	0	0																									
+6447	116	15	user	無料駐車場がある宿をぜひお願いします！	はい	0	0	0																									
+6448	116	16	user	あと、可能であればエステがある宿を希望します。	要求	0	0	0	3370	6448	9	3	エステ	施設	SHPO:施設条件 (プールスパ)	1_weak	1_weak	1_weak									0						
+6449	116	17	agent	かしこまりました。		0	0	0																									
+6450	116	18	agent	はい、エステのあるお宿をお調べします。		0	0	0																									
+6451	116	19	agent	女性の方ですと岩盤浴も人気です。		0	0	0																									
+6452	116	20	agent	岩盤浴のあるお宿はいかがでしょうか？		0	0	0																									
+6453	116	21	user	岩盤浴良いですね！	はい	0	0	0																									
+6454	116	22	user	それはありがたいです！	伝達	0	0	0																									
+6455	116	23	user	温泉もあるとなお嬉しいです。	要求	0	0	0	3371	6455	0	2	温泉	風呂	FUTY:風呂種類	1_weak	1_weak	1_weak									0						
+6456	116	24	agent	ありがとうございます。		0	0	0																									
+6457	116	25	agent	それでは、温泉も付いたお宿をお調べします。		0	0	0																									
+6458	116	26	agent	温泉ですが、お宿の大浴場でよろしいでしょうか？		0	0	0																									
+6459	116	27	agent	それとも貸切露天風呂があるお宿がよろしいでしょうか？		0	0	0																									
+6460	116	28	user	大浴場で大丈夫です。	照応要求	0	0	0	3372	6458	9	3	大浴場	風呂	FUTY:風呂種類	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0		215	6460	0	3	大浴場
+6461	116	29	user	あと、現地のおいしいものがディナーで食べられたらうれしいです。	要求	0	0	0	3373	6461	3	25	現地のおいしいものがディナーで食べられたらうれしい	食事	SYNA:食事内容	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+6461	116	29	user	あと、現地のおいしいものがディナーで食べられたらうれしいです。	要求	0	0	0	3374	6461	13	4	ディナー	食事	SYUM:食事有無	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+6462	116	30	agent	かしこまりました。		0	0	0																									
+6463	116	31	agent	お食事でございますね。		0	0	0																									
+6464	116	32	agent	日本海の獲れたてのお魚が美味しいかと思います。		0	0	0																									
+6465	116	33	agent	では、海鮮料理の夕食コース付きプランはいかがでしょうか？		0	0	0																									
+6466	116	34	user	素敵です！	伝達	0	0	0																									
+6467	116	35	user	ただ、３泊するので毎日違うものを食べたいのですが、可能でしょうか？	要求	0	0	0	3375	6467	3	2	３泊	スケジュール	SCNU:宿泊数	2_neutral	1_weak	2_neutral	3_strong		3_strong						0						
+6467	116	35	user	ただ、３泊するので毎日違うものを食べたいのですが、可能でしょうか？	要求	0	0	0	3376	6467	9	11	毎日違うものを食べたい	食事	SYNA:食事内容	2_neutral	1_weak	1_weak	2_neutral								0						
+6468	116	36	agent	かしこまりました。		0	0	0																									
+6469	116	37	agent	それでは、コースではなく、名物料理の入ったバイキング形式のお食事はいかがでしょうか？		0	0	0																									
+6470	116	38	agent	連続でも飽きずにお召し上がりいただけるかと思います。		0	0	0																									
+6471	116	39	user	たとえば、最終日の夜だけバイキング形式のディナーをお願いすることはできますか？	要求	0	0	0	3377	6471	12	5	バイキング	食事	SYNA:食事内容	1_weak	1_weak	1_weak				399	6471	5	7	最終日の夜だけ	0						
+6471	116	39	user	たとえば、最終日の夜だけバイキング形式のディナーをお願いすることはできますか？	要求	0	0	0	3378	6471	20	4	ディナー	食事	SYUM:食事有無	1_weak	1_weak	1_weak									0						
+6472	116	40	agent	かしこまりました。		0	0	0																									
+6473	116	41	agent	では、海鮮料理の夕食とバイキング形式の夕食の両方をお召し上がりいただけるお宿をお探しいたします。		0	0	0																									
+6474	116	42	agent	最後にお部屋についてですが、皆さまご一緒の１室でよろしいでしょうか？		0	0	0																									
+6475	116	43	agent	和室・洋室のご希望もございましたら、お聞かせください。		0	0	0																									
+6476	116	44	user	ありがとうございます。	その他	0	0	0																									
+6477	116	45	user	全員同室で問題ありません。	はい	0	0	0																									
+6478	116	46	user	ゆっくりしたいので、和室でお願いします。	照応要求	0	0	0	3379	6478	0	7	ゆっくりしたい	部屋	HEEN:部屋環境	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+6478	116	46	user	ゆっくりしたいので、和室でお願いします。	照応要求	0	0	0	3380	6475	0	2	和室	部屋	HETY:部屋タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0		216	6478	10	2	和室
+6479	116	47	agent	かしこまりました。		0	0	0																									
+6480	116	48	agent	では、和室１室でお探しします。		0	0	0																									
+6481	116	49	agent	ご希望をお聞かせくださり、ありがとうございました。		0	0	0																									
+6482	116	50	agent	それでは以下の条件でお調べしますので、よろしくお願いいたします。		0	0	0																									
+6483	116	51	agent	・日付は４月上旬。		0	0	0																									
+6484	116	52	agent	・宿泊日数は３泊。		0	0	0																									
+6485	116	53	agent	・宿泊地は鳥取市内。		0	0	0																									
+6486	116	54	agent	・人数は大人３名。		0	0	0																									
+6487	116	55	agent	・部屋タイプ／数は和室１室。		0	0	0																									
+6488	116	56	agent	・市街地の宿を希望。		0	0	0																									
+6489	116	57	agent	・無料駐車場のある宿を希望。		0	0	0																									
+6490	116	58	agent	・エステと岩盤浴のある宿を希望。		0	0	0																									
+6491	116	59	agent	・温泉大浴場がある宿を希望。		0	0	0																									
+6492	116	60	agent	・食事は海鮮料理の夕食とバイキング形式の夕食の両方が食べられる宿を希望。		0	0	0																									

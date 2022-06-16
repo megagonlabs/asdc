@@ -1,0 +1,50 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+7956	147	1	agent	この度のご利用、誠にありがとうございます。		0	0	0																									
+7957	147	2	agent	お客様のお宿探しのお手伝いをいたします。		0	0	0																									
+7958	147	3	agent	お客様のご希望をお聞かせいただけますでしょうか？		0	0	0																									
+7959	147	4	user	１１月１４日に大阪でコンサートがあるので、友人と３人で１４日から１泊で大阪城ホールの近くのホテルを探しています。	要求	0	0	0	2453	7959	0	6	１１月１４日	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7959	147	4	user	１１月１４日に大阪でコンサートがあるので、友人と３人で１４日から１泊で大阪城ホールの近くのホテルを探しています。	要求	0	0	0	2454	7959	7	2	大阪	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7959	147	4	user	１１月１４日に大阪でコンサートがあるので、友人と３人で１４日から１泊で大阪城ホールの近くのホテルを探しています。	要求	0	0	0	2455	7959	10	5	コンサート	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7959	147	4	user	１１月１４日に大阪でコンサートがあるので、友人と３人で１４日から１泊で大阪城ホールの近くのホテルを探しています。	要求	0	0	0	2456	7959	21	2	友人	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7959	147	4	user	１１月１４日に大阪でコンサートがあるので、友人と３人で１４日から１泊で大阪城ホールの近くのホテルを探しています。	要求	0	0	0	2457	7959	24	2	３人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7959	147	4	user	１１月１４日に大阪でコンサートがあるので、友人と３人で１４日から１泊で大阪城ホールの近くのホテルを探しています。	要求	0	0	0	2458	7959	32	2	１泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7959	147	4	user	１１月１４日に大阪でコンサートがあるので、友人と３人で１４日から１泊で大阪城ホールの近くのホテルを探しています。	要求	0	0	0	2459	7959	35	9	大阪城ホールの近く	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+7959	147	4	user	１１月１４日に大阪でコンサートがあるので、友人と３人で１４日から１泊で大阪城ホールの近くのホテルを探しています。	要求	0	0	0	2460	7959	45	3	ホテル	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+7960	147	5	agent	かしこまりました。		0	0	0																									
+7961	147	6	agent	ご予算の方はどのくらいでしょうか？		0	0	0																									
+7962	147	7	user	上限が８，０００円まででお願いします。	要求	0	0	0	2461	7962	3	8	８，０００円まで	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	1_weak						0						
+7963	147	8	agent	かしこまりました。		0	0	0																									
+7964	147	9	agent	大阪城ホールへのアクセス良いところだと大阪駅のホテルでお探ししてよろしいでしょうか？		0	0	0																									
+7965	147	10	user	谷町４丁目あたりでありませんか？	要求	0	0	0	2462	7965	0	8	谷町４丁目あたり	立地	RIBA:立地 (場所)	2_neutral	1_weak	2_neutral	1_weak		1_weak						0						
+7966	147	11	agent	かしこまりました。		0	0	0																									
+7967	147	12	agent	谷町四丁目付近でお探ししますね。		0	0	0																									
+7968	147	13	agent	ご予算が抑え目なので、ビジネスホテルはどうでしょうか？		0	0	0																									
+7969	147	14	user	はい、ビジネスホテルでお願いします。	はい	0	0	0																									
+7970	147	15	user	朝食もいりません。	要求	0	0	0	2466	7970	0	2	朝食	食事	SYUM:食事有無	2_neutral	3_strong	2_neutral	2_neutral		2_neutral						1						
+7971	147	16	agent	かしこまりました。		0	0	0																									
+7972	147	17	agent	どちらからお越しでしょうか？		0	0	0																									
+7973	147	18	user	東京から高速バスで来る予定です。	要求	0	0	0	2468	7973	4	4	高速バス	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	3_strong						0						
+7974	147	19	agent	東京からですね。		0	0	0																									
+7975	147	20	agent	かしこまりました。		0	0	0																									
+7976	147	21	agent	そうなりますと、高速バスも宿泊費に加えられている割引プランがあるホテルでお探ししてよろしいでしょうか？		0	0	0																									
+7977	147	22	user	あ、申し訳ございません、伝え漏れが。	伝達	0	0	0																									
+7978	147	23	user	うち、一人が名古屋の人なので、別の交通ルートから来るので高速バスの割引プランは使えないと思うので、大丈夫です。	いいえ	0	0	0																									
+7979	147	24	agent	さようでございますか。		0	0	0																									
+7980	147	25	agent	そうしましたら、東京からお越しになる２名様だけおつけすることができるので加えておきます。		0	0	0																									
+7981	147	26	agent	名古屋からお越しなる方はお車ででしょうか？		0	0	0																									
+7982	147	27	user	名古屋の友人は近鉄で在来線で来ると言ってました。	要求	0	0	0	2471	7982	4	2	友人	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	2_neutral	3_strong	3_strong						0						
+7982	147	27	user	名古屋の友人は近鉄で在来線で来ると言ってました。	要求	0	0	0	2473	7982	7	6	近鉄で在来線	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	3_strong						0						
+7983	147	28	agent	かしこまりました。		0	0	0																									
+7984	147	29	agent	他にご要望はございますか？		0	0	0																									
+7985	147	30	user	チェックアウトが１１時までのところがあれば嬉しいです。	要求	0	0	0	2475	7985	0	13	チェックアウトが１１時まで	サービス	SEOU:チェックアウト条件	1_weak	1_weak	2_neutral			2_neutral						0						
+7986	147	31	agent	かしこまりました。		0	0	0																									
+7987	147	32	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+7988	147	33	agent	・行先は大阪府		0	0	0																									
+7989	147	34	agent	・人数は大人３人		0	0	0																									
+7990	147	35	agent	・日程は１１月１４日から１泊		0	0	0																									
+7991	147	36	agent	・予算は８千円		0	0	0																									
+7992	147	37	agent	・谷町四丁目付近のホテル		0	0	0																									
+7993	147	38	agent	・宿はビジネスホテル		0	0	0																									
+7994	147	39	agent	・食事はなし		0	0	0																									
+7995	147	40	agent	・高速バス交通費込みの割引があるホテルプランを東京から来る２名様に適用		0	0	0																									
+7996	147	41	agent	・チェックアウトが１１時まで		0	0	0																									

@@ -1,0 +1,69 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+315	7	1	agent	本日はご利用いただきまして、ありがとうございます。		0	0	0																									
+316	7	2	agent	ご宿泊のご相談を承ります。		0	0	0																									
+317	7	3	agent	お泊りになる地域、お日付、人数がお決まりでしたら、お聞かせいただけますでしょうか。		0	0	0																									
+318	7	4	user	夏休みに一泊旅行で、高知県へ行きたいと思っています。	要求	0	0	0	99	318	0	3	夏休み	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	1_weak	3_strong	3_strong						0						
+318	7	4	user	夏休みに一泊旅行で、高知県へ行きたいと思っています。	要求	0	0	0	100	318	4	2	一泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	2_neutral	3_strong	3_strong						0						
+318	7	4	user	夏休みに一泊旅行で、高知県へ行きたいと思っています。	要求	0	0	0	101	318	10	3	高知県	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+319	7	5	user	私たち夫婦と子供、夫の母の４名です。	要求	0	0	0	102	319	3	9	夫婦と子供、夫の母	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+319	7	5	user	私たち夫婦と子供、夫の母の４名です。	要求	0	0	0	103	319	13	2	４名	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+320	7	6	agent	かしこまりました。		0	0	0																									
+321	7	7	agent	具体的なお日付はお決まりでしょうか？		0	0	0																									
+322	7	8	user	８月１９日です	要求	0	0	0	104	322	0	5	８月１９日	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+323	7	9	agent	かしこまりました。		0	0	0																									
+324	7	10	agent	こちらのご宿泊は観光でのご利用でしょうか？		0	0	0																									
+325	7	11	user	そうです。	はい	0	0	0																									
+326	7	12	user	高知県は初めてなので、具体的な目的は決まっていないのですが。	伝達	0	0	0																									
+327	7	13	agent	さようでございますか。		0	0	0																									
+328	7	14	agent	お子様をお連れとのことですので、８月ですし、海水浴をお楽しみいただけるビーチが近くにあるお宿はいかがでしょうか？		0	0	0																									
+329	7	15	user	そうですね。	はい	0	0	0																									
+330	7	16	user	義母も昔よく夫を海水浴に連れて行ったと言っていましたから、全員で楽しめるかもしれません。	感想	0	0	0	105	330	8	3	海水浴	旅行	RYSC:旅行シーン	1_weak	2_neutral	1_weak		2_neutral							0						
+331	7	17	user	できれば宿からすぐビーチに出られれば最高ですね。	要求	0	0	0	106	331	7	9	すぐビーチに出られ	立地	RIAC:立地 (アクティビティ)	1_weak	1_weak	1_weak									0						
+332	7	18	agent	かしこまりました。		0	0	0																									
+333	7	19	agent	それでは、ビーチが近くにあるお宿でお調べいたします。		0	0	0																									
+334	7	20	agent	お部屋のほうは、いかがでしょう。		0	0	0																									
+335	7	21	agent	海沿いですので、オーシャンビューのお部屋ですと、大人の方もお楽しみいただけるかと思います。		0	0	0																									
+336	7	22	user	ぜひオーシャンビューでお願いします。	照応要求	0	0	0	107	335	8	8	オーシャンビュー	部屋	HEEN:部屋環境	3_strong	3_strong	3_strong			2_neutral						0		82	336	2	8	オーシャンビュー
+337	7	23	user	部屋割りは４人部屋か、２人部屋を取るか迷っているのですが、お得なプランがある宿はありますか？	要求	0	0	0	108	337	5	4	４人部屋	部屋	HETY:部屋タイプ	2_neutral	1_weak	2_neutral	2_neutral		1_weak						0						
+337	7	23	user	部屋割りは４人部屋か、２人部屋を取るか迷っているのですが、お得なプランがある宿はありますか？	要求	0	0	0	109	337	11	4	２人部屋	部屋	HETY:部屋タイプ	2_neutral	1_weak	2_neutral	2_neutral		1_weak						0						
+337	7	23	user	部屋割りは４人部屋か、２人部屋を取るか迷っているのですが、お得なプランがある宿はありますか？	要求	0	0	0	110	337	29	6	お得なプラン	サービス	SESE:ホテルサービス	1_weak	1_weak	1_weak	2_neutral								0						
+338	7	24	agent	かしこまりました。		0	0	0																									
+339	7	25	agent	ホテルですと２人部屋を２室がよろしいかと思います。		0	0	0																									
+340	7	26	agent	旅館ですと、４人部屋がお求めやすいお値段となります。		0	0	0																									
+341	7	27	agent	どちらかご希望はございますでしょうか？		0	0	0																									
+342	7	28	user	そうですね。	その他	0	0	0																									
+343	7	29	user	子供とお年寄りがいるので、食事はバイキングで好きなものを選べる方が良さそうです。	要求	0	0	0	111	343	0	2	子供	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+343	7	29	user	子供とお年寄りがいるので、食事はバイキングで好きなものを選べる方が良さそうです。	要求	0	0	0	112	343	3	4	お年寄り	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+343	7	29	user	子供とお年寄りがいるので、食事はバイキングで好きなものを選べる方が良さそうです。	要求	0	0	0	113	343	16	5	バイキング	食事	SYNA:食事内容	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+344	7	30	user	そうなると、ホテルでしょうか。	照応要求	0	0	0	114	339	0	3	ホテル	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0		83	344	6	3	ホテル
+345	7	31	agent	かしこまりました。		0	0	0																									
+346	7	32	agent	それではホテルで２人部屋を２室お調べいたします。		0	0	0																									
+347	7	33	agent	お食事ですが、ご夕食はバイキングをご用意いたします。		0	0	0																									
+348	7	34	agent	朝食はいかがいたしましょうか？		0	0	0																									
+349	7	35	agent	和食・洋食などのご希望はございますか？		0	0	0																									
+350	7	36	user	朝食もバイキングのホテルをお願いします。	要求	0	0	0	115	350	3	5	バイキング	食事	SYNA:食事内容	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	17	350	0	2	朝食	0						
+350	7	36	user	朝食もバイキングのホテルをお願いします。	要求	0	0	0	116	350	0	2	朝食	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+351	7	37	agent	かしこまりました。		0	0	0																									
+352	7	38	agent	他にご希望はございますでしょうか？		0	0	0																									
+353	7	39	user	ビーチパラソルや浮き輪など、海水浴の備品をレンタルできるホテルがあればいいのですが。	要求	0	0	0	117	353	0	28	ビーチパラソルや浮き輪など、海水浴の備品をレンタルできる	サービス	SESE:ホテルサービス	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+353	7	39	user	ビーチパラソルや浮き輪など、海水浴の備品をレンタルできるホテルがあればいいのですが。	要求	0	0	0	118	353	28	3	ホテル	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+354	7	40	agent	承知しました。		0	0	0																									
+355	7	41	agent	それでは、ビーチのアクティビティ用の備品貸出サービスのあるホテルをお調べいたします。		0	0	0																									
+356	7	42	user	お願いします。	その他	0	0	0																									
+357	7	43	user	あと、空港や駅から送迎サービスがあれば助かります。	要求	0	0	0	119	357	3	12	空港や駅から送迎サービス	サービス	SESE:ホテルサービス	1_weak	1_weak	1_weak			2_neutral						0						
+358	7	44	agent	承知しました。		0	0	0																									
+359	7	45	agent	それでは、最寄りの駅・空港から送迎サービスのあるホテルをお探しいたします。		0	0	0																									
+360	7	46	agent	ご希望をお聞かせくださり、ありがとうございました。		0	0	0																									
+361	7	47	agent	それでは以下の条件でお調べします。		0	0	0																									
+362	7	48	agent	・日付は８月１９日。		0	0	0																									
+363	7	49	agent	・宿泊数は１泊。		0	0	0																									
+364	7	50	agent	・場所は高知県。		0	0	0																									
+365	7	51	agent	・宿タイプはホテル。		0	0	0																									
+366	7	52	agent	・人数は４人。		0	0	0																									
+367	7	53	agent	うち子ども１人。		0	0	0																									
+368	7	54	agent	・部屋数は２人部屋を２室。		0	0	0																									
+369	7	55	agent	・ビーチが近くにある宿を希望。		0	0	0																									
+370	7	56	agent	・ビーチのアクティビティ用の備品貸出サービスのあるホテルを希望。		0	0	0																									
+371	7	57	agent	・オーシャンビューの部屋を希望。		0	0	0																									
+372	7	58	agent	・食事は夕食・朝食ともにバイキングを希望。		0	0	0																									
+373	7	59	agent	・最寄りの駅・空港から送迎サービスのあるホテルを希望。		0	0	0																									

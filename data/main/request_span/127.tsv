@@ -1,0 +1,53 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+7117	127	1	user	４月２０日から４泊で長崎での宿泊を考えています。	要求	0	0	0	3192	7117	0	7	４月２０日から	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7117	127	1	user	４月２０日から４泊で長崎での宿泊を考えています。	要求	0	0	0	3193	7117	7	2	４泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7117	127	1	user	４月２０日から４泊で長崎での宿泊を考えています。	要求	0	0	0	3194	7117	10	2	長崎	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7118	127	2	agent	かしこまりました。		0	0	0																									
+7119	127	3	agent	何名様でのご利用でしょうか？		0	0	0																									
+7120	127	4	user	大人２名です。	要求	0	0	0	3195	7120	0	4	大人２名	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7121	127	5	agent	かしこまりました。		0	0	0																									
+7122	127	6	agent	宿のタイプはいかがいたしましょうか。		0	0	0																									
+7123	127	7	agent	旅館、民宿、リゾートホテルとございます。		0	0	0																									
+7124	127	8	user	宿のタイプは特にこだわりはありません。	要求	0	0	0	3196	7124	6	12	特にこだわりはありません	宿	YATY:宿タイプ	1_weak	1_weak	1_weak									0						
+7125	127	9	user	ただ、ベットで休めるお部屋でお願いしたいです。	要求	0	0	0	3197	7125	3	7	ベットで休める	部屋	HETY:部屋タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+7126	127	10	agent	かしこまりました。		0	0	0																									
+7127	127	11	agent	そうなると、ご予算の方はどのくらいでお考えでしょうか？		0	0	0																									
+7128	127	12	user	１名２万円くらいでお願いできたらと思います。	要求	0	0	0	3198	7128	2	6	２万円くらい	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	1_weak	1_weak	1_weak	375	7128	0	2	１名	0						
+7129	127	13	agent	かしこまりました。		0	0	0																									
+7130	127	14	agent	そうなると温泉もついてベッドで休める洋室がある旅館はいかがでしょうか？		0	0	0																									
+7131	127	15	user	温泉、いいですね！	はい	0	0	0																									
+7132	127	16	user	長崎市内への移動がしやすいとありがたいのですが、近い場所になりますか？	要求	0	0	0	3200	7132	0	13	長崎市内への移動がしやすい	立地	RIBA:立地 (場所)	1_weak	1_weak	1_weak									0						
+7133	127	17	agent	市内に近い旅館をお考えなのですね。		0	0	0																									
+7134	127	18	agent	かしこまりました。		0	0	0																									
+7135	127	19	agent	その条件でお探しします。		0	0	0																									
+7136	127	20	agent	移動の方は電車をご利用でよろしいでしょうか？		0	0	0																									
+7137	127	21	user	はい、基本的に移動は電車で考えています。	はい	0	0	0																									
+7138	127	22	user	教会群を観光する予定です。	要求	0	0	0	3201	7138	0	8	教会群を観光する	立地	RIAC:立地 (アクティビティ)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+7139	127	23	agent	かしこまりました。		0	0	0																									
+7140	127	24	agent	そうなると駅とも近い旅館も条件として併せてお探ししますね。		0	0	0																									
+7141	127	25	user	ありがとうございます！	その他	0	0	0																									
+7142	127	26	agent	お花見のシーズンですが、お花見をするご予定はございますか？		0	0	0																									
+7143	127	27	user	近くにお花見ができるような場所があれば、寄りたいと考えています。	要求	0	0	0	3202	7143	0	15	近くにお花見ができるような場所	立地	RIAC:立地 (アクティビティ)	1_weak	2_neutral	1_weak		2_neutral							0						
+7144	127	28	agent	かしこまりました。		0	0	0																									
+7145	127	29	agent	お花見ができる公園に近い旅館も条件に加えておきますね。		0	0	0																									
+7146	127	30	agent	お食事の方なのですがいかがいたしましょうか？		0	0	0																									
+7147	127	31	agent	夕食抜き等お選びいただけますが。		0	0	0																									
+7148	127	32	user	１泊目は夜ご飯付き、２泊目以降は夕食抜きは可能でしょうか？	要求	0	0	0	3203	7148	4	3	夜ご飯	食事	SYUM:食事有無	2_neutral	1_weak	1_weak	2_neutral			376	7148	0	3	１泊目	0						
+7148	127	32	user	１泊目は夜ご飯付き、２泊目以降は夕食抜きは可能でしょうか？	要求	0	0	0	3204	7148	16	2	夕食	食事	SYUM:食事有無	2_neutral	1_weak	1_weak	2_neutral			377	7148	10	5	２泊目以降	1						
+7149	127	33	agent	かしこまりました。		0	0	0																									
+7150	127	34	agent	その条件でお探ししますね。		0	0	0																									
+7151	127	35	agent	他にご要望はございますか？		0	0	0																									
+7152	127	36	user	今のところ、お伝えした内容で大丈夫です。	いいえ	0	0	0																									
+7153	127	37	agent	ありがとうございます。		0	0	0																									
+7154	127	38	agent	かしこまりました。		0	0	0																									
+7155	127	39	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+7156	127	40	agent	・行先は長崎		0	0	0																									
+7157	127	41	agent	・日にちは４月２０日から４泊		0	0	0																									
+7158	127	42	agent	・人数は大人２名		0	0	0																									
+7159	127	43	agent	・予算は一人２万円		0	0	0																									
+7160	127	44	agent	・温泉付き旅館		0	0	0																									
+7161	127	45	agent	・部屋は洋室		0	0	0																									
+7162	127	46	agent	・市街地に近い旅館		0	0	0																									
+7163	127	47	agent	・駅に近い旅館		0	0	0																									
+7164	127	48	agent	・お花見ができる公園に近い旅館		0	0	0																									
+7165	127	49	agent	・１泊目は夜ご飯付き、２泊目以降は夕食抜き		0	0	0																									

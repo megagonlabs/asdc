@@ -1,0 +1,59 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+4372	81	1	agent	宿予約サービスのご利用ありがとうございます。		0	0	0																									
+4373	81	2	agent	宿について重視したい点をお聞かせください。		0	0	0																									
+4374	81	3	user	一人旅に徳島に行きたいと思ってます。	要求	0	0	0	2184	4374	0	3	一人旅	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+4374	81	3	user	一人旅に徳島に行きたいと思ってます。	要求	0	0	0	2185	4374	4	2	徳島	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+4375	81	4	user	一人旅でも安全で楽しめる宿を探して下さい。	要求	0	0	0	2186	4375	0	12	一人旅でも安全で楽しめる	宿	YAEN:宿環境	2_neutral	3_strong	2_neutral	1_weak		2_neutral						0						
+4376	81	5	agent	かしこまりました。		0	0	0																									
+4377	81	6	agent	徳島市内でよろしいでしょうか？		0	0	0																									
+4378	81	7	user	はい。	はい	0	0	0																									
+4379	81	8	user	宿は市内でお願いします。	はい	0	0	0																									
+4380	81	9	user	電車で観光しますので、駅の近くがいいです。	要求	0	0	0	2187	4380	3	2	観光	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+4380	81	9	user	電車で観光しますので、駅の近くがいいです。	要求	0	0	0	2188	4380	11	4	駅の近く	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+4381	81	10	agent	かしこまりました。		0	0	0																									
+4382	81	11	agent	それでは徳島市内で、徳島駅の近くのお宿をお調べします。		0	0	0																									
+4383	81	12	agent	ご宿泊のお日付と宿泊日数はお決まりでしょうか？		0	0	0																									
+4384	81	13	user	２月８日から３泊で考えてます。	要求	0	0	0	2189	4384	0	6	２月８日から	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+4384	81	13	user	２月８日から３泊で考えてます。	要求	0	0	0	2190	4384	6	2	３泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+4385	81	14	agent	承知しました。		0	0	0																									
+4386	81	15	agent	一人旅でも安全で楽しめるお宿をご希望とのことですが、具体的なご要望はございますでしょうか？		0	0	0																									
+4387	81	16	user	怪しげな繁華街の真ん中ではなく、駅から幹線道路か、商店街の街頭がある所で、駅から徒歩１０分以内ですかね。	要求	0	0	0	2191	4387	0	11	怪しげな繁華街の真ん中	立地	RIEN:立地 (周辺環境)	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						1						
+4387	81	16	user	怪しげな繁華街の真ん中ではなく、駅から幹線道路か、商店街の街頭がある所で、駅から徒歩１０分以内ですかね。	要求	0	0	0	2193	4387	37	10	駅から徒歩１０分以内	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+4387	81	16	user	怪しげな繁華街の真ん中ではなく、駅から幹線道路か、商店街の街頭がある所で、駅から徒歩１０分以内ですかね。	要求	0	0	0	2225	4387	16	7	駅から幹線道路	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+4387	81	16	user	怪しげな繁華街の真ん中ではなく、駅から幹線道路か、商店街の街頭がある所で、駅から徒歩１０分以内ですかね。	要求	0	0	0	2226	4387	25	9	商店街の街頭がある	立地	RIEN:立地 (周辺環境)	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+4388	81	17	agent	かしこまりました。		0	0	0																									
+4389	81	18	agent	お食事はいかがなさいますか？		0	0	0																									
+4390	81	19	user	あ、朝ごはんだけお願いします。	要求	0	0	0	2194	4390	2	6	朝ごはんだけ	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+4391	81	20	user	最終日は、朝ごはんもいりません。	要求	0	0	0	2195	4391	5	4	朝ごはん	食事	SYUM:食事有無	2_neutral	3_strong	2_neutral	2_neutral		2_neutral	259	4391	0	3	最終日	1						
+4392	81	21	agent	かしこまりました。		0	0	0																									
+4393	81	22	agent	では、朝食を２食のみご希望とのことで承ります。		0	0	0																									
+4394	81	23	agent	お部屋のタイプはシングルでよろしいでしょうか？		0	0	0																									
+4395	81	24	agent	ダブルルームのシングルユースですと、ごゆっくりお休みいただけます。		0	0	0																									
+4396	81	25	agent	いかがでしょうか？		0	0	0																									
+4397	81	26	user	シングルでいいです。	照応要求	0	0	0	2196	4394	8	4	シングル	部屋	HETY:部屋タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0		174	4397	0	4	シングル
+4398	81	27	user	因みに、禁煙で。	要求	0	0	0	2197	4398	4	2	禁煙	部屋	HEJO:部屋条件	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+4399	81	28	agent	承知しました。		0	0	0																									
+4400	81	29	agent	禁煙のシングルルームをお探しします。		0	0	0																									
+4401	81	30	agent	お部屋からの眺めなどはご希望はございますか？		0	0	0																									
+4402	81	31	agent	例えば高層階をご希望でしたら、お申し付けください。		0	0	0																									
+4403	81	32	user	はい、予算内であれば、高層階がいいです。	照応要求	0	0	0	2198	4402	3	3	高層階	部屋	HEEN:部屋環境	1_weak	2_neutral	1_weak		2_neutral		260	4403	3	3	予算内	0		175	4403	11	3	高層階
+4404	81	33	user	また、アメニティが充実してます。と言ってるようなホテルなら尚いいです。	要求	0	0	0	2200	4404	3	8	アメニティが充実	部屋	HEAM:部屋アメニティ	1_weak	1_weak	1_weak									0						
+4404	81	33	user	また、アメニティが充実してます。と言ってるようなホテルなら尚いいです。	要求	0	0	0	2201	4404	24	3	ホテル	宿	YATY:宿タイプ	1_weak	2_neutral	1_weak		2_neutral							0						
+4405	81	34	agent	かしこまりました。		0	0	0																									
+4406	81	35	agent	では、アメニティが充実したお宿をお調べします。		0	0	0																									
+4407	81	36	agent	ご予算はおいくらくらいでお考えでしょうか？		0	0	0																									
+4408	81	37	user	一泊１万以内であれば、いいなあと思ってます。	要求	0	0	0	2202	4408	2	4	１万以内	予算	YOYO:予算	1_weak	2_neutral	2_neutral		2_neutral	1_weak	261	4408	0	2	一泊	0						
+4409	81	38	agent	ご希望をお聞かせくださり、ありがとうございました。		0	0	0																									
+4410	81	39	agent	それでは以下の条件でお調べしますので、よろしくお願いいたします。		0	0	0																									
+4411	81	40	agent	・日付は２月８日。		0	0	0																									
+4412	81	41	agent	・宿泊日数は３泊。		0	0	0																									
+4413	81	42	agent	・宿泊地は徳島市内。		0	0	0																									
+4414	81	43	agent	・人数は大人１名。		0	0	0																									
+4415	81	44	agent	・予算は１泊１万円		0	0	0																									
+4416	81	45	agent	・部屋タイプはシングルルーム。		0	0	0																									
+4417	81	46	agent	・徳島駅から徒歩１０分以内の宿を希望。		0	0	0																									
+4418	81	47	agent	・駅から幹線道路か商店街の街灯がある場所を希望。		0	0	0																									
+4419	81	48	agent	・食事は朝食のみ付いたプランを希望で、最終日は不要。		0	0	0																									
+4420	81	49	agent	・禁煙ルームを希望。		0	0	0																									
+4421	81	50	agent	・高層階の部屋を希望。		0	0	0																									
+4422	81	51	agent	・アメニティが充実した宿を希望。		0	0	0																									

@@ -1,0 +1,73 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+6098	111	1	agent	この度はご利用いただきまして、誠にありがとうございます。		0	0	0																									
+6099	111	2	agent	ご宿泊のご相談を承ります。		0	0	0																									
+6100	111	3	agent	どのようなお宿をお探しでしょうか？		0	0	0																									
+6101	111	4	user	６月中旬に四国で３泊を考えてます。	要求	0	0	0	3447	6101	0	4	６月中旬	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	3_strong						0						
+6101	111	4	user	６月中旬に四国で３泊を考えてます。	要求	0	0	0	3448	6101	5	2	四国	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+6101	111	4	user	６月中旬に四国で３泊を考えてます。	要求	0	0	0	3449	6101	8	2	３泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+6102	111	5	user	大人４の女子会です。	要求	0	0	0	3450	6102	0	3	大人４	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+6102	111	5	user	大人４の女子会です。	要求	0	0	0	3451	6102	4	3	女子会	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+6103	111	6	agent	さようでございますか。		0	0	0																									
+6104	111	7	agent	四国のどちらにご宿泊なさいますか？		0	0	0																									
+6105	111	8	user	まだエリアは決めてないんですが、どこか海のそばの落ち着いた雰囲気の宿が希望です。	要求	0	0	0	3452	6105	19	4	海のそば	立地	RIAC:立地 (アクティビティ)	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+6105	111	8	user	まだエリアは決めてないんですが、どこか海のそばの落ち着いた雰囲気の宿が希望です。	要求	0	0	0	3453	6105	24	8	落ち着いた雰囲気	宿	YAEN:宿環境	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+6106	111	9	agent	かしこまりました。		0	0	0																									
+6107	111	10	agent	それでは、香川県の小豆島はいかがでしょうか？		0	0	0																									
+6108	111	11	agent	落ち着いた島で、ごゆっくりお休みいただけます。		0	0	0																									
+6109	111	12	user	そうですね。	その他	0	0	0																									
+6110	111	13	user	それでもいいですが、本土からの交通って頻繁にあるんでしょうか。	要求	0	0	0	3454	6110	10	14	本土からの交通って頻繁にある	立地	RIBA:立地 (場所)	1_weak	1_weak	1_weak									0						
+6111	111	14	agent	はい、高松から３０分～１時間おきに船が出ております。		0	0	0																									
+6112	111	15	agent	いかがでしょうか？		0	0	0																									
+6113	111	16	user	それならｏｋです。	はい	0	0	0																									
+6114	111	17	user	車ではないので、交通の便がいいところでお願いします。	要求	0	0	0	3455	6114	8	10	交通の便がいいところ	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+6115	111	18	agent	ありがとうございます。		0	0	0																									
+6116	111	19	agent	それでは、小豆島のフェリー乗り場から近いお宿をお調べします。		0	0	0																									
+6117	111	20	agent	４名様でのご宿泊とのことでしたが、お部屋はいくつご利用になりますか？		0	0	0																									
+6118	111	21	user	できれば４人部屋がいいです。	要求	0	0	0	3456	6118	4	4	４人部屋	部屋	HETY:部屋タイプ	1_weak	1_weak	1_weak									0						
+6119	111	22	user	だめならツイン２部屋で。	要求	0	0	0	3457	6119	4	3	ツイン	部屋	HETY:部屋タイプ	1_weak	1_weak	1_weak									0						
+6119	111	22	user	だめならツイン２部屋で。	要求	0	0	0	3458	6119	7	3	２部屋	部屋	HENU:部屋数	1_weak	1_weak	1_weak									0						
+6120	111	23	agent	かしこまりました。		0	0	0																									
+6121	111	24	agent	それでは、４人部屋かツインルーム２部屋でお調べします。		0	0	0																									
+6122	111	25	agent	海沿いをご希望とのことでしたが、海の見えるオーシャンビューのお部屋がよろしいでしょうか？		0	0	0																									
+6123	111	26	user	そうですね。	はい	0	0	0																									
+6124	111	27	user	できたらそれがいいです。	はい	0	0	0																									
+6125	111	28	user	料金によりけりですが。	要求	0	1	0	3459	6125	0	7	料金によりけり	予算	YOYO:予算	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+6126	111	29	agent	承知しました。		0	0	0																									
+6127	111	30	agent	ご予算はおいくらくらいでお宿をお探ししましょうか？		0	0	0																									
+6128	111	31	user	そうですね。	その他	0	0	0																									
+6129	111	32	user	だいたい１泊２万代だと助かります。	要求	0	0	0	3460	6129	6	3	２万代	予算	YOYO:予算	1_weak	2_neutral	2_neutral		1_weak	1_weak	405	6129	4	2	１泊	0						
+6130	111	33	agent	２万円は４名様全員でのご予算でしょうか？		0	0	0																									
+6131	111	34	agent	それともお一人様あたりでしょうか？		0	0	0																									
+6132	111	35	user	一人です。	照応要求	0	0	0	3464	6130	0	3	２万円	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	406	6132	0	2	一人	0						
+6133	111	36	agent	かしこまりました。		0	0	0																									
+6134	111	37	agent	お食事はいかがなさいますか？		0	0	0																									
+6135	111	38	agent	朝・夕２食付きのプランをご希望でしょうか？		0	0	0																									
+6136	111	39	user	そうですね。	その他	0	0	0																									
+6137	111	40	user	旅館のまわりって食事できる店とかありますか？	要求	0	0	0	3465	6137	8	6	食事できる店	立地	RIEN:立地 (周辺環境)	1_weak	1_weak	1_weak									0						
+6138	111	41	user	あれば夕食のみでいいです。	要求	0	0	0	3466	6138	3	4	夕食のみ	食事	SYUM:食事有無	1_weak	2_neutral	2_neutral		2_neutral	2_neutral	407	6137	8	6	食事できる店	0						
+6139	111	42	agent	かしこまりました。		0	0	0																									
+6140	111	43	agent	それでは、夕食のみ付いたプランで、かつ飲食店が近くにあるお宿をお探しします。		0	0	0																									
+6141	111	44	agent	ほかにご希望はございますでしょうか？		0	0	0																									
+6142	111	45	user	こじんまりした大人の雰囲気の宿が希望です。	要求	0	0	0	3467	6142	0	13	こじんまりした大人の雰囲気	宿	YAEN:宿環境	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+6143	111	46	user	団体や親子連れのいないところ。	要求	0	0	0	3468	6143	0	11	団体や親子連れのいない	宿	YAEN:宿環境	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+6144	111	47	agent	承知しました。		0	0	0																									
+6145	111	48	agent	それでは、落ち着いた雰囲気のお宿をお探しします。		0	0	0																									
+6146	111	49	agent	最後に、禁煙・喫煙ルームのご希望はございますでしょうか？		0	0	0																									
+6147	111	50	user	禁煙でお願いします。	照応要求	0	0	0	3469	6146	4	2	禁煙	部屋	HEJO:部屋条件	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0		207	6147	0	2	禁煙
+6148	111	51	agent	かしこまりました。		0	0	0																									
+6149	111	52	agent	それでは禁煙ルームをお探しします。		0	0	0																									
+6150	111	53	agent	ご希望をお聞かせくださり、ありがとうございました。		0	0	0																									
+6151	111	54	agent	それでは以下の条件でお調べしますので、よろしくお願いいたします。		0	0	0																									
+6152	111	55	agent	・日付は６月上旬。		0	0	0																									
+6153	111	56	agent	・宿泊日数は３泊。		0	0	0																									
+6154	111	57	agent	・宿泊地は香川県の小豆島。		0	0	0																									
+6155	111	58	agent	・人数は大人４名。		0	0	0																									
+6156	111	59	agent	・部屋は４人部屋かツインルーム２部屋。		0	0	0																									
+6157	111	60	agent	・オーシャンビューの部屋を希望。		0	0	0																									
+6158	111	61	agent	・海のそばの宿を希望。		0	0	0																									
+6159	111	62	agent	・フェリー乗り場から近い宿。		0	0	0																									
+6160	111	63	agent	・予算は１人１泊２万円台。		0	0	0																									
+6161	111	64	agent	・食事は夕食のみ付いたプランを希望。		0	0	0																									
+6162	111	65	agent	・飲食店が近くにある宿を希望。		0	0	0																									
+6163	111	66	agent	・落ち着いた雰囲気の宿を希望。		0	0	0																									
+6164	111	67	agent	・禁煙ルームを希望。		0	0	0																									

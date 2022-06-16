@@ -1,0 +1,61 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+9766	188	1	agent	本日はご利用いただきまして、ありがとうございます。		0	0	0																									
+9767	188	2	agent	ご宿泊のご相談を承ります。		0	0	0																									
+9768	188	3	agent	お泊りになる地域、お日付、人数がお決まりでしたら、お聞かせいただけますでしょうか。		0	0	0																									
+9769	188	4	user	５月に友人達と３人で奈良に行こうと思っています。	要求	0	0	0	713	9769	0	2	５月	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	2_neutral	3_strong	3_strong						0						
+9769	188	4	user	５月に友人達と３人で奈良に行こうと思っています。	要求	0	0	0	714	9769	3	2	友人	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9769	188	4	user	５月に友人達と３人で奈良に行こうと思っています。	要求	0	0	0	715	9769	7	2	３人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9769	188	4	user	５月に友人達と３人で奈良に行こうと思っています。	要求	0	0	0	716	9769	10	2	奈良	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9770	188	5	user	車は運転できないので、観光地へ行きやすい宿がいいかなと思っています。	要求	0	0	0	717	9770	11	9	観光地へ行きやすい	立地	RIAC:立地 (アクティビティ)	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+9771	188	6	agent	観光地にアクセスしやすい宿ですね。		0	0	0																									
+9772	188	7	agent	かしこまりました。		0	0	0																									
+9773	188	8	agent	そうしましたら、主要駅の奈良駅近くの宿をお探ししましょうか？		0	0	0																									
+9774	188	9	user	駅の近くでもいいのですが、送迎だったりバス停の近くでしたら少し離れていても大丈夫です。	要求	0	0	0	718	9774	0	4	駅の近く	立地	RIBA:立地 (場所)	1_weak	1_weak	1_weak									0						
+9774	188	9	user	駅の近くでもいいのですが、送迎だったりバス停の近くでしたら少し離れていても大丈夫です。	要求	0	0	0	719	9774	29	11	少し離れていても大丈夫	立地	RIBA:立地 (場所)	1_weak	1_weak	1_weak				426	9774	13	2	送迎	0						
+9774	188	9	user	駅の近くでもいいのですが、送迎だったりバス停の近くでしたら少し離れていても大丈夫です。	要求	0	0	0	719	9774	29	11	少し離れていても大丈夫	立地	RIBA:立地 (場所)	1_weak	1_weak	1_weak				427	9774	19	6	バス停の近く	0						
+9774	188	9	user	駅の近くでもいいのですが、送迎だったりバス停の近くでしたら少し離れていても大丈夫です。	要求	0	0	0	721	9774	13	2	送迎	サービス	SESE:ホテルサービス	1_weak	1_weak	2_neutral			2_neutral						0						
+9775	188	10	user	風情のある宿がいいので。	要求	0	0	0	724	9775	0	5	風情のある	宿	YAEN:宿環境	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	1_weak						0						
+9776	188	11	agent	かしこまりました。		0	0	0																									
+9777	188	12	agent	そうしましたら、駅までの送迎がある宿でお探ししますね。		0	0	0																									
+9778	188	13	agent	お日にちが五月とのこですが、ご利用の泊数を教えていただいてよろしいでしょうか？		0	0	0																									
+9779	188	14	user	５月２１日から３泊の予定です。	要求	0	0	0	725	9779	0	5	５月２１日	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9779	188	14	user	５月２１日から３泊の予定です。	要求	0	0	0	727	9779	7	2	３泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9780	188	15	agent	お日にちの方、かしこまりました。		0	0	0																									
+9781	188	16	agent	ご予算の方はどのくらいでお考えでしょうか？		0	0	0																									
+9782	188	17	user	そうですね、予算はあまり気にしていません。	要求	0	0	0	730	9782	6	14	予算はあまり気にしていません	予算	YOYO:予算	1_weak	1_weak	1_weak									0						
+9783	188	18	user	奈良に来たことが感じられるような、雰囲気のある宿でしたら。	要求	0	0	0	732	9783	0	2	奈良	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9783	188	18	user	奈良に来たことが感じられるような、雰囲気のある宿でしたら。	要求	0	0	0	737	9783	0	13	奈良に来たことが感じられる	宿	YAEN:宿環境	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+9783	188	18	user	奈良に来たことが感じられるような、雰囲気のある宿でしたら。	要求	0	0	0	738	9783	17	6	雰囲気のある	宿	YAEN:宿環境	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	1_weak						0						
+9784	188	19	agent	かしこまりました。		0	0	0																									
+9785	188	20	agent	そうしましたら、奈良の老舗の旅館でお探ししましょうか？		0	0	0																									
+9786	188	21	user	いいですね、そういう宿に泊まってみたいです。	はい	0	0	0																									
+9787	188	22	user	有名だったり、ガイドブックに載っているような宿だと気分が上がります。	要求	0	0	0	735	9787	0	2	有名	宿	YAEN:宿環境	1_weak	2_neutral	2_neutral		2_neutral	1_weak						0						
+9787	188	22	user	有名だったり、ガイドブックに載っているような宿だと気分が上がります。	要求	0	0	0	741	9787	7	12	ガイドブックに載っている	宿	YAEN:宿環境	1_weak	2_neutral	2_neutral		2_neutral	1_weak						0						
+9788	188	23	agent	かしこまりました。		0	0	0																									
+9789	188	24	agent	さらに有名な旅館であることも条件に加えておきますね。		0	0	0																									
+9790	188	25	agent	お食事の方はいかがなさいましょうか？		0	0	0																									
+9791	188	26	user	食事は外で食べ歩きをすると思うので、夜はいらないです。	要求	0	0	0	743	9791	18	1	夜	食事	SYUM:食事有無	2_neutral	3_strong	2_neutral	2_neutral		2_neutral						1						
+9791	188	26	user	食事は外で食べ歩きをすると思うので、夜はいらないです。	要求	0	0	0	745	9791	3	9	外で食べ歩きをする	立地	RIEN:立地 (周辺環境)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+9792	188	27	user	朝は簡単でいいので、バイキングがあると嬉しいです。	要求	0	0	0	746	9792	0	1	朝	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+9792	188	27	user	朝は簡単でいいので、バイキングがあると嬉しいです。	要求	0	0	0	748	9792	10	5	バイキング	食事	SYNA:食事内容	1_weak	2_neutral	1_weak		2_neutral	2_neutral						0						
+9793	188	28	user	地元の食材を使ったような、こだわりのある食事だとさらにいいかなと。	要求	0	0	0	750	9793	0	5	地元の食材	食事	SYNA:食事内容	1_weak	2_neutral	1_weak		2_neutral							0						
+9793	188	28	user	地元の食材を使ったような、こだわりのある食事だとさらにいいかなと。	要求	0	0	0	751	9793	13	9	こだわりのある食事	食事	SYNA:食事内容	1_weak	2_neutral	1_weak		2_neutral							0						
+9794	188	29	agent	かしこまりました。		0	0	0																									
+9795	188	30	agent	食事はそれらの条件でお探しますね。		0	0	0																									
+9796	188	31	agent	他にご要望はございますか？		0	0	0																									
+9797	188	32	user	歩いていける範囲でコンビニがあると助かります。	要求	0	0	0	752	9797	0	16	歩いていける範囲でコンビニがある	立地	RIEN:立地 (周辺環境)	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+9798	188	33	user	夜はお酒を買いに行ったり、女性３人なので、足りない化粧品など急に必要な物が出てくるかもしれないので。	要求	0	0	0	753	9798	13	2	女性	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9798	188	33	user	夜はお酒を買いに行ったり、女性３人なので、足りない化粧品など急に必要な物が出てくるかもしれないので。	要求	0	0	0	754	9798	15	2	３人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9799	188	34	agent	かしこまりました。		0	0	0																									
+9800	188	35	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+9801	188	36	agent	・行先は奈良県		0	0	0																									
+9802	188	37	agent	・人数は大人３人		0	0	0																									
+9803	188	38	agent	・駅までの送迎がある		0	0	0																									
+9804	188	39	agent	・日程は５月２１日から３泊		0	0	0																									
+9805	188	40	agent	・宿は旅館		0	0	0																									
+9806	188	41	agent	・老舗の旅館		0	0	0																									
+9807	188	42	agent	・有名な旅館		0	0	0																									
+9808	188	43	agent	・食事は朝のみ		0	0	0																									
+9809	188	44	agent	・バイキング形式		0	0	0																									
+9810	188	45	agent	・地元の食材を使った食事		0	0	0																									
+9811	188	46	agent	・近くにコンビニがある		0	0	0																									

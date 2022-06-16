@@ -1,0 +1,64 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+6544	118	1	agent	いらっしゃいませ。		0	0	0																									
+6545	118	2	agent	ご利用いただきまして、ありがとうございます。		0	0	0																									
+6546	118	3	agent	ご宿泊先をお探しいたします。		0	0	0																									
+6547	118	4	agent	どのようなお宿をご希望でしょうか？		0	0	0																									
+6548	118	5	user	お世話になります。	その他	0	0	0																									
+6549	118	6	user	１月中旬に奈良に３泊、友人と泊まりで旅行しようと思っています。	要求	0	0	0	3323	6549	0	4	１月中旬	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	3_strong						0						
+6549	118	6	user	１月中旬に奈良に３泊、友人と泊まりで旅行しようと思っています。	要求	0	0	0	3324	6549	5	2	奈良	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+6549	118	6	user	１月中旬に奈良に３泊、友人と泊まりで旅行しようと思っています。	要求	0	0	0	3325	6549	8	2	３泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+6549	118	6	user	１月中旬に奈良に３泊、友人と泊まりで旅行しようと思っています。	要求	0	0	0	3326	6549	11	2	友人	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+6550	118	7	user	歴史のある旅館？が良いのですが、おすすめはありませんか？	要求	0	0	0	3327	6550	0	5	歴史のある	宿	YAEN:宿環境	2_neutral	1_weak	1_weak	1_weak								0						
+6550	118	7	user	歴史のある旅館？が良いのですが、おすすめはありませんか？	要求	0	0	0	3328	6550	5	2	旅館	宿	YATY:宿タイプ	2_neutral	1_weak	1_weak	2_neutral								0						
+6551	118	8	agent	ありがとうございます。		0	0	0																									
+6552	118	9	agent	奈良へのご旅行とのことですが、どのような場所がよろしいか、ご希望はございますでしょうか？		0	0	0																									
+6553	118	10	user	寺社仏閣を見たいのですが、レンタカーで移動しやすいところが良いです。	要求	0	0	0	3329	6553	0	4	寺社仏閣	立地	RIAC:立地 (アクティビティ)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+6553	118	10	user	寺社仏閣を見たいのですが、レンタカーで移動しやすいところが良いです。	要求	0	0	0	3330	6553	13	12	レンタカーで移動しやすい	立地	RIAC:立地 (アクティビティ)	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral	396	6553	0	4	寺社仏閣	0						
+6554	118	11	user	場所はこだわりません。	要求	0	0	0	3331	6554	0	10	場所はこだわりません	立地	RIBA:立地 (場所)	1_weak	1_weak	1_weak									0						
+6555	118	12	agent	かしこまりました。		0	0	0																									
+6556	118	13	agent	それでは、奈良市内でお調べしましょう。		0	0	0																									
+6557	118	14	agent	レンタカーはご自身で手配なさいますか？		0	0	0																									
+6558	118	15	agent	それともレンタカーの手配サービスのあるお宿がよろしいでしょうか？		0	0	0																									
+6559	118	16	user	ありがとうございます。	その他	0	0	0																									
+6560	118	17	user	レンタカー手配サービスのある宿をお願いします。	照応要求	0	0	0	3333	6558	4	12	レンタカーの手配サービス	サービス	SESE:ホテルサービス	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0		218	6560	0	11	レンタカー手配サービス
+6561	118	18	user	一人外国人がいるので、英語対応の宿が希望です。	要求	0	0	0	3334	6561	0	5	一人外国人	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+6561	118	18	user	一人外国人がいるので、英語対応の宿が希望です。	要求	0	0	0	3335	6561	11	4	英語対応	宿	YAEN:宿環境	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+6562	118	19	agent	かしこまりました。		0	0	0																									
+6563	118	20	agent	それでは、英語を話せるスタッフのいるお宿をお探しします。		0	0	0																									
+6564	118	21	agent	歴史ある旅館をご希望でしたが、お宿によっては例えば日本の伝統文化の体験コース付きプランなどもございます。		0	0	0																									
+6565	118	22	agent	いかがでしょうか？		0	0	0																									
+6566	118	23	user	そうですね。	その他	0	0	0																									
+6567	118	24	user	体験コース付きプランも気になります。	感想	0	0	0	3336	6567	0	10	体験コース付きプラン	サービス	SESE:ホテルサービス	1_weak	2_neutral	1_weak		2_neutral							0						
+6568	118	25	user	ただ、建築に興味がある人なので、歴史のある旅館のほうが優先順位は高いです。	要求	0	0	0	3337	6568	16	5	歴史のある	宿	YAEN:宿環境	2_neutral	3_strong	2_neutral	1_weak		2_neutral						0						
+6568	118	25	user	ただ、建築に興味がある人なので、歴史のある旅館のほうが優先順位は高いです。	要求	0	0	0	3338	6568	21	2	旅館	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+6569	118	26	agent	さようでございますか。		0	0	0																									
+6570	118	27	agent	それでは、念のため体験コース付きのプランもお調べしておいて、歴史のある旅館を優先してお調べします。		0	0	0																									
+6571	118	28	agent	今回のご宿泊ですが、何名様になりますでしょうか？		0	0	0																									
+6572	118	29	user	ありがとうございます。	その他	0	0	0																									
+6573	118	30	user	私を含めて大人４名になります。	要求	0	0	0	3339	6573	5	4	大人４名	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+6574	118	31	agent	かしこまりました。		0	0	0																									
+6575	118	32	agent	では、お部屋ですが、皆さまお布団でお休みになる和室でよろしいでしょうか？		0	0	0																									
+6576	118	33	agent	それとも、ベッドとお布団の両方がある和洋室もございますが、ご希望はございますでしょうか？		0	0	0																									
+6577	118	34	user	ベッド、布団についてはこだわりませんので、４人で一部屋にしていただけると嬉しいです。	要求	0	1	0	3340	6577	0	18	ベッド、布団についてはこだわりません	部屋	HETY:部屋タイプ	1_weak	1_weak	1_weak									0						
+6577	118	34	user	ベッド、布団についてはこだわりませんので、４人で一部屋にしていただけると嬉しいです。	要求	0	1	0	3341	6577	24	3	一部屋	部屋	HENU:部屋数	2_neutral	2_neutral	2_neutral	2_neutral	3_strong	2_neutral	397	6577	21	2	４人	0						
+6578	118	35	user	あと、朝ご飯が館内で食べられると助かります。	要求	0	0	0	3342	6578	3	3	朝ご飯	食事	SYUM:食事有無	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+6579	118	36	agent	かしこまりました。		0	0	0																									
+6580	118	37	agent	それでは４名１室のお部屋をお探しします。		0	0	0																									
+6581	118	38	agent	朝食付きのプランをご希望とのことですが、お食事はお部屋でお召し上がりになりますか？		0	0	0																									
+6582	118	39	agent	それとも食事会場でよろしいでしょうか？		0	0	0																									
+6583	118	40	agent	コロナのご心配もあるかと思いますので、お部屋出しのお宿もお探しできます。		0	0	0																									
+6584	118	41	user	そうですね、お部屋でいただけるお宿のほうが嬉しいです！	照応要求	0	0	0	3343	6581	20	7	お食事はお部屋	食事	SYUM:食事有無	1_weak	2_neutral	2_neutral		2_neutral	2_neutral	441	6584	6	9	お部屋でいただける	0		219	6584	6	9	お部屋でいただける
+6585	118	42	user	お気遣いありがとうございます。	その他	0	0	0																									
+6586	118	43	agent	ご希望をお聞かせくださり、ありがとうございました。		0	0	0																									
+6587	118	44	agent	それでは以下の条件でお調べしますので、よろしくお願いいたします。		0	0	0																									
+6588	118	45	agent	・日付は１月中旬。		0	0	0																									
+6589	118	46	agent	・宿泊日数は３泊。		0	0	0																									
+6590	118	47	agent	・宿泊地は奈良市内。		0	0	0																									
+6591	118	48	agent	・人数は大人４名。		0	0	0																									
+6592	118	49	agent	・宿タイプは歴史のある旅館を希望。		0	0	0																									
+6593	118	50	agent	・部屋タイプ／数は和・洋どちらでもよい。		0	0	0																									
+6594	118	51	agent	１室。		0	0	0																									
+6595	118	52	agent	・食事は部屋出しの朝食付きのプランを希望。		0	0	0																									
+6596	118	53	agent	・レンタカーの手配サービスのある宿を希望。		0	0	0																									
+6597	118	54	agent	・英語を話せるスタッフのいる宿を希望。		0	0	0																									
+6598	118	55	agent	・日本の伝統文化の体験コース付きプランを希望。		0	0	0																									

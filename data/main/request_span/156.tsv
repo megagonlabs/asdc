@@ -1,0 +1,48 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+8366	156	1	agent	この度のご利用、誠にありがとうございます。		0	0	0																									
+8367	156	2	agent	お客様のお宿探しのお手伝いをいたします。		0	0	0																									
+8368	156	3	agent	お客様のご希望をお聞かせいただけますでしょうか？		0	0	0																									
+8369	156	4	user	大人一人で大阪フェスティバルホールでコンサートに行った後１泊する宿を探しております。	要求	0	0	0	2318	8369	0	4	大人一人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8369	156	4	user	大人一人で大阪フェスティバルホールでコンサートに行った後１泊する宿を探しております。	要求	0	0	0	2319	8369	5	12	大阪フェスティバルホール	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	3_strong	3_strong	2_neutral						0						
+8369	156	4	user	大人一人で大阪フェスティバルホールでコンサートに行った後１泊する宿を探しております。	要求	0	0	0	2320	8369	18	5	コンサート	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8369	156	4	user	大人一人で大阪フェスティバルホールでコンサートに行った後１泊する宿を探しております。	要求	0	0	0	2321	8369	28	2	１泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8370	156	5	user	日程は７／１９です。	要求	0	0	0	2322	8370	3	4	７／１９	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8371	156	6	agent	大阪府でのお探しですね。		0	0	0																									
+8372	156	7	agent	かしこまりました。		0	0	0																									
+8373	156	8	agent	フェスティバルホールの最寄り駅付近のお宿をお探してよろしいでしょうか？		0	0	0																									
+8374	156	9	user	はい、予算は７千円位が希望なので、フェスティバルホールから歩いて１５分位の範囲であればＯＫです。	要求	0	0	0	2323	8374	6	4	７千円位	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	1_weak	1_weak	1_weak						0						
+8374	156	9	user	はい、予算は７千円位が希望なので、フェスティバルホールから歩いて１５分位の範囲であればＯＫです。	要求	0	0	0	2324	8374	17	19	フェスティバルホールから歩いて１５分位	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	1_weak						0						
+8375	156	10	agent	かしこまりました。		0	0	0																									
+8376	156	11	agent	そうしましたら、朝夕食事なしですが大阪駅にあるビジネスホテルはいかがでしょうか？		0	0	0																									
+8377	156	12	user	はい、食事なしで大丈夫です。	はい	0	0	0																									
+8378	156	13	user	近くに夕食をテイクアウトできるお店があると助かります。	要求	0	0	0	2325	8378	0	20	近くに夕食をテイクアウトできるお店がある	立地	RIEN:立地 (周辺環境)	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+8378	156	13	user	近くに夕食をテイクアウトできるお店があると助かります。	要求	0	0	0	3528	8378	3	2	夕食	食事	SYUM:食事有無	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						1						
+8379	156	14	agent	かしこまりました。		0	0	0																									
+8380	156	15	agent	そちらの条件でお探ししますね。		0	0	0																									
+8381	156	16	agent	予約のお日にちが先なので早割が適用されるホテルでお探してよろしいでしょうか？		0	0	0																									
+8382	156	17	user	はい、早割適用されるホテルでお願いします。	はい	0	0	0																									
+8383	156	18	agent	かしこまりました。		0	0	0																									
+8384	156	19	agent	大阪までのご移動は新幹線でしょうか？		0	0	0																									
+8385	156	20	user	はい、新幹線です。	はい	0	0	0																									
+8386	156	21	agent	そうしましたら、新幹線の交通費込みのホテルも条件でお探してよろしいでしょうか？		0	0	0																									
+8387	156	22	user	はい、比較したいので条件に入れてください。	はい	0	0	0																									
+8388	156	23	agent	かしこまりました。		0	0	0																									
+8389	156	24	agent	条件に加えておきますね。		0	0	0																									
+8390	156	25	agent	他にご要望はございますか？		0	0	0																									
+8391	156	26	user	よろしくお願いします。	その他	0	0	0																									
+8392	156	27	user	他には、お部屋に無料のＷｉ－Ｆｉがあると助かります。	要求	0	0	0	2326	8392	8	8	無料のＷｉ－Ｆｉ	部屋	HESE:部屋設備	1_weak	2_neutral	1_weak		2_neutral							0						
+8393	156	28	user	それと可能であれば、チェックインが早め（１４時位）で日中休めると良いです。	要求	0	0	0	2327	8393	10	15	チェックインが早め（１４時位）	サービス	SEIN:チェックイン条件	1_weak	1_weak	1_weak									0						
+8394	156	29	agent	かしこまりました。		0	0	0																									
+8395	156	30	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+8396	156	31	agent	・行先は大阪府		0	0	0																									
+8397	156	32	agent	・人数は大人１人		0	0	0																									
+8398	156	33	agent	・日程は７月１９日に１泊		0	0	0																									
+8399	156	34	agent	・予算は７０００円ほど		0	0	0																									
+8400	156	35	agent	・朝夕食事なし		0	0	0																									
+8401	156	36	agent	・大阪フェスティバルホールから歩いて１５分圏内		0	0	0																									
+8402	156	37	agent	・大阪駅にあるビジネスホテル		0	0	0																									
+8403	156	38	agent	・夕食のテイクアウトができる		0	0	0																									
+8404	156	39	agent	・早割が適用できるホテル		0	0	0																									
+8405	156	40	agent	・新幹線の交通費込みのホテル		0	0	0																									
+8406	156	41	agent	・Ｗｉ－Ｆｉ無料で完備		0	0	0																									
+8407	156	42	agent	・チェックインが早めにできる		0	0	0																									

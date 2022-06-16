@@ -1,0 +1,77 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+6026	110	1	agent	この度はご利用いただきまして、誠にありがとうございます。		0	0	0																									
+6027	110	2	agent	ご宿泊のご相談を承ります。		0	0	0																									
+6028	110	3	agent	どのようなお宿をお探しでしょうか？		0	0	0																									
+6029	110	4	user	８月中旬に京都へ３泊したいんです。	要求	0	0	0	3470	6029	0	4	８月中旬	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	3_strong						0						
+6029	110	4	user	８月中旬に京都へ３泊したいんです。	要求	0	0	0	3471	6029	5	2	京都	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+6029	110	4	user	８月中旬に京都へ３泊したいんです。	要求	0	0	0	3472	6029	8	2	３泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+6030	110	5	user	大人です。	要求	0	0	0	3473	6030	0	2	大人	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+6031	110	6	user	夫婦です。	要求	0	0	0	3474	6031	0	2	夫婦	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+6032	110	7	user	エリアはまだ決めてないんですが、嵐山あたりがいいかなと思ってます。	要求	0	0	0	3475	6032	16	5	嵐山あたり	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	1_weak	1_weak	1_weak						0						
+6033	110	8	user	あまり暑くないところがいいんですが、落ち着いた雰囲気がいいです。	要求	0	0	0	3476	6033	0	7	あまり暑くない	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	1_weak						0						
+6033	110	8	user	あまり暑くないところがいいんですが、落ち着いた雰囲気がいいです。	要求	0	0	0	3477	6033	18	8	落ち着いた雰囲気	宿	YAEN:宿環境	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+6034	110	9	agent	かしこまりました。		0	0	0																									
+6035	110	10	agent	それでは、嵐山周辺でお宿をお探しします。		0	0	0																									
+6036	110	11	agent	お宿のタイプはホテル、旅館、どちらがよろしいでしょうか？		0	0	0																									
+6037	110	12	user	そうですね。	その他	0	0	0																									
+6038	110	13	user	落ち着いた和風の旅館がいいです	照応要求	0	0	0	3480	6038	0	7	落ち着いた和風	宿	YAEN:宿環境	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+6038	110	13	user	落ち着いた和風の旅館がいいです	照応要求	0	0	0	3481	6036	11	2	旅館	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0		206	6038	8	2	旅館
+6039	110	14	agent	承知しました。		0	0	0																									
+6040	110	15	agent	それでは旅館をお探しします。		0	0	0																									
+6041	110	16	agent	お部屋も和室でよろしいでしょうか？		0	0	0																									
+6042	110	17	agent	旅館にも洋室がございますが、いかがなさいますか？		0	0	0																									
+6043	110	18	user	そうですね。	はい	0	0	0																									
+6044	110	19	user	できたら写真とか見られると助かるんですが、	伝達	0	0	0																									
+6046	110	21	agent	かしこまりました。		0	0	0																									
+6047	110	22	agent	それでは和室をお調べします。		0	0	0																									
+6048	110	23	agent	お食事はいかがなさいますか？		0	0	0																									
+6049	110	24	user	そうですね。	その他	0	0	0																									
+6050	110	25	user	あった方がいいかなあ。	照応要求	0	0	0	3482	6048	1	2	食事	食事	SYUM:食事有無	1_weak	2_neutral	1_weak		2_neutral							0		42	6050	0	7	あった方がいい
+6051	110	26	user	旅館のまわりってそういう店ありますか？	要求	0	0	0	3483	6051	8	5	そういう店	立地	RIEN:立地 (周辺環境)	1_weak	1_weak	1_weak									0	＃範囲外「食事」					
+6052	110	27	agent	もしお客様が外食をご希望でしたら、周辺に飲食店のあるお宿をお調べします。		0	0	0																									
+6053	110	28	agent	いかがなさいますか？		0	0	0																									
+6054	110	29	user	そうですね。	その他	0	0	0																									
+6055	110	30	user	車ではないので、そういうところがいいです。	はい	0	0	0																									
+6056	110	31	agent	かしこまりました。		0	0	0																									
+6057	110	32	agent	それでは、周辺に飲食店のあるお宿をお探しします。		0	0	0																									
+6058	110	33	agent	お車ではないとのことですが、京都駅からの送迎サービスのあるお宿がよろしいでしょうか？		0	0	0																									
+6059	110	34	user	できたらそれで。	はい	0	0	0																									
+6060	110	35	user	送迎費って込みなんですか？	確認	0	0	0																									
+6061	110	36	agent	はい、サービスですので無料でございます。		0	0	0																									
+6062	110	37	agent	それでは送迎サービスのあるお宿をお探しします。		0	0	0																									
+6063	110	38	agent	館内施設に関しまして、ご希望はございますでしょうか？		0	0	0																									
+6064	110	39	user	そうですね。	その他	0	0	0																									
+6065	110	40	user	親子連れが少ないところで大人の雰囲気ならいいです。	要求	0	0	0	3484	6065	0	8	親子連れが少ない	宿	YAEN:宿環境	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+6065	110	40	user	親子連れが少ないところで大人の雰囲気ならいいです。	要求	0	0	0	3485	6065	12	6	大人の雰囲気	宿	YAEN:宿環境	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+6066	110	41	user	個室温泉とかあったらうれしいですが。	要求	0	0	0	3486	6066	0	4	個室温泉	風呂	FUTY:風呂種類	1_weak	1_weak	2_neutral			2_neutral						0						
+6067	110	42	agent	かしこまりました。		0	0	0																									
+6068	110	43	agent	それでは、落ち着いた雰囲気のお宿をお探しします。		0	0	0																									
+6069	110	44	agent	個室温泉をご希望とのことですので、貸切露天風呂のあるお宿をお調べしましょうか？		0	0	0																									
+6070	110	45	user	お願いします。	はい	0	0	0																									
+6071	110	46	agent	承知しました。		0	0	0																									
+6072	110	47	agent	ご予算はおいくらくらいでお考えでしょうか？		0	0	0																									
+6073	110	48	user	相場がわからないんですが、教えてください。	質問	0	0	0																									
+6074	110	49	agent	落ち着いた雰囲気をご希望となりますと、１人１泊１万円程度になります。		0	0	0																									
+6075	110	50	agent	いかがでしょうか？		0	0	0																									
+6076	110	51	user	そうですか。	その他	0	0	0																									
+6077	110	52	user	案外安いんですね。	感想	0	0	0	3487	6077	2	2	安い	予算	YOKA:予算感	1_weak	1_weak	1_weak									0						
+6078	110	53	user	それでお願いします。	はい	0	0	0																									
+6079	110	54	agent	ありがとうございます。		0	0	0																									
+6080	110	55	agent	禁煙・喫煙ルームのご希望はございますでしょうか？		0	0	0																									
+6081	110	56	user	禁煙でお願いします。	照応要求	0	0	0	3488	6080	0	2	禁煙	部屋	HEJO:部屋条件	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0		205	6081	0	2	禁煙
+6082	110	57	agent	かしこまりました。		0	0	0																									
+6083	110	58	agent	禁煙ルームでお調べします。		0	0	0																									
+6084	110	59	agent	ご希望をお聞かせくださり、ありがとうございました。		0	0	0																									
+6085	110	60	agent	それでは以下の条件でお調べしますので、よろしくお願いいたします。		0	0	0																									
+6086	110	61	agent	・日付は８月中旬。		0	0	0																									
+6087	110	62	agent	・宿泊日数は３泊。		0	0	0																									
+6088	110	63	agent	・宿泊地は京都の嵐山周辺。		0	0	0																									
+6089	110	64	agent	・人数は大人２名。		0	0	0																									
+6090	110	65	agent	・宿タイプは旅館。		0	0	0																									
+6091	110	66	agent	・部屋タイプは和室を希望。		0	0	0																									
+6092	110	67	agent	・周辺に飲食店のある宿を希望。		0	0	0																									
+6093	110	68	agent	・京都駅から送迎サービスのある宿を希望。		0	0	0																									
+6094	110	69	agent	・落ち着いた雰囲気の宿を希望。		0	0	0																									
+6095	110	70	agent	・貸切露天風呂のある宿を希望。		0	0	0																									
+6096	110	71	agent	・予算は１人１泊１万円。		0	0	0																									
+6097	110	72	agent	・禁煙ルームを希望。		0	0	0																									

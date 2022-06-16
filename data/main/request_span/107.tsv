@@ -1,0 +1,71 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+5830	107	1	agent	この度のご利用、誠にありがとうございます。		0	0	0																									
+5831	107	2	agent	お客様のお宿探しのお手伝いをいたします。		0	0	0																									
+5832	107	3	agent	お客様のご希望をお聞かせいただけますでしょうか？		0	0	0																									
+5833	107	4	user	子どもの夏休みに家族で栃木の方に行きたいと思っていて、宿を探しています。	要求	0	0	0	2977	5833	4	3	夏休み	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	2_neutral	3_strong	3_strong						0						
+5833	107	4	user	子どもの夏休みに家族で栃木の方に行きたいと思っていて、宿を探しています。	要求	0	0	0	2978	5833	8	2	家族	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+5833	107	4	user	子どもの夏休みに家族で栃木の方に行きたいと思っていて、宿を探しています。	要求	0	0	0	2979	5833	11	2	栃木	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+5834	107	5	agent	かしこまりました。		0	0	0																									
+5835	107	6	agent	観光でのご宿泊かと思いますが、どのような場所がよいか、ご希望はございますでしょうか？		0	0	0																									
+5836	107	7	user	自然に囲まれたところだったらいいかなと思っています。	要求	0	0	0	2980	5836	0	7	自然に囲まれた	宿	YAEN:宿環境	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+5837	107	8	user	東京からいくので、地方の夏をこどもに体験させてあげたいです。	要求	0	0	0	2981	5837	9	18	地方の夏をこどもに体験させてあげたい	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	3_strong						0						
+5838	107	9	agent	さようでございますか。		0	0	0																									
+5839	107	10	agent	自然に囲まれたところとなりますと、日光はいかがでしょうか？		0	0	0																									
+5840	107	11	agent	華厳の滝など、有名な自然の名所が数多くございます。		0	0	0																									
+5841	107	12	agent	涼しげで夏にぴったりではないでしょうか。		0	0	0																									
+5842	107	13	user	いいですね、日光観光にしようと思います。	照応要求	0	0	0	2982	5842	6	4	日光観光	立地	RIAC:立地 (アクティビティ)	2_neutral	2_neutral	2_neutral	3_strong	3_strong	2_neutral						0						
+5842	107	13	user	いいですね、日光観光にしようと思います。	照応要求	0	0	0	3521	5839	17	2	日光	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0		199	5842	6	2	日光
+5843	107	14	agent	ありがとうございます。		0	0	0																									
+5844	107	15	agent	ご家族でのご旅行とのことですが、大人の方とお子様はそれぞれ何名様でしょうか？		0	0	0																									
+5845	107	16	user	大人は自分だけで、子どもは３人連れていきます。	要求	0	0	0	2983	5845	3	4	自分だけ	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+5845	107	16	user	大人は自分だけで、子どもは３人連れていきます。	要求	0	0	0	2984	5845	13	2	３人	人数	NIKO:子供人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+5846	107	17	agent	かしこまりました。		0	0	0																									
+5847	107	18	agent	それでは、大人１名様と子供３名様で承ります。		0	0	0																									
+5848	107	19	agent	お子様は小さいでしょうか？		0	0	0																									
+5849	107	20	agent	もし必要でしたら、ベビーカーの貸出のあるお宿をお調べします。		0	0	0																									
+5850	107	21	user	全員小学生なので、ベビーカーはいらなそうです。	いいえ	0	0	0																									
+5851	107	22	agent	かしこまりました。		0	0	0																									
+5852	107	23	agent	お部屋ですが、洋室ですと、皆さま小学生とのことですので、ベッドは単独でご利用になりますでしょうか？		0	0	0																									
+5853	107	24	agent	それとも和室でお布団を敷いて、お休みになりますか？		0	0	0																									
+5854	107	25	user	和室にお布団をしいてみんなで寝るのがよさそうですね。	照応要求	0	0	0	2985	5853	4	2	和室	部屋	HETY:部屋タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0		200	5854	0	2	和室
+5854	107	25	user	和室にお布団をしいてみんなで寝るのがよさそうですね。	照応要求	0	0	0	2986	5854	3	3	お布団	部屋	HETY:部屋タイプ	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+5855	107	26	agent	承知しました。		0	0	0																									
+5856	107	27	agent	それでは、和室１室で承ります。		0	0	0																									
+5857	107	28	agent	ところで、お日付と宿泊日数はお決まりでしょうか？		0	0	0																									
+5858	107	29	user	一応７月の上旬を考えていて、日数は２泊３日の予定です。	要求	0	0	0	2987	5858	2	5	７月の上旬	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	3_strong						0						
+5858	107	29	user	一応７月の上旬を考えていて、日数は２泊３日の予定です。	要求	0	0	0	2988	5858	17	4	２泊３日	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+5859	107	30	agent	かしこまりました。		0	0	0																									
+5860	107	31	agent	お宿の施設ですが、夏のお子様連れですと、プール付きが人気でございます。		0	0	0																									
+5861	107	32	agent	ご希望はございますでしょうか？		0	0	0																									
+5862	107	33	user	そうですね、プール付きだったら子どもが喜ぶと思います。	はい	0	0	0																									
+5863	107	34	agent	ありがとうございます。		0	0	0																									
+5864	107	35	agent	では、プール付きのお宿をお探しします。		0	0	0																									
+5865	107	36	agent	お食事はいかがなさいますか？		0	0	0																									
+5866	107	37	agent	お宿でご用意するのと外食、どちらがよろしいでしょうか？		0	0	0																									
+5867	107	38	user	宿で食事が出たらありがたいです。	照応要求	0	0	0	2989	5866	0	6	お宿でご用意	食事	SYUM:食事有無	1_weak	2_neutral	2_neutral		2_neutral	2_neutral	440	5865	0	3	お食事	0		201	5867	0	8	宿で食事が出たら
+5868	107	39	user	でも朝食は多分不要です。	要求	0	0	0	2990	5868	2	2	朝食	食事	SYUM:食事有無	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						1						
+5869	107	40	agent	かしこまりました。		0	0	0																									
+5870	107	41	agent	では、夕食のみ付いたプランをお調べします。		0	0	0																									
+5871	107	42	agent	お宿まではお車をご利用でしょうか？		0	0	0																									
+5872	107	43	agent	それとも、公共交通機関をご利用でしょうか？		0	0	0																									
+5873	107	44	user	宿までは、今のところ車で行こうと思っています。	照応要求	0	0	0	2991	5871	5	2	お車	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	3_strong						0		202	5873	10	1	車
+5874	107	45	agent	承知しました。		0	0	0																									
+5875	107	46	agent	では、無料駐車場の付いたお宿がよろしいでしょうか？		0	0	0																									
+5876	107	47	user	はい、無料だと助かります。	はい	0	0	0																									
+5877	107	48	agent	かしこまりました。		0	0	0																									
+5878	107	49	agent	ほかにご希望はございますでしょうか？		0	0	0																									
+5879	107	50	user	子どもが３人いるので子ども料金にはなると思うのですが、２泊で３万代に抑えられればと思ってます。	要求	0	0	0	2992	5879	4	2	３人	人数	NIKO:子供人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+5879	107	50	user	子どもが３人いるので子ども料金にはなると思うのですが、２泊で３万代に抑えられればと思ってます。	要求	0	0	0	2993	5879	30	3	３万代	予算	YOYO:予算	1_weak	2_neutral	2_neutral		2_neutral	1_weak	346	5879	27	2	２泊	0						
+5880	107	51	agent	承知しました。		0	0	0																									
+5881	107	52	agent	それでは、ご予算は２泊合計で３万円台で承ります。		0	0	0																									
+5882	107	53	agent	ご希望をお聞かせくださり、ありがとうございました。		0	0	0																									
+5883	107	54	agent	それでは以下の条件でお調べしますので、よろしくお願いいたします。		0	0	0																									
+5884	107	55	agent	・日付は７月上旬。		0	0	0																									
+5885	107	56	agent	・宿泊日数は２泊。		0	0	0																									
+5886	107	57	agent	・宿泊地は栃木県日光。		0	0	0																									
+5887	107	58	agent	・人数は大人１名、子供３名。		0	0	0																									
+5888	107	59	agent	・部屋タイプ／数は和室１室。		0	0	0																									
+5889	107	60	agent	・プール付きの宿を希望。		0	0	0																									
+5890	107	61	agent	・食事は夕食のみ付いたプランを希望。		0	0	0																									
+5891	107	62	agent	・無料駐車場付きの宿を希望。		0	0	0																									
+5892	107	63	agent	・予算は２泊合計で３万円台。		0	0	0																									

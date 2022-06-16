@@ -1,0 +1,65 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+3517	66	1	agent	宿予約サービスのご利用ありがとうございます。		0	0	0																									
+3518	66	2	agent	宿について重視したい点をお聞かせください。		0	0	0																									
+3519	66	3	user	大人１人、子供２人で長崎に行こうと考えています。	要求	0	0	0	1936	3519	2	2	１人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+3519	66	3	user	大人１人、子供２人で長崎に行こうと考えています。	要求	0	0	0	1937	3519	7	2	２人	人数	NIKO:子供人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+3519	66	3	user	大人１人、子供２人で長崎に行こうと考えています。	要求	0	0	0	1938	3519	10	2	長崎	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+3520	66	4	agent	かしこまりました。		0	0	0																									
+3521	66	5	agent	長崎の中で、どちらかご希望はございますでしょうか？		0	0	0																									
+3522	66	6	user	長崎市でお願いします。	要求	0	0	0	1939	3522	0	3	長崎市	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+3523	66	7	agent	かしこまりました。		0	0	0																									
+3524	66	8	agent	お日付と泊数はいかがなさいますか？		0	0	0																									
+3525	66	9	user	１０月上旬に三泊で考えています。	要求	0	0	0	1940	3525	0	5	１０月上旬	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	3_strong	1_weak	3_strong						0						
+3525	66	9	user	１０月上旬に三泊で考えています。	要求	0	0	0	1941	3525	6	2	三泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+3526	66	10	agent	承知しました。		0	0	0																									
+3527	66	11	agent	こちらのご宿泊は観光でのご利用でしょうか？		0	0	0																									
+3528	66	12	user	観光です。	はい	0	0	0																									
+3529	66	13	agent	さようでございますか。		0	0	0																									
+3530	66	14	agent	観光はお車でなさいますか？		0	0	0																									
+3531	66	15	agent	それとも公共交通機関をご利用でしょうか？		0	0	0																									
+3532	66	16	user	公共交通機関を考えています。	照応要求	0	0	0	1942	3531	4	6	公共交通機関	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	3_strong						0		151	3532	0	6	公共交通機関
+3533	66	17	agent	かしこまりました。		0	0	0																									
+3534	66	18	agent	それでは観光しやすいよう、ターミナル駅の近くのお宿はいかがでしょうか？		0	0	0																									
+3535	66	19	user	そちらでお願いします。	はい	0	0	0																									
+3536	66	20	agent	承知しました。		0	0	0																									
+3537	66	21	agent	お子様はお二人ともベッドをそれぞれご利用になりますか？		0	0	0																									
+3538	66	22	user	ツインルームで大丈夫です。	要求	0	0	0	1943	3538	0	6	ツインルーム	部屋	HETY:部屋タイプ	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+3539	66	23	agent	かしこまりました。		0	0	0																									
+3540	66	24	agent	ツインルームの中でも「ハリウッドツイン」というお部屋でしたら、ベッドを合体させることができますので、皆さまごゆったりとお休みになれます。		0	0	0																									
+3541	66	25	agent	いかがでしょうか？		0	0	0																									
+3542	66	26	user	ハリウッドツインをお願いします。	はい	0	0	0																									
+3543	66	27	agent	ありがとうございます。		0	0	0																									
+3544	66	28	agent	お食事はいかがなさいますか？		0	0	0																									
+3545	66	29	user	朝食、夕食付きがいいです。	要求	0	0	0	1944	3545	0	2	朝食	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+3545	66	29	user	朝食、夕食付きがいいです。	要求	0	0	0	1945	3545	3	2	夕食	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+3546	66	30	agent	かしこまりました。		0	0	0																									
+3547	66	31	agent	お子様お二人は大人の方と同じお食事でよろしいでしょうか？		0	0	0																									
+3548	66	32	agent	それともお子様用のお食事がよろしいでしょうか？		0	0	0																									
+3549	66	33	user	特に子供用である必要はありません。	照応要求	0	0	0	1946	3548	4	8	お子様用のお食事	子供	KOKO:子供用サービス	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						1		152	3549	2	3	子供用
+3550	66	34	agent	承知しました。		0	0	0																									
+3551	66	35	agent	ご宿泊までお日にちがございますが、早割プランのご希望はございますでしょうか？		0	0	0																									
+3552	66	36	agent	早割プランですと、キャンセルチャージが早く発生しますが、その代わり、お値段はお求めやすくなります。		0	0	0																									
+3553	66	37	user	キャンセルする可能性は低いので、早割プランにします。	はい	0	0	0																									
+3554	66	38	agent	かしこまりました。		0	0	0																									
+3555	66	39	agent	それでは早割プランをお調べします。		0	0	0																									
+3556	66	40	agent	長崎ですと、ちゃんぽんなど様々なお土産がございます。		0	0	0																									
+3557	66	41	agent	お土産付きプランというものもございますが、いかがでしょうか？		0	0	0																									
+3558	66	42	user	お土産は自分で選びたいので、お土産付きプランは遠慮しときます。	要求	0	0	0	1947	3558	14	8	お土産付きプラン	サービス	SESE:ホテルサービス	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						1						
+3559	66	43	agent	かしこまりました。		0	0	0																									
+3560	66	44	agent	ほかにご希望はございますでしょうか？		0	0	0																									
+3561	66	45	user	アメニティーが充実しているとありがたいです。	要求	0	0	0	1948	3561	0	13	アメニティーが充実している	部屋	HEAM:部屋アメニティ	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+3562	66	46	agent	かしこまりました。		0	0	0																									
+3563	66	47	agent	では、アメニティが充実したお宿をお探しします。		0	0	0																									
+3564	66	48	agent	他はいかがでしょうか？		0	0	0																									
+3565	66	49	user	以上でお願いします。	いいえ	0	0	0																									
+3566	66	50	agent	ご希望をお聞かせくださり、ありがとうございました。		0	0	0																									
+3567	66	51	agent	それでは以下の条件でお調べしますので、よろしくお願いいたします。		0	0	0																									
+3568	66	52	agent	・日付は１０月上旬。		0	0	0																									
+3569	66	53	agent	・宿泊日数は３泊。		0	0	0																									
+3570	66	54	agent	・宿泊地は長崎市。		0	0	0																									
+3571	66	55	agent	・人数は大人１名、子供２名。		0	0	0																									
+3572	66	56	agent	・ターミナル駅の近くの宿を希望。		0	0	0																									
+3573	66	57	agent	・部屋タイプはハリウッドツインを希望。		0	0	0																									
+3574	66	58	agent	・食事は朝・夕２食付きを希望。		0	0	0																									
+3575	66	59	agent	・早割プランを希望。		0	0	0																									
+3576	66	60	agent	・アメニティが充実した宿を希望。		0	0	0																									

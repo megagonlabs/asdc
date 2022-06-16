@@ -1,0 +1,74 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+2054	40	1	agent	いらっしゃいませ。		0	0	0																									
+2055	40	2	agent	ご利用ありがとうございます。		0	0	0																									
+2056	40	3	agent	ご宿泊先をお探しいたします。		0	0	0																									
+2057	40	4	agent	どのような条件をご希望でしょうか？		0	0	0																									
+2058	40	5	user	外国人と私を入れて大人４人で泊まれるところを探しています。	要求	0	0	0	1100	2058	0	3	外国人	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+2058	40	5	user	外国人と私を入れて大人４人で泊まれるところを探しています。	要求	0	0	0	1101	2058	11	2	４人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+2059	40	6	user	日本ぽさが感じられるところが良いのですが。	要求	0	0	0	1102	2059	0	10	日本ぽさが感じられる	宿	YAEN:宿環境	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+2060	40	7	agent	かしこまりました。		0	0	0																									
+2061	40	8	agent	それでは、お宿のタイプは旅館がよろしいでしょうか？		0	0	0																									
+2062	40	9	user	純日本風の、旅館が良いです。	要求	0	0	0	1104	2062	0	4	純日本風	宿	YAEN:宿環境	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+2062	40	9	user	純日本風の、旅館が良いです。	要求	0	0	0	1105	2062	6	2	旅館	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+2063	40	10	agent	かしこまりました。		0	0	0																									
+2064	40	11	agent	ご宿泊されるお日付と宿泊日数はお決まりでしょうか？		0	0	0																									
+2065	40	12	user	１月１９日から２泊でお願いします。	要求	0	0	0	1107	2065	0	7	１月１９日から	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+2065	40	12	user	１月１９日から２泊でお願いします。	要求	0	0	0	1109	2065	7	2	２泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+2066	40	13	agent	承知しました。		0	0	0																									
+2067	40	14	agent	どちらにお泊りになるか、地域などはご検討されてますでしょうか？		0	0	0																									
+2068	40	15	user	福井です。	要求	0	0	0	1111	2068	0	2	福井	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+2069	40	16	agent	かしこまりました。		0	0	0																									
+2070	40	17	agent	皆さま同じお部屋でお休みになりますか？		0	0	0																									
+2071	40	18	user	はい、大人４人で一部屋が希望です。	はい	0	0	0																									
+2072	40	19	agent	承知しました。		0	0	0																									
+2073	40	20	agent	日本らしさが感じられるところが良いとのことでしたが、お食事はいかがなさいますか？		0	0	0																									
+2074	40	21	agent	和食がよろしいでしょうか？		0	0	0																									
+2075	40	22	agent	それとも、お食事は洋食がよろしいでしょうか？		0	0	0																									
+2076	40	23	user	和食を希望します。	照応要求	0	0	0	1112	2074	0	2	和食	食事	SYNA:食事内容	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	3_strong						0		122	2076	0	2	和食
+2077	40	24	user	できれば部屋で食べたいのですが。	要求	0	0	0	1115	2077	4	7	部屋で食べたい	食事	SYUM:食事有無	1_weak	1_weak	1_weak									0						
+2078	40	25	agent	かしこまりました。		0	0	0																									
+2079	40	26	agent	それでは和食で、部屋出しのできるお宿をお調べいたします。		0	0	0																									
+2080	40	27	agent	同じく日本らしいものといえば温泉がございますが、こちらはいかがでしょうか？		0	0	0																									
+2081	40	28	user	露天風呂があるところを探していただけますか？	要求	0	0	0	1116	2081	0	4	露天風呂	風呂	FUTY:風呂種類	2_neutral	1_weak	1_weak	2_neutral								0						
+2082	40	29	agent	かしこまりました。		0	0	0																									
+2083	40	30	agent	露天風呂はお宿の公共のものでよろしいでしょうか？		0	0	0																									
+2084	40	31	agent	それとも、客室内の露天風呂がよろしいでしょうか？		0	0	0																									
+2085	40	32	user	公共のものが良いです。	照応要求	0	0	0	1117	2083	8	2	公共	風呂	FUTY:風呂種類	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	133	2084	9	4	露天風呂	0		123	2085	0	2	公共
+2086	40	33	agent	かしこまりました。		0	0	0																									
+2087	40	34	agent	スタッフが英語を話せるお宿がよろしいでしょうか？		0	0	0																									
+2088	40	35	agent	特にご希望はございますか。		0	0	0																									
+2089	40	36	user	そうですね。	その他	0	0	0																									
+2090	40	37	user	できれば、スタッフが英語と中国語に対応しているところのほうがありがたいです。	要求	0	0	0	1121	2090	5	18	スタッフが英語と中国語に対応している	宿	YAEN:宿環境	1_weak	1_weak	1_weak									0						
+2091	40	38	agent	承知しました。		0	0	0																									
+2092	40	39	agent	それでは、英語と中国語を話せるスタッフがいるお宿をお探しします。		0	0	0																									
+2093	40	40	agent	こちらのご旅行ですが、公共交通機関をご利用でしょうか？		0	0	0																									
+2094	40	41	agent	それとも、お車でしょうか？		0	0	0																									
+2095	40	42	user	公共交通機関を使っていく予定なのですが、現地でレンタカーを借りようと思っています。	要求	0	0	0	1122	2095	0	6	公共交通機関	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	3_strong						0						
+2095	40	42	user	公共交通機関を使っていく予定なのですが、現地でレンタカーを借りようと思っています。	要求	0	0	0	1124	2095	20	11	現地でレンタカーを借り	サービス	SESE:ホテルサービス	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	1_weak						0						
+2096	40	43	user	そちらの手配もお願いできますか？	質問	0	0	0																									
+2097	40	44	agent	さようでございますか。		0	0	0																									
+2098	40	45	agent	大変恐れ入りますが、私どもでは手配できません。		0	0	0																									
+2099	40	46	agent	ですが、レンタカーの手配サービスのあるお宿はお探しできます。		0	0	0																									
+2100	40	47	agent	いかがでしょうか？		0	0	0																									
+2101	40	48	user	それでお願いします！	はい	0	0	0																									
+2102	40	49	agent	かしこまりました。		0	0	0																									
+2103	40	50	agent	お宿までは公共交通機関かと思いますが、大人数ですので、最寄り駅から送迎サービスのあるお宿がよろしいでしょうか？		0	0	0																									
+2104	40	51	user	送迎してもらえると助かります。	はい	0	0	0																									
+2105	40	52	agent	かしこまりました。		0	0	0																									
+2106	40	53	agent	他にご希望はございますでしょうか？		0	0	0																									
+2107	40	54	agent	特にございませんでしたら、以上の条件でお宿をお調べいたします。		0	0	0																									
+2108	40	55	user	ないです。	いいえ	0	0	0																									
+2109	40	56	user	宜しくお願い致します。	その他	0	0	0																									
+2110	40	57	agent	ご希望をお聞かせくださり、ありがとうございました。		0	0	0																									
+2111	40	58	agent	それでは以下の条件でお調べしますので、よろしくお願いいたします。		0	0	0																									
+2112	40	59	agent	・日付は１月１９日。		0	0	0																									
+2113	40	60	agent	・宿泊日数は２泊。		0	0	0																									
+2114	40	61	agent	・宿泊地は福井。		0	0	0																									
+2115	40	62	agent	・人数は大人４人		0	0	0																									
+2116	40	63	agent	・宿のタイプは和風旅館を希望。		0	0	0																									
+2117	40	64	agent	・部屋数は１室。		0	0	0																									
+2118	40	65	agent	・食事は部屋出しの和食を希望。		0	0	0																									
+2119	40	66	agent	・露天風呂付きの宿を希望。		0	0	0																									
+2120	40	67	agent	・英語と中国語を話せるスタッフがいる宿を希望。		0	0	0																									
+2121	40	68	agent	・レンタカーの手配サービスのある宿を希望。		0	0	0																									
+2122	40	69	agent	・最寄り駅から送迎サービスのある宿を希望。		0	0	0																									

@@ -1,0 +1,51 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+7680	141	1	agent	本日はご利用いただきまして、ありがとうございます。		0	0	0																									
+7681	141	2	agent	ご宿泊のご相談を承ります。		0	0	0																									
+7682	141	3	agent	お泊りになる地域、お日付、人数がお決まりでしたら、お聞かせいただけますでしょうか。		0	0	0																									
+7683	141	4	user	秋田駅に近いホテル。	要求	0	0	0	2605	7683	6	3	ホテル	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+7683	141	4	user	秋田駅に近いホテル。	要求	0	0	0	2606	7683	0	6	秋田駅に近い	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+7684	141	5	user	４月１６日１泊。	要求	0	0	0	2607	7684	0	5	４月１６日	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7684	141	5	user	４月１６日１泊。	要求	0	0	0	2608	7684	5	2	１泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7685	141	6	user	シングル３部屋。	要求	0	0	0	2609	7685	0	4	シングル	部屋	HETY:部屋タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+7685	141	6	user	シングル３部屋。	要求	0	0	0	2610	7685	4	3	３部屋	部屋	HENU:部屋数	2_neutral	2_neutral	2_neutral	2_neutral	3_strong	2_neutral						0						
+7686	141	7	agent	かしこまりました。		0	0	0																									
+7687	141	8	agent	シングル３部屋とのことですが、人数を教えていただけますか？		0	0	0																									
+7688	141	9	user	大人３人です。	要求	0	0	0	2612	7688	0	4	大人３人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7689	141	10	agent	かしこまりました。		0	0	0																									
+7690	141	11	agent	ご予算の方はどのくらいでお考えでしょうか？		0	0	0																									
+7691	141	12	user	８０００円以内でお願いします。	要求	0	0	0	2613	7691	0	7	８０００円以内	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	1_weak						0						
+7692	141	13	user	朝食ありで夕食はなし希望です。	要求	0	0	0	2614	7692	0	2	朝食	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+7692	141	13	user	朝食ありで夕食はなし希望です。	要求	0	0	0	2615	7692	5	2	夕食	食事	SYUM:食事有無	2_neutral	3_strong	2_neutral	2_neutral		2_neutral						1						
+7693	141	14	agent	かしこまりました。		0	0	0																									
+7694	141	15	agent	お花見シーズンのご予約ですが、公園にアクセスしやすいホテルをお考えでしょうか？		0	0	0																									
+7695	141	16	user	いえ、出張なので大丈夫です。	要求	0	0	0	2616	7695	3	2	出張	旅行	RYSC:旅行シーン	1_weak	2_neutral	2_neutral		3_strong	3_strong						0						
+7696	141	17	user	レンタカーを借りたいので、出来れば駅とレンタカーショップが近いと助かります。	要求	0	0	0	2617	7696	17	14	駅とレンタカーショップが近い	立地	RIBA:立地 (場所)	1_weak	1_weak	1_weak									0						
+7697	141	18	agent	出張でのご利用ですね。		0	0	0																									
+7698	141	19	agent	かしこまりました。		0	0	0																									
+7699	141	20	agent	レンタカーのご利用でしたら、レンタカー利用が加えられたホテルの宿泊プランをお探ししましょうか？		0	0	0																									
+7700	141	21	user	助かります。	はい	0	0	0																									
+7701	141	22	agent	かしこまりました。		0	0	0																									
+7702	141	23	agent	夕食なしでしたら朝食サービスがあるビジネスホテルもお探しの条件に加えてよろしいでしょうか？		0	0	0																									
+7703	141	24	user	はい、特にこだわりはないので予算内であれば大丈夫です。	照応要求	0	0	0	2618	7703	14	3	予算内	予算	YOYO:予算	2_neutral	3_strong	3_strong	2_neutral		2_neutral						0						
+7703	141	24	user	はい、特にこだわりはないので予算内であれば大丈夫です。	照応要求	0	0	0	2622	7702	17	7	ビジネスホテル	宿	YATY:宿タイプ	1_weak	2_neutral	1_weak		2_neutral							0		67	7703	21	3	大丈夫
+7703	141	24	user	はい、特にこだわりはないので予算内であれば大丈夫です。	照応要求	0	0	0	3548	7702	8	2	朝食	食事	SYUM:食事有無	1_weak	1_weak	1_weak				435	7703	14	3	予算内	0		60	7703	21	3	大丈夫
+7704	141	25	user	あとＷｉ－Ｆｉが確実に使えるホテルでお願いします。	要求	0	0	0	2619	7704	2	12	Ｗｉ－Ｆｉが確実に使える	部屋	HESE:部屋設備	3_strong	2_neutral	3_strong		2_neutral							0						
+7704	141	25	user	あとＷｉ－Ｆｉが確実に使えるホテルでお願いします。	要求	0	0	0	2620	7704	14	3	ホテル	宿	YATY:宿タイプ	2_neutral	2_neutral	3_strong	2_neutral	2_neutral							0						
+7705	141	26	agent	Ｗｉ－Ｆｉ環境ですね。		0	0	0																									
+7706	141	27	agent	かしこまりました。		0	0	0																									
+7707	141	28	agent	他にご要望はございますか？		0	0	0																									
+7708	141	29	user	特にないです。	いいえ	0	0	0																									
+7709	141	30	user	よろしくお願いします。	その他	0	0	0																									
+7710	141	31	agent	かしこまりました。		0	0	0																									
+7711	141	32	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+7712	141	33	agent	・行先は秋田県		0	0	0																									
+7713	141	34	agent	・秋田駅に近いホテル		0	0	0																									
+7714	141	35	agent	・日程は４月１６日から１泊		0	0	0																									
+7715	141	36	agent	・お部屋の数はシングル３部屋		0	0	0																									
+7716	141	37	agent	・人数は大人３人		0	0	0																									
+7717	141	38	agent	・ご予算は８千円以内		0	0	0																									
+7718	141	39	agent	・食事は朝食あり、夕食はなし		0	0	0																									
+7719	141	40	agent	・レンタカーショップと近いホテル		0	0	0																									
+7720	141	41	agent	・レンタカー利用の宿泊プランがあるホテル		0	0	0																									
+7721	141	42	agent	・ビジネスホテルでも可		0	0	0																									
+7722	141	43	agent	・Ｗｉ－Ｆｉ完備のホテル		0	0	0																									

@@ -1,0 +1,51 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+163	4	1	agent	この度はご利用いただきまして、ありがとうございます。		0	0	0																									
+164	4	2	agent	ご宿泊のご相談を承ります。		0	0	0																									
+165	4	3	agent	はじめにご宿泊地、お日付、人数をお聞かせいただけますでしょうか。		0	0	0																									
+166	4	4	user	来月頃に仙台に行こうと思ってます。	要求	0	0	0	55	166	0	3	来月頃	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	1_weak	1_weak	1_weak						0						
+166	4	4	user	来月頃に仙台に行こうと思ってます。	要求	0	0	0	57	166	4	2	仙台	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+167	4	5	user	人数は２人になるかと思います。	要求	0	0	0	56	167	3	2	２人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+168	4	6	agent	かしこまりました。		0	0	0																									
+169	4	7	agent	４月のご旅行とのことですが、いつ頃か具体的にお決まりでしょうか？		0	0	0																									
+170	4	8	user	決まってなくて、上旬ごろにはなると思います。	要求	0	0	0	58	170	8	4	上旬ごろ	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	1_weak	1_weak	1_weak						0	＄「いいえ」タグでもよさそうですが「上旬ごろ」という要求があるので要求にしてあります					
+171	4	9	agent	かしこまりました。		0	0	0																									
+172	4	10	agent	今回のご宿泊は観光でのご利用でしょうか。		0	0	0																									
+173	4	11	agent	観光でしたら、桜のシーズンですので、お花見ができる公園の近くのお宿など、いかがでしょうか？		0	0	0																									
+174	4	12	user	一応出張で行くのですが、お花見できる公園も近くにあるといいですね。	要求	0	0	0	59	174	2	2	出張	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+174	4	12	user	一応出張で行くのですが、お花見できる公園も近くにあるといいですね。	要求	0	0	0	60	174	12	14	お花見できる公園も近くにある	立地	RIAC:立地 (アクティビティ)	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+175	4	13	agent	さようでございますか。		0	0	0																									
+176	4	14	agent	それでは、お花見できる公園の近くでお調べいたします。		0	0	0																									
+177	4	15	agent	ビジネスでのご利用とのことですが、お部屋でお仕事なさるようでしたら、Ｗｉｆｉなどでインターネット接続ができるお宿がよろしいでしょうか？		0	0	0																									
+178	4	16	user	はい、無料ｗｉｆｉがある部屋がいいですね。	はい	0	0	0																									
+179	4	17	user	制限とかはナシだと助かります。	要求	0	0	0	61	179	0	2	制限	部屋	HESE:部屋設備	1_weak	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	8	178	3	6	無料ｗｉｆｉ	1						
+180	4	18	agent	かしこまりました。		0	0	0																									
+181	4	19	agent	その他にパソコンやプリンターの貸出サービスなどはいかがでしょうか？		0	0	0																									
+182	4	20	user	それは無くて大丈夫だと思います。	いいえ	0	0	0																									
+183	4	21	agent	かしこまりました。		0	0	0																									
+184	4	22	agent	お部屋の数ですが、シングルを２部屋でよろしいでしょうか？		0	0	0																									
+185	4	23	user	はい、それでお願いします。	はい	0	0	0																									
+186	4	24	user	部屋は隣同士で取れるとありがたいです。	要求	0	0	0	275	186	0	6	部屋は隣同士	部屋	HEJO:部屋条件	1_weak	2_neutral	1_weak		2_neutral	2_neutral						0						
+187	4	25	agent	承知しました。		0	0	0																									
+188	4	26	agent	ご出張とのことですが、お宿の場所は仙台の中心部がよろしいでしょうか？		0	0	0																									
+189	4	27	user	そうですね、仙台駅から徒歩圏内とかだとなお良いです。	要求	0	0	0	63	189	6	9	仙台駅から徒歩圏内	立地	RIBA:立地 (場所)	1_weak	1_weak	1_weak									0						
+190	4	28	agent	かしこまりました。		0	0	0																									
+191	4	29	agent	お食事はいかがいたしましょうか？		0	0	0																									
+192	4	30	user	夜はなくて大丈夫で、朝はあってもなくても大丈夫です。	要求	0	0	0	64	192	0	1	夜	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						1						
+192	4	30	user	夜はなくて大丈夫で、朝はあってもなくても大丈夫です。	要求	0	0	0	65	192	10	1	朝	食事	SYUM:食事有無	1_weak	1_weak	1_weak			2_neutral						0						
+193	4	31	user	何か軽いもので問題ないです。	要求	0	0	0	66	193	2	4	軽いもの	食事	SYNA:食事内容	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+194	4	32	agent	さようでございますか。		0	0	0																									
+195	4	33	agent	それでは、パンなどの軽い朝食サービスのあるお宿をお探しします。		0	0	0																									
+196	4	34	agent	他に何かご希望はございますでしょうか？		0	0	0																									
+197	4	35	user	多分レイトチェックインになるので、その辺対応してるところだとよいです。	要求	0	0	0	67	197	2	9	レイトチェックイン	サービス	SEIN:チェックイン条件	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+198	4	36	agent	かしこまりました。		0	0	0																									
+199	4	37	agent	それでは、レイトチェックイン対応のお宿をお調べいたします。		0	0	0																									
+200	4	38	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+201	4	39	agent	・時期は４月で、おそらく上旬頃。		0	0	0																									
+202	4	40	agent	・場所は仙台駅から徒歩圏内。		0	0	0																									
+203	4	41	agent	・人数は２名。		0	0	0																									
+204	4	42	agent	・部屋タイプはシングルを希望。		0	0	0																									
+205	4	43	agent	・部屋の位置は隣同士がよい。		0	0	0																									
+206	4	44	agent	・立地はお花見ができる公園の近く。		0	0	0																									
+207	4	45	agent	・無料Ｗｉｆｉなどで制限なしのインターネット接続ができる。		0	0	0																									
+208	4	46	agent	・食事は夕食不要で、朝食はパンなどの軽い食事サービスのある宿がよい。		0	0	0																									
+209	4	47	agent	・レイトチェックイン対応のお宿。		0	0	0																									

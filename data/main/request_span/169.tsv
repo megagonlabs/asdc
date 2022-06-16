@@ -1,0 +1,49 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+8932	169	1	agent	この度のご利用、誠にありがとうございます。		0	0	0																									
+8933	169	2	agent	お客様のお宿探しのお手伝いをいたします。		0	0	0																									
+8934	169	3	agent	お客様のご希望をお聞かせいただけますでしょうか？		0	0	0																									
+8935	169	4	user	３月上旬に家族で滋賀に行きたいと思っています。	要求	0	0	0	1485	8935	0	4	３月上旬	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	3_strong						0						
+8935	169	4	user	３月上旬に家族で滋賀に行きたいと思っています。	要求	0	0	0	1486	8935	5	2	家族	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8935	169	4	user	３月上旬に家族で滋賀に行きたいと思っています。	要求	0	0	0	1487	8935	8	2	滋賀	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8936	169	5	user	観光地を巡るというより、自然を味わいたいと思っています。	要求	0	0	0	1488	8936	0	6	観光地を巡る	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	3_strong						1						
+8936	169	5	user	観光地を巡るというより、自然を味わいたいと思っています。	要求	0	0	0	1489	8936	12	8	自然を味わいたい	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	3_strong						0						
+8937	169	6	agent	かしこまりました。		0	0	0																									
+8938	169	7	agent	その条件でお探ししますね。		0	0	0																									
+8939	169	8	agent	ご利用の泊数はお決まりでしょうか？		0	0	0																									
+8940	169	9	user	２泊を希望します。	要求	0	0	0	1490	8940	0	2	２泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8941	169	10	agent	かしこまりました。		0	0	0																									
+8942	169	11	agent	ご家族での旅行とのことですが、ご利用の人数、大人と子供の内わけも教えていただいてよろしいでしょうか？		0	0	0																									
+8943	169	12	user	大人２人、子供１人です。	要求	0	0	0	1491	8943	0	4	大人２人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8943	169	12	user	大人２人、子供１人です。	要求	0	0	0	1492	8943	5	4	子供１人	人数	NIKO:子供人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8944	169	13	agent	かしこまりました。		0	0	0																									
+8945	169	14	agent	自然を楽しみたいとのことでしたら、山間にある旅館はいかがでしょうか？		0	0	0																									
+8946	169	15	user	山間もいいのですが、今のところ、琵琶湖周辺で自然の生き物や野鳥を見たいと思っています。	要求	0	0	0	1493	8946	0	2	山間	立地	RIEN:立地 (周辺環境)	1_weak	2_neutral	1_weak		2_neutral							0						
+8946	169	15	user	山間もいいのですが、今のところ、琵琶湖周辺で自然の生き物や野鳥を見たいと思っています。	要求	0	0	0	1494	8946	16	5	琵琶湖周辺	立地	RIAC:立地 (アクティビティ)	2_neutral	2_neutral	2_neutral	1_weak	1_weak	1_weak						0						
+8946	169	15	user	山間もいいのですが、今のところ、琵琶湖周辺で自然の生き物や野鳥を見たいと思っています。	要求	0	0	0	1495	8946	22	13	自然の生き物や野鳥を見たい	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	3_strong						0						
+8947	169	16	user	そのあたりの宿をご紹介いただけますと幸いです。	要求	0	0	0	1496	8946	16	5	琵琶湖周辺	立地	RIAC:立地 (アクティビティ)	2_neutral	2_neutral	2_neutral	1_weak	1_weak	1_weak						0						
+8948	169	17	agent	琵琶湖周辺の旅館ですね。		0	0	0																									
+8949	169	18	agent	かしこまりました。		0	0	0																									
+8950	169	19	agent	また、３月とお花見のシーズンなので桜の名所が近い旅館もお探しの条件に加えてもよろしいでしょうか？		0	0	0																									
+8951	169	20	user	そちらもぜひお願いします。	はい	0	0	0																									
+8952	169	21	agent	かしこまりました。		0	0	0																									
+8953	169	22	agent	条件に加えておきますね。		0	0	0																									
+8954	169	23	agent	お食事の方は朝夕にあるところでよろしいでしょうか？		0	0	0																									
+8955	169	24	user	夕食は必須ですが、朝食はどちらでもかまいません。	要求	0	0	0	1499	8955	0	2	夕食	食事	SYUM:食事有無	3_strong	3_strong	3_strong									0						
+8955	169	24	user	夕食は必須ですが、朝食はどちらでもかまいません。	要求	0	0	0	1502	8955	9	8	朝食はどちらでも	食事	SYUM:食事有無	1_weak	1_weak	1_weak									0						
+8956	169	25	agent	夕食は必須ですね。		0	0	0																									
+8957	169	26	agent	かしこまりました。		0	0	0																									
+8958	169	27	agent	お夕食のメニューですが、お子様がいらっしゃるのでお子様用のメニューがある旅館でお探ししてよろしいでしょうか？		0	0	0																									
+8959	169	28	user	ぜひお願いします。	はい	0	0	0																									
+8960	169	29	agent	かしこまりました。		0	0	0																									
+8961	169	30	agent	他にご要望はございますか？		0	0	0																									
+8962	169	31	user	特にございません。	いいえ	0	0	0																									
+8963	169	32	agent	かしこまりました。		0	0	0																									
+8964	169	33	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+8965	169	34	agent	・行先は滋賀県		0	0	0																									
+8966	169	35	agent	・日程は３月上旬に２泊		0	0	0																									
+8967	169	36	agent	・人数は大人２人、子供１人		0	0	0																									
+8968	169	37	agent	・宿は旅館		0	0	0																									
+8969	169	38	agent	・琵琶湖周辺にある		0	0	0																									
+8970	169	39	agent	・桜の名所が近くにある		0	0	0																									
+8971	169	40	agent	・夕食付き		0	0	0																									
+8972	169	41	agent	・子供用の食事のメニューがある		0	0	0																									

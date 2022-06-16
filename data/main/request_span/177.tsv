@@ -1,0 +1,56 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+9301	177	1	agent	この度のご利用、誠にありがとうございます。		0	0	0																									
+9302	177	2	agent	お客様のお宿探しのお手伝いをいたします。		0	0	0																									
+9303	177	3	agent	お客様のご希望をお聞かせいただけますでしょうか？		0	0	0																									
+9304	177	4	user	よろしくお願いします。	その他	0	0	0																									
+9305	177	5	user	小学生の子供２人と３人で１１月の下旬に３泊で奈良へ行くので、その宿をお願いします。	要求	0	0	0	1371	9305	0	8	小学生の子供２人	人数	NIKO:子供人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9305	177	5	user	小学生の子供２人と３人で１１月の下旬に３泊で奈良へ行くので、その宿をお願いします。	要求	0	0	0	1372	9305	9	2	３人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9305	177	5	user	小学生の子供２人と３人で１１月の下旬に３泊で奈良へ行くので、その宿をお願いします。	要求	0	0	0	1373	9305	12	6	１１月の下旬	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	3_strong						0						
+9305	177	5	user	小学生の子供２人と３人で１１月の下旬に３泊で奈良へ行くので、その宿をお願いします。	要求	0	0	0	1374	9305	19	2	３泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9305	177	5	user	小学生の子供２人と３人で１１月の下旬に３泊で奈良へ行くので、その宿をお願いします。	要求	0	0	0	1375	9305	22	2	奈良	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9306	177	6	agent	かしこまりました。		0	0	0																									
+9307	177	7	agent	そちらの条件でお探ししますね。		0	0	0																									
+9308	177	8	agent	ご予算の方はどのくらいでお考えでしょうか？		0	0	0																									
+9309	177	9	user	３人で３万円くらいで考えています。	要求	0	0	0	1376	9309	3	6	３万円くらい	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	1_weak	159	9309	0	2	３人	0						
+9310	177	10	agent	３名様で３万円ですね。		0	0	0																									
+9311	177	11	agent	かしこまりました。		0	0	0																									
+9312	177	12	agent	お子様が２名様、いらっしゃるので子供料金が適用される旅館でお探ししてよろしいでしょうか？		0	0	0																									
+9313	177	13	user	はい、そのほうが安く抑えられて嬉しいです	感想	0	0	0	1377	9313	8	10	安く抑えられて嬉しい	予算	YOKA:予算感	1_weak	2_neutral	1_weak		2_neutral							0						
+9313	177	13	user	はい、そのほうが安く抑えられて嬉しいです	感想	0	0	0	1378	9312	16	7	子供料金が適用	サービス	SESE:ホテルサービス	1_weak	2_neutral	1_weak		2_neutral							0		12	9313	3	4	そのほう
+9314	177	14	agent	かしこまりました。		0	0	0																									
+9315	177	15	agent	そちらの条件でお探ししますね。		0	0	0																									
+9316	177	16	agent	お部屋はお子様がいらっしゃるので離れにあるものでお探ししてよろしいでしょうか？		0	0	0																									
+9317	177	17	user	離れだとお値段高くなってしまうのでしょうか？	要求	0	0	0	1379	9317	0	2	離れ	部屋	HEJO:部屋条件	1_weak	1_weak	1_weak									1						
+9317	177	17	user	離れだとお値段高くなってしまうのでしょうか？	要求	0	0	0	1380	9317	4	5	お値段高く	予算	YOKA:予算感	1_weak	1_weak	1_weak									1						
+9318	177	18	user	小学生高学年の子供なので、安さ重視で離れでない部屋でも大丈夫です。	要求	0	0	0	1381	9318	13	4	安さ重視	予算	YOKA:予算感	3_strong	3_strong	3_strong									0						
+9318	177	18	user	小学生高学年の子供なので、安さ重視で離れでない部屋でも大丈夫です。	要求	0	0	0	1382	9318	18	2	離れ	部屋	HEJO:部屋条件	1_weak	1_weak	1_weak									1						
+9319	177	19	agent	かしこまりました。		0	0	0																									
+9320	177	20	agent	条件から外しておきます。		0	0	0																									
+9321	177	21	agent	失礼いたしました。		0	0	0																									
+9322	177	22	agent	旅館まではお車でお越しでしょうか？		0	0	0																									
+9323	177	23	user	はい、大阪から車で行きます。	はい	0	0	0																									
+9324	177	24	user	なので駐車場があるところがいいです。	要求	0	0	0	1383	9324	3	6	駐車場がある	サービス	SESE:ホテルサービス	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+9325	177	25	agent	かしこまりました。		0	0	0																									
+9326	177	26	agent	駐車場貸出サービスがある旅館でお探ししますね。		0	0	0																									
+9327	177	27	agent	お食事の方はいかがなさいましょうか？		0	0	0																									
+9328	177	28	user	朝食は付けてほしいです。	要求	0	0	0	1384	9328	0	2	朝食	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+9329	177	29	user	夕食はどちらでもいいです。	要求	0	0	0	1385	9329	0	10	夕食はどちらでもいい	食事	SYUM:食事有無	1_weak	1_weak	1_weak									0						
+9330	177	30	user	食事が魅力的な宿であれば夕食も検討します。	要求	0	0	0	1386	9330	0	6	食事が魅力的	食事	SYNA:食事内容	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+9330	177	30	user	食事が魅力的な宿であれば夕食も検討します。	要求	0	0	0	1387	9330	12	2	夕食	食事	SYUM:食事有無	1_weak	1_weak	1_weak				160	9330	0	12	食事が魅力的な宿であれば	0						
+9331	177	31	agent	かしこまりました。		0	0	0																									
+9332	177	32	agent	どちらも条件に加えておきますね。		0	0	0																									
+9333	177	33	agent	他にご要望はございますか？		0	0	0																									
+9334	177	34	user	３泊のうち１日は車で三重の遊園地にも行く予定なので、そちら方面にもアクセスの良いところが嬉しいです。	要求	0	0	0	1388	9334	10	2	三重	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9334	177	34	user	３泊のうち１日は車で三重の遊園地にも行く予定なので、そちら方面にもアクセスの良いところが嬉しいです。	要求	0	0	0	1389	9334	10	6	三重の遊園地	立地	RIAC:立地 (アクティビティ)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+9334	177	34	user	３泊のうち１日は車で三重の遊園地にも行く予定なので、そちら方面にもアクセスの良いところが嬉しいです。	要求	0	0	0	1390	9334	33	10	アクセスの良いところ	立地	RIAC:立地 (アクティビティ)	1_weak	2_neutral	2_neutral		2_neutral	2_neutral	161	9334	10	6	三重の遊園地	0						
+9335	177	35	agent	三重の遊園地にも近い旅館ですね。		0	0	0																									
+9336	177	36	agent	かしこまりました。		0	0	0																									
+9337	177	37	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+9338	177	38	agent	・行先は奈良県		0	0	0																									
+9339	177	39	agent	・人数は大人１人、子供２人		0	0	0																									
+9340	177	40	agent	・宿は旅館		0	0	0																									
+9341	177	41	agent	・子供料金が適用される旅館		0	0	0																									
+9342	177	42	agent	・駐車場貸出サービスがある		0	0	0																									
+9343	177	43	agent	・予算は３人で３万円		0	0	0																									
+9344	177	44	agent	・日程は１１月の下旬に３泊		0	0	0																									
+9345	177	45	agent	・三重県の遊園地のアクセスが良い		0	0	0																									

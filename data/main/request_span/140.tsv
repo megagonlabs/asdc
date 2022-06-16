@@ -1,0 +1,43 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+7641	140	1	agent	本日はご利用いただきまして、ありがとうございます。		0	0	0																									
+7642	140	2	agent	ご宿泊のご相談を承ります。		0	0	0																									
+7643	140	3	agent	お泊りになる地域、お日付、人数がお決まりでしたら、お聞かせいただけますでしょうか。		0	0	0																									
+7644	140	4	user	岐阜県で古民家的な自然を満喫できるところに泊まりたいと思っています。	要求	0	0	0	2623	7644	0	3	岐阜県	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7644	140	4	user	岐阜県で古民家的な自然を満喫できるところに泊まりたいと思っています。	要求	0	0	0	2624	7644	4	4	古民家的	宿	YAEN:宿環境	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+7644	140	4	user	岐阜県で古民家的な自然を満喫できるところに泊まりたいと思っています。	要求	0	0	0	2625	7644	9	8	自然を満喫できる	宿	YAEN:宿環境	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+7645	140	5	user	７月下旬で４，５泊予定です。	要求	0	0	0	2626	7645	0	4	７月下旬	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	3_strong						0						
+7645	140	5	user	７月下旬で４，５泊予定です。	要求	0	0	0	2627	7645	5	4	４，５泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	1_weak	3_strong						0						
+7646	140	6	user	大人３人です。	要求	0	0	0	2628	7646	0	4	大人３人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7647	140	7	agent	かしこまりました。		0	0	0																									
+7648	140	8	agent	ご予算の方はどのくらいでお考えでしょうか？		0	0	0																									
+7649	140	9	user	とくに決めていません。	要求	0	0	0	2629	7649	3	7	決めていません	予算	YOYO:予算	1_weak	1_weak	1_weak									0						
+7650	140	10	user	内容で要相談でお願いします。	伝達	0	0	0																									
+7651	140	11	agent	かしこまりました。		0	0	0																									
+7652	140	12	agent	古民家的な自然ということは白川郷のことでよろしいでしょうか？		0	0	0																									
+7653	140	13	agent	その周辺の宿をお探ししますが。		0	0	0																									
+7654	140	14	user	そうですね。	その他	0	0	0																									
+7655	140	15	user	のんびり田舎風情があると嬉しいです。	要求	0	0	0	2630	7655	0	11	のんびり田舎風情がある	立地	RIEN:立地 (周辺環境)	1_weak	2_neutral	1_weak		2_neutral	2_neutral						0						
+7656	140	16	agent	かしこまりました。		0	0	0																									
+7657	140	17	agent	白川郷周辺のお宿をお探ししますね。		0	0	0																									
+7658	140	18	agent	のんびりできるということで民宿でお探ししてもよろしいでしょうか？		0	0	0																									
+7659	140	19	user	はい。	はい	0	0	0																									
+7660	140	20	user	民宿でお願いします。	はい	0	0	0																									
+7661	140	21	user	できれば郷土料理とか食べられる宿があればお願いします	要求	0	0	0	2631	7661	4	4	郷土料理	食事	SYNA:食事内容	1_weak	1_weak	1_weak									0						
+7662	140	22	agent	郷土料理付きの民宿ですね。		0	0	0																									
+7663	140	23	agent	かしこまりました。		0	0	0																									
+7664	140	24	agent	大人３名でのご予約なので、岐阜酒蔵の地酒飲み放題のコースでのお探しはいかがいたしましょうか？		0	0	0																									
+7665	140	25	user	ぜひお願いします！	はい	0	0	0																									
+7666	140	26	agent	かしこまりました。		0	0	0																									
+7667	140	27	agent	その条件でお探ししますね。		0	0	0																									
+7668	140	28	agent	他にご要望はございますか？		0	0	0																									
+7669	140	29	user	特にないです。	いいえ	0	0	0																									
+7670	140	30	agent	かしこまりました。		0	0	0																									
+7671	140	31	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+7672	140	32	agent	・行先は岐阜県		0	0	0																									
+7673	140	33	agent	・日程は７月下旬で４、５泊の予定		0	0	0																									
+7674	140	34	agent	・大人３名		0	0	0																									
+7675	140	35	agent	・予算は内容で要相談		0	0	0																									
+7676	140	36	agent	・白川郷周辺の宿		0	0	0																									
+7677	140	37	agent	・宿は民宿		0	0	0																									
+7678	140	38	agent	・食事は郷土料理		0	0	0																									
+7679	140	39	agent	・地酒飲み放題コース付き		0	0	0																									

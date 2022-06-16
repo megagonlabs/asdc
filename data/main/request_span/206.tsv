@@ -1,0 +1,62 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+10577	206	1	agent	この度のご利用、誠にありがとうございます。		0	0	0																									
+10578	206	2	agent	お客様のお宿探しのお手伝いをいたします。		0	0	0																									
+10579	206	3	agent	お客様のご希望をお聞かせいただけますでしょうか？		0	0	0																									
+10580	206	4	user	子供と山梨県に旅行に行きます。	要求	0	0	0	219	10580	0	2	子供	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+10580	206	4	user	子供と山梨県に旅行に行きます。	要求	0	0	0	220	10580	3	3	山梨県	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+10581	206	5	user	自然を楽しみたいので、山や海に近い宿を希望します。	要求	0	0	0	221	10581	0	8	自然を楽しみたい	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	3_strong						0						
+10581	206	5	user	自然を楽しみたいので、山や海に近い宿を希望します。	要求	0	0	0	222	10581	11	6	山や海に近い	立地	RIAC:立地 (アクティビティ)	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+10582	206	6	agent	かしこまりました。		0	0	0																									
+10583	206	7	agent	お伝えいただいた条件でお探ししますね。		0	0	0																									
+10584	206	8	agent	お日にちと泊数を教えていただいてよろしいでしょうか？		0	0	0																									
+10585	206	9	user	２月２７日から４泊です。	要求	0	0	0	223	10585	0	7	２月２７日から	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+10585	206	9	user	２月２７日から４泊です。	要求	0	0	0	224	10585	7	2	４泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+10586	206	10	agent	お日にち、かしこまりました。		0	0	0																									
+10587	206	11	agent	ご予算の方はどのくらいでお考えでしょうか？		0	0	0																									
+10588	206	12	user	１泊、一人当たり１００００円以内で考えています。	要求	0	0	0	225	10588	8	8	１００００円以内	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	29	10588	0	2	１泊	0						
+10588	206	12	user	１泊、一人当たり１００００円以内で考えています。	要求	0	0	0	225	10588	8	8	１００００円以内	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	30	10588	3	2	一人	0						
+10589	206	13	user	２人で４泊なので、合計８万円以内です。	要求	0	0	0	226	10589	0	2	２人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+10589	206	13	user	２人で４泊なので、合計８万円以内です。	要求	0	0	0	227	10589	3	2	４泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+10589	206	13	user	２人で４泊なので、合計８万円以内です。	要求	0	0	0	228	10589	9	7	合計８万円以内	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	1_weak						0						
+10590	206	14	agent	合計８万円以内ですね。		0	0	0																									
+10591	206	15	agent	かしこまりました。		0	0	0																									
+10592	206	16	agent	自然を楽しめるお宿をご希望でしたら、山間にある旅館でお探ししましょうか？		0	0	0																									
+10593	206	17	user	山梨なので海はないですね、ごめんなさい。	伝達	0	0	0																									
+10594	206	18	user	山間でお願いします。	はい	0	0	0																									
+10595	206	19	agent	いえいえ、お気になさらないでください。		0	0	0																									
+10596	206	20	agent	かしこまりました。		0	0	0																									
+10597	206	21	agent	山間の旅館でお探ししますね。		0	0	0																									
+10598	206	22	agent	また、お子様のご年齢はおいくつくらいでしょうか？		0	0	0																									
+10599	206	23	user	子供は今６歳で、男の子です。	要求	0	0	0	229	10599	0	6	子供は今６歳	子供	KOKO:子供用サービス	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+10600	206	24	agent	かしこまりました。		0	0	0																									
+10601	206	25	agent	そうしましたら、子供料金が適用される旅館も条件に加えて、お探ししましょうか？		0	0	0																									
+10602	206	26	user	はい、子供料金で泊まれる宿でお願いします。	はい	0	0	0																									
+10603	206	27	user	あと、電車で行くので駅に近い宿がいいです。	要求	0	0	0	230	10603	10	4	駅に近い	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+10604	206	28	agent	かしこまりました。		0	0	0																									
+10605	206	29	agent	駅から近いことも条件に加えておきますね。		0	0	0																									
+10606	206	30	agent	お食事の方はいかがなさいましょうか？		0	0	0																									
+10607	206	31	user	食事は朝夕つきでお願いします。	要求	0	0	0	231	10607	3	2	朝夕	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+10608	206	32	user	山梨なので、一度は夕飯でほうとうが出てくる宿がいいです。	要求	0	0	0	232	10608	0	2	山梨	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+10608	206	32	user	山梨なので、一度は夕飯でほうとうが出てくる宿がいいです。	要求	0	0	0	233	10608	6	15	一度は夕飯でほうとうが出てくる	食事	SYNA:食事内容	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+10608	206	32	user	山梨なので、一度は夕飯でほうとうが出てくる宿がいいです。	要求	0	0	0	3537	10608	9	2	夕飯	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+10609	206	33	agent	ほうとうですね。		0	0	0																									
+10610	206	34	agent	かしこまりました。		0	0	0																									
+10611	206	35	agent	条件に加えておきますね。		0	0	0																									
+10612	206	36	agent	お子様がいらっしゃるので、お子様用のメニューがあることも条件に加えて、お探ししましょうか？		0	0	0																									
+10613	206	37	user	子供用のメニューはあれば嬉しいですが、必須条件ではありません。	要求	0	0	0	234	10613	0	8	子供用のメニュー	子供	KOKO:子供用サービス	1_weak	1_weak	1_weak									0	＄のちにAが「含めない」と言っているので「いいえ」でもよいかも？					
+10614	206	38	agent	かしこまりました。		0	0	0																									
+10615	206	39	agent	含めないかたちでお探ししますね。		0	0	0																									
+10616	206	40	agent	他にご要望はございますか？		0	0	0																									
+10617	206	41	user	今までの条件で十分です。	いいえ	0	0	0																									
+10618	206	42	agent	かしこまりました。		0	0	0																									
+10619	206	43	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+10620	206	44	agent	・行先は山梨県		0	0	0																									
+10621	206	45	agent	・人数は大人１人、子供１人		0	0	0																									
+10622	206	46	agent	・日程は２月２７日から４泊		0	0	0																									
+10623	206	47	agent	・予算は合計で８万円		0	0	0																									
+10624	206	48	agent	・宿は旅館		0	0	0																									
+10625	206	49	agent	・山間にある		0	0	0																									
+10626	206	50	agent	・子供料金が適用される		0	0	0																									
+10627	206	51	agent	・駅から近い		0	0	0																									
+10628	206	52	agent	・朝夕食事付き		0	0	0																									
+10629	206	53	agent	・夕食のメニューにほうとうがある		0	0	0																									

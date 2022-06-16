@@ -1,0 +1,55 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+374	8	1	agent	この度のご利用、誠にありがとうございます。		0	0	0																									
+375	8	2	agent	お客様のお宿探しのお手伝いをいたします。		0	0	0																									
+376	8	3	agent	ご旅行される地域やお日付、人数などはお決まりでしょうか。		0	0	0																									
+377	8	4	user	女性３人で、宮崎へ３泊４日の旅行に行きたいと思っています。	要求	0	0	0	121	377	2	2	３人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+377	8	4	user	女性３人で、宮崎へ３泊４日の旅行に行きたいと思っています。	要求	0	0	0	122	377	6	2	宮崎	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+377	8	4	user	女性３人で、宮崎へ３泊４日の旅行に行きたいと思っています。	要求	0	0	0	123	377	9	4	３泊４日	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+377	8	4	user	女性３人で、宮崎へ３泊４日の旅行に行きたいと思っています。	要求	0	0	0	276	377	0	2	女性	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+378	8	5	user	日付は４月１日を予定しています。	要求	0	0	0	124	378	3	4	４月１日	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+379	8	6	agent	かしこまりました。		0	0	0																									
+380	8	7	agent	宮崎へのご旅行は観光ということでよろしいでしょうか？		0	0	0																									
+381	8	8	user	そうです。	はい	0	0	0																									
+382	8	9	user	神社や、自然を楽しめる場所を巡ろうかと思いまして。	要求	0	0	0	277	382	0	17	神社や、自然を楽しめる場所を巡ろう	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	3_strong						0						
+383	8	10	agent	さようでございますか。		0	0	0																									
+384	8	11	agent	ご旅行はお車でなさいますか？		0	0	0																									
+385	8	12	agent	それとも公共交通機関でしょうか？		0	0	0																									
+386	8	13	user	３人とも免許がないので、公共交通機関を利用します。	照応要求	0	0	0	126	385	4	6	公共交通機関	立地	RIBA:立地 (場所)	3_strong	2_neutral	2_neutral		2_neutral	3_strong						0		85	386	12	6	公共交通機関
+387	8	14	user	ですから有名な観光スポットにアクセスが良い宿に泊まりたいのですが。	要求	0	0	0	127	387	4	17	有名な観光スポットにアクセスが良い	立地	RIAC:立地 (アクティビティ)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+388	8	15	agent	かしこまりました。		0	0	0																									
+389	8	16	agent	観光スポットにアクセスしやすい場所でお調べいたします。		0	0	0																									
+390	8	17	agent	こちらは３泊の長いご旅行で、お荷物が多くなるかと思います。		0	0	0																									
+391	8	18	agent	公共交通機関でのご旅行でしたら、最寄り駅から送迎サービスのあるお宿をお探ししましょうか？		0	0	0																									
+392	8	19	user	そうですね、ぜひお願いします。	はい	0	0	0																									
+393	8	20	user	ところで、宮崎は温泉はありましたっけ？	確認	0	0	0																									
+394	8	21	user	もしあれば、ぜひ温泉宿に泊まりたいです。	要求	0	0	0	128	394	8	2	温泉	風呂	FUTY:風呂種類	1_weak	2_neutral	1_weak		2_neutral	3_strong						0						
+394	8	21	user	もしあれば、ぜひ温泉宿に泊まりたいです。	要求	0	0	0	278	394	8	3	温泉宿	宿	YATY:宿タイプ	1_weak	2_neutral	1_weak		2_neutral	3_strong						0						
+395	8	22	agent	はい、ございます。		0	0	0																									
+396	8	23	agent	温泉のほうは、室内に露天風呂のあるお部屋がよろしいでしょうか。		0	0	0																									
+397	8	24	agent	それとも大浴場がよろしいでしょうか。		0	0	0																									
+398	8	25	user	うーん、部屋風呂だと入る順番に気を使うので、大浴場だけでいいです。	照応要求	0	0	0	129	398	4	4	部屋風呂	部屋	HESE:部屋設備	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						1						
+398	8	25	user	うーん、部屋風呂だと入る順番に気を使うので、大浴場だけでいいです。	照応要求	0	0	0	130	397	4	3	大浴場	風呂	FUTY:風呂種類	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0		84	398	22	3	大浴場
+399	8	26	user	岩盤浴とか、打たせ湯があったりすると良いですね。	要求	0	0	0	131	399	0	3	岩盤浴	風呂	FUTY:風呂種類	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+399	8	26	user	岩盤浴とか、打たせ湯があったりすると良いですね。	要求	0	0	0	132	399	6	4	打たせ湯	風呂	FUTY:風呂種類	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+400	8	27	agent	承知しました。		0	0	0																									
+401	8	28	agent	皆さま女性の方のご旅行とのことですので、お食事やサービスなど、ご希望はございますか？		0	0	0																									
+402	8	29	agent	例えばエステ付きのお宿や、女性向けのコース料理をお召し上がりいただけるお宿がございます。		0	0	0																									
+403	8	30	user	女性向けのお料理に興味があります。	照応要求	0	0	0	133	402	13	10	女性向けのコース料理	食事	SYNA:食事内容	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0		87	403	0	8	女性向けのお料理
+404	8	31	user	レディースプランのある宿はありますか？	要求	0	0	0	134	404	0	8	レディースプラン	サービス	SESE:ホテルサービス	1_weak	1_weak	1_weak	2_neutral								0						
+405	8	32	agent	はい、女性向けのお料理がセットになったレディースプランがございますので、そちらでお探しいたします。		0	0	0																									
+406	8	33	agent	他にご希望はございますでしょうか？		0	0	0																									
+407	8	34	user	宮崎の地酒を楽しみたいと思っています。	要求	0	0	0	135	407	0	5	宮崎の地酒	食事	SYNA:食事内容	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+408	8	35	user	ちょっとお洒落なバーがあれば嬉しいです。	要求	0	0	0	136	408	0	10	ちょっとお洒落なバー	施設	SHLE:施設条件(レジャー)	1_weak	1_weak	1_weak			2_neutral						0						
+409	8	36	agent	承知しました。		0	0	0																									
+410	8	37	agent	それでは、館内に地酒をお楽しみいただけるバーのあるお宿をお探しいたします。		0	0	0																									
+411	8	38	agent	ご希望をお聞かせくださり、ありがとうございました。		0	0	0																									
+412	8	39	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+413	8	40	agent	・日付は４月１日。		0	0	0																									
+414	8	41	agent	・宿泊日数は３泊。		0	0	0																									
+415	8	42	agent	・人数は大人３名。		0	0	0																									
+416	8	43	agent	・行先は宮崎県。		0	0	0																									
+417	8	44	agent	・宿タイプは岩盤浴や打たせ湯がある温泉宿を希望。		0	0	0																									
+418	8	45	agent	・観光スポットに公共交通機関でアクセスしやすい場所を希望。		0	0	0																									
+419	8	46	agent	・最寄り駅から送迎サービスのある宿を希望。		0	0	0																									
+420	8	47	agent	・女性向けの料理がセットになったレディースプランを希望。		0	0	0																									
+421	8	48	agent	・館内に地酒をお楽しみいただけるバーのあるお宿を希望。		0	0	0																									

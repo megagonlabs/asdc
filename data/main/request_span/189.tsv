@@ -1,0 +1,57 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+9812	189	1	agent	本日はご利用いただきまして、ありがとうございます。		0	0	0																									
+9813	189	2	agent	ご宿泊のご相談を承ります。		0	0	0																									
+9814	189	3	agent	お泊りになる地域、お日付、人数がお決まりでしたら、お聞かせいただけますでしょうか。		0	0	0																									
+9815	189	4	user	夏休みに子供２人を連れてアメリカから帰国することになりました。	要求	0	0	0	671	9815	0	3	夏休み	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	2_neutral	3_strong	3_strong						0						
+9815	189	4	user	夏休みに子供２人を連れてアメリカから帰国することになりました。	要求	0	0	0	672	9815	4	4	子供２人	人数	NIKO:子供人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9815	189	4	user	夏休みに子供２人を連れてアメリカから帰国することになりました。	要求	0	0	0	3533	9815	12	8	アメリカから帰国	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9816	189	5	user	せっかく日本で過ごすので、自然豊かな埼玉県で過ごしてみようと思っています。	要求	0	0	0	673	9816	13	4	自然豊か	立地	RIEN:立地 (周辺環境)	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+9816	189	5	user	せっかく日本で過ごすので、自然豊かな埼玉県で過ごしてみようと思っています。	要求	0	0	0	674	9816	18	3	埼玉県	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9817	189	6	user	今のところ７月９日からの予定です。	要求	0	0	0	675	9817	5	4	７月９日	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9818	189	7	agent	埼玉県ですね。		0	0	0																									
+9819	189	8	agent	かしこまりました。		0	0	0																									
+9820	189	9	agent	７月９日からのご旅行ですか、ご利用の泊数を教えていただいてよろしいでしょうか？		0	0	0																									
+9821	189	10	user	４泊の予定です。	要求	0	0	0	676	9821	0	2	４泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9822	189	11	agent	４泊のご予定ですね。		0	0	0																									
+9823	189	12	agent	かしこまりました。		0	0	0																									
+9824	189	13	agent	ご予算の方はどのくらいでお考えでしょうか？		0	0	0																									
+9825	189	14	user	大人の値段で１泊１万円未満、なるべく安く泊まれるとありがたいです。	要求	0	0	0	677	9825	8	5	１万円未満	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	73	9825	0	5	大人の値段	0						
+9825	189	14	user	大人の値段で１泊１万円未満、なるべく安く泊まれるとありがたいです。	要求	0	0	0	677	9825	8	5	１万円未満	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	74	9825	6	2	１泊	0						
+9825	189	14	user	大人の値段で１泊１万円未満、なるべく安く泊まれるとありがたいです。	要求	0	0	0	678	9825	14	6	なるべく安く	予算	YOKA:予算感	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+9826	189	15	agent	なるべく安くですね。		0	0	0																									
+9827	189	16	agent	かしこまりました。		0	0	0																									
+9828	189	17	agent	そうしましたら、シーズンも夏で自然も感じられるコテージでお探ししましょうか？		0	0	0																									
+9829	189	18	user	本当はコテージにも泊まってみたいのですが、今回大人が私１人なので、ホテルなどサービスが行き届いたところの方が助かります。	要求	0	0	0	679	9829	33	3	ホテル	宿	YATY:宿タイプ	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+9829	189	18	user	本当はコテージにも泊まってみたいのですが、今回大人が私１人なので、ホテルなどサービスが行き届いたところの方が助かります。	要求	0	0	0	680	9829	38	13	サービスが行き届いたところ	宿	YAEN:宿環境	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+9829	189	18	user	本当はコテージにも泊まってみたいのですが、今回大人が私１人なので、ホテルなどサービスが行き届いたところの方が助かります。	要求	0	0	0	681	9829	27	2	１人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9829	189	18	user	本当はコテージにも泊まってみたいのですが、今回大人が私１人なので、ホテルなどサービスが行き届いたところの方が助かります。	要求	0	0	0	686	9829	3	4	コテージ	宿	YATY:宿タイプ	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						1						
+9830	189	19	agent	ホテルですね。		0	0	0																									
+9831	189	20	agent	かしこまりました。		0	0	0																									
+9832	189	21	agent	なるべくお安くとのことでしたら、お子様もいらっしゃるので子供料金が適用されるホテルでお探ししましょうか？		0	0	0																									
+9833	189	22	user	出来れば子供料金が適用されて欲しいですが、なければ大人料金でも構いません。	要求	0	1	0	687	9833	4	4	子供料金	予算	YOYO:予算	1_weak	1_weak	1_weak									0	＃					
+9833	189	22	user	出来れば子供料金が適用されて欲しいですが、なければ大人料金でも構いません。	要求	0	1	0	688	9833	25	4	大人料金	予算	YOYO:予算	1_weak	1_weak	1_weak									0	＃					
+9834	189	23	user	他に連泊割など割引があると嬉しいですが。	要求	0	0	0	692	9834	2	3	連泊割	サービス	SESE:ホテルサービス	1_weak	2_neutral	1_weak		2_neutral							0						
+9835	189	24	agent	かしこまりました。		0	0	0																									
+9836	189	25	agent	連泊割引があるホテルも条件に加えておきますね。		0	0	0																									
+9837	189	26	agent	お食事の方はいかがなさいましょうか？		0	0	0																									
+9838	189	27	user	予算内におさまるようでしたら、朝食サービスが欲しいです。	要求	0	0	0	694	9838	15	2	朝食	食事	SYUM:食事有無	2_neutral	2_neutral	1_weak	2_neutral	2_neutral		75	9838	0	8	予算内におさまる	0						
+9839	189	28	user	予算を超えるようでしたら無しでもかまいません。	照応要求	0	0	0	696	9839	0	6	予算を超える	予算	YOYO:予算	1_weak	1_weak	1_weak									1	＃「無し」の部分のspanを取るのが困難だったため、「照応要求」に変更しました					
+9839	189	28	user	予算を超えるようでしたら無しでもかまいません。	照応要求	0	0	0	701	9838	15	2	朝食	食事	SYUM:食事有無	1_weak	1_weak	1_weak				83	9839	0	6	予算を超える	1	＃「無し」の部分のspanを取るのが困難だったため、「照応要求」に変更しました	53	9839	12	2	無し
+9840	189	29	agent	予算内に収まるようなら朝食サービスですね。		0	0	0																									
+9841	189	30	agent	かしこまりました。		0	0	0																									
+9842	189	31	agent	他にご要望はございますか？		0	0	0																									
+9843	189	32	user	アメリカ育ちの小学生２人の子供がいるので、ベッドは出来れば広めの方が安心するかなと。	要求	0	0	0	704	9843	7	5	小学生２人	人数	NIKO:子供人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9843	189	32	user	アメリカ育ちの小学生２人の子供がいるので、ベッドは出来れば広めの方が安心するかなと。	要求	0	0	0	705	9843	21	10	ベッドは出来れば広め	部屋	HEBI:部屋備品	1_weak	1_weak	1_weak									0						
+9844	189	33	user	それか、２つのベッドがくっつけられるような仕様だとありがたいです。	要求	0	0	0	707	9844	4	14	２つのベッドがくっつけられる	部屋	HEBI:部屋備品	1_weak	2_neutral	1_weak		2_neutral							0						
+9845	189	34	agent	ベッドが大きめですね。		0	0	0																									
+9846	189	35	agent	かしこまりました。		0	0	0																									
+9847	189	36	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+9848	189	37	agent	・行先は埼玉県		0	0	0																									
+9849	189	38	agent	・日程は７月９日から４泊		0	0	0																									
+9850	189	39	agent	・人数は大人１人、子供２人		0	0	0																									
+9851	189	40	agent	・宿はホテル		0	0	0																									
+9852	189	41	agent	・予算は１泊１万円未満		0	0	0																									
+9853	189	42	agent	・子供料金が適用される		0	0	0																									
+9854	189	43	agent	・連泊割引がある		0	0	0																									
+9855	189	44	agent	・朝食サービスがある		0	0	0																									
+9856	189	45	agent	・ベッドが大きめ		0	0	0																									

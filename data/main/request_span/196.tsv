@@ -1,0 +1,45 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+10106	196	1	agent	本日はご利用いただきまして、ありがとうございます。		0	0	0																									
+10107	196	2	agent	ご宿泊のご相談を承ります。		0	0	0																									
+10108	196	3	agent	お泊りになる地域、お日付、人数がお決まりでしたら、お聞かせいただけますでしょうか。		0	0	0																									
+10109	196	4	user	１１月上旬に３泊の予定なのですが、私と子ども２人で石川県に旅行に行こうと思っています。	要求	0	0	0	503	10109	0	5	１１月上旬	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	3_strong						0						
+10109	196	4	user	１１月上旬に３泊の予定なのですが、私と子ども２人で石川県に旅行に行こうと思っています。	要求	0	0	0	504	10109	6	2	３泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+10109	196	4	user	１１月上旬に３泊の予定なのですが、私と子ども２人で石川県に旅行に行こうと思っています。	要求	0	0	0	505	10109	19	5	子ども２人	人数	NIKO:子供人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+10109	196	4	user	１１月上旬に３泊の予定なのですが、私と子ども２人で石川県に旅行に行こうと思っています。	要求	0	0	0	506	10109	25	3	石川県	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+10110	196	5	user	ゆっくり出来そうな場所はありますでしょうか？	要求	0	0	0	507	10110	0	8	ゆっくり出来そう	宿	YAEN:宿環境	1_weak	1_weak	1_weak									0						
+10111	196	6	agent	かしこまりました。		0	0	0																									
+10112	196	7	agent	ご希望の条件でお探ししますね。		0	0	0																									
+10113	196	8	agent	ご予算の方はどのくらいでお考えでしょうか？		0	0	0																									
+10114	196	9	user	予算は３人で５万円以内を予定しています。	要求	0	0	0	508	10114	6	5	５万円以内	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	57	10114	3	2	３人	0						
+10115	196	10	agent	かしこまりました。		0	0	0																									
+10116	196	11	agent	ゆっくりできる場所でしたら、温泉がある旅館でお探ししてよろしいでしょうか？		0	0	0																									
+10117	196	12	user	そうですね。	はい	0	0	0																									
+10118	196	13	user	出来たら露天風呂があったら嬉しいです。	要求	0	0	0	509	10118	4	4	露天風呂	風呂	FUTY:風呂種類	1_weak	1_weak	1_weak									0						
+10119	196	14	agent	露天風呂ですね。		0	0	0																									
+10120	196	15	agent	かしこまりました。		0	0	0																									
+10121	196	16	agent	お食事の方はいかがなさいましょうか？		0	0	0																									
+10122	196	17	user	朝食付きだと嬉しいのですが時期的にブッフェが怖いので、食事は部屋で食べられるところはありますか？	要求	0	0	0	510	10122	0	2	朝食	食事	SYUM:食事有無	1_weak	1_weak	1_weak			2_neutral						0						
+10122	196	17	user	朝食付きだと嬉しいのですが時期的にブッフェが怖いので、食事は部屋で食べられるところはありますか？	要求	0	0	0	511	10122	17	4	ブッフェ	食事	SYNA:食事内容	2_neutral	1_weak	2_neutral	2_neutral		2_neutral						1						
+10122	196	17	user	朝食付きだと嬉しいのですが時期的にブッフェが怖いので、食事は部屋で食べられるところはありますか？	要求	0	0	0	512	10122	27	11	食事は部屋で食べられる	食事	SYUM:食事有無	2_neutral	1_weak	1_weak	2_neutral								0						
+10123	196	18	agent	かしこまりました。		0	0	0																									
+10124	196	19	agent	食事がお部屋で召し上がられるところを条件に加えておきますね。		0	0	0																									
+10125	196	20	agent	お子様がいらっしゃるので、お子様用のメニューがあることも条件に加えましょうか？		0	0	0																									
+10126	196	21	user	そうですね。	はい	0	0	0																									
+10127	196	22	user	子供が小学生と幼稚園児なので大人用だと多いので、子供用の食事を出してくれる所か食事を２人分にすることできるところだと嬉しいです。	要求	0	0	0	515	10127	24	6	子供用の食事	子供	KOKO:子供用サービス	1_weak	2_neutral	1_weak		1_weak	1_weak						0						
+10127	196	22	user	子供が小学生と幼稚園児なので大人用だと多いので、子供用の食事を出してくれる所か食事を２人分にすることできるところだと嬉しいです。	要求	0	0	0	516	10127	39	14	食事を２人分にすることできる	食事	SYNA:食事内容	1_weak	2_neutral	1_weak		1_weak	1_weak						0						
+10128	196	23	agent	かしこまりました。		0	0	0																									
+10129	196	24	agent	条件に加えておきますね。		0	0	0																									
+10130	196	25	agent	他にご要望はございますか？		0	0	0																									
+10131	196	26	user	大丈夫です。	いいえ	0	0	0																									
+10132	196	27	user	これでお願いします	その他	0	0	0																									
+10133	196	28	agent	かしこまりました。		0	0	0																									
+10134	196	29	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+10135	196	30	agent	・行先は石川県		0	0	0																									
+10136	196	31	agent	・日程は１１月上旬に３泊		0	0	0																									
+10137	196	32	agent	・人数は大人１人、子供２人		0	0	0																									
+10138	196	33	agent	・予算は合計で５万円以内		0	0	0																									
+10139	196	34	agent	・宿は旅館		0	0	0																									
+10140	196	35	agent	・露天風呂がある		0	0	0																									
+10141	196	36	agent	・朝食付き		0	0	0																									
+10142	196	37	agent	・部屋で食事ができる		0	0	0																									
+10143	196	38	agent	・お子様用のメニューがある		0	0	0																									

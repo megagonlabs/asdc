@@ -1,0 +1,71 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+2432	46	1	agent	この度はご利用いただきまして、ありがとうございます。		0	0	0																									
+2433	46	2	agent	お客様のお宿探しのお手伝いをいたします。		0	0	0																									
+2434	46	3	agent	お宿のご希望をお聞かせいただけますでしょうか。		0	0	0																									
+2435	46	4	user	家族旅行で温泉に行きたいんですけど、露天風呂の内風呂がある旅館が希望です。	要求	0	0	0	1271	2435	0	4	家族旅行	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+2435	46	4	user	家族旅行で温泉に行きたいんですけど、露天風呂の内風呂がある旅館が希望です。	要求	0	0	0	1272	2435	5	2	温泉	風呂	FUTY:風呂種類	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+2435	46	4	user	家族旅行で温泉に行きたいんですけど、露天風呂の内風呂がある旅館が希望です。	要求	0	0	0	1273	2435	18	4	露天風呂	風呂	FUTY:風呂種類	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+2435	46	4	user	家族旅行で温泉に行きたいんですけど、露天風呂の内風呂がある旅館が希望です。	要求	0	0	0	1275	2435	29	2	旅館	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+2435	46	4	user	家族旅行で温泉に行きたいんですけど、露天風呂の内風呂がある旅館が希望です。	要求	0	0	0	1276	2435	23	3	内風呂	部屋	HESE:部屋設備	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	146	2435	18	4	露天風呂	0						
+2436	46	5	agent	さようでございますか。		0	0	0																									
+2437	46	6	agent	それでは露天風呂の内風呂がある旅館をお調べいたします。		0	0	0																									
+2438	46	7	agent	ご家族でとのことですが、何名様でしょうか？		0	0	0																									
+2439	46	8	user	大人３人と、乳児が１人です。	要求	0	0	0	1280	2439	2	2	３人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+2439	46	8	user	大人３人と、乳児が１人です。	要求	0	0	0	1281	2439	9	2	１人	人数	NIKO:子供人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong	147	2439	6	2	乳児	0						
+2440	46	9	user	１人は高齢です。	要求	0	0	0	1282	2440	0	2	１人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+2440	46	9	user	１人は高齢です。	要求	0	0	0	1283	2440	3	2	高齢	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+2441	46	10	agent	かしこまりました。		0	0	0																									
+2442	46	11	agent	それでは大人３名様と子供１名様で承ります。		0	0	0																									
+2443	46	12	agent	ご宿泊されるお日付、宿泊日数、地域はご検討されておりますでしょうか？		0	0	0																									
+2444	46	13	user	７月１４日の母の誕生日に合わせて旅行したいので、７月１３日から２泊で検討しています。	要求	0	0	0	1285	2444	6	5	母の誕生日	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+2444	46	13	user	７月１４日の母の誕生日に合わせて旅行したいので、７月１３日から２泊で検討しています。	要求	0	0	0	1286	2444	24	7	７月１３日から	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+2444	46	13	user	７月１４日の母の誕生日に合わせて旅行したいので、７月１３日から２泊で検討しています。	要求	0	0	0	1287	2444	31	2	２泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+2445	46	14	user	地域は、母が高齢で足が悪いので、あんまり遠出は難しいかなと．．．。	要求	0	0	0	1290	2445	4	9	母が高齢で足が悪い	宿	YAEN:宿環境	2_neutral	2_neutral	2_neutral	3_strong	3_strong	2_neutral						0						
+2446	46	15	user	東北在住なんですけど、東北圏内がいいなと思ってます。	要求	0	0	0	1292	2446	11	4	東北圏内	旅行	RYAR:旅行エリア	1_weak	2_neutral	2_neutral		3_strong	3_strong						0						
+2447	46	16	agent	かしこまりました。		0	0	0																									
+2448	46	17	agent	それでは、歩かれるのは大変かと思いますので、最寄り駅から送迎サービスのあるお宿にしましょうか？		0	0	0																									
+2449	46	18	agent	それとも、お車でお出かけになりますでしょうか？		0	0	0																									
+2450	46	19	user	いえ、自宅から車で行くので、送迎サービスはいらないです。	照応要求	0	0	0	1294	2450	3	8	自宅から車で行く	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	3_strong						0						
+2450	46	19	user	いえ、自宅から車で行くので、送迎サービスはいらないです。	照応要求	0	0	0	1296	2448	22	12	最寄り駅から送迎サービス	サービス	SESE:ホテルサービス	2_neutral	3_strong	2_neutral	2_neutral		2_neutral						1		128	2450	14	6	送迎サービス
+2451	46	20	user	なので、駐車場がある宿がいいですね。	要求	0	0	0	1297	2451	4	3	駐車場	サービス	SESE:ホテルサービス	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+2452	46	21	agent	かしこまりました。		0	0	0																									
+2453	46	22	agent	それでは駐車場のあるお宿をお探しします。		0	0	0																									
+2454	46	23	agent	お母様の足が悪いとのことですので、バリアフリー対応のお宿がよろしいでしょうか？		0	0	0																									
+2455	46	24	user	車椅子ではないし杖を持って歩けるのでそこまで重視してないですが、階段が大変なので、エレベーターは欲しいですね。	要求	0	0	0	1300	2455	41	6	エレベーター	宿	YAEN:宿環境	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+2456	46	25	agent	かしこまりました。		0	0	0																									
+2457	46	26	agent	それではエレベーターのあるお宿をお探しします。		0	0	0																									
+2458	46	27	agent	お部屋は皆さまで１室でよろしいでしょうか？		0	0	0																									
+2459	46	28	agent	和室、洋室のご希望がございましたらお聞かせください。		0	0	0																									
+2460	46	29	user	はい、みんなで１室がいいなと思ってます。	はい	0	0	0																									
+2461	46	30	user	部屋は、和室がいいです。	照応要求	0	0	0	1301	2459	0	2	和室	部屋	HETY:部屋タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0		129	2461	4	2	和室
+2462	46	31	agent	かしこまりました。		0	0	0																									
+2463	46	32	agent	それでは和室でお調べします。		0	0	0																									
+2464	46	33	agent	お食事はいかがなさいますか？		0	0	0																									
+2465	46	34	agent	幼児食や、柔らかいご高齢の方向けのお食事もございますが。		0	0	0																									
+2466	46	35	user	夕食は、付いてるところがいいです。	要求	0	0	0	1303	2466	0	2	夕食	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+2467	46	36	user	誕生日なのでちょっと贅沢なコースが嬉しいですが、可能ですか？	要求	0	0	0	1305	2467	0	3	誕生日	旅行	RYSC:旅行シーン	2_neutral	1_weak	2_neutral	3_strong		3_strong						0						
+2467	46	36	user	誕生日なのでちょっと贅沢なコースが嬉しいですが、可能ですか？	要求	0	0	0	1307	2467	6	10	ちょっと贅沢なコース	食事	SYNA:食事内容	1_weak	1_weak	1_weak			3_strong						0						
+2468	46	37	user	歯は丈夫なので柔らかさは大丈夫です。	伝達	0	0	0																									
+2469	46	38	user	子供のご飯はこっちから持っていくので、特に希望はありません。	要求	0	0	0	1310	2469	0	5	子供のご飯	子供	KOKO:子供用サービス	2_neutral	1_weak	2_neutral	2_neutral		2_neutral						1						
+2470	46	39	agent	かしこまりました。		0	0	0																									
+2471	46	40	agent	それではご夕食付きでお調べいたします。		0	0	0																									
+2472	46	41	agent	お誕生日とのことで、お祝い用のコース料理のプランになさいますか？		0	0	0																									
+2473	46	42	user	そういうのがあるなら、それが一番いいですね！	はい	0	0	0																									
+2474	46	43	agent	かしこまりました。		0	0	0																									
+2475	46	44	agent	それでは、お祝い用コース料理をお召し上がりいただけるお宿をお調べいたします。		0	0	0																									
+2476	46	45	agent	他にご希望はございますでしょうか？		0	0	0																									
+2477	46	46	agent	特にございませんでしたら、以上の条件でお宿をお調べいたします。		0	0	0																									
+2478	46	47	user	はい、大丈夫です。	いいえ	0	0	0																									
+2479	46	48	user	お願いします。	その他	0	0	0																									
+2480	46	49	agent	ご希望をお聞かせくださり、ありがとうございました。		0	0	0																									
+2481	46	50	agent	それでは以下の条件でお調べしますので、よろしくお願いいたします。		0	0	0																									
+2482	46	51	agent	・日付は７月１３日。		0	0	0																									
+2483	46	52	agent	・宿泊日数は２泊。		0	0	0																									
+2484	46	53	agent	・宿泊地は東北圏内。		0	0	0																									
+2485	46	54	agent	・人数は大人３名、子供１名。		0	0	0																									
+2486	46	55	agent	・宿タイプは旅館。		0	0	0																									
+2487	46	56	agent	・部屋は和室を１室。		0	0	0																									
+2488	46	57	agent	・露天風呂の内風呂がある部屋を希望。		0	0	0																									
+2489	46	58	agent	・駐車場のある宿を希望。		0	0	0																									
+2490	46	59	agent	・エレベーターのある宿を希望。		0	0	0																									
+2491	46	60	agent	・食事はお祝い用のコース料理を希望。		0	0	0																									

@@ -1,0 +1,58 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+957	19	1	agent	宿予約サービスのご利用ありがとうございます。		0	0	0																									
+958	19	2	agent	宿について重視したい点をお聞かせください。		0	0	0																									
+959	19	3	user	こんにちは。	その他	0	0	0																									
+960	19	4	user	今回大学生の男性４名での旅を検討しています。	要求	0	0	0	720	960	2	8	大学生の男性４名	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+960	19	4	user	今回大学生の男性４名での旅を検討しています。	要求	0	0	0	722	960	8	2	４名	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+961	19	5	user	食べるのが大好きなので、地元の食材を使った料理が楽しめる宿を希望しています。	要求	0	0	0	726	961	12	11	地元の食材を使った料理	食事	SYNA:食事内容	2_neutral	3_strong	2_neutral	2_neutral		2_neutral						0						
+962	19	6	agent	かしこまりました。		0	0	0																									
+963	19	7	agent	お日付と宿泊日数はお決まりでしょうか？		0	0	0																									
+964	19	8	user	はい、決まっています。	はい	0	0	0																									
+965	19	9	user	５月８日から４泊です。	要求	0	0	0	728	965	0	6	５月８日から	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+965	19	9	user	５月８日から４泊です。	要求	0	0	0	729	965	6	2	４泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+966	19	10	agent	宿泊地はどちらをご希望でしょうか？		0	0	0																									
+967	19	11	user	長野県に行ってみたいです。	要求	0	0	0	731	967	0	3	長野県	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+968	19	12	agent	かしこまりました。		0	0	0																									
+969	19	13	agent	お宿のタイプですが、ホテル、旅館など、ご希望はございますでしょうか？		0	0	0																									
+970	19	14	user	宿のタイプは特にこだわりはないです。	要求	0	0	0	734	970	6	9	特にこだわりはない	宿	YATY:宿タイプ	2_neutral	1_weak	1_weak	1_weak								0						
+971	19	15	user	４人で一緒の部屋に泊まりたいです。	要求	0	0	0	736	971	3	5	一緒の部屋	部屋	HENU:部屋数	2_neutral	2_neutral	2_neutral	2_neutral	3_strong	2_neutral	87	971	0	2	４人	0						
+972	19	16	agent	さようでございますか。		0	0	0																									
+973	19	17	agent	でしたら、旅館がよろしいかと思いますが、いかがでしょうか？		0	0	0																									
+974	19	18	user	はい、それでお願いします。	はい	0	0	0																									
+975	19	19	agent	ありがとうございます。		0	0	0																									
+976	19	20	agent	長野県でしたら温泉がございますが、ご宿泊は温泉のあるお宿がよろしいでしょうか？		0	0	0																									
+977	19	21	user	あれば嬉しいです！	はい	0	0	0																									
+978	19	22	agent	かしこまりました。		0	0	0																									
+979	19	23	agent	それでは温泉のある旅館をお調べいたします。		0	0	0																									
+980	19	24	agent	お食事について、地元の食材を使った料理をご希望でしたが、こちらはご夕食でのご用意でよろしいでしょうか。		0	0	0																									
+981	19	25	agent	朝食はいかがなさいますか？		0	0	0																									
+982	19	26	user	はい、地元の食材を使った料理は夕食でお願いします。	はい	0	0	0																									
+983	19	27	user	朝食も可能ならあると助かります。	要求	0	0	0	739	983	0	2	朝食	食事	SYUM:食事有無	1_weak	1_weak	1_weak									0						
+984	19	28	agent	かしこまりました。		0	0	0																									
+985	19	29	agent	それでは２食ご用意いたします。		0	0	0																									
+986	19	30	agent	こちらはお車でのご旅行でしょうか。		0	0	0																									
+987	19	31	agent	それとも公共交通機関でのご旅行でしょうか。		0	0	0																									
+988	19	32	user	食事についてはありがとうございます。	その他	0	0	0																									
+989	19	33	user	車で伺います。	照応要求	0	0	0	740	986	4	2	お車	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	3_strong						0		100	989	0	1	車
+990	19	34	agent	承知しました。		0	0	0																									
+991	19	35	agent	それでは、宿の場所ですが、高速道路のインター近くなどがよろしいでしょうか。		0	0	0																									
+992	19	36	user	運転は好きなので、多少遠くても山道でも構いません。	要求	0	0	0	742	992	9	4	多少遠く	立地	RIBA:立地 (場所)	1_weak	1_weak	1_weak									0						
+992	19	36	user	運転は好きなので、多少遠くても山道でも構いません。	要求	0	0	0	744	992	15	2	山道	立地	RIBA:立地 (場所)	1_weak	1_weak	1_weak									0						
+993	19	37	agent	かしこまりました。		0	0	0																									
+994	19	38	agent	他にご希望はございますでしょうか。		0	0	0																									
+995	19	39	user	夜に部屋で宴会がしたいので、お酒などの持ち込みができるとありがたいです。	要求	0	0	0	965	995	2	5	部屋で宴会	部屋	HEJO:部屋条件	1_weak	2_neutral	2_neutral		2_neutral	2_neutral	114	995	0	1	夜	0	＃					
+995	19	39	user	夜に部屋で宴会がしたいので、お酒などの持ち込みができるとありがたいです。	要求	0	0	0	966	995	14	13	お酒などの持ち込みができる	部屋	HEJO:部屋条件	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0	＃					
+996	19	40	agent	かしこまりました。		0	0	0																									
+997	19	41	agent	お飲み物を持ちこみできるお宿をお調べいたします。		0	0	0																									
+998	19	42	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+999	19	43	agent	・日付は５月８日。		0	0	0																									
+1000	19	44	agent	・宿泊日数は４泊。		0	0	0																									
+1001	19	45	agent	・宿泊地は長野県		0	0	0																									
+1002	19	46	agent	・人数は４人。		0	0	0																									
+1003	19	47	agent	・宿タイプは旅館。		0	0	0																									
+1004	19	48	agent	・部屋数は１室。		0	0	0																									
+1005	19	49	agent	・食事は朝・夕両方希望。		0	0	0																									
+1006	19	50	agent	夕食は地元の食材を使った料理を希望。		0	0	0																									
+1007	19	51	agent	・飲み物を持ちこみできる宿を希望。		0	0	0																									
+1008	19	52	agent	・温泉のある宿を希望。		0	0	0																									
+1009	19	53	agent	・宿の場所は多少遠くて山道の中でも可。		0	0	0																									

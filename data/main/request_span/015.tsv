@@ -1,0 +1,64 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+749	15	1	agent	この度のご利用、誠にありがとうございます。		0	0	0																									
+750	15	2	agent	お客様のお宿探しのお手伝いをいたします。		0	0	0																									
+751	15	3	agent	ご旅行される地域やお日付、人数などはお決まりでしょうか。		0	0	0																									
+752	15	4	user	８月１０日から１１日までの１泊で考えています。	要求	0	0	0	361	752	0	12	８月１０日から１１日まで	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+752	15	4	user	８月１０日から１１日までの１泊で考えています。	要求	0	0	0	362	752	13	2	１泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+753	15	5	user	夏休みの子供たちをどこかに連れて思い出を作ってあげたいのですが、旦那が忙しくて来れません。	要求	0	0	0	552	753	0	27	夏休みの子供たちをどこかに連れて思い出を作ってあげたい	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	3_strong						0						
+753	15	5	user	夏休みの子供たちをどこかに連れて思い出を作ってあげたいのですが、旦那が忙しくて来れません。	要求	0	0	0	555	753	0	3	夏休み	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+754	15	6	user	私（妻）と子供３人です。	要求	0	0	0	557	754	0	7	私（妻）と子供	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+754	15	6	user	私（妻）と子供３人です。	要求	0	0	0	771	754	5	4	子供３人	人数	NIKO:子供人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+755	15	7	user	東京に住んでいるんですが、今、遠くまでは行けない雰囲気なので、隣の神奈川県を考えています。	要求	0	0	0	560	755	33	4	神奈川県	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+756	15	8	agent	さようでございますか。		0	0	0																									
+757	15	9	agent	それでは、神奈川で観光をなさるご予定でしょうか。		0	0	0																									
+758	15	10	agent	それともホテル内でのプールなどのアクティヴィティをご希望でしょうか。		0	0	0																									
+759	15	11	user	都心に住んでいるので、できれば、海とか川とか山のように、神奈川県でも自然が感じられるエリアがいいです。	要求	0	0	0	563	759	34	8	自然が感じられる	立地	RIAC:立地 (アクティビティ)	2_neutral	1_weak	2_neutral	2_neutral		3_strong						0						
+759	15	11	user	都心に住んでいるので、できれば、海とか川とか山のように、神奈川県でも自然が感じられるエリアがいいです。	要求	0	0	0	564	759	28	4	神奈川県	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+760	15	12	user	ホテル内でのプールは、有っても無くても良いです。	要求	0	0	0	567	760	0	3	ホテル	宿	YATY:宿タイプ	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+760	15	12	user	ホテル内でのプールは、有っても無くても良いです。	要求	0	0	0	568	760	6	3	プール	施設	SHPO:施設条件 (プールスパ)	1_weak	1_weak	1_weak									0						
+761	15	13	agent	かしこまりました。		0	0	0																									
+762	15	14	agent	それでは、神奈川でも、小田原などの海や山がある地域をご希望でしょうか？		0	0	0																									
+763	15	15	user	あ、そうですね、そのあたりがいいです。	はい	0	0	0																									
+764	15	16	user	小田原とか箱根、湯河原等がいいです。	要求	0	0	0	569	764	0	3	小田原	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	1_weak	1_weak	1_weak						0						
+764	15	16	user	小田原とか箱根、湯河原等がいいです。	要求	0	0	0	570	764	5	2	箱根	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	1_weak	1_weak	1_weak						0						
+764	15	16	user	小田原とか箱根、湯河原等がいいです。	要求	0	0	0	571	764	8	3	湯河原	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	1_weak	1_weak	1_weak						0						
+765	15	17	agent	かしこまりました。		0	0	0																									
+766	15	18	agent	それでは、小田原、箱根、湯河原でお調べいたします。		0	0	0																									
+767	15	19	agent	お子さまが３名ご一緒ですと、長い距離を歩くのは大変かと思います。		0	0	0																									
+768	15	20	agent	海や山へ行きやすいターミナル駅の近くのお宿をお探ししましょうか？		0	0	0																									
+769	15	21	user	そうしてください。	はい	0	0	0																									
+770	15	22	user	小学３年、小学１年と幼稚園の子供で、かなりやんちゃなので、旦那がいないで私だけで面倒見なければならないので	要求	0	0	0	572	770	0	4	小学３年	人数	NIKO:子供人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0	#					
+770	15	22	user	小学３年、小学１年と幼稚園の子供で、かなりやんちゃなので、旦那がいないで私だけで面倒見なければならないので	要求	0	0	0	574	770	5	4	小学１年	人数	NIKO:子供人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0	#					
+770	15	22	user	小学３年、小学１年と幼稚園の子供で、かなりやんちゃなので、旦那がいないで私だけで面倒見なければならないので	要求	0	0	0	575	770	10	3	幼稚園	人数	NIKO:子供人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0	#					
+772	15	24	agent	承知しました。		0	0	0																									
+773	15	25	agent	お部屋はどのようにいたしましょうか。		0	0	0																									
+774	15	26	agent	「ハリウッドツイン」というタイプのお部屋がございまして、ベッドを２つ合体させることで、お客様と３名のお子様が一緒にお休みになれるかと思います。		0	0	0																									
+775	15	27	agent	いかがでしょうか？		0	0	0																									
+776	15	28	user	へぇ、そういうのがあるんですね	伝達	0	0	0																									
+777	15	29	user	それはすごくいいです。	感想	0	0	0	3543	774	1	8	ハリウッドツイン	部屋	HETY:部屋タイプ	1_weak	2_neutral	1_weak		2_neutral							0		55	777	0	2	それ
+778	15	30	user	そうしてください。	はい	0	0	0																									
+779	15	31	agent	かしこまりました。		0	0	0																									
+780	15	32	agent	お食事ですが、お子様ですとバイキングをお喜びになるかと思いました。		0	0	0																									
+781	15	33	agent	幼稚園のお子様もいらっしゃいますので、お子様用のバイキング料金があるお宿など、いかがでしょうか？		0	0	0																									
+782	15	34	user	子供たち、バイキング大好きです。	感想	0	0	0	580	782	5	5	バイキング	食事	SYNA:食事内容	1_weak	2_neutral	1_weak	2_neutral	2_neutral							0						
+783	15	35	user	子供用のバイキング料金であれば、節約できていいですね。	感想	0	0	0	581	783	0	11	子供用のバイキング料金	サービス	SESE:ホテルサービス	1_weak	2_neutral	1_weak		2_neutral							0						
+784	15	36	user	そういう宿泊施設があれば、選んでください。	はい	0	0	0																									
+785	15	37	user	でも、無ければ通常のバイキング料金でもＯＫです。	要求	0	0	0	582	785	7	10	通常のバイキング料金	サービス	SESE:ホテルサービス	1_weak	1_weak	1_weak	1_weak								0						
+786	15	38	agent	かしこまりました。		0	0	0																									
+787	15	39	agent	お値段の話題が出ましたが、今回のご旅行は８月１０日でハイシーズンとなっております。		0	0	0																									
+788	15	40	agent	ご予算はいかがお考えでしょうか？		0	0	0																									
+789	15	41	user	具体的にいくら、というのはまだ決めていないのですが、	要求	0	0	0	583	789	13	8	まだ決めていない	予算	YOYO:予算	1_weak	1_weak	1_weak									0						
+791	15	43	agent	お客様のご希望に応じてお探しいたしますので、ご遠慮なくお申し付け下さい。		0	0	0																									
+792	15	44	user	あまり贅沢もできないので、４人で１万５，０００円から２万円くらいをかんがえています。	要求	0	0	0	584	792	16	16	１万５，０００円から２万円くらい	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	1_weak	1_weak	1_weak	62	792	13	2	４人	0						
+793	15	45	agent	承知しました。		0	0	0																									
+794	15	46	agent	それでは、以下の条件でお調べいたします。		0	0	0																									
+795	15	47	agent	・日付は８月１０日。		0	0	0																									
+796	15	48	agent	・宿泊日数は１泊。		0	0	0																									
+797	15	49	agent	・宿泊地は神奈川県。		0	0	0																									
+798	15	50	agent	特に小田原、箱根、湯河原を希望。		0	0	0																									
+799	15	51	agent	・人数は大人１名、子ども３名。		0	0	0																									
+800	15	52	agent	・予算は全員で１５０００～２００００円。		0	0	0																									
+801	15	53	agent	・部屋タイプはハリウッドツインを希望。		0	0	0																									
+802	15	54	agent	・海や山へ行きやすいターミナル駅の近くの宿を希望。		0	0	0																									
+803	15	55	agent	・食事はバイキングを希望。		0	0	0																									
+804	15	56	agent	子ども用のバイキング料金があるとよいが、無ければ通常料金でも可。		0	0	0																									

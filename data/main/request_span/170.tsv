@@ -1,0 +1,55 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+8973	170	1	agent	この度のご利用、誠にありがとうございます。		0	0	0																									
+8974	170	2	agent	お客様のお宿探しのお手伝いをいたします。		0	0	0																									
+8975	170	3	agent	お客様のご希望をお聞かせいただけますでしょうか？		0	0	0																									
+8976	170	4	user	３月に家族で福井に行きたいと思っています。	要求	0	0	0	1472	8976	0	2	３月	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	2_neutral	3_strong	3_strong						0						
+8976	170	4	user	３月に家族で福井に行きたいと思っています。	要求	0	0	0	1473	8976	3	2	家族	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8976	170	4	user	３月に家族で福井に行きたいと思っています。	要求	0	0	0	1474	8976	6	2	福井	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8977	170	5	user	温泉でのんびりしたいです。	要求	0	0	0	1475	8977	0	10	温泉でのんびりしたい	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	3_strong						0						
+8977	170	5	user	温泉でのんびりしたいです。	要求	0	0	0	1477	8977	0	2	温泉	風呂	FUTY:風呂種類	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+8978	170	6	agent	福井県ですね。		0	0	0																									
+8979	170	7	agent	かしこまりました。		0	0	0																									
+8980	170	8	agent	ご利用の泊数を教えていただいてよろしいでしょうか？		0	0	0																									
+8981	170	9	user	１泊です。	要求	0	0	0	1478	8981	0	2	１泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8982	170	10	agent	かしこまりました。		0	0	0																									
+8983	170	11	agent	また、ご旅行をするご家族の内わけを教えていただいてよろしいでしょうか？		0	0	0																									
+8984	170	12	user	大人１人、子供３人です。	要求	0	0	0	1479	8984	0	4	大人１人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8984	170	12	user	大人１人、子供３人です。	要求	0	0	0	1480	8984	5	4	子供３人	人数	NIKO:子供人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8985	170	13	agent	かしこまりました。		0	0	0																									
+8986	170	14	agent	その条件でお探ししますね。		0	0	0																									
+8987	170	15	agent	ご予算はどのくらいでお考えでしょうか？		0	0	0																									
+8988	170	16	user	１人当たり１万５千円以内で考えています。	要求	0	0	0	1481	8988	5	7	１万５千円以内	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	174	8988	0	2	１人	0						
+8989	170	17	agent	１万５千円以内ですね。		0	0	0																									
+8990	170	18	agent	かしこまりました。		0	0	0																									
+8991	170	19	agent	温泉をご希望とのことですが、あわら温泉にある旅館でお探ししてもよろしいでしょうか？		0	0	0																									
+8992	170	20	user	それでお願いします。	はい	0	0	0																									
+8993	170	21	agent	かしこまりました。		0	0	0																									
+8994	170	22	agent	あわら温泉にあることを条件に加えておきますね。		0	0	0																									
+8995	170	23	agent	お部屋のタイプはお子様がいるようでしたら離れの和室でお探ししましょうか？		0	0	0																									
+8996	170	24	user	ぜひお願いします。	はい	0	0	0																									
+8997	170	25	agent	かしこまりました。		0	0	0																									
+8998	170	26	agent	そちらの条件でお探しします。		0	0	0																									
+8999	170	27	agent	お食事の方はいかがなさいましょうか？		0	0	0																									
+9000	170	28	user	朝食、夕食どちらもついているとありがたいです。	要求	0	0	0	1482	9000	0	5	朝食、夕食	食事	SYUM:食事有無	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+9001	170	29	agent	かしこまりました。		0	0	0																									
+9002	170	30	agent	お子様用のメニューはいかがなさいましょうか？		0	0	0																									
+9003	170	31	user	どちらでもかまいません。	照応要求	0	0	0	1483	9002	0	9	お子様用のメニュー	子供	KOKO:子供用サービス	1_weak	1_weak	1_weak									0		48	9003	0	11	どちらでもかまいません
+9004	170	32	agent	さようでございますか。		0	0	0																									
+9005	170	33	agent	かしこまりました。		0	0	0																									
+9006	170	34	agent	旅館まではお車でおこしでしょうか？		0	0	0																									
+9007	170	35	user	駅から宿までのバスがあると助かります。	要求	0	0	0	1484	9007	0	12	駅から宿までのバスがある	サービス	SESE:ホテルサービス	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+9008	170	36	agent	かしこまりました。		0	0	0																									
+9009	170	37	agent	そうしましたら、宿までシャトルバスでの送迎があることも条件に加えておきますね。		0	0	0																									
+9010	170	38	agent	他にご要望はございますか？		0	0	0																									
+9011	170	39	user	特にございません。	いいえ	0	0	0																									
+9012	170	40	agent	かしこまりました。		0	0	0																									
+9013	170	41	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+9014	170	42	agent	・行先は福井県		0	0	0																									
+9015	170	43	agent	・日程は３月に１泊		0	0	0																									
+9016	170	44	agent	・人数は大人１人、子供３人		0	0	0																									
+9017	170	45	agent	・予算は１人当たり１万５千円以内		0	0	0																									
+9018	170	46	agent	・宿は旅館		0	0	0																									
+9019	170	47	agent	・あわら温泉の中にある		0	0	0																									
+9020	170	48	agent	・部屋は離れの和室		0	0	0																									
+9021	170	49	agent	・朝夕食事付き		0	0	0																									
+9022	170	50	agent	・シャトルバスがある		0	0	0																									

@@ -1,0 +1,64 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+3811	71	1	agent	宿予約サービスのご利用ありがとうございます。		0	0	0																									
+3812	71	2	agent	宿について重視したい点をお聞かせください。		0	0	0																									
+3813	71	3	user	京都府に旅行したいです。	要求	0	0	0	2009	3813	0	3	京都府	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+3814	71	4	user	おすすめのホテルは何ですか？	質問	0	0	0																									
+3815	71	5	agent	さようでございますか。		0	0	0																									
+3816	71	6	agent	京都市内の観光でのご宿泊でしょうか？		0	0	0																									
+3817	71	7	user	京都市内の観光ですね。	はい	0	0	0																									
+3818	71	8	agent	かしこまりました。		0	0	0																									
+3819	71	9	agent	それでは京都市内のお宿をお調べします。		0	0	0																									
+3820	71	10	agent	ご宿泊のお日付と泊数はいかがなさいますか？		0	0	0																									
+3821	71	11	user	５月中旬に２泊です。	要求	0	0	0	2010	3821	0	4	５月中旬	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	3_strong						0						
+3821	71	11	user	５月中旬に２泊です。	要求	0	0	0	2011	3821	5	2	２泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+3822	71	12	agent	承知しました。		0	0	0																									
+3823	71	13	agent	何名様でご宿泊でしょうか？		0	0	0																									
+3824	71	14	user	大人１人，　子ども２人です。	要求	0	0	0	2012	3824	2	2	１人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+3824	71	14	user	大人１人，　子ども２人です。	要求	0	0	0	2013	3824	9	2	２人	人数	NIKO:子供人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+3825	71	15	agent	さようでございますか。		0	0	0																									
+3826	71	16	agent	そうしましたら、お子様連れで京都市内の観光となりますと、バスをご利用しやすいターミナル駅周辺がよろしいかと思いますが、いかがでしょうか？		0	0	0																									
+3827	71	17	user	そうですね、なるべく子どもも楽しめそうなホテルを希望します	要求	0	0	0	2014	3827	10	9	子どもも楽しめそう	子供	KOKO:子供用サービス	1_weak	1_weak	1_weak		2_neutral							0						
+3827	71	17	user	そうですね、なるべく子どもも楽しめそうなホテルを希望します	要求	0	0	0	2015	3827	20	3	ホテル	宿	YATY:宿タイプ	1_weak	1_weak	1_weak		2_neutral							0						
+3828	71	18	agent	かしこまりました。		0	0	0																									
+3829	71	19	agent	それでは、お子様向けのプレイルームのあるお宿はいかがでしょうか？		0	0	0																									
+3830	71	20	user	いいですね。	はい	0	0	0																									
+3831	71	21	user	他にもプールやゲームセンターなど娯楽施設が欲しいです。	要求	0	0	0	2016	3831	3	3	プール	施設	SHPO:施設条件 (プールスパ)	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+3831	71	21	user	他にもプールやゲームセンターなど娯楽施設が欲しいです。	要求	0	0	0	2017	3831	7	7	ゲームセンター	施設	SHLE:施設条件(レジャー)	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+3831	71	21	user	他にもプールやゲームセンターなど娯楽施設が欲しいです。	要求	0	0	0	2018	3831	16	4	娯楽施設	施設	SHLE:施設条件(レジャー)	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+3832	71	22	agent	かしこまりました。		0	0	0																									
+3833	71	23	agent	それでは、子供向けプレイルーム、プール、ゲームセンターなどの娯楽施設のあるお宿をお調べします。		0	0	0																									
+3834	71	24	agent	お部屋ですが、お子様はそれぞれベッドをご利用になりますか？		0	0	0																									
+3835	71	25	agent	そうしますとトリプルルームがよろしいかと思います。		0	0	0																									
+3836	71	26	agent	それともツインルームでよろしいでしょうか？		0	0	0																									
+3837	71	27	user	ツインでもトリプルでもいいんですが、	照応要求	0	0	0	2019	3836	4	6	ツインルーム	部屋	HETY:部屋タイプ	1_weak	1_weak	2_neutral			1_weak						0		157	3837	0	3	ツイン
+3837	71	27	user	ツインでもトリプルでもいいんですが、	照応要求	0	0	0	2020	3835	6	7	トリプルルーム	部屋	HETY:部屋タイプ	1_weak	1_weak	2_neutral			1_weak						0		158	3837	5	4	トリプル
+3839	71	29	agent	ホテルにもよりますので、一概には申し上げられませんが、ツインとトリプルのいずれでもお値段重視ということでよろしいでしょうか？		0	0	0																									
+3840	71	30	user	そうですね。	はい	0	0	0																									
+3841	71	31	user	１人当たり１泊１万円ほどにしたいです。	要求	0	0	0	2021	3841	7	5	１万円ほど	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	1_weak	1_weak	1_weak	239	3841	5	2	１泊	0						
+3841	71	31	user	１人当たり１泊１万円ほどにしたいです。	要求	0	0	0	2021	3841	7	5	１万円ほど	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	1_weak	1_weak	1_weak	240	3841	0	2	１人	0						
+3842	71	32	agent	かしこまりました。		0	0	0																									
+3843	71	33	agent	それでは１人１泊１万円程度のご予算で承ります。		0	0	0																									
+3844	71	34	agent	ほかにご希望はございますでしょうか？		0	0	0																									
+3845	71	35	user	ホテル内に食事ができる場所はありますか？	要求	0	0	0	2022	3845	5	8	食事ができる場所	施設	SHLE:施設条件(レジャー)	2_neutral	1_weak	1_weak	1_weak								0						
+3846	71	36	agent	それでは館内にレストラン併設の宿をお調べしましょうか？		0	0	0																									
+3847	71	37	user	そうですね、できればバイキングを希望します。	要求	0	0	0	2023	3847	10	5	バイキング	食事	SYNA:食事内容	1_weak	1_weak	1_weak									0						
+3848	71	38	agent	かしこまりました。		0	0	0																									
+3849	71	39	agent	それではバイキングのできるレストラン併設の宿をお調べします。		0	0	0																									
+3850	71	40	agent	他にはご希望はございますでしょうか？		0	0	0																									
+3851	71	41	user	他にもマッサージを受けられたら嬉しいです。	要求	0	0	0	2024	3851	3	5	マッサージ	施設	SHPO:施設条件 (プールスパ)	1_weak	2_neutral	1_weak		2_neutral							0						
+3852	71	42	agent	かしこまりました。		0	0	0																									
+3853	71	43	agent	マッサージサービスのある宿をお調べします。		0	0	0																									
+3854	71	44	agent	他にはございますか？		0	0	0																									
+3855	71	45	user	以上になります。	いいえ	0	0	0																									
+3856	71	46	agent	かしこまりました。		0	0	0																									
+3857	71	47	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+3858	71	48	agent	・日付は５月中旬。		0	0	0																									
+3859	71	49	agent	・宿泊日数は２泊。		0	0	0																									
+3860	71	50	agent	・宿泊地は京都市内。		0	0	0																									
+3861	71	51	agent	・人数は大人１人、子供２人。		0	0	0																									
+3862	71	52	agent	・部屋タイプはツインとトリプルのどちらでもよい（値段重視）。		0	0	0																									
+3863	71	53	agent	・予算は１人１泊１万円程度。		0	0	0																									
+3864	71	54	agent	・ターミナル駅周辺の宿を希望。		0	0	0																									
+3865	71	55	agent	・子供向けプレイルーム、プール、ゲームセンターなどの娯楽施設のある宿を希望。		0	0	0																									
+3866	71	56	agent	・館内にバイキングのできるレストラン併設の宿を希望。		0	0	0																									
+3867	71	57	agent	・マッサージサービスのある宿を希望。		0	0	0																									

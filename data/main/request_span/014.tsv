@@ -1,0 +1,66 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+691	14	1	agent	宿予約サービスのご利用ありがとうございます。		0	0	0																									
+692	14	2	agent	宿について重視したい点をお聞かせください。		0	0	0																									
+693	14	3	user	高校のときからの友人４人で九州へ旅行へ行きたいと計画しています。	要求	0	0	0	330	693	0	10	高校のときからの友人	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+693	14	3	user	高校のときからの友人４人で九州へ旅行へ行きたいと計画しています。	要求	0	0	0	331	693	10	2	４人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+693	14	3	user	高校のときからの友人４人で九州へ旅行へ行きたいと計画しています。	要求	0	0	0	332	693	13	2	九州	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+694	14	4	user	高校の修学旅行で、長崎と熊本に行ったんです。	伝達	0	0	0																									
+695	14	5	user	なので、みんなでまた九州に行きたいと思っていまして。	要求	0	0	0	334	695	10	2	九州	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+696	14	6	agent	さようでございますか。		0	0	0																									
+697	14	7	agent	ご旅行のお日付と宿泊日数はお決まりでしょうか？		0	0	0																									
+698	14	8	user	日にちは来年の、１月２３日から２７日までの４泊の予定です。	要求	0	0	0	335	698	4	16	来年の、１月２３日から２７日まで	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+698	14	8	user	日にちは来年の、１月２３日から２７日までの４泊の予定です。	要求	0	0	0	336	698	21	2	４泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+699	14	9	agent	かしこまりました。		0	0	0																									
+700	14	10	agent	九州のどちらかお決まりでしょうか？		0	0	0																									
+701	14	11	agent	あるいは、リゾート地のホテルなどでごゆっくりなさいますか？		0	0	0																									
+702	14	12	user	場所ははっきりと決まっていないんですけど、修学旅行の時に行った、長崎と熊本のどちらかは行きたいですね。	要求	0	0	0	337	702	32	2	長崎	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	1_weak	1_weak	1_weak						0						
+702	14	12	user	場所ははっきりと決まっていないんですけど、修学旅行の時に行った、長崎と熊本のどちらかは行きたいですね。	要求	0	0	0	338	702	35	2	熊本	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	1_weak	1_weak	1_weak						0						
+703	14	13	user	リゾートってよりは、温泉が好きな子が多いから、温泉のがいいんじゃないかなあと思います。	要求	0	0	0	339	703	0	4	リゾート	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						1						
+703	14	13	user	リゾートってよりは、温泉が好きな子が多いから、温泉のがいいんじゃないかなあと思います。	要求	0	0	0	340	703	10	2	温泉	風呂	FUTY:風呂種類	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+704	14	14	agent	それでは、長崎か熊本の温泉でお調べいたします。		0	0	0																									
+705	14	15	agent	温泉で特にご希望はございますか？		0	0	0																									
+706	14	16	agent	例えば、にごり湯の温泉は人気がございます。		0	0	0																									
+707	14	17	user	にごり湯の温泉、いいですね。	感想	0	0	0	341	707	0	7	にごり湯の温泉	風呂	FUTY:風呂種類	1_weak	2_neutral	1_weak		2_neutral							0						
+708	14	18	user	温泉での希望は、、、ほかの観光地からあまりにも離れすぎていない場所がいいかもしれません。	要求	0	0	0	342	708	0	2	温泉	風呂	FUTY:風呂種類	2_neutral	2_neutral	1_weak	2_neutral	2_neutral							0						
+708	14	18	user	温泉での希望は、、、ほかの観光地からあまりにも離れすぎていない場所がいいかもしれません。	要求	0	0	0	343	708	10	21	ほかの観光地からあまりにも離れすぎていない	立地	RIAC:立地 (アクティビティ)	2_neutral	2_neutral	1_weak	1_weak	2_neutral							0						
+709	14	19	user	移動が大変なところは避けたいです。	要求	0	0	0	344	709	0	5	移動が大変	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						1						
+710	14	20	agent	かしこまりました。		0	0	0																									
+711	14	21	agent	それでは、観光名所にアクセスしやすいお宿をお探しいたします。		0	0	0																									
+712	14	22	agent	お宿のタイプはホテル、旅館などございますが、どれがよろしいでしょうか？		0	0	0																									
+713	14	23	user	温泉のある旅館がいいです。	照応要求	0	0	0	345	713	0	2	温泉	風呂	FUTY:風呂種類	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+713	14	23	user	温泉のある旅館がいいです。	照応要求	0	0	0	346	712	11	2	旅館	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0		93	713	5	2	旅館
+714	14	24	user	できれば、清潔感のある感じで。	要求	0	0	0	347	714	5	6	清潔感のある	宿	YAEN:宿環境	1_weak	1_weak	1_weak	1_weak								0						
+715	14	25	agent	かしこまりました。		0	0	0																									
+716	14	26	agent	それでは、きれいな旅館で承ります。		0	0	0																									
+717	14	27	agent	旅館ですと、お部屋の数は皆さまで１室でよろしいでしょうか？		0	0	0																									
+718	14	28	user	はい、久しぶりにみんなで会っていろいろ話したいので、１つの部屋にしてください。	はい	0	0	0																									
+719	14	29	agent	さようでございますか。		0	0	0																									
+720	14	30	agent	それでは１部屋をご用意いたします。		0	0	0																									
+721	14	31	agent	温泉は大浴場でよろしいでしょうか？		0	0	0																									
+722	14	32	agent	それとも、客室内に専用のお風呂が付いたお部屋がよろしいでしょうか？		0	0	0																									
+723	14	33	user	せっかくなので、部屋にお風呂が付いたタイプで泊まりたいです。	照応要求	0	0	0	755	722	5	17	客室内に専用のお風呂が付いたお部屋	部屋	HESE:部屋設備	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0		94	723	8	13	部屋にお風呂が付いたタイプ
+724	14	34	user	ゆっくり話もできそうなので。	伝達	0	0	0																									
+725	14	35	agent	かしこまりました。		0	0	0																									
+726	14	36	agent	お食事は２食付きでよろしいでしょうか？		0	0	0																									
+727	14	37	user	はい、夕食も朝食もつけてください。	はい	0	0	0																									
+728	14	38	agent	それでは、２食付きで承ります。		0	0	0																									
+729	14	39	agent	最寄り駅からの送迎バスはいかがでしょうか？		0	0	0																									
+730	14	40	agent	それとも、お車でのご旅行でしょうか？		0	0	0																									
+731	14	41	user	今回は自動車じゃなくて、飛行機と電車・バスでの移動で計画しています。	要求	0	0	0	352	731	12	13	飛行機と電車・バスでの移動	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	3_strong						0						
+732	14	42	user	バスで送迎してもらえれば助かります。	要求	0	0	0	353	732	0	5	バスで送迎	サービス	SESE:ホテルサービス	1_weak	1_weak	2_neutral			2_neutral						0						
+733	14	43	agent	かしこまりました。		0	0	0																									
+734	14	44	agent	それでは、送迎バスのある宿をお調べいたします。		0	0	0																									
+735	14	45	agent	ご希望をお聞かせくださり、ありがとうございました。		0	0	0																									
+736	14	46	agent	それでは以下の条件でお調べしますので、よろしくお願いいたします。		0	0	0																									
+737	14	47	agent	・日付は１月２３日。		0	0	0																									
+738	14	48	agent	・宿泊日数は４泊。		0	0	0																									
+739	14	49	agent	・宿泊地は長崎か熊本。		0	0	0																									
+740	14	50	agent	・人数は大人４名。		0	0	0																									
+741	14	51	agent	・宿のタイプは旅館。		0	0	0																									
+742	14	52	agent	きれいなところを希望。		0	0	0																									
+743	14	53	agent	・部屋数は１部屋。		0	0	0																									
+744	14	54	agent	・専用風呂付の客室を希望。		0	0	0																									
+745	14	55	agent	・泉質は「にごり湯」を希望。		0	0	0																									
+746	14	56	agent	・立地は観光名所にアクセスしやすい宿を希望。		0	0	0																									
+747	14	57	agent	・食事は２食付きを希望。		0	0	0																									
+748	14	58	agent	・送迎バスのある宿を希望。		0	0	0																									

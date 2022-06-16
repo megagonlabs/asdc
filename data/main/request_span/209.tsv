@@ -1,0 +1,59 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+10738	209	1	agent	この度のご利用、誠にありがとうございます。		0	0	0																									
+10739	209	2	agent	お客様のお宿探しのお手伝いをいたします。		0	0	0																									
+10740	209	3	agent	お客様のご希望をお聞かせいただけますでしょうか？		0	0	0																									
+10741	209	4	user	夫と２人で岐阜県に旅行に行きます。	要求	0	0	0	151	10741	2	2	２人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+10741	209	4	user	夫と２人で岐阜県に旅行に行きます。	要求	0	0	0	152	10741	5	3	岐阜県	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+10741	209	4	user	夫と２人で岐阜県に旅行に行きます。	要求	0	0	0	3539	10741	0	1	夫	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+10742	209	5	user	地元の食文化を楽しみたいので、郷土料理の出てくる旅館を探してください。	要求	0	0	0	153	10742	0	12	地元の食文化を楽しみたい	食事	SYNA:食事内容	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+10742	209	5	user	地元の食文化を楽しみたいので、郷土料理の出てくる旅館を探してください。	要求	0	0	0	156	10742	15	4	郷土料理	食事	SYNA:食事内容	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+10742	209	5	user	地元の食文化を楽しみたいので、郷土料理の出てくる旅館を探してください。	要求	0	0	0	157	10742	24	2	旅館	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+10743	209	6	agent	郷土料理が出てくる旅館ですね。		0	0	0																									
+10744	209	7	agent	かしこまりました。		0	0	0																									
+10745	209	8	agent	ご旅行のお日にちとご利用される泊数を教えていただいてよろしいでしょうか？		0	0	0																									
+10746	209	9	user	２月２７日から３泊です。	要求	0	0	0	158	10746	0	7	２月２７日から	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+10746	209	9	user	２月２７日から３泊です。	要求	0	0	0	159	10746	7	2	３泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+10747	209	10	agent	お日にち、かしこまりました。		0	0	0																									
+10748	209	11	agent	ご予算の方はどのくらいでお考えでしょうか？		0	0	0																									
+10749	209	12	user	１人あたり１泊１５０００円以内で、事前クレジット決済が可能な旅館を希望します。	要求	0	0	0	160	10749	7	8	１５０００円以内	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	20	10749	0	2	１人	0						
+10749	209	12	user	１人あたり１泊１５０００円以内で、事前クレジット決済が可能な旅館を希望します。	要求	0	0	0	160	10749	7	8	１５０００円以内	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	21	10749	5	2	１泊	0						
+10749	209	12	user	１人あたり１泊１５０００円以内で、事前クレジット決済が可能な旅館を希望します。	要求	0	0	0	161	10749	17	12	事前クレジット決済が可能	サービス	SESE:ホテルサービス	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+10749	209	12	user	１人あたり１泊１５０００円以内で、事前クレジット決済が可能な旅館を希望します。	要求	0	0	0	162	10749	30	2	旅館	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+10750	209	13	agent	事前クレジットでのお支払いが可能な旅館ですね。		0	0	0																									
+10751	209	14	agent	かしこまりました。		0	0	0																									
+10752	209	15	agent	お食事の方はいかがなさいましょうか？		0	0	0																									
+10753	209	16	user	食事は朝夕付きで、夕食は部屋食を希望します。	要求	0	0	0	164	10753	3	2	朝夕	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+10753	209	16	user	食事は朝夕付きで、夕食は部屋食を希望します。	要求	0	0	0	166	10753	9	6	夕食は部屋食	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+10754	209	17	agent	かしこまりました。		0	0	0																									
+10755	209	18	agent	先ほどお伝えいただいた郷土料理がメニューにあることも併せてお探ししますね。		0	0	0																									
+10756	209	19	agent	大人２名様でのご利用ですので、お酒の飲み放題があることも条件にお探ししましょうか？		0	0	0																									
+10757	209	20	user	夫がお酒飲めないので、飲み放題はついてなくても大丈夫です。	いいえ	0	0	0																									
+10758	209	21	user	そのかわり、郷土料理がメニューにあるのは必須でお願いします。	要求	0	0	0	167	10758	6	4	郷土料理	食事	SYNA:食事内容	3_strong	3_strong	3_strong									0						
+10759	209	22	agent	郷土料理は必須ですね。		0	0	0																									
+10760	209	23	agent	かしこまりました。		0	0	0																									
+10761	209	24	agent	宿までのご移動はお車でしょうか？		0	0	0																									
+10762	209	25	user	はい、車で移動するので、専用駐車場のある宿を希望します。	要求	0	0	0	168	10762	12	5	専用駐車場	サービス	SESE:ホテルサービス	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+10763	209	26	user	駐車場は無料で利用したいです。	要求	0	0	0	169	10763	0	6	駐車場は無料	サービス	SESE:ホテルサービス	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	1_weak						0						
+10764	209	27	agent	お車ですね。		0	0	0																									
+10765	209	28	agent	かしこまりました。		0	0	0																									
+10766	209	29	agent	駐車場無料貸出サービスがあることも条件にお探ししますね。		0	0	0																									
+10767	209	30	agent	お部屋のタイプはいかがなさいましょうか？		0	0	0																									
+10768	209	31	agent	和、洋、離れがございます。		0	0	0																									
+10769	209	32	user	離れがいいです。	照応要求	0	0	0	172	10768	4	2	離れ	部屋	HEJO:部屋条件	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0		250	10769	0	2	離れ
+10770	209	33	user	離れが空いていなければ和で。	照応要求	0	0	0	173	10768	0	1	和	部屋	HETY:部屋タイプ	1_weak	1_weak	1_weak				22	10770	0	11	離れが空いていなければ	0		251	10770	11	1	和
+10771	209	34	agent	離れをご希望ですね。		0	0	0																									
+10772	209	35	agent	かしこまりました。		0	0	0																									
+10773	209	36	agent	他にご要望はございますか？		0	0	0																									
+10774	209	37	user	他に条件はありません。	いいえ	0	0	0																									
+10775	209	38	agent	かしこまりました。		0	0	0																									
+10776	209	39	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+10777	209	40	agent	・行先は岐阜県		0	0	0																									
+10778	209	41	agent	・人数は大人２人		0	0	0																									
+10779	209	42	agent	・日程は１人当たり１泊１５０００円以内		0	0	0																									
+10780	209	43	agent	・事前にクレジット決済が可能		0	0	0																									
+10781	209	44	agent	・宿は旅館		0	0	0																									
+10782	209	45	agent	・朝夕食事付き		0	0	0																									
+10783	209	46	agent	・夕食は部屋で		0	0	0																									
+10784	209	47	agent	・郷土料理がメニューにある		0	0	0																									
+10785	209	48	agent	・駐車場無料貸出サービスがある		0	0	0																									
+10786	209	49	agent	・部屋は離れ		0	0	0																									

@@ -1,0 +1,64 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+5707	105	1	agent	この度はご利用いただきまして、ありがとうございます。		0	0	0																									
+5708	105	2	agent	お客様のお宿探しのお手伝いをいたします。		0	0	0																									
+5709	105	3	agent	お客様のご希望をお聞かせいただけますでしょうか？		0	0	0																									
+5710	105	4	user	札幌へ家族旅行を考えている者です。	要求	0	0	0	2948	5710	0	2	札幌	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+5710	105	4	user	札幌へ家族旅行を考えている者です。	要求	0	0	0	2949	5710	3	4	家族旅行	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+5711	105	5	user	本日はよろしくお願いします。	その他	0	0	0																									
+5712	105	6	agent	ありがとうございます。		0	0	0																									
+5713	105	7	agent	ご家族でのご旅行とのことですが、大人の方とお子様、それぞれ何名様いらっしゃいますでしょうか？		0	0	0																									
+5714	105	8	user	大人２人、子供２人となります。	要求	0	0	0	2950	5714	2	2	２人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+5714	105	8	user	大人２人、子供２人となります。	要求	0	0	0	2951	5714	7	2	２人	人数	NIKO:子供人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+5715	105	9	agent	かしこまりました。		0	0	0																									
+5716	105	10	agent	お日付と宿泊日数はいかがでしょうか？		0	0	0																									
+5717	105	11	user	家族旅行は初めてなので１泊を考えています。	要求	0	0	0	2952	5717	0	4	家族旅行	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+5717	105	11	user	家族旅行は初めてなので１泊を考えています。	要求	0	0	0	2953	5717	11	2	１泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+5718	105	12	user	６月下旬を予定しておりますが、具体的日にちは決定しておりません。	要求	0	0	0	2954	5718	0	4	６月下旬	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	3_strong						0						
+5719	105	13	agent	かしこまりました。		0	0	0																									
+5720	105	14	agent	札幌へのご旅行とのことですが、市内でどちらかご希望の宿泊場所はございますでしょうか？		0	0	0																									
+5721	105	15	user	市内でありましたら特に指定はございません。	要求	0	0	0	2955	5721	0	2	市内	立地	RIBA:立地 (場所)	2_neutral	3_strong	3_strong	3_strong		2_neutral	344	5720	0	2	札幌	0						
+5722	105	16	user	ただ、電車のアクセスは近いと嬉しいです。	要求	0	0	0	2956	5722	3	10	電車のアクセスは近い	立地	RIBA:立地 (場所)	1_weak	2_neutral	1_weak		2_neutral	2_neutral						0						
+5723	105	17	agent	かしこまりました。		0	0	0																									
+5724	105	18	agent	それでは、札幌駅周辺でよろしいでしょうか？		0	0	0																									
+5725	105	19	user	はい、お願いします。	はい	0	0	0																									
+5726	105	20	agent	承知しました。		0	0	0																									
+5727	105	21	agent	何か宿につきまして、重視している点はございますでしょうか？		0	0	0																									
+5728	105	22	user	子ども２人ともまだ幼いため、子どもに対する設備やサービスが多い宿が望ましいです。	要求	0	0	0	2957	5728	14	17	子どもに対する設備やサービスが多い	子供	KOKO:子供用サービス	2_neutral	3_strong	2_neutral	1_weak		2_neutral						0						
+5729	105	23	agent	かしこまりました。		0	0	0																									
+5730	105	24	agent	では、お子様向けのサービスが充実したお宿をお調べします。		0	0	0																									
+5731	105	25	agent	お子様ですが、それぞれ単独でベッドをご利用になりますか？		0	0	0																									
+5732	105	26	agent	お部屋はどのようにアレンジしましょうか？		0	0	0																									
+5733	105	27	user	子どもとは一緒に寝ようかと考えておりますので、単独でない方がよいです。	要求	0	0	0	2958	5733	23	2	単独	部屋	HETY:部屋タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	345	5733	0	3	子ども	1						
+5734	105	28	user	部屋のアレンジにつきましては特に指定はありませんが、畳の方が安全かと思いますので和室がよいです。	要求	0	0	0	2959	5734	26	1	畳	部屋	HETY:部屋タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+5734	105	28	user	部屋のアレンジにつきましては特に指定はありませんが、畳の方が安全かと思いますので和室がよいです。	要求	0	0	0	2960	5734	40	2	和室	部屋	HETY:部屋タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+5735	105	29	agent	かしこまりました。		0	0	0																									
+5736	105	30	agent	それでは、皆さまご一緒にお休みいただける和室を１室お探しします。		0	0	0																									
+5737	105	31	agent	お食事はいかがなさいますか？		0	0	0																									
+5738	105	32	agent	朝・夕２食付きのプランがよろしいでしょうか？		0	0	0																									
+5739	105	33	user	はい、お願いします。	はい	0	0	0																									
+5740	105	34	user	子供向けのメニューがあるお宿はございますか？	要求	0	0	0	2961	5740	0	9	子供向けのメニュー	子供	KOKO:子供用サービス	1_weak	1_weak	1_weak									0						
+5741	105	35	agent	はい、お子様用のお食事をご用意できるお宿もございます。		0	0	0																									
+5742	105	36	agent	そちらがよろしいでしょうか？		0	0	0																									
+5743	105	37	user	そうですね、そちらをお願いします。	はい	0	0	0																									
+5744	105	38	agent	かしこまりました。		0	0	0																									
+5745	105	39	agent	札幌市内では観光のご予定でしょうか？		0	0	0																									
+5746	105	40	agent	お宿にもよりますが、テレビ塔や羊ヶ丘展望台、大倉山ジャンプ台などの観光地の入場券の付いたプランもございます。		0	0	0																									
+5747	105	41	agent	セットでお得になりますが、いかがなさいますか？		0	0	0																									
+5748	105	42	user	それはいいですね。	はい	0	0	0																									
+5749	105	43	user	観光も予定してましたので丁度よいです。	感想	0	0	0	2962	5749	0	2	観光	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	2_neutral	3_strong	3_strong						0						
+5750	105	44	agent	ありがとうございます。		0	0	0																									
+5751	105	45	agent	それでは、札幌市内の観光地の入場券付きプランをお調べします。		0	0	0																									
+5752	105	46	agent	ほかにご希望はございますでしょうか？		0	0	0																									
+5753	105	47	user	他は特にございません。	いいえ	0	0	0																									
+5754	105	48	agent	ご希望をお聞かせくださり、ありがとうございました。		0	0	0																									
+5755	105	49	agent	それでは以下の条件でお調べしますので、よろしくお願いいたします。		0	0	0																									
+5756	105	50	agent	・日付は６月下旬。		0	0	0																									
+5757	105	51	agent	・宿泊日数は１泊。		0	0	0																									
+5758	105	52	agent	・宿泊地は北海道の札幌市内。		0	0	0																									
+5759	105	53	agent	・人数は大人２名、子供２名。		0	0	0																									
+5760	105	54	agent	・部屋タイプ／数は和室１室。		0	0	0																									
+5761	105	55	agent	・札幌駅に近い宿を希望。		0	0	0																									
+5762	105	56	agent	・子供向けサービスが充実した宿を希望。		0	0	0																									
+5763	105	57	agent	・食事は朝・夕２食付きのプランを希望。		0	0	0																									
+5764	105	58	agent	・子供用の食事を用意できる宿を希望。		0	0	0																									
+5765	105	59	agent	・札幌市内の観光地の入場券付きプランを希望。		0	0	0																									

@@ -1,0 +1,63 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+4698	87	1	agent	いらっしゃいませ。		0	0	0																									
+4699	87	2	agent	ご利用いただきまして、ありがとうございます。		0	0	0																									
+4700	87	3	agent	ご宿泊先をお探しいたします。		0	0	0																									
+4701	87	4	agent	どのような条件をご希望でしょうか？		0	0	0																									
+4702	87	5	user	３月１日から４泊、鹿児島県に大人１名と子供２名で春休みの旅を予定しています。	要求	0	0	0	2663	4702	0	6	３月１日から	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+4702	87	5	user	３月１日から４泊、鹿児島県に大人１名と子供２名で春休みの旅を予定しています。	要求	0	0	0	2664	4702	6	2	４泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+4702	87	5	user	３月１日から４泊、鹿児島県に大人１名と子供２名で春休みの旅を予定しています。	要求	0	0	0	2665	4702	9	4	鹿児島県	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+4702	87	5	user	３月１日から４泊、鹿児島県に大人１名と子供２名で春休みの旅を予定しています。	要求	0	0	0	2666	4702	16	2	１名	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+4702	87	5	user	３月１日から４泊、鹿児島県に大人１名と子供２名で春休みの旅を予定しています。	要求	0	0	0	2667	4702	21	2	２名	人数	NIKO:子供人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+4702	87	5	user	３月１日から４泊、鹿児島県に大人１名と子供２名で春休みの旅を予定しています。	要求	0	0	0	2668	4702	24	5	春休みの旅	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	3_strong						0						
+4703	87	6	user	鹿児島のレジャースポット巡りをしたいと考えています。	要求	0	0	0	2670	4703	0	14	鹿児島のレジャースポット巡り	立地	RIAC:立地 (アクティビティ)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+4704	87	7	agent	かしこまりました。		0	0	0																									
+4705	87	8	agent	鹿児島県の全域をお周りになりますでしょうか？		0	0	0																									
+4706	87	9	user	市内のスポットをメインに考えています。	要求	0	0	0	2671	4706	0	7	市内のスポット	立地	RIAC:立地 (アクティビティ)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+4707	87	10	agent	かしこまりました。		0	0	0																									
+4708	87	11	agent	それでは、鹿児島市内のお宿をお調べいたします。		0	0	0																									
+4709	87	12	agent	市内の立地で特にご希望はございますでしょうか？		0	0	0																									
+4710	87	13	agent	例えば繁華街がよろしければ、天文館周辺でお調べします。		0	0	0																									
+4711	87	14	user	繁華街なら飲食店も多そうなので、そちらでお願いします。	照応要求	0	0	0	2672	4710	3	3	繁華街	立地	RIEN:立地 (周辺環境)	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0		183	4711	0	3	繁華街
+4711	87	14	user	繁華街なら飲食店も多そうなので、そちらでお願いします。	照応要求	0	0	0	2673	4711	5	3	飲食店	立地	RIEN:立地 (周辺環境)	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+4711	87	14	user	繁華街なら飲食店も多そうなので、そちらでお願いします。	照応要求	0	0	0	2998	4710	14	5	天文館周辺	立地	RIAC:立地 (アクティビティ)	2_neutral	3_strong	2_neutral	2_neutral		2_neutral						0		32	4711	16	3	そちら
+4712	87	15	agent	かしこまりました。		0	0	0																									
+4713	87	16	agent	お部屋ですが、お子様はお二人ともベッドをご利用になりますか？		0	0	0																									
+4714	87	17	user	二人とも小学生ですが、一人は高学年で体も大きいのでそれぞれ別々のベッドでお願いしたいです。	要求	0	0	0	2674	4714	0	2	二人	人数	NIKO:子供人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong	312	4714	4	3	小学生	0						
+4714	87	17	user	二人とも小学生ですが、一人は高学年で体も大きいのでそれぞれ別々のベッドでお願いしたいです。	要求	0	0	0	2675	4714	25	10	それぞれ別々のベッド	部屋	HETY:部屋タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	313	4714	4	3	小学生	0						
+4715	87	18	agent	かしこまりました。		0	0	0																									
+4716	87	19	agent	それでは、トリプルルームになさいますか？		0	0	0																									
+4717	87	20	agent	それか、ハリウッドツインというタイプのお部屋もございます。		0	0	0																									
+4718	87	21	agent	こちらはシングルベッドを２台、合体させてご利用できますので、大人１名様と子供２名様でもごゆっくりとお休みいただけます。		0	0	0																									
+4719	87	22	user	今回４泊なので、トリプルルームにしようかと思うのですが、ハリウッドツインの部屋の方が広いのでしょうか？	確認	0	0	0																									
+4720	87	23	agent	広さはホテルにもよりますが、お値段は一般的にハリウッドツインのほうがお求めやすくなっております。		0	0	0																									
+4721	87	24	agent	どちらがよろしいでしょうか？		0	0	0																									
+4722	87	25	user	それでは、トリプルルームでお願いします。	照応要求	0	0	0	2676	4716	5	4	トリプル	部屋	HETY:部屋タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0		184	4722	5	7	トリプルルーム
+4723	87	26	user	食事は、朝食付きでできればバイキングがいいですね。	要求	0	0	0	2677	4723	4	2	朝食	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+4723	87	26	user	食事は、朝食付きでできればバイキングがいいですね。	要求	0	0	0	2678	4723	13	5	バイキング	食事	SYNA:食事内容	1_weak	1_weak	1_weak				350	4723	4	2	朝食	0						
+4724	87	27	agent	かしこまりました。		0	0	0																									
+4725	87	28	agent	では、トリプルルームをお調べいたします。		0	0	0																									
+4726	87	29	agent	また、バイキングの朝食付きプランをお探しします。		0	0	0																									
+4727	87	30	agent	今回のご宿泊は４泊で、お着換えのお荷物が多いと、親御様お一人では大変かと思います。		0	0	0																									
+4728	87	31	agent	ランドリーサービス付きのお宿をお調べしましょうか？		0	0	0																									
+4729	87	32	user	いいですね！	はい	0	0	0																									
+4730	87	33	user	子供用の荷物も少なくて済みそうです。	感想	0	0	0	2679	4730	0	15	子供用の荷物も少なくて済みそう	部屋	HEAM:部屋アメニティ	1_weak	1_weak	1_weak									0	#					
+4731	87	34	user	ぜひ、お願いします。	その他	0	0	0																									
+4732	87	35	agent	ありがとうございます。		0	0	0																									
+4733	87	36	agent	承知しました。		0	0	0																									
+4734	87	37	agent	お子様が長い滞在中に退屈しないよう、お宿の中にゲームコーナーなどの娯楽施設はあったほうがよろしいでしょうか？		0	0	0																									
+4735	87	38	user	日中あちこち動き回りますし、それはなくても大丈夫です。	いいえ	0	0	0																									
+4736	87	39	agent	かしこまりました。		0	0	0																									
+4737	87	40	agent	ほかにご希望はございますでしょうか？		0	0	0																									
+4738	87	41	agent	特にございませんでしたら、以上の条件でお宿をお調べいたします。		0	0	0																									
+4739	87	42	user	他には特にありません、	いいえ	0	0	0																									
+4740	87	43	user	以上でよろしくおねがいします。	その他	0	0	0																									
+4741	87	44	agent	ご希望をお聞かせくださり、ありがとうございました。		0	0	0																									
+4742	87	45	agent	それでは以下の条件でお調べしますので、よろしくお願いいたします。		0	0	0																									
+4743	87	46	agent	・日付は３月１日。		0	0	0																									
+4744	87	47	agent	・宿泊日数は４泊。		0	0	0																									
+4745	87	48	agent	・宿泊地は鹿児島市内。		0	0	0																									
+4746	87	49	agent	・人数は大人１名、子供２名。		0	0	0																									
+4747	87	50	agent	・繁華街の天文館周辺の宿を希望。		0	0	0																									
+4748	87	51	agent	・部屋タイプ／数はトリプルルームを１室。		0	0	0																									
+4749	87	52	agent	・食事はバイキングの朝食付きプランを希望。		0	0	0																									
+4750	87	53	agent	・ランドリーサービス付きの宿を希望。		0	0	0																									

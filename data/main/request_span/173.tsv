@@ -1,0 +1,45 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+9117	173	1	agent	本日はご利用いただきまして、ありがとうございます。		0	0	0																									
+9118	173	2	agent	ご宿泊のご相談を承ります。		0	0	0																									
+9119	173	3	agent	お泊りになる地域、お日付、人数がお決まりでしたら、お聞かせいただけますでしょうか。		0	0	0																									
+9120	173	4	user	６月８日から四国地方に行きたいです。	要求	0	0	0	1439	9120	0	6	６月８日から	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9120	173	4	user	６月８日から四国地方に行きたいです。	要求	0	0	0	1440	9120	6	4	四国地方	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9121	173	5	user	大人１人です。	要求	0	0	0	1441	9121	0	4	大人１人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9122	173	6	agent	かしこまりました。		0	0	0																									
+9123	173	7	agent	６月８日からとのことですが、ご利用の泊数はお決まりでしょうか？		0	0	0																									
+9124	173	8	user	３泊です。	要求	0	0	0	1442	9124	0	2	３泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9125	173	9	agent	かしこまりました。		0	0	0																									
+9126	173	10	agent	ご予算の方はどのくらいでお考えでしょうか？		0	0	0																									
+9127	173	11	user	１人当たり２万円で考えています。	要求	0	0	0	1443	9127	5	3	２万円	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	3_strong	2_neutral	2_neutral	167	9127	0	2	１人	0						
+9128	173	12	agent	かしこまりました。		0	0	0																									
+9129	173	13	agent	ビジネス目的でのご予約でしょうか？		0	0	0																									
+9130	173	14	user	いえ、旅行です。	要求	0	0	0	1444	9130	3	2	旅行	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9131	173	15	user	温泉でのんびりしたいと思っています。	要求	0	0	0	1445	9131	0	10	温泉でのんびりしたい	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	3_strong						0						
+9131	173	15	user	温泉でのんびりしたいと思っています。	要求	0	0	0	1446	9131	0	2	温泉	風呂	FUTY:風呂種類	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+9132	173	16	agent	失礼いたしました。		0	0	0																									
+9133	173	17	agent	温泉をご希望とのことでしたら、露天風呂がある旅館でお探ししてよろしいでしょうか？		0	0	0																									
+9134	173	18	user	それでお願いします。	はい	0	0	0																									
+9135	173	19	agent	かしこまりました。		0	0	0																									
+9136	173	20	agent	そちらの条件でお探ししますね。		0	0	0																									
+9137	173	21	agent	お食事の方はいかがなさいましょうか？		0	0	0																									
+9138	173	22	user	夕食は必須でお願いします。	要求	0	0	0	1447	9138	0	2	夕食	食事	SYUM:食事有無	3_strong	3_strong	3_strong									0						
+9139	173	23	user	お酒の飲み放題もついているとありがたいです。	要求	0	0	0	1449	9139	0	7	お酒の飲み放題	食事	SYNA:食事内容	1_weak	2_neutral	1_weak		2_neutral	2_neutral						0						
+9140	173	24	agent	かしこまりました。		0	0	0																									
+9141	173	25	agent	そちらの条件も加えておきます。		0	0	0																									
+9142	173	26	agent	また、温泉でのんびりされたいとのことでしたら、露天風呂がある自室でお探ししてよろしいでしょうか？		0	0	0																									
+9143	173	27	user	ぜひお願いします。	はい	0	0	0																									
+9144	173	28	agent	かしこまりました。		0	0	0																									
+9145	173	29	agent	そちらの条件でお探ししますね。		0	0	0																									
+9146	173	30	agent	他にご要望はございますか？		0	0	0																									
+9147	173	31	user	特にございません。	いいえ	0	0	0																									
+9148	173	32	agent	かしこまりました。		0	0	0																									
+9149	173	33	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+9150	173	34	agent	・行先は四国地方		0	0	0																									
+9151	173	35	agent	・日程は６月８日から３泊		0	0	0																									
+9152	173	36	agent	・人数は大人１人		0	0	0																									
+9153	173	37	agent	・予算は１人当たり２万円以内		0	0	0																									
+9154	173	38	agent	・宿は旅館		0	0	0																									
+9155	173	39	agent	・露天風呂がある		0	0	0																									
+9156	173	40	agent	・夕食付き		0	0	0																									
+9157	173	41	agent	・お酒飲み飲み放題がある		0	0	0																									
+9158	173	42	agent	・露天風呂が自室にある		0	0	0																									

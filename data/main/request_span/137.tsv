@@ -1,0 +1,45 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+7525	137	1	agent	本日はご利用いただきまして、ありがとうございます。		0	0	0																									
+7526	137	2	agent	ご宿泊のご相談を承ります。		0	0	0																									
+7527	137	3	agent	お泊りになる地域、お日付、人数がお決まりでしたら、お聞かせいただけますでしょうか。		0	0	0																									
+7528	137	4	user	来年１月２０日から３泊の日程で、友人２人と、３人で群馬に旅行することを考えています。	要求	0	0	0	3026	7528	0	9	来年１月２０日から	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7528	137	4	user	来年１月２０日から３泊の日程で、友人２人と、３人で群馬に旅行することを考えています。	要求	0	0	0	3027	7528	9	2	３泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7528	137	4	user	来年１月２０日から３泊の日程で、友人２人と、３人で群馬に旅行することを考えています。	要求	0	0	0	3029	7528	16	2	友人	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7528	137	4	user	来年１月２０日から３泊の日程で、友人２人と、３人で群馬に旅行することを考えています。	要求	0	0	0	3030	7528	22	2	３人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7528	137	4	user	来年１月２０日から３泊の日程で、友人２人と、３人で群馬に旅行することを考えています。	要求	0	0	0	3031	7528	25	2	群馬	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7529	137	5	agent	かしこまりました。		0	0	0																									
+7530	137	6	agent	ご予算はおいくらくらいでしょうか？		0	0	0																									
+7531	137	7	user	相場があまりわからないのですが、せっかくとれた休みを使っていくので、あまり安くなくてもいいとは思っています。	要求	0	0	0	3032	7531	34	11	あまり安くなくてもいい	予算	YOKA:予算感	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+7532	137	8	agent	かしこまりました。		0	0	0																									
+7533	137	9	agent	ご予約の日付が遠いので早割のプランが適用される豪華なお宿はいかがでしょうか？		0	0	0																									
+7534	137	10	user	それだとありがたいですね！	はい	0	0	0																									
+7535	137	11	user	温泉でゆっくりと思っているのですが、早割があるなら利用したいです。	要求	0	0	0	3033	7535	0	2	温泉	風呂	FUTY:風呂種類	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+7535	137	11	user	温泉でゆっくりと思っているのですが、早割があるなら利用したいです。	要求	0	0	0	3034	7535	3	4	ゆっくり	宿	YAEN:宿環境	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+7535	137	11	user	温泉でゆっくりと思っているのですが、早割があるなら利用したいです。	要求	0	0	0	3035	7535	18	2	早割	サービス	SESE:ホテルサービス	1_weak	2_neutral	1_weak		2_neutral							0						
+7536	137	12	agent	かしこまりました。		0	0	0																									
+7537	137	13	agent	そうなると温泉街にある旅館はいかがでしょうか？		0	0	0																									
+7538	137	14	user	はい、それでお願いします。	はい	0	0	0																									
+7539	137	15	agent	かしこまりました。		0	0	0																									
+7540	137	16	agent	お食事の方はいかがいたしましょうか？		0	0	0																									
+7541	137	17	user	３泊あるので、二回くらい夕食があればいいと思っています。	要求	0	0	0	3036	7541	0	2	３泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7541	137	17	user	３泊あるので、二回くらい夕食があればいいと思っています。	要求	0	0	0	3037	7541	12	2	夕食	食事	SYUM:食事有無	1_weak	2_neutral	2_neutral		2_neutral	2_neutral	355	7541	7	5	二回くらい	0						
+7542	137	18	user	朝は欲しいです。	要求	0	0	0	3038	7542	0	1	朝	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+7543	137	19	agent	かしこまりました。		0	0	0																									
+7544	137	20	agent	二回のお食事のコースですが、大人の方のみなのでお酒の飲み放題コースはいかがでしょうか？		0	0	0																									
+7545	137	21	user	それでお願いします！	はい	0	0	0																									
+7546	137	22	user	地酒や、地元の料理が食べられるコースだとありがたいです。	要求	0	0	0	3040	7546	0	18	地酒や、地元の料理が食べられるコース	食事	SYNA:食事内容	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+7547	137	23	agent	かしこまりました。		0	0	0																									
+7548	137	24	agent	そちらの条件でお探ししますね。		0	0	0																									
+7549	137	25	agent	他にご要望はございますか？		0	0	0																									
+7550	137	26	user	あまり細かいプランを決めないで、ぶらぶらと旅行したいので、周辺の観光や遊び場の選択肢が多いところがありがたいです。	要求	0	0	0	3041	7550	29	16	周辺の観光や遊び場の選択肢が多い	立地	RIAC:立地 (アクティビティ)	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+7551	137	27	agent	かしこまりました。		0	0	0																									
+7552	137	28	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+7553	137	29	agent	・行先は群馬県		0	0	0																									
+7554	137	30	agent	・人数は大人３人		0	0	0																									
+7555	137	31	agent	・日程は１月２０日から３泊		0	0	0																									
+7556	137	32	agent	・ご予算はやや高め		0	0	0																									
+7557	137	33	agent	・早割を利用する		0	0	0																									
+7558	137	34	agent	・温泉街にある旅館		0	0	0																									
+7559	137	35	agent	・食事は朝は毎日、夜は２回		0	0	0																									
+7560	137	36	agent	・夕食は地酒や地元の料理が食べられるコース		0	0	0																									
+7561	137	37	agent	・周辺の観光地などに近い旅館		0	0	0																									

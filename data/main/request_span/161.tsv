@@ -1,0 +1,58 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+8588	161	1	agent	本日はご利用いただきまして、ありがとうございます。		0	0	0																									
+8589	161	2	agent	ご宿泊のご相談を承ります。		0	0	0																									
+8590	161	3	agent	お泊りになる地域、お日付、人数がお決まりでしたら、お聞かせいただけますでしょうか。		0	0	0																									
+8591	161	4	user	富山県の黒部ダムに観光で行きたいと思っています。	要求	0	0	0	2244	8591	0	3	富山県	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8591	161	4	user	富山県の黒部ダムに観光で行きたいと思っています。	要求	0	0	0	2245	8591	4	4	黒部ダム	立地	RIAC:立地 (アクティビティ)	2_neutral	2_neutral	2_neutral	3_strong	3_strong	2_neutral						0						
+8591	161	4	user	富山県の黒部ダムに観光で行きたいと思っています。	要求	0	0	0	2246	8591	9	2	観光	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8592	161	5	user	２月下旬に１泊で友人と４名です。	要求	0	0	0	2247	8592	0	4	２月下旬	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	3_strong						0						
+8592	161	5	user	２月下旬に１泊で友人と４名です。	要求	0	0	0	2248	8592	5	2	１泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8592	161	5	user	２月下旬に１泊で友人と４名です。	要求	0	0	0	2249	8592	8	2	友人	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8592	161	5	user	２月下旬に１泊で友人と４名です。	要求	0	0	0	2250	8592	11	2	４名	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8593	161	6	user	近くの宿を探しています。	要求	0	0	0	2251	8593	0	2	近く	立地	RIAC:立地 (アクティビティ)	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0	＃範囲外					
+8594	161	7	agent	かしこまりました。		0	0	0																									
+8595	161	8	agent	ご予算はどのくらいでお考えでしょうか？		0	0	0																									
+8596	161	9	user	一人あたり１万５千円程度で検討しています。	要求	0	0	0	2252	8596	5	7	１万５千円程度	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	1_weak	1_weak	1_weak	267	8596	0	2	一人	0						
+8597	161	10	agent	かしこまりました。		0	0	0																									
+8598	161	11	agent	そうしましたら、露天風呂がある旅館でお探ししてもよろしいでしょうか？		0	0	0																									
+8599	161	12	user	是非お願いします。	はい	0	0	0																									
+8600	161	13	agent	かしこまりました。		0	0	0																									
+8601	161	14	agent	さらに黒部ダムにアクセスしやすいことも条件に加えておきますね。		0	0	0																									
+8602	161	15	agent	お食事の方はいかがなさいましょうか？		0	0	0																									
+8603	161	16	user	朝、夕食をお願いします。	要求	0	0	0	2253	8603	0	4	朝、夕食	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+8604	161	17	agent	朝夕食事ありですね。		0	0	0																									
+8605	161	18	agent	かしこまりました。		0	0	0																									
+8606	161	19	agent	夕食は地元の海産物コースがある旅館をお探ししてよいでしょうか？		0	0	0																									
+8607	161	20	user	予算内で大丈夫でしたらぜひお願いします。	照応要求	0	0	0	2254	8607	0	3	予算内	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+8607	161	20	user	予算内で大丈夫でしたらぜひお願いします。	照応要求	0	0	0	2255	8606	6	6	海産物コース	食事	SYNA:食事内容	2_neutral	2_neutral	1_weak	2_neutral	2_neutral		423	8607	0	3	予算内	0		56	8607	11	8	ぜひお願いします
+8608	161	21	agent	かしこまりました。		0	0	0																									
+8609	161	22	agent	また、ご友人４人でのご旅行でしたらお酒の飲み放題コースはいかがでしょうか？		0	0	0																									
+8610	161	23	user	飲み放題コースはつけなくて大丈夫です。	いいえ	0	0	0																									
+8611	161	24	agent	飲み放題はなしですね。		0	0	0																									
+8612	161	25	agent	かしこまりました。		0	0	0																									
+8613	161	26	agent	黒部ダムへのご移動はお車でしょうか？		0	0	0																									
+8614	161	27	user	はい、車で予定しています。	はい	0	0	0																									
+8615	161	28	agent	かしこまりました。		0	0	0																									
+8616	161	29	agent	そうしましたら、駐車場貸出サービスがある旅館をお探ししてよろしいでしょうか？		0	0	0																									
+8617	161	30	user	よろしくお願いします。	はい	0	0	0																									
+8618	161	31	agent	かしこまりました。		0	0	0																									
+8619	161	32	agent	条件に加えておきますね。		0	0	0																									
+8620	161	33	agent	お部屋の数はいかがなさいましょうか？		0	0	0																									
+8621	161	34	user	４人１部屋の大部屋があればお願いします。	要求	0	0	0	2257	8621	2	3	１部屋	部屋	HENU:部屋数	2_neutral	2_neutral	1_weak	2_neutral	3_strong		268	8621	0	2	４人	0						
+8621	161	34	user	４人１部屋の大部屋があればお願いします。	要求	0	0	0	2258	8621	6	3	大部屋	部屋	HETY:部屋タイプ	2_neutral	2_neutral	1_weak	1_weak	2_neutral							0						
+8622	161	35	user	４人で狭ければ２部屋お願いします。	要求	0	0	0	2259	8622	7	3	２部屋	部屋	HENU:部屋数	2_neutral	2_neutral	1_weak	2_neutral	3_strong		269	8622	0	7	４人で狭ければ	0						
+8623	161	36	agent	かしこまりました。		0	0	0																									
+8624	161	37	agent	その条件でお探しします。		0	0	0																									
+8625	161	38	agent	他にご要望はございますか？		0	0	0																									
+8626	161	39	user	以上でお願いします。	いいえ	0	0	0																									
+8627	161	40	agent	かしこまりました。		0	0	0																									
+8628	161	41	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+8629	161	42	agent	・行先は富山県		0	0	0																									
+8630	161	43	agent	・日程は２月下旬に１泊		0	0	0																									
+8631	161	44	agent	・人数は大人４名		0	0	0																									
+8632	161	45	agent	・黒部ダムにアクセスしやすい		0	0	0																									
+8633	161	46	agent	・宿は旅館		0	0	0																									
+8634	161	47	agent	・露天風呂がある		0	0	0																									
+8635	161	48	agent	・夕食は地元の海産物コース		0	0	0																									
+8636	161	49	agent	・駐車場貸出サービスがある		0	0	0																									
+8637	161	50	agent	・４人で一つの大部屋		0	0	0																									

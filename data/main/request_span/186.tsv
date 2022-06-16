@@ -1,0 +1,42 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+9673	186	1	agent	この度のご利用、誠にありがとうございます。		0	0	0																									
+9674	186	2	agent	お客様のお宿探しのお手伝いをいたします。		0	0	0																									
+9675	186	3	agent	お客様のご希望をお聞かせいただけますでしょうか？		0	0	0																									
+9676	186	4	user	７月に入ったらすぐくらいで、子供３人連れで新潟での宿泊を探しています	要求	0	0	0	1156	9676	0	12	７月に入ったらすぐくらい	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	1_weak						0						
+9676	186	4	user	７月に入ったらすぐくらいで、子供３人連れで新潟での宿泊を探しています	要求	0	0	0	1157	9676	14	6	子供３人連れ	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9676	186	4	user	７月に入ったらすぐくらいで、子供３人連れで新潟での宿泊を探しています	要求	0	0	0	1159	9676	14	4	子供３人	人数	NIKO:子供人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9676	186	4	user	７月に入ったらすぐくらいで、子供３人連れで新潟での宿泊を探しています	要求	0	0	0	1160	9676	21	2	新潟	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9677	186	5	agent	かしこまりました。		0	0	0																									
+9678	186	6	agent	ご利用の泊数を教えていただいてよろしいでしょうか？		0	0	0																									
+9679	186	7	user	１泊です	要求	0	0	0	1163	9679	0	2	１泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9680	186	8	agent	かしこまりました。		0	0	0																									
+9681	186	9	agent	ご予算はどのくらいでお考えでしょうか？		0	0	0																									
+9682	186	10	user	全部で４万くらいです	要求	0	0	0	1165	9682	0	8	全部で４万くらい	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	1_weak	1_weak	1_weak						0						
+9683	186	11	agent	かしこまりました。		0	0	0																									
+9684	186	12	agent	そうしましたら、宿は旅館でお探ししてよろしいでしょうか？		0	0	0																									
+9685	186	13	user	いえ、ホテルもいれてください	要求	0	0	0	1167	9685	3	3	ホテル	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+9686	186	14	agent	かしこまりました。		0	0	0																									
+9687	186	15	agent	ホテルも条件に加えておきます。		0	0	0																									
+9688	186	16	agent	お食事の方はいかがなさいましょうか？		0	0	0																									
+9689	186	17	user	朝だけで大丈夫です。	要求	0	0	0	1169	9689	0	3	朝だけ	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+9690	186	18	user	朝ごはんの評判がいいところがあったら嬉しいですね	要求	0	0	0	1173	9690	0	10	朝ごはんの評判がいい	食事	SYNA:食事内容	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+9691	186	19	agent	朝食の評判が良い宿ですね。		0	0	0																									
+9692	186	20	agent	かしこまりました。		0	0	0																									
+9693	186	21	agent	お部屋のタイプはいかがなさいましょうか？		0	0	0																									
+9694	186	22	user	和洋どちらも大丈夫です	要求	0	0	0	1176	9694	0	9	和洋どちらも大丈夫	部屋	HETY:部屋タイプ	1_weak	1_weak	1_weak									0						
+9695	186	23	agent	和洋どちらでもですね。		0	0	0																									
+9696	186	24	agent	かしこまりました。		0	0	0																									
+9697	186	25	agent	他にご要望はございますか？		0	0	0																									
+9698	186	26	user	車じゃないので公共交通機関や送迎でアクセスできるところでお願いします	要求	0	0	0	1181	9698	7	20	公共交通機関や送迎でアクセスできるところ	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+9698	186	26	user	車じゃないので公共交通機関や送迎でアクセスできるところでお願いします	要求	0	0	0	1182	9698	14	2	送迎	サービス	SESE:ホテルサービス	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+9699	186	27	agent	かしこまりました。		0	0	0																									
+9700	186	28	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+9701	186	29	agent	・行先は新潟県		0	0	0																									
+9702	186	30	agent	・日程は７月初めに１泊		0	0	0																									
+9703	186	31	agent	・予算は合計で４万円くらい		0	0	0																									
+9704	186	32	agent	・人数は大人１人、子供３人		0	0	0																									
+9705	186	33	agent	・宿はホテルか旅館		0	0	0																									
+9706	186	34	agent	・食事は朝のみ		0	0	0																									
+9707	186	35	agent	・朝食の評判が良い		0	0	0																									
+9708	186	36	agent	・お部屋は和洋どちらでも		0	0	0																									
+9709	186	37	agent	・宿へのアクセスがしやすい		0	0	0																									

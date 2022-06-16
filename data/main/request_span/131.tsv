@@ -1,0 +1,49 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+7288	131	1	user	４月２０日から１泊、高知で観光を考えています。	要求	0	0	0	3132	7288	0	7	４月２０日から	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7288	131	1	user	４月２０日から１泊、高知で観光を考えています。	要求	0	0	0	3133	7288	7	2	１泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7288	131	1	user	４月２０日から１泊、高知で観光を考えています。	要求	0	0	0	3134	7288	10	2	高知	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7288	131	1	user	４月２０日から１泊、高知で観光を考えています。	要求	0	0	0	3135	7288	13	2	観光	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7289	131	2	agent	かしこまりました。		0	0	0																									
+7290	131	3	agent	何名様でご旅行でしょうか？		0	0	0																									
+7291	131	4	user	大人２人，　子ども１人です。	要求	0	0	0	3136	7291	0	4	大人２人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7291	131	4	user	大人２人，　子ども１人です。	要求	0	0	0	3137	7291	6	5	子ども１人	人数	NIKO:子供人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7292	131	5	agent	かしこまりました。		0	0	0																									
+7293	131	6	agent	ご観光をお考えでしたら、お宿の方は市街地に近くでよろしいでしょうか？		0	0	0																									
+7294	131	7	user	アンパンマンミュージアムの近くのホテルだと有難いです。	要求	0	0	0	3138	7294	0	15	アンパンマンミュージアムの近く	立地	RIAC:立地 (アクティビティ)	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+7294	131	7	user	アンパンマンミュージアムの近くのホテルだと有難いです。	要求	0	0	0	3139	7294	16	3	ホテル	宿	YATY:宿タイプ	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+7295	131	8	agent	かしこまりました。		0	0	0																									
+7296	131	9	agent	そうなりますとご予算の方はどのくらいでお考えでしょうか？		0	0	0																									
+7297	131	10	user	５万～７万くらいでと考えています。	要求	0	0	0	3140	7297	0	8	５万～７万くらい	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	1_weak	1_weak	1_weak						0						
+7298	131	11	agent	かしこまりました。		0	0	0																									
+7299	131	12	agent	お宿の方はいかがいたしましょうか？		0	0	0																									
+7300	131	13	agent	リゾートホテル、旅館等ございます。		0	0	0																									
+7301	131	14	user	ホテルでお願いします。	照応要求	0	0	0	3141	7300	0	7	リゾートホテル	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0	後に「リゾートホテルですね」と言っているので、「ホテル」=「リゾートホテル」	235	7301	0	3	ホテル
+7302	131	15	agent	リゾートホテルですね。		0	0	0																									
+7303	131	16	agent	かしこまりました。		0	0	0																									
+7304	131	17	agent	そうなりますと、先ほどお伝えいただいたアンパンマンミュージアムのご入場券付きプランのあるホテルがございますがいかがでしょうか？		0	0	0																									
+7305	131	18	user	そちらのプランでお願いします！	はい	0	0	0																									
+7306	131	19	user	アンパンマンミュージアムまでの交通機関は充実してますか？	確認	0	0	0																									
+7307	131	20	agent	かしこまりました。		0	0	0																									
+7308	131	21	agent	それでしたら、目的地までのシャトルバスがあるホテルでお探ししますがよろしいでしょうか？		0	0	0																									
+7309	131	22	user	シャトルバスより、場所が近い方がありがたいのです。	要求	0	0	0	3142	7309	0	6	シャトルバス	サービス	SESE:ホテルサービス	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						1	＃ターン外					
+7309	131	22	user	シャトルバスより、場所が近い方がありがたいのです。	要求	0	0	0	3143	7309	9	5	場所が近い	立地	RIAC:立地 (アクティビティ)	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0	＃ターン外					
+7310	131	23	user	シャトルバスがあるホテルは近くでしょうか？	要求	0	0	0	3144	7310	0	6	シャトルバス	サービス	SESE:ホテルサービス	2_neutral	1_weak	1_weak	2_neutral								0	＃					
+7310	131	23	user	シャトルバスがあるホテルは近くでしょうか？	要求	0	0	0	3145	7310	9	3	ホテル	宿	YATY:宿タイプ	2_neutral	1_weak	1_weak	2_neutral								0	＃					
+7310	131	23	user	シャトルバスがあるホテルは近くでしょうか？	要求	0	0	0	3146	7310	13	2	近く	立地	RIAC:立地 (アクティビティ)	2_neutral	1_weak	1_weak	1_weak								0	＃					
+7311	131	24	agent	かしこまりました。		0	0	0																									
+7312	131	25	agent	それではどちらの条件も併せてお探ししますね。		0	0	0																									
+7313	131	26	agent	他にご希望はございますか？		0	0	0																									
+7314	131	27	user	子供用の食事メニューが知りたいです。	要求	0	0	0	3147	7314	0	10	子供用の食事メニュー	子供	KOKO:子供用サービス	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+7315	131	28	agent	子供用の食事メニューでしたらアレルギー等に気を付けたものからお選びいただけます。		0	0	0																									
+7316	131	29	agent	お子様用のメニューありのホテルでお探ししますがよろしいでしょうか？		0	0	0																									
+7317	131	30	user	はい、そちらでお願いします。	はい	0	0	0																									
+7318	131	31	agent	かしこまりました。		0	0	0																									
+7319	131	32	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+7320	131	33	agent	・行先は高知県		0	0	0																									
+7321	131	34	agent	・日程は４月２０日から１泊		0	0	0																									
+7322	131	35	agent	・人数は大人２人、子供１人		0	0	0																									
+7323	131	36	agent	・宿はアンパンマンミュージアムの近く		0	0	0																									
+7324	131	37	agent	・予算は５万円から７万円		0	0	0																									
+7325	131	38	agent	・宿はリゾートホテル		0	0	0																									
+7326	131	39	agent	・アンパンマンミュージアムのご入場券付きプランのあるホテル		0	0	0																									
+7327	131	40	agent	・お子様用のメニューありのホテル		0	0	0																									

@@ -1,0 +1,57 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+10144	197	1	agent	本日はご利用いただきまして、ありがとうございます。		0	0	0																									
+10145	197	2	agent	ご宿泊のご相談を承ります。		0	0	0																									
+10146	197	3	agent	お泊りになる地域、お日付、人数がお決まりでしたら、お聞かせいただけますでしょうか。		0	0	0																									
+10147	197	4	user	４月中旬頃に和歌山県に４泊しようと思っています。	要求	0	0	0	479	10147	0	5	４月中旬頃	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	1_weak						0						
+10147	197	4	user	４月中旬頃に和歌山県に４泊しようと思っています。	要求	0	0	0	480	10147	6	4	和歌山県	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+10147	197	4	user	４月中旬頃に和歌山県に４泊しようと思っています。	要求	0	0	0	481	10147	11	2	４泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+10148	197	5	user	私と子供で２人なんですが、子供はまだ小さいので寝具は１つでもいいです。	要求	0	0	0	483	10148	2	2	子供	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+10148	197	5	user	私と子供で２人なんですが、子供はまだ小さいので寝具は１つでもいいです。	要求	0	0	0	484	10148	5	2	２人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+10148	197	5	user	私と子供で２人なんですが、子供はまだ小さいので寝具は１つでもいいです。	要求	0	0	0	485	10148	23	5	寝具は１つ	部屋	HETY:部屋タイプ	1_weak	1_weak	1_weak									0						
+10149	197	6	user	お寺の近くで車で行って泊まれる場所はありますでしょうか？	要求	0	0	0	486	10149	0	5	お寺の近く	立地	RIAC:立地 (アクティビティ)	1_weak	1_weak	1_weak									0						
+10149	197	6	user	お寺の近くで車で行って泊まれる場所はありますでしょうか？	要求	0	0	0	487	10149	6	1	車	立地	RIBA:立地 (場所)	1_weak	1_weak	1_weak			3_strong						0						
+10150	197	7	agent	かしこまりました。		0	0	0																									
+10151	197	8	agent	お伝えいただいた条件でお探ししますね。		0	0	0																									
+10152	197	9	agent	ご予算の方はどのくらいでお考えでしょうか？		0	0	0																									
+10153	197	10	user	３万円の予算で朝夕食事つきだと嬉しいですが、朝食はなくても構いません。	要求	0	0	0	488	10153	0	3	３万円	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+10153	197	10	user	３万円の予算で朝夕食事つきだと嬉しいですが、朝食はなくても構いません。	要求	0	0	0	489	10153	7	2	朝夕	食事	SYUM:食事有無	1_weak	1_weak	1_weak			2_neutral						0						
+10153	197	10	user	３万円の予算で朝夕食事つきだと嬉しいですが、朝食はなくても構いません。	要求	0	0	0	490	10153	22	2	朝食	食事	SYUM:食事有無	1_weak	1_weak	1_weak									1						
+10154	197	11	agent	かしこまりました。		0	0	0																									
+10155	197	12	agent	ご予算の範囲内で食事の方はお探ししますね。		0	0	0																									
+10156	197	13	agent	宿の方なのですが、お寺の近くの旅館でお探ししましょうか？		0	0	0																									
+10157	197	14	user	そうですね。	はい	0	0	0																									
+10158	197	15	user	桜もまだ見られますか？	要求	0	0	0	491	10158	0	1	桜	立地	RIAC:立地 (アクティビティ)	1_weak	1_weak	1_weak									0						
+10159	197	16	user	見れましたら、お花見の出来る場所だと嬉しいです。	要求	0	0	0	493	10159	7	7	お花見の出来る	立地	RIAC:立地 (アクティビティ)	1_weak	2_neutral	1_weak		2_neutral							0						
+10160	197	17	agent	かしこまりました。		0	0	0																									
+10161	197	18	agent	お花見ができる公園が近いことも併せてお探ししますね。		0	0	0																									
+10162	197	19	agent	お部屋の方なのですが、寝具がお一つをご希望でしたので、洋室タイプでお探ししましょうか？		0	0	0																									
+10163	197	20	user	お願いします。	はい	0	0	0																									
+10164	197	21	user	出来ましたらユニットバスではなくて風呂トイレ別になっているような部屋がいいです。	要求	0	0	0	494	10164	6	6	ユニットバス	部屋	HESE:部屋設備	1_weak	1_weak	1_weak									1						
+10164	197	21	user	出来ましたらユニットバスではなくて風呂トイレ別になっているような部屋がいいです。	要求	0	0	0	495	10164	17	6	風呂トイレ別	部屋	HESE:部屋設備	1_weak	1_weak	1_weak									0						
+10165	197	22	agent	かしこまりました。		0	0	0																									
+10166	197	23	agent	お風呂とトイレが別でお探ししますね。		0	0	0																									
+10167	197	24	agent	お子様のご年齢はおいくらくらいでしょうか？		0	0	0																									
+10168	197	25	user	ありがとうございます。	その他	0	0	0																									
+10169	197	26	user	子供は今４歳です。	要求	0	0	0	496	10169	0	6	子供は今４歳	子供	KOYO:幼児サービス	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+10170	197	27	agent	かしこまりました。		0	0	0																									
+10171	197	28	agent	そうしましたら、お食事はお子様用のメニューがある旅館をお探ししますね。		0	0	0																									
+10172	197	29	agent	他にご要望はございますか？		0	0	0																									
+10173	197	30	user	お願いします。	その他	0	0	0																									
+10174	197	31	user	子供の食事でネギは抜いてもらえますか？	要求	0	0	0	497	10174	6	2	ネギ	食事	SYNA:食事内容	1_weak	1_weak	2_neutral			3_strong	56	10174	0	5	子供の食事	1						
+10175	197	32	agent	ネギ抜きですね。		0	0	0																									
+10176	197	33	agent	かしこまりました。		0	0	0																									
+10177	197	34	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+10178	197	35	agent	・日程は４月中旬に４泊		0	0	0																									
+10179	197	36	agent	・行先は和歌山県		0	0	0																									
+10180	197	37	agent	・人数は大人１人、子供１人		0	0	0																									
+10181	197	38	agent	・寝具は一つ		0	0	0																									
+10182	197	39	agent	・予算は３万円		0	0	0																									
+10183	197	40	agent	・夕食付き		0	0	0																									
+10184	197	41	agent	・予算内であれば朝食もあり		0	0	0																									
+10185	197	42	agent	・宿は旅館		0	0	0																									
+10186	197	43	agent	・お寺の近くにある		0	0	0																									
+10187	197	44	agent	・お花見ができる公園が近い		0	0	0																									
+10188	197	45	agent	・お部屋は洋室		0	0	0																									
+10189	197	46	agent	・風呂トイレ別のお部屋		0	0	0																									
+10190	197	47	agent	・お子様用のメニューがある		0	0	0																									
+10191	197	48	agent	・お子様用のメニューはネギ抜き		0	0	0																									

@@ -1,0 +1,67 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+3458	65	1	agent	宿予約サービスのご利用ありがとうございます。		0	0	0																									
+3459	65	2	agent	宿について重視したい点をお聞かせください。		0	0	0																									
+3460	65	3	user	イベントに友達含め４人で行くので、東京でホテルを探しています。	要求	0	0	0	1921	3460	0	4	イベント	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	2_neutral	3_strong						0						
+3460	65	3	user	イベントに友達含め４人で行くので、東京でホテルを探しています。	要求	0	0	0	1922	3460	5	2	友達	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+3460	65	3	user	イベントに友達含め４人で行くので、東京でホテルを探しています。	要求	0	0	0	1923	3460	9	2	４人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+3460	65	3	user	イベントに友達含め４人で行くので、東京でホテルを探しています。	要求	0	0	0	1924	3460	17	2	東京	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+3460	65	3	user	イベントに友達含め４人で行くので、東京でホテルを探しています。	要求	0	0	0	1925	3460	20	3	ホテル	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+3461	65	4	agent	さようでございますか。		0	0	0																									
+3462	65	5	agent	東京でイベントとのことですが、お宿はどちらかご希望の地域はございますでしょうか？		0	0	0																									
+3463	65	6	user	ビックサイトでイベントがあるので、行きやすいところがいいです。	要求	0	0	0	1926	3463	0	6	ビックサイト	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	3_strong	3_strong	2_neutral						0						
+3463	65	6	user	ビックサイトでイベントがあるので、行きやすいところがいいです。	要求	0	0	0	1927	3463	17	5	行きやすい	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral	233	3463	0	6	ビックサイト	0						
+3464	65	7	agent	かしこまりました。		0	0	0																									
+3465	65	8	agent	では、ビッグサイトへのアクセスのよいお宿をお調べいたします。		0	0	0																									
+3466	65	9	agent	皆さま大人の方４名様でよろしいでしょうか？		0	0	0																									
+3467	65	10	user	そちらでお願いします。	はい	0	0	0																									
+3468	65	11	agent	承知しました。		0	0	0																									
+3469	65	12	agent	お日付と泊数はお決まりでしょうか？		0	0	0																									
+3470	65	13	user	１月２５日から１泊でお願いします。	要求	0	0	0	1928	3470	0	7	１月２５日から	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+3470	65	13	user	１月２５日から１泊でお願いします。	要求	0	0	0	1929	3470	7	2	１泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+3471	65	14	agent	かしこまりました。		0	0	0																									
+3472	65	15	agent	お部屋の数ですが、４名様１室がよろしいでしょうか？		0	0	0																									
+3473	65	16	agent	それとも皆さま別々のシングル４室、あるいはツインルーム２室など、さまざまなパターンがございます。		0	0	0																									
+3474	65	17	user	ツインルーム２室でお願いします。	照応要求	0	0	0	1930	3473	21	6	ツインルーム	部屋	HETY:部屋タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0		149	3474	0	6	ツインルーム
+3474	65	17	user	ツインルーム２室でお願いします。	照応要求	0	0	0	1931	3473	27	2	２室	部屋	HENU:部屋数	2_neutral	2_neutral	2_neutral	2_neutral	3_strong	2_neutral						0		150	3474	6	2	２室
+3475	65	18	agent	承知しました。		0	0	0																									
+3476	65	19	agent	お食事はいかがなさいますか？		0	0	0																									
+3477	65	20	user	食事は外で済ませるので大丈夫です。	要求	0	0	0	1932	3477	0	2	食事	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						1						
+3478	65	21	agent	かしこまりました。		0	0	0																									
+3479	65	22	agent	それではお食事無しのプランをお調べいたします。		0	0	0																									
+3480	65	23	agent	お部屋は禁煙、喫煙、どちらかご希望はございますでしょうか？		0	0	0																									
+3481	65	24	user	禁煙でお願いします。	照応要求	0	0	0	1933	3480	4	2	禁煙	部屋	HEJO:部屋条件	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0		147	3481	0	2	禁煙
+3482	65	25	agent	かしこまりました。		0	0	0																									
+3483	65	26	agent	では、禁煙で手配いたします。		0	0	0																									
+3484	65	27	agent	ご予算はいかがでしょうか？		0	0	0																									
+3485	65	28	user	一人２万円代でお願いします。	要求	0	0	0	1934	3485	2	4	２万円代	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	1_weak	234	3485	0	2	一人	0						
+3486	65	29	agent	かしこまりました。		0	0	0																									
+3487	65	30	agent	そのご予算ですと、ハイクラスのホテルにもお泊りいただけますが、ご希望でしょうか？		0	0	0																									
+3488	65	31	user	いえ大丈夫です。	いいえ	0	0	0																									
+3489	65	32	agent	かしこまりました。		0	0	0																									
+3490	65	33	agent	では、ビジネスホテルでよろしいでしょうか？		0	0	0																									
+3491	65	34	user	はい、お願いします。	はい	0	0	0																									
+3492	65	35	agent	ほかにご希望はございますでしょうか？		0	0	0																									
+3493	65	36	user	近くにコンビニがあるところでお願いします。	要求	0	0	0	1935	3493	0	10	近くにコンビニがある	立地	RIEN:立地 (周辺環境)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+3494	65	37	agent	かしこまりました。		0	0	0																									
+3495	65	38	agent	では、宿の近くにコンビニのあるところをお調べいたします。		0	0	0																									
+3496	65	39	agent	お買い物がご心配でしたら、宿内に自動販売機の設置があるところも便利かと思います。		0	0	0																									
+3497	65	40	agent	簡単な買い物はホテル外に出るのは大変かと思いますので、いかがでしょうか？		0	0	0																									
+3498	65	41	user	自販機のあるホテルでお願いします。	はい	0	0	0																				＄照応と迷いましたが「はい」にしましたby					
+3499	65	42	agent	承知しました。		0	0	0																									
+3500	65	43	agent	ほかにご希望はございますでしょうか？		0	0	0																									
+3501	65	44	agent	特にございませんでしたら、以上の条件でお宿をお調べいたします。		0	0	0																									
+3502	65	45	user	以上でお願いします。	いいえ	0	0	0																									
+3503	65	46	agent	かしこまりました。		0	0	0																									
+3504	65	47	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+3505	65	48	agent	・日付は１月２５日。		0	0	0																									
+3506	65	49	agent	・宿泊日数は１泊。		0	0	0																									
+3507	65	50	agent	・宿泊地は東京。		0	0	0																									
+3508	65	51	agent	・人数は大人４名。		0	0	0																									
+3509	65	52	agent	・宿タイプはビジネスホテル。		0	0	0																									
+3510	65	53	agent	・部屋タイプ／数はツインルーム２室。		0	0	0																									
+3511	65	54	agent	・ビッグサイトへのアクセスのよい宿を希望。		0	0	0																									
+3512	65	55	agent	・食事無しのプランを希望。		0	0	0																									
+3513	65	56	agent	・禁煙ルームを希望。		0	0	0																									
+3514	65	57	agent	・予算は１人２万円台。		0	0	0																									
+3515	65	58	agent	・近くにコンビニのある宿を希望。		0	0	0																									
+3516	65	59	agent	・館内に自動販売機のある宿を希望。		0	0	0																									

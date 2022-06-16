@@ -1,0 +1,62 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+470	10	1	agent	この度はご利用いただきまして、誠にありがとうございます。		0	0	0																									
+471	10	2	agent	ご宿泊のご相談を承ります。		0	0	0																									
+472	10	3	agent	はじめにご宿泊地、お日付、人数をお聞かせいただけますでしょうか。		0	0	0																									
+473	10	4	user	３月２９日に、１泊で東京に泊まりたいと思っています。	要求	0	0	0	251	473	0	5	３月２９日	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+473	10	4	user	３月２９日に、１泊で東京に泊まりたいと思っています。	要求	0	0	0	252	473	7	2	１泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	2_neutral	3_strong	3_strong						0						
+473	10	4	user	３月２９日に、１泊で東京に泊まりたいと思っています。	要求	0	0	0	253	473	10	2	東京	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+474	10	5	user	人数は１名です。	要求	0	0	0	254	474	3	2	１名	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+475	10	6	agent	かしこまりました。		0	0	0																									
+476	10	7	agent	こちらのご宿泊は、ビジネスでのご利用になりますでしょうか？		0	0	0																									
+477	10	8	agent	それとも観光でしょうか？		0	0	0																									
+478	10	9	user	私は東京に住んでいるのですが、仕事に疲れたので癒されたいんです。	要求	0	0	0	256	478	23	5	癒されたい	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	3_strong						0						
+479	10	10	user	ちょっと高級なホテルに泊まって自分へのご褒美にしようかと。	要求	0	0	0	257	479	0	7	ちょっと高級な	宿	YAEN:宿環境	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	1_weak						0						
+479	10	10	user	ちょっと高級なホテルに泊まって自分へのご褒美にしようかと。	要求	0	0	0	258	479	7	3	ホテル	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+479	10	10	user	ちょっと高級なホテルに泊まって自分へのご褒美にしようかと。	要求	0	0	0	259	479	15	7	自分へのご褒美	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	3_strong						0						
+480	10	11	agent	さようでございますか。		0	0	0																									
+481	10	12	agent	それでは、ハイクラスのホテルでお調べいたします。		0	0	0																									
+482	10	13	agent	ご予算はいかがでしょうか？		0	0	0																									
+483	10	14	user	１人泊まりだと、２人分の料金を請求されるのでしょうか？	確認	0	0	0																									
+484	10	15	user	３万円くらいで豪華な気分を味わいたいのですが。	要求	0	0	0	260	484	0	6	３万円くらい	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	1_weak	1_weak	3_strong						0						
+484	10	15	user	３万円くらいで豪華な気分を味わいたいのですが。	要求	0	0	0	261	484	7	11	豪華な気分を味わいたい	宿	YAEN:宿環境	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+485	10	16	agent	お部屋の収容人数によって変わりますので、ご予算３万円で承ります。		0	0	0																									
+486	10	17	agent	場所は東京のどちらでもよろしいでしょうか？		0	0	0																									
+487	10	18	user	夜景を見渡せる部屋が取れれば、どこでもかまいません。	要求	0	0	0	262	487	0	7	夜景を見渡せる	部屋	HEEN:部屋環境	3_strong	3_strong	3_strong	2_neutral								0						
+488	10	19	user	でも駅から近い方がいいですね。	要求	0	0	0	263	488	2	5	駅から近い	立地	RIBA:立地 (場所)	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+489	10	20	agent	かしこまりました。		0	0	0																									
+490	10	21	agent	それでは、駅から近いお宿で、夜景を見渡せるお部屋をご用意いたします。		0	0	0																									
+491	10	22	agent	お食事も室内でお召し上がりいただけるよう、手配しましょうか？		0	0	0																									
+492	10	23	user	夕食はホテルの外に出かけようと思っています。	要求	0	0	0	264	492	0	2	夕食	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						1						
+492	10	23	user	夕食はホテルの外に出かけようと思っています。	要求	0	0	0	265	492	0	9	夕食はホテルの外に	立地	RIEN:立地 (周辺環境)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+493	10	24	user	でもそうですね、朝食は部屋で取れれば素敵ですね。	要求	0	0	0	266	493	8	2	朝食	食事	SYUM:食事有無	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+493	10	24	user	でもそうですね、朝食は部屋で取れれば素敵ですね。	要求	0	0	0	294	493	8	5	朝食は部屋	食事	SYUM:食事有無	1_weak	2_neutral	1_weak		2_neutral	2_neutral						0						
+494	10	25	agent	かしこまりました。		0	0	0																									
+495	10	26	agent	それでは、朝食のみ室内でお召し上がりいただけるプランをお調べいたします。		0	0	0																									
+496	10	27	agent	館内施設につきましては、ご希望はございますでしょうか？		0	0	0																									
+10848	10	28	user	スパを利用したいです。プールで泳ぎたいので。	要求	0	0	0	268	10848	0	2	スパ	施設	SHPO:施設条件 (プールスパ)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+10848	10	28	user	スパを利用したいです。プールで泳ぎたいので。	要求	0	0	0	269	10848	11	3	プール	施設	SHPO:施設条件 (プールスパ)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+499	10	30	agent	かしこまりました。		0	0	0																									
+500	10	31	agent	それではスパ付きのホテルをお調べいたします。		0	0	0																									
+501	10	32	agent	ご宿泊日までお日にちがございますが、早割プランはご希望でしょうか？		0	0	0																									
+502	10	33	agent	キャンセルチャージが早く発生してしまいますが、その分、お値段はお求め安くなります。		0	0	0																									
+503	10	34	user	もう宿泊する日付も決まっているので、早割プランでも問題ありません。	はい	0	0	0																									
+504	10	35	user	今までの要望が全部かなうような、レディースプランみたいなものがあればいいのですが。	要求	0	0	0	270	504	16	8	レディースプラン	サービス	SESE:ホテルサービス	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+505	10	36	agent	スパのご利用代金がセットになったレディースプランはあるかと思います。		0	0	0																									
+506	10	37	agent	そちらをお調べしてもよろしいでしょうか？		0	0	0																									
+507	10	38	user	お願いします。	はい	0	0	0																									
+508	10	39	user	部屋は出来るだけ高層階にしてください。	要求	0	0	0	271	508	8	3	高層階	部屋	HEEN:部屋環境	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+509	10	40	agent	かしこまりました。		0	0	0																									
+510	10	41	agent	ご希望をお聞かせくださり、ありがとうございました。		0	0	0																									
+511	10	42	agent	それでは以下の条件でお調べしますので、よろしくお願いいたします。		0	0	0																									
+512	10	43	agent	・日付は３月２９日。		0	0	0																									
+513	10	44	agent	・宿泊日数は１泊。		0	0	0																									
+514	10	45	agent	・宿泊地は東京。		0	0	0																									
+515	10	46	agent	・人数は大人１名。		0	0	0																									
+516	10	47	agent	・宿タイプはハイクラスホテル。		0	0	0																									
+517	10	48	agent	・館内施設はスパ付きを希望。		0	0	0																									
+518	10	49	agent	・予算は３万円。		0	0	0																									
+519	10	50	agent	・駅から近い宿を希望。		0	0	0																									
+520	10	51	agent	・夜景を見渡せる高層階の部屋を希望。		0	0	0																									
+521	10	52	agent	・食事は朝食のみ室内で食べられるプランを希望。		0	0	0																									
+522	10	53	agent	・早割プランを希望。		0	0	0																									
+523	10	54	agent	・スパ代金がセットになったレディースプランを希望。		0	0	0																									

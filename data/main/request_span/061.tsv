@@ -1,0 +1,60 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+3248	61	1	agent	宿予約サービスのご利用ありがとうございます。		0	0	0																									
+3249	61	2	agent	宿について重視したい点をお聞かせください。		0	0	0																									
+3250	61	3	user	大学の春休みに大学の友達含め４人で、佐賀県にドライブに行こうと思っています。	要求	0	0	0	1856	3250	0	6	大学の春休み	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	2_neutral	3_strong	3_strong						0						
+3250	61	3	user	大学の春休みに大学の友達含め４人で、佐賀県にドライブに行こうと思っています。	要求	0	0	0	1857	3250	7	5	大学の友達	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+3250	61	3	user	大学の春休みに大学の友達含め４人で、佐賀県にドライブに行こうと思っています。	要求	0	0	0	1858	3250	14	2	４人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+3250	61	3	user	大学の春休みに大学の友達含め４人で、佐賀県にドライブに行こうと思っています。	要求	0	0	0	1859	3250	18	3	佐賀県	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+3250	61	3	user	大学の春休みに大学の友達含め４人で、佐賀県にドライブに行こうと思っています。	要求	0	0	0	1860	3250	22	4	ドライブ	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	1_weak						0						
+3251	61	4	user	なるべく駐車場がある宿がいいです。	要求	0	0	0	1861	3251	4	3	駐車場	サービス	SESE:ホテルサービス	1_weak	2_neutral	1_weak		2_neutral	3_strong						0						
+3252	61	5	agent	かしこまりました。		0	0	0																									
+3253	61	6	agent	お日付はお決まりでしょうか？		0	0	0																									
+3254	61	7	user	バレンタインデーに二泊をする予定です。	要求	0	0	0	1862	3254	0	8	バレンタインデー	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+3254	61	7	user	バレンタインデーに二泊をする予定です。	要求	0	0	0	1863	3254	9	2	二泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+3255	61	8	agent	かしこまりました。		0	0	0																									
+3256	61	9	agent	それでは２月１４日から２泊でお調べします。		0	0	0																									
+3257	61	10	agent	４名様とのことですが、お部屋はいかがなさいますか？		0	0	0																									
+3258	61	11	user	せっかくなので旅行気分が味わえる旅館がいいとのことです。	要求	0	0	0	1864	3258	7	9	旅行気分が味わえる	宿	YAEN:宿環境	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	1_weak						0						
+3258	61	11	user	せっかくなので旅行気分が味わえる旅館がいいとのことです。	要求	0	0	0	1865	3258	16	2	旅館	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+3259	61	12	user	部屋の広さにこだわりはないようですが、窓からの景色は自然が見える部屋の方がいいなと考えています。	要求	0	0	0	1866	3259	19	13	窓からの景色は自然が見える	部屋	HEEN:部屋環境	1_weak	2_neutral	1_weak		2_neutral							0						
+3260	61	13	agent	承知しました。		0	0	0																									
+3261	61	14	agent	それでは、旅館を１室でよろしいでしょうか？		0	0	0																									
+3262	61	15	user	はい、一室で構いません。	はい	0	0	0																									
+3263	61	16	agent	かしこまりました。		0	0	0																									
+3264	61	17	agent	佐賀県の自然ですと、海と山の両方がございますが、どちらかご希望はございますでしょうか？		0	0	0																									
+3265	61	18	user	特にこだわりはなく、プランの安いほうをお願いしたいです。	要求	0	0	0	1867	3265	14	2	安い	予算	YOKA:予算感	2_neutral	2_neutral	1_weak	1_weak	2_neutral							0						
+3266	61	19	agent	承知しました。		0	0	0																									
+3267	61	20	agent	では、ご予算はおいくらくらいでお考えでしょうか？		0	0	0																									
+3268	61	21	user	大体１人４万くらいでしょうか。	要求	0	0	0	1868	3268	4	5	４万くらい	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	1_weak	1_weak	1_weak	229	3268	2	2	１人	0						
+3269	61	22	agent	かしこまりました。		0	0	0																									
+3270	61	23	agent	お食事はいかがなさいますか？		0	0	0																									
+3271	61	24	agent	朝・夕２食付きがよろしいでしょうか？		0	0	0																									
+3272	61	25	user	夕食付きでお願い致します。	要求	0	0	0	1869	3272	0	2	夕食	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+3273	61	26	user	朝食はいりません。	要求	0	0	0	1870	3273	0	2	朝食	食事	SYUM:食事有無	2_neutral	3_strong	2_neutral	2_neutral		2_neutral						1						
+3274	61	27	agent	かしこまりました。		0	0	0																									
+3275	61	28	agent	ご夕食ですが、ご当地の郷土料理など、とくにご希望はございますでしょうか？		0	0	0																									
+3276	61	29	user	せっかくなので郷土料理など、その土地でしか食べられないものを食べたいです。	要求	0	0	0	1871	3276	7	22	郷土料理など、その土地でしか食べられないもの	食事	SYNA:食事内容	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+3277	61	30	agent	かしこまりました。		0	0	0																									
+3278	61	31	agent	それでは、郷土料理のご夕食をお召し上がりいただけるお宿をお調べします。		0	0	0																									
+3279	61	32	agent	ほかにご希望はございますでしょうか？		0	0	0																									
+3280	61	33	user	旅館、もしくは近辺でお土産が買えると嬉しいです。	要求	0	0	0	1872	3280	0	17	旅館、もしくは近辺でお土産が買える	立地	RIEN:立地 (周辺環境)	1_weak	2_neutral	1_weak		1_weak	2_neutral						0						
+3281	61	34	agent	かしこまりました。		0	0	0																									
+3282	61	35	agent	それでは、お土産屋さんが館内か近くにあるお宿をお調べします。		0	0	0																									
+3283	61	36	agent	他はいかがでしょうか？		0	0	0																									
+3284	61	37	user	近くにコンビニなどあると助かります。	要求	0	0	0	1873	3284	0	11	近くにコンビニなどある	立地	RIEN:立地 (周辺環境)	1_weak	2_neutral	2_neutral		1_weak	2_neutral						0						
+3285	61	38	agent	かしこまりました。		0	0	0																									
+3286	61	39	agent	近くにコンビニがあるお宿をお探しします。		0	0	0																									
+3287	61	40	agent	ご希望をお聞かせくださり、ありがとうございました。		0	0	0																									
+3288	61	41	agent	それでは以下の条件でお調べしますので、よろしくお願いいたします。		0	0	0																									
+3289	61	42	agent	・日付は２月１４日。		0	0	0																									
+3290	61	43	agent	・宿泊日数は２泊。		0	0	0																									
+3291	61	44	agent	・宿泊地は佐賀県。		0	0	0																									
+3292	61	45	agent	・人数は大人４名。		0	0	0																									
+3293	61	46	agent	・宿タイプは旅館。		0	0	0																									
+3294	61	47	agent	・部屋数は１室。		0	0	0																									
+3295	61	48	agent	・駐車場のある宿を希望。		0	0	0																									
+3296	61	49	agent	・自然が見える宿を希望。		0	0	0																									
+3297	61	50	agent	・予算は１人４万円。		0	0	0																									
+3298	61	51	agent	・食事は夕食のみで、郷土料理を希望。		0	0	0																									
+3299	61	52	agent	・土産屋が館内か近くにある宿を希望。		0	0	0																									
+3300	61	53	agent	・近くにコンビニがある宿を希望。		0	0	0																									

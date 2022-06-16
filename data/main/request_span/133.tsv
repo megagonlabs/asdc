@@ -1,0 +1,52 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+7373	133	1	user	自分たち夫婦と、子供、それから母の４人で旅行を考えています。	要求	0	0	0	3096	7373	0	6	自分たち夫婦	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7373	133	1	user	自分たち夫婦と、子供、それから母の４人で旅行を考えています。	要求	0	0	0	3097	7373	8	2	子供	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7373	133	1	user	自分たち夫婦と、子供、それから母の４人で旅行を考えています。	要求	0	0	0	3098	7373	15	1	母	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7373	133	1	user	自分たち夫婦と、子供、それから母の４人で旅行を考えています。	要求	0	0	0	3099	7373	17	2	４人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7374	133	2	user	母もゆっくりでき、子供も楽しめるようなところだといいなあと思っています。	要求	0	0	0	3100	7374	0	16	母もゆっくりでき、子供も楽しめる	宿	YAEN:宿環境	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+7375	133	3	agent	かしこまりました。		0	0	0																									
+7376	133	4	agent	行き先の方はどちらでしょうか？		0	0	0																									
+7377	133	5	user	静岡に行きたいと思っています。	要求	0	0	0	3101	7377	0	2	静岡	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7378	133	6	user	できれば、観光地よりは自然を楽しむような旅行にしたいのですが。	要求	0	0	0	3102	7378	5	3	観光地	立地	RIAC:立地 (アクティビティ)	1_weak	1_weak	1_weak									1						
+7378	133	6	user	できれば、観光地よりは自然を楽しむような旅行にしたいのですが。	要求	0	0	0	3103	7378	11	6	自然を楽しむ	立地	RIAC:立地 (アクティビティ)	1_weak	1_weak	1_weak									0						
+7379	133	7	user	３泊くらいで考えているのですが、山と海（もしくは川）どちらにも行けるような宿だとありがたいです。	要求	0	0	0	3104	7379	0	2	３泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	2_neutral	3_strong	3_strong						0						
+7379	133	7	user	３泊くらいで考えているのですが、山と海（もしくは川）どちらにも行けるような宿だとありがたいです。	要求	0	0	0	3105	7379	16	18	山と海（もしくは川）どちらにも行ける	立地	RIAC:立地 (アクティビティ)	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+7380	133	8	agent	静岡県ですね。		0	0	0																									
+7381	133	9	agent	かしこまりました。		0	0	0																									
+7382	133	10	agent	自然豊かな場所にある温泉地の旅館でお探ししましょうか？		0	0	0																									
+7383	133	11	user	いいですね！	はい	0	0	0																									
+7384	133	12	user	それだと母も子も楽しめそうです。	感想	0	0	0	3106	7384	4	9	母も子も楽しめそう	立地	RIAC:立地 (アクティビティ)	1_weak	1_weak	1_weak									0						
+7384	133	12	user	それだと母も子も楽しめそうです。	感想	0	0	0	3108	7382	0	13	自然豊かな場所にある温泉地	立地	RIEN:立地 (周辺環境)	1_weak	1_weak	1_weak									0		37	7384	0	2	それ
+7384	133	12	user	それだと母も子も楽しめそうです。	感想	0	0	0	3109	7382	14	2	旅館	宿	YATY:宿タイプ	1_weak	1_weak	1_weak									0		36	7384	0	2	それ
+7385	133	13	agent	かしこまりました。		0	0	0																									
+7386	133	14	agent	３泊とのご予定ですが、お日にちはいつぐらいでしょうか？		0	0	0																									
+7387	133	15	user	１月１日からを考えています。	要求	0	0	0	3110	7387	0	6	１月１日から	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7388	133	16	user	あと、車を持っていないので、それでもできるだけアクセスしやすいような宿だとありがたいです。	要求	0	0	0	3111	7388	18	13	できるだけアクセスしやすい	立地	RIBA:立地 (場所)	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+7389	133	17	agent	かしこまりました。		0	0	0																									
+7390	133	18	agent	市街地に近い旅館でお探ししますね。		0	0	0																									
+7391	133	19	agent	旅館のお部屋の方なのですが、お子様とお母さまがいらっしゃるとのことなので洋室タイプの離れにあるものでお探ししましょうか？		0	0	0																									
+7392	133	20	user	はい、そのほうがありがたいです。	はい	0	0	0																									
+7393	133	21	agent	かしこまりました。		0	0	0																									
+7394	133	22	agent	市街地に近い旅館をご希望とのことでしたが、ご夕食の方はお外でとられますか？		0	0	0																									
+7395	133	23	user	そうですね、温泉なら、夜と朝はゆっくりしたいですので、夕食、朝食がついているのがありがたいです。	要求	0	0	0	3112	7395	27	5	夕食、朝食	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+7396	133	24	agent	かしこまりました。		0	0	0																									
+7397	133	25	agent	朝夕食事付きでお探しします。		0	0	0																									
+7398	133	26	agent	ご予算の方はどのくらいでお考えでしょうか？		0	0	0																									
+7399	133	27	user	できれば一人一泊１万５千円～２万円以内でおさえられればと思っています。	要求	0	0	0	3113	7399	8	11	１万５千円～２万円以内	予算	YOYO:予算	1_weak	2_neutral	1_weak		1_weak		366	7399	4	2	一人	0						
+7399	133	27	user	できれば一人一泊１万５千円～２万円以内でおさえられればと思っています。	要求	0	0	0	3113	7399	8	11	１万５千円～２万円以内	予算	YOYO:予算	1_weak	2_neutral	1_weak		1_weak		367	7399	6	2	一泊	0						
+7400	133	28	agent	かしこまりました。		0	0	0																									
+7401	133	29	agent	他にご要望はございますか？		0	0	0																									
+7402	133	30	user	夕食は、地元の料理が食べられるものだとうれしいです。	要求	0	0	0	3114	7402	4	11	地元の料理が食べられる	食事	SYNA:食事内容	1_weak	2_neutral	1_weak		2_neutral	2_neutral	368	7402	0	2	夕食	0						
+7402	133	30	user	夕食は、地元の料理が食べられるものだとうれしいです。	要求	0	0	0	3115	7402	0	2	夕食	食事	SYUM:食事有無	1_weak	2_neutral	1_weak		2_neutral	2_neutral						0						
+7403	133	31	agent	かしこまりました。		0	0	0																									
+7404	133	32	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+7405	133	33	agent	・人数は大人３名、子供１名		0	0	0																									
+7406	133	34	agent	・行先は静岡県		0	0	0																									
+7407	133	35	agent	・自然豊かな場所にある温泉地の旅館		0	0	0																									
+7408	133	36	agent	・１月１日から３泊		0	0	0																									
+7409	133	37	agent	・市街地に近い旅館		0	0	0																									
+7410	133	38	agent	・部屋は洋室タイプ		0	0	0																									
+7411	133	39	agent	・離れにある部屋を希望		0	0	0																									
+7412	133	40	agent	・朝夕食事付き		0	0	0																									
+7413	133	41	agent	・予算は一人一泊１万５千円～２万円以内		0	0	0																									
+7414	133	42	agent	・ご夕食は地元料理のコース		0	0	0																									

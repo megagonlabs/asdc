@@ -1,0 +1,51 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+9898	191	1	agent	本日はご利用いただきまして、ありがとうございます。		0	0	0																									
+9899	191	2	agent	ご宿泊のご相談を承ります。		0	0	0																									
+9900	191	3	agent	お泊りになる地域、お日付、人数がお決まりでしたら、お聞かせいただけますでしょうか。		0	0	0																									
+9901	191	4	user	新潟にグルメ旅をしに行こうと思っています。	要求	0	0	0	607	9901	0	2	新潟	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9901	191	4	user	新潟にグルメ旅をしに行こうと思っています。	要求	0	0	0	610	9901	3	4	グルメ旅	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	2_neutral	3_strong						0						
+9902	191	5	user	女子１人旅なので、キレイなホテルがいいです。	要求	0	0	0	611	9902	0	5	女子１人旅	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9902	191	5	user	女子１人旅なので、キレイなホテルがいいです。	要求	0	0	0	612	9902	2	2	１人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9902	191	5	user	女子１人旅なので、キレイなホテルがいいです。	要求	0	0	0	613	9902	9	3	キレイ	宿	YAEN:宿環境	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+9902	191	5	user	女子１人旅なので、キレイなホテルがいいです。	要求	0	0	0	615	9902	13	3	ホテル	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+9903	191	6	agent	きれいなホテルですね。		0	0	0																									
+9904	191	7	agent	かしこまりました。		0	0	0																									
+9905	191	8	agent	ご旅行のお日にちと泊数を教えていただいてよろしいでしょうか？		0	0	0																									
+9906	191	9	user	１月２７日から３泊の予定です。	要求	0	0	0	616	9906	0	5	１月２７日	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9906	191	9	user	１月２７日から３泊の予定です。	要求	0	0	0	617	9906	7	2	３泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9907	191	10	agent	お日にちの方、かしこまりました。		0	0	0																									
+9908	191	11	agent	ご予算の方はどのくらいでお考えでしょうか？		0	0	0																									
+9909	191	12	user	８０００円～１万円ぐらい、だいたいそのぐらいで考えています。	要求	0	0	0	619	9909	0	12	８０００円～１万円ぐらい	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	1_weak	1_weak	1_weak						0						
+9910	191	13	agent	一泊あたりの予算、かしこまりました。		0	0	0																									
+9911	191	14	agent	きれいなホテルをご希望ですので、築年数がまだ経っていない新しいホテルでお探ししましょうか？		0	0	0																									
+9912	191	15	user	築年数はあまり気にしないのですが、清潔感があったり、あとはオートロックなど、設備がきちんと整っていればいいかなと。	要求	0	0	0	620	9912	17	3	清潔感	宿	YAEN:宿環境	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0	＃「オートロック」					
+9912	191	15	user	築年数はあまり気にしないのですが、清潔感があったり、あとはオートロックなど、設備がきちんと整っていればいいかなと。	要求	0	0	0	621	9912	29	6	オートロック	部屋	HESE:部屋設備	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0	＃「オートロック」					
+9912	191	15	user	築年数はあまり気にしないのですが、清潔感があったり、あとはオートロックなど、設備がきちんと整っていればいいかなと。	要求	0	0	0	626	9912	38	10	設備がきちんと整って	宿	YAEN:宿環境	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0	＃「オートロック」					
+9913	191	16	user	新しければそれはそれでいいですが、予算内におさまれば。	照応要求	0	1	0	629	9913	0	4	新しけれ	宿	YAEN:宿環境	1_weak	1_weak	1_weak				66	9913	17	3	予算内	0	★「～ばそれはそれでいい」が重要度判定にかかわる表現なのでspanに含めない					
+9914	191	17	agent	かしこまりました。		0	0	0																									
+9915	191	18	agent	お伝えいただいた条件でお探ししますね。		0	0	0																									
+9916	191	19	agent	グルメ旅とのことですが、新潟県内どこでもアクセスしやすい長岡駅周辺でお探ししましょうか？		0	0	0																									
+9917	191	20	user	エリアはまだ決めていなかったのですが、長岡駅周辺は海鮮の食べ歩きが出来るのでしょうか？	要求	0	0	0	634	9917	19	5	長岡駅周辺	立地	RIBA:立地 (場所)	1_weak	1_weak	1_weak									0						
+9917	191	20	user	エリアはまだ決めていなかったのですが、長岡駅周辺は海鮮の食べ歩きが出来るのでしょうか？	要求	0	0	0	639	9917	25	11	海鮮の食べ歩きが出来る	立地	RIAC:立地 (アクティビティ)	1_weak	1_weak	1_weak									0						
+9918	191	21	user	海鮮の食べ歩きを考えていたので、海の近くもいいかなと思っていたのですが。	要求	0	0	0	641	9918	0	7	海鮮の食べ歩き	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+9918	191	21	user	海鮮の食べ歩きを考えていたので、海の近くもいいかなと思っていたのですが。	要求	0	0	0	642	9918	16	4	海の近く	立地	RIAC:立地 (アクティビティ)	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+9919	191	22	agent	さようでございますか。		0	0	0																									
+9920	191	23	agent	そうしましたら、海の近くのホテルでお探ししますね。		0	0	0																									
+9921	191	24	agent	他にご要望はございますか？		0	0	0																									
+9922	191	25	user	ありがとうございます、	その他	0	0	0																									
+9923	191	26	user	海も好きなので、近くだと嬉しいです。	感想	0	0	0	643	9923	8	2	近く	立地	RIAC:立地 (アクティビティ)	1_weak	2_neutral	1_weak		2_neutral		67	9923	0	1	海	0						
+9924	191	27	user	あとは、ホテルにアメニティが充実していると、女性としてはありがたいかなと。	要求	0	0	0	645	9924	4	3	ホテル	宿	YATY:宿タイプ	1_weak	2_neutral	1_weak		2_neutral	2_neutral						0						
+9924	191	27	user	あとは、ホテルにアメニティが充実していると、女性としてはありがたいかなと。	要求	0	0	0	648	9924	8	8	アメニティが充実	部屋	HEAM:部屋アメニティ	1_weak	2_neutral	1_weak		2_neutral	2_neutral						0						
+9924	191	27	user	あとは、ホテルにアメニティが充実していると、女性としてはありがたいかなと。	要求	0	0	0	3535	9924	22	2	女性	旅行	RYSC:旅行シーン	2_neutral	2_neutral	1_weak	3_strong	3_strong	3_strong						0						
+9925	191	28	agent	アメニティが充実しているホテルですね。		0	0	0																									
+9926	191	29	agent	かしこまりました。		0	0	0																									
+9927	191	30	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+9928	191	31	agent	・行先は新潟県		0	0	0																									
+9929	191	32	agent	・人数は大人１人		0	0	0																									
+9930	191	33	agent	・日程は１月２７日から３泊		0	0	0																									
+9931	191	34	agent	・予算は１泊８０００円から１万円くらい		0	0	0																									
+9932	191	35	agent	・宿はホテル		0	0	0																									
+9933	191	36	agent	・オートロック設備がある		0	0	0																									
+9934	191	37	agent	・清潔感がある		0	0	0																									
+9935	191	38	agent	・海の近くにある		0	0	0																									
+9936	191	39	agent	・アメニティが充実している		0	0	0																									

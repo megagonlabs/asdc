@@ -1,0 +1,54 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+1637	32	1	agent	宿予約サービスのご利用ありがとうございます。		0	0	0																									
+1638	32	2	agent	宿について重視したい点をお聞かせください。		0	0	0																									
+1639	32	3	user	温泉で年末ゆっくりしたいのですが、早期予約特典がある宿がいいなと思っています。	要求	0	0	0	947	1639	0	2	温泉	風呂	FUTY:風呂種類	2_neutral	3_strong	2_neutral	2_neutral		2_neutral						0						
+1639	32	3	user	温泉で年末ゆっくりしたいのですが、早期予約特典がある宿がいいなと思っています。	要求	0	0	0	948	1639	3	2	年末	スケジュール	SCSE:時期	2_neutral	3_strong	2_neutral	2_neutral		3_strong						0						
+1639	32	3	user	温泉で年末ゆっくりしたいのですが、早期予約特典がある宿がいいなと思っています。	要求	0	0	0	949	1639	5	7	ゆっくりしたい	宿	YAEN:宿環境	2_neutral	3_strong	2_neutral	1_weak		2_neutral						0						
+1639	32	3	user	温泉で年末ゆっくりしたいのですが、早期予約特典がある宿がいいなと思っています。	要求	0	0	0	950	1639	17	6	早期予約特典	サービス	SESE:ホテルサービス	2_neutral	3_strong	2_neutral	2_neutral		2_neutral						0						
+1640	32	4	user	子どもを連れて行くので、体験ワークショップが付いているホテルや、宿の近くか施設内にコンビニがあると助かります。	要求	0	0	0	951	1640	0	9	子どもを連れて行く	旅行	RYSC:旅行シーン	2_neutral	3_strong	2_neutral	3_strong		3_strong						0						
+1640	32	4	user	子どもを連れて行くので、体験ワークショップが付いているホテルや、宿の近くか施設内にコンビニがあると助かります。	要求	0	0	0	952	1640	12	15	体験ワークショップが付いている	施設	SHLE:施設条件(レジャー)	1_weak	3_strong	1_weak			1_weak						0						
+1640	32	4	user	子どもを連れて行くので、体験ワークショップが付いているホテルや、宿の近くか施設内にコンビニがあると助かります。	要求	0	0	0	953	1640	27	3	ホテル	宿	YATY:宿タイプ	1_weak	3_strong	1_weak			2_neutral						0						
+1640	32	4	user	子どもを連れて行くので、体験ワークショップが付いているホテルや、宿の近くか施設内にコンビニがあると助かります。	要求	0	0	0	954	1640	41	4	コンビニ	立地	RIEN:立地 (周辺環境)	1_weak	3_strong	1_weak			2_neutral						0						
+1641	32	5	agent	さようでございますか。		0	0	0																									
+1642	32	6	agent	年末のご宿泊とのことですが、お日付と宿泊日数はお決まりでしょうか？		0	0	0																									
+1643	32	7	user	１２月２５日から４泊です。	要求	0	0	0	955	1643	0	8	１２月２５日から	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+1643	32	7	user	１２月２５日から４泊です。	要求	0	0	0	956	1643	8	2	４泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+1644	32	8	user	あと、宿付近にアスレチックパークなどアクティビティ施設があるかも調べていただけますか？	要求	0	0	0	957	1644	7	20	アスレチックパークなどアクティビティ施設	立地	RIAC:立地 (アクティビティ)	1_weak	1_weak	1_weak	2_neutral								0						
+1645	32	9	agent	かしこまりました。		0	0	0																									
+1646	32	10	agent	ご宿泊の都道府県や町のご希望はございますか？		0	0	0																									
+1647	32	11	user	大分県の別府市あたりを希望しています	要求	0	0	0	958	1647	0	10	大分県の別府市あたり	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	1_weak	1_weak	2_neutral						0						
+1648	32	12	agent	かしこまりました。		0	0	0																									
+1649	32	13	agent	ご宿泊の人数は大人、子供、それぞれ何名様となりますでしょうか？		0	0	0																									
+1650	32	14	user	大人１、子供３です。	要求	0	0	0	1067	1650	0	3	大人１	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+1650	32	14	user	大人１、子供３です。	要求	0	0	0	1068	1650	4	3	子供３	人数	NIKO:子供人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+1651	32	15	agent	かしこまりました。		0	0	0																									
+1652	32	16	agent	体験ワークショップが付いている宿で、宿付近にアスレチックパークなどアクティビティ施設をご希望とのことですが、リゾートホテルになさってはいかがでしょうか？		0	0	0																									
+1653	32	17	agent	全てをホテル内でお楽しみいただけるかと思います。		0	0	0																									
+1654	32	18	user	なるほどですね！	その他	0	0	0																									
+1655	32	19	user	リゾートホテルで探したいです	はい	0	0	0																									
+1656	32	20	user	最寄り駅からホテル送迎もお願いします	要求	0	0	0	961	1656	0	11	最寄り駅からホテル送迎	サービス	SESE:ホテルサービス	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+1657	32	21	agent	かしこまりました。		0	0	0																									
+1658	32	22	agent	もしよろしければですが、お子様がいらっしゃいますので、お食事やお菓子などお買い求めになるのを心配なさっているかと思います。		0	0	0																									
+1659	32	23	agent	ですので、お食事・お飲み物、アクティビティなど全ての代金が入った「オールインクルーシブ」プランはいかがでしょうか？		0	0	0																									
+1660	32	24	agent	こちらですと、コンビニでお買い求めになる心配もなさらないで大丈夫かと思います。		0	0	0																									
+1661	32	25	user	それはいいですね。	はい	0	0	0																									
+1662	32	26	user	オールインクルーシブのリゾートホテルでお願いします。	要求	0	0	0	962	1662	0	10	オールインクルーシブ	サービス	SESE:ホテルサービス	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+1662	32	26	user	オールインクルーシブのリゾートホテルでお願いします。	要求	0	0	0	963	1662	11	7	リゾートホテル	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+1663	32	27	agent	かしこまりました。		0	0	0																									
+1664	32	28	agent	また、最寄駅からの送迎サービスのある宿をお調べいたします。		0	0	0																									
+1665	32	29	agent	他にご希望はございますでしょうか？		0	0	0																									
+1666	32	30	user	冬の大分県は初めてなのですが、冬の気候は東京よりは暖かいでしょうか？	確認	0	0	0																									
+1667	32	31	agent	いえ、特に気温は変わらないかと思います。		0	0	0																									
+1668	32	32	user	４泊なので冬服はかさばり、子供は汗もかくので。。	伝達	0	0	0																									
+1669	32	33	agent	さようでございますか。		0	0	0																									
+1670	32	34	agent	ご希望をお聞かせくださり、ありがとうございました。		0	0	0																									
+1671	32	35	agent	それでは以下の条件でお調べしますので、よろしくお願いいたします。		0	0	0																									
+1672	32	36	agent	・日付は１２月２５日。		0	0	0																									
+1673	32	37	agent	・宿泊日数は４泊。		0	0	0																									
+1674	32	38	agent	・宿泊地は大分県別府市。		0	0	0																									
+1675	32	39	agent	・人数は大人１名、子ども３名。		0	0	0																									
+1676	32	40	agent	・宿タイプはリゾートホテルを希望。		0	0	0																									
+1677	32	41	agent	・体験ワークショップができ、アスレチックパークなどアクティビティ施設のある宿を希望。		0	0	0																									
+1678	32	42	agent	・早期予約特典がある宿を希望。		0	0	0																									
+1679	32	43	agent	・オールインクルーシブタイプの宿・プランを希望。		0	0	0																									
+1680	32	44	agent	・最寄駅からの送迎サービスのある宿を希望。		0	0	0																									

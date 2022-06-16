@@ -1,0 +1,55 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+1069	21	1	agent	宿予約サービスのご利用ありがとうございます。		0	0	0																									
+1070	21	2	agent	宿について重視したい点をお聞かせください。		0	0	0																									
+1071	21	3	user	家族で初めてスキーに行こうと思っております。	要求	0	0	0	772	1071	0	2	家族	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+1071	21	3	user	家族で初めてスキーに行こうと思っております。	要求	0	0	0	773	1071	6	3	スキー	立地	RIAC:立地 (アクティビティ)	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+1072	21	4	user	スキー場に近い宿はございますか。	要求	0	0	0	774	1072	0	7	スキー場に近い	立地	RIAC:立地 (アクティビティ)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+1073	21	5	agent	はい、お調べいたします。		0	0	0																									
+1074	21	6	agent	どちらでスキーをなさいますか？		0	0	0																									
+1075	21	7	user	秋田県に行きたいと思っております。	要求	0	0	0	775	1075	0	3	秋田県	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+1076	21	8	agent	かしこまりました。		0	0	0																									
+1077	21	9	agent	ご宿泊のお日付と宿泊日数はいかがでしょうか？		0	0	0																									
+1078	21	10	user	１２月２６日から４泊でお願いいたします。	要求	0	0	0	776	1078	0	8	１２月２６日から	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+1078	21	10	user	１２月２６日から４泊でお願いいたします。	要求	0	0	0	777	1078	8	2	４泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+1079	21	11	agent	承知しました。		0	0	0																									
+1080	21	12	agent	ご家族でのご旅行とのことですが、何名様になりますでしょうか？		0	0	0																									
+1081	21	13	user	大人２人と子供（３歳です）が１人です。	要求	0	0	0	778	1081	2	2	２人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+1081	21	13	user	大人２人と子供（３歳です）が１人です。	要求	0	0	0	779	1081	14	2	１人	人数	NIKO:子供人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+1081	21	13	user	大人２人と子供（３歳です）が１人です。	要求	0	0	0	780	1081	8	2	３歳	子供	KOYO:幼児サービス	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+1082	21	14	agent	かしこまりました。		0	0	0																									
+1083	21	15	agent	お部屋ですが、お子様が小さいので、ツインルームで片方のベッドにお子様がご一緒にお休みになるかたちでよろしいでしょうか？		0	0	0																									
+1084	21	16	user	それでもいいのですが、ベッドから落ちそうで不安です。	感想	0	0	0	781	1083	17	28	ツインルームで片方のベッドにお子様がご一緒にお休みになる	部屋	HETY:部屋タイプ	1_weak	1_weak	1_weak									1		6	1084	0	2	それ
+1085	21	17	user	できたら畳にお布団でお願いしたいのですが・・・	要求	0	0	0	782	1085	4	5	畳にお布団	部屋	HETY:部屋タイプ	1_weak	1_weak	1_weak									0						
+1086	21	18	agent	かしこまりました。		0	0	0																									
+1087	21	19	agent	それではお布団でお休みできるよう、旅館をお探ししましょうか？		0	0	0																									
+1088	21	20	user	はい、それでお願いいたします。	はい	0	0	0																									
+1089	21	21	agent	承知しました。		0	0	0																									
+1090	21	22	agent	今回のご宿泊ではスキーをお楽しみになるとのことですが、スキーリフト券付きのプランなどいかがでしょうか？		0	0	0																									
+1091	21	23	agent	宿とのセットでお得になるかと思います。		0	0	0																									
+1092	21	24	user	それはとってもいいですね！	はい	0	0	0																									
+1093	21	25	agent	ありがとうございます。		0	0	0																									
+1094	21	26	agent	それでは、スキー場に近いお宿でスキーリフト券付きのプランをお調べいたします。		0	0	0																									
+1095	21	27	agent	今回、ご宿泊日数が４泊ということで、冬のご旅行ということもあり、服のお荷物が多くなるかと思います。		0	0	0																									
+1096	21	28	agent	なるべく軽いお荷物でご旅行いただけるよう、ランドリーサービスのあるお宿をお探しするのはいかがでしょうか？		0	0	0																									
+1097	21	29	user	コインランドリーがある宿。ということでしょうか。	確認	0	0	0																									
+1098	21	30	agent	いえ、服をフロントなどに渡すと、お客様に代わって洗濯・乾燥までしておいてもらえるサービスがございます。		0	0	0																									
+1099	21	31	user	そんなサービスがあるのですね！	伝達	0	0	0																									
+1100	21	32	user	便利ですね。	伝達	0	0	0																									
+1101	21	33	user	料金が高すぎないなら使ってみたいなと思います。	要求	0	0	0	987	1101	0	8	料金が高すぎない	予算	YOKA:予算感	2_neutral	2_neutral	1_weak	1_weak	2_neutral							0						
+1102	21	34	agent	かしこまりました。		0	0	0																									
+1103	21	35	agent	最後にお食事ですが、朝・夕２食付きでよろしいでしょうか？		0	0	0																									
+1104	21	36	agent	お子様はまだ小さいので、幼児食に対応できるお宿もお調べできますが、いかがでしょうか？		0	0	0																									
+1105	21	37	user	朝・夕２食付きでお願いいたします。	はい	0	0	0																									
+1106	21	38	user	幼児食に対応していただけるなら、なおありがたいです。	はい	0	0	0																									
+1107	21	39	agent	承知しました。		0	0	0																									
+1108	21	40	agent	それでは、以下の条件でお調べいたします。		0	0	0																									
+1109	21	41	agent	・日付は１２月２６日。		0	0	0																									
+1110	21	42	agent	・宿泊日数は４泊。		0	0	0																									
+1111	21	43	agent	・宿泊地は秋田県。		0	0	0																									
+1112	21	44	agent	・人数は大人２人、子ども１人。		0	0	0																									
+1113	21	45	agent	・宿タイプは旅館を希望。		0	0	0																									
+1114	21	46	agent	・スキー場に近い宿を希望。		0	0	0																									
+1115	21	47	agent	・スキーリフト券付きのプランを希望。		0	0	0																									
+1116	21	48	agent	・ランドリーサービス（高すぎない）のある宿を希望。		0	0	0																									
+1117	21	49	agent	・食事は朝・夕２食付き。		0	0	0																									
+1118	21	50	agent	子どもについては幼児食対応を希望。		0	0	0																									

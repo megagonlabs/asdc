@@ -1,0 +1,61 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+2379	45	1	agent	宿予約サービスのご利用ありがとうございます。		0	0	0																									
+2380	45	2	agent	宿について重視したい点をお聞かせください。		0	0	0																									
+2381	45	3	user	沖縄旅行なんですけど、子供向けの食事を用意してもらえる宿を探しています。	要求	0	0	0	1246	2381	0	2	沖縄	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+2381	45	3	user	沖縄旅行なんですけど、子供向けの食事を用意してもらえる宿を探しています。	要求	0	0	0	1247	2381	11	7	子供向けの食事	子供	KOKO:子供用サービス	2_neutral	3_strong	2_neutral	2_neutral		2_neutral						0						
+2382	45	4	agent	かしこまりました。		0	0	0																									
+2383	45	5	agent	大人の方とお子様はそれぞれ何名いらっしゃいますでしょうか？		0	0	0																									
+2384	45	6	user	大人一人に、子供二人です。	要求	0	0	0	1249	2384	2	2	一人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+2384	45	6	user	大人一人に、子供二人です。	要求	0	0	0	1251	2384	8	2	二人	人数	NIKO:子供人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+2385	45	7	user	二人とも小学生です。	要求	0	0	0	1252	2385	4	3	小学生	子供	KOKO:子供用サービス	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong	143	2385	0	2	二人	0						
+2386	45	8	agent	かしこまりました。		0	0	0																									
+2387	45	9	agent	それでは２名様のお食事はお子様用で承ります。		0	0	0																									
+2388	45	10	agent	ご宿泊のお日付と宿泊日数はお決まりでしょうか？		0	0	0																									
+2389	45	11	user	はい、７月２日から４泊の予定です。	要求	0	0	0	1253	2389	3	6	７月２日から	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+2389	45	11	user	はい、７月２日から４泊の予定です。	要求	0	0	0	1254	2389	9	2	４泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+2390	45	12	agent	かしこまりました。		0	0	0																									
+2391	45	13	agent	７月のご旅行ですと、やはり海水浴はお楽しみになりますか？		0	0	0																									
+2392	45	14	user	海も行きますが、子供が海水が苦手みたいで、宿にプールがあればいいなーと思ってるんです。	要求	0	0	0	1255	2392	23	3	プール	施設	SHPO:施設条件 (プールスパ)	1_weak	2_neutral	1_weak		2_neutral	2_neutral						0						
+2392	45	14	user	海も行きますが、子供が海水が苦手みたいで、宿にプールがあればいいなーと思ってるんです。	要求	0	0	0	1256	2392	0	1	海	立地	RIAC:立地 (アクティビティ)	2_neutral	2_neutral	1_weak	2_neutral	2_neutral							0						
+2393	45	15	agent	かしこまりました。		0	0	0																									
+2394	45	16	agent	それでは館内プールのあるお宿をお調べいたします。		0	0	0																									
+2395	45	17	agent	お子様は２名様ともベッドをそれぞれご利用でしょうか？		0	0	0																									
+2396	45	18	agent	それとも、ツインルームで、片方のベッドにお子様お二人でお休みになりますか？		0	0	0																									
+2397	45	19	user	値段は高くなってもいいので、それぞれベッドがある方がいいですね。	要求	0	0	0	1257	2397	3	2	高く	予算	YOKA:予算感	1_weak	1_weak	1_weak	1_weak								0						
+2397	45	19	user	値段は高くなってもいいので、それぞれベッドがある方がいいですね。	要求	0	0	0	1258	2397	14	10	それぞれベッドがある	部屋	HETY:部屋タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+2398	45	20	agent	さようでございますか。		0	0	0																									
+2399	45	21	agent	それではベッド３台のトリプルルームはいかがでしょうか？		0	0	0																									
+2400	45	22	user	はい、それでお願いします。	はい	0	0	0																									
+2401	45	23	agent	かしこまりました。		0	0	0																									
+2402	45	24	agent	４泊となりますとお荷物が多くなるかと思います。		0	0	0																									
+2403	45	25	agent	少しでも少ないほうがご負担が減るかと思いますので、ランドリーサービス付きのお宿をお調べしましょうか？		0	0	0																									
+2404	45	26	user	それすごく助かりますね。	はい	0	0	0																									
+2405	45	27	user	お願いします。	その他	0	0	0																									
+2406	45	28	user	パジャマもできれば持って行きたくないので、子供用のパジャマが借りられるともっと嬉しいです。	要求	0	0	0	1260	2406	21	8	子供用のパジャマ	子供	KOKO:子供用サービス	1_weak	1_weak	1_weak									0						
+2407	45	29	agent	かしこまりました。		0	0	0																									
+2408	45	30	agent	それではランドリーサービス付きで、かつ子ども用のパジャマをご用意できるお宿をお調べいたします。		0	0	0																									
+2409	45	31	agent	お子様用のサービスで、他にご希望はございますでしょうか？		0	0	0																									
+2410	45	32	user	食事なんですけど、上の子が卵アレルギーがあるのと生魚が苦手なので、要望を聞いてもらえるところだと良いなと思います。	要求	0	0	0	1261	2410	13	1	卵	食事	SYNA:食事内容	2_neutral	3_strong	2_neutral	3_strong		3_strong						1						
+2410	45	32	user	食事なんですけど、上の子が卵アレルギーがあるのと生魚が苦手なので、要望を聞いてもらえるところだと良いなと思います。	要求	0	0	0	1262	2410	24	2	生魚	食事	SYNA:食事内容	2_neutral	2_neutral	2_neutral	3_strong	2_neutral	3_strong						1						
+2410	45	32	user	食事なんですけど、上の子が卵アレルギーがあるのと生魚が苦手なので、要望を聞いてもらえるところだと良いなと思います。	要求	0	0	0	1263	2410	33	10	要望を聞いてもらえる	食事	SYNA:食事内容	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+2411	45	33	agent	かしこまりました。		0	0	0																									
+2412	45	34	agent	それでは卵アレルギーの方用のお食事に対応できるお宿をお調べいたします。		0	0	0																									
+2413	45	35	agent	その他、全般的にご希望はございますでしょうか？		0	0	0																									
+2414	45	36	user	特にこの施設というこだわりはないんですが、動物と触れ合える施設が近隣にあると嬉しいです。	要求	0	0	0	1264	2414	21	16	動物と触れ合える施設が近隣にある	立地	RIAC:立地 (アクティビティ)	1_weak	2_neutral	1_weak		2_neutral	2_neutral						0						
+2415	45	37	agent	承知しました。		0	0	0																									
+2416	45	38	agent	では、動物に触れあえる施設に近いお宿ということで承ります。		0	0	0																									
+2417	45	39	agent	他にご希望はございますか？		0	0	0																									
+2418	45	40	user	今思ってるのは、そんなところですね。	いいえ	0	0	0																									
+2419	45	41	agent	かしこまりました。		0	0	0																									
+2420	45	42	agent	それでは、以下の条件でお調べいたします。		0	0	0																									
+2421	45	43	agent	・日付は７月２日。		0	0	0																									
+2422	45	44	agent	・宿泊日数は４泊。		0	0	0																									
+2423	45	45	agent	・宿泊地は沖縄。		0	0	0																									
+2424	45	46	agent	・人数は大人１名、子供２名。		0	0	0																									
+2425	45	47	agent	・部屋はトリプルルームを希望。		0	0	0																									
+2426	45	48	agent	・館内にプール付きの宿を希望。		0	0	0																									
+2427	45	49	agent	・子供向けの食事を用意できる宿を希望。		0	0	0																									
+2428	45	50	agent	・卵アレルギーの方用の食事に対応できる宿を希望。		0	0	0																									
+2429	45	51	agent	・ランドリーサービス付きの宿を希望。		0	0	0																									
+2430	45	52	agent	・子ども用のパジャマを用意できる宿を希望。		0	0	0																									
+2431	45	53	agent	・動物に触れあえる施設に近い宿を希望。		0	0	0																									

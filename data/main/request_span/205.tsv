@@ -1,0 +1,61 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+10525	205	1	agent	この度のご利用、誠にありがとうございます。		0	0	0																									
+10526	205	2	agent	お客様のお宿探しのお手伝いをいたします。		0	0	0																									
+10527	205	3	agent	お客様のご希望をお聞かせいただけますでしょうか？		0	0	0																									
+10528	205	4	user	両親と福井県に旅行に行きたいと思っています。	要求	0	0	0	354	10528	0	2	両親	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+10528	205	4	user	両親と福井県に旅行に行きたいと思っています。	要求	0	0	0	355	10528	3	3	福井県	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+10529	205	5	user	外で観光をするというよりは、宿の中でのんびりと寛ぐイメージです。	要求	0	0	0	356	10529	2	2	観光	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	1_weak	3_strong	3_strong						1						
+10529	205	5	user	外で観光をするというよりは、宿の中でのんびりと寛ぐイメージです。	要求	0	0	0	357	10529	14	8	宿の中でのんびり	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	3_strong						0						
+10530	205	6	agent	かしこまりました。		0	0	0																									
+10531	205	7	agent	その条件でお探ししますね。		0	0	0																									
+10532	205	8	agent	ご旅行のお日にちと泊数を教えていただいてよろしいでしょうか？		0	0	0																									
+10533	205	9	user	２月４日から４泊を希望いたします。	要求	0	0	0	358	10533	0	6	２月４日から	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+10533	205	9	user	２月４日から４泊を希望いたします。	要求	0	0	0	359	10533	6	2	４泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+10534	205	10	agent	２月４日から４泊ですね。		0	0	0																									
+10535	205	11	agent	かしこまりました。		0	0	0																									
+10536	205	12	agent	ご予算の方はどのくらいでお考えでしょうか？		0	0	0																									
+10537	205	13	user	１泊一人当たり１５０００円以内で考えています。	要求	0	0	0	360	10537	7	8	１５０００円以内	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	44	10537	0	2	１泊	0						
+10537	205	13	user	１泊一人当たり１５０００円以内で考えています。	要求	0	0	0	360	10537	7	8	１５０００円以内	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	45	10537	2	5	一人当たり	0						
+10538	205	14	agent	かしこまりました。		0	0	0																									
+10539	205	15	agent	その条件でお探ししますね。		0	0	0																									
+10540	205	16	agent	宿の中でのんびりお寛ぎなられるのでしたら、露天風呂がある旅館でお探ししましょうか？		0	0	0																									
+10541	205	17	user	はい。	はい	0	0	0																									
+10542	205	18	user	露天風呂があって、早朝も入浴ができる旅館がいいです。	要求	0	0	0	363	10542	0	4	露天風呂	風呂	FUTY:風呂種類	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+10542	205	18	user	露天風呂があって、早朝も入浴ができる旅館がいいです。	要求	0	0	0	364	10542	9	9	早朝も入浴ができる	風呂	FUEN:風呂環境	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+10542	205	18	user	露天風呂があって、早朝も入浴ができる旅館がいいです。	要求	0	0	0	365	10542	18	2	旅館	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+10543	205	19	agent	早朝に入浴も可能な旅館ですね。		0	0	0																									
+10544	205	20	agent	ご条件に加えておきます。		0	0	0																									
+10545	205	21	agent	また、宿の中でお過ごしならお食事は朝夕お付けするかたちでよろしいでしょうか？		0	0	0																									
+10546	205	22	user	朝夕付きでお願いいたします。	はい	0	0	0																									
+10547	205	23	user	父が蟹アレルギーなので、蟹を出さない旅館がいいです。	要求	0	0	0	366	10547	2	1	蟹	食事	SYNA:食事内容	2_neutral	3_strong	2_neutral	2_neutral		3_strong						1						
+10547	205	23	user	父が蟹アレルギーなので、蟹を出さない旅館がいいです。	要求	0	0	0	367	10547	18	2	旅館	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+10548	205	24	agent	さようでございますか。		0	0	0																									
+10549	205	25	agent	かしこまりました。		0	0	0																									
+10550	205	26	agent	その条件でお探しします。		0	0	0																									
+10551	205	27	agent	またお寛ぎになられるのでしたら、露天風呂があるお部屋も条件に加えて、お探ししましょうか？		0	0	0																									
+10552	205	28	user	たしかに、くつろぎたいので露天風呂付きのお部屋がいいです。	はい	0	0	0																									
+10553	205	29	agent	かしこまりました。		0	0	0																									
+10554	205	30	agent	条件に加えておきます。		0	0	0																									
+10555	205	31	agent	宿までお越しの際はお車でしょうか？		0	0	0																									
+10556	205	32	user	いえ、電車でいきます。	要求	0	0	0	368	10556	3	2	電車	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	3_strong						0						
+10557	205	33	user	なので、駅から近いか、駅からシャトルバスが出ている宿を希望します。	要求	0	0	0	370	10557	4	5	駅から近い	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	1_weak	1_weak	1_weak						0						
+10557	205	33	user	なので、駅から近いか、駅からシャトルバスが出ている宿を希望します。	要求	0	0	0	371	10557	11	14	駅からシャトルバスが出ている	サービス	SESE:ホテルサービス	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	1_weak						0						
+10558	205	34	agent	かしこまりました。		0	0	0																									
+10559	205	35	agent	お伝えいただいた二つの条件も加えておきます。		0	0	0																									
+10560	205	36	agent	他にご要望はございますか？		0	0	0																									
+10561	205	37	user	早期予約特典がある宿がいいです。	要求	0	0	0	372	10561	0	6	早期予約特典	サービス	SESE:ホテルサービス	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+10562	205	38	agent	かしこまりました。		0	0	0																									
+10563	205	39	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+10564	205	40	agent	・行先は福井県		0	0	0																									
+10565	205	41	agent	・人数は大人３人		0	0	0																									
+10566	205	42	agent	・日程は２月４日から４泊		0	0	0																									
+10567	205	43	agent	・予算は１泊１人当たり１５０００円以内		0	0	0																									
+10568	205	44	agent	・宿は旅館		0	0	0																									
+10569	205	45	agent	・露天風呂がある		0	0	0																									
+10570	205	46	agent	・早朝に入浴ができる		0	0	0																									
+10571	205	47	agent	・朝夕食事付き		0	0	0																									
+10572	205	48	agent	・カニアレルギーであるためカニを提供しない		0	0	0																									
+10573	205	49	agent	・自室に露天風呂がある		0	0	0																									
+10574	205	50	agent	・駅から近い		0	0	0																									
+10575	205	51	agent	・駅から宿まで送迎がある		0	0	0																									
+10576	205	52	agent	・早期予約特典がある		0	0	0																									

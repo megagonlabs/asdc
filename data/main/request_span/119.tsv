@@ -1,0 +1,69 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+6599	119	1	agent	この度のご利用、誠にありがとうございます。		0	0	0																									
+6600	119	2	agent	お客様のお宿探しのお手伝いをいたします。		0	0	0																									
+6601	119	3	agent	お客様のご希望をお聞かせいただけますでしょうか？		0	0	0																									
+6602	119	4	user	お世話になります。	その他	0	0	0																									
+6603	119	5	user	大人４人で１０月中旬に２泊、鳥取で海と砂丘を楽しみたいと思っています。	要求	0	0	0	3296	6603	0	4	大人４人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+6603	119	5	user	大人４人で１０月中旬に２泊、鳥取で海と砂丘を楽しみたいと思っています。	要求	0	0	0	3297	6603	5	5	１０月中旬	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	3_strong						0						
+6603	119	5	user	大人４人で１０月中旬に２泊、鳥取で海と砂丘を楽しみたいと思っています。	要求	0	0	0	3298	6603	11	2	２泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+6603	119	5	user	大人４人で１０月中旬に２泊、鳥取で海と砂丘を楽しみたいと思っています。	要求	0	0	0	3299	6603	14	2	鳥取	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+6603	119	5	user	大人４人で１０月中旬に２泊、鳥取で海と砂丘を楽しみたいと思っています。	要求	0	0	0	3300	6603	17	10	海と砂丘を楽しみたい	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	3_strong						0						
+6604	119	6	user	少々値段が高くてもいいので、きれいなホテルを探しています。	要求	0	0	0	3301	6604	0	11	少々値段が高くてもいい	予算	YOKA:予算感	1_weak	2_neutral	1_weak		2_neutral							0						
+6604	119	6	user	少々値段が高くてもいいので、きれいなホテルを探しています。	要求	0	0	0	3302	6604	14	3	きれい	宿	YAEN:宿環境	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+6604	119	6	user	少々値段が高くてもいいので、きれいなホテルを探しています。	要求	0	0	0	3303	6604	18	3	ホテル	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+6605	119	7	agent	ありがとうございます。		0	0	0																									
+6606	119	8	agent	それでは、砂丘と海をご覧になるとのことですので、鳥取市内のお宿をお探ししてもよろしいでしょうか？		0	0	0																									
+6607	119	9	user	よろしくお願いします。	はい	0	0	0																									
+6608	119	10	user	女子４人旅、全員温泉が好きなので温泉街か温泉付きの宿をお願いします！	要求	0	0	0	3305	6608	0	5	女子４人旅	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+6608	119	10	user	女子４人旅、全員温泉が好きなので温泉街か温泉付きの宿をお願いします！	要求	0	0	0	3306	6608	2	2	４人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	1_weak	3_strong	3_strong						0						
+6608	119	10	user	女子４人旅、全員温泉が好きなので温泉街か温泉付きの宿をお願いします！	要求	0	0	0	3307	6608	8	2	温泉	風呂	FUTY:風呂種類	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+6608	119	10	user	女子４人旅、全員温泉が好きなので温泉街か温泉付きの宿をお願いします！	要求	0	0	0	3308	6608	16	3	温泉街	立地	RIAC:立地 (アクティビティ)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+6608	119	10	user	女子４人旅、全員温泉が好きなので温泉街か温泉付きの宿をお願いします！	要求	0	0	0	3310	6608	20	6	温泉付きの宿	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+6609	119	11	agent	かしこまりました。		0	0	0																									
+6610	119	12	agent	それでは、海沿いの温泉付きのお宿で、日本海に沈む夕陽を見ながら温泉をお楽しみになるのはいかがでしょうか？		0	0	0																									
+6611	119	13	user	それはとても素敵です！！！	はい	0	0	0																									
+6612	119	14	user	電車で行こうと思っているのですが、駅送迎があると嬉しいです！	要求	0	0	0	3311	6612	17	3	駅送迎	サービス	SESE:ホテルサービス	1_weak	2_neutral	1_weak		2_neutral	2_neutral						0						
+6612	119	14	user	電車で行こうと思っているのですが、駅送迎があると嬉しいです！	要求	0	0	0	3312	6612	0	2	電車	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	3_strong						0						
+6613	119	15	agent	ありがとうございます。		0	0	0																									
+6614	119	16	agent	それでは、鳥取駅からの送迎サービスのあるお宿をお探しします。		0	0	0																									
+6615	119	17	agent	お部屋は何部屋ご利用になりますか？		0	0	0																									
+6616	119	18	user	１部屋に４名でお願いします！	要求	0	0	0	3313	6616	0	3	１部屋	部屋	HENU:部屋数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	2_neutral						0						
+6616	119	18	user	１部屋に４名でお願いします！	要求	0	0	0	3314	6616	4	2	４名	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	2_neutral	3_strong	3_strong						0						
+6617	119	19	user	あ、ひとり旅行中に誕生日の子がいるので、お祝いが何かつけられるプランがあると嬉しいです！	要求	0	0	0	3315	6617	9	3	誕生日	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+6617	119	19	user	あ、ひとり旅行中に誕生日の子がいるので、お祝いが何かつけられるプランがあると嬉しいです！	要求	0	0	0	3316	6617	20	11	お祝いが何かつけられる	サービス	SESE:ホテルサービス	1_weak	2_neutral	1_weak		2_neutral	2_neutral						0						
+6618	119	20	agent	かしこまりました。		0	0	0																									
+6619	119	21	agent	では、４名１室のお部屋をお探しします。		0	0	0																									
+6620	119	22	agent	お誕生日の方がいらっしゃるとのこと、承知しました。		0	0	0																									
+6621	119	23	agent	では、サプライズのバースデーケーキをご用意できるお宿はいかがでしょうか？		0	0	0																									
+6622	119	24	user	ぜひぜひお願いします！	はい	0	0	0																									
+6623	119	25	agent	ありがとうございます。		0	0	0																									
+6624	119	26	agent	承ります。		0	0	0																									
+6625	119	27	agent	皆さま女性とのことですので、お食事で女性向けのコースをお召し上がりになるのもよいのではないかと思います。		0	0	0																									
+6626	119	28	agent	いかがでしょうか？		0	0	0																									
+6627	119	29	user	そうですね、２泊ともコースをお願いするとメニューは同じになりますか？	確認	0	0	0																									
+6628	119	30	user	もし違うメニューをご用意いただけるなら、ディナーコースをつけてください。	要求	0	0	0	3317	6628	20	7	ディナーコース	食事	SYNA:食事内容	2_neutral	2_neutral	1_weak	1_weak	2_neutral	2_neutral	389	6628	2	17	違うメニューをご用意いただけるなら	0						
+6629	119	31	user	同じメニューのようであれば、２泊目のみご用意おねがいします。	要求	0	0	0	3321	6628	20	7	ディナーコース	食事	SYNA:食事内容	2_neutral	2_neutral	1_weak	1_weak	2_neutral	2_neutral	394	6629	14	5	２泊目のみ	0	＃					
+6629	119	31	user	同じメニューのようであれば、２泊目のみご用意おねがいします。	要求	0	0	0	3321	6628	20	7	ディナーコース	食事	SYNA:食事内容	2_neutral	2_neutral	1_weak	1_weak	2_neutral	2_neutral	395	6629	0	13	同じメニューのようであれば	0	＃					
+6630	119	32	agent	かしこまりました。		0	0	0																									
+6631	119	33	agent	同じ内容になる可能性がございますので、２泊目分の夕食のみ女性向けのコースをご用意できるようにいたします。		0	0	0																									
+6632	119	34	agent	最後に、お早目のチェックインのご希望はございますか？		0	0	0																									
+6633	119	35	agent	観光の前にお手荷物をお部屋に置いてお出かけになりますと、ご負担も少ないかと思います。		0	0	0																									
+6634	119	36	agent	いかがでしょうか？		0	0	0																									
+6635	119	37	user	早めかどうか微妙ですが、１４時ぐらいにチェックインを希望します。	要求	0	0	0	3322	6635	12	13	１４時ぐらいにチェックイン	サービス	SEIN:チェックイン条件	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	1_weak						0						
+6636	119	38	user	よろしくお願いします！	その他	0	0	0																									
+6637	119	39	agent	かしこまりました。		0	0	0																									
+6638	119	40	agent	では、１４時にチェックインできるお宿をお調べします。		0	0	0																									
+6639	119	41	agent	ご希望をお聞かせくださり、ありがとうございました。		0	0	0																									
+6640	119	42	agent	それでは以下の条件でお調べしますので、よろしくお願いいたします。		0	0	0																									
+6641	119	43	agent	・日付は１０月中旬。		0	0	0																									
+6642	119	44	agent	・宿泊日数は２泊。		0	0	0																									
+6643	119	45	agent	・宿泊地は鳥取県の鳥取市内。		0	0	0																									
+6644	119	46	agent	・人数は大人４名。		0	0	0																									
+6645	119	47	agent	・部屋タイプ／数は４名１室。		0	0	0																									
+6646	119	48	agent	・きれいな宿を希望。		0	0	0																									
+6647	119	49	agent	・海沿いの宿を希望。		0	0	0																									
+6648	119	50	agent	・温泉付きの宿を希望。		0	0	0																									
+6649	119	51	agent	・鳥取駅からの送迎サービスのある宿を希望。		0	0	0																									
+6650	119	52	agent	・食事は２泊目分の夕食のみ女性向けのコースを希望。		0	0	0																									
+6651	119	53	agent	・サプライズのバースデーケーキを用意できる宿を希望。		0	0	0																									
+6652	119	54	agent	・１４時にチェックインできる宿を希望。		0	0	0																									

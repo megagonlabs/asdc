@@ -1,0 +1,47 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+8326	155	1	agent	この度のご利用、誠にありがとうございます。		0	0	0																									
+8327	155	2	agent	お客様のお宿探しのお手伝いをいたします。		0	0	0																									
+8328	155	3	agent	お客様のご希望をお聞かせいただけますでしょうか？		0	0	0																									
+8329	155	4	user	夫婦二人で、７月上旬に博多祇園山笠を見に行きたいと思っています。	要求	0	0	0	2328	8329	0	2	夫婦	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8329	155	4	user	夫婦二人で、７月上旬に博多祇園山笠を見に行きたいと思っています。	要求	0	0	0	2329	8329	2	2	二人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8329	155	4	user	夫婦二人で、７月上旬に博多祇園山笠を見に行きたいと思っています。	要求	0	0	0	2330	8329	6	4	７月上旬	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	3_strong						0						
+8329	155	4	user	夫婦二人で、７月上旬に博多祇園山笠を見に行きたいと思っています。	要求	0	0	0	2331	8329	11	6	博多祇園山笠	立地	RIAC:立地 (アクティビティ)	2_neutral	2_neutral	2_neutral	3_strong	3_strong	2_neutral						0						
+8330	155	5	user	日中は観光もしたいので便利なところが良いです。	要求	0	0	0	2332	8330	3	2	観光	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8330	155	5	user	日中は観光もしたいので便利なところが良いです。	要求	0	0	0	2333	8330	11	6	便利なところ	立地	RIAC:立地 (アクティビティ)	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	1_weak	279	8330	3	2	観光	0						
+8331	155	6	agent	かしこまりました。		0	0	0																									
+8332	155	7	agent	そうしましたら、福岡市内のホテルでお探ししてよろしいでしょうか？		0	0	0																									
+8333	155	8	user	はい、お願いします。	はい	0	0	0																									
+8334	155	9	user	相場は分からないですが、ビジネスホテルのようなリーズナブルな価格の寝るだけのお部屋で十分です。	要求	0	0	0	2334	8334	12	7	ビジネスホテル	宿	YATY:宿タイプ	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+8334	155	9	user	相場は分からないですが、ビジネスホテルのようなリーズナブルな価格の寝るだけのお部屋で十分です。	要求	0	0	0	2336	8334	23	9	リーズナブルな価格	予算	YOKA:予算感	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+8335	155	10	user	ベッドはシングル２つでお願いします。	要求	0	0	0	2337	8335	4	6	シングル２つ	部屋	HETY:部屋タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+8336	155	11	agent	かしこまりました。		0	0	0																									
+8337	155	12	agent	そうしましたら、福岡駅につながっているビジネスホテルはいかがでしょうか？		0	0	0																									
+8338	155	13	user	便利そうで、とても良いと思います。	はい	0	0	0																									
+8339	155	14	agent	ありがとうございます。		0	0	0																									
+8340	155	15	agent	そうしましたら、ご予約の泊数を教えていただけますでしょうか？		0	0	0																									
+8341	155	16	user	７月の上旬に４泊で予定しています。	要求	0	0	0	2338	8341	0	5	７月の上旬	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	3_strong						0						
+8341	155	16	user	７月の上旬に４泊で予定しています。	要求	0	0	0	2339	8341	6	2	４泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8342	155	17	agent	４泊ですね。		0	0	0																									
+8343	155	18	agent	かしこまりました。		0	0	0																									
+8344	155	19	agent	お日にちが７月上旬と先なので早割が適用されるビジネスホテルでお探してよろしいでしょうか？		0	0	0																									
+8345	155	20	user	はい、お願いします。	はい	0	0	0																									
+8346	155	21	agent	かしこまりました。		0	0	0																									
+8347	155	22	agent	お食事の方は朝のみでもおつけできますが、いかがなさいましょうか？		0	0	0																									
+8348	155	23	user	はい、朝食を付けてください。	はい	0	0	0																									
+8349	155	24	agent	かしこまりました。		0	0	0																									
+8350	155	25	agent	お越しの際はお車でしょうか？		0	0	0																									
+8351	155	26	user	飛行機で行きます。	要求	0	0	0	2340	8351	0	3	飛行機	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	3_strong						0						
+8352	155	27	agent	飛行機ですね。		0	0	0																									
+8353	155	28	agent	かしこまりました。		0	0	0																									
+8354	155	29	agent	他にご要望はございますか？		0	0	0																									
+8355	155	30	user	他には特にありません。	いいえ	0	0	0																									
+8356	155	31	agent	かしこまりました。		0	0	0																									
+8357	155	32	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+8358	155	33	agent	・行先は福岡駅福岡市		0	0	0																									
+8359	155	34	agent	・人数は大人２人		0	0	0																									
+8360	155	35	agent	・宿はビジネスホテル		0	0	0																									
+8361	155	36	agent	・ベッドはシングル２つ		0	0	0																									
+8362	155	37	agent	・福岡駅直通のビジネスホテル		0	0	0																									
+8363	155	38	agent	・日程は７月上旬に４泊		0	0	0																									
+8364	155	39	agent	・早割が適用される		0	0	0																									
+8365	155	40	agent	・食事は朝のみ		0	0	0																									

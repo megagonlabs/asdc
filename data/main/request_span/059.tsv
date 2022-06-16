@@ -1,0 +1,65 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+3138	59	1	agent	宿予約サービスのご利用ありがとうございます。		0	0	0																									
+3139	59	2	agent	宿について重視したい点をお聞かせください。		0	0	0																									
+3140	59	3	user	来年の２月２５日から４泊で、鹿児島へ旅行に行きたいと思っています。	要求	0	0	0	1820	3140	0	10	来年の２月２５日から	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+3140	59	3	user	来年の２月２５日から４泊で、鹿児島へ旅行に行きたいと思っています。	要求	0	0	0	1821	3140	10	2	４泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+3140	59	3	user	来年の２月２５日から４泊で、鹿児島へ旅行に行きたいと思っています。	要求	0	0	0	1822	3140	14	3	鹿児島	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+3141	59	4	user	７０代の夫婦２組（男２．女２）で、指宿（いぶすき）の温泉に入りたいです。	要求	0	0	0	1823	3141	0	8	７０代の夫婦２組	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+3141	59	4	user	７０代の夫婦２組（男２．女２）で、指宿（いぶすき）の温泉に入りたいです。	要求	0	0	0	1824	3141	10	1	２	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong	224	3141	9	1	男	0						
+3141	59	4	user	７０代の夫婦２組（男２．女２）で、指宿（いぶすき）の温泉に入りたいです。	要求	0	0	0	1825	3141	13	1	２	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong	225	3141	12	1	女	0						
+3141	59	4	user	７０代の夫婦２組（男２．女２）で、指宿（いぶすき）の温泉に入りたいです。	要求	0	0	0	1826	3141	17	11	指宿（いぶすき）の温泉	立地	RIAC:立地 (アクティビティ)	2_neutral	3_strong	2_neutral	3_strong		2_neutral						0						
+3142	59	5	agent	かしこまりました。		0	0	0																									
+3143	59	6	agent	指宿温泉に行かれるとのことですが、お宿に温泉が併設されたところがよろしいでしょうか？		0	0	0																									
+3144	59	7	agent	それとも町の中の温泉をお楽しみになるご予定でしょうか？		0	0	0																									
+3145	59	8	user	宿に温泉が備わってる所がいいです。	照応要求	0	0	0	1827	3145	2	2	温泉	風呂	FUTY:風呂種類	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+3145	59	8	user	宿に温泉が備わってる所がいいです。	照応要求	0	0	0	2149	3143	17	8	お宿に温泉が併設	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0		140	3145	0	10	宿に温泉が備わってる
+3146	59	9	user	旅館でもホテルでもどちらでも良いです。	要求	0	0	0	1828	3146	0	2	旅館	宿	YATY:宿タイプ	1_weak	1_weak	1_weak									0						
+3146	59	9	user	旅館でもホテルでもどちらでも良いです。	要求	0	0	0	1829	3146	4	3	ホテル	宿	YATY:宿タイプ	1_weak	1_weak	1_weak									0						
+3147	59	10	agent	かしこまりました。		0	0	0																									
+3148	59	11	agent	では、温泉付きのお宿をお調べします。		0	0	0																									
+3149	59	12	agent	温泉が客室についているお宿もございますが、いかがでしょうか？		0	0	0																									
+3150	59	13	user	大浴場が良いので、客室に温泉が付いていなくても構いません。	要求	0	0	0	1830	3150	0	3	大浴場	風呂	FUTY:風呂種類	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+3150	59	13	user	大浴場が良いので、客室に温泉が付いていなくても構いません。	要求	0	0	0	1831	3150	9	5	客室に温泉	部屋	HESE:部屋設備	1_weak	1_weak	2_neutral			2_neutral						1						
+3151	59	14	user	高所恐怖症の人がいるので２階以下の部屋を希望します。	要求	0	0	0	1832	3151	12	4	２階以下	部屋	HEEN:部屋環境	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+3152	59	15	agent	かしこまりました。		0	0	0																									
+3153	59	16	agent	それでは温泉の客室有無は特にご希望なしで承ります。		0	0	0																									
+3154	59	17	agent	また、２階以下のお部屋ご希望とのことで承ります。		0	0	0																									
+3155	59	18	agent	お部屋は何部屋お使いになりますか？		0	0	0																									
+3156	59	19	user	夫婦で１部屋がいいので、２部屋希望です。	要求	0	0	0	1833	3156	12	3	２部屋	部屋	HENU:部屋数	2_neutral	2_neutral	2_neutral	2_neutral	3_strong	2_neutral						0						
+3157	59	20	user	また足腰が強くないので、出来れば階段や段差が少ない宿がいいです。	要求	0	0	0	1834	3157	16	9	階段や段差が少ない	宿	YAEN:宿環境	1_weak	1_weak	1_weak									0						
+3158	59	21	agent	かしこまりました。		0	0	0																									
+3159	59	22	agent	それでは、バリアフリー対応のお宿でよろしいでしょうか？		0	0	0																									
+3160	59	23	user	バリアフリーだと助かります。	はい	0	0	0																									
+3161	59	24	user	お願いいたします。	その他	0	0	0																									
+3162	59	25	agent	承知しました。		0	0	0																									
+3163	59	26	agent	お食事はいかがなさいますか？		0	0	0																									
+3164	59	27	agent	やわらかいものを中心としたご高齢の方向けのお食事をご希望でしたらお申し付けください。		0	0	0																									
+3165	59	28	user	食事は朝・夜全て宿で食べます。	要求	0	0	0	1835	3165	3	5	朝・夜全て	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+3166	59	29	user	高齢向けの食事はうれしいです。	照応要求	0	0	0	1836	3164	13	11	ご高齢の方向けのお食事	食事	SYNA:食事内容	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0		139	3166	0	7	高齢向けの食事
+3167	59	30	user	お願いします。	その他	0	0	0																									
+3168	59	31	agent	かしこまりました。		0	0	0																									
+3169	59	32	agent	それでは、朝・夕２食付きで、ご高齢の方用のお食事をご希望とのことで承ります。		0	0	0																									
+3170	59	33	agent	こちらのご旅行はお車でしょうか？		0	0	0																									
+3171	59	34	agent	公共交通機関をご利用でしたら、送迎サービスのあるお宿がよろしいでしょうか？		0	0	0																									
+3172	59	35	user	みんな免許を返納したので、送迎サービス付きが希望です。	照応要求	0	0	0	1837	3171	15	6	送迎サービス	サービス	SESE:ホテルサービス	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0		138	3172	13	8	送迎サービス付き
+3173	59	36	user	また、マッサージを頼める宿だと更にうれしいです。	要求	0	0	0	1838	3173	3	5	マッサージ	施設	SHPO:施設条件 (プールスパ)	1_weak	1_weak	1_weak									0						
+3174	59	37	agent	かしこまりました。		0	0	0																									
+3175	59	38	agent	送迎サービスのあるお宿をお調べします。		0	0	0																									
+3176	59	39	agent	また、マッサージサービスのあるお宿をお探しします。		0	0	0																									
+3177	59	40	agent	ほかにご希望はございますでしょうか？		0	0	0																									
+3178	59	41	user	特にありません。	いいえ	0	0	0																									
+3179	59	42	user	宜しくお願いします。	その他	0	0	0																									
+3180	59	43	agent	かしこまりました。		0	0	0																									
+3181	59	44	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+3182	59	45	agent	・日付は２月２５日。		0	0	0																									
+3183	59	46	agent	・宿泊日数は４泊。		0	0	0																									
+3184	59	47	agent	・宿泊地は鹿児島の指宿。		0	0	0																									
+3185	59	48	agent	・人数は大人４名。		0	0	0																									
+3186	59	49	agent	・宿タイプはホテル・旅館どちらでもよい。		0	0	0																									
+3187	59	50	agent	・館内に温泉のある宿を希望。		0	0	0																									
+3188	59	51	agent	・部屋数は２部屋。		0	0	0																									
+3189	59	52	agent	・２階以下の部屋を希望。		0	0	0																									
+3190	59	53	agent	・バリアフリー対応の宿を希望。		0	0	0																									
+3191	59	54	agent	・食事は朝・夕２食付きで、高齢の方用の食事を希望。		0	0	0																									
+3192	59	55	agent	・送迎サービスのある宿を希望。		0	0	0																									
+3193	59	56	agent	・マッサージサービスのある宿を希望。		0	0	0																									

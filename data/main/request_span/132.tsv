@@ -1,0 +1,53 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+7328	132	1	user	大人４名で１０月下旬に岩手県で１泊、観光したいと考えています。	要求	0	0	0	3116	7328	0	4	大人４名	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7328	132	1	user	大人４名で１０月下旬に岩手県で１泊、観光したいと考えています。	要求	0	0	0	3117	7328	5	5	１０月下旬	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	3_strong						0						
+7328	132	1	user	大人４名で１０月下旬に岩手県で１泊、観光したいと考えています。	要求	0	0	0	3118	7328	11	3	岩手県	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7328	132	1	user	大人４名で１０月下旬に岩手県で１泊、観光したいと考えています。	要求	0	0	0	3119	7328	15	2	１泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7328	132	1	user	大人４名で１０月下旬に岩手県で１泊、観光したいと考えています。	要求	0	0	0	3120	7328	18	2	観光	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7329	132	2	agent	かしこまりました。		0	0	0																									
+7330	132	3	agent	ご予算の方はどのくらいでお考えでしょうか？		0	0	0																									
+7331	132	4	user	２食付きで８万～１０万くらいでお願いしたいです。	要求	0	0	0	3121	7331	0	2	２食	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+7331	132	4	user	２食付きで８万～１０万くらいでお願いしたいです。	要求	0	0	0	3122	7331	5	9	８万～１０万くらい	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	1_weak	1_weak	1_weak						0						
+7332	132	5	agent	かしこまりました。		0	0	0																									
+7333	132	6	agent	宿のタイプはいかがいたしましょうか？		0	0	0																									
+7334	132	7	user	布団対応してもらえるホテルでお願いしたいです。	要求	0	0	0	3123	7334	0	2	布団	部屋	HETY:部屋タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+7334	132	7	user	布団対応してもらえるホテルでお願いしたいです。	要求	0	0	0	3124	7334	10	3	ホテル	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+7335	132	8	agent	かしこまりました。		0	0	0																									
+7336	132	9	agent	大人４名様でのご予約とのことですが、お部屋はいくつでお考えでしょうか？		0	0	0																									
+7337	132	10	user	１部屋でお願いします。	要求	0	0	0	3125	7337	0	3	１部屋	部屋	HENU:部屋数	2_neutral	2_neutral	2_neutral	2_neutral	3_strong	2_neutral						0						
+7338	132	11	agent	１部屋ですね。		0	0	0																									
+7339	132	12	agent	かしこまりました。		0	0	0																									
+7340	132	13	agent	移動の方は車ででしょうか？		0	0	0																									
+7341	132	14	user	交通機関を利用する予定です。	要求	0	0	0	3126	7341	0	4	交通機関	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	3_strong						0						
+7342	132	15	user	交通の便が良いと助かります。	要求	0	0	0	3127	7342	0	7	交通の便が良い	立地	RIBA:立地 (場所)	1_weak	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+7343	132	16	agent	かしこまりました。		0	0	0																									
+7344	132	17	agent	そうなりますと、市街地に近いホテルでお探しします。		0	0	0																									
+7345	132	18	user	あわせて、温泉に近いと嬉しいです。	要求	0	0	0	3128	7345	5	5	温泉に近い	立地	RIAC:立地 (アクティビティ)	1_weak	2_neutral	1_weak		2_neutral	2_neutral						0						
+7346	132	19	agent	温泉の近くですね。		0	0	0																									
+7347	132	20	agent	かしこまりました。		0	0	0																									
+7348	132	21	agent	お食事はホテルでのご希望とのことですが、地元の海産物を提供しているホテルがございますがいかがでしょうか？		0	0	0																									
+7349	132	22	user	ぜひお願いします。	はい	0	0	0																									
+7350	132	23	user	大人のみなので、船盛など海鮮が色々楽しめる食事をと考えていました。	要求	0	0	0	3129	7350	0	2	大人	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	2_neutral	3_strong	3_strong						0						
+7350	132	23	user	大人のみなので、船盛など海鮮が色々楽しめる食事をと考えていました。	要求	0	0	0	3130	7350	8	13	船盛など海鮮が色々楽しめる	食事	SYNA:食事内容	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+7351	132	24	agent	かしこまりました。		0	0	0																									
+7352	132	25	agent	また、地酒飲み放題コースのあるホテルでもお探ししましょうか？		0	0	0																									
+7353	132	26	user	地酒、いいですね！	はい	0	0	0																									
+7354	132	27	user	ぜひ、お願いします。	その他	0	0	0																									
+7355	132	28	agent	ありがとうございます。		0	0	0																									
+7356	132	29	agent	かしこまりました。		0	0	0																									
+7357	132	30	agent	他にご希望はございますか？		0	0	0																									
+7358	132	31	user	大丈夫です。	いいえ	0	0	0																									
+7359	132	32	user	よろしくお願いします。	その他	0	0	0																									
+7360	132	33	agent	かしこまりました。		0	0	0																									
+7361	132	34	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+7362	132	35	agent	・行先は岩手県		0	0	0																									
+7363	132	36	agent	・人数は大人４名		0	0	0																									
+7364	132	37	agent	・１０月下旬に１泊		0	0	0																									
+7365	132	38	agent	・食事は朝食・夕食付		0	0	0																									
+7366	132	39	agent	・ご予算は８～１０万		0	0	0																									
+7367	132	40	agent	・布団対応している		0	0	0																									
+7368	132	41	agent	・お部屋は１部屋		0	0	0																									
+7369	132	42	agent	・市街地に近いホテル		0	0	0																									
+7370	132	43	agent	・温泉地に近いホテル		0	0	0																									
+7371	132	44	agent	・お食事メニューは地元の海鮮		0	0	0																									
+7372	132	45	agent	・地酒飲み放題コース付きのお食事メニューがあるホテル		0	0	0																									

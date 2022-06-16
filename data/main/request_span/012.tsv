@@ -1,0 +1,59 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+579	12	1	agent	この度のご利用、誠にありがとうございます。		0	0	0																									
+580	12	2	agent	お客様のお宿探しのお手伝いをいたします。		0	0	0																									
+581	12	3	agent	ご旅行される地域やお日付、人数などはお決まりでしょうか。		0	0	0																									
+582	12	4	user	両親と私たち姉妹の４名で、熊本県に行こうと思っています。	要求	0	0	0	295	582	0	8	両親と私たち姉妹	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+582	12	4	user	両親と私たち姉妹の４名で、熊本県に行こうと思っています。	要求	0	0	0	296	582	9	2	４名	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+582	12	4	user	両親と私たち姉妹の４名で、熊本県に行こうと思っています。	要求	0	0	0	297	582	13	3	熊本県	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+583	12	5	user	予定は１１月２日で１泊です。	要求	0	0	0	298	583	3	5	１１月２日	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+583	12	5	user	予定は１１月２日で１泊です。	要求	0	0	0	299	583	9	2	１泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+584	12	6	agent	かしこまりました。		0	0	0																									
+585	12	7	agent	こちらは観光でのご利用でよろしいでしょうか？		0	0	0																									
+586	12	8	user	そうです。	はい	0	0	0																									
+587	12	9	user	全員のスケジュールが合わなくて１泊旅行になってしまいました。	伝達	0	0	0																									
+588	12	10	user	ですからあまり観光を楽しめないのではと心配しているんです。	伝達	0	0	0																									
+589	12	11	agent	さようでございますか。		0	0	0																									
+590	12	12	agent	でしたら、１１月のご旅行ですので、山沿いで紅葉狩りをお楽しみいただける温泉旅館はいかがでしょうか？		0	0	0																									
+591	12	13	agent	お風呂に浸かりながら、紅葉をお楽しみいただくとよろしいかと思います。		0	0	0																									
+592	12	14	user	私たちは自然を楽しむのが好きなので、きっと皆気に入ると思います。	感想	0	0	0	333	592	4	6	自然を楽しむ	旅行	RYSC:旅行シーン	2_neutral	2_neutral	1_weak	2_neutral	2_neutral	3_strong						0						
+593	12	15	user	熊本県は温泉も有名でしたっけ？	確認	0	0	0																									
+594	12	16	agent	はい、隣県の大分県ほどではございませんが、山鹿温泉など有名な場所がいくつかございます。		0	0	0																									
+595	12	17	agent	それでは、お部屋の数は１つにしましょうか。		0	0	0																									
+596	12	18	agent	それとも２つがよろしいですか？		0	0	0																									
+597	12	19	user	１つで大丈夫です。	照応要求	0	0	0	301	595	11	2	１つ	部屋	HENU:部屋数	2_neutral	2_neutral	2_neutral	2_neutral	3_strong	2_neutral						0		89	597	0	2	１つ
+598	12	20	user	できれば最近できた、新しめの旅館がいいのですが。	要求	0	0	0	302	598	4	9	最近できた、新しめ	宿	YAEN:宿環境	1_weak	1_weak	1_weak	1_weak								0						
+598	12	20	user	できれば最近できた、新しめの旅館がいいのですが。	要求	0	0	0	303	598	14	2	旅館	宿	YATY:宿タイプ	2_neutral	2_neutral	1_weak	2_neutral	2_neutral							0						
+599	12	21	agent	かしこまりました。		0	0	0																									
+600	12	22	agent	新しめの旅館で１部屋ご用意いたします。		0	0	0																									
+601	12	23	agent	お食事はいかがなさいますか？		0	0	0																									
+602	12	24	agent	熊本ですと馬刺しなど、お酒に合うご当地の料理がたくさんございます。		0	0	0																									
+603	12	25	agent	郷土料理をお召し上がりになるのはいかがでしょうか？		0	0	0																									
+604	12	26	user	ぜひお願いします。	はい	0	0	0																									
+605	12	27	user	やはり旅先では地元のものを食べたいですね。	要求	0	0	0	304	605	7	5	地元のもの	食事	SYNA:食事内容	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+606	12	28	user	父は焼酎を楽しみにしているようですので、飲み比べセットみたいなものがあれば嬉しいです。	要求	0	0	0	305	606	2	2	焼酎	食事	SYNA:食事内容	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+606	12	28	user	父は焼酎を楽しみにしているようですので、飲み比べセットみたいなものがあれば嬉しいです。	要求	0	0	0	306	606	20	7	飲み比べセット	食事	SYNA:食事内容	1_weak	1_weak	1_weak			2_neutral						0						
+607	12	29	agent	さようでございますか。		0	0	0																									
+608	12	30	agent	それでは、焼酎の飲み比べができるお食事プランをお調べいたします。		0	0	0																									
+609	12	31	agent	最近はコロナのご心配もあるかと存じますが、お食事はお部屋でお召し上がりになりますか？		0	0	0																									
+610	12	32	agent	それとも食事会場でもよろしいでしょうか？		0	0	0																									
+611	12	33	user	どちらでも構いませんが、もし食事会場でしたら、個室みたいになっているといいですね。	要求	0	0	0	307	611	23	11	個室みたいになっている	食事	SYUM:食事有無	1_weak	1_weak	1_weak			2_neutral	39	611	14	4	食事会場	0						
+612	12	34	agent	かしこまりました。		0	0	0																									
+613	12	35	agent	それでは、部屋出しか個室のいずれかで手配いたします。		0	0	0																									
+614	12	36	agent	他にご希望はございますでしょうか？		0	0	0																									
+615	12	37	user	実は両親の結婚記念日を祝いたいので、サプライズプランのあるお宿を探してください。	要求	0	0	0	308	615	2	13	両親の結婚記念日を祝いたい	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+615	12	37	user	実は両親の結婚記念日を祝いたいので、サプライズプランのあるお宿を探してください。	要求	0	0	0	309	615	18	8	サプライズプラン	サービス	SESE:ホテルサービス	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+616	12	38	agent	かしこまりました。		0	0	0																									
+617	12	39	agent	それでは、サプライズの演出ができるお宿をお調べいたします。		0	0	0																									
+618	12	40	agent	最後になりますが、お部屋の禁煙・喫煙のご希望はございますでしょうか？		0	0	0																									
+619	12	41	user	禁煙でお願いします。	照応要求	0	0	0	310	618	13	2	禁煙	部屋	HEJO:部屋条件	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0		90	619	0	2	禁煙
+620	12	42	agent	ご希望をお聞かせくださり、ありがとうございました。		0	0	0																									
+621	12	43	agent	それでは以下の条件でお調べしますので、よろしくお願いいたします。		0	0	0																									
+622	12	44	agent	・日付は１１月２日。		0	0	0																									
+623	12	45	agent	・宿泊日数は１泊。		0	0	0																									
+624	12	46	agent	・宿泊地は熊本県		0	0	0																									
+625	12	47	agent	・人数は大人４名。		0	0	0																									
+626	12	48	agent	・部屋数は１室。		0	0	0																									
+627	12	49	agent	・宿タイプは新しい温泉旅館を希望。		0	0	0																									
+628	12	50	agent	・食事は郷土料理と焼酎の飲み比べを部屋出しか個室で希望。		0	0	0																									
+629	12	51	agent	・結婚記念日のサプライズ演出ができる宿を希望。		0	0	0																									
+630	12	52	agent	・禁煙の部屋を希望。		0	0	0																									

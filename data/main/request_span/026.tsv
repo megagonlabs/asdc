@@ -1,0 +1,52 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+1325	26	1	agent	いらっしゃいませ。		0	0	0																									
+1326	26	2	agent	ご利用いただきまして、ありがとうございます。		0	0	0																									
+1327	26	3	agent	ご宿泊先につきまして、お客様のご希望をお聞かせいただけますでしょうか。		0	0	0																									
+1328	26	4	user	来月子供と一泊できる安い宿を探しています。	要求	0	0	0	842	1328	0	2	来月	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	2_neutral	3_strong	3_strong						0						
+1328	26	4	user	来月子供と一泊できる安い宿を探しています。	要求	0	0	0	843	1328	2	2	子供	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+1328	26	4	user	来月子供と一泊できる安い宿を探しています。	要求	0	0	0	844	1328	5	2	一泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+1328	26	4	user	来月子供と一泊できる安い宿を探しています。	要求	0	0	0	845	1328	10	2	安い	予算	YOKA:予算感	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+1329	26	5	agent	かしこまりました。		0	0	0																									
+1330	26	6	agent	来月のお日付と宿泊日数はお決まりでしょうか？		0	0	0																									
+1331	26	7	user	三泊で、お願いします。	要求	0	0	0	846	1331	0	2	三泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+1332	26	8	user	２５日から	要求	0	0	0	847	1332	0	5	２５日から	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+1333	26	9	agent	かしこまりました。		0	0	0																									
+1334	26	10	agent	それでは５月２５日から３泊、大人１名様、子ども１名様でお調べいたします。		0	0	0																									
+1335	26	11	agent	ご宿泊地はどちらになりますでしょうか？		0	0	0																									
+1336	26	12	user	佐賀駅から便利なところで考えています。	要求	0	0	0	848	1336	0	11	佐賀駅から便利なところ	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+1337	26	13	agent	かしこまりました。		0	0	0																									
+1338	26	14	agent	それでは、佐賀駅から徒歩圏内のお宿でいかがでしょうか？		0	0	0																									
+10854	26	15	user	できれば、遺跡を見に行きたいのですが。交通も便利な方がいいかなと。	要求	0	0	0	849	10854	5	9	遺跡を見に行きたい	立地	RIAC:立地 (アクティビティ)	1_weak	1_weak	1_weak									0						
+10854	26	15	user	できれば、遺跡を見に行きたいのですが。交通も便利な方がいいかなと。	要求	0	0	0	850	10854	19	5	交通も便利	立地	RIBA:立地 (場所)	1_weak	2_neutral	1_weak		2_neutral							0						
+1341	26	17	agent	かしこまりました。		0	0	0																									
+1342	26	18	agent	それでは佐賀駅周辺で、吉野ケ里遺跡へのバス乗り場が近い場所にいたしましょうか？		0	0	0																									
+1343	26	19	user	それで、お願いします。	はい	0	0	0																									
+1344	26	20	agent	かしこまりました。		0	0	0																									
+1345	26	21	agent	お求めやすいお値段の宿をお探しとのことでしたが、ご予算はいくらくらいでしょうか？		0	0	0																									
+1346	26	22	user	一泊、二人で１万円程度であると助かります。	要求	0	0	0	851	1346	6	5	１万円程度	予算	YOYO:予算	1_weak	2_neutral	1_weak		1_weak	1_weak	97	1346	0	2	一泊	0						
+1346	26	22	user	一泊、二人で１万円程度であると助かります。	要求	0	0	0	851	1346	6	5	１万円程度	予算	YOYO:予算	1_weak	2_neutral	1_weak		1_weak	1_weak	98	1346	3	2	二人	0						
+1347	26	23	user	実家に帰省するので、食事はなくていいので。	要求	0	0	0	852	1347	10	2	食事	食事	SYUM:食事有無	2_neutral	3_strong	2_neutral	2_neutral		2_neutral						1						
+1348	26	24	agent	かしこまりました。		0	0	0																									
+1349	26	25	agent	それでは１泊１万円のご予算で、お食事なしでお調べいたします。		0	0	0																									
+1350	26	26	agent	お子様はベッドをご利用になりますでしょうか？		0	0	0																									
+1351	26	27	user	小学生なので、お願いします。	要求	0	0	0	853	1351	0	3	小学生	子供	KOKO:子供用サービス	2_neutral	2_neutral	2_neutral	3_strong	3_strong	2_neutral						0						
+1352	26	28	agent	かしこまりました。		0	0	0																									
+1353	26	29	agent	それでは、ツインルームでよろしいでしょうか？		0	0	0																									
+1354	26	30	user	はい。	はい	0	0	0																									
+1355	26	31	user	清潔な宿がいいです。	要求	0	0	0	854	1355	0	2	清潔	宿	YAEN:宿環境	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+1356	26	32	agent	承知しました。		0	0	0																									
+1357	26	33	agent	他にご希望はございますでしょうか？		0	0	0																									
+1358	26	34	user	なるべく身軽で帰省したいので、アメニティの充実を希望します。	要求	0	0	0	855	1358	15	8	アメニティの充実	部屋	HEAM:部屋アメニティ	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+1359	26	35	agent	かしこまりました。		0	0	0																									
+1360	26	36	agent	ご希望をお聞かせくださり、ありがとうございました。		0	0	0																									
+1361	26	37	agent	それでは以下の条件でお調べしますので、よろしくお願いいたします。		0	0	0																									
+1362	26	38	agent	・日付は５月２５日。		0	0	0																									
+1363	26	39	agent	・宿泊日数は３泊。		0	0	0																									
+1364	26	40	agent	・宿泊地は佐賀駅周辺の徒歩圏内。		0	0	0																									
+1365	26	41	agent	・人数は大人１名、子ども１名。		0	0	0																									
+1366	26	42	agent	・予算は２人で１泊１万円程度。		0	0	0																									
+1367	26	43	agent	・部屋タイプはツインルーム。		0	0	0																									
+1368	26	44	agent	・吉野ケ里遺跡へのバス乗り場が近い場所を希望。		0	0	0																									
+1369	26	45	agent	・食事は無し。		0	0	0																									
+1370	26	46	agent	・清潔な宿を希望。		0	0	0																									
+1371	26	47	agent	・アメニティが充実した宿を希望。		0	0	0																									

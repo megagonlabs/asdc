@@ -1,0 +1,43 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+7453	135	1	user	私と子供、親戚の子２人の４人で、７月下旬に、長野県で３泊ほどを考えています。	要求	0	0	0	3059	7453	0	9	私と子供、親戚の子	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7453	135	1	user	私と子供、親戚の子２人の４人で、７月下旬に、長野県で３泊ほどを考えています。	要求	0	0	0	3060	7453	5	6	親戚の子２人	人数	NIKO:子供人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7453	135	1	user	私と子供、親戚の子２人の４人で、７月下旬に、長野県で３泊ほどを考えています。	要求	0	0	0	3061	7453	12	2	４人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7453	135	1	user	私と子供、親戚の子２人の４人で、７月下旬に、長野県で３泊ほどを考えています。	要求	0	0	0	3062	7453	16	4	７月下旬	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	3_strong						0						
+7453	135	1	user	私と子供、親戚の子２人の４人で、７月下旬に、長野県で３泊ほどを考えています。	要求	0	0	0	3064	7453	22	3	長野県	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7453	135	1	user	私と子供、親戚の子２人の４人で、７月下旬に、長野県で３泊ほどを考えています。	要求	0	0	0	3065	7453	26	2	３泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7454	135	2	agent	かしこまりました。		0	0	0																									
+7455	135	3	agent	ご予算の方はどのくらいでお考えでしょうか？		0	0	0																									
+7456	135	4	user	子どもたちに、自然を楽しむ体験をさせてあげたいと考えていて、宿そのものは抑えめで考えています。	要求	0	0	0	3067	7456	36	3	抑えめ	予算	YOKA:予算感	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+7456	135	4	user	子どもたちに、自然を楽しむ体験をさせてあげたいと考えていて、宿そのものは抑えめで考えています。	要求	0	0	0	3068	7456	0	23	子どもたちに、自然を楽しむ体験をさせてあげたい	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	3_strong						0						
+7457	135	5	agent	かしこまりました。		0	0	0																									
+7458	135	6	agent	自然を楽しむということでしたら、宿は山間にあるコテージはどうでしょうか？		0	0	0																									
+7459	135	7	user	それだとありがたいですね！	はい	0	0	0																									
+7460	135	8	user	夕食なども、自分たちで作りたいと考えていますので、そういうのに適したところがうれしいです。	要求	0	0	0	3069	7460	0	2	夕食	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						1						
+7460	135	8	user	夕食なども、自分たちで作りたいと考えていますので、そういうのに適したところがうれしいです。	要求	0	0	0	3070	7460	6	9	自分たちで作りたい	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	358	7460	0	2	夕食	0						
+7461	135	9	agent	かしこまりました。		0	0	0																									
+7462	135	10	agent	シーズンが夏なので川遊びができる近くでお探ししますが、よろしいでしょうか？		0	0	0																									
+7463	135	11	user	ありがとうございます。	はい	0	0	0																									
+7464	135	12	user	他に、星を見たりできる場所、あるいは３泊あるので、できるだけいろいろな体験の選択肢がある場所だと、ありがたいです。	要求	0	0	0	3072	7464	18	2	３泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7464	135	12	user	他に、星を見たりできる場所、あるいは３泊あるので、できるだけいろいろな体験の選択肢がある場所だと、ありがたいです。	要求	0	0	0	3073	7464	25	21	できるだけいろいろな体験の選択肢がある場所	立地	RIAC:立地 (アクティビティ)	1_weak	2_neutral	2_neutral		2_neutral	1_weak						0						
+7464	135	12	user	他に、星を見たりできる場所、あるいは３泊あるので、できるだけいろいろな体験の選択肢がある場所だと、ありがたいです。	要求	0	0	0	3075	7464	3	10	星を見たりできる場所	宿	YAEN:宿環境	1_weak	2_neutral	2_neutral		2_neutral	1_weak						0						
+7465	135	13	agent	かしこまりました。		0	0	0																									
+7466	135	14	agent	天体観測ができるコテージも併せてお探ししますね。		0	0	0																									
+7467	135	15	agent	コテージまでの移動は車でよろしいでしょうか？		0	0	0																									
+7468	135	16	user	できれば公共交通機関を乗り継いでいきたいのですが、それで行ける場所はあるでしょうか。	要求	0	0	0	3076	7468	4	6	公共交通機関	立地	RIBA:立地 (場所)	1_weak	1_weak	1_weak									0						
+7469	135	17	agent	かしこまりました。		0	0	0																									
+7470	135	18	agent	駅からコテージまでシャトルバスがあるのもお探しの条件に加えておきます。		0	0	0																									
+7471	135	19	agent	何か他にご要望はございますか？		0	0	0																									
+7472	135	20	user	食事は自分たちで作るつもりですが、万一のために、他の選択肢も近くにあればうれしいです。	要求	0	0	0	3077	7472	0	2	食事	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						1						
+7472	135	20	user	食事は自分たちで作るつもりですが、万一のために、他の選択肢も近くにあればうれしいです。	要求	0	0	0	3078	7472	3	7	自分たちで作る	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	359	7472	0	2	食事	0						
+7472	135	20	user	食事は自分たちで作るつもりですが、万一のために、他の選択肢も近くにあればうれしいです。	要求	0	0	0	3079	7472	24	12	他の選択肢も近くにあれば	立地	RIEN:立地 (周辺環境)	1_weak	1_weak	1_weak				360	7472	0	2	食事	0						
+7473	135	21	agent	かしこまりました。		0	0	0																									
+7474	135	22	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+7475	135	23	agent	・行先は長野県		0	0	0																									
+7476	135	24	agent	・日程は７月下旬に３泊		0	0	0																									
+7477	135	25	agent	・人数は大人１人、子供３人		0	0	0																									
+7478	135	26	agent	・予算は抑え目		0	0	0																									
+7479	135	27	agent	・宿はコテージ		0	0	0																									
+7480	135	28	agent	・川辺にあるコテージ		0	0	0																									
+7481	135	29	agent	・天体観測ができる場所が近くにあるコテージ		0	0	0																									
+7482	135	30	agent	・駅からシャトルバスで向えるコテージ		0	0	0																									
+7483	135	31	agent	・コテージ敷地内にお食事処がある		0	0	0																									

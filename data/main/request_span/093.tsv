@@ -1,0 +1,46 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+5029	93	1	agent	本日はご利用いただきまして、ありがとうございます。		0	0	0																									
+5030	93	2	agent	ご宿泊のご相談を承ります。		0	0	0																									
+5031	93	3	agent	お宿につきまして、どのような条件をご希望でしょうか？		0	0	0																									
+5032	93	4	user	私と友人２人とで、４／２から２泊で東京観光をしたいと思っています。	要求	0	0	0	2778	5032	0	6	私と友人２人	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+5032	93	4	user	私と友人２人とで、４／２から２泊で東京観光をしたいと思っています。	要求	0	0	0	2780	5032	9	5	４／２から	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+5032	93	4	user	私と友人２人とで、４／２から２泊で東京観光をしたいと思っています。	要求	0	0	0	2781	5032	14	2	２泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+5032	93	4	user	私と友人２人とで、４／２から２泊で東京観光をしたいと思っています。	要求	0	0	0	2782	5032	17	2	東京	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+5032	93	4	user	私と友人２人とで、４／２から２泊で東京観光をしたいと思っています。	要求	0	0	0	2783	5032	19	2	観光	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+5033	93	5	user	東京駅周辺で、広くなくていいのでこぎれいで、お得に泊まれる宿を希望しています。	要求	0	0	0	2784	5033	0	5	東京駅周辺	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	1_weak						0						
+5033	93	5	user	東京駅周辺で、広くなくていいのでこぎれいで、お得に泊まれる宿を希望しています。	要求	0	0	0	2785	5033	7	2	広く	部屋	HEEN:部屋環境	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						1						
+5033	93	5	user	東京駅周辺で、広くなくていいのでこぎれいで、お得に泊まれる宿を希望しています。	要求	0	0	0	2786	5033	16	4	こぎれい	宿	YAEN:宿環境	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+5033	93	5	user	東京駅周辺で、広くなくていいのでこぎれいで、お得に泊まれる宿を希望しています。	要求	0	0	0	2787	5033	22	2	お得	予算	YOKA:予算感	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+5034	93	6	agent	かしこまりました。		0	0	0																									
+5035	93	7	agent	お求めやすいお値段のお宿をご希望とのことですが、ご予算はおいくらくらいでお考えでしょうか？		0	0	0																									
+5036	93	8	user	そうですね、食事なしで一人１万円前後くらいで探してます。	要求	0	0	0	2788	5036	6	2	食事	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						1						
+5036	93	8	user	そうですね、食事なしで一人１万円前後くらいで探してます。	要求	0	0	0	2789	5036	13	5	１万円前後	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	1_weak	1_weak	1_weak	329	5036	11	2	一人	0						
+5037	93	9	user	安すぎてもちょっと不安で、値段比でお得感がある宿があればいいなーと思ってます。	要求	0	0	0	2790	5037	0	3	安すぎ	予算	YOKA:予算感	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						1						
+5037	93	9	user	安すぎてもちょっと不安で、値段比でお得感がある宿があればいいなーと思ってます。	要求	0	0	0	2791	5037	13	10	値段比でお得感がある	予算	YOKA:予算感	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+5038	93	10	user	ちょっと曖昧ですみません。	伝達	0	0	0																									
+5039	93	11	agent	かしこまりました。		0	0	0																									
+5040	93	12	agent	それでは、１人１万円前後のご予算でお調べします。		0	0	0																									
+5041	93	13	agent	お部屋ですが、皆さま別々かご一緒か、ご希望はございますでしょうか？		0	0	0																									
+5042	93	14	user	どちらでも大丈夫です。	照応要求	0	0	0	2792	5041	10	2	別々	部屋	HETY:部屋タイプ	1_weak	1_weak	1_weak									0		21	5042	0	3	どちら
+5042	93	14	user	どちらでも大丈夫です。	照応要求	0	0	0	2793	5041	14	2	一緒	部屋	HETY:部屋タイプ	1_weak	1_weak	1_weak									0		20	5042	0	3	どちら
+5043	93	15	agent	かしこまりました。		0	0	0																									
+5044	93	16	agent	先ほど仰っておりましたが、お食事は無しのプランでよろしいでしょうか？		0	0	0																									
+5045	93	17	user	朝食付きがいいです。	要求	0	0	0	2794	5045	0	2	朝食	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+5046	93	18	agent	かしこまりました。		0	0	0																									
+5047	93	19	agent	では、朝食付きのプランでお調べします。		0	0	0																									
+5048	93	20	agent	ご到着日にお手荷物をお部屋に置いて観光にお出かけになるとご負担が少ないかと思います。		0	0	0																									
+5049	93	21	agent	その場合、早めにチェックインできるアーリーチェックインのプランがよろしいかと思いますが、いかがでしょうか？		0	0	0																									
+5050	93	22	user	うーん、荷物だけ宿に預かってもらえれば部屋にまで入れなくても大丈夫なので、アーリーチェックインは必須ではないです。	要求	0	0	0	2795	5050	4	15	荷物だけ宿に預かってもらえれば	サービス	SESE:ホテルサービス	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+5050	93	22	user	うーん、荷物だけ宿に預かってもらえれば部屋にまで入れなくても大丈夫なので、アーリーチェックインは必須ではないです。	要求	0	0	0	2796	5050	37	10	アーリーチェックイン	サービス	SEIN:チェックイン条件	1_weak	1_weak	1_weak									1						
+5051	93	23	agent	かしこまりました。		0	0	0																									
+5052	93	24	agent	ご希望をお聞かせくださり、ありがとうございました。		0	0	0																									
+5053	93	25	agent	それでは以下の条件でお調べしますので、よろしくお願いいたします。		0	0	0																									
+5054	93	26	agent	・日付は４月２日。		0	0	0																									
+5055	93	27	agent	・宿泊日数は２泊。		0	0	0																									
+5056	93	28	agent	・宿泊地は東京駅周辺。		0	0	0																									
+5057	93	29	agent	・人数は大人３名。		0	0	0																									
+5058	93	30	agent	・予算は１人１万円前後。		0	0	0																									
+5059	93	31	agent	・部屋タイプ／数はシングルルーム３室、トリプルルーム１室のどちらでもよい。		0	0	0																									
+5060	93	32	agent	・こぎれいな宿を希望。		0	0	0																									
+5061	93	33	agent	・食事は朝食付きのプランを希望。		0	0	0																									
+5062	93	34	agent	・チェックイン前の荷物預かりサービスのある宿を希望。		0	0	0																									

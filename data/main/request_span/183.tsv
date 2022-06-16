@@ -1,0 +1,42 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+9558	183	1	agent	本日はご利用いただきまして、ありがとうございます。		0	0	0																									
+9559	183	2	agent	ご宿泊のご相談を承ります。		0	0	0																									
+9560	183	3	agent	お泊りになる地域、お日付、人数がお決まりでしたら、お聞かせいただけますでしょうか。		0	0	0																									
+9561	183	4	user	来月の８日から４泊で小学校６年生の息子と山口県に旅行に行こうと思っています	要求	0	0	0	1265	9561	0	7	来月の８日から	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9561	183	4	user	来月の８日から４泊で小学校６年生の息子と山口県に旅行に行こうと思っています	要求	0	0	0	1266	9561	7	2	４泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9561	183	4	user	来月の８日から４泊で小学校６年生の息子と山口県に旅行に行こうと思っています	要求	0	0	0	1267	9561	10	9	小学校６年生の息子	人数	NIKO:子供人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9561	183	4	user	来月の８日から４泊で小学校６年生の息子と山口県に旅行に行こうと思っています	要求	0	0	0	1268	9561	17	2	息子	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9561	183	4	user	来月の８日から４泊で小学校６年生の息子と山口県に旅行に行こうと思っています	要求	0	0	0	1269	9561	20	3	山口県	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9562	183	5	agent	かしこまりました。		0	0	0																									
+9563	183	6	agent	その条件でお探ししますね。		0	0	0																									
+9564	183	7	agent	ご予算はどのくらいでお考えでしょうか？		0	0	0																									
+9565	183	8	user	１泊１万円くらいです	要求	0	0	0	1270	9565	2	6	１万円くらい	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	1_weak	1_weak	1_weak	144	9565	0	2	１泊	0						
+9566	183	9	agent	１泊１万円ほどですね。		0	0	0																									
+9567	183	10	agent	かしこまりました。		0	0	0																									
+9568	183	11	agent	シーズンが夏ですが、海水浴のご予定はございますでしょうか？		0	0	0																									
+9569	183	12	user	マストではないです。	照応要求	0	0	0	1274	9568	10	3	海水浴	旅行	RYSC:旅行シーン	1_weak	1_weak	1_weak									0		51	9569	0	7	マストではない
+9570	183	13	user	山口は初めてで、レンタカーで鍾乳洞だとか歴史的な場所だとか山口ならではのところに連れていってあげたいんです	要求	0	0	0	1277	9570	0	2	山口	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9570	183	13	user	山口は初めてで、レンタカーで鍾乳洞だとか歴史的な場所だとか山口ならではのところに連れていってあげたいんです	要求	0	0	0	1278	9570	8	5	レンタカー	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	3_strong						0						
+9570	183	13	user	山口は初めてで、レンタカーで鍾乳洞だとか歴史的な場所だとか山口ならではのところに連れていってあげたいんです	要求	0	0	0	1279	9570	14	36	鍾乳洞だとか歴史的な場所だとか山口ならではのところに連れていってあげたい	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	3_strong						0						
+9571	183	14	agent	かしこまりました。		0	0	0																									
+9572	183	15	agent	レンタカーでご観光でしたら、レンタカーの貸し出しがあるホテルでお探ししてよろしいでしょうか？		0	0	0																									
+9573	183	16	user	割引になるとかでしたらそれもありですが、レンタカーだけでも予約はできるので必須条件ではないですね	照応要求	0	1	0	1288	9572	14	13	レンタカーの貸し出しがある	サービス	SESE:ホテルサービス	1_weak	1_weak	1_weak				149	9573	0	5	割引になる	0		244	9573	37	8	必須条件ではない
+9574	183	17	agent	そうしましたら、その割引もあるホテルも条件でお探ししますね。		0	0	0																									
+9575	183	18	agent	お部屋のタイプはいかがなさいましょうか？		0	0	0																									
+9576	183	19	agent	和、洋、離れがございます。		0	0	0																									
+9577	183	20	user	離れは高そうですよね。	感想	0	0	0	1291	9577	0	2	離れ	部屋	HEJO:部屋条件	1_weak	1_weak	1_weak									1						
+9577	183	20	user	離れは高そうですよね。	感想	0	0	0	1293	9577	3	3	高そう	予算	YOKA:予算感	1_weak	1_weak	1_weak									1						
+9578	183	21	user	和か洋でお願いします	照応要求	0	0	0	1298	9576	0	1	和	部屋	HETY:部屋タイプ	2_neutral	2_neutral	2_neutral	1_weak	1_weak	1_weak						0		245	9578	0	1	和
+9578	183	21	user	和か洋でお願いします	照応要求	0	0	0	1299	9576	2	1	洋	部屋	HETY:部屋タイプ	2_neutral	2_neutral	2_neutral	1_weak	1_weak	1_weak	442	9578	2	1	洋	0						
+9579	183	22	agent	和か洋ですね。		0	0	0																									
+9580	183	23	agent	かしこまりました。		0	0	0																									
+9581	183	24	agent	他にご要望はございますか？		0	0	0																									
+9582	183	25	user	ないです	いいえ	0	0	0																									
+9583	183	26	agent	かしこまりました。		0	0	0																									
+9584	183	27	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+9585	183	28	agent	・行先は山口県		0	0	0																									
+9586	183	29	agent	・８月８日から４泊		0	0	0																									
+9587	183	30	agent	・人数は大人１人、子供１人		0	0	0																									
+9588	183	31	agent	・予算は１泊１万円ほど		0	0	0																									
+9589	183	32	agent	・レンタカーの貸し出しで割引がある		0	0	0																									
+9590	183	33	agent	・お部屋は和室か、洋室		0	0	0																									

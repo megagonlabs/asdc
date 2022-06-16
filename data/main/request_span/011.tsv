@@ -1,0 +1,60 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+524	11	1	agent	いらっしゃいませ。		0	0	0																									
+525	11	2	agent	ご利用いただきまして、ありがとうございます。		0	0	0																									
+526	11	3	agent	ご宿泊につきまして、お客様のご希望をお聞かせいただけますでしょうか。		0	0	0																									
+527	11	4	user	子供２人と一緒に、３人で三重県に行きたいと思っています。	要求	0	0	0	279	527	2	2	２人	人数	NIKO:子供人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong	34	527	0	2	子供	0						
+527	11	4	user	子供２人と一緒に、３人で三重県に行きたいと思っています。	要求	0	0	0	280	527	9	2	３人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+527	11	4	user	子供２人と一緒に、３人で三重県に行きたいと思っています。	要求	0	0	0	281	527	12	3	三重県	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+528	11	5	user	１１月１３日から４泊できる宿泊施設を探しています。	要求	0	0	0	282	528	0	6	１１月１３日	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+528	11	5	user	１１月１３日から４泊できる宿泊施設を探しています。	要求	0	0	0	283	528	8	2	４泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+529	11	6	agent	かしこまりました。		0	0	0																									
+530	11	7	agent	こちらのご宿泊は観光でのご利用でしょうか？		0	0	0																									
+531	11	8	agent	具体的に泊まりたい場所はお決まりですか？		0	0	0																									
+532	11	9	user	観光です。	はい	0	0	0																									
+533	11	10	user	何といいましたか、サミットが行われた辺りに行ってみたいと思うのですが。	要求	0	0	0	284	533	9	11	サミットが行われた辺り	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	1_weak	1_weak	2_neutral						0						
+534	11	11	agent	伊勢・志摩地方でございますね。		0	0	0																									
+535	11	12	agent	こちらですと、風光明媚な海の景色をお楽しみいただけます。		0	0	0																									
+536	11	13	agent	オーシャンビューのお宿はいかがでしょうか？		0	0	0																									
+537	11	14	user	それは素敵ですね。	伝達	0	0	0																									
+538	11	15	user	ぜひお願いします。	はい	0	0	0																									
+539	11	16	user	確か観光として遊覧船があったかと思うのですが。	伝達	0	0	0																									
+540	11	17	agent	はい、伊勢湾の観光船でしょうか。		0	0	0																									
+541	11	18	agent	もしよろしければ伊勢湾沿いのお宿はいかがでしょうか？		0	0	0																									
+542	11	19	user	遊覧船乗り場に近い宿がいいですね。	はい	0	0	0																									
+543	11	20	user	子供がまだ小さいので。	要求	0	0	0	285	543	0	8	子供がまだ小さい	子供	KOKO:子供用サービス	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+544	11	21	agent	さようでございますか。		0	0	0																									
+545	11	22	agent	お子様が小さいとのことですが、近くに「志摩スペイン村」がございます。		0	0	0																									
+546	11	23	agent	お子様をお連れになると、４泊でも飽きることなく喜んでいただけるのではないかと思いますが、いかがでしょうか？		0	0	0																									
+547	11	24	user	楽しそうです。	伝達	0	0	0																									
+548	11	25	user	ぜひ行ってみたいのですが、車の運転ができないので交通手段がありません。	伝達	0	0	0																									
+549	11	26	user	バスなどは運航されているのでしょうか？	要求	0	0	0	287	549	0	2	バス	立地	RIBA:立地 (場所)	1_weak	1_weak	1_weak									0						
+550	11	27	agent	かしこまりました。		0	0	0																									
+551	11	28	agent	それでは、スペイン村にバスでアクセスできる場所でお宿をお探しいたします。		0	0	0																									
+552	11	29	agent	お子様とスペイン村を観光されるようでしたら、お得なテーマパーク入場券付きプランをお探しいたしましょうか？		0	0	0																									
+553	11	30	user	はい、お願いします。	はい	0	0	0																									
+554	11	31	user	宿泊する宿ですが、子供と一緒に入浴できる大浴場がある所がいいのですが。	要求	0	0	0	288	554	9	14	子供と一緒に入浴できる大浴場	風呂	FUTY:風呂種類	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+555	11	32	agent	それでは、大浴場付きのお宿をお調べいたします。		0	0	0																									
+556	11	33	agent	お食事は皆さま大人の料理をご用意してよろしいでしょうか？		0	0	0																									
+557	11	34	user	まだ小学生の子供が１人いますので、子供用のメニューがあると助かります。	要求	0	0	0	290	557	9	2	１人	人数	NIKO:子供人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong	36	557	2	3	小学生	0						
+557	11	34	user	まだ小学生の子供が１人いますので、子供用のメニューがあると助かります。	要求	0	0	0	291	557	17	8	子供用のメニュー	子供	KOKO:子供用サービス	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+558	11	35	user	それとも、バイキングの方がいいかな。	要求	0	0	0	292	558	5	5	バイキング	食事	SYNA:食事内容	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	1_weak						0						
+559	11	36	agent	さようでございますか。		0	0	0																									
+560	11	37	agent	それでは、皆さまバイキングにして、お子様は子供料金があるお宿にしましょうか？		0	0	0																									
+561	11	38	user	はい、お願いします。	はい	0	0	0																									
+562	11	39	user	それと最寄駅から送迎をしてほしいのですが。	要求	0	0	0	293	562	3	7	最寄駅から送迎	サービス	SESE:ホテルサービス	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+563	11	40	agent	かしこまりました。		0	0	0																									
+564	11	41	agent	最寄り駅から送迎サービスのあるお宿でお調べいたします。		0	0	0																									
+565	11	42	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+566	11	43	agent	・日付は１１月１３日		0	0	0																									
+567	11	44	agent	・宿泊日数は４泊		0	0	0																									
+568	11	45	agent	・人数は３名。		0	0	0																									
+569	11	46	agent	うち子ども２名。		0	0	0																									
+570	11	47	agent	・宿泊地は三重県。		0	0	0																									
+571	11	48	agent	・子ども料金のある宿を希望。		0	0	0																									
+572	11	49	agent	・オーシャンビューの宿を希望。		0	0	0																									
+573	11	50	agent	・伊勢湾の遊覧船乗り場に近い宿を希望。		0	0	0																									
+574	11	51	agent	・スペイン村にバスでアクセスできる宿を希望。		0	0	0																									
+575	11	52	agent	・スペイン村の入場券付きプランを希望。		0	0	0																									
+576	11	53	agent	・大浴場付きの宿を希望。		0	0	0																									
+577	11	54	agent	・食事はバイキングを希望。		0	0	0																									
+578	11	55	agent	・最寄り駅から送迎サービスのある宿を希望。		0	0	0																									

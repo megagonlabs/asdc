@@ -1,0 +1,58 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+4935	91	1	agent	この度はご利用いただきまして、ありがとうございます。		0	0	0																									
+4936	91	2	agent	お客様のお宿探しのお手伝いをいたします。		0	0	0																									
+4937	91	3	agent	お客様のご希望をお聞かせいただけますでしょうか？		0	0	0																									
+4938	91	4	user	私と夫と子供２人とで、３／２２から４泊できる宿を探しています。	要求	0	0	0	2745	4938	0	8	私と夫と子供２人	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+4938	91	4	user	私と夫と子供２人とで、３／２２から４泊できる宿を探しています。	要求	0	0	0	2746	4938	6	2	２人	人数	NIKO:子供人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+4938	91	4	user	私と夫と子供２人とで、３／２２から４泊できる宿を探しています。	要求	0	0	0	2747	4938	11	6	３／２２から	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+4938	91	4	user	私と夫と子供２人とで、３／２２から４泊できる宿を探しています。	要求	0	0	0	2748	4938	17	2	４泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+4939	91	5	user	十和田湖を見てみたいので、十和田湖に行きやすいところを希望しています。	要求	0	0	0	2749	4939	13	10	十和田湖に行きやすい	立地	RIAC:立地 (アクティビティ)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+4940	91	6	agent	さようでございますか。		0	0	0																									
+4941	91	7	agent	十和田湖に行きやすいところとのことですので、十和田湖畔のお宿はいかがでしょうか？		0	0	0																									
+4942	91	8	user	湖の側に泊まれるならそれだと嬉しいです。	はい	0	0	0																									
+4943	91	9	user	出来れば温泉があるところだとなお良いです。	要求	0	0	0	2750	4943	4	2	温泉	風呂	FUTY:風呂種類	1_weak	1_weak	1_weak									0						
+4944	91	10	agent	かしこまりました。		0	0	0																									
+4945	91	11	agent	では、温泉付きのお宿をお調べいたします。		0	0	0																									
+4946	91	12	agent	せっかく十和田湖畔ですので、お部屋もレイクビューの湖側のお部屋になさってはいかがでしょうか？		0	0	0																									
+4947	91	13	user	それは良いですね！	はい	0	0	0																									
+4948	91	14	user	そういうお部屋があるならそうしたいです。	はい	0	0	0																									
+4949	91	15	agent	ありがとうございます。		0	0	0																									
+4950	91	16	agent	それではレイクビューのお部屋をお探しします。		0	0	0																									
+4951	91	17	agent	お子様連れとのことですが、お子様はベッドをそれぞれお使いになりますでしょうか？		0	0	0																									
+4952	91	18	user	はい。	はい	0	0	0																									
+4953	91	19	user	二人とも小学生なので、２台要ります。	要求	0	0	0	2751	4953	0	2	二人	人数	NIKO:子供人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong	321	4953	4	3	小学生	0	「2台」範囲外→「ベッド」					
+4953	91	19	user	二人とも小学生なので、２台要ります。	要求	0	0	0	2752	4953	11	2	２台	部屋	HETY:部屋タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	322	4953	0	2	二人	0	「2台」範囲外→「ベッド」					
+4954	91	20	agent	かしこまりました。		0	0	0																									
+4955	91	21	agent	それでは、お部屋はツインを２部屋がよろしいでしょうか？		0	0	0																									
+4956	91	22	user	４人で泊まれるところがいいです。	要求	0	0	0	2753	4956	0	7	４人で泊まれる	部屋	HETY:部屋タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+4957	91	23	agent	かしこまりました。		0	0	0																									
+4958	91	24	agent	それでは、４人収容のベッドの洋室は少ないですので、お布団を並べてお休みになる和室でもよろしいでしょうか？		0	0	0																									
+4959	91	25	user	そうなんですね。	その他	0	0	0																									
+4960	91	26	user	和室で大丈夫です。	はい	0	0	0																									
+4961	91	27	agent	ありがとうございます。		0	0	0																									
+4962	91	28	agent	冬で４泊となりますと、着替えのお手荷物が増えるかと思います。		0	0	0																									
+4963	91	29	agent	親御様のご負担が少しでも減りますよう、ランドリーサービスのあるお宿はいかがでしょうか？		0	0	0																									
+4964	91	30	user	確かに、洗濯出来ると助かりますね。	はい	0	0	0																									
+4965	91	31	user	それでお願いします。	その他	0	0	0																									
+4966	91	32	agent	それではランドリーサービスのあるお宿をお調べします。		0	0	0																									
+4967	91	33	agent	お食事はいかがなさいますか？		0	0	0																									
+4968	91	34	agent	朝・夕２食付きのプランがよろしいでしょうか？		0	0	0																									
+4969	91	35	user	そうですね、朝食は付いている方がいいんですが、もし周りに美味しい食事処が多ければ夕食はそちらでいただきたいんですよね。	要求	0	0	0	2755	4969	6	2	朝食	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+4969	91	35	user	そうですね、朝食は付いている方がいいんですが、もし周りに美味しい食事処が多ければ夕食はそちらでいただきたいんですよね。	要求	0	0	0	2756	4969	40	2	夕食	食事	SYUM:食事有無	1_weak	2_neutral	1_weak		2_neutral	2_neutral	323	4969	25	15	周りに美味しい食事処が多ければ	1						
+4970	91	36	user	でももし食事の評判がいい宿なら、宿でいただきたいです。	要求	0	0	0	2757	4970	7	5	評判がいい	食事	SYNA:食事内容	2_neutral	1_weak	1_weak	1_weak		2_neutral						0						
+4970	91	36	user	でももし食事の評判がいい宿なら、宿でいただきたいです。	要求	0	0	0	2758	4970	4	2	食事	食事	SYUM:食事有無	2_neutral	2_neutral	1_weak	1_weak	2_neutral	2_neutral	324	4970	7	5	評判がいい	0						
+4970	91	36	user	でももし食事の評判がいい宿なら、宿でいただきたいです。	要求	0	0	0	2758	4970	4	2	食事	食事	SYUM:食事有無	2_neutral	2_neutral	1_weak	1_weak	2_neutral	2_neutral	325	4969	40	2	夕食	0						
+4971	91	37	agent	かしこまりました。		0	0	0																									
+4972	91	38	agent	それでは、朝食付きのプランで、かつ美味しい夕食をお召し上がりいただけるレストラン併設のお宿をお調べします。		0	0	0																									
+4973	91	39	agent	ご希望をお聞かせくださり、ありがとうございました。		0	0	0																									
+4974	91	40	agent	それでは以下の条件でお調べしますので、よろしくお願いいたします。		0	0	0																									
+4975	91	41	agent	・日付は３月２２日。		0	0	0																									
+4976	91	42	agent	・宿泊日数は４泊。		0	0	0																									
+4977	91	43	agent	・宿泊地は青森県の十和田湖畔。		0	0	0																									
+4978	91	44	agent	・人数は大人２名、子供２名。		0	0	0																									
+4979	91	45	agent	・部屋タイプ／数は和室１室。		0	0	0																									
+4980	91	46	agent	・レイクビューの宿を希望。		0	0	0																									
+4981	91	47	agent	・温泉付きの宿を希望。		0	0	0																									
+4982	91	48	agent	・ランドリーサービスのある宿を希望。		0	0	0																									
+4983	91	49	agent	・食事は朝食付きのプランを希望。		0	0	0																									
+4984	91	50	agent	・美味しい夕食が食べられるレストラン併設の宿を希望。		0	0	0																									

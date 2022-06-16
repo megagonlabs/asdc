@@ -1,0 +1,52 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+10064	195	1	agent	本日はご利用いただきまして、ありがとうございます。		0	0	0																									
+10065	195	2	agent	ご宿泊のご相談を承ります。		0	0	0																									
+10066	195	3	agent	お泊りになる地域、お日付、人数がお決まりでしたら、お聞かせいただけますでしょうか。		0	0	0																									
+10067	195	4	user	卒業旅行で香川県に女子４人で遊びに行くんですけど、３月２７日からの３泊って今から予約取れますか？	要求	0	0	0	517	10067	0	4	卒業旅行	旅行	RYSC:旅行シーン	2_neutral	1_weak	2_neutral	3_strong		3_strong						0						
+10067	195	4	user	卒業旅行で香川県に女子４人で遊びに行くんですけど、３月２７日からの３泊って今から予約取れますか？	要求	0	0	0	518	10067	5	3	香川県	旅行	RYAR:旅行エリア	2_neutral	1_weak	2_neutral	3_strong		3_strong						0						
+10067	195	4	user	卒業旅行で香川県に女子４人で遊びに行くんですけど、３月２７日からの３泊って今から予約取れますか？	要求	0	0	0	519	10067	9	2	女子	旅行	RYSC:旅行シーン	2_neutral	1_weak	2_neutral	3_strong		3_strong						0						
+10067	195	4	user	卒業旅行で香川県に女子４人で遊びに行くんですけど、３月２７日からの３泊って今から予約取れますか？	要求	0	0	0	520	10067	11	2	４人	人数	NIOT:大人人数	2_neutral	1_weak	2_neutral	3_strong		3_strong						0						
+10067	195	4	user	卒業旅行で香川県に女子４人で遊びに行くんですけど、３月２７日からの３泊って今から予約取れますか？	要求	0	0	0	521	10067	25	7	３月２７日から	スケジュール	SCDA:宿泊日	2_neutral	1_weak	1_weak	3_strong		3_strong						0						
+10067	195	4	user	卒業旅行で香川県に女子４人で遊びに行くんですけど、３月２７日からの３泊って今から予約取れますか？	要求	0	0	0	522	10067	33	2	３泊	スケジュール	SCNU:宿泊数	2_neutral	1_weak	1_weak	3_strong		3_strong						0						
+10068	195	5	agent	かしこまりました。		0	0	0																									
+10069	195	6	agent	その条件でお探ししますね。		0	0	0																									
+10070	195	7	agent	ご予算の方はどのくらいでお考えでしょうか？		0	0	0																									
+10071	195	8	user	予算はひとり３万５千円以内で。	要求	0	0	0	523	10071	6	7	３万５千円以内	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	60	10071	3	3	ひとり	0						
+10072	195	9	user	エリアは決めていないんですけど宿泊を楽しみたいので、可愛いコテージかオシャレなホテルがいいです。	要求	0	0	0	525	10072	26	3	可愛い	宿	YAEN:宿環境	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	1_weak	432	10072	29	4	コテージ	0						
+10072	195	9	user	エリアは決めていないんですけど宿泊を楽しみたいので、可愛いコテージかオシャレなホテルがいいです。	要求	0	0	0	526	10072	29	4	コテージ	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral	430	10072	26	3	可愛い	0						
+10072	195	9	user	エリアは決めていないんですけど宿泊を楽しみたいので、可愛いコテージかオシャレなホテルがいいです。	要求	0	0	0	527	10072	34	4	オシャレ	宿	YAEN:宿環境	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	1_weak	433	10072	39	3	ホテル	0						
+10072	195	9	user	エリアは決めていないんですけど宿泊を楽しみたいので、可愛いコテージかオシャレなホテルがいいです。	要求	0	0	0	528	10072	39	3	ホテル	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral	431	10072	34	4	オシャレ	0						
+10072	195	9	user	エリアは決めていないんですけど宿泊を楽しみたいので、可愛いコテージかオシャレなホテルがいいです。	要求	0	0	0	529	10072	0	10	エリアは決めていない	立地	RIBA:立地 (場所)	2_neutral	1_weak	1_weak	1_weak								0						
+10073	195	10	agent	かしこまりました。		0	0	0																									
+10074	195	11	agent	宿はそちらの２つの条件でお探ししますね。		0	0	0																									
+10075	195	12	agent	お食事の方はいかがなさいましょうか？		0	0	0																									
+10076	195	13	user	夕食付がいいです。	要求	0	0	0	530	10076	0	2	夕食	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+10077	195	14	user	美味しいって有名なところありますか？	要求	0	0	0	531	10077	0	8	美味しいって有名	食事	SYNA:食事内容	1_weak	1_weak	1_weak									0						
+10078	195	15	agent	夕食付きですね。		0	0	0																									
+10079	195	16	agent	お食事の評判が良い宿を具体的にはお答えできないのですが、条件に加えてお探ししますね。		0	0	0																									
+10080	195	17	agent	ご予約のお日にちが春なので、お花見ができる公園が近い宿もお探しましょうか？		0	0	0																									
+10081	195	18	user	はい、お願いします。	その他	0	0	0																									
+10082	195	19	user	そうですね！	はい	0	0	0																									
+10083	195	20	user	桜が見れたら嬉しいです。	感想	0	0	0	532	10083	0	1	桜	立地	RIAC:立地 (アクティビティ)	1_weak	2_neutral	1_weak		2_neutral							0						
+10084	195	21	agent	かしこまりました。		0	0	0																									
+10085	195	22	agent	その条件も加えてお探ししますね。		0	0	0																									
+10086	195	23	agent	大人４名様ですのでお酒の飲み放題がある宿はいかがでしょうか？		0	0	0																									
+10087	195	24	user	じゃぁ、それもお願いします。	はい	0	0	0																									
+10088	195	25	user	出来ればカクテル系の種類が多いところで。	要求	0	0	0	533	10088	4	11	カクテル系の種類が多い	食事	SYNA:食事内容	1_weak	1_weak	1_weak									0						
+10089	195	26	agent	カクテル系の種類が多いところですね。		0	0	0																									
+10090	195	27	agent	かしこまりました。		0	0	0																									
+10091	195	28	agent	他にご要望はございますか？		0	0	0																									
+10092	195	29	user	後は大丈夫です。	いいえ	0	0	0																									
+10093	195	30	user	よろしくおねがいします。	その他	0	0	0																									
+10094	195	31	agent	かしこまりました。		0	0	0																									
+10095	195	32	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+10096	195	33	agent	・行先は香川県		0	0	0																									
+10097	195	34	agent	・人数は大人４人		0	0	0																									
+10098	195	35	agent	・予算は一人３万５千円以内		0	0	0																									
+10099	195	36	agent	・日程は３月２７日から３泊		0	0	0																									
+10100	195	37	agent	・宿はコテージかホテル		0	0	0																									
+10101	195	38	agent	・内装が魅力的		0	0	0																									
+10102	195	39	agent	・夕食付き		0	0	0																									
+10103	195	40	agent	・食事の評判が良い		0	0	0																									
+10104	195	41	agent	・お花見ができる公園が近い		0	0	0																									
+10105	195	42	agent	・カクテル系の種類が豊富なお酒の飲み放題がある		0	0	0																									

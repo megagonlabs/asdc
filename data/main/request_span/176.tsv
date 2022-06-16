@@ -1,0 +1,56 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+9254	176	1	agent	本日はご利用いただきまして、ありがとうございます。		0	0	0																									
+9255	176	2	agent	ご宿泊のご相談を承ります。		0	0	0																									
+9256	176	3	agent	お泊りになる地域、お日付、人数がお決まりでしたら、お聞かせいただけますでしょうか。		0	0	0																									
+9257	176	4	user	４月中旬の土日に夫と子供２人の４人で１泊２日で岩手県に行く予定です。	要求	0	0	0	1391	9257	0	7	４月中旬の土日	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	3_strong						0						
+9257	176	4	user	４月中旬の土日に夫と子供２人の４人で１泊２日で岩手県に行く予定です。	要求	0	0	0	1394	9257	8	1	夫	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9257	176	4	user	４月中旬の土日に夫と子供２人の４人で１泊２日で岩手県に行く予定です。	要求	0	0	0	1395	9257	10	2	子供	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9257	176	4	user	４月中旬の土日に夫と子供２人の４人で１泊２日で岩手県に行く予定です。	要求	0	0	0	1396	9257	10	4	子供２人	人数	NIKO:子供人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9257	176	4	user	４月中旬の土日に夫と子供２人の４人で１泊２日で岩手県に行く予定です。	要求	0	0	0	1397	9257	15	2	４人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9257	176	4	user	４月中旬の土日に夫と子供２人の４人で１泊２日で岩手県に行く予定です。	要求	0	0	0	1398	9257	18	4	１泊２日	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9257	176	4	user	４月中旬の土日に夫と子供２人の４人で１泊２日で岩手県に行く予定です。	要求	0	0	0	1399	9257	23	3	岩手県	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9258	176	5	user	自然に触れられるようなところに行きたいなと思っています。	要求	0	0	0	1400	9258	0	19	自然に触れられるようなところに行きたい	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	3_strong						0						
+9259	176	6	agent	かしこまりました。		0	0	0																									
+9260	176	7	agent	そちらの条件でお探ししますね。		0	0	0																									
+9261	176	8	agent	ご予算の方はどのくらいでお考えでしょうか？		0	0	0																									
+9262	176	9	user	４人で５万円以内に収めたいです。	要求	0	0	0	1402	9262	3	5	５万円以内	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	1_weak	162	9262	0	2	４人	0						
+9263	176	10	agent	合計で５万円以内ですね。		0	0	0																									
+9264	176	11	agent	かしこまりました。		0	0	0																									
+9265	176	12	agent	自然豊かな場所をご希望でしたら、山間の旅館でお探ししてもよろしいでしょうか？		0	0	0																									
+9266	176	13	user	旅館いいですね！	はい	0	0	0																									
+9267	176	14	user	お願いいたします。	その他	0	0	0																									
+9268	176	15	agent	かしこまりました。		0	0	0																									
+9269	176	16	agent	また、お子様がいらっしゃるので子供料金が適用される旅館でお探ししてよろしいでしょうか？		0	0	0																									
+9270	176	17	user	はい、その方が嬉しいです。	はい	0	0	0																									
+9271	176	18	user	小学生２人です。	要求	0	0	0	1404	9271	0	5	小学生２人	人数	NIKO:子供人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9272	176	19	agent	小学生２名様ですね。		0	0	0																									
+9273	176	20	agent	かしこまりました。		0	0	0																									
+9274	176	21	agent	そちらの条件でお探ししますね。		0	0	0																									
+9275	176	22	agent	お食事の方はいかがなさいましょうか？		0	0	0																									
+9276	176	23	user	夕食はなくてもいいのですが、朝食は付けたいです。	要求	0	0	0	1405	9276	0	2	夕食	食事	SYUM:食事有無	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						1						
+9276	176	23	user	夕食はなくてもいいのですが、朝食は付けたいです。	要求	0	0	0	1406	9276	14	2	朝食	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+9277	176	24	user	また、子供も楽しめるかなと思うので朝食はバイキングだと尚良いです。	要求	0	0	0	1407	9277	20	5	バイキング	食事	SYNA:食事内容	1_weak	1_weak	1_weak				163	9277	17	2	朝食	0						
+9278	176	25	agent	かしこまりました。		0	0	0																									
+9279	176	26	agent	その条件でお探ししますね。		0	0	0																									
+9280	176	27	agent	お日にちの方が４月中旬ですので、お花見の名所の近くの旅館でお探ししてもよろしいでしょうか？		0	0	0																									
+9281	176	28	user	そんなところもあるんですね、嬉しいです。	感想	0	0	0	1408	9280	16	9	お花見の名所の近く	立地	RIAC:立地 (アクティビティ)	1_weak	2_neutral	1_weak		2_neutral							0		13	9281	0	6	そんなところ
+9281	176	28	user	そんなところもあるんですね、嬉しいです。	感想	0	0	0	3551	9280	26	2	旅館	宿	YATY:宿タイプ	1_weak	2_neutral	1_weak		2_neutral							0		63	9281	0	6	そんなところ
+9282	176	29	user	お願いします。	はい	0	0	0																									
+9283	176	30	agent	かしこまりました。		0	0	0																									
+9284	176	31	agent	お探しの条件に加えておきますね。		0	0	0																									
+9285	176	32	agent	他にご要望はございますか？		0	0	0																									
+9286	176	33	user	子供がいるのでゲームセンターのような、少し遊べる場所のある宿だとより嬉しいです。	要求	0	0	0	1409	9286	7	22	ゲームセンターのような、少し遊べる場所のある	施設	SHLE:施設条件(レジャー)	1_weak	1_weak	1_weak									0						
+9287	176	34	agent	遊び場がある旅館ですね。		0	0	0																									
+9288	176	35	agent	かしこまりました。		0	0	0																									
+9289	176	36	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+9290	176	37	agent	・行先は岩手県		0	0	0																									
+9291	176	38	agent	・日程は４月中旬に１泊２日		0	0	0																									
+9292	176	39	agent	・人数は大人２人、子供２人		0	0	0																									
+9293	176	40	agent	・予算は合計で５万円以内		0	0	0																									
+9294	176	41	agent	・宿は旅館		0	0	0																									
+9295	176	42	agent	・山間にある		0	0	0																									
+9296	176	43	agent	・子供料金がある旅館		0	0	0																									
+9297	176	44	agent	・朝食のみ		0	0	0																									
+9298	176	45	agent	・朝食はバイキング形式		0	0	0																									
+9299	176	46	agent	・花見の名所が近い		0	0	0																									
+9300	176	47	agent	・子供の遊び場が旅館内にある		0	0	0																									

@@ -1,0 +1,53 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+8804	166	1	agent	本日はご利用いただきまして、ありがとうございます。		0	0	0																									
+8805	166	2	agent	ご宿泊のご相談を承ります。		0	0	0																									
+8806	166	3	agent	お泊りになる地域、お日付、人数がお決まりでしたら、お聞かせいただけますでしょうか。		0	0	0																									
+8807	166	4	user	よろしくお願いします。	伝達	0	0	0																									
+8808	166	5	user	夫と二人での記念日旅行に、沖縄県へ行こうと思っています。	要求	0	0	0	1603	8808	0	1	夫	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8808	166	5	user	夫と二人での記念日旅行に、沖縄県へ行こうと思っています。	要求	0	0	0	1604	8808	2	2	二人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8808	166	5	user	夫と二人での記念日旅行に、沖縄県へ行こうと思っています。	要求	0	0	0	1605	8808	6	5	記念日旅行	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8808	166	5	user	夫と二人での記念日旅行に、沖縄県へ行こうと思っています。	要求	0	0	0	1606	8808	13	3	沖縄県	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8809	166	6	user	１１月１３日から２泊でお願いします。	要求	0	0	0	1607	8809	0	8	１１月１３日から	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8809	166	6	user	１１月１３日から２泊でお願いします。	要求	0	0	0	1608	8809	8	2	２泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8810	166	7	agent	沖縄県ですね。		0	0	0																									
+8811	166	8	agent	かしこまりました。		0	0	0																									
+8812	166	9	agent	ご予算はどのくらいでお考えでしょうか？		0	0	0																									
+8813	166	10	user	そうですね、１泊１人５万円～７万円程度を考えています。	要求	0	0	0	1609	8813	10	9	５万円～７万円程度	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	1_weak	1_weak	1_weak	193	8813	6	2	１泊	0						
+8813	166	10	user	そうですね、１泊１人５万円～７万円程度を考えています。	要求	0	0	0	1609	8813	10	9	５万円～７万円程度	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	1_weak	1_weak	1_weak	194	8813	8	2	１人	0						
+8814	166	11	agent	かしこまりました。		0	0	0																									
+8815	166	12	agent	そうしましたら、海沿いにあるリゾートホテルでお探してよろしいでしょうか？		0	0	0																									
+8816	166	13	user	はい、ゆっくりできるようなところでお願いします。	要求	0	0	0	1611	8816	3	7	ゆっくりできる	宿	YAEN:宿環境	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+8817	166	14	user	それと、ホテル内で夜に星空を見られるようなところだと嬉しいです。	要求	0	0	0	1612	8817	9	9	夜に星空を見られる	部屋	HEEN:部屋環境	1_weak	2_neutral	1_weak		2_neutral	2_neutral						0						
+8818	166	15	agent	かしこまりました。		0	0	0																									
+8819	166	16	agent	そうしましたら、景観がオーシャンビューで夜空を堪能できることも条件に加えておきます。		0	0	0																									
+8820	166	17	agent	お食事の方はいかがなさいましょうか？		0	0	0																									
+8821	166	18	user	夕食、朝食どちらもついているところでお願いします。	要求	0	0	0	1613	8821	0	5	夕食、朝食	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+8822	166	19	user	海の幸が味わえるところだと嬉しいですね。	要求	0	0	0	1614	8822	0	8	海の幸が味わえる	食事	SYNA:食事内容	1_weak	2_neutral	1_weak		2_neutral	2_neutral						0						
+8823	166	20	agent	かしこまりました。		0	0	0																									
+8824	166	21	agent	地元の海産物のコース料理をお出しするホテルでお探してよろしいでしょうか？		0	0	0																									
+8825	166	22	user	はい、お願いします。	はい	0	0	0																									
+8826	166	23	user	それと、沖縄は初めてで自分たちだけでは観光があまりできなそうなので、なにか体験チケット等がついているプランがあると嬉しいです。	要求	0	0	0	1615	8826	4	2	沖縄	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8826	166	23	user	それと、沖縄は初めてで自分たちだけでは観光があまりできなそうなので、なにか体験チケット等がついているプランがあると嬉しいです。	要求	0	0	0	1616	8826	19	2	観光	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	2_neutral	3_strong	3_strong						0						
+8826	166	23	user	それと、沖縄は初めてで自分たちだけでは観光があまりできなそうなので、なにか体験チケット等がついているプランがあると嬉しいです。	要求	0	0	0	1617	8826	37	19	体験チケット等がついているプランがある	サービス	SESE:ホテルサービス	1_weak	2_neutral	1_weak		2_neutral	2_neutral						0						
+8827	166	24	agent	かしこまりました。		0	0	0																									
+8828	166	25	agent	レジャー体験のチケット付きのリゾートホテルも条件に加えておきますね。		0	0	0																									
+8829	166	26	agent	他にご要望はございますか？		0	0	0																									
+8830	166	27	user	沖縄は車や自転車がないと大変だと聞いたことがあるので、ホテルまで行くのが少し心配です。	要求	0	0	0	1618	8830	0	2	沖縄	旅行	RYAR:旅行エリア	1_weak	2_neutral	2_neutral		3_strong	2_neutral						0						
+8830	166	27	user	沖縄は車や自転車がないと大変だと聞いたことがあるので、ホテルまで行くのが少し心配です。	要求	0	0	0	1619	8830	3	11	車や自転車がないと大変	立地	RIBA:立地 (場所)	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						1						
+8830	166	27	user	沖縄は車や自転車がないと大変だと聞いたことがあるので、ホテルまで行くのが少し心配です。	要求	0	0	0	1620	8830	27	3	ホテル	宿	YATY:宿タイプ	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+8831	166	28	user	ホテルまでの送迎があると嬉しいですね。	要求	0	0	0	1621	8831	0	3	ホテル	宿	YATY:宿タイプ	1_weak	2_neutral	1_weak		2_neutral	2_neutral						0						
+8831	166	28	user	ホテルまでの送迎があると嬉しいですね。	要求	0	0	0	1622	8831	0	11	ホテルまでの送迎がある	サービス	SESE:ホテルサービス	1_weak	2_neutral	1_weak		2_neutral	2_neutral						0						
+8832	166	29	agent	ホテルまでの送迎ですね。		0	0	0																									
+8833	166	30	agent	かしこまりました。		0	0	0																									
+8834	166	31	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+8835	166	32	agent	・行先は沖縄県		0	0	0																									
+8836	166	33	agent	・日程は１１月１３日から２泊		0	0	0																									
+8837	166	34	agent	・人数は大人２人		0	0	0																									
+8838	166	35	agent	・予算は１泊１人５万円から７万円ほど		0	0	0																									
+8839	166	36	agent	・宿はリゾートホテル		0	0	0																									
+8840	166	37	agent	・海沿いにある		0	0	0																									
+8841	166	38	agent	・景観がオーシャンビュー、夜空を眺めることができる		0	0	0																									
+8842	166	39	agent	・朝夕食事付き		0	0	0																									
+8843	166	40	agent	・地元の海産物のコース料理がある		0	0	0																									
+8844	166	41	agent	・レジャー体験のチケット付き		0	0	0																									
+8845	166	42	agent	・ホテルまでの送迎がある		0	0	0																									

@@ -1,0 +1,55 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+4985	92	1	agent	この度はご利用いただきまして、誠にありがとうございます。		0	0	0																									
+4986	92	2	agent	ご宿泊のご相談を承ります。		0	0	0																									
+4987	92	3	agent	どのようなお宿をお探しでしょうか？		0	0	0																									
+4988	92	4	user	よろしくお願いします。	その他	0	0	0																									
+4989	92	5	user	夫婦と子供１人とで、９／１０から２泊できる九州の宿を探しています。	要求	0	0	0	2760	4989	0	5	夫婦と子供	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+4989	92	5	user	夫婦と子供１人とで、９／１０から２泊できる九州の宿を探しています。	要求	0	0	0	2761	4989	5	2	１人	人数	NIKO:子供人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+4989	92	5	user	夫婦と子供１人とで、９／１０から２泊できる九州の宿を探しています。	要求	0	0	0	2762	4989	10	6	９／１０から	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+4989	92	5	user	夫婦と子供１人とで、９／１０から２泊できる九州の宿を探しています。	要求	0	0	0	2763	4989	16	2	２泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+4989	92	5	user	夫婦と子供１人とで、９／１０から２泊できる九州の宿を探しています。	要求	0	0	0	2764	4989	21	2	九州	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+4990	92	6	user	暑いと思うので、涼しい高原あたりで過ごしたいと思っています。	要求	0	0	0	2765	4990	8	14	涼しい高原あたりで過ごしたい	立地	RIEN:立地 (周辺環境)	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+4991	92	7	user	あと、温泉好きなので、温泉に行きやすい宿だとうれしいです。	要求	0	0	0	2766	4991	11	8	温泉に行きやすい	立地	RIAC:立地 (アクティビティ)	1_weak	2_neutral	1_weak		2_neutral	2_neutral						0						
+4991	92	7	user	あと、温泉好きなので、温泉に行きやすい宿だとうれしいです。	要求	0	0	0	3000	4991	3	2	温泉	風呂	FUTY:風呂種類	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+4992	92	8	agent	さようでございますか。		0	0	0																									
+4993	92	9	agent	それでは、大分県の久住高原はいかがでしょうか？		0	0	0																									
+4994	92	10	agent	近くに有名な湯布院温泉がございますので、お客様のご希望にぴったりかと思います。		0	0	0																									
+4995	92	11	user	久住高原も湯布院温泉も聞いたことがあります！	伝達	0	0	0																									
+4996	92	12	user	両方とも行けるなんて素敵です。	感想	0	0	0	2767	4995	0	4	久住高原	立地	RIAC:立地 (アクティビティ)	1_weak	2_neutral	1_weak		3_strong							0		16	4996	0	2	両方
+4996	92	12	user	両方とも行けるなんて素敵です。	感想	0	0	0	2768	4995	5	5	湯布院温泉	立地	RIAC:立地 (アクティビティ)	1_weak	2_neutral	1_weak		3_strong							0		17	4996	0	2	両方
+4997	92	13	user	そのあたりの宿がいいです。	照応要求	0	0	0	2769	4995	0	4	久住高原	立地	RIAC:立地 (アクティビティ)	2_neutral	2_neutral	2_neutral	1_weak	3_strong	2_neutral						0		18	4997	0	5	そのあたり
+4997	92	13	user	そのあたりの宿がいいです。	照応要求	0	0	0	2770	4995	5	5	湯布院温泉	立地	RIAC:立地 (アクティビティ)	2_neutral	2_neutral	2_neutral	1_weak	3_strong	2_neutral						0		19	4997	0	5	そのあたり
+4998	92	14	agent	ありがとうございます。		0	0	0																									
+4999	92	15	agent	それでは、久住高原のお宿をお探しします。		0	0	0																									
+5000	92	16	agent	せっかく夏の高原のご旅行ですので、バーベキューのできるお宿はいかがでしょうか？		0	0	0																									
+5001	92	17	agent	お子様も夏の思い出をお作りいただけますので、きっと喜んでいただけるかと思います。		0	0	0																									
+5002	92	18	user	そうですね、バーベキューも楽しそうなんですが、どちらかというと宿ではゆっくりしたいので、食事は全部部屋に出してもらえる方がうれしいですね。	要求	0	0	0	2771	5002	34	7	ゆっくりしたい	宿	YAEN:宿環境	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+5002	92	18	user	そうですね、バーベキューも楽しそうなんですが、どちらかというと宿ではゆっくりしたいので、食事は全部部屋に出してもらえる方がうれしいですね。	要求	0	0	0	2772	5002	49	10	部屋に出してもらえる	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+5003	92	19	agent	かしこまりました。		0	0	0																									
+5004	92	20	agent	それではバーベキューではなく、お食事を部屋出しでお召し上がりいただけるお宿をお調べします。		0	0	0																									
+5005	92	21	agent	お子様はベッドを単独でお使いになりますか？		0	0	0																									
+5006	92	22	user	それでお願いします。	その他	0	0	0																									
+5007	92	23	user	ベッドは一人で使いますね。	はい	0	0	0																									
+5008	92	24	agent	かしこまりました。		0	0	0																									
+5009	92	25	agent	それでは、トリプルルームのお部屋１室のご利用でよろしいでしょうか？		0	0	0																									
+5010	92	26	user	すみません、その辺りで露天風呂付きのお部屋ってありますか？	要求	0	0	0	2773	5010	11	4	露天風呂	風呂	FUTY:風呂種類	1_weak	1_weak	1_weak									0						
+5010	92	26	user	すみません、その辺りで露天風呂付きのお部屋ってありますか？	要求	0	0	0	3001	5010	11	10	露天風呂付きのお部屋	部屋	HESE:部屋設備	1_weak	1_weak	1_weak									0						
+5011	92	27	user	もしあればそういうお部屋の方がうれしいです。	要求	0	0	0	3002	5010	11	6	露天風呂付き	部屋	HESE:部屋設備	1_weak	1_weak	1_weak									0						
+5012	92	28	user	もしなければ、和室でも洋室でもどちらでもいいです。	要求	0	0	0	2775	5012	7	2	和室	部屋	HETY:部屋タイプ	1_weak	1_weak	1_weak				327	5012	2	4	なければ	0	「露天風呂」範囲外					
+5012	92	28	user	もしなければ、和室でも洋室でもどちらでもいいです。	要求	0	0	0	2776	5012	11	2	洋室	部屋	HETY:部屋タイプ	1_weak	1_weak	1_weak				328	5012	2	4	なければ	0	「露天風呂」範囲外					
+5013	92	29	agent	かしこまりました。		0	0	0																									
+5014	92	30	agent	では、和室・洋室の両方可で、露天風呂付き客室をご希望とのことで承ります。		0	0	0																									
+5015	92	31	agent	最後に、禁煙・喫煙ルームのどちらかご希望はございますでしょうか？		0	0	0																									
+5016	92	32	user	お願いします。	その他	0	0	0																									
+5017	92	33	user	禁煙希望です。	照応要求	0	0	0	2777	5015	4	2	禁煙	部屋	HEJO:部屋条件	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0		189	5017	0	2	禁煙
+5018	92	34	agent	では、禁煙ルームご希望で承ります。		0	0	0																									
+5019	92	35	agent	ありがとうございました。		0	0	0																									
+5020	92	36	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+5021	92	37	agent	・日付は９月１０日。		0	0	0																									
+5022	92	38	agent	・宿泊日数は２泊。		0	0	0																									
+5023	92	39	agent	・宿泊地は大分県の久住高原。		0	0	0																									
+5024	92	40	agent	・人数は大人２名、子供１名。		0	0	0																									
+5025	92	41	agent	・部屋タイプは和室・洋室の両方可。		0	0	0																									
+5026	92	42	agent	・露天風呂付きの部屋を希望。		0	0	0																									
+5027	92	43	agent	・食事を部屋で食べられる宿を希望。		0	0	0																									
+5028	92	44	agent	・禁煙ルームを希望。		0	0	0																									

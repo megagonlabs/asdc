@@ -1,0 +1,58 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+2890	54	1	agent	宿予約サービスのご利用ありがとうございます。		0	0	0																									
+2891	54	2	agent	宿について重視したい点をお聞かせください。		0	0	0																									
+2892	54	3	user	１０月の上旬ぐらいに、大人２人と子ども２人の家族４人で徳島に一泊したいと思ってます。	要求	0	0	0	1738	2892	0	9	１０月の上旬ぐらい	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	1_weak						0						
+2892	54	3	user	１０月の上旬ぐらいに、大人２人と子ども２人の家族４人で徳島に一泊したいと思ってます。	要求	0	0	0	1739	2892	13	2	２人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+2892	54	3	user	１０月の上旬ぐらいに、大人２人と子ども２人の家族４人で徳島に一泊したいと思ってます。	要求	0	0	0	1740	2892	19	2	２人	人数	NIKO:子供人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+2892	54	3	user	１０月の上旬ぐらいに、大人２人と子ども２人の家族４人で徳島に一泊したいと思ってます。	要求	0	0	0	1741	2892	22	4	家族４人	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+2892	54	3	user	１０月の上旬ぐらいに、大人２人と子ども２人の家族４人で徳島に一泊したいと思ってます。	要求	0	0	0	1742	2892	27	2	徳島	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+2892	54	3	user	１０月の上旬ぐらいに、大人２人と子ども２人の家族４人で徳島に一泊したいと思ってます。	要求	0	0	0	1743	2892	30	2	一泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+2893	54	4	user	子どもも大人も楽しめるレジャースポットに近い宿がいいです。	要求	0	0	0	1744	2893	0	22	子どもも大人も楽しめるレジャースポットに近い	立地	RIAC:立地 (アクティビティ)	2_neutral	3_strong	2_neutral	1_weak		2_neutral						0						
+2894	54	5	agent	かしこまりました。		0	0	0																									
+2895	54	6	agent	具体的なレジャースポットは、もうお考えでしょうか？		0	0	0																									
+2896	54	7	user	全然考えてないです。	いいえ	0	0	0																									
+2897	54	8	user	何か良いところないですかね？	質問	0	0	0																									
+2898	54	9	agent	やはり鳴門のうず潮は、お子様だけでなく大人の方もお楽しみいただけるかと思います。		0	0	0																									
+2899	54	10	agent	いかがでしょうか？		0	0	0																									
+2900	54	11	user	それなら、うず潮とか見に行きやすかったり、宿から見える宿がいいですね。	要求	0	0	0	2114	2900	5	15	うず潮とか見に行きやすかったり	立地	RIAC:立地 (アクティビティ)	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+2900	54	11	user	それなら、うず潮とか見に行きやすかったり、宿から見える宿がいいですね。	要求	0	0	0	2116	2900	21	6	宿から見える	部屋	HEEN:部屋環境	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral	250	2900	5	3	うず潮	0						
+2901	54	12	agent	かしこまりました。		0	0	0																									
+2902	54	13	agent	それでは鳴門で、鳴門海峡に近いお宿をお探しします。		0	0	0																									
+2903	54	14	agent	お部屋はいかがなさいますか？		0	0	0																									
+2904	54	15	agent	お子様は単独でベッドをお使いになりますでしょうか？		0	0	0																									
+2905	54	16	user	別にベットでなくてもいいんですが、子ども２人のうち、１人は単独で１人は大人と一緒に寝たいです。	要求	0	0	0	1747	2905	29	3	単独で	部屋	HETY:部屋タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	209	2905	26	2	１人	0						
+2905	54	16	user	別にベットでなくてもいいんですが、子ども２人のうち、１人は単独で１人は大人と一緒に寝たいです。	要求	0	0	0	1748	2905	35	6	大人と一緒に	部屋	HETY:部屋タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	210	2905	32	2	１人	0						
+2906	54	17	agent	かしこまりました。		0	0	0																									
+2907	54	18	agent	それではトリプルルームか、ダブルルームにエキストラベッドをお付けできるお部屋がよろしいかと思います。		0	0	0																									
+2908	54	19	agent	どちらかご希望はございますでしょうか？		0	0	0																									
+2909	54	20	user	どちらでもいいですが、なるべく寝る場所が広いものがいいですね。	要求	0	0	0	1749	2909	15	7	寝る場所が広い	部屋	HETY:部屋タイプ	1_weak	1_weak	1_weak		2_neutral							0						
+2910	54	21	agent	かしこまりました。		0	0	0																									
+2911	54	22	agent	それでは、和室のお部屋になさいますか？		0	0	0																									
+2912	54	23	agent	布団を敷いてお休みになりますと、広くなります。		0	0	0																									
+2913	54	24	user	そうですね、和室の方がいいのかもしれません。	はい	0	0	0																									
+2914	54	25	user	その場合は、寝る場所と別にもう一部屋あると嬉しいです。	要求	0	0	0	1750	2914	6	14	寝る場所と別にもう一部屋ある	部屋	HETY:部屋タイプ	1_weak	2_neutral	1_weak		2_neutral		212	2913	6	2	和室	0						
+2915	54	26	agent	かしこまりました。		0	0	0																									
+2916	54	27	agent	それでは寝室と居間の両方が付いた和室１室をお探しします。		0	0	0																									
+2917	54	28	agent	お食事はいかがなさいますか？		0	0	0																									
+2918	54	29	user	食事は朝だけお願いしたいです。	要求	0	0	0	1751	2918	3	3	朝だけ	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+2919	54	30	agent	かしこまりました。		0	0	0																									
+2920	54	31	agent	それでは朝食のみ付いたプランをお調べします。		0	0	0																									
+2921	54	32	agent	ほかにご希望はございますでしょうか？		0	0	0																									
+2922	54	33	user	子どもが何か体験できたりするレジャースポットとか、体験教室とかがあるといいのですが。	要求	0	0	0	1752	2922	0	34	子どもが何か体験できたりするレジャースポットとか、体験教室とかがある	子供	KOKO:子供用サービス	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+2923	54	34	agent	かしこまりました。		0	0	0																									
+2924	54	35	agent	それでは、宿の館内か周辺でお子様向け体験教室やレジャースポットのあるお宿をお調べします。		0	0	0																									
+2925	54	36	agent	他にはいかがでしょうか？		0	0	0																									
+2926	54	37	user	あとはかわいいお土産とかを買いたいのですが、そういったお店が近くにあると助かります。	要求	0	0	0	1753	2926	3	32	かわいいお土産とかを買いたいのですが、そういったお店が近くにある	立地	RIEN:立地 (周辺環境)	1_weak	2_neutral	1_weak		2_neutral							0						
+2927	54	38	agent	承知しました。		0	0	0																									
+2928	54	39	agent	では、近くにお土産屋のあるお宿をお調べします。		0	0	0																									
+2929	54	40	agent	ご希望をお聞かせくださり、ありがとうございました。		0	0	0																									
+2930	54	41	agent	それでは以下の条件でお調べしますので、よろしくお願いいたします。		0	0	0																									
+2931	54	42	agent	・日付は１０月上旬。		0	0	0																									
+2932	54	43	agent	・宿泊日数は１泊。		0	0	0																									
+2933	54	44	agent	・宿泊地は徳島の鳴門。		0	0	0																									
+2934	54	45	agent	・人数は大人２名、子供２名。		0	0	0																									
+2935	54	46	agent	・部屋は寝室と居間の両方が付いた和室１室を希望。		0	0	0																									
+2936	54	47	agent	・渦潮が見れたり鳴門海峡に近い宿を希望。		0	0	0																									
+2937	54	48	agent	・食事は朝食のみ希望。		0	0	0																									
+2938	54	49	agent	・館内か周辺で子供向け体験教室やレジャースポットのある宿を希望。		0	0	0																									
+2939	54	50	agent	・近くに土産屋のある宿を希望。		0	0	0																									

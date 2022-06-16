@@ -1,0 +1,69 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+2316	44	1	agent	いらっしゃいませ。		0	0	0																									
+2317	44	2	agent	ご利用いただきまして、ありがとうございます。		0	0	0																									
+2318	44	3	agent	ご宿泊先につきまして、お客様のご希望をお聞かせいただけますでしょうか。		0	0	0																									
+2319	44	4	user	来年、沖縄に行く予定なんですけど、できるだけ静かなところに泊まりたいと思ってます。	要求	0	0	0	1217	2319	0	2	来年	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	2_neutral	3_strong	3_strong						0						
+2319	44	4	user	来年、沖縄に行く予定なんですけど、できるだけ静かなところに泊まりたいと思ってます。	要求	0	0	0	1219	2319	3	2	沖縄	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+2319	44	4	user	来年、沖縄に行く予定なんですけど、できるだけ静かなところに泊まりたいと思ってます。	要求	0	0	0	1220	2319	22	3	静かな	宿	YAEN:宿環境	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+2320	44	5	agent	かしこまりました。		0	0	0																									
+2321	44	6	agent	来年のいつか、お決まりでしょうか？		0	0	0																									
+2322	44	7	user	２月上旬の予定です。	要求	0	0	0	1222	2322	0	4	２月上旬	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	3_strong						0						
+2323	44	8	agent	承知しました。		0	0	0																									
+2324	44	9	agent	何名様でのご利用でしょうか？		0	0	0																									
+2325	44	10	user	２人です。	要求	0	0	0	1223	2325	0	2	２人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+2326	44	11	user	仕事のことを忘れて、ゆったり過ごしたいなと思ってます。	要求	0	0	0	1225	2326	10	9	ゆったり過ごしたい	宿	YAEN:宿環境	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+2327	44	12	agent	さようでございますか。		0	0	0																									
+2328	44	13	agent	ゆっくりなさりたいとのことですが、何泊なさいますか？		0	0	0																									
+2329	44	14	user	今のところ３泊の予定です。	要求	0	0	0	1227	2329	5	2	３泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+2330	44	15	agent	かしこまりました。		0	0	0																									
+2331	44	16	agent	できるだけ静かなところとなりますと、那覇から離れた北部のビーチリゾートなどはいかがでしょうか？		0	0	0																									
+2332	44	17	user	海水浴することはないと思いますが、波の音が好きなので、海に面した宿が嬉しいですね。	感想	0	0	0	1229	2332	27	5	海に面した	宿	YAEN:宿環境	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+2333	44	18	user	ただ、あまり豪華なリゾートホテルより、小さな宿に泊まりたいんです。	要求	0	0	0	1232	2333	6	3	豪華な	宿	YAEN:宿環境	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						1						
+2333	44	18	user	ただ、あまり豪華なリゾートホテルより、小さな宿に泊まりたいんです。	要求	0	0	0	1233	2333	9	7	リゾートホテル	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						1						
+2333	44	18	user	ただ、あまり豪華なリゾートホテルより、小さな宿に泊まりたいんです。	要求	0	0	0	1234	2333	19	3	小さな	宿	YAEN:宿環境	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+2334	44	19	agent	かしこまりました。		0	0	0																									
+2335	44	20	agent	それでは、海沿いの小さなお宿をお調べいたします。		0	0	0																									
+2336	44	21	agent	お客様はお車でご旅行なさいますか？		0	0	0																									
+2337	44	22	agent	もし公共交通機関をご利用の予定でしたら、空港からお宿まで送迎サービスのあるところをお探ししましょうか？		0	0	0																									
+2338	44	23	user	観光よりも自然を感じてゆっくりしたいので、レンタカーは借りない予定です。	要求	0	0	0	1235	2338	0	2	観光	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	2_neutral	3_strong	2_neutral						1						
+2338	44	23	user	観光よりも自然を感じてゆっくりしたいので、レンタカーは借りない予定です。	要求	0	0	0	1237	2338	5	13	自然を感じてゆっくりしたい	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	3_strong						0						
+2339	44	24	user	確かに、送迎サービスがあると助かります。	はい	0	0	0																									
+2340	44	25	agent	承知しました。		0	0	0																									
+2341	44	26	agent	それでは、送迎サービスのあるお宿をお探しします。		0	0	0																									
+2342	44	27	agent	お食事はいかがなさいますか？		0	0	0																									
+2343	44	28	user	あまりうろうろしたくないので、食事はついている所にしてください。	要求	0	0	0	1239	2343	15	2	食事	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+2344	44	29	agent	かしこまりました。		0	0	0																									
+2345	44	30	agent	朝・夕の２食付きでよろしいでしょうか？		0	0	0																									
+2346	44	31	agent	内容にご希望がございましたら、お聞かせください。		0	0	0																									
+2347	44	32	user	レンタサイクルのサービスをしている宿がいいです。	要求	0	0	0	1240	2347	0	12	レンタサイクルのサービス	サービス	SESE:ホテルサービス	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+2348	44	33	user	無理そうなら、レンタサイクルのお店が近い宿でも構いません。	要求	0	0	0	1241	2348	7	13	レンタサイクルのお店が近い	立地	RIEN:立地 (周辺環境)	1_weak	2_neutral	1_weak		2_neutral							0						
+2349	44	34	agent	かしこまりました。		0	0	0																									
+2350	44	35	agent	レンタサイクルのあるお宿をお調べいたします。		0	0	0																									
+2351	44	36	agent	先ほどのお食事は朝・夕の２食付きでよろしいでしょうか？		0	0	0																									
+2352	44	37	user	あ、そうですね。	はい	0	0	0																									
+2353	44	38	user	２食でいいです。	はい	0	0	0																									
+2354	44	39	user	でもお昼ご飯が食べられるところが自転車圏内にあると助かります。	要求	0	0	0	1242	2354	2	22	お昼ご飯が食べられるところが自転車圏内にある	立地	RIEN:立地 (周辺環境)	1_weak	2_neutral	1_weak		2_neutral	2_neutral						0						
+2355	44	40	user	好き嫌いはないので、なんでも食べます。	伝達	0	0	0																									
+2356	44	41	agent	かしこまりました。		0	0	0																									
+2357	44	42	agent	それでは朝・夕はご用意できるプランにしまして、お昼用に宿の近くに飲食店のあるお宿をお調べいたします。		0	0	0																									
+2358	44	43	agent	ごゆっくりされたいとのことでしたので、アーリーチェックインやレイトチェックアウトのご希望はございますでしょうか？		0	0	0																									
+2359	44	44	user	それは特に考えていないです。	いいえ	0	0	0																									
+2360	44	45	user	時間の長さじゃなくて、とにかく静かで自然がいっぱいで、心がゆったりできる宿が希望です。	要求	0	0	0	1243	2360	15	21	静かで自然がいっぱいで、心がゆったりできる	宿	YAEN:宿環境	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+2361	44	46	agent	かしこまりました。		0	0	0																									
+2362	44	47	agent	それでは、自然に囲まれた宿をお調べいたします。		0	0	0																									
+2363	44	48	agent	他にご希望はございますでしょうか？		0	0	0																									
+2364	44	49	agent	特にございませんでしたら、以上の条件でお宿をお調べいたします。		0	0	0																									
+2365	44	50	user	はい、希望は以上です。	いいえ	0	0	0																									
+2366	44	51	user	よろしくお願いします。	その他	0	0	0																									
+2367	44	52	agent	かしこまりました。		0	0	0																									
+2368	44	53	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+2369	44	54	agent	・日付は２月上旬。		0	0	0																									
+2370	44	55	agent	・宿泊日数は３泊。		0	0	0																									
+2371	44	56	agent	・宿泊地は沖縄県。		0	0	0																									
+2372	44	57	agent	・人数は大人２名。		0	0	0																									
+2373	44	58	agent	・宿タイプは小さな宿を希望。		0	0	0																									
+2374	44	59	agent	・海沿いの自然に囲まれた宿を希望。		0	0	0																									
+2375	44	60	agent	・送迎サービスのある宿を希望。		0	0	0																									
+2376	44	61	agent	・食事は朝・夕２食希望。		0	0	0																									
+2377	44	62	agent	・飲食店が周りにある宿を希望。		0	0	0																									
+2378	44	63	agent	・レンタサイクルのある宿を希望。		0	0	0																									

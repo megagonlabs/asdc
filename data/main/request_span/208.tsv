@@ -1,0 +1,60 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+10688	208	1	agent	この度のご利用、誠にありがとうございます。		0	0	0																									
+10689	208	2	agent	お客様のお宿探しのお手伝いをいたします。		0	0	0																									
+10690	208	3	agent	お客様のご希望をお聞かせいただけますでしょうか？		0	0	0																									
+10691	208	4	user	両親と私で香川県に旅行に行きます。	要求	0	0	0	174	10691	5	3	香川県	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+10691	208	4	user	両親と私で香川県に旅行に行きます。	要求	0	0	0	175	10691	0	4	両親と私	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+10692	208	5	user	オーシャンビューのホテルを探してください。	要求	0	0	0	176	10692	0	8	オーシャンビュー	部屋	HEEN:部屋環境	2_neutral	2_neutral	2_neutral	3_strong	2_neutral	2_neutral						0						
+10692	208	5	user	オーシャンビューのホテルを探してください。	要求	0	0	0	177	10692	9	3	ホテル	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+10693	208	6	agent	オーシャンビューのホテルですね。		0	0	0																									
+10694	208	7	agent	かしこまりました。		0	0	0																									
+10695	208	8	agent	ご旅行のお日にちと泊数を教えていただいてよろしいでしょうか？		0	0	0																									
+10696	208	9	user	６月中旬で、３泊を予定しています。	要求	0	0	0	178	10696	0	4	６月中旬	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	3_strong						0						
+10696	208	9	user	６月中旬で、３泊を予定しています。	要求	0	0	0	179	10696	6	2	３泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+10697	208	10	agent	お日にちの方、かしこまりました。		0	0	0																									
+10698	208	11	agent	ご予算の方はどのくらいでお考えでしょうか？		0	0	0																									
+10699	208	12	user	１人あたり１泊２００００円以内でお願いします。	要求	0	0	0	180	10699	7	8	２００００円以内	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	23	10699	0	2	１人	0						
+10699	208	12	user	１人あたり１泊２００００円以内でお願いします。	要求	0	0	0	180	10699	7	8	２００００円以内	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	24	10699	5	2	１泊	0						
+10700	208	13	user	当日フロントで支払い可能なホテルで。	要求	0	0	0	181	10700	0	12	当日フロントで支払い可能	サービス	SESE:ホテルサービス	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+10700	208	13	user	当日フロントで支払い可能なホテルで。	要求	0	0	0	182	10700	13	3	ホテル	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+10701	208	14	agent	かしこまりました。		0	0	0																									
+10702	208	15	agent	お伝えいただいた条件でお探ししますね。		0	0	0																									
+10703	208	16	agent	お食事の方はいかがなさいましょうか？		0	0	0																									
+10704	208	17	user	朝夕つきのホテルがいいです。	要求	0	0	0	183	10704	0	2	朝夕	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+10704	208	17	user	朝夕つきのホテルがいいです。	要求	0	0	0	184	10704	5	3	ホテル	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+10705	208	18	user	朝ごはんはビュッフェスタイルを希望します。	要求	0	0	0	185	10705	0	14	朝ごはんはビュッフェスタイル	食事	SYNA:食事内容	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+10706	208	19	agent	かしこまりました。		0	0	0																									
+10707	208	20	agent	その条件も加えておきますね。		0	0	0																									
+10708	208	21	agent	夕食の方ですが、大人３名様でのご利用なのでお酒の飲み放題はいかがでしょうか？		0	0	0																									
+10709	208	22	user	両親がお酒大好きなので、それはとても嬉しいです。	はい	0	0	0																									
+10710	208	23	user	あと、バーラウンジのあるホテルがいいです。	要求	0	0	0	187	10710	3	6	バーラウンジ	施設	SHLE:施設条件(レジャー)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+10710	208	23	user	あと、バーラウンジのあるホテルがいいです。	要求	0	0	0	188	10710	12	3	ホテル	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+10711	208	24	agent	バーラウンジがあるホテルですね。		0	0	0																									
+10712	208	25	agent	かしこまりました。		0	0	0																									
+10713	208	26	agent	ホテルまでのご移動は公共交通機関をご利用でしょうか？		0	0	0																									
+10714	208	27	user	はい。	はい	0	0	0																									
+10715	208	28	user	車の免許はないので、空港からバスで１５分以内のホテルがいいです。	要求	0	0	0	189	10715	10	12	空港からバスで１５分以内	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	1_weak						0						
+10715	208	28	user	車の免許はないので、空港からバスで１５分以内のホテルがいいです。	要求	0	0	0	190	10715	23	3	ホテル	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+10716	208	29	agent	かしこまりました。		0	0	0																									
+10717	208	30	agent	空港からバスでご移動でしたら、送迎付きのホテルも条件に加えて、お探ししましょうか？		0	0	0																									
+10718	208	31	user	送迎つきだと助かります。	はい	0	0	0																									
+10719	208	32	user	できれば集合バスではなく、個別送迎がいいです。	要求	0	0	0	191	10719	4	4	集合バス	サービス	SESE:ホテルサービス	1_weak	1_weak	1_weak									1						
+10719	208	32	user	できれば集合バスではなく、個別送迎がいいです。	要求	0	0	0	192	10719	13	4	個別送迎	サービス	SESE:ホテルサービス	1_weak	1_weak	1_weak									0						
+10720	208	33	agent	個別送迎ですね。		0	0	0																									
+10721	208	34	agent	かしこまりました。		0	0	0																									
+10722	208	35	agent	他にご要望はございますか？		0	0	0																									
+10723	208	36	user	ありません。	いいえ	0	0	0																									
+10724	208	37	agent	かしこまりました。		0	0	0																									
+10725	208	38	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+10726	208	39	agent	・行先は香川県		0	0	0																									
+10727	208	40	agent	・人数は大人３人		0	0	0																									
+10728	208	41	agent	・日程は６月中旬に３泊		0	0	0																									
+10729	208	42	agent	・宿はホテル		0	0	0																									
+10730	208	43	agent	・景観はオーシャンビュー		0	0	0																									
+10731	208	44	agent	・予算は１人当たり２万円以内		0	0	0																									
+10732	208	45	agent	・当日フロントで宿泊費の清算が可能		0	0	0																									
+10733	208	46	agent	・朝夕食事付き		0	0	0																									
+10734	208	47	agent	・朝はビュッフェスタイル		0	0	0																									
+10735	208	48	agent	・お酒の飲み放題がある		0	0	0																									
+10736	208	49	agent	・バーラウンジがある		0	0	0																									
+10737	208	50	agent	・個別送迎があるホテル		0	0	0																									

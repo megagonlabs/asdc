@@ -1,0 +1,50 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+8638	162	1	agent	本日はご利用いただきまして、ありがとうございます。		0	0	0																									
+8639	162	2	agent	ご宿泊のご相談を承ります。		0	0	0																									
+8640	162	3	agent	お泊りになる地域、お日付、人数がお決まりでしたら、お聞かせいただけますでしょうか。		0	0	0																									
+8641	162	4	user	徳島県に１２月上旬に３泊で旅行を考えています。	要求	0	0	0	2228	8641	0	3	徳島県	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8641	162	4	user	徳島県に１２月上旬に３泊で旅行を考えています。	要求	0	0	0	2229	8641	4	5	１２月上旬	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	3_strong						0						
+8641	162	4	user	徳島県に１２月上旬に３泊で旅行を考えています。	要求	0	0	0	2230	8641	10	2	３泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8642	162	5	user	妻と友人の夫婦で４人でお願いします。	要求	0	0	0	2232	8642	0	1	妻	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8642	162	5	user	妻と友人の夫婦で４人でお願いします。	要求	0	0	0	2233	8642	2	5	友人の夫婦	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8642	162	5	user	妻と友人の夫婦で４人でお願いします。	要求	0	0	0	2234	8642	8	2	４人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8643	162	6	user	温泉付き旅館を希望で、ゆっくりしながら近くの観光スポット巡りしたいと考えています。	要求	0	0	0	2235	8643	0	6	温泉付き旅館	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+8643	162	6	user	温泉付き旅館を希望で、ゆっくりしながら近くの観光スポット巡りしたいと考えています。	要求	0	0	0	2237	8643	11	4	ゆっくり	宿	YAEN:宿環境	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+8643	162	6	user	温泉付き旅館を希望で、ゆっくりしながら近くの観光スポット巡りしたいと考えています。	要求	0	0	0	2238	8643	19	14	近くの観光スポット巡りしたい	立地	RIAC:立地 (アクティビティ)	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+8644	162	7	agent	かしこまりました。		0	0	0																									
+8645	162	8	agent	その条件でお探ししますね。		0	0	0																									
+8646	162	9	agent	ご予算はどのくらいでお考えでしょうか？		0	0	0																									
+8647	162	10	user	１泊１万５千円／１人　程度でお願いします。	要求	0	0	0	2239	8647	2	5	１万５千円	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral	265	8647	0	2	１泊	0						
+8647	162	10	user	１泊１万５千円／１人　程度でお願いします。	要求	0	0	0	2239	8647	2	5	１万５千円	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral	266	8647	8	2	１人	0						
+8648	162	11	agent	かしこまりました。		0	0	0																									
+8649	162	12	agent	温泉付き旅館ご希望とのことですが、お部屋の数はいかがなさいましょうか？		0	0	0																									
+8650	162	13	user	２部屋でお願いします。	要求	0	0	0	2240	8650	0	3	２部屋	部屋	HENU:部屋数	2_neutral	2_neutral	2_neutral	2_neutral	3_strong	2_neutral						0						
+8651	162	14	agent	２部屋ですね。		0	0	0																									
+8652	162	15	agent	かしこまりました。		0	0	0																									
+8653	162	16	agent	お食事の方はいかがなさいましょうか？		0	0	0																									
+8654	162	17	user	朝夕付きでお願いします。	要求	0	0	0	2241	8654	0	2	朝夕	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+8655	162	18	agent	かしこまりました。		0	0	0																									
+8656	162	19	agent	朝夕どちらもお部屋の食事でよろしいでしょうか？		0	0	0																									
+8657	162	20	user	できれば４人で一緒に食事したいと思っています。	要求	0	0	0	2242	8657	4	11	４人で一緒に食事したい	食事	SYUM:食事有無	1_weak	1_weak	1_weak									0						
+8658	162	21	user	可能な限りお願いします。	その他	0	0	0																									
+8659	162	22	agent	そうしましたら、お食事はバイキング形式でお探ししましょうか？		0	0	0																									
+8660	162	23	user	そうしていただけると嬉しいです。	はい	0	0	0																									
+8661	162	24	agent	かしこまりました。		0	0	0																									
+8662	162	25	agent	また、観光するということで駅までシャトルバスがあるものをお探ししましょうか？		0	0	0																									
+8663	162	26	user	シャトルバスがあると助かります。	はい	0	0	0																									
+8664	162	27	user	レンタカーが必要かと迷っていましたので、駅までバスがあると公共交通機関での移動で済みそうです。	感想	0	0	0	2243	8664	20	8	駅までバスがある	サービス	SESE:ホテルサービス	2_neutral	2_neutral	1_weak	1_weak	2_neutral							0						
+8665	162	28	agent	さようでございますか。		0	0	0																									
+8666	162	29	agent	それなら優先してシャトルバスがあるところをお探ししますね。		0	0	0																									
+8667	162	30	agent	他にご要望はございますか？		0	0	0																									
+8668	162	31	user	以上でお願いします。	いいえ	0	0	0																									
+8669	162	32	agent	かしこまりました。		0	0	0																									
+8670	162	33	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+8671	162	34	agent	・行先は徳島県		0	0	0																									
+8672	162	35	agent	・日程は１２月上旬に３泊		0	0	0																									
+8673	162	36	agent	・人数は大人４人		0	0	0																									
+8674	162	37	agent	・宿は旅館		0	0	0																									
+8675	162	38	agent	・温泉がある		0	0	0																									
+8676	162	39	agent	・部屋数は２部屋		0	0	0																									
+8677	162	40	agent	・朝夕食事あり		0	0	0																									
+8678	162	41	agent	・食事は朝夕バイキング形式		0	0	0																									
+8679	162	42	agent	・駅に向かうシャトルバスがある		0	0	0																									

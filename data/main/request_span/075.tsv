@@ -1,0 +1,64 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+4048	75	1	agent	いらっしゃいませ。		0	0	0																									
+4049	75	2	agent	ご利用いただきまして、ありがとうございます。		0	0	0																									
+4050	75	3	agent	ご宿泊先につきまして、お客様のご希望をお聞かせいただけますでしょうか。		0	0	0																									
+4051	75	4	user	友達とスキー旅行を予定しております。	要求	0	0	0	2074	4051	0	2	友達	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+4051	75	4	user	友達とスキー旅行を予定しております。	要求	0	0	0	2075	4051	3	5	スキー旅行	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+4052	75	5	user	スキー場のすぐそばの宿を探してます。	要求	0	0	0	2076	4052	0	9	スキー場のすぐそば	立地	RIAC:立地 (アクティビティ)	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+4053	75	6	agent	さようでございますか。		0	0	0																									
+4054	75	7	agent	どちらでスキーをなさいますか？		0	0	0																									
+4055	75	8	user	苗場か湯沢かなと思ってます。	要求	0	0	0	2077	4055	0	2	苗場	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	1_weak	1_weak	1_weak						0						
+4055	75	8	user	苗場か湯沢かなと思ってます。	要求	0	0	0	2078	4055	3	2	湯沢	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	1_weak	1_weak	1_weak						0						
+4056	75	9	agent	かしこまりました。		0	0	0																									
+4057	75	10	agent	それでは苗場か湯沢でスキー場の近くのお宿をお調べします。		0	0	0																									
+4058	75	11	agent	お友達とご一緒とのことですが、何名様になりますか？		0	0	0																									
+4059	75	12	user	４名です。	要求	0	0	0	2079	4059	0	2	４名	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+4060	75	13	agent	かしこまりました。		0	0	0																									
+4061	75	14	agent	お日付と宿泊日数はいかがでしょうか？		0	0	0																									
+4062	75	15	user	１月１１日から１泊です。	要求	0	0	0	2080	4062	0	7	１月１１日から	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+4062	75	15	user	１月１１日から１泊です。	要求	0	0	0	2081	4062	7	2	１泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+4063	75	16	agent	承知しました。		0	0	0																									
+4064	75	17	agent	スキーをお楽しみになるとのことですが、スキーリフト券付きのプランはいかがでしょうか？		0	0	0																									
+4065	75	18	agent	お宿とのセットでお得になります。		0	0	0																									
+4066	75	19	user	それはいいですね。	はい	0	0	0																									
+4067	75	20	user	そのプランでお願いします。	はい	0	0	0																									
+4068	75	21	user	あと、スキーで疲れると思うので温泉が宿についてるといいですね。	要求	0	0	0	2082	4068	15	2	温泉	風呂	FUTY:風呂種類	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+4069	75	22	agent	かしこまりました。		0	0	0																									
+4070	75	23	agent	それでは、温泉付きのお宿をお探しします。		0	0	0																									
+4071	75	24	agent	温泉が客室内に付いたお部屋がよろしいでしょうか？		0	0	0																									
+4072	75	25	agent	それともお宿の大浴場の温泉でよろしいでしょうか？		0	0	0																									
+4073	75	26	user	大浴場がいいです。	照応要求	0	0	0	2083	4072	7	3	大浴場	風呂	FUTY:風呂種類	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0		163	4073	0	3	大浴場
+4074	75	27	agent	承知しました。		0	0	0																									
+4075	75	28	agent	それでは、大浴場の温泉が付いたお宿をお調べします。		0	0	0																									
+4076	75	29	agent	４名様のご宿泊ですが、お部屋の数はいくつご利用になりますでしょうか？		0	0	0																									
+4077	75	30	user	女性４名なので１室が希望です。	要求	0	0	0	2084	4077	7	2	１室	部屋	HENU:部屋数	2_neutral	2_neutral	2_neutral	2_neutral	3_strong	2_neutral						0						
+4078	75	31	agent	かしこまりました。		0	0	0																									
+4079	75	32	agent	和室でよろしいでしょうか？		0	0	0																									
+4080	75	33	agent	それとも、トリプルルームにエキストラベッドをお付けできる洋室になさいますか？		0	0	0																									
+4081	75	34	user	和室の方がくつろげるので和室でお願いします。	照応要求	0	0	0	2085	4079	0	2	和室	部屋	HETY:部屋タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0		164	4081	0	2	和室
+4081	75	34	user	和室の方がくつろげるので和室でお願いします。	照応要求	0	0	0	2086	4081	5	5	くつろげる	部屋	HEEN:部屋環境	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+4082	75	35	agent	承知しました。		0	0	0																									
+4083	75	36	agent	それでは和室をお探しします。		0	0	0																									
+4084	75	37	agent	ご宿泊までお日にちがございますが、早割プランはいかがでしょうか？		0	0	0																									
+4085	75	38	agent	キャンセルチャージの発生が早くなりますが、その分、お値段はお求めやすくなります。		0	0	0																									
+4086	75	39	user	早割りプランがあるといいですね。	はい	0	0	0																									
+4087	75	40	user	値段をおさえたいので、そのプランでお願いします。	照応要求	0	0	0	2087	4087	0	8	値段をおさえたい	予算	YOKA:予算感	2_neutral	3_strong	2_neutral	1_weak		2_neutral						0						
+4087	75	40	user	値段をおさえたいので、そのプランでお願いします。	照応要求	0	0	0	2088	4084	17	5	早割プラン	サービス	SESE:ホテルサービス	3_strong	3_strong	2_neutral			2_neutral						0		14	4087	11	5	そのプラン
+4088	75	41	agent	ありがとうございます。		0	0	0																									
+4089	75	42	agent	ほかにご希望はございますでしょうか？		0	0	0																									
+4090	75	43	agent	特にございませんでしたら、以上の条件でお宿をお調べいたします。		0	0	0																									
+4091	75	44	user	食事はバイキング形式を希望します。	要求	0	0	0	2093	4091	0	2	食事	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+4091	75	44	user	食事はバイキング形式を希望します。	要求	0	0	0	2094	4091	3	7	バイキング形式	食事	SYNA:食事内容	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+4092	75	45	agent	かしこまりました。		0	0	0																									
+4093	75	46	agent	それではバイキングをお召し上がりいただけるお宿をお調べします。		0	0	0																									
+4094	75	47	agent	それでは、以下の条件でお調べいたします。		0	0	0																									
+4095	75	48	agent	・日付は１月１１日。		0	0	0																									
+4096	75	49	agent	・宿泊日数は１泊。		0	0	0																									
+4097	75	50	agent	・宿泊地は新潟県の苗場か湯沢。		0	0	0																									
+4098	75	51	agent	・人数は大人４名。		0	0	0																									
+4099	75	52	agent	・部屋数／タイプは和室１室を希望。		0	0	0																									
+4100	75	53	agent	・スキー場に近い宿を希望。		0	0	0																									
+4101	75	54	agent	・スキーリフト券付きのプランを希望。		0	0	0																									
+4102	75	55	agent	・大浴場の温泉が付いた宿を希望。		0	0	0																									
+4103	75	56	agent	・早割プランを希望。		0	0	0																									
+4104	75	57	agent	・食事はバイキングを希望。		0	0	0																									

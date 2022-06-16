@@ -1,0 +1,56 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+2269	43	1	agent	宿予約サービスのご利用ありがとうございます。		0	0	0																									
+2270	43	2	agent	宿について重視したい点をお聞かせください。		0	0	0																									
+2271	43	3	user	来月、北海道に行こうと思ってるんですが、子連れなので、子供向けのサービスが充実している宿がいいなと思ってるんです。	要求	0	0	0	1192	2271	0	2	来月	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	2_neutral	3_strong	3_strong						0						
+2271	43	3	user	来月、北海道に行こうと思ってるんですが、子連れなので、子供向けのサービスが充実している宿がいいなと思ってるんです。	要求	0	0	0	1193	2271	3	3	北海道	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+2271	43	3	user	来月、北海道に行こうと思ってるんですが、子連れなので、子供向けのサービスが充実している宿がいいなと思ってるんです。	要求	0	0	0	1194	2271	20	3	子連れ	旅行	RYSC:旅行シーン	2_neutral	3_strong	2_neutral	3_strong		3_strong						0						
+2271	43	3	user	来月、北海道に行こうと思ってるんですが、子連れなので、子供向けのサービスが充実している宿がいいなと思ってるんです。	要求	0	0	0	1195	2271	27	16	子供向けのサービスが充実している	子供	KOKO:子供用サービス	2_neutral	3_strong	2_neutral	1_weak		2_neutral						0						
+2272	43	4	agent	さようでございますか。		0	0	0																									
+2273	43	5	agent	それでは、お子様が北海道でお楽しみいただけるお宿をお探ししましょう。		0	0	0																									
+2274	43	6	agent	来月のいつごろをお考えでしょうか？		0	0	0																									
+2275	43	7	user	今のところ、４月２２日から２泊の予定です。	要求	0	0	0	1196	2275	6	7	４月２２日から	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+2275	43	7	user	今のところ、４月２２日から２泊の予定です。	要求	0	0	0	1197	2275	13	2	２泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+2276	43	8	user	移動時間がもったいないので、２泊とも同じ宿で取れますか？	要求	0	0	0	1198	2276	18	3	同じ宿	宿	YATY:宿タイプ	2_neutral	1_weak	1_weak	2_neutral			141	2276	14	2	２泊	0						
+2277	43	9	agent	かしこまりました。		0	0	0																									
+2278	43	10	agent	まずお宿のタイプですが、お子様がいらっしゃいますと、親御様は騒いだりするのを心配なさるかと思います。		0	0	0																									
+2279	43	11	agent	ですので、親御様が周りを気にすることなく、ごゆっくりしていただけますよう、１棟貸しのコテージはいかがでしょうか。		0	0	0																									
+2280	43	12	user	そうですね。	はい	0	0	0																									
+2281	43	13	user	子供がまだ小さいので、その方がいいかもしれません。	はい	0	0	0																									
+2282	43	14	user	でも１棟貸しだと値段が高くならないか心配です。	要求	0	0	0	1199	2282	2	4	１棟貸し	宿	YATY:宿タイプ	2_neutral	2_neutral	1_weak	2_neutral	2_neutral							1						
+2282	43	14	user	でも１棟貸しだと値段が高くならないか心配です。	要求	0	0	0	1201	2282	8	5	値段が高く	予算	YOKA:予算感	2_neutral	2_neutral	1_weak	2_neutral	2_neutral							1						
+2283	43	15	agent	かしこまりました。		0	0	0																									
+2284	43	16	agent	何名様でのご利用になりますでしょうか？		0	0	0																									
+2285	43	17	agent	ご予算もあわせてお聞かせいただけますと幸いです。		0	0	0																									
+2286	43	18	user	大人１人と子供２人で３人です。	要求	0	0	0	1202	2286	2	2	１人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+2286	43	18	user	大人１人と子供２人で３人です。	要求	0	0	0	1203	2286	7	2	２人	人数	NIKO:子供人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+2286	43	18	user	大人１人と子供２人で３人です。	要求	0	0	0	1977	2286	10	2	３人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+2287	43	19	user	予算は、２泊合わせて６万円までに抑えたいです。	要求	0	0	0	1204	2287	10	5	６万円まで	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	142	2287	4	2	２泊	0						
+2288	43	20	agent	かしこまりました。		0	0	0																									
+2289	43	21	agent	それでは、皆さまあわせて２泊で６万円で承ります。		0	0	0																									
+2290	43	22	agent	お子様に北海道をお楽しみいただきたいとのことですので、アクティビティができるお宿がよろしいかと思います。		0	0	0																									
+2291	43	23	agent	例えば乗馬などがございますが、何かご希望はございますでしょうか？		0	0	0																									
+2292	43	24	user	アクティビティはまだ具体的に考えてないのですが、子供が旭山動物園に行きたいと言っているので、旭山動物園までのアクセスが良い宿がいいです。	要求	0	0	0	1205	2292	46	15	旭山動物園までのアクセスが良い	立地	RIAC:立地 (アクティビティ)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+2293	43	25	agent	かしこまりました。		0	0	0																									
+2294	43	26	agent	それでは旭山動物園までアクセスのよい場所でお探しします。		0	0	0																									
+2295	43	27	agent	お食事はいかがなさいますか？		0	0	0																									
+2296	43	28	agent	コテージですとキッチンがございますので、ご自身でお料理いただくこともできます。		0	0	0																									
+2297	43	29	agent	もちろん、一部のお食事のみご用意することもできます。		0	0	0																									
+2298	43	30	agent	例えばコテージのベランダでジンギスカンなどお召し上がりになると、お子様がお喜びになられるかと思います。		0	0	0																									
+2299	43	31	user	一人で小さい子供の面倒を見ながら料理するのは難しいです。	要求	0	0	0	1207	2299	16	4	料理する	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						1						
+2300	43	32	user	食事は朝夕ついているところか、近くに飲食店が多い宿がいいです。	要求	0	0	0	1212	2300	3	2	朝夕	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	1_weak						0						
+2300	43	32	user	食事は朝夕ついているところか、近くに飲食店が多い宿がいいです。	要求	0	0	0	1213	2300	15	9	近くに飲食店が多い	立地	RIEN:立地 (周辺環境)	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	1_weak						0						
+2301	43	33	agent	かしこまりました。		0	0	0																									
+2302	43	34	agent	ご希望は他にございますでしょうか？		0	0	0																									
+2303	43	35	agent	特にございませんでしたら、以上の条件でお宿をお調べいたします。		0	0	0																									
+2304	43	36	user	はい、とりあえず以上で大丈夫です。	いいえ	0	0	0																									
+2305	43	37	agent	ご希望をお聞かせくださり、ありがとうございました。		0	0	0																									
+2306	43	38	agent	それでは以下の条件でお調べしますので、よろしくお願いいたします。		0	0	0																									
+2307	43	39	agent	・日付は４月２２日。		0	0	0																									
+2308	43	40	agent	・宿泊日数は２泊。		0	0	0																									
+2309	43	41	agent	・宿泊地は北海道。		0	0	0																									
+2310	43	42	agent	・人数は大人１名、子供２名。		0	0	0																									
+2311	43	43	agent	・宿タイプは１棟貸しのコテージ。		0	0	0																									
+2312	43	44	agent	・予算は合計６万円。		0	0	0																									
+2313	43	45	agent	・食事は２食付きを希望。		0	0	0																									
+2314	43	46	agent	あるいは飲食店が近い宿を希望。		0	0	0																									
+2315	43	47	agent	・旭山動物園までアクセスのよい宿を希望。		0	0	0																									

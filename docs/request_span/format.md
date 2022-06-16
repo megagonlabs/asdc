@@ -1,0 +1,44 @@
+
+# 要望Spanデータフォーマット
+
+- ``utterance_id``: 全ての発話に付与したユニックID
+- ``src_file_id``: 対話セッションに付与したユニックID
+- ``nth``: 対話内における発話のindex
+- ``speaker``: agent or user
+- ``utterance``: 発話テキスト
+- ``speech_act``: 対話行為
+- ``has_typos``: 発話文内にTypoがあるかどうかを示すフラグ
+- ``difficult``: Annotationが迷った時のフラグ
+- ``duplicate``: 重複を示すフラグ
+- ``span_id``: 全てのspanに付与したユニックID
+- ``span_utterance_id``: spanに対応した発話ID
+- ``span_start``: spanの開始位置
+- ``span_length``: spanの長さ
+- ``span_text``: ユーザの要望する条件を示すキーワード(要望span)
+- ``span_type``: 要望spanカテゴリ
+    - `シーン`, `人数`, `子供`, `日程`, `ホテル`, `立地`, `予算`, `食事`, `部屋`, `風呂`, `施設`, `サービス`のいずれか
+- ``span_flag``: 要望spanカテゴリの詳細分類
+- ``importance_abs``: 下記に参照
+- ``importance_abs_2``
+- ``importance_abs_3``
+- ``importance2_abs``
+- ``importance2_abs_2``
+- ``importance2_abs_3``
+- ``sub_span_id``: 全てのsub_spanに付与したユニックID
+- ``sub_span_utterance_id``
+- ``sub_span_start``
+- ``sub_span_length``
+- ``sub_span_text``
+- ``negation``: 要望spanが否定条件かどうか
+- ``memo``: 補足メモ
+- ``demon_span_id``: 下記に参照
+- ``demon_span_utterance_id``
+- ``demon_span_start``
+- ``demon_span_length``
+- ``demon_span_text``
+
+- カラムの説明
+    - `importance_abs{_*}`: 上記重要度基準1の3段階評価(strong/neutral/weak)
+    - `importance2_abs{_*}`: 上記重要度基準2の3段階評価(strong/neutral/weak)
+    - `sub_span_*`: 要望spanを修飾する副キーワード(要望sub_span)
+    - `demon_span_*`: 当該発話範囲外の要望spanに対応する指示表現(「それ」や「二番目」など)

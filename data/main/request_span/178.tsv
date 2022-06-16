@@ -1,0 +1,50 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+9346	178	1	agent	この度のご利用、誠にありがとうございます。		0	0	0																									
+9347	178	2	agent	お客様のお宿探しのお手伝いをいたします。		0	0	0																									
+9348	178	3	agent	お客様のご希望をお聞かせいただけますでしょうか？		0	0	0																									
+9349	178	4	user	６月下旬に夫と子供の３人で３泊で岩手県に行きます。	要求	0	0	0	1354	9349	0	4	６月下旬	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	3_strong						0						
+9349	178	4	user	６月下旬に夫と子供の３人で３泊で岩手県に行きます。	要求	0	0	0	1355	9349	5	4	夫と子供	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9349	178	4	user	６月下旬に夫と子供の３人で３泊で岩手県に行きます。	要求	0	0	0	1356	9349	10	2	３人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9349	178	4	user	６月下旬に夫と子供の３人で３泊で岩手県に行きます。	要求	0	0	0	1358	9349	13	2	３泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9349	178	4	user	６月下旬に夫と子供の３人で３泊で岩手県に行きます。	要求	0	0	0	1359	9349	16	3	岩手県	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9350	178	5	user	まだ季節的に海には入れないと思いますが、海産物などを楽しめたらいいなと思っています。	要求	0	0	0	1360	9350	20	3	海産物	食事	SYNA:食事内容	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+9351	178	6	agent	海産物ですね。		0	0	0																									
+9352	178	7	agent	かしこまりました。		0	0	0																									
+9353	178	8	agent	ご予算の方、お決まりでしたらお聞かせいただけますでしょうか？		0	0	0																									
+9354	178	9	user	３人で４万円以内くらいで考えています。	要求	0	0	0	1361	9354	3	8	４万円以内くらい	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	1_weak	1_weak	1_weak	158	9354	0	2	３人	0						
+9355	178	10	user	おしゃれな感じの旅館に泊まれたら嬉しいです。	要求	0	0	0	1362	9355	0	7	おしゃれな感じ	宿	YAEN:宿環境	1_weak	2_neutral	2_neutral		2_neutral	1_weak						0						
+9355	178	10	user	おしゃれな感じの旅館に泊まれたら嬉しいです。	要求	0	0	0	1363	9355	8	2	旅館	宿	YATY:宿タイプ	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+9356	178	11	agent	かしこまりました。		0	0	0																									
+9357	178	12	agent	その条件でお探ししますね。		0	0	0																									
+9358	178	13	agent	そうしましたら、お部屋から海を見渡せる旅館でお探ししてよろしいでしょうか？		0	0	0																									
+9359	178	14	user	海を見渡せるのは嬉しいです。	はい	0	0	0																									
+9360	178	15	user	お願いします。	その他	0	0	0																									
+9361	178	16	agent	かしこまりました。		0	0	0																									
+9362	178	17	agent	条件に加えておきますね。		0	0	0																									
+9363	178	18	agent	お子様のご年齢はいくつくらいになりますか？		0	0	0																									
+9364	178	19	user	子供は５歳です。	要求	0	0	0	1365	9364	0	5	子供は５歳	子供	KOYO:幼児サービス	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9365	178	20	agent	かしこまりました。		0	0	0																									
+9366	178	21	agent	そうしましたら、未就学児は宿泊料金がお安くなるのも条件に加えておきますね。		0	0	0																									
+9367	178	22	agent	お食事の方はいかがなさいましょうか？		0	0	0																									
+9368	178	23	user	安く抑えられる方がありがたいです。	感想	0	0	0	1366	9368	0	7	安く抑えられる	予算	YOKA:予算感	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+9369	178	24	user	食事は朝食夕食ともに宿でとりたいとおもっています。	要求	0	0	0	1367	9369	3	4	朝食夕食	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+9370	178	25	user	なので食事が美味しい旅館だと嬉しいですね。	要求	0	0	0	1368	9370	3	7	食事が美味しい	食事	SYNA:食事内容	1_weak	2_neutral	1_weak		2_neutral	2_neutral						0						
+9370	178	25	user	なので食事が美味しい旅館だと嬉しいですね。	要求	0	0	0	1369	9370	10	2	旅館	宿	YATY:宿タイプ	1_weak	2_neutral	1_weak		2_neutral	2_neutral						0						
+9371	178	26	agent	かしこまりました。		0	0	0																									
+9372	178	27	agent	初めにお伝えいただいた食事は海産物を希望の条件と合わせてお探ししますね。		0	0	0																									
+9373	178	28	agent	他にご要望はございますか？		0	0	0																									
+9374	178	29	user	ありがとうございます。	その他	0	0	0																									
+9375	178	30	user	子供が小さいので離れの部屋だとより嬉しいです。	要求	0	0	0	1370	9375	8	5	離れの部屋	部屋	HEJO:部屋条件	1_weak	1_weak	1_weak									0						
+9376	178	31	agent	かしこまりました。		0	0	0																									
+9377	178	32	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+9378	178	33	agent	・行先は岩手県		0	0	0																									
+9379	178	34	agent	・日程は６月下旬に３泊		0	0	0																									
+9380	178	35	agent	・人数は大人２人、子供１人		0	0	0																									
+9381	178	36	agent	・予算は３人で４万円以内		0	0	0																									
+9382	178	37	agent	・宿は旅館		0	0	0																									
+9383	178	38	agent	・おしゃれな旅館		0	0	0																									
+9384	178	39	agent	・部屋から海を見渡せる		0	0	0																									
+9385	178	40	agent	・未就学児の宿泊費の割引がある		0	0	0																									
+9386	178	41	agent	・朝夕食事付き		0	0	0																									
+9387	178	42	agent	・食事は美味しい海鮮		0	0	0																									
+9388	178	43	agent	・部屋は離れ		0	0	0																									

@@ -1,0 +1,49 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+7723	142	1	agent	本日はご利用いただきまして、ありがとうございます。		0	0	0																									
+7724	142	2	agent	ご宿泊のご相談を承ります。		0	0	0																									
+7725	142	3	agent	お泊りになる地域、お日付、人数がお決まりでしたら、お聞かせいただけますでしょうか。		0	0	0																									
+7726	142	4	user	秋田県の旅館で探しています。	要求	0	0	0	2567	7726	0	3	秋田県	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7726	142	4	user	秋田県の旅館で探しています。	要求	0	0	0	2569	7726	4	2	旅館	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+7727	142	5	user	大人３人、子供１人です。	要求	0	0	0	2573	7727	0	4	大人３人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7727	142	5	user	大人３人、子供１人です。	要求	0	0	0	2574	7727	5	4	子供１人	人数	NIKO:子供人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7728	142	6	user	７月か８月の夏休み期間で家族旅行を考えています。	要求	0	0	0	2575	7728	0	11	７月か８月の夏休み期間	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	1_weak						0						
+7728	142	6	user	７月か８月の夏休み期間で家族旅行を考えています。	要求	0	0	0	2578	7728	12	4	家族旅行	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7729	142	7	user	年寄りがいるのでバリアフリーなど優しい設備があると嬉しいのですが	要求	0	0	0	2580	7729	8	6	バリアフリー	宿	YAEN:宿環境	1_weak	2_neutral	1_weak		2_neutral	2_neutral						0						
+7730	142	8	agent	かしこまりました。		0	0	0																									
+7731	142	9	agent	まず、ご予算の方はどのくらいでお考えでしょうか？		0	0	0																									
+7732	142	10	user	予算は１人上限３万くらいです。	要求	0	0	0	2583	7732	5	7	上限３万くらい	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	1_weak	1_weak	1_weak	307	7732	3	2	１人	0						
+7733	142	11	agent	かしこまりました。		0	0	0																									
+7734	142	12	agent	ご利用泊数はお決まりでしょうか？		0	0	0																									
+7735	142	13	user	２泊でお願いします	要求	0	0	0	2584	7735	0	2	２泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7736	142	14	agent	かしこまりました。		0	0	0																									
+7737	142	15	agent	バリアフリー設備があるリゾートホテルでお探ししてよろしいでしょうか？		0	0	0																									
+7738	142	16	user	ありがとうございます。	はい	0	0	0																									
+7739	142	17	user	できれば和室希望です。	要求	0	0	0	2586	7739	4	2	和室	部屋	HETY:部屋タイプ	1_weak	1_weak	1_weak									0						
+7740	142	18	user	子供がいるのでお部屋で食事をとれるところでお願いします。	要求	0	0	0	2587	7740	7	10	お部屋で食事をとれる	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+7741	142	19	agent	かしこまりました。		0	0	0																									
+7742	142	20	agent	ご年配の方とお子様もいるのでホテル内にプールがある場所はどうでしょうか？		0	0	0																									
+7743	142	21	agent	ホテル内ならいっしょに行動できると思いますが。		0	0	0																									
+7744	142	22	user	そうですねぇ。	その他	0	0	0																									
+7745	142	23	user	そんなに行動的ではないのでプールは無くて良いかもしれません。	いいえ	0	0	0																									
+7746	142	24	user	良い温泉に入れたら満足だと思います。	要求	0	0	0	2589	7746	2	2	温泉	風呂	FUTY:風呂種類	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+7747	142	25	user	露天風呂に入れると嬉しいです。	要求	0	0	0	2591	7747	0	4	露天風呂	風呂	FUTY:風呂種類	1_weak	2_neutral	1_weak		2_neutral	2_neutral						0						
+7748	142	26	agent	かしこまりました。		0	0	0																									
+7749	142	27	agent	それでしたら、ホテルの露天風呂のほかに露天風呂の付きのお部屋はどうでしょうか？		0	0	0																									
+7750	142	28	user	それでしたら家族で入れるので安心しますので助かります。	感想	0	0	0	2597	7750	6	6	家族で入れる	風呂	FUTY:風呂種類	2_neutral	2_neutral	1_weak	2_neutral	2_neutral							0						
+7750	142	28	user	それでしたら家族で入れるので安心しますので助かります。	感想	0	0	0	2599	7749	19	11	露天風呂の付きのお部屋	部屋	HESE:部屋設備	2_neutral	2_neutral	1_weak	2_neutral	2_neutral							0		15	7750	0	2	それ
+7751	142	29	user	よろしくお願いいたします。	その他	0	0	0																									
+7752	142	30	agent	かしこまりました。		0	0	0																									
+7753	142	31	agent	その条件でお探ししますね。		0	0	0																									
+7754	142	32	agent	他にご要望はございますか？		0	0	0																									
+7755	142	33	user	特にございません。	いいえ	0	0	0																									
+7756	142	34	agent	かしこまりました。		0	0	0																									
+7757	142	35	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+7758	142	36	agent	・行先は秋田県		0	0	0																									
+7759	142	37	agent	・人数は大人３人、子供１人		0	0	0																									
+7760	142	38	agent	・日程は７月か８月で２泊		0	0	0																									
+7761	142	39	agent	・予算は１人３万円以内		0	0	0																									
+7762	142	40	agent	・バリアフリー設備があるリゾートホテル		0	0	0																									
+7763	142	41	agent	・お食事はお部屋で		0	0	0																									
+7764	142	42	agent	・お部屋は和室		0	0	0																									
+7765	142	43	agent	・露天風呂があるリゾートホテル		0	0	0																									
+7766	142	44	agent	・露天風呂付のお部屋		0	0	0																									

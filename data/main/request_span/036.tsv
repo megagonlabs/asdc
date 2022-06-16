@@ -1,0 +1,51 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+1815	36	1	agent	この度はご利用いただきまして、ありがとうございます。		0	0	0																									
+1816	36	2	agent	ご宿泊先につきまして、お客様のご希望をお聞かせいただけますでしょうか。		0	0	0																									
+1817	36	3	user	さくっと有名な神社仏閣巡りしやすい立地のホテルを探しています	要求	0	0	0	1019	1817	4	13	有名な神社仏閣巡りしやすい	立地	RIAC:立地 (アクティビティ)	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+1817	36	3	user	さくっと有名な神社仏閣巡りしやすい立地のホテルを探しています	要求	0	0	0	1020	1817	20	3	ホテル	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+1818	36	4	user	子供がいるので、落ち着いたお寺より景色が良かったり見栄えが良い神社仏閣に行きやすいところがいいです	要求	0	0	0	1021	1818	0	5	子供がいる	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+1818	36	4	user	子供がいるので、落ち着いたお寺より景色が良かったり見栄えが良い神社仏閣に行きやすいところがいいです	要求	0	0	0	1022	1818	8	7	落ち着いたお寺	立地	RIAC:立地 (アクティビティ)	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						1						
+1818	36	4	user	子供がいるので、落ち着いたお寺より景色が良かったり見栄えが良い神社仏閣に行きやすいところがいいです	要求	0	0	0	1023	1818	17	24	景色が良かったり見栄えが良い神社仏閣に行きやすい	立地	RIAC:立地 (アクティビティ)	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+1819	36	5	agent	かしこまりました。		0	0	0																									
+1820	36	6	agent	それでは、京都市内でお探しいたします。		0	0	0																									
+1821	36	7	agent	ご宿泊日と宿泊日数はお決まりでしょうか？		0	0	0																									
+1822	36	8	user	６月１日〜２日　一泊二日の予定です	要求	0	0	0	1024	1822	0	7	６月１日〜２日	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+1822	36	8	user	６月１日〜２日　一泊二日の予定です	要求	0	0	0	1025	1822	8	4	一泊二日	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+1823	36	9	agent	かしこまりました。		0	0	0																									
+1824	36	10	agent	６月ですと梅雨時期ですので、雨に濡れないよう、ターミナル駅のホテルなどがよろしいでしょうか？		0	0	0																									
+1825	36	11	user	そうですね、、ターミナル駅直結だと高そうなので、徒歩１０分以内の駅近ホテルでお願いします	要求	0	0	0	1026	1825	7	8	ターミナル駅直結	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						1						
+1825	36	11	user	そうですね、、ターミナル駅直結だと高そうなので、徒歩１０分以内の駅近ホテルでお願いします	要求	0	0	0	1027	1825	17	3	高そう	予算	YOKA:予算感	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						1						
+1825	36	11	user	そうですね、、ターミナル駅直結だと高そうなので、徒歩１０分以内の駅近ホテルでお願いします	要求	0	0	0	1028	1825	24	10	徒歩１０分以内の駅近	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+1825	36	11	user	そうですね、、ターミナル駅直結だと高そうなので、徒歩１０分以内の駅近ホテルでお願いします	要求	0	0	0	1029	1825	34	3	ホテル	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+1826	36	12	user	朝食バイキング付きだと嬉しいです	要求	0	0	0	1030	1826	0	2	朝食	食事	SYUM:食事有無	1_weak	2_neutral	1_weak		2_neutral	2_neutral						0						
+1826	36	12	user	朝食バイキング付きだと嬉しいです	要求	0	0	0	1031	1826	2	5	バイキング	食事	SYNA:食事内容	1_weak	2_neutral	1_weak		2_neutral	2_neutral	123	1826	0	2	朝食	0						
+1827	36	13	agent	かしこまりました。		0	0	0																									
+1828	36	14	agent	徒歩１０分以内の駅近ホテルで、朝食バイキング付きのプランをお調べいたします。		0	0	0																									
+1829	36	15	agent	宿泊される人数は何名様でしょうか？		0	0	0																									
+1830	36	16	user	大人２人，　子ども２人です	要求	0	0	0	1094	1830	0	4	大人２人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+1830	36	16	user	大人２人，　子ども２人です	要求	0	0	0	1095	1830	6	5	子ども２人	人数	NIKO:子供人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+1831	36	17	agent	かしこまりました。		0	0	0																									
+1832	36	18	agent	お部屋の数はいかがなさいますか？		0	0	0																									
+1833	36	19	user	一部屋が希望ですが、難しかったら二部屋ツインベットでも構いません。	要求	0	0	0	1034	1833	0	3	一部屋	部屋	HENU:部屋数	2_neutral	2_neutral	2_neutral	2_neutral	3_strong	2_neutral						0						
+1833	36	19	user	一部屋が希望ですが、難しかったら二部屋ツインベットでも構いません。	要求	0	0	0	1035	1833	16	3	二部屋	部屋	HENU:部屋数	1_weak	1_weak	1_weak				124	1833	19	6	ツインベット	0						
+1833	36	19	user	一部屋が希望ですが、難しかったら二部屋ツインベットでも構いません。	要求	0	0	0	1036	1833	19	6	ツインベット	部屋	HETY:部屋タイプ	1_weak	1_weak	1_weak				125	1833	16	3	二部屋	0						
+1834	36	20	agent	承知しました。		0	0	0																									
+1835	36	21	agent	お子様はお二人ともベッドをそれぞれご利用になりますか？		0	0	0																									
+1836	36	22	user	はい、もしくは一部屋ツインでエクストラベッド１つ付けてください。	要求	0	0	0	1037	1836	7	3	一部屋	部屋	HENU:部屋数	2_neutral	2_neutral	2_neutral	2_neutral	3_strong	1_weak						0						
+1836	36	22	user	はい、もしくは一部屋ツインでエクストラベッド１つ付けてください。	要求	0	0	0	1038	1836	10	14	ツインでエクストラベッド１つ	部屋	HETY:部屋タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	1_weak						0						
+1837	36	23	user	私と下の子は同じベッドで寝るので	要求	0	0	0	1096	1837	0	11	私と下の子は同じベッド	部屋	HETY:部屋タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+1838	36	24	agent	それでは、ツインルーム２室か、ツインルーム１室にエクストラベッドをご用意できるホテルをお調べいたします。		0	0	0																									
+1839	36	25	agent	最後に、禁煙と喫煙のご希望はございますでしょうか？		0	0	0																									
+1840	36	26	user	禁煙ルームでお願いします	照応要求	0	0	0	1040	1839	4	2	禁煙	部屋	HEJO:部屋条件	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0		111	1840	0	5	禁煙ルーム
+1841	36	27	agent	かしこまりました。		0	0	0																									
+1842	36	28	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+1843	36	29	agent	・日付は６月１日。		0	0	0																									
+1844	36	30	agent	・宿泊日数は１泊。		0	0	0																									
+1845	36	31	agent	・宿泊地は京都市内。		0	0	0																									
+1846	36	32	agent	・人数は大人２名、子供２名。		0	0	0																									
+1847	36	33	agent	・宿タイプはホテル。		0	0	0																									
+1848	36	34	agent	・部屋はツインルーム２室か、ツインルーム１室にエクストラベッドを付けることを希望。		0	0	0																									
+1849	36	35	agent	・有名な神社仏閣巡りをしやすい場所を希望。		0	0	0																									
+1850	36	36	agent	・駅から徒歩１０分以内の場所を希望。		0	0	0																									
+1851	36	37	agent	・食事は朝食バイキングを希望。		0	0	0																									
+1852	36	38	agent	・禁煙ルーム希望。		0	0	0																									

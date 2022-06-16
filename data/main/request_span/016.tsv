@@ -1,0 +1,57 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+805	16	1	agent	本日のご利用、誠にありがとうございます。		0	0	0																									
+806	16	2	agent	お客様がご宿泊先で重視されている点をお聞かせいただけますでしょうか。		0	0	0																									
+807	16	3	user	こんにちは、よろしくお願いします。	その他	0	0	0																									
+808	16	4	user	宿泊先で重視することは、他ではなかなかできない体験をできたり、近くで絶景を見られることです。	要求	0	0	0	602	808	12	17	他ではなかなかできない体験をできた	宿	YAEN:宿環境	2_neutral	3_strong	2_neutral	1_weak		2_neutral						0						
+808	16	4	user	宿泊先で重視することは、他ではなかなかできない体験をできたり、近くで絶景を見られることです。	要求	0	0	0	603	808	31	10	近くで絶景を見られる	部屋	HEEN:部屋環境	3_strong	3_strong	2_neutral	1_weak		2_neutral						0						
+809	16	5	agent	かしこまりました。		0	0	0																									
+810	16	6	agent	それでは、お客様がご宿泊されるお日付と宿泊日数、場所、人数はお決まりでしょうか？		0	0	0																									
+811	16	7	user	会社で振替休暇を９月３日から５日まで取れそうなので、２泊します。	要求	0	0	0	604	811	8	10	９月３日から５日まで	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+811	16	7	user	会社で振替休暇を９月３日から５日まで取れそうなので、２泊します。	要求	0	0	0	605	811	26	2	２泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+812	16	8	user	四国へ行ったことがないので、一人旅しようかと思います。	要求	0	0	0	606	812	0	2	四国	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+812	16	8	user	四国へ行ったことがないので、一人旅しようかと思います。	要求	0	0	0	608	812	14	2	一人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+812	16	8	user	四国へ行ったことがないので、一人旅しようかと思います。	要求	0	0	0	609	812	14	3	一人旅	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+813	16	9	agent	さようでございますか。		0	0	0																									
+814	16	10	agent	四国のどの県・地域か、ご検討なさってらっしゃいますでしょうか？		0	0	0																									
+815	16	11	user	まだ、全然情報を集めていないんです。	伝達	0	0	0																									
+816	16	12	user	特に、どのエリアとかこだわり無いのですが、他では見られないような風景とか絶景とか見に行きたいです。	要求	0	0	0	614	816	21	25	他では見られないような風景とか絶景とか見に行きたい	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	3_strong						0						
+817	16	13	agent	かしこまりました。		0	0	0																									
+818	16	14	agent	それでは、徳島の大歩危・小歩危の渓谷はいかがでしょうか？		0	0	0																									
+819	16	15	user	そういえば、テレビでちょっと見たことがあります。	伝達	0	0	0																									
+820	16	16	user	行ってみたいですね。	はい	0	0	0																									
+821	16	17	user	その地域を中心に計画を立てたいです。	照応要求	0	0	0	618	818	5	13	徳島の大歩危・小歩危の渓谷	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	3_strong						0		5	821	0	4	その地域
+822	16	18	agent	かしこまりました。		0	0	0																									
+823	16	19	agent	それでは、徳島市内で駅にアクセスしやすい立地のホテルはいかがでしょうか？		0	0	0																									
+824	16	20	user	それでお願いします。	はい	0	0	0																									
+825	16	21	agent	かしこまりました。		0	0	0																									
+826	16	22	agent	徳島にご到着後にお荷物を早めに置けるよう、アーリーチェックインができるお宿になさいますか？		0	0	0																									
+827	16	23	agent	それとも、ご到着後、直接観光にまわられますか？		0	0	0																									
+828	16	24	user	まずは観光してから宿泊施設へ移動するので、アーリーチェックインじゃなくても良いです。	要求	0	0	0	622	828	3	2	観光	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+828	16	24	user	まずは観光してから宿泊施設へ移動するので、アーリーチェックインじゃなくても良いです。	要求	0	0	0	623	828	21	10	アーリーチェックイン	サービス	SEIN:チェックイン条件	1_weak	1_weak	1_weak									1						
+829	16	25	agent	承知しました。		0	0	0																									
+830	16	26	agent	ホテルのタイプですが、ビジネスホテルでよろしいでしょうか？		0	0	0																									
+831	16	27	agent	それとも、少し豪華なシティホテルがよろしいですか？		0	0	0																									
+832	16	28	user	宿での滞在時間はそこまで長くないと思うので、豪華じゃなくていいです。	照応要求	0	0	0	624	831	7	2	豪華	宿	YAEN:宿環境	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						1		96	832	22	2	豪華
+833	16	29	agent	かしこまりました。		0	0	0																									
+834	16	30	agent	それではビジネスホテルでお調べいたします。		0	0	0																									
+835	16	31	agent	お部屋の禁煙・喫煙のご希望はございますでしょうか？		0	0	0																									
+836	16	32	user	禁煙でお願いします。	照応要求	0	0	0	625	835	4	2	禁煙	部屋	HEJO:部屋条件	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0		95	836	0	2	禁煙
+837	16	33	agent	かしこまりました。		0	0	0																									
+838	16	34	agent	最後に、お食事はいかがでしょうか？		0	0	0																									
+839	16	35	agent	夕食と朝食はホテルでお召し上がりになられますか？		0	0	0																									
+840	16	36	user	朝食は付けてください。	要求	0	0	0	627	840	0	2	朝食	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+841	16	37	user	夕食は不要です。	要求	0	0	0	628	841	0	2	夕食	食事	SYUM:食事有無	2_neutral	3_strong	2_neutral	2_neutral		2_neutral						1						
+842	16	38	user	せっかくだから、徳島の街に外出してレストランか居酒屋で食べようと思います。	要求	0	0	0	630	842	8	2	徳島	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+842	16	38	user	せっかくだから、徳島の街に外出してレストランか居酒屋で食べようと思います。	要求	0	0	0	632	842	17	5	レストラン	立地	RIEN:立地 (周辺環境)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+842	16	38	user	せっかくだから、徳島の街に外出してレストランか居酒屋で食べようと思います。	要求	0	0	0	633	842	23	3	居酒屋	立地	RIEN:立地 (周辺環境)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+843	16	39	agent	かしこまりました。		0	0	0																									
+844	16	40	agent	朝食のみご希望とのことで承ります。		0	0	0																									
+845	16	41	agent	それでは、以下の条件でお宿をお探しいたします。		0	0	0																									
+846	16	42	agent	・日付は９月３日。		0	0	0																									
+847	16	43	agent	・宿泊日数は２泊。		0	0	0																									
+848	16	44	agent	・宿泊地は徳島市。		0	0	0																									
+849	16	45	agent	・人数は１人。		0	0	0																									
+850	16	46	agent	・宿タイプはビジネスホテルを希望。		0	0	0																									
+851	16	47	agent	・駅にアクセスしやすい宿を希望。		0	0	0																									
+852	16	48	agent	・禁煙ルームを希望。		0	0	0																									
+853	16	49	agent	・食事は朝食のみ希望。		0	0	0																									

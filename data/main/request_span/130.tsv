@@ -1,0 +1,50 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+7244	130	1	user	高知県で２月１８日から２泊したいと考えています。	要求	0	0	0	3148	7244	0	3	高知県	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7244	130	1	user	高知県で２月１８日から２泊したいと考えています。	要求	0	0	0	3149	7244	4	7	２月１８日から	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7244	130	1	user	高知県で２月１８日から２泊したいと考えています。	要求	0	0	0	3150	7244	11	2	２泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7245	130	2	agent	かしこまりました。		0	0	0																									
+7246	130	3	agent	何名様でのご利用でしょうか？		0	0	0																									
+7247	130	4	user	大人１名、子供３名です。	要求	0	0	0	3151	7247	0	4	大人１名	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7247	130	4	user	大人１名、子供３名です。	要求	0	0	0	3152	7247	5	4	子供３名	人数	NIKO:子供人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7248	130	5	agent	かしこまりました。		0	0	0																									
+7249	130	6	agent	ご予算の方はどのくらいでお考えでしょうか？		0	0	0																									
+7250	130	7	user	５万円くらいでと考えています。	要求	0	0	0	3153	7250	0	6	５万円くらい	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	1_weak	1_weak	1_weak						0						
+7251	130	8	agent	かしこまりました。		0	0	0																									
+7252	130	9	agent	そうなるとお宿の方はいかがいたしましょうか？		0	0	0																									
+7253	130	10	agent	旅館、リゾートホテル等ございますが。		0	0	0																									
+7254	130	11	user	リゾートホテルでお願いします。	照応要求	0	0	0	3154	7253	3	7	リゾートホテル	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0		234	7254	0	7	リゾートホテル
+7255	130	12	agent	かしこまりました。		0	0	0																									
+7256	130	13	agent	そうなりますと、ベッドの数はいかがいたしましょうか？		0	0	0																									
+7257	130	14	agent	お子様で小さい子もいるようでしたら、エキストラベッド付きのお部屋でお探しします。		0	0	0																									
+7258	130	15	user	ベットが２つあるとありがたいです。	要求	0	0	0	3155	7258	0	8	ベットが２つある	部屋	HETY:部屋タイプ	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+7259	130	16	user	エキストラベット付きのお部屋でもベット数２つでお願いできますか？	要求	0	0	0	3156	7259	0	10	エキストラベット付き	部屋	HETY:部屋タイプ	2_neutral	1_weak	1_weak	2_neutral								0						
+7259	130	16	user	エキストラベット付きのお部屋でもベット数２つでお願いできますか？	要求	0	0	0	3157	7259	16	6	ベット数２つ	部屋	HETY:部屋タイプ	2_neutral	1_weak	1_weak	2_neutral								0						
+7260	130	17	agent	かしこまりました。		0	0	0																									
+7261	130	18	agent	ツインベッドでエキストラベッド一つの条件でお探ししますね。		0	0	0																									
+7262	130	19	agent	移動の方はお車でしょうか？		0	0	0																									
+7263	130	20	user	移動は車になります。	はい	0	0	0																									
+7264	130	21	user	駐車場はお借りできますか？	要求	0	0	0	3158	7264	0	3	駐車場	サービス	SESE:ホテルサービス	2_neutral	1_weak	1_weak	2_neutral								0						
+7265	130	22	agent	かしこまりました。		0	0	0																									
+7266	130	23	agent	駐車場がお借りできるホテルでお探ししますね。		0	0	0																									
+7267	130	24	agent	お食事の方はいかがなさいますか？		0	0	0																									
+7268	130	25	user	夕食・朝食付きでお願いします。	要求	0	0	0	3159	7268	0	5	夕食・朝食	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+7269	130	26	user	子供の食事ですが、２名分は子供メニューで対応いただけると助かります。	要求	0	0	0	3160	7269	13	6	子供メニュー	子供	KOKO:子供用サービス	1_weak	2_neutral	2_neutral		2_neutral	2_neutral	369	7269	9	3	２名分	0						
+7270	130	27	user	もう一人は通常のメニューで大丈夫です。	要求	0	0	0	3161	7270	5	7	通常のメニュー	食事	SYNA:食事内容	1_weak	2_neutral	2_neutral		2_neutral	2_neutral	370	7270	0	4	もう一人	0						
+7270	130	27	user	もう一人は通常のメニューで大丈夫です。	要求	0	0	0	3161	7270	5	7	通常のメニュー	食事	SYNA:食事内容	1_weak	2_neutral	2_neutral		2_neutral	2_neutral	371	7269	0	5	子供の食事	0						
+7271	130	28	agent	かしこまりました。		0	0	0																									
+7272	130	29	agent	お子様用のメニューがあるホテルでお探しします。		0	0	0																									
+7273	130	30	agent	他にご要望はございますか？		0	0	0																									
+7274	130	31	user	アメニティが充実していると嬉しいです。	要求	0	0	0	3162	7274	0	8	アメニティが充実	部屋	HEAM:部屋アメニティ	1_weak	2_neutral	1_weak		2_neutral	2_neutral						0						
+7275	130	32	agent	かしこまりました。		0	0	0																									
+7276	130	33	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+7277	130	34	user	よろしくお願いします。	その他	0	0	0																									
+7278	130	35	agent	・行先は高知県		0	0	0																									
+7279	130	36	agent	・日程は２月１８日から２泊		0	0	0																									
+7280	130	37	agent	・人数は大人１名、子供２名		0	0	0																									
+7281	130	38	agent	・予算は５万円ほど		0	0	0																									
+7282	130	39	agent	・宿はリゾートホテル		0	0	0																									
+7283	130	40	agent	・お部屋はツイン、エキストラベッド一つ		0	0	0																									
+7284	130	41	agent	・駐車場が借りることができるホテル		0	0	0																									
+7285	130	42	agent	・夕食・朝食付き		0	0	0																									
+7286	130	43	agent	・２名分はお子様用のメニューでご用意		0	0	0																									
+7287	130	44	agent	・アメニティが充実している		0	0	0																									

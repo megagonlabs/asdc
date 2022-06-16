@@ -1,0 +1,49 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+1772	35	1	agent	宿予約サービスのご利用ありがとうございます。		0	0	0																									
+1773	35	2	agent	宿について重視したい点をお聞かせください。		0	0	0																									
+1774	35	3	user	３月２０日から３泊	要求	0	0	0	999	1774	0	7	３月２０日から	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+1774	35	3	user	３月２０日から３泊	要求	0	0	0	1000	1774	7	2	３泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+1778	35	7	agent	かしこまりました。		0	0	0																									
+1779	35	8	agent	それでは、近くで果物狩りやグランピングができるお宿をお探ししましょうか？		0	0	0																									
+1780	35	9	user	はい、お願いいたします。	はい	0	0	0																									
+1781	35	10	user	３月は何の果物狩りが旬ですか？	質問	0	0	0																									
+1782	35	11	agent	山梨で３月にお召し上がりいただけるのは、キウイフルーツとなります。		0	0	0																									
+1783	35	12	agent	お部屋についてですが、何室ご希望でしょうか？		0	0	0																									
+1784	35	13	user	一部屋の大部屋か二部屋ツインでお願いします	要求	0	0	0	1001	1784	0	3	一部屋	部屋	HENU:部屋数	2_neutral	2_neutral	2_neutral	1_weak	1_weak	1_weak	118	1784	4	3	大部屋	0						
+1784	35	13	user	一部屋の大部屋か二部屋ツインでお願いします	要求	0	0	0	1003	1784	8	3	二部屋	部屋	HENU:部屋数	2_neutral	2_neutral	2_neutral	1_weak	1_weak	1_weak	119	1784	11	3	ツイン	0						
+1784	35	13	user	一部屋の大部屋か二部屋ツインでお願いします	要求	0	0	0	1004	1784	4	3	大部屋	部屋	HETY:部屋タイプ	2_neutral	2_neutral	2_neutral	1_weak	1_weak	1_weak	120	1784	0	3	一部屋	0						
+1784	35	13	user	一部屋の大部屋か二部屋ツインでお願いします	要求	0	0	0	1005	1784	11	3	ツイン	部屋	HETY:部屋タイプ	2_neutral	2_neutral	2_neutral	1_weak	1_weak	1_weak	121	1784	8	3	二部屋	0						
+1785	35	14	agent	承知しました。		0	0	0																									
+1786	35	15	agent	それでは大部屋１室かツイン２部屋でお調べいたします。		0	0	0																									
+1787	35	16	user	あと、駅からホテル送迎があると助かります	要求	0	0	0	1006	1787	3	11	駅からホテル送迎がある	サービス	SESE:ホテルサービス	1_weak	2_neutral	1_weak		2_neutral	2_neutral						0						
+1788	35	17	agent	かしこまりました。		0	0	0																									
+1789	35	18	agent	最寄り駅から送迎サービスのあるお宿をお探しします。		0	0	0																									
+1790	35	19	agent	お食事はいかがでしょうか？		0	0	0																									
+1791	35	20	user	山梨の美味しい特産物を宿で食べたいです	要求	0	0	0	1007	1791	0	2	山梨	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+1791	35	20	user	山梨の美味しい特産物を宿で食べたいです	要求	0	0	0	1008	1791	0	10	山梨の美味しい特産物	食事	SYNA:食事内容	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+1792	35	21	agent	かしこまりました。		0	0	0																									
+1793	35	22	agent	それでは山梨の名物料理をお召し上がりいただけるお宿をお調べいたします。		0	0	0																									
+1794	35	23	agent	館内施設でご希望はございますでしょうか？		0	0	0																									
+1795	35	24	user	近代ホテルというより、旅館ぽい雰囲気がいいなと思います	要求	0	0	0	1009	1795	0	5	近代ホテル	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						1						
+1795	35	24	user	近代ホテルというより、旅館ぽい雰囲気がいいなと思います	要求	0	0	0	1010	1795	11	7	旅館ぽい雰囲気	宿	YAEN:宿環境	1_weak	2_neutral	1_weak		2_neutral	2_neutral						0						
+1795	35	24	user	近代ホテルというより、旅館ぽい雰囲気がいいなと思います	要求	0	0	0	1012	1795	11	2	旅館	宿	YATY:宿タイプ	1_weak	2_neutral	1_weak		2_neutral	2_neutral						0						
+1796	35	25	agent	承知しました。		0	0	0																									
+1797	35	26	agent	それでは旅館をお探しいたします。		0	0	0																									
+1798	35	27	agent	３月ですとまだ温泉が気持ちよい季節ですが、温泉があるお宿はいかがでしょうか？		0	0	0																									
+1799	35	28	user	温泉いいですね、ぜひお願いします。	はい	0	0	0																									
+1800	35	29	user	できれば個室に温泉付き（内湯？）が希望です	要求	0	0	0	1084	1800	4	7	個室に温泉付き	部屋	HESE:部屋設備	1_weak	1_weak	1_weak									0						
+1800	35	29	user	できれば個室に温泉付き（内湯？）が希望です	要求	0	0	0	1086	1800	7	2	温泉	風呂	FUTY:風呂種類	1_weak	1_weak	1_weak									0						
+1801	35	30	agent	かしこまりました。		0	0	0																									
+1802	35	31	agent	それでは温泉付き客室をお探しいたします。		0	0	0																									
+1803	35	32	agent	ご希望をお聞かせくださり、ありがとうございました。		0	0	0																									
+1804	35	33	agent	以下の条件でお調べしますので、よろしくお願いいたします。		0	0	0																									
+1805	35	34	agent	・日付は３月２０日。		0	0	0																									
+1806	35	35	agent	・宿泊日数は３泊。		0	0	0																									
+1807	35	36	agent	・宿泊地は山梨県。		0	0	0																									
+1808	35	37	agent	・人数は大人４名。		0	0	0																									
+1809	35	38	agent	・宿タイプは旅館を希望。		0	0	0																									
+1810	35	39	agent	・部屋は大部屋１室かツイン２部屋。		0	0	0																									
+1811	35	40	agent	・近くで果物狩りやグランピングができる宿を希望。		0	0	0																									
+1812	35	41	agent	・最寄り駅から送迎サービスのある宿を希望。		0	0	0																									
+1813	35	42	agent	・食事は山梨の名物料理を希望。		0	0	0																									
+1814	35	43	agent	・温泉付き客室を希望。		0	0	0																									

@@ -1,0 +1,56 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+5063	94	1	agent	いらっしゃいませ。		0	0	0																									
+5064	94	2	agent	ご利用いただきまして、ありがとうございます。		0	0	0																									
+5065	94	3	agent	ご宿泊先をお探しいたします。		0	0	0																									
+5066	94	4	agent	どのような条件をご希望でしょうか？		0	0	0																									
+5067	94	5	user	よろしくお願いします。	その他	0	0	0																									
+5068	94	6	user	１／１３から４泊で、広島をひとり旅したいと思っています。	要求	0	0	0	2797	5068	0	6	１／１３から	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+5068	94	6	user	１／１３から４泊で、広島をひとり旅したいと思っています。	要求	0	0	0	2798	5068	6	2	４泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+5068	94	6	user	１／１３から４泊で、広島をひとり旅したいと思っています。	要求	0	0	0	2799	5068	10	2	広島	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+5068	94	6	user	１／１３から４泊で、広島をひとり旅したいと思っています。	要求	0	0	0	2800	5068	13	4	ひとり旅	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+5068	94	6	user	１／１３から４泊で、広島をひとり旅したいと思っています。	要求	0	0	0	3003	5068	13	3	ひとり	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+5069	94	7	user	瀬戸内海の眺望が楽しめて、しまなみ海道に行きやすい宿を探しています。	要求	0	0	0	2801	5069	0	11	瀬戸内海の眺望が楽しめ	部屋	HEEN:部屋環境	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+5069	94	7	user	瀬戸内海の眺望が楽しめて、しまなみ海道に行きやすい宿を探しています。	要求	0	0	0	2802	5069	13	12	しまなみ海道に行きやすい	立地	RIAC:立地 (アクティビティ)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+5070	94	8	user	一人だと、ちょっと宿に気をつかってしまうので、おひとり様向けプランがある宿だといいなと思っています。	要求	0	0	0	2803	5070	23	10	おひとり様向けプラン	サービス	SESE:ホテルサービス	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+5070	94	8	user	一人だと、ちょっと宿に気をつかってしまうので、おひとり様向けプランがある宿だといいなと思っています。	要求	0	0	0	3004	5070	0	2	一人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+5071	94	9	agent	かしこまりました。		0	0	0																									
+5072	94	10	agent	それでは、瀬戸内海沿いで、しまなみ海道にアクセスしやすいお宿をお探しします。		0	0	0																									
+5073	94	11	agent	おひとり様プランにご関心があるようですが、具体的にご希望の事柄などはございますか？		0	0	0																									
+5074	94	12	user	何となく、一人だと宿側としてはあんまり嬉しくないかと思い、お一人様の宿泊前提のプランがあれば気をつかわないで済むかなあと思っただけで、とくに希望はないです。	要求	0	0	0	2804	5074	29	13	お一人様の宿泊前提のプラン	サービス	SESE:ホテルサービス	1_weak	2_neutral	1_weak		2_neutral							0						
+5074	94	12	user	何となく、一人だと宿側としてはあんまり嬉しくないかと思い、お一人様の宿泊前提のプランがあれば気をつかわないで済むかなあと思っただけで、とくに希望はないです。	要求	0	0	0	3005	5074	5	2	一人	人数	NIOT:大人人数	1_weak	2_neutral	2_neutral		3_strong	3_strong						0						
+5075	94	13	agent	かしこまりました。		0	0	0																									
+5076	94	14	agent	特におひとり様でも問題ございませんので、ご安心ください。		0	0	0																									
+5077	94	15	agent	お部屋ですが、シングルルームでよろしいでしょうか？		0	0	0																									
+5078	94	16	agent	もしごゆっくりお休みになりたいようでしたら、シングルユースのダブルルームもおすすめです。		0	0	0																									
+5079	94	17	user	ゆっくりしたいので、ダブルルームの方がうれしいです。	照応要求	0	0	0	2805	5079	0	7	ゆっくりしたい	部屋	HEEN:部屋環境	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+5079	94	17	user	ゆっくりしたいので、ダブルルームの方がうれしいです。	照応要求	0	0	0	2806	5078	30	6	ダブルルーム	部屋	HETY:部屋タイプ	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0		190	5079	10	6	ダブルルーム
+5080	94	18	agent	では、ダブルルームでお調べします。		0	0	0																									
+5081	94	19	agent	お食事は朝・夕２食付きのプランをご希望でしょうか？		0	0	0																									
+5082	94	20	user	朝だけ付いているプランでお願いします。	要求	0	0	0	2807	5082	0	3	朝だけ	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+5083	94	21	agent	承知しました。		0	0	0																									
+5084	94	22	agent	では、朝食付きのプランをお探しします。		0	0	0																									
+5085	94	23	agent	瀬戸内海が眺められるお宿をご希望とのことでしたが、お部屋からも見える方がよろしいでしょうか？		0	0	0																									
+5086	94	24	user	はい、部屋から見える方がいいです。	はい	0	0	0																									
+5087	94	25	agent	かしこまりました。		0	0	0																									
+5088	94	26	agent	では、オーシャンビューのお部屋をお調べします。		0	0	0																									
+5089	94	27	agent	しまなみ海道をお楽しみになるとのことでしたが、レンタカーやレンタサイクルの手配サービスがあるお宿がよろしいでしょうか？		0	0	0																									
+5090	94	28	user	レンタサイクルが使えると便利そうですが、使いたい時に自分で予約するので、とくにそういうサービスがある宿でなくても大丈夫です。	要求	0	0	0	2808	5090	0	11	レンタサイクルが使える	サービス	SESE:ホテルサービス	1_weak	1_weak	1_weak									0						
+5091	94	29	agent	かしこまりました。		0	0	0																									
+5092	94	30	agent	館内施設ですが、大浴場のあるお宿が人気でございます。		0	0	0																									
+5093	94	31	agent	いかがでしょうか？		0	0	0																									
+5094	94	32	user	大浴場があるといいですね、それでお願いします。	はい	0	0	0																									
+5095	94	33	user	もし温泉の大浴場があるところがあれば、それだと尚嬉しいです。	要求	0	0	0	2809	5095	2	2	温泉	風呂	FUTY:風呂種類	1_weak	1_weak	1_weak									0						
+5095	94	33	user	もし温泉の大浴場があるところがあれば、それだと尚嬉しいです。	要求	0	0	0	2810	5095	5	3	大浴場	風呂	FUTY:風呂種類	1_weak	1_weak	1_weak									0						
+5096	94	34	agent	かしこまりました。		0	0	0																									
+5097	94	35	agent	では、温泉大浴場のあるお宿をお調べします。		0	0	0																									
+5098	94	36	agent	ご希望をお聞かせくださり、ありがとうございました。		0	0	0																									
+5099	94	37	agent	それでは以下の条件でお調べしますので、よろしくお願いいたします。		0	0	0																									
+5100	94	38	agent	・日付は１月１３日。		0	0	0																									
+5101	94	39	agent	・宿泊日数は４泊。		0	0	0																									
+5102	94	40	agent	・宿泊地は広島の瀬戸内海沿い。		0	0	0																									
+5103	94	41	agent	・人数は大人１名。		0	0	0																									
+5104	94	42	agent	・しまなみ海道にアクセスしやすい宿を希望。		0	0	0																									
+5105	94	43	agent	・部屋タイプはシングルユースのダブルルームを希望。		0	0	0																									
+5106	94	44	agent	・オーシャンビューの部屋を希望。		0	0	0																									
+5107	94	45	agent	・食事は朝食付きのプランを希望。		0	0	0																									
+5108	94	46	agent	・温泉大浴場のある宿を希望。		0	0	0																									

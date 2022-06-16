@@ -1,0 +1,45 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+9637	185	1	agent	この度のご利用、誠にありがとうございます。		0	0	0																									
+9638	185	2	agent	お客様のお宿探しのお手伝いをいたします。		0	0	0																									
+9639	185	3	agent	お客様のご希望をお聞かせいただけますでしょうか？		0	0	0																									
+9640	185	4	user	１０月の中頃に大分の温泉に行きたいのですが、高齢の母がいるのでどういうところがいいのか相談したいです。	要求	0	0	0	1183	9640	0	6	１０月の中頃	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	1_weak						0						
+9640	185	4	user	１０月の中頃に大分の温泉に行きたいのですが、高齢の母がいるのでどういうところがいいのか相談したいです。	要求	0	0	0	1184	9640	7	2	大分	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9640	185	4	user	１０月の中頃に大分の温泉に行きたいのですが、高齢の母がいるのでどういうところがいいのか相談したいです。	要求	0	0	0	1185	9640	10	2	温泉	風呂	FUTY:風呂種類	2_neutral	2_neutral	2_neutral	3_strong	2_neutral	2_neutral						0						
+9640	185	4	user	１０月の中頃に大分の温泉に行きたいのですが、高齢の母がいるのでどういうところがいいのか相談したいです。	要求	0	0	0	1186	9640	22	4	高齢の母	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9640	185	4	user	１０月の中頃に大分の温泉に行きたいのですが、高齢の母がいるのでどういうところがいいのか相談したいです。	要求	0	0	0	1187	9640	25	1	母	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9641	185	5	user	あと、私たち夫婦と小学５年です	要求	0	0	0	1189	9641	3	5	私たち夫婦	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9641	185	5	user	あと、私たち夫婦と小学５年です	要求	0	0	0	1190	9641	9	4	小学５年	人数	NIKO:子供人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9641	185	5	user	あと、私たち夫婦と小学５年です	要求	0	0	0	1191	9641	6	2	夫婦	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9642	185	6	agent	かしこまりました。		0	0	0																									
+9643	185	7	agent	そうしましたら、バリアフリー設備があるお宿でお探ししてよろしいでしょうか？		0	0	0																									
+9644	185	8	user	そうですね。	はい	0	0	0																									
+9645	185	9	user	家族風呂みたいな貸し切りだともっといいかも	要求	0	0	0	1200	9645	0	12	家族風呂みたいな貸し切り	風呂	FUTY:風呂種類	1_weak	1_weak	1_weak									0						
+9646	185	10	agent	かしこまりました。		0	0	0																									
+9647	185	11	agent	家族風呂みたいなところをご希望でしたら、自室に露天風呂がある旅館でお探ししましょうか？		0	0	0																									
+10883	185	12	user	そういうのもよいですね。	はい	0	0	0																									
+10884	185	13	user	あまり歩きまわれないので	伝達	0	0	0																									
+9650	185	14	agent	かしこまりました。		0	0	0																									
+9651	185	15	agent	１０月中頃のご旅行ですが、ご利用の泊数はどのくらいでお考えでしょうか？		0	0	0																									
+9652	185	16	user	４泊くらいのんびりしようかなと思ってます。	要求	0	0	0	1206	9652	0	5	４泊くらい	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	1_weak	1_weak	1_weak						0						
+9652	185	16	user	４泊くらいのんびりしようかなと思ってます。	要求	0	0	0	1208	9652	5	4	のんびり	宿	YAEN:宿環境	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+9653	185	17	user	食事も宿でとって、あまり出歩かないイメージです。	要求	0	0	0	1209	9653	0	2	食事	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+9654	185	18	agent	かしこまりました。		0	0	0																									
+9655	185	19	agent	そうしましたら、朝夕食事付きでお探ししますね。		0	0	0																									
+9656	185	20	agent	夕食は地元の海産物のコース料理でお探ししてよろしいでしょうか？		0	0	0																									
+9657	185	21	user	海産物に限らなくてもいいんですけど、大分ならではのものはいただきたいです。	要求	0	0	0	1211	9657	0	3	海産物	食事	SYNA:食事内容	1_weak	1_weak	1_weak									0						
+9657	185	21	user	海産物に限らなくてもいいんですけど、大分ならではのものはいただきたいです。	要求	0	0	0	1214	9657	18	9	大分ならではのもの	食事	SYNA:食事内容	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+9658	185	22	user	できれば部屋食がいいです	要求	0	0	0	1215	9658	4	3	部屋食	食事	SYUM:食事有無	1_weak	1_weak	1_weak									0						
+9659	185	23	agent	かしこまりました。		0	0	0																									
+9660	185	24	agent	仰っていただいた２つの条件でお探ししますね。		0	0	0																									
+9661	185	25	agent	他にご要望はございますか？		0	0	0																									
+9662	185	26	user	一旦これでさがしてください	いいえ	0	0	0																									
+9663	185	27	agent	かしこまりました。		0	0	0																									
+9664	185	28	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+9665	185	29	agent	・行先は大分県		0	0	0																									
+9666	185	30	agent	・人数は大人３人、子供１人		0	0	0																									
+9667	185	31	agent	・バリアフリー設備がある		0	0	0																									
+9668	185	32	agent	・自室に露天風呂がある旅館		0	0	0																									
+9669	185	33	agent	・日程は１０月中頃から４泊		0	0	0																									
+9670	185	34	agent	・朝夕食事付き		0	0	0																									
+9671	185	35	agent	・夕食は大分県ならではの料理		0	0	0																									
+9672	185	36	agent	・部屋でのお食事を希望		0	0	0																									

@@ -1,0 +1,48 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+9857	190	1	agent	本日はご利用いただきまして、ありがとうございます。		0	0	0																									
+9858	190	2	agent	ご宿泊のご相談を承ります。		0	0	0																									
+9859	190	3	agent	お泊りになる地域、お日付、人数がお決まりでしたら、お聞かせいただけますでしょうか。		0	0	0																									
+9860	190	4	user	３月４日から１人旅に出ようと思っています。	要求	0	0	0	654	9860	0	4	３月４日	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9860	190	4	user	３月４日から１人旅に出ようと思っています。	要求	0	0	0	656	9860	6	2	１人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9860	190	4	user	３月４日から１人旅に出ようと思っています。	要求	0	0	0	657	9860	6	3	１人旅	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9861	190	5	user	趣味のカメラで写真を撮るのがメインなので、箱根など、自然豊かで温泉も楽しめる所がいいかなと考えています。	要求	0	0	0	659	9861	21	2	箱根	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	1_weak	3_strong	3_strong						0						
+9861	190	5	user	趣味のカメラで写真を撮るのがメインなので、箱根など、自然豊かで温泉も楽しめる所がいいかなと考えています。	要求	0	0	0	660	9861	26	4	自然豊か	立地	RIEN:立地 (周辺環境)	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+9861	190	5	user	趣味のカメラで写真を撮るのがメインなので、箱根など、自然豊かで温泉も楽しめる所がいいかなと考えています。	要求	0	0	0	661	9861	31	7	温泉も楽しめる	立地	RIAC:立地 (アクティビティ)	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+9861	190	5	user	趣味のカメラで写真を撮るのがメインなので、箱根など、自然豊かで温泉も楽しめる所がいいかなと考えています。	要求	0	0	0	3534	9861	0	12	趣味のカメラで写真を撮る	旅行	RYSC:旅行シーン	3_strong	3_strong	2_neutral			3_strong						0						
+9862	190	6	agent	かしこまりました。		0	0	0																									
+9863	190	7	agent	箱根の宿でお探ししますね。		0	0	0																									
+9864	190	8	agent	３月４日からとのことですが、ご利用の泊数を教えていただいてよろしいでしょうか？		0	0	0																									
+9865	190	9	user	４泊で考えています。	要求	0	0	0	662	9865	0	2	４泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9866	190	10	user	一応、神奈川県内で考えていますので、箱根以外でもいいところがあればそこでも大丈夫です。	要求	0	1	0	664	9866	3	5	神奈川県内	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+9866	190	10	user	一応、神奈川県内で考えていますので、箱根以外でもいいところがあればそこでも大丈夫です。	要求	0	1	0	665	9866	18	17	箱根以外でもいいところがあればそこ	旅行	RYAR:旅行エリア	1_weak	2_neutral	1_weak		2_neutral							0						
+9867	190	11	agent	神奈川県内ですね。		0	0	0																									
+9868	190	12	agent	かしこまりました。		0	0	0																									
+9869	190	13	agent	ご予算の方はどのくらいでお考えでしょうか？		0	0	0																									
+9870	190	14	user	１万円～１万５千円ぐらいですかね、１泊。	要求	0	0	0	666	9870	0	12	１万円～１万５千円ぐらい	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	1_weak	1_weak	1_weak	72	9870	17	2	１泊	0						
+9871	190	15	user	結構早い段階で予約となると、早割とかもあるのでしょうか？	要求	0	0	0	667	9871	14	2	早割	サービス	SESE:ホテルサービス	1_weak	1_weak	1_weak									0						
+9872	190	16	agent	早割が適用される宿ございますよ。		0	0	0																									
+9873	190	17	agent	そちらも条件に加えておきますね。		0	0	0																									
+9874	190	18	agent	温泉をご希望でしたら、温泉旅館でお探ししましょうか？		0	0	0																									
+9875	190	19	user	ありがとうございます、	その他	0	0	0																									
+9876	190	20	user	割引があると嬉しいです。	要求	0	0	0	668	9876	0	5	割引がある	サービス	SESE:ホテルサービス	1_weak	2_neutral	1_weak		2_neutral							0						
+9877	190	21	user	そうですね、宿でゆっくりする時間が多いと思うので、温泉がある旅館でお願いします。	はい	0	0	0																									
+9878	190	22	agent	かしこまりました。		0	0	0																									
+9879	190	23	agent	自然も楽しみたいとのことでしたら、シーズンが春なのでお花見ができる公園の近くでお探ししましょうか？		0	0	0																									
+10888	190	24	user	そうですね、趣味の写真撮影がメインですので。春に咲いている花がある公園があれば、写真も撮りたいですし、行ってみたいです。	はい	0	0	0																									
+9882	190	26	agent	かしこまりました。		0	0	0																									
+9883	190	27	agent	その条件も加えておきますね。		0	0	0																									
+9884	190	28	agent	他にご要望はございますか？		0	0	0																									
+9885	190	29	user	バイクで向かう予定なので、駅からは離れていても大丈夫です。	要求	0	0	0	669	9885	0	3	バイク	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	3_strong						0						
+9885	190	29	user	バイクで向かう予定なので、駅からは離れていても大丈夫です。	要求	0	0	0	670	9885	13	13	駅からは離れていても大丈夫	立地	RIBA:立地 (場所)	1_weak	2_neutral	1_weak		2_neutral							0						
+9886	190	30	agent	バイクですね。		0	0	0																									
+9887	190	31	agent	そうしましたら、駐車場貸出サービスがあるのも条件に加えておきますね。		0	0	0																									
+9888	190	32	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+9889	190	33	agent	・行先は神奈川県		0	0	0																									
+9890	190	34	agent	・人数は大人１人		0	0	0																									
+9891	190	35	agent	・日程は３月４日から４泊		0	0	0																									
+9892	190	36	agent	・予算は１泊１万円～１万５千円ほど		0	0	0																									
+9893	190	37	agent	・早割が適用される宿		0	0	0																									
+9894	190	38	agent	・宿は旅館		0	0	0																									
+9895	190	39	agent	・温泉がある		0	0	0																									
+9896	190	40	agent	・お花見ができる公園が近い		0	0	0																									
+9897	190	41	agent	・駐車場貸出サービスがある		0	0	0																									

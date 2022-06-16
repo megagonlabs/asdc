@@ -1,0 +1,69 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+10278	200	1	agent	本日はご利用いただきまして、ありがとうございます。		0	0	0																									
+10279	200	2	agent	ご宿泊のご相談を承ります。		0	0	0																									
+10280	200	3	agent	お泊りになる地域、お日付、人数がお決まりでしたら、お聞かせいただけますでしょうか。		0	0	0																									
+10281	200	4	user	よろしくお願いします。	その他	0	0	0																									
+10282	200	5	user	来月の上旬に長野に４人（大人３人、子ども１人）で３泊したいと思ってます。	要求	0	0	0	431	10282	0	5	来月の上旬	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	3_strong						0						
+10282	200	5	user	来月の上旬に長野に４人（大人３人、子ども１人）で３泊したいと思ってます。	要求	0	0	0	432	10282	6	2	長野	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+10282	200	5	user	来月の上旬に長野に４人（大人３人、子ども１人）で３泊したいと思ってます。	要求	0	0	0	435	10282	24	2	３泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+10282	200	5	user	来月の上旬に長野に４人（大人３人、子ども１人）で３泊したいと思ってます。	要求	0	0	0	500	10282	12	4	大人３人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+10282	200	5	user	来月の上旬に長野に４人（大人３人、子ども１人）で３泊したいと思ってます。	要求	0	0	0	501	10282	17	5	子ども１人	人数	NIKO:子供人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+10283	200	6	user	東京から車で行って観光しようと思います。	要求	0	0	0	436	10283	4	1	車	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	3_strong						0						
+10283	200	6	user	東京から車で行って観光しようと思います。	要求	0	0	0	437	10283	9	2	観光	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+10284	200	7	user	中心部だと嬉しいです。	要求	0	0	0	438	10284	0	3	中心部	立地	RIBA:立地 (場所)	1_weak	2_neutral	1_weak		2_neutral	2_neutral						0						
+10285	200	8	agent	かしこまりました。		0	0	0																									
+10286	200	9	agent	その条件でお探ししますね。		0	0	0																									
+10287	200	10	agent	ご予算の方はどのくらいでお考えでしょうか？		0	0	0																									
+10288	200	11	user	予算は１人２５０００円以下で、温泉や現地の名物が食べれるプランだと嬉しいです。	要求	0	0	0	439	10288	5	8	２５０００円以下	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	50	10288	3	2	１人	0						
+10288	200	11	user	予算は１人２５０００円以下で、温泉や現地の名物が食べれるプランだと嬉しいです。	要求	0	0	0	440	10288	15	2	温泉	風呂	FUTY:風呂種類	1_weak	2_neutral	1_weak		2_neutral	2_neutral						0						
+10288	200	11	user	予算は１人２５０００円以下で、温泉や現地の名物が食べれるプランだと嬉しいです。	要求	0	0	0	441	10288	18	10	現地の名物が食べれる	食事	SYNA:食事内容	1_weak	2_neutral	1_weak		2_neutral	2_neutral						0						
+10289	200	12	agent	かしこまりました。		0	0	0																									
+10290	200	13	agent	そうしましたら、長野県中心部にある温泉付き旅館でお探ししましょうか？		0	0	0																									
+10291	200	14	user	そうですね！	はい	0	0	0																									
+10292	200	15	user	よろしくお願いします。	その他	0	0	0																									
+10293	200	16	user	駐車場付きの旅館だと嬉しいです。	要求	0	0	0	442	10293	0	3	駐車場	サービス	SESE:ホテルサービス	1_weak	2_neutral	1_weak		2_neutral	2_neutral						0						
+10293	200	16	user	駐車場付きの旅館だと嬉しいです。	要求	0	0	0	443	10293	6	2	旅館	宿	YATY:宿タイプ	1_weak	2_neutral	1_weak		2_neutral	2_neutral						0						
+10294	200	17	agent	駐車場付きの旅館ですね。		0	0	0																									
+10295	200	18	agent	かしこまりました。		0	0	0																									
+10296	200	19	agent	その条件も加えておきます。		0	0	0																									
+10297	200	20	agent	お食事は現地の名物をご希望とのことですが、その名物料理を楽しめる朝夕の食事があるところでお探ししましょうか？		0	0	0																									
+10298	200	21	user	そちらでよろしくお願いします。	はい	0	0	0																									
+10890	200	22	user	日にちも近いので何か割引サービスなどがあれば嬉しいです（直前割など）	要求	0	0	0	444	10890	10	6	割引サービス	サービス	SESE:ホテルサービス	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+10890	200	22	user	日にちも近いので何か割引サービスなどがあれば嬉しいです（直前割など）	要求	0	0	0	445	10890	28	3	直前割	サービス	SESE:ホテルサービス	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+10301	200	24	agent	直前割ですね。		0	0	0																									
+10302	200	25	agent	かしこまりました。		0	0	0																									
+10303	200	26	agent	そちらも条件に加えておきます。		0	0	0																									
+10304	200	27	agent	お部屋のタイプはいかがなさいましょうか？		0	0	0																									
+10305	200	28	agent	和、洋、離れの部屋がございます。		0	0	0																									
+10306	200	29	user	洋室でお願いします。	照応要求	0	0	0	446	10305	2	1	洋	部屋	HETY:部屋タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0		248	10306	0	2	洋室
+10307	200	30	agent	洋室ですね。		0	0	0																									
+10308	200	31	agent	かしこまりました。		0	0	0																									
+10309	200	32	agent	お子様がいらっしゃるので、エキストラベッドが入るお部屋でお探ししましょうか？		0	0	0																									
+10310	200	33	user	そうですね！	はい	0	0	0																									
+10311	200	34	user	それだと助かります。	伝達	0	0	0																									
+10312	200	35	user	ありがとうございます。	その他	0	0	0																									
+10313	200	36	agent	かしこまりました。		0	0	0																									
+10314	200	37	agent	そちらも条件に加えておきます。		0	0	0																									
+10315	200	38	agent	また、お子様がいらっしゃるので、お食事のメニューはお子様用のものがある旅館でお探ししましょうか？		0	0	0																									
+10316	200	39	user	ありがとうございます。	その他	0	0	0																									
+10317	200	40	user	アレルギー等は特にないのでお願いします。	はい	0	0	0																									
+10318	200	41	agent	かしこまりました。		0	0	0																									
+10319	200	42	agent	他にご要望はございますか？		0	0	0																									
+10320	200	43	user	ないです。	いいえ	0	0	0																									
+10321	200	44	user	よろしくお願いします	その他	0	0	0																									
+10322	200	45	agent	かしこまりました。		0	0	0																									
+10323	200	46	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+10324	200	47	agent	・行先は長野県		0	0	0																									
+10325	200	48	agent	・人数は大人３人、子供１人		0	0	0																									
+10326	200	49	agent	・日程は１月上旬に３泊		0	0	0																									
+10327	200	50	agent	・予算は１人２５０００円以下		0	0	0																									
+10328	200	51	agent	・長野中心部にある宿		0	0	0																									
+10329	200	52	agent	・宿は旅館		0	0	0																									
+10330	200	53	agent	・温泉がある		0	0	0																									
+10331	200	54	agent	・駐車場がある		0	0	0																									
+10332	200	55	agent	・朝夕食事付き		0	0	0																									
+10333	200	56	agent	・現地の名物料理がある		0	0	0																									
+10334	200	57	agent	・直前割引が適用される宿		0	0	0																									
+10335	200	58	agent	・部屋は洋室		0	0	0																									
+10336	200	59	agent	・エキストラベッドが入るお部屋		0	0	0																									
+10337	200	60	agent	・お子様用の食事のメニューがある		0	0	0																									

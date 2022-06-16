@@ -1,0 +1,69 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+6372	115	1	agent	本日はご利用いただきまして、誠にありがとうございます。		0	0	0																									
+6373	115	2	agent	お客様のお宿探しのお手伝いをいたします。		0	0	0																									
+6374	115	3	agent	お客様のご希望をお聞かせいただけますでしょうか？		0	0	0																									
+6375	115	4	user	お世話になります。	その他	0	0	0																									
+6376	115	5	user	子どもがいるので、ゲームセンターがついている宿が希望です。	要求	0	0	0	3381	6376	0	3	子ども	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+6376	115	5	user	子どもがいるので、ゲームセンターがついている宿が希望です。	要求	0	0	0	3382	6376	9	7	ゲームセンター	施設	SHLE:施設条件(レジャー)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+6377	115	6	agent	かしこまりました。		0	0	0																									
+6378	115	7	agent	どちらにご宿泊なさいますか？		0	0	0																									
+6379	115	8	user	都心部に近いところがよいです。	要求	0	0	0	3383	6379	0	6	都心部に近い	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	3_strong						0						
+6380	115	9	agent	どちらか都道府県のご希望はございますでしょうか？		0	0	0																									
+6381	115	10	user	愛知県に行こうかと思っています。	要求	0	0	0	3384	6381	0	3	愛知県	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+6382	115	11	agent	かしこまりました。		0	0	0																									
+6383	115	12	agent	それでは、名古屋市内の名古屋駅周辺はいかがでしょうか？		0	0	0																									
+6384	115	13	user	親子で楽しめそうなので良いと思います！	感想	0	0	0	3385	6384	0	8	親子で楽しめそう	立地	RIAC:立地 (アクティビティ)	1_weak	2_neutral	1_weak		2_neutral							0	＃					
+6385	115	14	user	駅からホテルまで送迎が欲しいのですが、そのようなホテルはありますか？	要求	0	0	0	3386	6385	0	10	駅からホテルまで送迎	サービス	SESE:ホテルサービス	2_neutral	1_weak	1_weak	2_neutral								0						
+6385	115	14	user	駅からホテルまで送迎が欲しいのですが、そのようなホテルはありますか？	要求	0	0	0	3387	6385	24	3	ホテル	宿	YATY:宿タイプ	2_neutral	1_weak	1_weak	2_neutral								0						
+6386	115	15	agent	ありがとうございます。		0	0	0																									
+6387	115	16	agent	それでは、名古屋駅周辺でお調べします。		0	0	0																									
+6388	115	17	agent	はい、それでは名古屋駅から無料送迎サービスのあるお宿をお調べしましょうか？		0	0	0																									
+6389	115	18	user	お願いします。	はい	0	0	0																									
+6390	115	19	user	それと、チェックアウトが遅い時間に変更できると嬉しいです。	要求	0	0	0	3388	6390	4	18	チェックアウトが遅い時間に変更できる	サービス	SEOU:チェックアウト条件	1_weak	2_neutral	1_weak		2_neutral	2_neutral						0						
+6391	115	20	agent	かしこまりました。		0	0	0																									
+6392	115	21	agent	それでは、レイトチェックアウトプランをお探しいたします。		0	0	0																									
+6393	115	22	agent	ご宿泊の時期と泊数はお決まりでしょうか？		0	0	0																									
+6394	115	23	user	１０月中旬ごろ、２泊を予定しています。	要求	0	0	0	3389	6394	0	7	１０月中旬ごろ	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	3_strong						0						
+6394	115	23	user	１０月中旬ごろ、２泊を予定しています。	要求	0	0	0	3390	6394	8	2	２泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+6395	115	24	user	土日でなくても大丈夫です。	要求	0	0	0	3391	6395	0	2	土日	スケジュール	SCSE:時期	1_weak	2_neutral	1_weak		3_strong							1	★span範囲に「でなくても大丈夫」入れない					
+6396	115	25	agent	かしこまりました。		0	0	0																									
+6397	115	26	agent	先ほどお子様連れとのお話がございましたが、ご宿泊なさるのは大人・子供それぞれ何名様になりますでしょうか？		0	0	0																									
+6398	115	27	user	失礼しました。	その他	0	0	0																									
+6399	115	28	user	大人２人、子供１人です。	要求	0	0	0	3392	6399	0	4	大人２人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+6399	115	28	user	大人２人、子供１人です。	要求	0	0	0	3393	6399	5	4	子供１人	人数	NIKO:子供人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+6400	115	29	user	子どもがまだ小さいので、できればベッドではなくて布団がいいです。	要求	0	0	0	3394	6400	16	3	ベッド	部屋	HETY:部屋タイプ	1_weak	1_weak	1_weak									1						
+6400	115	29	user	子どもがまだ小さいので、できればベッドではなくて布団がいいです。	要求	0	0	0	3395	6400	24	2	布団	部屋	HETY:部屋タイプ	1_weak	1_weak	1_weak									0						
+6401	115	30	agent	承知しました。		0	0	0																									
+6402	115	31	agent	それでは、皆さまお布団でお休みできる和室１室でお探しします。		0	0	0																									
+6403	115	32	agent	よろしいでしょうか？		0	0	0																									
+6404	115	33	user	お願いします！	はい	0	0	0																									
+6405	115	34	agent	ありがとうございます。		0	0	0																									
+6406	115	35	agent	ご宿泊の際、観光はなさいますか？		0	0	0																									
+6407	115	36	agent	お子様連れですと東山動物園が名古屋にはございますが、動物園の入場券付きプランがある宿もございます。		0	0	0																									
+6408	115	37	agent	お宿とのセットでお得になりますが、いかがでしょうか？		0	0	0																									
+6409	115	38	user	観光のことはまだ考えられていませんでした。	伝達	0	0	0																									
+6410	115	39	user	動物園の入場券付きプランはぜひお願いします！	はい	0	0	0																									
+6411	115	40	agent	かしこまりました。		0	0	0																									
+6412	115	41	agent	それでは入場券付きプランのあるお宿をお探しします。		0	0	0																									
+6413	115	42	agent	最後に、お食事はいかがなさいますか？		0	0	0																									
+6414	115	43	agent	朝・夕２食付きのプランがよろしいでしょうか？		0	0	0																									
+6415	115	44	user	夕食は外で食べたいので、朝食のみのプランをお願いします。	要求	0	0	0	3396	6415	0	2	夕食	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						1						
+6415	115	44	user	夕食は外で食べたいので、朝食のみのプランをお願いします。	要求	0	0	0	3397	6415	0	9	夕食は外で食べたい	立地	RIEN:立地 (周辺環境)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+6415	115	44	user	夕食は外で食べたいので、朝食のみのプランをお願いします。	要求	0	0	0	3398	6415	12	4	朝食のみ	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+6416	115	45	user	部屋で食べられるようにしていただけると助かります。	要求	0	0	0	3399	6416	0	8	部屋で食べられる	食事	SYUM:食事有無	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+6417	115	46	agent	かしこまりました。		0	0	0																									
+6418	115	47	agent	では、お部屋出しの朝食付きプランをお調べします。		0	0	0																									
+6419	115	48	agent	ご希望をお聞かせくださり、ありがとうございました。		0	0	0																									
+6420	115	49	agent	それでは以下の条件でお調べしますので、よろしくお願いいたします。		0	0	0																									
+6421	115	50	agent	・日付は１０月中旬。		0	0	0																									
+6422	115	51	agent	土日でなくてよい。		0	0	0																									
+6423	115	52	agent	・宿泊日数は２泊。		0	0	0																									
+6424	115	53	agent	・宿泊地は愛知県の名古屋市内。		0	0	0																									
+6425	115	54	agent	・人数は大人２名、子供１名。		0	0	0																									
+6426	115	55	agent	・部屋タイプ／数は和室を１室。		0	0	0																									
+6427	115	56	agent	・名古屋駅周辺の宿を希望。		0	0	0																									
+6428	115	57	agent	・名古屋駅から無料送迎サービスのある宿を希望。		0	0	0																									
+6429	115	58	agent	・ゲームセンターが付いている宿を希望。		0	0	0																									
+6430	115	59	agent	・レイトチェックアウトプランを希望。		0	0	0																									
+6431	115	60	agent	・東山動物園の入場券付きプランのある宿を希望。		0	0	0																									
+6432	115	61	agent	・食事は部屋出しの朝食付きのプランを希望。		0	0	0																									

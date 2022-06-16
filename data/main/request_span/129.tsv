@@ -1,0 +1,46 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+7205	129	1	user	１２月１日から群馬県のスキー場の近くで３泊したいと考えています。	要求	0	0	0	3163	7205	0	7	１２月１日から	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7205	129	1	user	１２月１日から群馬県のスキー場の近くで３泊したいと考えています。	要求	0	0	0	3164	7205	7	3	群馬県	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7205	129	1	user	１２月１日から群馬県のスキー場の近くで３泊したいと考えています。	要求	0	0	0	3165	7205	11	7	スキー場の近く	立地	RIAC:立地 (アクティビティ)	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+7205	129	1	user	１２月１日から群馬県のスキー場の近くで３泊したいと考えています。	要求	0	0	0	3166	7205	19	2	３泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+7206	129	2	agent	かしこまりました。		0	0	0																									
+7207	129	3	agent	スキー場ですと併設されてるホテルもございますが、宿の方はいかがいたしましょう？		0	0	0																									
+7208	129	4	user	温泉にも行きたいと考えています。	要求	0	0	0	3167	7208	0	2	温泉	風呂	FUTY:風呂種類	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+7209	129	5	user	スキー場にも温泉にも近い宿はありますか？	要求	0	0	0	3168	7209	0	12	スキー場にも温泉にも近い	立地	RIAC:立地 (アクティビティ)	2_neutral	1_weak	1_weak	1_weak								0						
+7210	129	6	agent	かしこまりました。		0	0	0																									
+7211	129	7	agent	温泉地にも近い宿でお探しします。		0	0	0																									
+7212	129	8	agent	ご予算の方はどのくらいでしょうか？		0	0	0																									
+7213	129	9	user	１名２万円くらいで考えています。	要求	0	0	0	3169	7213	2	6	２万円くらい	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	1_weak	1_weak	1_weak	372	7213	0	2	１名	0						
+7214	129	10	agent	かしこまりました。		0	0	0																									
+7215	129	11	agent	そうなりますと、温泉地に近い旅館の方でお探しします。		0	0	0																									
+7216	129	12	user	温泉地の近くに飲食店はありますか？	要求	0	0	0	3170	7216	7	3	飲食店	立地	RIEN:立地 (周辺環境)	2_neutral	1_weak	1_weak	2_neutral								0						
+7216	129	12	user	温泉地の近くに飲食店はありますか？	要求	0	0	0	3171	7216	0	3	温泉地	立地	RIAC:立地 (アクティビティ)	2_neutral	1_weak	1_weak	2_neutral								0						
+7217	129	13	user	食事をどうするか悩んでいます。	伝達	0	0	0																									
+7218	129	14	agent	飲食店は少ないと思われますので、お食事のコースが豊富な旅館でお探しますが、いかがいたしましょうか？		0	0	0																									
+7219	129	15	user	コース以外に、定食なども用意してもらえる旅館だとありがたいです。	要求	0	0	0	3172	7219	0	3	コース	食事	SYNA:食事内容	2_neutral	1_weak	2_neutral	2_neutral		2_neutral						0						
+7219	129	15	user	コース以外に、定食なども用意してもらえる旅館だとありがたいです。	要求	0	0	0	3173	7219	7	2	定食	食事	SYNA:食事内容	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+7219	129	15	user	コース以外に、定食なども用意してもらえる旅館だとありがたいです。	要求	0	0	0	3174	7219	20	2	旅館	宿	YATY:宿タイプ	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+7220	129	16	user	ナイターでスキーを楽しみたい日があります。	要求	0	0	0	3175	7220	0	14	ナイターでスキーを楽しみたい	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	3_strong						0	＃					
+7221	129	17	agent	定食などもご用意がある旅館ですね。		0	0	0																									
+7222	129	18	agent	かしこまりました。		0	0	0																									
+7223	129	19	agent	ナイターでもお気軽にいけるようにスキー場までシャトルバスがある旅館がございますので、そちらでいかがいたしましょうか？		0	0	0																									
+7224	129	20	user	シャトルバス、ありがたいです。	はい	0	0	0																									
+7225	129	21	user	お願いします！	その他	0	0	0																									
+7226	129	22	agent	かしこまりました。		0	0	0																									
+7227	129	23	agent	そちらの条件でお探ししますね。		0	0	0																									
+7228	129	24	agent	他にご要望はございますか？		0	0	0																									
+7229	129	25	user	車でいく予定です。	要求	0	0	0	3177	7229	0	1	車	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	3_strong						0						
+7230	129	26	user	駐車場はお借りできますか？	要求	0	0	0	3178	7230	0	3	駐車場	サービス	SESE:ホテルサービス	2_neutral	1_weak	1_weak	2_neutral								0						
+7231	129	27	agent	かしこまりました。		0	0	0																									
+7232	129	28	agent	駐車場がある旅館でお探しします。		0	0	0																									
+7233	129	29	user	よろしくお願いします。	その他	0	0	0																									
+7234	129	30	agent	かしこまりました。		0	0	0																									
+7235	129	31	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+7236	129	32	agent	・行先は群馬県		0	0	0																									
+7237	129	33	agent	・日程は１２月１日から３泊		0	0	0																									
+7238	129	34	agent	・スキー場に近い宿		0	0	0																									
+7239	129	35	agent	・温泉地にも近い宿		0	0	0																									
+7240	129	36	agent	・予算は１名２万円ほど		0	0	0																									
+7241	129	37	agent	・定食、コース料理などメニューを多く選べる旅館		0	0	0																									
+7242	129	38	agent	・スキー場までシャトルバスがある旅館		0	0	0																									
+7243	129	39	agent	・駐車場付きの旅館		0	0	0																									

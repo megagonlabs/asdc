@@ -1,0 +1,59 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+4265	79	1	agent	宿予約サービスのご利用ありがとうございます。		0	0	0																									
+4266	79	2	agent	宿について重視したい点をお聞かせください。		0	0	0																									
+4267	79	3	user	温泉も楽しみたいです。	要求	0	0	0	2150	4267	0	2	温泉	風呂	FUTY:風呂種類	2_neutral	3_strong	2_neutral	2_neutral		2_neutral						0						
+4268	79	4	agent	かしこまりました。		0	0	0																									
+4269	79	5	agent	ご宿泊される地域、お日付、人数はお決まりでしょうか？		0	0	0																									
+4270	79	6	user	また、宿にカラオケや遊興施設があると嬉しいです。	要求	0	0	0	2151	4270	5	4	カラオケ	施設	SHLE:施設条件(レジャー)	1_weak	2_neutral	1_weak		2_neutral							0						
+4270	79	6	user	また、宿にカラオケや遊興施設があると嬉しいです。	要求	0	0	0	2152	4270	10	4	遊興施設	施設	SHLE:施設条件(レジャー)	1_weak	2_neutral	1_weak		2_neutral							0						
+10869	79	7	user	札幌から３０分以内で、大人４人で、２月１８日から４泊でお願いします。	要求	0	0	0	2153	10869	0	9	札幌から３０分以内	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+10869	79	7	user	札幌から３０分以内で、大人４人で、２月１８日から４泊でお願いします。	要求	0	0	0	2154	10869	13	2	４人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+10869	79	7	user	札幌から３０分以内で、大人４人で、２月１８日から４泊でお願いします。	要求	0	0	0	2155	10869	17	7	２月１８日から	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+10869	79	7	user	札幌から３０分以内で、大人４人で、２月１８日から４泊でお願いします。	要求	0	0	0	2156	10869	24	2	４泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+4273	79	9	agent	かしこまりました。		0	0	0																									
+4274	79	10	agent	お食事はいかがなさいますか？		0	0	0																									
+4275	79	11	user	夕ごはんのみお願いします。	要求	0	0	0	2157	4275	0	6	夕ごはんのみ	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+4276	79	12	agent	承知しました。		0	0	0																									
+4277	79	13	agent	温泉をご希望とのことですが、お部屋に露天風呂の付いたお宿はいかがでしょうか？		0	0	0																									
+4278	79	14	user	４名で、できれば、和食。	要求	0	0	0	2158	4278	0	2	４名	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+4278	79	14	user	４名で、できれば、和食。	要求	0	0	0	2159	4278	9	2	和食	食事	SYNA:食事内容	1_weak	1_weak	1_weak									0						
+10870	79	15	user	いいですね。露天風呂。	はい	0	0	0																									
+4281	79	17	user	どのくらい費用アップしましか？	質問	1	0	0																									
+4282	79	18	agent	お客様のご予算に合わせてお探しいたします。		0	0	0																									
+4283	79	19	agent	おいくらくらいでお考えでしょうか？		0	0	0																									
+4284	79	20	user	１人あたり、１万５０００円が予算です。	要求	0	0	0	2224	4284	6	7	１万５０００円	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	264	4284	0	2	１人	0						
+4285	79	21	agent	こちらは１泊あたりでよろしいでしょうか？		0	0	0																									
+4286	79	22	user	はい。	はい	0	0	0																									
+4287	79	23	agent	かしこまりました。		0	0	0																									
+4288	79	24	agent	それでは１人１泊１万５０００円で露天風呂付き客室をお調べします。		0	0	0																									
+4289	79	25	agent	ほかにご希望はございますでしょうか？		0	0	0																									
+4290	79	26	user	いえ、大丈夫です。	いいえ	0	0	0																									
+4291	79	27	agent	かしこまりました。		0	0	0																									
+4292	79	28	agent	お宿まではお車でしょうか？		0	0	0																									
+4293	79	29	agent	それとも公共交通機関をご利用でしょうか？		0	0	0																									
+4294	79	30	user	車になります。	照応要求	0	0	0	2161	4292	5	2	お車	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	3_strong						0		170	4294	0	1	車
+4295	79	31	agent	それでは、無料の駐車場付きのお宿をお探ししましょうか？		0	0	0																									
+4296	79	32	user	ありがとうございます。	その他	0	0	0																									
+4297	79	33	user	そうして下さい。	はい	0	0	0																									
+4298	79	34	agent	お部屋は禁煙、喫煙、どちらになさいますか？		0	0	0																									
+4299	79	35	user	できれば禁煙でお願いします。	照応要求	0	0	0	2162	4298	4	2	禁煙	部屋	HEJO:部屋条件	1_weak	1_weak	1_weak									0		171	4299	4	2	禁煙
+4300	79	36	agent	かしこまりました。		0	0	0																									
+4301	79	37	agent	ほかにご希望はございますでしょうか？		0	0	0																									
+10871	79	38	user	因みに、畳でしょうか？ベッドでしょうか？	確認	0	0	0																									
+4304	79	40	agent	どちらをご希望なさいますか？		0	0	0																									
+4305	79	41	user	できれば、畳がいいです。	照応要求	0	0	0	2163	10871	4	1	畳	部屋	HETY:部屋タイプ	1_weak	1_weak	1_weak									0		172	4305	5	1	畳
+4306	79	42	agent	かしこまりました。		0	0	0																									
+4307	79	43	agent	ご希望をお聞かせくださり、ありがとうございました。		0	0	0																									
+4308	79	44	agent	それでは以下の条件でお探しします。		0	0	0																									
+4309	79	45	agent	・日付は２月１８日。		0	0	0																									
+4310	79	46	agent	・宿泊日数は４泊。		0	0	0																									
+4311	79	47	agent	・宿泊地は北海道札幌から３０分以内の場所。		0	0	0																									
+4312	79	48	agent	・人数は大人４名。		0	0	0																									
+4313	79	49	agent	・予算は１人１泊１万５０００円。		0	0	0																									
+4314	79	50	agent	・部屋タイプは畳の和室。		0	0	0																									
+4315	79	51	agent	・温泉がある宿を希望。		0	0	0																									
+4316	79	52	agent	・カラオケや遊興施設がある宿を希望。		0	0	0																									
+4317	79	53	agent	・食事は夕飯のみで、和食を希望。		0	0	0																									
+4318	79	54	agent	・露天風呂付き客室を希望。		0	0	0																									
+4319	79	55	agent	・無料の駐車場付きの宿を希望。		0	0	0																									
+4320	79	56	agent	・禁煙ルームを希望。		0	0	0																									

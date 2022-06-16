@@ -1,0 +1,47 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+8549	160	1	agent	本日はご利用いただきまして、ありがとうございます。		0	0	0																									
+8550	160	2	agent	ご宿泊のご相談を承ります。		0	0	0																									
+8551	160	3	agent	お泊りになる地域、お日付、人数がお決まりでしたら、お聞かせいただけますでしょうか。		0	0	0																									
+8552	160	4	user	１２月下旬に２泊で友人と３名で日光東照宮とその周辺の観光を計画しています。	要求	0	0	0	2260	8552	0	5	１２月下旬	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	3_strong						0						
+8552	160	4	user	１２月下旬に２泊で友人と３名で日光東照宮とその周辺の観光を計画しています。	要求	0	0	0	2261	8552	6	2	２泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8552	160	4	user	１２月下旬に２泊で友人と３名で日光東照宮とその周辺の観光を計画しています。	要求	0	0	0	2262	8552	9	2	友人	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8552	160	4	user	１２月下旬に２泊で友人と３名で日光東照宮とその周辺の観光を計画しています。	要求	0	0	0	2263	8552	12	2	３名	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8552	160	4	user	１２月下旬に２泊で友人と３名で日光東照宮とその周辺の観光を計画しています。	要求	0	0	0	2264	8552	15	13	日光東照宮とその周辺の観光	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	3_strong						0						
+8553	160	5	user	近くで宿泊できる宿を探しています。	要求	0	0	0	2265	8553	0	2	近く	立地	RIAC:立地 (アクティビティ)	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral	270	8552	15	10	日光東照宮とその周辺	0						
+8554	160	6	agent	栃木県の日光東照宮の近くで宿泊できる宿ですね。		0	0	0																									
+8555	160	7	agent	かしこまりました。		0	0	0																									
+8556	160	8	agent	ご予算はどのくらいでお考えでしょうか？		0	0	0																									
+8557	160	9	user	できるだけ宿泊の予算は抑えたく、一人当たり１泊６０００円～８０００円でありますでしょうか。	要求	0	0	0	2266	8557	8	7	予算は抑えたく	予算	YOKA:予算感	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+8557	160	9	user	できるだけ宿泊の予算は抑えたく、一人当たり１泊６０００円～８０００円でありますでしょうか。	要求	0	0	0	2267	8557	23	11	６０００円～８０００円	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	1_weak	271	8557	16	2	一人	0						
+8557	160	9	user	できるだけ宿泊の予算は抑えたく、一人当たり１泊６０００円～８０００円でありますでしょうか。	要求	0	0	0	2267	8557	23	11	６０００円～８０００円	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	1_weak	422	8557	21	2	１泊	0						
+8558	160	10	agent	かしこまりました。		0	0	0																									
+8559	160	11	agent	そうしましたら、ご予約の日程がまだ先なので早割が適用される宿をお探ししましょうか？		0	0	0																									
+8560	160	12	user	ぜひお願いします。	はい	0	0	0																									
+8561	160	13	agent	かしこまりました。		0	0	0																									
+8562	160	14	agent	ご予算が抑えめですと、民宿でお探ししてよろしいでしょうか？		0	0	0																									
+8563	160	15	user	はい、民宿でも大丈夫です。	はい	0	0	0																									
+8564	160	16	agent	かしこまりました。		0	0	0																									
+8565	160	17	agent	東照宮がある日光市内の民宿でお探ししますね。		0	0	0																									
+8566	160	18	agent	お食事の方はいかがなさいましょうか？		0	0	0																									
+8567	160	19	user	朝食だけお願いします。	要求	0	0	0	2268	8567	0	4	朝食だけ	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+8568	160	20	agent	朝食のみですね。		0	0	0																									
+8569	160	21	agent	かしこまりました。		0	0	0																									
+8570	160	22	agent	日光のご観光ということですが、ご移動はお車でしょうか？		0	0	0																									
+8571	160	23	user	車を予定していますが、渋滞がひどそうでしたら公共交通機関で移動も検討しています。	要求	0	0	0	2269	8571	0	1	車	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	1_weak						0						
+8571	160	23	user	車を予定していますが、渋滞がひどそうでしたら公共交通機関で移動も検討しています。	要求	0	0	0	2270	8571	22	6	公共交通機関	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	1_weak	272	8571	11	11	渋滞がひどそうでしたら	0						
+8572	160	24	agent	かしこまりました。		0	0	0																									
+8573	160	25	agent	そうしましたら、駐車場があることと駅の近くにあることも条件に加えておきますね。		0	0	0																									
+8574	160	26	agent	ほかにご要望はございますか？		0	0	0																									
+8575	160	27	user	以上でお願いします。	いいえ	0	0	0																									
+8576	160	28	agent	かしこまりました。		0	0	0																									
+8577	160	29	agent	それでは以下のご希望条件に合うお宿をお探しします。		0	0	0																									
+8578	160	30	agent	・行先は栃木県		0	0	0																									
+8579	160	31	agent	・人数は大人３人		0	0	0																									
+8580	160	32	agent	・日程は１２月下旬に２泊		0	0	0																									
+8581	160	33	agent	・予算は一人当たり１泊６０００円から８０００円		0	0	0																									
+8582	160	34	agent	・早割が適用される		0	0	0																									
+8583	160	35	agent	・宿は民宿		0	0	0																									
+8584	160	36	agent	・日光市内の民宿		0	0	0																									
+8585	160	37	agent	・朝食のみ		0	0	0																									
+8586	160	38	agent	・駐車場貸出サービスがある		0	0	0																									
+8587	160	39	agent	・駅の近くにある民宿		0	0	0																									

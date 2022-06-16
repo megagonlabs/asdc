@@ -1,0 +1,61 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+210	5	1	agent	いらっしゃいませ。		0	0	0																									
+211	5	2	agent	ご利用ありがとうございます。		0	0	0																									
+212	5	3	agent	お客様のお宿探しのお手伝いをいたします。		0	0	0																									
+213	5	4	agent	ご旅行される地域やお日付、人数などはお決まりでしょうか。		0	0	0																									
+214	5	5	user	来月中ごろに、家族３人で高知県に行こうと思ってます。	要求	0	0	0	68	214	0	5	来月中ごろ	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	1_weak	1_weak	1_weak						0						
+214	5	5	user	来月中ごろに、家族３人で高知県に行こうと思ってます。	要求	0	0	0	69	214	7	2	家族	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+214	5	5	user	来月中ごろに、家族３人で高知県に行こうと思ってます。	要求	0	0	0	70	214	9	2	３人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+214	5	5	user	来月中ごろに、家族３人で高知県に行こうと思ってます。	要求	0	0	0	71	214	12	3	高知県	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+215	5	6	user	日付はまだ決まってないです。	いいえ	0	0	0																									
+216	5	7	agent	かしこまりました。		0	0	0																									
+217	5	8	agent	ご家族でのご旅行とのことですが、観光でしょうか？		0	0	0																									
+218	5	9	user	はい、帰省で行くのですが、一応実家の近くに宿を取ろうと思ってます。	はい	0	0	0																									
+219	5	10	agent	さようでございますか。		0	0	0																									
+220	5	11	agent	それでは、お宿のタイプですが、ホテル、旅館などのご希望はございますか？		0	0	0																									
+221	5	12	user	全然小さい旅館で大丈夫です。	照応要求	0	0	0	72	221	2	3	小さい	宿	YAEN:宿環境	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+221	5	12	user	全然小さい旅館で大丈夫です。	照応要求	0	0	0	73	220	19	2	旅館	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0		77	221	5	2	旅館
+222	5	13	agent	かしこまりました。		0	0	0																									
+223	5	14	agent	ご実家の近くとのことですが、高知市内でよろしいでしょうか？		0	0	0																									
+224	5	15	user	はい、高知市内でお願いします。	はい	0	0	0																									
+225	5	16	agent	承知しました。		0	0	0																									
+226	5	17	agent	それでは、高知市内の小さな旅館をお調べいたします。		0	0	0																									
+227	5	18	agent	ご旅行される３名様は皆さま中学生以上でしょうか？		0	0	0																									
+228	5	19	user	大人２人と、あと高校生が１人います。	要求	0	0	0	74	228	2	2	２人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+228	5	19	user	大人２人と、あと高校生が１人います。	要求	0	0	0	75	228	12	2	１人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong	10	228	8	3	高校生	0						
+229	5	20	agent	かしこまりました。		0	0	0																									
+230	5	21	agent	それではお代金は皆さま大人料金となりますので、ご了承ください。		0	0	0																									
+231	5	22	agent	ご実家への帰省とのことですが、お食事はいかがいたしましょうか？		0	0	0																									
+232	5	23	user	食事は全部無しで大丈夫です。	要求	0	0	0	76	232	0	2	食事	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						1						
+233	5	24	agent	承知しました。		0	0	0																									
+234	5	25	agent	お部屋は皆さまご一緒でよろしいでしょうか？		0	0	0																									
+235	5	26	user	部屋は２部屋に分けたくて、子ども用に１部屋分あるとよさそうです。	要求	0	0	0	77	235	3	3	２部屋	部屋	HENU:部屋数	2_neutral	2_neutral	2_neutral	2_neutral	3_strong	2_neutral						0						
+235	5	26	user	部屋は２部屋に分けたくて、子ども用に１部屋分あるとよさそうです。	要求	0	0	0	79	235	18	3	１部屋	部屋	HENU:部屋数	1_weak	2_neutral	2_neutral		3_strong	2_neutral	11	235	13	4	子ども用	0						
+236	5	27	agent	かしこまりました。		0	0	0																									
+237	5	28	agent	それでは２部屋ご利用とのことで承ります。		0	0	0																									
+238	5	29	agent	ご宿泊される方の中に、おタバコを吸われる方はいらっしゃいますでしょうか？		0	0	0																									
+239	5	30	agent	２部屋とも禁煙でよろしいでしょうか？		0	0	0																									
+240	5	31	user	大人２人がいるほうの部屋は喫煙可だとよいです。	照応要求	0	0	0	81	238	11	9	おタバコを吸われる	部屋	HEJO:部屋条件	1_weak	2_neutral	2_neutral		2_neutral	2_neutral	12	240	0	12	大人２人がいるほうの部屋	0	＄	78	240	13	3	喫煙可
+241	5	32	user	もう１部屋は禁煙でお願いします。	照応要求	0	0	0	82	239	5	2	禁煙	部屋	HEJO:部屋条件	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	13	241	0	5	もう１部屋	0	＄	79	241	6	2	禁煙
+242	5	33	agent	かしこまりました。		0	0	0																									
+243	5	34	agent	それでは１部屋が喫煙可、もう１部屋は禁煙のお部屋をご用意いたします。		0	0	0																									
+244	5	35	agent	ほかにご希望されるお宿の条件はございますでしょうか？		0	0	0																									
+245	5	36	user	あと、小さい旅館でいいので、３人で予算は２万円に抑えられたらうれしいです。	要求	0	0	0	84	245	3	3	小さい	宿	YAEN:宿環境	1_weak	2_neutral	1_weak		2_neutral	2_neutral						0						
+245	5	36	user	あと、小さい旅館でいいので、３人で予算は２万円に抑えられたらうれしいです。	要求	0	0	0	85	245	6	2	旅館	宿	YATY:宿タイプ	1_weak	2_neutral	1_weak		2_neutral	2_neutral						0						
+245	5	36	user	あと、小さい旅館でいいので、３人で予算は２万円に抑えられたらうれしいです。	要求	0	0	0	86	245	20	3	２万円	予算	YOYO:予算	1_weak	2_neutral	1_weak	2_neutral	2_neutral	2_neutral	15	245	14	3	３人で	0						
+246	5	37	agent	かしこまりました。		0	0	0																									
+247	5	38	agent	それでは３名様全員でご予算２万円でお調べいたします。		0	0	0																									
+248	5	39	agent	ご宿泊の日数は１泊でよろしいでしょうか？		0	0	0																									
+249	5	40	user	２泊で考えてます。	要求	0	0	0	87	249	0	2	２泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	2_neutral	3_strong	3_strong						0						
+250	5	41	agent	かしこまりました。		0	0	0																									
+251	5	42	agent	ご希望をお聞かせくださり、ありがとうございました。		0	0	0																									
+252	5	43	agent	それでは以下の条件でお調べしますので、よろしくお願いいたします。		0	0	0																									
+253	5	44	agent	・時期は７月中旬。		0	0	0																									
+254	5	45	agent	・宿泊日数は２泊。		0	0	0																									
+255	5	46	agent	・人数は大人３名。		0	0	0																									
+256	5	47	agent	・部屋数は２部屋。		0	0	0																									
+257	5	48	agent	・場所は高知市内。		0	0	0																									
+258	5	49	agent	・宿タイプは小さな旅館を希望。		0	0	0																									
+259	5	50	agent	・予算は３名で２万円。		0	0	0																									
+260	5	51	agent	・食事は不要。		0	0	0																									
+261	5	52	agent	・タバコは喫煙１部屋、禁煙１部屋を希望。		0	0	0																									

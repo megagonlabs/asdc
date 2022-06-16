@@ -1,0 +1,64 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+8408	157	1	agent	この度のご利用、誠にありがとうございます。		0	0	0																									
+8409	157	2	agent	お客様のお宿探しのお手伝いをいたします。		0	0	0																									
+8410	157	3	agent	お客様のご希望をお聞かせいただけますでしょうか？		0	0	0																									
+8411	157	4	user	１２月末に私達夫婦と父、母の４人で福井に行きたいと思っています。	要求	0	0	0	2298	8411	0	4	１２月末	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	3_strong						0						
+8411	157	4	user	１２月末に私達夫婦と父、母の４人で福井に行きたいと思っています。	要求	0	0	0	2299	8411	5	4	私達夫婦	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8411	157	4	user	１２月末に私達夫婦と父、母の４人で福井に行きたいと思っています。	要求	0	0	0	2301	8411	10	3	父、母	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8411	157	4	user	１２月末に私達夫婦と父、母の４人で福井に行きたいと思っています。	要求	0	0	0	2302	8411	14	2	４人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8411	157	4	user	１２月末に私達夫婦と父、母の４人で福井に行きたいと思っています。	要求	0	0	0	2303	8411	17	2	福井	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8412	157	5	user	なるべく自然を楽しみたく宿は温泉付きでゆっくりできるところが希望です。	要求	0	0	0	2304	8412	4	8	自然を楽しみたく	立地	RIEN:立地 (周辺環境)	1_weak	2_neutral	1_weak		2_neutral							0						
+8412	157	5	user	なるべく自然を楽しみたく宿は温泉付きでゆっくりできるところが希望です。	要求	0	0	0	2305	8412	14	2	温泉	風呂	FUTY:風呂種類	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+8412	157	5	user	なるべく自然を楽しみたく宿は温泉付きでゆっくりできるところが希望です。	要求	0	0	0	2306	8412	19	7	ゆっくりできる	宿	YAEN:宿環境	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+8413	157	6	agent	自然豊かな温泉宿ですね。		0	0	0																									
+8414	157	7	agent	かしこまりました。		0	0	0																									
+8415	157	8	agent	ご利用泊数はお決まりでしょうか？		0	0	0																									
+8416	157	9	user	１２月２２日から４泊です。	要求	0	0	0	2307	8416	0	8	１２月２２日から	スケジュール	SCDA:宿泊日	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8416	157	9	user	１２月２２日から４泊です。	要求	0	0	0	2308	8416	8	2	４泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+8417	157	10	agent	４泊ですね。		0	0	0																									
+8418	157	11	agent	かしこまりました。		0	0	0																									
+8419	157	12	agent	ご予算はどのくらいでお考えでしょうか？		0	0	0																									
+8420	157	13	user	１人２万円／１泊　以内でお願いします。	要求	0	0	0	2309	8420	2	3	２万円	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	277	8420	0	2	１人	0						
+8420	157	13	user	１人２万円／１泊　以内でお願いします。	要求	0	0	0	2309	8420	2	3	２万円	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	278	8420	6	2	１泊	0						
+8421	157	14	agent	かしこまりました。		0	0	0																									
+8422	157	15	agent	その条件でお探ししますね。		0	0	0																									
+8423	157	16	agent	そうなりますと、露天風呂がある山間の旅館はいかがでしょうか？		0	0	0																									
+8424	157	17	user	いいですね。	はい	0	0	0																									
+8425	157	18	user	そのようなところをイメージしていました。	伝達	0	0	0																									
+8426	157	19	agent	ありがとうございます。		0	0	0																									
+8427	157	20	agent	この条件も加えておきますね。		0	0	0																									
+8428	157	21	agent	お部屋の数はいかがいたしましょう？		0	0	0																									
+8429	157	22	user	和室２部屋で禁煙でお願いします。	要求	0	0	0	2310	8429	0	2	和室	部屋	HETY:部屋タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+8429	157	22	user	和室２部屋で禁煙でお願いします。	要求	0	0	0	2311	8429	2	3	２部屋	部屋	HENU:部屋数	2_neutral	2_neutral	2_neutral	2_neutral	3_strong	2_neutral						0						
+8429	157	22	user	和室２部屋で禁煙でお願いします。	要求	0	0	0	2312	8429	6	2	禁煙	部屋	HEJO:部屋条件	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+8430	157	23	agent	和室二部屋禁煙ですね。		0	0	0																									
+8431	157	24	agent	かしこまりました。		0	0	0																									
+8432	157	25	agent	朝夕のお食事はいかがいたしましょう？		0	0	0																									
+8433	157	26	user	朝夕の食事付きでお願いします。	要求	0	0	0	2313	8433	0	2	朝夕	食事	SYUM:食事有無	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+8434	157	27	agent	かしこまりました。		0	0	0																									
+8435	157	28	agent	夕食の内容ですが、地元の海産物のコースがある旅館をお探ししてよろしいでしょうか？		0	0	0																									
+8436	157	29	user	予算内で可能でしたらぜひお願いします。	照応要求	0	0	0	2314	8436	0	3	予算内	予算	YOYO:予算	2_neutral	2_neutral	1_weak	2_neutral	2_neutral							0						
+8436	157	29	user	予算内で可能でしたらぜひお願いします。	照応要求	0	0	0	2315	8435	12	7	海産物のコース	食事	SYNA:食事内容	2_neutral	2_neutral	1_weak	1_weak	2_neutral		421	8436	0	3	予算内	0		47	8436	10	8	ぜひお願いします
+8437	157	30	agent	かしこまりました。		0	0	0																									
+8438	157	31	agent	条件に加えておきます。		0	0	0																									
+8439	157	32	agent	他にご要望はございますか？		0	0	0																									
+8440	157	33	user	車か新幹線で行こうか迷っていますが、おすすめはありますか？	要求	0	0	0	2316	8440	0	1	車	立地	RIBA:立地 (場所)	2_neutral	1_weak	1_weak	1_weak								0						
+8440	157	33	user	車か新幹線で行こうか迷っていますが、おすすめはありますか？	要求	0	0	0	2317	8440	2	3	新幹線	立地	RIBA:立地 (場所)	2_neutral	1_weak	1_weak	1_weak								0						
+8441	157	34	agent	新幹線でしたらその交通費を込みにして割引があるプランがございます。		0	0	0																									
+8442	157	35	agent	条件に加えておきましょうか？		0	0	0																									
+8443	157	36	user	お願いします。	はい	0	0	0																									
+8444	157	37	agent	かしこまりました。		0	0	0																									
+8445	157	38	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+8446	157	39	agent	・行先は福井県		0	0	0																									
+8447	157	40	agent	・日程は１２月２２日から４泊		0	0	0																									
+8448	157	41	agent	・人数は大人４名		0	0	0																									
+8449	157	42	agent	・予算は１人１泊２万円以内		0	0	0																									
+8450	157	43	agent	・宿は旅館		0	0	0																									
+8451	157	44	agent	・露天風呂がある		0	0	0																									
+8452	157	45	agent	・山間にある		0	0	0																									
+8453	157	46	agent	・部屋の数は２つ		0	0	0																									
+8454	157	47	agent	・部屋は和室		0	0	0																									
+8455	157	48	agent	・禁煙のお部屋		0	0	0																									
+8456	157	49	agent	・朝夕のお食事付き		0	0	0																									
+8457	157	50	agent	・夕食は地元の海産物のコース料理		0	0	0																									
+8458	157	51	agent	・新幹線の交通費込みの割引がある旅館		0	0	0																									

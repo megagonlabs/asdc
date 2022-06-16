@@ -1,0 +1,67 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+1	1	1	agent	この度はご利用いただきまして、ありがとうございます。		0	0	0																									
+2	1	2	agent	ご宿泊のご相談を承ります。		0	0	0																									
+3	1	3	agent	はじめにご宿泊地、お日付、人数をお聞かせいただけますでしょうか。		0	0	0																									
+10839	1	4	user	お盆頃に、娘と２人で島根に行こうとおもってます。	要求	0	0	0	7	10839	0	3	お盆頃	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	1_weak	1_weak	1_weak						0						
+10839	1	4	user	お盆頃に、娘と２人で島根に行こうとおもってます。	要求	0	0	0	8	10839	7	2	２人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+10839	1	4	user	お盆頃に、娘と２人で島根に行こうとおもってます。	要求	0	0	0	9	10839	10	2	島根	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+10839	1	4	user	お盆頃に、娘と２人で島根に行こうとおもってます。	要求	0	0	0	273	10839	5	1	娘	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+5	1	5	agent	かしこまりました。		0	0	0																									
+6	1	6	agent	お子様はベッドをご利用になられますか？		0	0	0																									
+7	1	7	user	はい、ベッドでいいと思います。	はい	0	0	0																									
+8	1	8	agent	かしこまりました。		0	0	0																									
+9	1	9	agent	お宿のタイプはホテルと旅館、どちらがよろしいでしょうか？		0	0	0																									
+10	1	10	user	清潔な感じのホテルの方がいいかなとは思ってます。	要求	0	0	0	11	10	0	5	清潔な感じ	宿	YAEN:宿環境	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+10	1	10	user	清潔な感じのホテルの方がいいかなとは思ってます。	要求	0	0	0	12	10	6	3	ホテル	宿	YATY:宿タイプ	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0						
+11	1	11	agent	かしこまりました。		0	0	0																									
+12	1	12	agent	ホテルでベッド２台ですと、ツインルームでよろしいでしょうか？		0	0	0																									
+13	1	13	user	あ、子どもは小さいので、同じベッドで大丈夫だと思います。	要求	0	0	0	13	13	12	5	同じベッド	部屋	HETY:部屋タイプ	2_neutral	2_neutral	2_neutral	3_strong	2_neutral	2_neutral	1	13	2	3	子ども	0						
+14	1	14	agent	かしこまりました。		0	0	0																									
+15	1	15	agent	それでは、シングルルームでよろしいですか？		0	0	0																									
+16	1	16	user	はい。	はい	0	0	0																									
+17	1	17	user	そんなに広くなくていいです、	要求	0	0	0	15	17	0	6	そんなに広く	部屋	HEEN:部屋環境	2_neutral	2_neutral	2_neutral	1_weak	1_weak	2_neutral						1						
+18	1	18	user	大体は観光で外にいると思いますので。	要求	0	0	0	16	18	3	2	観光	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+19	1	19	agent	かしこまりました。		0	0	0																									
+20	1	20	agent	観光でのご利用ということですが、お車と公共交通機関のどちらでまわられますでしょうか？		0	0	0																									
+21	1	21	user	一応車で行くつもりです。	照応要求	0	0	0	17	20	16	2	お車	立地	RIBA:立地 (場所)	2_neutral	1_weak	2_neutral	2_neutral		3_strong						0		73	21	2	1	車
+22	1	22	user	駐車無料のホテルとかだと助かりますね。	要求	0	0	0	18	22	0	4	駐車無料	サービス	SESE:ホテルサービス	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+22	1	22	user	駐車無料のホテルとかだと助かりますね。	要求	0	0	0	19	22	5	3	ホテル	宿	YATY:宿タイプ	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+23	1	23	agent	さようでございますか。		0	0	0																									
+24	1	24	agent	それでは、駐車場を無料でご利用できるホテルをお探しします。		0	0	0																									
+25	1	25	agent	立地ですが、観光地をまわりやすい場所はいかがでしょうか？		0	0	0																									
+26	1	26	user	はい、観光地をまわりやすい場所にあるといいですね。	はい	0	0	0																									
+10845	1	27	user	ただ１番の目的は出雲大社なので、そこまでアクセスがよければ助かります。	要求	0	0	0	20	10845	8	4	出雲大社	立地	RIAC:立地 (アクティビティ)	3_strong	3_strong	3_strong									0						
+10845	1	27	user	ただ１番の目的は出雲大社なので、そこまでアクセスがよければ助かります。	要求	0	0	0	21	10845	20	9	アクセスがよければ	立地	RIAC:立地 (アクティビティ)	1_weak	2_neutral	2_neutral	1_weak	2_neutral	3_strong	33	10845	8	4	出雲大社	0						
+28	1	28	agent	かしこまりました。		0	0	0																									
+29	1	29	agent	それでは、出雲大社に近いホテルをお探しします。		0	0	0																									
+30	1	30	agent	お食事はいかがでしょうか。		0	0	0																									
+31	1	31	agent	島根県ですと、日本海の海鮮をお楽しみいただけます。		0	0	0																									
+32	1	32	agent	ですので、ご夕食で海鮮料理をお召し上がりになれるお宿をお探ししましょうか？		0	0	0																									
+33	1	33	user	はい、夕食に海鮮料理がでる宿があれば、良いですね。	はい	0	0	0																									
+34	1	34	agent	かしこまりました。		0	0	0																									
+35	1	35	agent	朝食もお付けしますか？		0	0	0																									
+36	1	36	user	朝食はいらないと思います。	いいえ	0	0	0																									
+37	1	37	agent	かしこまりました。		0	0	0																									
+38	1	38	agent	他にお客様がご希望の条件などはございますでしょうか？		0	0	0																									
+39	1	39	user	そうですね、市街地はあまり興味が無いので、全然出雲大社の方の自然の方に近くてよいです。	要求	0	0	0	22	39	6	3	市街地	立地	RIEN:立地 (周辺環境)	2_neutral	1_weak	2_neutral	2_neutral		3_strong						1						
+39	1	39	user	そうですね、市街地はあまり興味が無いので、全然出雲大社の方の自然の方に近くてよいです。	要求	0	0	0	274	39	23	14	出雲大社の方の自然の方に近く	立地	RIAC:立地 (アクティビティ)	2_neutral	2_neutral	2_neutral	1_weak	2_neutral	2_neutral						0						
+40	1	40	user	あと、予算が２人で５０００円くらいなので、１泊これぐらいに収めたいです。	要求	0	0	0	25	40	9	8	５０００円くらい	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	1_weak	1_weak	1_weak	2	40	6	2	２人	0						
+40	1	40	user	あと、予算が２人で５０００円くらいなので、１泊これぐらいに収めたいです。	要求	0	0	0	25	40	9	8	５０００円くらい	予算	YOYO:予算	2_neutral	2_neutral	2_neutral	1_weak	1_weak	1_weak	3	40	21	2	１泊	0						
+41	1	41	agent	かしこまりました。		0	0	0																									
+42	1	42	agent	それでは、ご予算が２名様で合計５０００円でお探しいたします。		0	0	0																									
+43	1	43	agent	ご宿泊は１泊でよろしいでしょうか？		0	0	0																									
+44	1	44	user	はい、１泊です。	はい	0	0	0																									
+45	1	45	agent	かしこまりました。		0	0	0																									
+46	1	46	agent	それでは、以下のご希望条件に合うお宿をお探しいたします。		0	0	0																									
+47	1	47	agent	・時期はお盆頃。		0	0	0																									
+48	1	48	agent	・泊数は１泊。		0	0	0																									
+49	1	49	agent	・人数は子どもを含む２名。		0	0	0																									
+50	1	50	agent	・場所は島根。		0	0	0																									
+51	1	51	agent	観光地、特に出雲大社の近くがよい。		0	0	0																									
+52	1	52	agent	・宿タイプはホテル。		0	0	0																									
+53	1	53	agent	清潔な感じを希望。		0	0	0																									
+54	1	54	agent	・部屋タイプはシングルルーム。		0	0	0																									
+55	1	55	agent	・駐車場が無料。		0	0	0																									
+56	1	56	agent	・食事は夕食で海鮮料理を希望。		0	0	0																									
+57	1	57	agent	朝食は不要。		0	0	0																									
+58	1	58	agent	・予算は２名で合計５０００円。		0	0	0																									

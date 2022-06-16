@@ -1,0 +1,58 @@
+utterance_id	src_file_id	nth	speaker	utterance	speech_act	has_typos	difficult	duplicate	span_id	span_utterance_id	span_start	span_length	span_text	span_type	span_flag	importance_abs	importance_abs_2	importance_abs_3	importance2_abs	importance2_abs_2	importance2_abs_3	sub_span_id	sub_span_utterance_id	sub_span_start	sub_span_length	sub_span_text	negation	memo	demon_span_id	demon_span_utterance_id	demon_span_start	demon_span_length	demon_span_text
+6493	117	1	agent	本日はご利用いただきまして、ありがとうございます。		0	0	0																									
+6494	117	2	agent	ご宿泊のご相談を承ります。		0	0	0																									
+6495	117	3	agent	お宿につきまして、どのような条件をご希望でしょうか？		0	0	0																									
+6496	117	4	user	お世話になります。	その他	0	0	0																									
+6497	117	5	user	祖母、母、私の３人で博多に旅行を計画しています。	要求	0	0	0	3344	6497	0	2	祖母	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+6497	117	5	user	祖母、母、私の３人で博多に旅行を計画しています。	要求	0	0	0	3345	6497	3	1	母	旅行	RYSC:旅行シーン	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+6497	117	5	user	祖母、母、私の３人で博多に旅行を計画しています。	要求	0	0	0	3346	6497	7	2	３人	人数	NIOT:大人人数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+6497	117	5	user	祖母、母、私の３人で博多に旅行を計画しています。	要求	0	0	0	3347	6497	10	2	博多	旅行	RYAR:旅行エリア	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+6498	117	6	user	８月上旬に３泊、空港から送迎のある宿を探しています。	要求	0	0	0	3348	6498	0	4	８月上旬	スケジュール	SCSE:時期	2_neutral	2_neutral	2_neutral	2_neutral	1_weak	3_strong						0						
+6498	117	6	user	８月上旬に３泊、空港から送迎のある宿を探しています。	要求	0	0	0	3349	6498	5	2	３泊	スケジュール	SCNU:宿泊数	2_neutral	2_neutral	2_neutral	3_strong	3_strong	3_strong						0						
+6498	117	6	user	８月上旬に３泊、空港から送迎のある宿を探しています。	要求	0	0	0	3350	6498	8	6	空港から送迎	サービス	SESE:ホテルサービス	2_neutral	2_neutral	2_neutral	3_strong	2_neutral	2_neutral						0						
+6499	117	7	agent	さようでございますか。		0	0	0																									
+6500	117	8	agent	それでは、福岡市内のお宿でよろしいでしょうか？		0	0	0																									
+6501	117	9	agent	特にご希望の立地はございますか？		0	0	0																									
+6502	117	10	user	あまり土地勘がないので恐縮ですが、海が見える宿はありますか？	要求	0	0	0	3351	6502	17	5	海が見える	宿	YAEN:宿環境	2_neutral	1_weak	1_weak	1_weak								0						
+6503	117	11	agent	はい、例えば「海の中道」がおすすめです。		0	0	0																									
+6504	117	12	agent	海の真ん中に細い道が浮かんでおりまして、その周辺にいくつかお宿がございます。		0	0	0																									
+6505	117	13	agent	玄界灘も見えますので、よろしいかと思います。		0	0	0																									
+6506	117	14	user	それは素敵です！	伝達	0	0	0																									
+6507	117	15	user	その近郊でおねがいします！	照応要求	0	0	0	3352	6503	7	4	海の中道	立地	RIBA:立地 (場所)	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0		38	6507	0	4	その近郊
+6508	117	16	user	祖母の足があまりよくないので、バリアフリーに近いお宿があるとありがたいです。	要求	0	0	0	3353	6508	15	9	バリアフリーに近い	宿	YAEN:宿環境	1_weak	2_neutral	2_neutral		2_neutral	2_neutral						0						
+6509	117	17	agent	かしこまりました。		0	0	0																									
+6510	117	18	agent	それでは、海の中道周辺でお調べします。		0	0	0																									
+6511	117	19	agent	また、バリアフリー対応のお宿をお探しとのこと、承知しました。		0	0	0																									
+6512	117	20	agent	お部屋からも海が見える方がよろしいでしょうか？		0	0	0																									
+6513	117	21	user	オーシャンビューのお部屋が希望です。	はい	0	0	0																									
+6514	117	22	user	３人一部屋でお願いします。	要求	0	0	0	3354	6514	2	3	一部屋	部屋	HENU:部屋数	2_neutral	2_neutral	2_neutral	2_neutral	3_strong	2_neutral	398	6514	0	2	３人	0						
+6515	117	23	user	ベッドのほうが良いですが、お布団でも大丈夫です。	要求	0	0	0	3355	6515	0	3	ベッド	部屋	HETY:部屋タイプ	2_neutral	1_weak	2_neutral	1_weak		2_neutral						0						
+6515	117	23	user	ベッドのほうが良いですが、お布団でも大丈夫です。	要求	0	0	0	3356	6515	13	3	お布団	部屋	HETY:部屋タイプ	2_neutral	1_weak	1_weak	1_weak								0						
+6516	117	24	agent	かしこまりました。		0	0	0																									
+6517	117	25	agent	それでは、オーシャンビューのお部屋をお探しします。		0	0	0																									
+6518	117	26	agent	３名１室となりますと、トリプルルームでよろしいでしょうか？		0	0	0																									
+6519	117	27	user	トリプルルームでお願いします！	はい	0	0	0																									
+6520	117	28	agent	ありがとうございます。		0	0	0																									
+6521	117	29	agent	海の中道にはマリンワールドという大きな水族館があるのですが、こちらの入場券付きプランもございます。		0	0	0																									
+6522	117	30	agent	お宿とのセットでお得になりますが、いかがでしょうか？		0	0	0																									
+6523	117	31	user	祖母とゆっくり過ごしたいので、今回は入場券は不要です。	いいえ	0	0	0																									
+6524	117	32	user	ありがとうございます。	その他	0	0	0																									
+6525	117	33	user	その代わりに、ホテルから海辺まで運んでくれるバスなどはありませんでしょうか？	要求	0	0	0	3357	6525	7	17	ホテルから海辺まで運んでくれるバス	サービス	SESE:ホテルサービス	1_weak	1_weak	1_weak									0						
+6526	117	34	agent	かしこまりました。		0	0	0																									
+6527	117	35	agent	では、お宿から海辺までの送迎サービスのあるお宿をお探しします。		0	0	0																									
+6528	117	36	agent	最後に、禁煙・喫煙ルームのご希望はございますでしょうか？		0	0	0																									
+6529	117	37	user	禁煙ルームを希望します。	照応要求	0	0	0	3358	6528	4	2	禁煙	部屋	HEJO:部屋条件	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral	2_neutral						0		217	6529	0	5	禁煙ルーム
+6530	117	38	agent	かしこまりました。		0	0	0																									
+6531	117	39	agent	禁煙ルームをお探しします。		0	0	0																									
+6532	117	40	agent	ご希望をお聞かせくださり、ありがとうございました。		0	0	0																									
+6533	117	41	agent	それでは以下の条件でお調べしますので、よろしくお願いいたします。		0	0	0																									
+6534	117	42	agent	・日付は８月上旬。		0	0	0																									
+6535	117	43	agent	・宿泊日数は３泊。		0	0	0																									
+6536	117	44	agent	・宿泊地は福岡市内の「海の中道」。		0	0	0																									
+6537	117	45	agent	・人数は大人３名。		0	0	0																									
+6538	117	46	agent	・部屋タイプ／数はトリプルルームを１室。		0	0	0																									
+6539	117	47	agent	・オーシャンビューの部屋を希望。		0	0	0																									
+6540	117	48	agent	・空港から送迎サービスのある宿を希望。		0	0	0																									
+6541	117	49	agent	・バリアフリー対応の宿を希望。		0	0	0																									
+6542	117	50	agent	・宿から海辺までの送迎サービスのある宿を希望。		0	0	0																									
+6543	117	51	agent	・禁煙ルームを希望。		0	0	0																									
