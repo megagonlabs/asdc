@@ -63,7 +63,8 @@ Please read [the documents](docs/vanilla/README.md) for more details.
 
 1. Yuta Hayashibe.
     Self-Contained Utterance Description Corpus for Japanese Dialog.
-    Proc of LREC. In press. 2022. (LREC 2022)
+    Proc of LREC, pp.1249-1255. (LREC 2022)
+    [[PDF]](http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.133.pdf)
 2. 林部祐太．
     要約付き宿検索対話コーパス．
     言語処理学会第27回年次大会論文集，pp.340-344. 2021. (NLP 2021)
