@@ -47,7 +47,7 @@ Please read [the documents](docs/supplemental/README.md) for more details.
 ## Vanilla part: [``data/vanilla``](data/vanilla)
 
 Files in ``data/vanilla`` are fictitious dialogs or queries made by crowd workers with no SCUD annotations.
-The number is over 95,000.
+The number is over 100,000.
 Please read [the documents](docs/vanilla/README.md) for more details.
 
 ### Examples of ``vanilla``

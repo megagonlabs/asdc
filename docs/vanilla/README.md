@@ -77,7 +77,7 @@ This file contains pairs of question(s) about numbers and its answer.
 - ``meta.data["num_number_q"]``: The crowd worker must use a number greater than or equal to the number written here in the question.
 - ``meta.data["num_number_a"]``: The crowd worker must use a number greater than or equal to the number written here in the answer.
 
-## ``question.long_q.VanillaUtterances.jsonl``: 3,342 dialogs
+## ``question.long_q.VanillaUtterances.jsonl``: 5,576 dialogs
 
 This file contains pairs of question(s) and its answer.
 Most operators' utterances contain several sentences.
