@@ -47,10 +47,12 @@ generate_pair_main: $(OUTPUT_MAIN_ALL) $(OUTPUT_MAIN_TRAIN)
 OUTPUT_SUP_DIR:=$(OUTPUT)/sup
 OUTPUT_SUP_ALL:=$(OUTPUT_SUP_DIR)/all.jsonl
 OUTPUT_SUP_TRAIN:=$(OUTPUT_SUP_DIR)/train.tsv
+INPUT_SUP_EXTRA:=/dev/null
 
-$(OUTPUT_SUP_ALL): $(INPUT_SUP_SCUD_DIR)
+$(OUTPUT_SUP_ALL): $(INPUT_SUP_SCUD_DIR) $(INPUT_SUP_EXTRA)
 	mkdir -p $(dir $@) \
-	&& find $< -type f | sort | xargs cat > $@.tmp \
+	&& find $(INPUT_SUP_SCUD_DIR) -type f | sort | xargs cat > $@.tmp \
+	&& cat $(INPUT_SUP_EXTRA) >> $@.tmp \
 		&& mv $@.tmp $@
 
 $(DATA_SUP_DIR): $(OUTPUT_SUP_ALL)
