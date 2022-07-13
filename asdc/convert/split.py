@@ -25,7 +25,7 @@ def operation(
         for line in inf:
             ex = Example.parse_raw(line)
             purpose = ex.meta["purpose"]
-            outline: str = ex.get_line(size_context)
+            outline: str = ex.json(ensure_ascii=False, sort_keys=True) + "\n"
 
             if purpose == "train":
                 if ex.max_distance_uttr > train_max_distance_uttr:

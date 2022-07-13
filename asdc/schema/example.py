@@ -6,11 +6,6 @@ from pydantic import BaseModel, root_validator, validator
 
 from asdc.schema.id import SID
 
-METACHAR_SEP: str = "<sep>"
-METACHAR_TARGET_START: str = "<target>"
-METACHAR_TARGET_END: str = "</target>"
-METACHAR_NONE: str = "<none>"
-METACHAR_OC_BORDER: str = ">>"
 METACHAR_SENTENCE_BOUNDARY: str = "\u2502"
 METACHAR_LINE_BREAK: str = "\u2581"
 
@@ -95,29 +90,6 @@ class Example(BaseModel):
                 raise ValueError("Mixed target index")
 
         return values
-
-    def _replace_special(self, text) -> str:
-        return text.replace(METACHAR_LINE_BREAK, " ").replace("\n", " ").replace("\t", " ")
-
-    def get_line(self, size_context: int) -> str:
-        import unicodedata
-
-        assert size_context >= 0
-        prev: str = ""
-        if size_context > 0:
-            _from = max(0, len(self.context) - size_context)
-            prev = "||".join(self.context[_from:]) + METACHAR_OC_BORDER
-
-        mysrc = self.sources[:]
-        mysrc[self.source_index] = f"{METACHAR_TARGET_START}{mysrc[self.source_index]}{METACHAR_TARGET_END}"
-
-        _tgt: str = METACHAR_NONE
-        if len(self.targets) > 0:
-            _tgt = METACHAR_SEP.join(self.targets)
-        assert len(_tgt) > 0
-        out = [str(self.sid.id), prev + "".join(mysrc), _tgt]
-        out = [self._replace_special(unicodedata.normalize("NFKC", o)) for o in out]
-        return "\t".join(out) + "\n"
 
     def dump_alighment(self, limit_context: int) -> Iterator[AlignmentDump]:
         if self.alignments_list is None or len(self.alignments_list) == 0:
