@@ -6,7 +6,6 @@ all: generate_example_main \
 
 INPUT_SCUD_DIR:=$(DATA_MAIN_SCUD_JSONL_DIR)
 INPUT_JSON_DIR:=$(DATA_MAIN_JSON_DIR)
-CONTEXT:=1
 OUTPUT:=/please/designate
 TRAIN_MAX_DISTANCE_UTTR:=$(CONTEXT)
 TEST_MAX_DISTANCE_UTTR:=999999
@@ -23,7 +22,6 @@ INPUT_SUP_SCUD_DIR:=$(DATA_SUP_SCUD_DIR)
 		--train $@.tmp \
 		--dev $*/dev.jsonl \
 		--test $*/test.jsonl \
-		--context=$(CONTEXT) \
 		--train_max_distance_uttr $(TRAIN_MAX_DISTANCE_UTTR) \
 		--test_max_distance_uttr $(TEST_MAX_DISTANCE_UTTR) \
 	&& mv $@.tmp $@
@@ -62,7 +60,6 @@ $(DATA_SUP_DIR): $(OUTPUT_SUP_ALL)
 		--train $@.tmp \
 		--dev $*/dev.jsonl \
 		--test $*/test.jsonl \
-		--context=$(CONTEXT) \
 		--train_max_distance_uttr $(TRAIN_MAX_DISTANCE_UTTR) \
 		--test_max_distance_uttr $(TEST_MAX_DISTANCE_UTTR) \
 	&& mv $@.tmp $@

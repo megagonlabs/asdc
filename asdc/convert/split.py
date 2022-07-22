@@ -11,11 +11,9 @@ def operation(
     path_train: Path,
     path_dev: Path,
     path_test: Path,
-    size_context: int,
     train_max_distance_uttr: int,
     test_max_distance_uttr: int,
 ) -> None:
-    assert size_context >= 0
     assert train_max_distance_uttr >= 0
     assert test_max_distance_uttr >= 0
 
@@ -53,7 +51,6 @@ def get_opts() -> argparse.Namespace:
     oparser.add_argument("--dev", type=Path, required=True)
     oparser.add_argument("--test", type=Path, required=True)
 
-    oparser.add_argument("--context", type=int, default=0)
     oparser.add_argument("--train_max_distance_uttr", type=int, default=0)
     oparser.add_argument("--test_max_distance_uttr", type=int, default=9999)
     return oparser.parse_args()
@@ -66,7 +63,6 @@ def main() -> None:
         opts.train,
         opts.dev,
         opts.test,
-        opts.context,
         opts.train_max_distance_uttr,
         opts.test_max_distance_uttr,
     )
