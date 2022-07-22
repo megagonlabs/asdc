@@ -54,6 +54,7 @@ check_vanilla: check_vanilla_linenum \
 
 check_sup_example:
 	python3 -m asdc.check.format -i $(DATA_SUP_SCUD_DIR) -t example
+	python3 -m asdc.check.format -i $(DATA_SUP_WRONG_SCUD_DIR) -t example
 
 check_duplication:
 	python -m asdc.check.duplication \
