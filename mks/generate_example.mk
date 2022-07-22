@@ -1,8 +1,8 @@
 
 include mks/path.mk
 
-all: generate_pair_main \
-	generate_pair_sup
+all: generate_example_main \
+	generate_example_sup
 
 INPUT_SCUD_DIR:=$(DATA_MAIN_SCUD_JSONL_DIR)
 INPUT_JSON_DIR:=$(DATA_MAIN_JSON_DIR)
@@ -37,11 +37,11 @@ OUTPUT_MAIN_TRAIN:=$(OUTPUT_MAIN_DIR)/train.jsonl
 
 $(OUTPUT_MAIN_ALL): $(INPUT_SCUD_DIR) $(INPUT_JSON_DIR)
 	mkdir -p $(dir $@) \
-	&& python3 -m asdc.convert.pair \
+	&& python3 -m asdc.convert.example \
 		-i $(INPUT_SCUD_DIR) --ref $(INPUT_JSON_DIR) -o $@
 
 $(OUTPUT_MAIN_TRAIN): $(OUTPUT_MAIN_ALL)
-generate_pair_main: $(OUTPUT_MAIN_ALL) $(OUTPUT_MAIN_TRAIN)
+generate_example_main: $(OUTPUT_MAIN_ALL) $(OUTPUT_MAIN_TRAIN)
 
 
 OUTPUT_SUP_DIR:=$(OUTPUT)/sup
@@ -68,7 +68,7 @@ $(DATA_SUP_DIR): $(OUTPUT_SUP_ALL)
 	&& mv $@.tmp $@
 
 
-generate_pair_sup: $(OUTPUT_SUP_ALL) $(OUTPUT_SUP_TRAIN)
+generate_example_sup: $(OUTPUT_SUP_ALL) $(OUTPUT_SUP_TRAIN)
 
 
 ##### Misc

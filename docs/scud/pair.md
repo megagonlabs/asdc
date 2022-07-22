@@ -4,7 +4,7 @@
 ## Text2Text用データ
 
 ```bash
-poetry run make -f ./mks/generate_pair.mk all OUTPUT=./generated_pairs_dir
+poetry run make -f ./mks/generate_example.mk all OUTPUT=./generated_examples_dir
 ```
 
 - ``all.jsonl``: SCUDをまとめたファイル
@@ -16,5 +16,5 @@ poetry run make -f ./mks/generate_pair.mk all OUTPUT=./generated_pairs_dir
 SCUDと入力とのアライメントは以下のコマンドで生成できる．
 
 ```bash
-poetry run python3 -m asdc.convert.scud_alignment -i ./generated_pairs_dir/main/all.jsonl -o ./generated_pairs_dir/main/alignment.jsonl
+poetry run python3 -m asdc.convert.scud_alignment -i ./generated_examples_dir/main/all.jsonl -o ./generated_examples_dir/main/alignment.jsonl
 ```
