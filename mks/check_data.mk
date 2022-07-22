@@ -2,6 +2,7 @@
 check_data: check_setting check_text check_scud_main_json\
 	check_scud_main check_scud_main_convert \
 	check_scud_main_jsonl_conversion \
+	check_sup_example \
 	check_vanilla
 
 check_setting:
@@ -51,7 +52,7 @@ check_vanilla: check_vanilla_linenum \
 	check_vanilla_format
 
 
-check_example:
+check_sup_example:
 	python3 -m asdc.check.format -i $(DATA_SUP_SCUD_DIR) -t example
 
 check_duplication:
