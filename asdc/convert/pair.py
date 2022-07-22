@@ -6,7 +6,7 @@ from pathlib import Path
 from typing import DefaultDict, Iterator, List, Optional, Set
 
 from asdc.schema.dialog import Docid2Utterances, Scud, Utterances, open_scud_file_by_docid
-from asdc.schema.example import Alignment, AlignmentSpan, Example
+from asdc.schema.example import Alignment, AlignmentSpan, Example, SimpleUtterance
 from asdc.schema.id import SID, DocID
 
 METACHAR_LINE_BREAK: str = "\u2581"
@@ -22,7 +22,7 @@ def scuds2examples(docid: DocID, scuds: List[Scud], uttrs: Utterances) -> Iterat
             continue
 
         for idx, _ in enumerate(uttr.yield_sentence()):
-            context: List[str] = uttrs.get_contexts(sid=uttr.id.get_sid(0), same_uttr=False, by_uttr=True)
+            context: List[SimpleUtterance] = uttrs.get_contexts(sid=uttr.id.get_sid(0), same_uttr=False, by_uttr=True)
             sid = uttr.id.get_sid(idx)
             sources: List[str] = [s for s in uttrs.utterances[sid.uttrid.num].yield_sentence()]
 
@@ -82,7 +82,7 @@ def scuds2examples(docid: DocID, scuds: List[Scud], uttrs: Utterances) -> Iterat
 
 
 def _get_alighment(
-    context: List[str], sources: List[str], scuds: List[Scud], uttrs: Utterances
+    context: List[SimpleUtterance], sources: List[str], scuds: List[Scud], uttrs: Utterances
 ) -> List[List[Alignment]]:
     def _context_new_position(sid: SID, position: int) -> int:
         np: int = 0

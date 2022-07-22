@@ -174,7 +174,7 @@ def convert_one(scud: Scud, uttrs: Utterances):
 
     sid = scud.sid
 
-    context: str = SEPARATOR.join(uttrs.get_contexts(sid=sid, same_uttr=True, by_uttr=False))
+    context: str = SEPARATOR.join([c.text for c in uttrs.get_contexts(sid=sid, same_uttr=True, by_uttr=False)])
 
     out_text = context + SEPARATOR + scud.id + SEPARATOR + _src + SEPARATOR + _scud
     labels = []
@@ -205,7 +205,7 @@ def convert_one(scud: Scud, uttrs: Utterances):
                 if span.sid == sid:
                     _offset = offset_src
                 else:
-                    _ctx: List[str] = uttrs.get_contexts(sid=span.sid, same_uttr=True, by_uttr=False)
+                    _ctx: List[str] = [c.text for c in uttrs.get_contexts(sid=span.sid, same_uttr=True, by_uttr=False)]
                     _offset = len(SEPARATOR.join(_ctx) + SEPARATOR)
             labels.append([span.start + _offset, span.end + _offset, _str_label])
     labels.sort()

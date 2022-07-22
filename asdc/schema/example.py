@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from typing import Any, Dict, Iterator, List, Optional, Tuple
+from typing import Any, Dict, Iterator, List, Literal, Optional, Tuple
 
 from pydantic import BaseModel, root_validator, validator
 
@@ -56,12 +56,17 @@ class AlignmentDump(BaseModel):
         return v
 
 
+class SimpleUtterance(BaseModel):
+    speaker: Literal["user", "agent"]
+    text: str
+
+
 class Example(BaseModel):
     sid: SID
     sources: List[str]  # List of sentences
     source_index: int  # Index of sentence in the list
     targets: List[str]
-    context: List[str]
+    context: List[SimpleUtterance]
     group_types: List[str]
     max_distance_uttr: int
     max_distance_sentence: Optional[int]  # SCUDの対応付けがあり，同一発話内にあるもののうち，最大で離れている文数
@@ -149,7 +154,9 @@ class Example(BaseModel):
                     _origins.append(_tmp_als)
                     _origin_als2tmpals[(_in_context, o)] = _tmp_als
 
-            origin_spans, origin_als2idx = _convert(_origins, self.context[-limit_context:] + self.sources, False)
+            origin_spans, origin_als2idx = _convert(
+                _origins, [c.text for c in self.context[-limit_context:]] + self.sources, False
+            )
             target_spans, target_als2idx = _convert(_targets, [self.targets[target_idx]], True)
 
             align: List[Tuple[int, int]] = []
@@ -194,7 +201,7 @@ class Example(BaseModel):
                     strs: List[str] = self.sources
                     mark: str = ""
                     if is_in_context:
-                        strs = self.context
+                        strs = [c.text for c in self.context]
                         if len(self.context) - alspan.index <= limit_context:
                             mark += "@"
                         else:
