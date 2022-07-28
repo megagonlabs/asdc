@@ -210,7 +210,7 @@ def check_wrong_example(inpath: Path, ref: Optional[Path]) -> bool:
                 original_id = ex.meta["original"]
                 original_ex = sid2ex.get(original_id)
                 if original_ex is None:
-                    print(f"Unkown original ID: {original_id}, {ex}")
+                    print(f"Unknown original ID: {original_id}, {ex}")
                     ok = False
                 else:
                     if original_ex.context != ex.context:
