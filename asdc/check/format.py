@@ -24,12 +24,13 @@ def get_opts() -> argparse.Namespace:
     return oparser.parse_args()
 
 
-def check_setting(inf) -> bool:
-    r = csv.reader(inf)
-    for lid, items in enumerate(r):
-        if len(items) != 7:
-            print(f"Invalid length: {len(items)} on line {lid}")
-            return False
+def check_setting(inpath: Path) -> bool:
+    with open(inpath) as inf:
+        r = csv.reader(inf)
+        for lid, items in enumerate(r):
+            if len(items) != 7:
+                print(f"Invalid length: {len(items)} on line {lid}")
+                return False
     return True
 
 
@@ -206,8 +207,7 @@ def check_vanilla(inpath: Path) -> bool:
 def check(inpath: Path, typename: str, ref: Optional[Path]) -> bool:
     ok = True
     if typename == DATA_TYPES[0]:
-        with open(inpath) as inf:
-            ok &= check_setting(inf)
+        ok &= check_setting(inpath)
     elif typename == DATA_TYPES[1]:
         raise NotImplementedError
     elif typename == DATA_TYPES[2]:
