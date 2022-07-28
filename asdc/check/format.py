@@ -3,28 +3,20 @@
 import argparse
 import collections
 import csv
+import json
 import sys
 import typing
 import unicodedata
 from pathlib import Path
-from typing import DefaultDict, Optional, Tuple
+from typing import Callable, DefaultDict, Optional, Tuple
 
 from asdc.schema.dialog import GroupType, Scud, Utterances, open_scud_file_by_docid
 from asdc.schema.example import METACHAR_LINE_BREAK, METACHAR_SENTENCE_BOUNDARY, Example
 from asdc.schema.id import SID
 
-DATA_TYPES: typing.List[str] = ["setting", "qa", "text", "scud_main", "scud_json", "example", "vanilla"]
 
-
-def get_opts() -> argparse.Namespace:
-    oparser = argparse.ArgumentParser()
-    oparser.add_argument("--input", "-i", required=True, type=Path)
-    oparser.add_argument("--type", "-t", choices=DATA_TYPES, required=True)
-    oparser.add_argument("--ref", type=Path)
-    return oparser.parse_args()
-
-
-def check_setting(inpath: Path) -> bool:
+def check_setting(inpath: Path, ref: Optional[Path]) -> bool:
+    assert ref is None
     with open(inpath) as inf:
         r = csv.reader(inf)
         for lid, items in enumerate(r):
@@ -34,16 +26,8 @@ def check_setting(inpath: Path) -> bool:
     return True
 
 
-def check_qa(inf) -> bool:
-    r = csv.reader(inf)
-    for lid, items in enumerate(r):
-        if len(items) != 10:
-            print(f"Invalid length: {len(items)} on line {lid}")
-            return False
-    return True
-
-
-def check_text(inpath: Path, ref: Path) -> bool:
+def check_text(inpath: Path, ref: Optional[Path]) -> bool:
+    assert ref is not None
     for fname in inpath.iterdir():
         path_json: Path = ref.joinpath(fname.stem + ".json")
         uttrs = Utterances.parse_file(path_json)
@@ -94,7 +78,9 @@ def check_scud_groups(scud: Scud) -> bool:
     return True
 
 
-def check_scud_main(inpath: Path, ref: Path) -> bool:
+def check_scud_main(inpath: Path, ref: Optional[Path]) -> bool:
+    assert ref is not None
+
     docid2scuds = open_scud_file_by_docid(inpath)
     ok = True
     for docid, scuds in sorted(docid2scuds.items()):
@@ -158,8 +144,8 @@ def check_scud_main(inpath: Path, ref: Path) -> bool:
     return ok
 
 
-def check_scud_json(inpath: Path) -> bool:
-    import json
+def check_scud_json(inpath: Path, ref: Optional[Path]) -> bool:
+    assert ref is None
 
     ok = True
     for fname in sorted(inpath.iterdir()):
@@ -172,8 +158,8 @@ def check_scud_json(inpath: Path) -> bool:
     return ok
 
 
-def check_example(inpath: Path) -> bool:
-    import json
+def check_example(inpath: Path, ref: Optional[Path]) -> bool:
+    assert ref is None
 
     ok = True
     for fname in sorted(inpath.glob("*.jsonl")):
@@ -187,8 +173,8 @@ def check_example(inpath: Path) -> bool:
     return ok
 
 
-def check_vanilla(inpath: Path) -> bool:
-    import json
+def check_vanilla(inpath: Path, ref: Optional[Path]) -> bool:
+    assert ref is None
 
     from asdc.schema.vanilla import VanillaUtterances
 
@@ -204,30 +190,30 @@ def check_vanilla(inpath: Path) -> bool:
     return ok
 
 
-def check(inpath: Path, typename: str, ref: Optional[Path]) -> bool:
-    ok = True
-    if typename == DATA_TYPES[0]:
-        ok &= check_setting(inpath)
-    elif typename == DATA_TYPES[1]:
-        raise NotImplementedError
-    elif typename == DATA_TYPES[2]:
-        assert ref is not None
-        ok &= check_text(inpath, ref)
-    elif typename == DATA_TYPES[3]:
-        assert ref is not None
-        ok &= check_scud_main(Path(inpath), ref)
-    elif typename == DATA_TYPES[4]:
-        ok &= check_scud_json(inpath)
-    elif typename == DATA_TYPES[5]:
-        ok &= check_example(inpath)
-    elif typename == DATA_TYPES[6]:
-        ok &= check_vanilla(inpath)
+DATA_TYPES: typing.Dict[str, Callable] = {
+    "setting": check_setting,
+    "text": check_text,
+    "scud_main": check_scud_main,
+    "scud_json": check_scud_json,
+    "example": check_example,
+    "vanilla": check_vanilla,
+}
 
-    else:
+
+def check(inpath: Path, typename: str, ref: Optional[Path]) -> bool:
+    func = DATA_TYPES.get(typename)
+    if func is None:
         print(f"Invalid typename: {typename}")
         return False
+    return func(inpath, ref)
 
-    return ok
+
+def get_opts() -> argparse.Namespace:
+    oparser = argparse.ArgumentParser()
+    oparser.add_argument("--input", "-i", required=True, type=Path)
+    oparser.add_argument("--type", "-t", choices=list(DATA_TYPES.keys()), required=True)
+    oparser.add_argument("--ref", type=Path)
+    return oparser.parse_args()
 
 
 def main() -> None:
