@@ -59,4 +59,5 @@ check_sup_example:
 check_duplication:
 	python -m asdc.check.duplication \
 		--vuttr $(DATA_ROOT_DIR)/vanilla \
-		--ex $(DATA_SUP_SCUD_DIR)
+		--ex $(DATA_SUP_SCUD_DIR) \
+		--ex $(DATA_SUP_WRONG_SCUD_DIR) \
