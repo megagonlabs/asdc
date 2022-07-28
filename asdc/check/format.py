@@ -8,7 +8,7 @@ import sys
 import typing
 import unicodedata
 from pathlib import Path
-from typing import Callable, DefaultDict, Optional, Tuple
+from typing import Callable, DefaultDict, Dict, Optional, Tuple
 
 from asdc.schema.dialog import GroupType, Scud, Utterances, open_scud_file_by_docid
 from asdc.schema.example import METACHAR_LINE_BREAK, METACHAR_SENTENCE_BOUNDARY, Example
@@ -190,12 +190,45 @@ def check_vanilla(inpath: Path, ref: Optional[Path]) -> bool:
     return ok
 
 
+def check_wrong_example(inpath: Path, ref: Optional[Path]) -> bool:
+    assert ref is not None
+
+    sid2ex: Dict[str, Example] = {}
+
+    for fname in sorted(ref.glob("*.jsonl")):
+        with fname.open() as inf:
+            for line in inf:
+                ex = Example.parse_raw(line)
+                assert ex.sid.id not in sid2ex
+                sid2ex[ex.sid.id] = ex
+
+    ok: bool = True
+    for fname in sorted(inpath.glob("*.jsonl")):
+        with fname.open() as inf:
+            for line in inf:
+                ex = Example.parse_raw(line)
+                original_id = ex.meta["original"]
+                original_ex = sid2ex.get(original_id)
+                if original_ex is None:
+                    print(f"Unkown original ID: {original_id}, {ex}")
+                    ok = False
+                else:
+                    if original_ex.context != ex.context:
+                        print(f"Mismatch: {original_id}", original_ex, ex)
+                        ok = False
+                    if original_ex.targets == ex.targets:
+                        print("Same targets: {original_id}", original_ex, ex)
+                        ok = False
+    return ok
+
+
 DATA_TYPES: typing.Dict[str, Callable] = {
     "setting": check_setting,
     "text": check_text,
     "scud_main": check_scud_main,
     "scud_json": check_scud_json,
     "example": check_example,
+    "wrong_example": check_wrong_example,
     "vanilla": check_vanilla,
 }
 
