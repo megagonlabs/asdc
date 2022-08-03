@@ -160,9 +160,10 @@ def check_scud_json(inpath: Path, ref: Optional[Path]) -> bool:
 
 def check_example(inpath: Path, ref: Optional[Path]) -> bool:
     assert ref is None
+    assert inpath.is_dir()
 
     ok = True
-    for fname in sorted(inpath.glob("*.jsonl")):
+    for fname in sorted(inpath.glob("**/*.jsonl")):
         with fname.open() as inf:
             for line in inf:
                 _ = Example.parse_raw(line)
@@ -174,12 +175,13 @@ def check_example(inpath: Path, ref: Optional[Path]) -> bool:
 
 
 def check_vanilla(inpath: Path, ref: Optional[Path]) -> bool:
+    assert inpath.is_dir()
     assert ref is None
 
     from asdc.schema.vanilla import VanillaUtterances
 
     ok = True
-    for fname in sorted(inpath.glob("*.jsonl")):
+    for fname in sorted(inpath.glob("**/*.jsonl")):
         with fname.open() as inf:
             for line in inf:
                 _ = VanillaUtterances.parse_raw(line)
@@ -191,11 +193,12 @@ def check_vanilla(inpath: Path, ref: Optional[Path]) -> bool:
 
 
 def check_wrong_example(inpath: Path, ref: Optional[Path]) -> bool:
+    assert inpath.is_dir()
     assert ref is not None
 
     sid2ex: Dict[str, Example] = {}
 
-    for fname in sorted(ref.glob("*.jsonl")):
+    for fname in sorted(ref.glob("**/*.jsonl")):
         with fname.open() as inf:
             for line in inf:
                 ex = Example.parse_raw(line)
@@ -203,7 +206,7 @@ def check_wrong_example(inpath: Path, ref: Optional[Path]) -> bool:
                 sid2ex[ex.sid.id] = ex
 
     ok: bool = True
-    for fname in sorted(inpath.glob("*.jsonl")):
+    for fname in sorted(inpath.glob("**/*.jsonl")):
         with fname.open() as inf:
             for line in inf:
                 ex = Example.parse_raw(line)
