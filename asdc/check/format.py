@@ -196,7 +196,9 @@ def check_wrong_example(inpath: Path, ref: Optional[Path]) -> bool:
     assert inpath.is_dir()
     assert ref is not None
 
+    ok: bool = True
     sid2ex: Dict[str, Example] = {}
+    done_sids = set()
 
     for fname in sorted(ref.glob("**/*.jsonl")):
         with fname.open() as inf:
@@ -204,12 +206,21 @@ def check_wrong_example(inpath: Path, ref: Optional[Path]) -> bool:
                 ex = Example.parse_raw(line)
                 assert ex.sid.id not in sid2ex
                 sid2ex[ex.sid.id] = ex
+                if ex.sid.id in done_sids:
+                    ok = False
+                    print(f"Duplicated SID: {ex.sid.id}")
+                done_sids.add(ex.sid.id)
 
-    ok: bool = True
     for fname in sorted(inpath.glob("**/*.jsonl")):
         with fname.open() as inf:
             for line in inf:
                 ex = Example.parse_raw(line)
+
+                if ex.sid.id in done_sids:
+                    ok = False
+                    print(f"Duplicated SID: {ex.sid.id}")
+                done_sids.add(ex.sid.id)
+
                 original_id = ex.meta["original"]
                 original_ex = sid2ex.get(original_id)
                 if original_ex is None:
