@@ -217,13 +217,14 @@ def check_wrong_example(inpath: Path, ref: Optional[Path]) -> bool:
                     ok = False
                 else:
                     if original_ex.context != ex.context:
-                        print(f"Mismatch: {original_id}", original_ex, ex)
+                        print(f"Mismatch context: {original_id}", original_ex, ex)
                         ok = False
                     if original_ex.sources != ex.sources:
-                        print(f"Mismatch: {original_id}", original_ex, ex)
+                        print(f"Mismatch sources: {original_id}", original_ex.sources, ex.sources)
+                        #                         print(f"Mismatch sources: {original_id}", original_ex, ex)
                         ok = False
                     if original_ex.source_index != ex.source_index:
-                        print(f"Mismatch: {original_id}", original_ex, ex)
+                        print(f"Mismatch source_index: {original_id}", original_ex, ex)
                         ok = False
                     if original_ex.targets == ex.targets:
                         print("Same targets: {original_id}", original_ex, ex)
