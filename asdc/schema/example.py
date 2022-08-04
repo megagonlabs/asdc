@@ -75,7 +75,11 @@ class Example(BaseModel):
 
     @root_validator
     def validate_source_index(cls, values):
-        if 0 <= values["source_index"] < len(values["sources"]):
+        snum: int = values["sid"].sentence_num
+        sidx: int = values["source_index"]
+        if snum != sidx:
+            raise ValueError(f"Mismatch between SID and source_index ({snum}, {sidx}) in {values['sid']}")
+        if 0 <= sidx < len(values["sources"]):
             return values
         raise ValueError("Invalid index")
 
