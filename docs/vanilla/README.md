@@ -89,7 +89,7 @@ Most customers' utterances contain several sentences.
 
 - ``meta.data["q_num_sentences"]``: The number of sentences of the operator's utterance
 
-## ``situation.normal.VanillaUtterances.jsonl``: 5,407 dialogs
+## ``situation.normal.VanillaUtterances.jsonl``: 5,406 dialogs
 
 This file contains dialogs under specific situation.
 The situation is in ``meta.data["situation"]``.
@@ -109,7 +109,7 @@ The candidate hotels are named with alphabets like ``Aホテル``, ``B旅館``, 
 - ``meta.data["finalize"]``: Whether the customer finally selects one candidate or not.
 - ``meta.data["single_candidates"]``: Whether the operator suggests only single accommodation.
 
-## ``situation.short.VanillaUtterances.jsonl``: 2,038 dialogs
+## ``situation.short.VanillaUtterances.jsonl``: 2,037 dialogs
 
 This file contains dialogs created by rewriting dialogs in ``situation.normal.VanillaUtterances.jsonl``.
 Crowd workers were asked to rewrite the client's utterances so that they were in multiple shorter sentences.
