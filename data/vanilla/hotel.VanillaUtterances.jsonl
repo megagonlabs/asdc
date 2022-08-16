@@ -4066,7 +4066,7 @@
 {"meta": {"data": {}, "id": {"id": "asdc.vanilla.hotel.15.00069"}, "memo": ""}, "utterances": [{"name": "question", "text": "あなたが、恋人と2人で観光旅行で泊まるとしたらどのようなホテルに泊まりたいですか?"}, {"name": "answer", "text": "プライベートビーチがあるホテル"}]}
 {"meta": {"data": {}, "id": {"id": "asdc.vanilla.hotel.15.00070"}, "memo": ""}, "utterances": [{"name": "question", "text": "あなたが、恋人と2人で観光旅行で泊まるとしたらどのようなホテルに泊まりたいですか?"}, {"name": "answer", "text": "プライベート露天風呂が完備されているホテル"}]}
 {"meta": {"data": {}, "id": {"id": "asdc.vanilla.hotel.15.00071"}, "memo": ""}, "utterances": [{"name": "question", "text": "あなたが、恋人と2人で観光旅行で泊まるとしたらどのようなホテルに泊まりたいですか?"}, {"name": "answer", "text": "プライベート露天風呂付のホテル"}]}
-{"meta": {"data": {}, "id": {"id": "asdc.vanilla.hotel.15.00072"}, "memo": ""}, "utterances": [{"name": "question", "text": "あなたが、恋人と2人で観光旅行で泊まるとしたらどのようなホテルに泊まりたいですか?"}, {"name": "answer", "text": "ヘッドが広いホテル"}]}
+{"meta": {"data": {}, "id": {"id": "asdc.vanilla.hotel.15.00072"}, "memo": ""}, "utterances": [{"name": "question", "text": "あなたが、恋人と2人で観光旅行で泊まるとしたらどのようなホテルに泊まりたいですか?"}, {"name": "answer", "text": "ベッドが広いホテル"}]}
 {"meta": {"data": {}, "id": {"id": "asdc.vanilla.hotel.15.00073"}, "memo": ""}, "utterances": [{"name": "question", "text": "あなたが、恋人と2人で観光旅行で泊まるとしたらどのようなホテルに泊まりたいですか?"}, {"name": "answer", "text": "ベッドが大きいホテル"}]}
 {"meta": {"data": {}, "id": {"id": "asdc.vanilla.hotel.15.00074"}, "memo": ""}, "utterances": [{"name": "question", "text": "あなたが、恋人と2人で観光旅行で泊まるとしたらどのようなホテルに泊まりたいですか?"}, {"name": "answer", "text": "ベッドが広いホテル"}]}
 {"meta": {"data": {}, "id": {"id": "asdc.vanilla.hotel.15.00075"}, "memo": ""}, "utterances": [{"name": "question", "text": "あなたが、恋人と2人で観光旅行で泊まるとしたらどのようなホテルに泊まりたいですか?"}, {"name": "answer", "text": "ベッドが清潔なホテル"}]}
