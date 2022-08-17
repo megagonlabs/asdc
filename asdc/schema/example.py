@@ -89,6 +89,13 @@ class Example(BaseModel):
 
         return values
 
+    @validator("targets")
+    def validate_targets(cls, v):
+        for t in v:
+            if "<none>" in t:
+                raise ValueError("<none> should not be in targets")
+        return v
+
     def dump_alighment(self, limit_context: int) -> Iterator[AlignmentDump]:
         if self.alignments_list is None or len(self.alignments_list) == 0:
             raise KeyError
