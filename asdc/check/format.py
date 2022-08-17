@@ -192,7 +192,7 @@ def check_vanilla(inpath: Path, ref: Optional[Path]) -> bool:
     return ok
 
 
-def check_wrong_example(inpath: Path, ref: Optional[Path]) -> bool:
+def check_incorrect_example(inpath: Path, ref: Optional[Path]) -> bool:
     assert inpath.is_dir()
     assert ref is not None
 
@@ -246,7 +246,7 @@ DATA_TYPES: typing.Dict[str, Callable] = {
     "scud_main": check_scud_main,
     "scud_json": check_scud_json,
     "example": check_example,
-    "wrong_example": check_wrong_example,
+    "incorrect_example": check_incorrect_example,
     "vanilla": check_vanilla,
 }
 
