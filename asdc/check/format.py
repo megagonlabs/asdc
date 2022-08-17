@@ -251,7 +251,7 @@ def check_incorrect_example(inpath: Path, ref: Optional[Path]) -> bool:
                         #                         print(f"Mismatch sources: {original_id}", original_ex, ex)
                         ok = False
                     if original_ex.targets == ex.targets:
-                        print("Same targets: {original_id}", original_ex, ex)
+                        print(f"Same targets: {original_id}", original_ex, ex)
                         ok = False
     return ok
 
