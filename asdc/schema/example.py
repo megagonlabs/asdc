@@ -64,7 +64,6 @@ class SimpleUtterance(BaseModel):
 class Example(BaseModel):
     sid: SID
     sources: List[str]  # List of sentences
-    source_index: int  # Index of sentence in the list
     targets: List[str]
     context: List[SimpleUtterance]
     group_types: List[str]
@@ -72,16 +71,6 @@ class Example(BaseModel):
     max_distance_sentence: Optional[int]  # SCUDの対応付けがあり，同一発話内にあるもののうち，最大で離れている文数
     meta: Dict[str, Any]
     alignments_list: Optional[List[List[Alignment]]]
-
-    @root_validator
-    def validate_source_index(cls, values):
-        snum: int = values["sid"].sentence_num
-        sidx: int = values["source_index"]
-        if snum != sidx:
-            raise ValueError(f"Mismatch between SID and source_index ({snum}, {sidx}) in {values['sid']}")
-        if 0 <= sidx < len(values["sources"]):
-            return values
-        raise ValueError("Invalid index")
 
     @root_validator
     def validate_alignments_list(cls, values):
@@ -194,7 +183,6 @@ class Example(BaseModel):
         yield f"=== {self.sid}\n"
         yield f"Context\t{self.context}\n"
         yield f"Sources\t{self.sources}\n"
-        yield f"Source_idx\t{self.source_index}\n"
         yield f"Targets\t{self.targets}\n"
         for alignments in self.alignments_list:
             for al in alignments:

@@ -32,7 +32,6 @@ def scuds2examples(docid: DocID, scuds: List[Scud], uttrs: Utterances) -> Iterat
                 yield Example(
                     sid=sid,
                     sources=sources,
-                    source_index=sid.sentence_num,
                     targets=[],
                     group_types=[],
                     max_distance_uttr=0,
@@ -65,7 +64,6 @@ def scuds2examples(docid: DocID, scuds: List[Scud], uttrs: Utterances) -> Iterat
             yield Example(
                 sid=sid,
                 sources=sources,
-                source_index=sid.sentence_num,
                 targets=[s.scud for s in sorted(my_scuds)],
                 group_types=sorted(list(gts)),
                 max_distance_uttr=max_distance_uttr,

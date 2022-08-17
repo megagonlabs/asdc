@@ -234,9 +234,6 @@ def check_wrong_example(inpath: Path, ref: Optional[Path]) -> bool:
                         print(f"Mismatch sources: {original_id}", original_ex.sources, ex.sources)
                         #                         print(f"Mismatch sources: {original_id}", original_ex, ex)
                         ok = False
-                    if original_ex.source_index != ex.source_index:
-                        print(f"Mismatch source_index: {original_id}", original_ex, ex)
-                        ok = False
                     if original_ex.targets == ex.targets:
                         print("Same targets: {original_id}", original_ex, ex)
                         ok = False
