@@ -2,7 +2,7 @@
 
 from typing import Any, Dict, Iterator, List, Literal, Optional, Tuple
 
-from pydantic import BaseModel, root_validator, validator
+from pydantic import BaseModel, Field, root_validator, validator
 
 from asdc.schema.id import SID
 
@@ -63,7 +63,7 @@ class SimpleUtterance(BaseModel):
 
 class Example(BaseModel):
     sid: SID
-    sources: List[str]  # List of sentences
+    sources: List[str] = Field(min_items=1)  # List of sentences
     targets: List[str]
     context: List[SimpleUtterance]
     group_types: List[str]
