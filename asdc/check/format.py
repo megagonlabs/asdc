@@ -11,7 +11,7 @@ from pathlib import Path
 from typing import Callable, DefaultDict, Dict, Optional, Tuple
 
 from asdc.schema.dialog import GroupType, Scud, Utterances, open_scud_file_by_docid
-from asdc.schema.example import METACHAR_LINE_BREAK, METACHAR_SENTENCE_BOUNDARY, Example
+from asdc.schema.example import METACHAR_LINE_BREAK, METACHAR_SENTENCE_BOUNDARY, METAKEY_INCORRECT, Example
 from asdc.schema.id import SID
 
 
@@ -192,6 +192,20 @@ def check_vanilla(inpath: Path, ref: Optional[Path]) -> bool:
     return ok
 
 
+def check_incorrect_example_meta(ex: Example) -> bool:
+    if METAKEY_INCORRECT not in ex.meta:
+        print("Key incorrect does not exist")
+        return False
+
+    k = ex.meta[METAKEY_INCORRECT]
+    if k is None or isinstance(k, bool):
+        pass
+    else:
+        print("Invalid type of value")
+        return False
+    return True
+
+
 def check_incorrect_example(inpath: Path, ref: Optional[Path]) -> bool:
     assert inpath.is_dir()
     assert ref is not None
@@ -220,6 +234,8 @@ def check_incorrect_example(inpath: Path, ref: Optional[Path]) -> bool:
                     ok = False
                     print(f"Duplicated SID: {ex.sid.id}")
                 done_sids.add(ex.sid.id)
+
+                ok = check_incorrect_example_meta(ex)
 
                 original_id = ex.meta["original"]
                 original_ex = sid2ex.get(original_id)
