@@ -237,7 +237,10 @@ def check_incorrect_example(inpath: Path, ref: Optional[Path]) -> bool:
 
                 ok = check_incorrect_example_meta(ex)
 
-                original_id = ex.meta["original"]
+                original_id = ex.meta.get("original")
+                if original_id is None:
+                    continue
+
                 original_ex = sid2ex.get(original_id)
                 if original_ex is None:
                     print(f"Unknown original ID: {original_id}, {ex}")
