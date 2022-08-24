@@ -35,9 +35,10 @@ Some kinds of dialogs among ``negation`` ,``question`` ,``conditional_answer`` m
 
 Dialogs about YES/NO question made by crowd workers.
 
-- ``4turn_yn_multi.Example.jsonl``
-    - ``meta.memo`` is a answer type among ``YES``, ``NYNN`` or ``NO``.
+- ``yn_multi.Example.jsonl``
+    - ``meta.instruction`` is a answer type among multiple options ``YES``, ``NYNN`` or ``NO``.
     - ``NYNN`` is answer that is neither yes nor no.
+    - Some conversations consist of four turns
 - ``4turn_yn_yes.Example.jsonl``
 - ``4turn_yn_no.Example.jsonl``
 
