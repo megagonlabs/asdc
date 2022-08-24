@@ -28,23 +28,6 @@ This file contains pairs of a question about travel and its answer.
 | あなたが、京都に旅行するとしたら、どのような旅行をしたいですか? | 清水寺を巡る旅行|
 | あなたが、学校低学年の子どもと配偶者との家族国内旅行をするとしたら、どのような旅行をしたいですか? | 子供が思いっきりはしゃげるような旅行|
 
-## ``choices.amb.VanillaUtterances.jsonl``: 6,391 dialogs
-
-This file contains pairs of a question about a choice between two things and its answer.
-``meta.data["type_answer"]`` is an answer type (``INDIRECT`` or  ``NYNN``).
-
-- ``INDIRECT`` is indirect answer to choose one.
-- ``NYNN`` is answer that is neither yes nor no.
-
-| Operator | Customer | Type |
-| --- | --- | --- |
-| お部屋のお風呂はコンパクトなユニットバスと造り付けの露天風呂どちらが良いですか? | ゆっくり入りたいので後者でお願いします | INDIRECT |
-| 和室と洋室のどちらにされますか? | どちらも海が見えますか? | NYNN |
-
-:warning:
-Note that the "type" has not been well-checked.
-Thus it contains many  inaccurate classifications.
-
 ## ``question.single.VanillaUtterances.jsonl``: 1,061 dialogs
 
 This file contains pairs of single question and its answer.
