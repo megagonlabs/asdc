@@ -1,15 +1,24 @@
 #!/usr/bin/env python3
-
 import argparse
 import collections
 from pathlib import Path
-from typing import DefaultDict, Iterator, List, Optional, Set
+from typing import DefaultDict, Iterator, List, Literal, Set
 
 from asdc.schema.dialog import Docid2Utterances, Scud, Utterances, open_scud_file_by_docid
-from asdc.schema.example import Alignment, AlignmentSpan, Example, SimpleUtterance
+from asdc.schema.example import Example, SimpleUtterance
 from asdc.schema.id import SID, DocID
 
 METACHAR_LINE_BREAK: str = "\u2581"
+
+
+def _get_purpose(orig: str) -> Literal["test", "train", "dev"]:
+    if orig == "test":
+        return orig
+    elif orig == "dev":
+        return orig
+    elif orig != "train":
+        raise NotImplementedError
+    return "train"
 
 
 def scuds2examples(docid: DocID, scuds: List[Scud], uttrs: Utterances) -> Iterator[Example]:
@@ -33,12 +42,9 @@ def scuds2examples(docid: DocID, scuds: List[Scud], uttrs: Utterances) -> Iterat
                     sid=sid,
                     sources=sources,
                     targets=[],
-                    group_types=[],
-                    max_distance_uttr=0,
-                    max_distance_sentence=0,
                     context=context,
-                    meta={"purpose": uttrs.meta.purpose},
-                    alignments_list=[],
+                    purpose=_get_purpose(uttrs.meta.purpose),
+                    meta={},
                 )
                 continue
 
@@ -54,85 +60,18 @@ def scuds2examples(docid: DocID, scuds: List[Scud], uttrs: Utterances) -> Iterat
                             internal_sids.add(_span.sid)
 
             assert len(uttr_ids) > 0
-            max_distance_uttr: int = max(uttr_ids) - min(uttr_ids)
 
-            max_distance_sentence: Optional[int] = None
             if len(internal_sids) > 0:
                 internal_sids.add(sid)
-                max_distance_sentence = max(internal_sids) - min(internal_sids)  # type: ignore Temporary fix
 
             yield Example(
                 sid=sid,
                 sources=sources,
                 targets=[s.scud for s in sorted(my_scuds)],
-                group_types=sorted(list(gts)),
-                max_distance_uttr=max_distance_uttr,
-                max_distance_sentence=max_distance_sentence,
                 context=context,
-                meta={"purpose": uttrs.meta.purpose},
-                alignments_list=_get_alighment(
-                    context,
-                    sources,
-                    my_scuds,
-                    uttrs,
-                ),
+                purpose=_get_purpose(uttrs.meta.purpose),
+                meta={},
             )
-
-
-def _get_alighment(
-    context: List[SimpleUtterance], sources: List[str], scuds: List[Scud], uttrs: Utterances
-) -> List[List[Alignment]]:
-    def _context_new_position(sid: SID, position: int) -> int:
-        np: int = 0
-        for idx, sent in enumerate(uttrs.utterances[sid.uttrid.num].yield_sentence()):
-            if idx == sid.sentence_num:
-                break
-            np += len(sent)
-        return np + position
-
-    alignments_list: List[List[Alignment]] = []
-    for scud in scuds:
-        alignments: List[Alignment] = []
-        for group in scud.groups:
-            if not group.has_target or not group.has_source:
-                continue
-
-            _al_origins: List[AlignmentSpan] = []
-            _al_origins_in_context: List[bool] = []
-            _al_targets: List[AlignmentSpan] = []
-
-            for span in group.spans:
-                if span.is_target:
-                    _al_targets.append(AlignmentSpan(index=scud.idx, start=span.start, end=span.end))
-                else:
-                    if span.sid.uttrid == scud.sid.uttrid:
-                        _al_origins.append(
-                            AlignmentSpan(
-                                index=span.sid.sentence_num,
-                                start=span.start,
-                                end=span.end,
-                            )
-                        )
-                        _al_origins_in_context.append(False)
-                    else:
-                        _al_origins.append(
-                            AlignmentSpan(
-                                index=span.sid.uttrid.num,
-                                start=_context_new_position(span.sid, span.start),
-                                end=_context_new_position(span.sid, span.end),
-                            )
-                        )
-                        _al_origins_in_context.append(True)
-
-            alignments.append(
-                Alignment(
-                    origins=_al_origins,
-                    origins_in_context=_al_origins_in_context,
-                    targets=_al_targets,
-                )
-            )
-        alignments_list.append(sorted(alignments, key=lambda x: min(x.targets)))
-    return alignments_list
 
 
 def generate(path_in: Path, ref: Path) -> Iterator[Example]:
