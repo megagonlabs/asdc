@@ -17,7 +17,7 @@ def operation(
     ) as outf_test, path_in.open() as inf:
         for line in inf:
             ex = Example.parse_raw(line)
-            purpose = ex.meta.get("purpose", "train")
+            purpose = ex.purpose
             outline: str = ex.json(ensure_ascii=False, sort_keys=True) + "\n"
 
             if purpose == "train":

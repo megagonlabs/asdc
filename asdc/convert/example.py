@@ -1,15 +1,24 @@
 #!/usr/bin/env python3
-
 import argparse
 import collections
 from pathlib import Path
-from typing import DefaultDict, Iterator, List, Set
+from typing import DefaultDict, Iterator, List, Literal, Set
 
 from asdc.schema.dialog import Docid2Utterances, Scud, Utterances, open_scud_file_by_docid
 from asdc.schema.example import Example, SimpleUtterance
 from asdc.schema.id import SID, DocID
 
 METACHAR_LINE_BREAK: str = "\u2581"
+
+
+def _get_purpose(orig: str) -> Literal["test", "train", "dev"]:
+    if orig == "test":
+        return orig
+    elif orig == "dev":
+        return orig
+    elif orig != "train":
+        raise NotImplementedError
+    return "train"
 
 
 def scuds2examples(docid: DocID, scuds: List[Scud], uttrs: Utterances) -> Iterator[Example]:
@@ -34,7 +43,8 @@ def scuds2examples(docid: DocID, scuds: List[Scud], uttrs: Utterances) -> Iterat
                     sources=sources,
                     targets=[],
                     context=context,
-                    meta={"purpose": uttrs.meta.purpose},
+                    purpose=_get_purpose(uttrs.meta.purpose),
+                    meta={},
                 )
                 continue
 
@@ -59,7 +69,8 @@ def scuds2examples(docid: DocID, scuds: List[Scud], uttrs: Utterances) -> Iterat
                 sources=sources,
                 targets=[s.scud for s in sorted(my_scuds)],
                 context=context,
-                meta={"purpose": uttrs.meta.purpose},
+                purpose=_get_purpose(uttrs.meta.purpose),
+                meta={},
             )
 
 

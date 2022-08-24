@@ -21,6 +21,7 @@ class Example(BaseModel):
     sources: List[str] = Field(min_items=1)  # List of sentences
     targets: List[str]
     context: List[SimpleUtterance]
+    purpose: Literal["test", "train", "dev"]
     meta: Dict[str, Any]
 
     @validator("targets")
