@@ -40,7 +40,7 @@ Dialogs about YES/NO question made by crowd workers.
     - ``NYNN`` is answer that is neither yes nor no.
     - Some conversations consist of four turns
 - ``yn_yes.Example.jsonl``
-- ``4turn_yn_no.Example.jsonl``
+- ``yn_no.Example.jsonl``
 
 ### Ellipsis
 
