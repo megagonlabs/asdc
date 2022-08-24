@@ -42,6 +42,19 @@ Dialogs about YES/NO question made by crowd workers.
 - ``yn_yes.Example.jsonl``
 - ``yn_no.Example.jsonl``
 
+### Choices
+
+- ``2turn_choices.Example.jsonl``
+    - Pairs of a question about a choice between two things and its answer.
+    - ``meta.answer_type`` is an answer type (``INDIRECT`` or  ``NYNN``).
+        - ``INDIRECT`` is indirect answer to choose one.
+        - ``NYNN`` is answer that is neither yes nor no.
+
+    | Operator | Customer | Type |
+    | --- | --- | --- |
+    | お部屋のお風呂はコンパクトなユニットバスと造り付けの露天風呂どちらが良いですか? | ゆっくり入りたいので後者でお願いします | INDIRECT |
+    | 和室と洋室のどちらにされますか? | どちらも海が見えますか? | NYNN |
+
 ### Ellipsis
 
 Every example includes SCUDs to resolve ellipsis
