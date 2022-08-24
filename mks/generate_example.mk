@@ -31,7 +31,7 @@ OUTPUT_MAIN_TRAIN:=$(OUTPUT_MAIN_DIR)/train.jsonl
 
 $(OUTPUT_MAIN_ALL): $(INPUT_SCUD_DIR) $(INPUT_JSON_DIR)
 	mkdir -p $(dir $@) \
-	&& python3 -m asdc.convert.example \
+	&& python3 -m asdc.convert.main_scud_example \
 		-i $(INPUT_SCUD_DIR) --ref $(INPUT_JSON_DIR) -o $@
 
 $(OUTPUT_MAIN_TRAIN): $(OUTPUT_MAIN_ALL)
