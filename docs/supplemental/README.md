@@ -39,7 +39,7 @@ Dialogs about YES/NO question made by crowd workers.
     - ``meta.instruction`` is a answer type among multiple options ``YES``, ``NYNN`` or ``NO``.
     - ``NYNN`` is answer that is neither yes nor no.
     - Some conversations consist of four turns
-- ``4turn_yn_yes.Example.jsonl``
+- ``yn_yes.Example.jsonl``
 - ``4turn_yn_no.Example.jsonl``
 
 ### Ellipsis
