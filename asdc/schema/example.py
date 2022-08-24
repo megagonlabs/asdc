@@ -2,7 +2,7 @@
 
 from typing import Any, Dict, List, Literal
 
-from pydantic import BaseModel, Field, validator
+from pydantic import BaseModel, Field, root_validator, validator
 
 from asdc.schema.id import SID
 
@@ -19,10 +19,20 @@ class SimpleUtterance(BaseModel):
 class Example(BaseModel):
     sid: SID
     sources: List[str] = Field(min_items=1)  # List of sentences
-    targets: List[str]
+    targets: List[str]  # SCUDs of focused_source
     context: List[SimpleUtterance]
     purpose: Literal["test", "train", "dev"]
     meta: Dict[str, Any]
+
+    @property
+    def focused_source(self) -> str:
+        return self.sources[self.sid.sentence_num]
+
+    @root_validator
+    def validate_sid(cls, values):
+        if 0 <= values["sid"].sentence_num < len(values["sources"]):
+            return values
+        raise ValueError("Invalid sentence number")
 
     @validator("targets")
     def validate_targets(cls, v):
