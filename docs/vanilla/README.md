@@ -45,22 +45,6 @@ This file contains pairs of a question about a choice between two things and its
 Note that the "type" has not been well-checked.
 Thus it contains many  inaccurate classifications.
 
-## ``choices.yn.VanillaUtterances.jsonl``: 8,787 dialogs
-
-This file contains pairs of a YES/NO question and its answer.
-``meta.data["type_answer"]`` is an answer type (``YES``, ``NYNN`` or ``NO``).
-``NYNN`` is answer that is neither yes nor no.
-
-| Operator | Customer | Type |
-| --- | --- | --- |
-| 高級感漂うお宿がよろしいでしょうか? | そうですねぇ、料金にもよるかなぁ。 | NYNN |
-| 1泊五千円以内のプランということでよろしいでしょうか? | はい、というか安い分にはいくらでも構いません。 | YES |
-| 駐車場は必要ですか? | タクシーで行きます。|NO|
-
-:warning:
-Note that the "type" has not been well-checked.
-Thus it contains many  inaccurate classifications.
-
 ## ``question.single.VanillaUtterances.jsonl``: 1,061 dialogs
 
 This file contains pairs of single question and its answer.
