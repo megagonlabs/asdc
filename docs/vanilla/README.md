@@ -56,7 +56,7 @@ Most customers' utterances contain several sentences.
 
 - ``meta.data["q_num_sentences"]``: The number of sentences of the operator's utterance
 
-## ``situation.normal.VanillaUtterances.jsonl``: 5,396 dialogs
+## ``situation.normal.VanillaUtterances.jsonl``: 5,395 dialogs
 
 This file contains dialogs under specific situation.
 The situation is in ``meta.data["situation"]``.
