@@ -76,7 +76,7 @@ The candidate hotels are named with alphabets like ``Aホテル``, ``B旅館``, 
 - ``meta.data["finalize"]``: Whether the customer finally selects one candidate or not.
 - ``meta.data["single_candidates"]``: Whether the operator suggests only single accommodation.
 
-## ``situation.short.VanillaUtterances.jsonl``: 2,037 dialogs
+## ``situation.short.VanillaUtterances.jsonl``: 2,026 dialogs
 
 This file contains dialogs created by rewriting dialogs in ``situation.normal.VanillaUtterances.jsonl``.
 Crowd workers were asked to rewrite the client's utterances so that they were in multiple shorter sentences.
