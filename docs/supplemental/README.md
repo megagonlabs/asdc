@@ -23,6 +23,15 @@ SCUDS annotated to four turn dialogs made by crowd workers.
 
 - 4turn.Example.jsonl
 
+### Short utterances
+
+Crowd workers were asked to rewrite the client's utterances so that they were in multiple shorter sentences.
+The original id is stored in ``meta.data["original_doc_id"]``.
+
+- ``data/supplemental/scud/situation.short.Example.jsonl``
+    - Original utterances: ``data/supplemental/raw/situation.short.has_scud.VanillaUtterances.jsonl``
+    - Utterances without SCUDs: ``data/vanilla/situation.short.VanillaUtterances.jsonl``
+
 ## Featured examples
 
 ### Conditional generation of Utterances
