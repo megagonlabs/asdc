@@ -68,7 +68,7 @@ The situation is in ``meta.data["situation"]``.
 ## ``situation.normal.extend.VanillaUtterances.jsonl``: 841 dialogs
 
 This file contains the continuation of several conversations in Y ``situation.normal.VanillaUtterances.jsonl``.
-The original id is stored in ``meta.data["original_id"]``.
+The original id is stored in ``meta.data["original_doc_id"]``.
 
 Crowd workers as asked to make operators suggest two or more accommodations.
 The candidate hotels are named with alphabets like ``Aホテル``, ``B旅館``, and ``Cホテル``.
@@ -80,7 +80,7 @@ The candidate hotels are named with alphabets like ``Aホテル``, ``B旅館``, 
 
 This file contains dialogs created by rewriting dialogs in ``situation.normal.VanillaUtterances.jsonl``.
 Crowd workers were asked to rewrite the client's utterances so that they were in multiple shorter sentences.
-The original id is stored in ``meta.data["original_id"]``.
+The original id is stored in ``meta.data["original_doc_id"]``.
 
 | Situation | Customer | Operator | Customer | Operator |
 | --- | --- | --- | --- | --- |

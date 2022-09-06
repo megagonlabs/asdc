@@ -237,24 +237,24 @@ def check_incorrect_example(inpath: Path, ref: Optional[Path]) -> bool:
 
                 ok = check_incorrect_example_meta(ex)
 
-                original_id = ex.meta.get("original")
-                if original_id is None:
+                original_doc_id = ex.meta.get("original")
+                if original_doc_id is None:
                     continue
 
-                original_ex = sid2ex.get(original_id)
+                original_ex = sid2ex.get(original_doc_id)
                 if original_ex is None:
-                    print(f"Unknown original ID: {original_id}, {ex}")
+                    print(f"Unknown original ID: {original_doc_id}, {ex}")
                     ok = False
                 else:
                     if original_ex.context != ex.context:
-                        print(f"Mismatch context: {original_id}", original_ex, ex)
+                        print(f"Mismatch context: {original_doc_id}", original_ex, ex)
                         ok = False
                     if original_ex.sources != ex.sources:
-                        print(f"Mismatch sources: {original_id}", original_ex.sources, ex.sources)
-                        #                         print(f"Mismatch sources: {original_id}", original_ex, ex)
+                        print(f"Mismatch sources: {original_doc_id}", original_ex.sources, ex.sources)
+                        #                         print(f"Mismatch sources: {original_doc_id}", original_ex, ex)
                         ok = False
                     if original_ex.targets == ex.targets:
-                        print(f"Same targets: {original_id}", original_ex, ex)
+                        print(f"Same targets: {original_doc_id}", original_ex, ex)
                         ok = False
     return ok
 
