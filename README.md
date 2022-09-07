@@ -28,8 +28,6 @@ Please read [documents](docs/dialog) for more details.
 
 The number of SCUDs is about 3,500.
 
-#### Examples of ``main``
-
 | Name | Utterance | SCUD | DA | RS |
 | --- | --- | --- | --- | ---|
 | Agent | さようでございますか。 ||||
@@ -53,8 +51,6 @@ If ``meta['meta']`` of an example is ``true``, the example has incorrect SCUDs.
 Files in ``data/vanilla`` are fictitious dialogs or queries made by crowd workers with no SCUD annotations.
 The number is over 100,000.
 Please read [the documents](docs/vanilla/README.md) for more details.
-
-### Examples of ``vanilla``
 
 | Utterance 1 | Utterance 2 |
 | --- | --- |
