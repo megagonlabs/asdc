@@ -79,7 +79,7 @@ check_supplemental_raw:
 	python3 -m asdc.check.linenum \
 	  -i ./README.md \
 	  --root $(DATA_ROOT_DIR)/supplemental/raw \
-	  --tail examples \
+	  --tail dialogs \
 	  --suffix '(data/supplemental/raw)' \
 	  --dir
 
