@@ -47,6 +47,12 @@ check_vanilla_linenum:
 	  --tail dialogs \
 	  --tail queries \
 	  --suffix .VanillaUtterances.jsonl
+	python3 -m asdc.check.linenum \
+	  -i ./README.md \
+	  --root $(DATA_ROOT_DIR)/vanilla \
+	  --tail dialogs \
+	  --suffix '(data/vanilla)' \
+	  --dir
 
 check_supplemental_scud_linenum:
 	python3 -m asdc.check.linenum \
@@ -54,6 +60,12 @@ check_supplemental_scud_linenum:
 	  --root $(DATA_ROOT_DIR)/supplemental/scud \
 	  --tail examples \
 	  --suffix .Example.jsonl
+	python3 -m asdc.check.linenum \
+	  -i ./README.md \
+	  --root $(DATA_ROOT_DIR)/supplemental/scud \
+	  --tail examples \
+	  --suffix '(data/supplemental/scud)' \
+	  --dir
 
 check_vanilla_format:
 	python3 -m asdc.check.format \
