@@ -43,12 +43,24 @@ check_scud_main_jsonl_conversion:
 check_vanilla_linenum:
 	python3 -m asdc.check.linenum \
 	  -i ./docs/vanilla/README.md \
-	  --root $(DATA_ROOT_DIR)/vanilla
+	  --root $(DATA_ROOT_DIR)/vanilla \
+	  --tail dialogs \
+	  --tail queries \
+	  --suffix .VanillaUtterances.jsonl
+
+check_supplemental_scud_linenum:
+	python3 -m asdc.check.linenum \
+	  -i ./docs/supplemental/README.md \
+	  --root $(DATA_ROOT_DIR)/supplemental/scud \
+	  --tail examples \
+	  --suffix .Example.jsonl
+
 check_vanilla_format:
 	python3 -m asdc.check.format \
 	  -i $(DATA_ROOT_DIR)/vanilla -t vanilla
 
 check_vanilla: check_vanilla_linenum \
+	check_supplemental_scud_linenum \
 	check_vanilla_format
 
 

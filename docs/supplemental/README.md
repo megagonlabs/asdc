@@ -9,34 +9,35 @@ Supplemental SCUD annotations.
 
 SCUDS annotated to answers about hotels.
 
-- ``hotel.Example.jsonl``
+- ``hotel.Example.jsonl``: 199 examples
 
 ### 2 turn
 
 SCUDS annotated to two turn dialogs made by crowd workers.
 
-- 2turn.Example.jsonl
+- ``2turn.Example.jsonl``: 425 examples
 
 ### 4 turn
 
 SCUDS annotated to four turn dialogs made by crowd workers.
 
-- 4turn.Example.jsonl
+- ``4turn.Example.jsonl``: 4,451 examples
 
 ### Short utterances
 
 Crowd workers were asked to rewrite the client's utterances so that they were in multiple shorter sentences.
 The original id is stored in ``meta.data["original_doc_id"]``.
 
-- ``data/supplemental/scud/situation.short.Example.jsonl``
+- ``situation.short.Example.jsonl``: 1,887 examples
     - Original utterances: ``data/supplemental/raw/situation.short.has_scud.VanillaUtterances.jsonl``
     - Utterances without SCUDs: ``data/vanilla/situation.short.VanillaUtterances.jsonl``
+- ``situation.normal.Example.jsonl``: 4,830 examples
 
 ## Featured examples
 
 ### Conditional generation of Utterances
 
-- ``conditional.Example.jsonl``
+- ``conditional.Example.jsonl``: 362 examples
 
 Some kinds of dialogs among ``negation`` ,``question`` ,``conditional_answer`` made by an annotator.
 
@@ -44,16 +45,16 @@ Some kinds of dialogs among ``negation`` ,``question`` ,``conditional_answer`` m
 
 Dialogs about YES/NO question made by crowd workers.
 
-- ``yn_multi.Example.jsonl``
+- ``yn_multi.Example.jsonl``: 9,780 examples
     - ``meta.instruction`` is a answer type among multiple options ``YES``, ``NYNN`` or ``NO``.
     - ``NYNN`` is answer that is neither yes nor no.
     - Some conversations consist of four turns
-- ``yn_yes.Example.jsonl``
-- ``yn_no.Example.jsonl``
+- ``yn_yes.Example.jsonl``: 2,709 examples
+- ``yn_no.Example.jsonl``: 2,709 examples
 
 ### Choices
 
-- ``2turn_choices.Example.jsonl``
+- ``2turn_choices.Example.jsonl``: 6,606 examples
     - Pairs of a question about a choice between two things and its answer.
     - ``meta.answer_type`` is an answer type (``INDIRECT`` or  ``NYNN``).
         - ``INDIRECT`` is indirect answer to choose one.
@@ -68,27 +69,27 @@ Dialogs about YES/NO question made by crowd workers.
 
 Every example includes SCUDs to resolve ellipsis
 
-- ``ellipsis.Example.jsonl``
+- ``ellipsis.Example.jsonl``: 591 examples
 
 ### Multi requests
 
 Utterances made by crowd workers that are likely to generate multiple SCUDs.
 
-- ``mul_req_01.Example.jsonl``
-- ``mul_req_02.Example.jsonl``
+- ``mul_req_01.Example.jsonl``: 644 examples
+- ``mul_req_02.Example.jsonl``: 998 examples
 
 ## Examples to reduce errors
 
-- ``re_001.Example.jsonl``
+- ``re_001.Example.jsonl``: 33 examples
     - Collection of fixed SCUDs of a SCUD generation system.
     - This is made by an annotator.
-- ``re_002.Example.jsonl``
+- ``re_002.Example.jsonl``: 870 examples
     - Collection of gold SCUDs that SCUD generation systems should work well for.
     - This is made by an annotator.
 
 ## Other examples
 
-- ``basic.Example.jsonl``
+- ``basic.Example.jsonl``: 76 examples
     - Basic test suite
 - ``data/supplemental/wrong_scud/contrastive.Example.jsonl``
     - Include wrong SCUDs
