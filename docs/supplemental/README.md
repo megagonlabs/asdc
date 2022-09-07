@@ -91,5 +91,3 @@ Utterances made by crowd workers that are likely to generate multiple SCUDs.
 
 - ``basic.Example.jsonl``: 76 examples
     - Basic test suite
-- ``data/supplemental/wrong_scud/contrastive.Example.jsonl``
-    - Include wrong SCUDs
