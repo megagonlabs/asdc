@@ -75,12 +75,12 @@ check_incorrect_supplemental_scud_linenum:
 	  --suffix '(data/supplemental/incorrect_scud)' \
 	  --dir
 
-check_supplemental_raw:
+check_supplemental_utterances:
 	python3 -m asdc.check.linenum \
 	  -i ./README.md \
-	  --root $(DATA_ROOT_DIR)/supplemental/raw \
+	  --root $(DATA_ROOT_DIR)/supplemental/utterances \
 	  --tail dialogs \
-	  --suffix '(data/supplemental/raw)' \
+	  --suffix '(data/supplemental/utterances)' \
 	  --dir
 
 check_vanilla_format:
@@ -101,7 +101,7 @@ check_sup_example: _check_sup_example_scud_dir \
 	_check_sup_example_incorrect_dir \
 	check_supplemental_scud_linenum \
 	check_incorrect_supplemental_scud_linenum \
-	check_supplemental_raw \
+	check_supplemental_utterances \
 
 check_duplication:
 	python -m asdc.check.duplication \
