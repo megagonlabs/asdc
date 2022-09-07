@@ -75,6 +75,13 @@ check_incorrect_supplemental_scud_linenum:
 	  --suffix '(data/supplemental/incorrect_scud)' \
 	  --dir
 
+check_supplemental_raw:
+	python3 -m asdc.check.linenum \
+	  -i ./README.md \
+	  --root $(DATA_ROOT_DIR)/supplemental/raw \
+	  --tail examples \
+	  --suffix '(data/supplemental/raw)' \
+	  --dir
 
 check_vanilla_format:
 	python3 -m asdc.check.format \
@@ -83,6 +90,7 @@ check_vanilla_format:
 check_vanilla: check_vanilla_linenum \
 	check_supplemental_scud_linenum \
 	check_incorrect_supplemental_scud_linenum \
+	check_supplemental_raw \
 	check_vanilla_format
 
 

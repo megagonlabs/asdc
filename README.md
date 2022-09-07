@@ -41,6 +41,9 @@ The number of SCUDs is about 3,500.
 Files in ``data/supplemental/scud`` are Supplemental fictitious dialogs with SCUD annotations.
 Please read [the documents](docs/supplemental/README.md) for more details.
 
+- Most dialogs consist of a single pair of an agent utterance and a user utterance.
+- Dialogs containing more than three utterances are stored in files in [``data/supplemental/raw``](data/supplemental/raw) : 2,347 examples
+
 ## Supplemental incorrect SCUD part: [``data/supplemental/incorrect_scud``](data/supplemental/incorrect_scud): 3,591 examples
 
 Files in ``data/supplemental/incorrect_scud`` are Supplemental fictitious dialogs with SCUD annotations.
