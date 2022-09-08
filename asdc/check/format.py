@@ -158,7 +158,7 @@ def check_scud_json(inpath: Path, ref: Optional[Path]) -> bool:
     return ok
 
 
-def check_example(inpath: Path, ref: Optional[Path]) -> bool:
+def check_example(inpath: Path, ref: Optional[Path], acceptable_sid_prefix: str) -> bool:
     assert ref is None
     assert inpath.is_dir()
 
@@ -166,7 +166,13 @@ def check_example(inpath: Path, ref: Optional[Path]) -> bool:
     for fname in sorted(inpath.glob("**/*.jsonl")):
         with fname.open() as inf:
             for line in inf:
-                _ = Example.parse_raw(line)
+                ex = Example.parse_raw(line)
+                if ex.sid.id.startswith("asdc.vanilla."):  # FIXME: temporary
+                    pass
+                elif not ex.sid.id.startswith(acceptable_sid_prefix):
+                    print(f"Unacceptable SID: {ex.sid.id}")
+                    ok = False
+
                 fdata = json.dumps(json.loads(line), ensure_ascii=False, sort_keys=True) + "\n"
                 if line != fdata:
                     print(f"Unformatted JSON: {fname}")
@@ -264,13 +270,16 @@ DATA_TYPES: typing.Dict[str, Callable] = {
     "text": check_text,
     "scud_main": check_scud_main,
     "scud_json": check_scud_json,
-    "example": check_example,
     "incorrect_example": check_incorrect_example,
     "vanilla": check_vanilla,
 }
 
 
-def check(inpath: Path, typename: str, ref: Optional[Path]) -> bool:
+def check(inpath: Path, typename: str, ref: Optional[Path], acceptable_sid_prefix: Optional[str]) -> bool:
+    if typename == "example":
+        assert acceptable_sid_prefix is not None
+        return check_example(inpath, ref, acceptable_sid_prefix)
+
     func = DATA_TYPES.get(typename)
     if func is None:
         print(f"Invalid typename: {typename}")
@@ -281,14 +290,15 @@ def check(inpath: Path, typename: str, ref: Optional[Path]) -> bool:
 def get_opts() -> argparse.Namespace:
     oparser = argparse.ArgumentParser()
     oparser.add_argument("--input", "-i", required=True, type=Path)
-    oparser.add_argument("--type", "-t", choices=list(DATA_TYPES.keys()), required=True)
+    oparser.add_argument("--type", "-t", choices=list(DATA_TYPES.keys()) + ["example"], required=True)
     oparser.add_argument("--ref", type=Path)
+    oparser.add_argument("--prefix")
     return oparser.parse_args()
 
 
 def main() -> None:
     opts = get_opts()
-    ok = check(opts.input, opts.type, opts.ref)
+    ok = check(opts.input, opts.type, opts.ref, opts.prefix)
     if not ok:
         sys.exit(1)
 

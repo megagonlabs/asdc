@@ -92,10 +92,10 @@ check_vanilla: check_vanilla_linenum \
 
 
 _check_sup_example_scud_dir:
-	python3 -m asdc.check.format -i $(DATA_SUP_SCUD_DIR) -t example
+	python3 -m asdc.check.format -i $(DATA_SUP_SCUD_DIR) -t example --prefix asdc.sup.
 _check_sup_example_incorrect_dir:
 	python3 -m asdc.check.format -i $(DATA_SUP_INCORRECT_SCUD_DIR) -t incorrect_example --ref $(DATA_SUP_SCUD_DIR)
-	python3 -m asdc.check.format -i $(DATA_SUP_INCORRECT_SCUD_DIR) -t example
+	python3 -m asdc.check.format -i $(DATA_SUP_INCORRECT_SCUD_DIR) -t example --prefix asdc.sup.
 
 check_sup_example: _check_sup_example_scud_dir \
 	_check_sup_example_incorrect_dir \
