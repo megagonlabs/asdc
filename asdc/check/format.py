@@ -12,7 +12,8 @@ from typing import Callable, DefaultDict, Dict, Optional, Tuple
 
 from asdc.schema.dialog import GroupType, Scud, Utterances, open_scud_file_by_docid
 from asdc.schema.example import METACHAR_LINE_BREAK, METACHAR_SENTENCE_BOUNDARY, METAKEY_INCORRECT, Example
-from asdc.schema.id import SID
+from asdc.schema.id import SID, DocID
+from asdc.schema.vanilla import VanillaUtterances
 
 
 def check_setting(inpath: Path, ref: Optional[Path]) -> bool:
@@ -159,7 +160,14 @@ def check_scud_json(inpath: Path, ref: Optional[Path]) -> bool:
 
 
 def check_example(inpath: Path, ref: Optional[Path], acceptable_sid_prefix: str) -> bool:
-    assert ref is None
+    docid2vus: Optional[Dict[DocID, VanillaUtterances]] = None
+    if ref is not None:
+        docid2vus = {}
+        for f in ref.iterdir():
+            with f.open() as inf:
+                for line in inf:
+                    vus = VanillaUtterances.parse_raw(line)
+                    docid2vus[vus.meta.id] = vus
     assert inpath.is_dir()
 
     ok = True
@@ -176,6 +184,10 @@ def check_example(inpath: Path, ref: Optional[Path], acceptable_sid_prefix: str)
                 fdata = json.dumps(json.loads(line), ensure_ascii=False, sort_keys=True) + "\n"
                 if line != fdata:
                     print(f"Unformatted JSON: {fname}")
+                    ok = False
+
+                if docid2vus is not None and ex.sid.docid not in docid2vus:
+                    print(f"Unkown docid: {ex.sid.docid} (ex.sid)")
                     ok = False
     return ok
 
