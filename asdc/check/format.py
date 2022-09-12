@@ -187,7 +187,7 @@ def check_example(inpath: Path, ref: Optional[Path], acceptable_sid_prefix: str)
                     ok = False
 
                 if docid2vus is not None and ex.sid.docid not in docid2vus:
-                    print(f"Unkown docid: {ex.sid.docid} (ex.sid)")
+                    print(f"Unknown docid: {ex.sid.docid} (ex.sid)")
                     ok = False
     return ok
 
