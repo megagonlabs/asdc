@@ -261,9 +261,9 @@ class Utterances(BaseModel):
 
         out: List[SimpleUtterance] = []
         for u in self.utterances:
-            speaker = "agent"
+            name: str = "agent"
             if u.name.startswith("user"):
-                speaker = "user"
+                name = "user"
 
             if not same_uttr and u.id == uttr_id:
                 break
@@ -272,10 +272,10 @@ class Utterances(BaseModel):
                     return out
                 if by_uttr:
                     if lid == 0:
-                        out.append(SimpleUtterance(speaker=speaker, text=""))
+                        out.append(SimpleUtterance(name=name, text=""))
                     out[-1].text += sent
                 else:
-                    out.append(SimpleUtterance(speaker=speaker, text=sent))
+                    out.append(SimpleUtterance(name=name, text=sent))
         return out
 
 

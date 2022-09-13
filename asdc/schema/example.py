@@ -12,7 +12,7 @@ METAKEY_INCORRECT: str = "incorrect"
 
 
 class SimpleUtterance(BaseModel):
-    speaker: Literal["user", "agent"]
+    name: Literal["user", "agent"]
     text: str
 
 
