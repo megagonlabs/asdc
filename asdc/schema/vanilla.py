@@ -20,7 +20,7 @@ class VanillaUtterance(BaseModel):
 
     @validator("name")
     def validate_purpose(cls, v):
-        if v not in {"customer", "operator", "answer", "question"}:
+        if v not in {"user", "agent", "answer", "question"}:
             raise ValueError("invalid name")
         return v
 

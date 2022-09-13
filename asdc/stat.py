@@ -30,8 +30,8 @@ class DataStore(list):
 def stat_dialogs(path_in: Path):
     num_uttrs = DataStore("Utterances")
     num_sents = DataStore("Sentences")
-    num_sents_c = DataStore("Sentences_customer")
-    num_sents_o = DataStore("Sentences_operator")
+    num_sents_c = DataStore("Sentences_user")
+    num_sents_o = DataStore("Sentences_agent")
     for fpath in sorted(path_in.iterdir()):
         uttrs = Utterances.parse_file(fpath)
         uttr_cnt = 0
@@ -41,7 +41,7 @@ def stat_dialogs(path_in: Path):
                 uttr_cnt += 1
                 prev_user = u.name
             _s0 = len(u.text_sbs)
-            if u.name.startswith("customer_"):
+            if u.name.startswith("user_"):
                 num_sents_c.append(_s0)
             else:
                 num_sents_o.append(_s0)

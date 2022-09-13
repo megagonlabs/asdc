@@ -262,7 +262,7 @@ class Utterances(BaseModel):
         out: List[SimpleUtterance] = []
         for u in self.utterances:
             speaker = "agent"
-            if u.name.startswith("customer"):
+            if u.name.startswith("user"):
                 speaker = "user"
 
             if not same_uttr and u.id == uttr_id:
