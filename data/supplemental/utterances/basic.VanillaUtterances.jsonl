@@ -1,76 +1,76 @@
-{"meta": {"id": {"id": "asdc.sup.basic.0"},  "data": {"type": "挨拶"}}, "utterances": [{"name": "operator", "text": "こんにちは"}, {"name": "customer", "text": "こんにちは"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.1"},  "data": {}}, "utterances": [{"name": "operator", "text": "こんばんは"}, {"name": "customer", "text": "こんばんは"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.2"},  "data": {}}, "utterances": [{"name": "operator", "text": "はじめまして"}, {"name": "customer", "text": "よろしくお願いいたします"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.3"},  "data": {}}, "utterances": [{"name": "operator", "text": "ご利用ありがとうございました"}, {"name": "customer", "text": "さようなら"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.4"},  "data": {"type": "間投詞"}}, "utterances": [{"name": "operator", "text": "朝食は必要ですか?"}, {"name": "customer", "text": "えーっと"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.5"},  "data": {}}, "utterances": [{"name": "operator", "text": "朝食は必要ですか?"}, {"name": "customer", "text": "あ"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.6"},  "data": {}}, "utterances": [{"name": "operator", "text": "朝食は必要ですか?"}, {"name": "customer", "text": "うーん"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.7"},  "data": {}}, "utterances": [{"name": "operator", "text": "Xは必要ですか?"}, {"name": "customer", "text": "あの"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.8"},  "data": {"ngs": [{ "ng": "早割プランでなくて良い。"}, { "ng": "早割プランが良い。"}], "type": "解釈不能"}}, "utterances": [{"name": "operator", "text": "早割プランのほうがよろしいでしょうか?"}, {"name": "customer", "text": "123"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.9"},  "data": {"ngs": [{ "ng": "123が良い。"}], "type": "解釈不能"}}, "utterances": [{"name": "operator", "text": "Xは必要ですか?"}, {"name": "customer", "text": "123"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.12"},  "data": {"ngs": [{"ng": "【customer】が決めていない。\n夏ということ以外は【customer】が決めていない。"}], "type": "間投詞"}}, "utterances": [{"name": "operator", "text": "いつ頃かお決まりですか"}, {"name": "customer", "text": "いえ、夏ということ以外は決めてないんです。"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.13"},  "data": {"type": "間投詞"}}, "utterances": [{"name": "operator", "text": "公共交通機関でご旅行でしたら、最寄り駅から近いお宿か送迎サービスのあるお宿をお探ししましょうか?"}, {"name": "customer", "text": "はい、電車とかを使うつもりでした。"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.14"},  "data": {"type": "代動詞"}}, "utterances": [{"name": "operator", "text": "プール付きのお宿がよろしいでしょうか?"}, {"name": "customer", "text": "いや大丈夫です。"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.15"},  "data": {"type": "代動詞"}}, "utterances": [{"name": "operator", "text": "プール付きのお宿がよろしいでしょうか?"}, {"name": "customer", "text": "泳がないので大丈夫です。"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.16"},  "data": {"type": "代動詞"}}, "utterances": [{"name": "operator", "text": "プール付きのお宿がよろしいでしょうか?"}, {"name": "customer", "text": "お願いします。"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.17"},  "data": {"type": "代動詞"}}, "utterances": [{"name": "operator", "text": "他に何かご希望はございますでしょうか?"}, {"name": "customer", "text": "いや、これでいいです。"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.18"},  "data": {"type": "代動詞"}}, "utterances": [{"name": "operator", "text": "ご希望がございましたら、お聞かせください。"}, {"name": "customer", "text": "レンタサイクルのお店が近い宿で構いません。"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.19"},  "data": {"type": "代動詞"}}, "utterances": [{"name": "operator", "text": "ご宿泊の日数は1泊でよろしいでしょうか?"}, {"name": "customer", "text": "1週間でお願いします。"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.20"},  "data": {"ngs": [{"ng": "夕食に海鮮料理を食べられる宿をお願いします。"}], "type": "代動詞"}}, "utterances": [{"name": "operator", "text": "ご夕食で海鮮料理をお召し上がりになれるお宿をお探ししましょうか?"}, {"name": "customer", "text": "それでお願いします。"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.21"},  "data": {"type": "代動詞"}}, "utterances": [{"name": "operator", "text": "チェックイン前の荷物預かりサービスのあるお宿はいかがでしょうか?"}, {"name": "customer", "text": "それは有り難いです。"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.22"},  "data": {"type": "代動詞"}}, "utterances": [{"name": "operator", "text": "ホテルと旅館、どちらがよろしいでしょうか?"}, {"name": "customer", "text": "綺麗なホテルでお願いします。"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.23"},  "data": {"type": "代動詞"}}, "utterances": [{"name": "operator", "text": "温泉があるお宿はいかがでしょうか?"}, {"name": "customer", "text": "露天風呂のあるとこをお願いします。"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.24"},  "data": {"ngs": [{"ng": "安くなるなら早割りプランでお願いする。"}], "type": "代動詞"}}, "utterances": [{"name": "operator", "text": "早割プランでお調べいたしましょうか?"}, {"name": "customer", "text": "安くなるならそれでお願いします。"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.25"},  "data": {"ngs": [{"ng": "連泊割引があると嬉しい。"}], "type": "代動詞"}}, "utterances": [{"name": "operator", "text": "連泊割引のあるお宿の方がよろしいでしょうか?"}, {"name": "customer", "text": "そういった割引があると嬉しいです。"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.30"},  "data": {}}, "utterances": [{"name": "operator", "text": "Xは必要ですか?"}, {"name": "customer", "text": "いいえ"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.31"},  "data": {}}, "utterances": [{"name": "operator", "text": "Xは必要ですか?"}, {"name": "customer", "text": "はい"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.32"},  "data": {"ngs": [{ "ng": "朝食は必要だ。"}]}}, "utterances": [{"name": "operator", "text": "朝食は必要ですか?"}, {"name": "customer", "text": "いいえ"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.33"},  "data": {}}, "utterances": [{"name": "operator", "text": "朝食は必要ですか?"}, {"name": "customer", "text": "ええ"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.34"},  "data": {}}, "utterances": [{"name": "operator", "text": "朝食は必要ですか?"}, {"name": "customer", "text": "はい"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.35"},  "data": {"type": "肯定否定"}}, "utterances": [{"name": "operator", "text": "風呂付のお部屋をお探ししましょうか?"}, {"name": "customer", "text": "はい、ありがとうございます。"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.36"},  "data": {"type": "肯定否定"}}, "utterances": [{"name": "operator", "text": "露天風呂付のお部屋をお探ししましょうか?"}, {"name": "customer", "text": "そうですね、露天風呂付きの部屋であればありがたいです。"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.37"},  "data": {"ngs": [{"ng": "早割プランは良い。"}], "type": "肯定否定"}}, "utterances": [{"name": "operator", "text": "早割プランのほうがよろしいでしょうか?"}, {"name": "customer", "text": "いえ、いいです。"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.38"},  "data": {"ngs": [{"ng": "早割プランは必要ない。"}]}}, "utterances": [{"name": "operator", "text": "早割プランのほうがよろしいでしょうか?"}, {"name": "customer", "text": "おー、いいですね。"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.41"},  "data": {"type": "指示代名詞"}}, "utterances": [{"name": "operator", "text": "アーリーチェックインやレイトチェックアウトのご希望はございますでしょうか?"}, {"name": "customer", "text": "そういうのは別にいいです。"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.42"},  "data": {}}, "utterances": [{"name": "operator", "text": "お部屋ですが、ツイン、ダブル、シングル2室のいずれかご希望はございますか?"}, {"name": "customer", "text": "それぞれの値段を教えてもらえます?"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.43"},  "data": {"type": "指示代名詞"}}, "utterances": [{"name": "operator", "text": "空港は伊丹ではなく関西空港でよろしいでしょうか?"}, {"name": "customer", "text": "どっちの方が繁華街に近いですか?"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.44"},  "data": {"type": "指示代名詞"}}, "utterances": [{"name": "operator", "text": "他に何かご希望はございますか?"}, {"name": "customer", "text": "地酒の飲み放題があるなら、それも付けてもらえますか。"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.45"},  "data": {"ngs": [{"ng": "2食付けてほしい。"}], "type": "指示代名詞"}}, "utterances": [{"name": "operator", "text": "朝・夕2食付きになさいますか?"}, {"name": "customer", "text": "どっちも付けてください。"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.46"},  "data": {"ngs": [{"ng": "何時までか【customer】が知りたい。"}, {"ng": "それは何時までか【customer】が知りたい。"}], "type": "指示代名詞"}}, "utterances": [{"name": "operator", "text": "夕食はいかがなさいますか?"}, {"name": "customer", "text": "それって、何時までですか?"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.47"},  "data": {"ngs": [{"ng": "遅くにも食事にいけるか【customer】が知りたい。"}], "type": "質問"}}, "utterances": [{"name": "operator", "text": "お食事はいかがいたしましょうか?"}, {"name": "customer", "text": "遅くもいけますか?"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.48"},  "data": {"ngs": [{"ng": "ランドリーサービスはコインランドリーがある宿という事なのか。"}], "type": "質問"}}, "utterances": [{"name": "operator", "text": "ランドリーサービスのあるお宿をお探しするのはいかがでしょうか?"}, {"name": "customer", "text": "コインランドリーがある宿、ということでしょうか。"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.49"},  "data": {"ngs": [{"ng": "風呂にドライヤーがあるのか【customer】が教えてほしい。"}], "type": "質問"}}, "utterances": [{"name": "operator", "text": "他にご要望はございますか?"}, {"name": "customer", "text": "お風呂にドライヤーあるか教えて"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.50"},  "data": {"type": "質問"}}, "utterances": [{"name": "operator", "text": "他にご要望はございますか?"}, {"name": "customer", "text": "お風呂にドライヤーってあるのかな"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.51"},  "data": {"type": "省略補完"}}, "utterances": [{"name": "operator", "text": "2万円はお一人様あたりでしょうか?"}, {"name": "customer", "text": "一人です。"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.52"},  "data": {"type": "省略補完"}}, "utterances": [{"name": "operator", "text": "アレルギーはございますか?"}, {"name": "customer", "text": "甲殻類ですね。"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.53"},  "data": {"ngs": [{"ng": "2人で一つ利用する。"}], "type": "省略補完"}}, "utterances": [{"name": "operator", "text": "お子様はベッドをお一人ずつご利用になりますか?"}, {"name": "customer", "text": "2人でひとつ使います"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.54"},  "data": {}}, "utterances": [{"name": "operator", "text": "お部屋は喫煙と禁煙のどちらがよろしいですか?"}, {"name": "customer", "text": "後者で。"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.55"},  "data": {"type": "省略補完"}}, "utterances": [{"name": "operator", "text": "ディズニーランドをご訪問されるご予定でしょうか?"}, {"name": "customer", "text": "行こうと思っています。"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.56"},  "data": {"ngs": [{"ng": "部屋から見たい。"}], "type": "省略補完"}}, "utterances": [{"name": "operator", "text": "花火をご覧になりたいのですか?"}, {"name": "customer", "text": "部屋からみたいんだよね"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.57"},  "data": {"ngs": [{ "ng": "省略されている語が書かれていない"}], "type": "省略補完"}}, "utterances": [{"name": "operator", "text": "具体的なお日付はお決まりでしょうか?"}, {"name": "customer", "text": "いえ、はっきりとは決めていません。"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.58"},  "data": {}}, "utterances": [{"name": "operator", "text": "高松市内のお宿はいかがでしょうか?"}, {"name": "customer", "text": "良さそうです。"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.59"},  "data": {}}, "utterances": [{"name": "operator", "text": "室内プールなどがございますがいかがでしょうか?"}, {"name": "customer", "text": "泳げないんで、プールは別に...。"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.60"},  "data": {"type": "省略補完"}}, "utterances": [{"name": "operator", "text": "宿泊されるお日にちはお決まりでしょうか?"}, {"name": "customer", "text": "ちょっとはっきりしてなくて...。"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.61"},  "data": {"type": "省略補完"}}, "utterances": [{"name": "operator", "text": "人数は何名様でしょうか?"}, {"name": "customer", "text": "子供2人と行きます。"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.62"},  "data": {"type": "省略補完"}}, "utterances": [{"name": "operator", "text": "他にお宿のご希望はございますでしょうか?"}, {"name": "customer", "text": "エレベーターたすかります。"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.63"},  "data": {}}, "utterances": [{"name": "operator", "text": "それではダブルルームでお調べいたします。お食事はいかがでしょうか?"}, {"name": "customer", "text": "バイキングがあるなら、朝食のみ付けてください。"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.64"},  "data": {}}, "utterances": [{"name": "operator", "text": "お宿のタイプはホテルと旅館、どちらがよろしいでしょうか?"}, {"name": "customer", "text": "角部屋が取れるなら、ホテルで。"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.65"},  "data": {"ngs": [{"ng": "オールインクルーシブが可能だ。"}], "type": "相づち"}}, "utterances": [{"name": "operator", "text": "「オールインクルーシブ」というプランですと、ご滞在中にお代金をご心配する必要がございませんが、いかがでしょうか?"}, {"name": "customer", "text": "そういうことも可能なのですね。"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.66"},  "data": {"type": "相づち"}}, "utterances": [{"name": "operator", "text": "お食事ですが、バーベキューのできる宿はいかがでしょう?夏ですし、お子様にお喜びいただけるかと思いまして。"}, {"name": "customer", "text": "バーベキューができる宿なんてあるんですね。"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.67"},  "data": {"ngs": [{"ng": "鴨川で水遊びできる。"}], "type": "相づち"}}, "utterances": [{"name": "operator", "text": "幼稚園児のお子様ですと、7月は水遊びができると、お喜びいただけるかと思いますが、鴨川沿いのお宿はいかがでしょうか?"}, {"name": "customer", "text": "鴨川で水遊びできるんですね。"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.68"},  "data": {"ngs": [{"ng": "【customer】がゆっくり休みたいので部屋は2部屋が良い。"}], "type": "複数要望"}}, "utterances": [{"name": "operator", "text": "お部屋は皆さまで1室でよろしいでしょうか?"}, {"name": "customer", "text": "いいえ、ゆっくり休みたいんで、2部屋にしてください。"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.69"},  "data": {"ngs": [{"ng": "ベッドが大きくて大浴場があるホテルが良い。"}], "type": "複数要望"}}, "utterances": [{"name": "operator", "text": "どのような宿をご希望ですか?"}, {"name": "customer", "text": "ベッドが大きくて大浴場があるホテル"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.70"},  "data": {"ngs": [{"ng": "幼稚園児が1人いて、あとは大人だ。"}], "type": "複数要望"}}, "utterances": [{"name": "operator", "text": "皆さま中学生以上の大人の方でしょうか?"}, {"name": "customer", "text": "幼稚園児が1人いて、あとは大人です。"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.71"},  "data": {"type": "複数要望"}}, "utterances": [{"name": "operator", "text": "早期予約割引のあるプランをお探しいたしましょうか?"}, {"name": "customer", "text": "いいえ、もしかしたらキャンセルするかもしれないので、早期予約割引じゃなくていいです。"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.72"},  "data": {"type": "要望"}}, "utterances": [{"name": "operator", "text": "お食事はいかがいたしましょうか?"}, {"name": "customer", "text": "食事は、何かあったかいものだったらいいかなと思ってます。"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.73"},  "data": {"type": "要望"}}, "utterances": [{"name": "operator", "text": "お部屋のタイプはいかがなさいますか?"}, {"name": "customer", "text": "では、ダブルルームにしようかなと思います。"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.74"},  "data": {"ngs": [{"ng": "【customer】が一泊を希望する。"}], "type": "要望"}}, "utterances": [{"name": "operator", "text": "ご宿泊は1泊でよろしいでしょうか?"}, {"name": "customer", "text": "ええ、一泊が希望です"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.75"},  "data": {"ngs": [{"ng": "【customer】が一泊を予定する。"}], "type": "要望"}}, "utterances": [{"name": "operator", "text": "ご宿泊は1泊でよろしいでしょうか?"}, {"name": "customer", "text": "はい、一泊を予定しています"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.76"},  "data": {"ngs": [{"ng": "予算が1泊一人当たり15000円以内で【customer】が考える。"}], "type": "要望"}}, "utterances": [{"name": "operator", "text": "ご予算の方はどのくらいでお考えでしょうか?"}, {"name": "customer", "text": "1泊一人当たり15000円以内で考えています。"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.77"},  "data": {"ngs": [{ "ng": "【customer】の母が後楽園に行きたいと言う。"}], "type": "要望"}}, "utterances": [{"name": "operator", "text": "どのような場所をご希望でしょうか?"}, {"name": "customer", "text": "一緒に行く母が後楽園に行ってみたいって言ってます。"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.78"},  "data": {"ngs": [{"ng": "別に良い。"}], "type": "要望"}}, "utterances": [{"name": "operator", "text": "ベビーベッドのご用意があるほうがよろしいでしょうか?"}, {"name": "customer", "text": "別にいいです。"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.79"},  "data": {"type": "要望"}}, "utterances": [{"name": "operator", "text": "人数をお聞かせいただけますでしょうか。"}, {"name": "customer", "text": "人数は2人になるかと思います。"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.80"},  "data": {"type": "要望"}}, "utterances": [{"name": "operator", "text": "地域、お日付、人数などお決まりでしたら、お聞かせいただけますでしょうか。"}, {"name": "customer", "text": "大人4人で、四国地方に旅行に行こうと思っています。"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.81"},  "data": {"ngs": [{"ng": "【customer】が夕食はバイキングを希望しない。"}], "type": "要望"}}, "utterances": [{"name": "operator", "text": "夕食はバイキングをご希望ですか?"}, {"name": "customer", "text": "いいですね。"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.82"},  "data": {"ngs": [{"ng": "離乳食を用意できる宿を探してほしい。"}], "type": "要望"}}, "utterances": [{"name": "operator", "text": "離乳食をご用意できる宿をお探ししましょうか?"}, {"name": "customer", "text": "いいです。"}]}
-{"meta": {"id": {"id": "asdc.sup.basic.83"},  "data": {"ngs": [{"ng": "部屋は1室が良い。"}], "type": "要望の強弱"}}, "utterances": [{"name": "operator", "text": "お部屋は皆さま別々でよろしいでしょうか?"}, {"name": "customer", "text": "いえ、なるべく1室にしてもらえますか。"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.0"},  "data": {"type": "挨拶"}}, "utterances": [{"name": "agent", "text": "こんにちは"}, {"name": "user", "text": "こんにちは"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.1"},  "data": {}}, "utterances": [{"name": "agent", "text": "こんばんは"}, {"name": "user", "text": "こんばんは"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.2"},  "data": {}}, "utterances": [{"name": "agent", "text": "はじめまして"}, {"name": "user", "text": "よろしくお願いいたします"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.3"},  "data": {}}, "utterances": [{"name": "agent", "text": "ご利用ありがとうございました"}, {"name": "user", "text": "さようなら"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.4"},  "data": {"type": "間投詞"}}, "utterances": [{"name": "agent", "text": "朝食は必要ですか?"}, {"name": "user", "text": "えーっと"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.5"},  "data": {}}, "utterances": [{"name": "agent", "text": "朝食は必要ですか?"}, {"name": "user", "text": "あ"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.6"},  "data": {}}, "utterances": [{"name": "agent", "text": "朝食は必要ですか?"}, {"name": "user", "text": "うーん"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.7"},  "data": {}}, "utterances": [{"name": "agent", "text": "Xは必要ですか?"}, {"name": "user", "text": "あの"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.8"},  "data": {"ngs": [{ "ng": "早割プランでなくて良い。"}, { "ng": "早割プランが良い。"}], "type": "解釈不能"}}, "utterances": [{"name": "agent", "text": "早割プランのほうがよろしいでしょうか?"}, {"name": "user", "text": "123"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.9"},  "data": {"ngs": [{ "ng": "123が良い。"}], "type": "解釈不能"}}, "utterances": [{"name": "agent", "text": "Xは必要ですか?"}, {"name": "user", "text": "123"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.12"},  "data": {"ngs": [{"ng": "【customer】が決めていない。\n夏ということ以外は【customer】が決めていない。"}], "type": "間投詞"}}, "utterances": [{"name": "agent", "text": "いつ頃かお決まりですか"}, {"name": "user", "text": "いえ、夏ということ以外は決めてないんです。"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.13"},  "data": {"type": "間投詞"}}, "utterances": [{"name": "agent", "text": "公共交通機関でご旅行でしたら、最寄り駅から近いお宿か送迎サービスのあるお宿をお探ししましょうか?"}, {"name": "user", "text": "はい、電車とかを使うつもりでした。"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.14"},  "data": {"type": "代動詞"}}, "utterances": [{"name": "agent", "text": "プール付きのお宿がよろしいでしょうか?"}, {"name": "user", "text": "いや大丈夫です。"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.15"},  "data": {"type": "代動詞"}}, "utterances": [{"name": "agent", "text": "プール付きのお宿がよろしいでしょうか?"}, {"name": "user", "text": "泳がないので大丈夫です。"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.16"},  "data": {"type": "代動詞"}}, "utterances": [{"name": "agent", "text": "プール付きのお宿がよろしいでしょうか?"}, {"name": "user", "text": "お願いします。"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.17"},  "data": {"type": "代動詞"}}, "utterances": [{"name": "agent", "text": "他に何かご希望はございますでしょうか?"}, {"name": "user", "text": "いや、これでいいです。"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.18"},  "data": {"type": "代動詞"}}, "utterances": [{"name": "agent", "text": "ご希望がございましたら、お聞かせください。"}, {"name": "user", "text": "レンタサイクルのお店が近い宿で構いません。"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.19"},  "data": {"type": "代動詞"}}, "utterances": [{"name": "agent", "text": "ご宿泊の日数は1泊でよろしいでしょうか?"}, {"name": "user", "text": "1週間でお願いします。"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.20"},  "data": {"ngs": [{"ng": "夕食に海鮮料理を食べられる宿をお願いします。"}], "type": "代動詞"}}, "utterances": [{"name": "agent", "text": "ご夕食で海鮮料理をお召し上がりになれるお宿をお探ししましょうか?"}, {"name": "user", "text": "それでお願いします。"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.21"},  "data": {"type": "代動詞"}}, "utterances": [{"name": "agent", "text": "チェックイン前の荷物預かりサービスのあるお宿はいかがでしょうか?"}, {"name": "user", "text": "それは有り難いです。"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.22"},  "data": {"type": "代動詞"}}, "utterances": [{"name": "agent", "text": "ホテルと旅館、どちらがよろしいでしょうか?"}, {"name": "user", "text": "綺麗なホテルでお願いします。"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.23"},  "data": {"type": "代動詞"}}, "utterances": [{"name": "agent", "text": "温泉があるお宿はいかがでしょうか?"}, {"name": "user", "text": "露天風呂のあるとこをお願いします。"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.24"},  "data": {"ngs": [{"ng": "安くなるなら早割りプランでお願いする。"}], "type": "代動詞"}}, "utterances": [{"name": "agent", "text": "早割プランでお調べいたしましょうか?"}, {"name": "user", "text": "安くなるならそれでお願いします。"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.25"},  "data": {"ngs": [{"ng": "連泊割引があると嬉しい。"}], "type": "代動詞"}}, "utterances": [{"name": "agent", "text": "連泊割引のあるお宿の方がよろしいでしょうか?"}, {"name": "user", "text": "そういった割引があると嬉しいです。"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.30"},  "data": {}}, "utterances": [{"name": "agent", "text": "Xは必要ですか?"}, {"name": "user", "text": "いいえ"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.31"},  "data": {}}, "utterances": [{"name": "agent", "text": "Xは必要ですか?"}, {"name": "user", "text": "はい"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.32"},  "data": {"ngs": [{ "ng": "朝食は必要だ。"}]}}, "utterances": [{"name": "agent", "text": "朝食は必要ですか?"}, {"name": "user", "text": "いいえ"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.33"},  "data": {}}, "utterances": [{"name": "agent", "text": "朝食は必要ですか?"}, {"name": "user", "text": "ええ"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.34"},  "data": {}}, "utterances": [{"name": "agent", "text": "朝食は必要ですか?"}, {"name": "user", "text": "はい"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.35"},  "data": {"type": "肯定否定"}}, "utterances": [{"name": "agent", "text": "風呂付のお部屋をお探ししましょうか?"}, {"name": "user", "text": "はい、ありがとうございます。"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.36"},  "data": {"type": "肯定否定"}}, "utterances": [{"name": "agent", "text": "露天風呂付のお部屋をお探ししましょうか?"}, {"name": "user", "text": "そうですね、露天風呂付きの部屋であればありがたいです。"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.37"},  "data": {"ngs": [{"ng": "早割プランは良い。"}], "type": "肯定否定"}}, "utterances": [{"name": "agent", "text": "早割プランのほうがよろしいでしょうか?"}, {"name": "user", "text": "いえ、いいです。"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.38"},  "data": {"ngs": [{"ng": "早割プランは必要ない。"}]}}, "utterances": [{"name": "agent", "text": "早割プランのほうがよろしいでしょうか?"}, {"name": "user", "text": "おー、いいですね。"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.41"},  "data": {"type": "指示代名詞"}}, "utterances": [{"name": "agent", "text": "アーリーチェックインやレイトチェックアウトのご希望はございますでしょうか?"}, {"name": "user", "text": "そういうのは別にいいです。"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.42"},  "data": {}}, "utterances": [{"name": "agent", "text": "お部屋ですが、ツイン、ダブル、シングル2室のいずれかご希望はございますか?"}, {"name": "user", "text": "それぞれの値段を教えてもらえます?"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.43"},  "data": {"type": "指示代名詞"}}, "utterances": [{"name": "agent", "text": "空港は伊丹ではなく関西空港でよろしいでしょうか?"}, {"name": "user", "text": "どっちの方が繁華街に近いですか?"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.44"},  "data": {"type": "指示代名詞"}}, "utterances": [{"name": "agent", "text": "他に何かご希望はございますか?"}, {"name": "user", "text": "地酒の飲み放題があるなら、それも付けてもらえますか。"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.45"},  "data": {"ngs": [{"ng": "2食付けてほしい。"}], "type": "指示代名詞"}}, "utterances": [{"name": "agent", "text": "朝・夕2食付きになさいますか?"}, {"name": "user", "text": "どっちも付けてください。"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.46"},  "data": {"ngs": [{"ng": "何時までか【customer】が知りたい。"}, {"ng": "それは何時までか【customer】が知りたい。"}], "type": "指示代名詞"}}, "utterances": [{"name": "agent", "text": "夕食はいかがなさいますか?"}, {"name": "user", "text": "それって、何時までですか?"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.47"},  "data": {"ngs": [{"ng": "遅くにも食事にいけるか【customer】が知りたい。"}], "type": "質問"}}, "utterances": [{"name": "agent", "text": "お食事はいかがいたしましょうか?"}, {"name": "user", "text": "遅くもいけますか?"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.48"},  "data": {"ngs": [{"ng": "ランドリーサービスはコインランドリーがある宿という事なのか。"}], "type": "質問"}}, "utterances": [{"name": "agent", "text": "ランドリーサービスのあるお宿をお探しするのはいかがでしょうか?"}, {"name": "user", "text": "コインランドリーがある宿、ということでしょうか。"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.49"},  "data": {"ngs": [{"ng": "風呂にドライヤーがあるのか【customer】が教えてほしい。"}], "type": "質問"}}, "utterances": [{"name": "agent", "text": "他にご要望はございますか?"}, {"name": "user", "text": "お風呂にドライヤーあるか教えて"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.50"},  "data": {"type": "質問"}}, "utterances": [{"name": "agent", "text": "他にご要望はございますか?"}, {"name": "user", "text": "お風呂にドライヤーってあるのかな"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.51"},  "data": {"type": "省略補完"}}, "utterances": [{"name": "agent", "text": "2万円はお一人様あたりでしょうか?"}, {"name": "user", "text": "一人です。"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.52"},  "data": {"type": "省略補完"}}, "utterances": [{"name": "agent", "text": "アレルギーはございますか?"}, {"name": "user", "text": "甲殻類ですね。"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.53"},  "data": {"ngs": [{"ng": "2人で一つ利用する。"}], "type": "省略補完"}}, "utterances": [{"name": "agent", "text": "お子様はベッドをお一人ずつご利用になりますか?"}, {"name": "user", "text": "2人でひとつ使います"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.54"},  "data": {}}, "utterances": [{"name": "agent", "text": "お部屋は喫煙と禁煙のどちらがよろしいですか?"}, {"name": "user", "text": "後者で。"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.55"},  "data": {"type": "省略補完"}}, "utterances": [{"name": "agent", "text": "ディズニーランドをご訪問されるご予定でしょうか?"}, {"name": "user", "text": "行こうと思っています。"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.56"},  "data": {"ngs": [{"ng": "部屋から見たい。"}], "type": "省略補完"}}, "utterances": [{"name": "agent", "text": "花火をご覧になりたいのですか?"}, {"name": "user", "text": "部屋からみたいんだよね"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.57"},  "data": {"ngs": [{ "ng": "省略されている語が書かれていない"}], "type": "省略補完"}}, "utterances": [{"name": "agent", "text": "具体的なお日付はお決まりでしょうか?"}, {"name": "user", "text": "いえ、はっきりとは決めていません。"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.58"},  "data": {}}, "utterances": [{"name": "agent", "text": "高松市内のお宿はいかがでしょうか?"}, {"name": "user", "text": "良さそうです。"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.59"},  "data": {}}, "utterances": [{"name": "agent", "text": "室内プールなどがございますがいかがでしょうか?"}, {"name": "user", "text": "泳げないんで、プールは別に...。"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.60"},  "data": {"type": "省略補完"}}, "utterances": [{"name": "agent", "text": "宿泊されるお日にちはお決まりでしょうか?"}, {"name": "user", "text": "ちょっとはっきりしてなくて...。"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.61"},  "data": {"type": "省略補完"}}, "utterances": [{"name": "agent", "text": "人数は何名様でしょうか?"}, {"name": "user", "text": "子供2人と行きます。"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.62"},  "data": {"type": "省略補完"}}, "utterances": [{"name": "agent", "text": "他にお宿のご希望はございますでしょうか?"}, {"name": "user", "text": "エレベーターたすかります。"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.63"},  "data": {}}, "utterances": [{"name": "agent", "text": "それではダブルルームでお調べいたします。お食事はいかがでしょうか?"}, {"name": "user", "text": "バイキングがあるなら、朝食のみ付けてください。"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.64"},  "data": {}}, "utterances": [{"name": "agent", "text": "お宿のタイプはホテルと旅館、どちらがよろしいでしょうか?"}, {"name": "user", "text": "角部屋が取れるなら、ホテルで。"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.65"},  "data": {"ngs": [{"ng": "オールインクルーシブが可能だ。"}], "type": "相づち"}}, "utterances": [{"name": "agent", "text": "「オールインクルーシブ」というプランですと、ご滞在中にお代金をご心配する必要がございませんが、いかがでしょうか?"}, {"name": "user", "text": "そういうことも可能なのですね。"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.66"},  "data": {"type": "相づち"}}, "utterances": [{"name": "agent", "text": "お食事ですが、バーベキューのできる宿はいかがでしょう?夏ですし、お子様にお喜びいただけるかと思いまして。"}, {"name": "user", "text": "バーベキューができる宿なんてあるんですね。"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.67"},  "data": {"ngs": [{"ng": "鴨川で水遊びできる。"}], "type": "相づち"}}, "utterances": [{"name": "agent", "text": "幼稚園児のお子様ですと、7月は水遊びができると、お喜びいただけるかと思いますが、鴨川沿いのお宿はいかがでしょうか?"}, {"name": "user", "text": "鴨川で水遊びできるんですね。"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.68"},  "data": {"ngs": [{"ng": "【customer】がゆっくり休みたいので部屋は2部屋が良い。"}], "type": "複数要望"}}, "utterances": [{"name": "agent", "text": "お部屋は皆さまで1室でよろしいでしょうか?"}, {"name": "user", "text": "いいえ、ゆっくり休みたいんで、2部屋にしてください。"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.69"},  "data": {"ngs": [{"ng": "ベッドが大きくて大浴場があるホテルが良い。"}], "type": "複数要望"}}, "utterances": [{"name": "agent", "text": "どのような宿をご希望ですか?"}, {"name": "user", "text": "ベッドが大きくて大浴場があるホテル"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.70"},  "data": {"ngs": [{"ng": "幼稚園児が1人いて、あとは大人だ。"}], "type": "複数要望"}}, "utterances": [{"name": "agent", "text": "皆さま中学生以上の大人の方でしょうか?"}, {"name": "user", "text": "幼稚園児が1人いて、あとは大人です。"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.71"},  "data": {"type": "複数要望"}}, "utterances": [{"name": "agent", "text": "早期予約割引のあるプランをお探しいたしましょうか?"}, {"name": "user", "text": "いいえ、もしかしたらキャンセルするかもしれないので、早期予約割引じゃなくていいです。"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.72"},  "data": {"type": "要望"}}, "utterances": [{"name": "agent", "text": "お食事はいかがいたしましょうか?"}, {"name": "user", "text": "食事は、何かあったかいものだったらいいかなと思ってます。"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.73"},  "data": {"type": "要望"}}, "utterances": [{"name": "agent", "text": "お部屋のタイプはいかがなさいますか?"}, {"name": "user", "text": "では、ダブルルームにしようかなと思います。"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.74"},  "data": {"ngs": [{"ng": "【customer】が一泊を希望する。"}], "type": "要望"}}, "utterances": [{"name": "agent", "text": "ご宿泊は1泊でよろしいでしょうか?"}, {"name": "user", "text": "ええ、一泊が希望です"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.75"},  "data": {"ngs": [{"ng": "【customer】が一泊を予定する。"}], "type": "要望"}}, "utterances": [{"name": "agent", "text": "ご宿泊は1泊でよろしいでしょうか?"}, {"name": "user", "text": "はい、一泊を予定しています"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.76"},  "data": {"ngs": [{"ng": "予算が1泊一人当たり15000円以内で【customer】が考える。"}], "type": "要望"}}, "utterances": [{"name": "agent", "text": "ご予算の方はどのくらいでお考えでしょうか?"}, {"name": "user", "text": "1泊一人当たり15000円以内で考えています。"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.77"},  "data": {"ngs": [{ "ng": "【customer】の母が後楽園に行きたいと言う。"}], "type": "要望"}}, "utterances": [{"name": "agent", "text": "どのような場所をご希望でしょうか?"}, {"name": "user", "text": "一緒に行く母が後楽園に行ってみたいって言ってます。"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.78"},  "data": {"ngs": [{"ng": "別に良い。"}], "type": "要望"}}, "utterances": [{"name": "agent", "text": "ベビーベッドのご用意があるほうがよろしいでしょうか?"}, {"name": "user", "text": "別にいいです。"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.79"},  "data": {"type": "要望"}}, "utterances": [{"name": "agent", "text": "人数をお聞かせいただけますでしょうか。"}, {"name": "user", "text": "人数は2人になるかと思います。"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.80"},  "data": {"type": "要望"}}, "utterances": [{"name": "agent", "text": "地域、お日付、人数などお決まりでしたら、お聞かせいただけますでしょうか。"}, {"name": "user", "text": "大人4人で、四国地方に旅行に行こうと思っています。"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.81"},  "data": {"ngs": [{"ng": "【customer】が夕食はバイキングを希望しない。"}], "type": "要望"}}, "utterances": [{"name": "agent", "text": "夕食はバイキングをご希望ですか?"}, {"name": "user", "text": "いいですね。"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.82"},  "data": {"ngs": [{"ng": "離乳食を用意できる宿を探してほしい。"}], "type": "要望"}}, "utterances": [{"name": "agent", "text": "離乳食をご用意できる宿をお探ししましょうか?"}, {"name": "user", "text": "いいです。"}]}
+{"meta": {"id": {"id": "asdc.sup.basic.83"},  "data": {"ngs": [{"ng": "部屋は1室が良い。"}], "type": "要望の強弱"}}, "utterances": [{"name": "agent", "text": "お部屋は皆さま別々でよろしいでしょうか?"}, {"name": "user", "text": "いえ、なるべく1室にしてもらえますか。"}]}
