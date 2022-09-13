@@ -186,9 +186,13 @@ def check_example(inpath: Path, ref: Optional[Path], acceptable_sid_prefix: str)
                     print(f"Unformatted JSON: {fname}")
                     ok = False
 
-                if docid2vus is not None and ex.sid.docid not in docid2vus:
+                if docid2vus is None:
+                    continue
+                vus = docid2vus.get(ex.sid.docid)
+                if vus is None:
                     print(f"Unknown docid: {ex.sid.docid} (ex.sid)")
                     ok = False
+                    continue
     return ok
 
 
