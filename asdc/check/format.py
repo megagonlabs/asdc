@@ -266,7 +266,7 @@ def check_incorrect_example(inpath: Path, ref: Optional[Path]) -> bool:
                     print(f"Duplicated SID: {ex.sid.id}")
                 done_sids.add(ex.sid.id)
 
-                ok = check_incorrect_example_meta(ex)
+                ok &= check_incorrect_example_meta(ex)
 
                 original_doc_id = ex.meta.get("original")
                 if original_doc_id is None:
