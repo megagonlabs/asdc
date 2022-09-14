@@ -167,6 +167,8 @@ def check_example(inpath: Path, ref: Optional[Path], acceptable_sid_prefix: str)
             with f.open() as inf:
                 for line in inf:
                     vus = VanillaUtterances.parse_raw(line)
+                    if vus.meta.id in docid2vus:
+                        raise KeyError(f"Duplicated ID: {vus.meta.id}")
                     docid2vus[vus.meta.id] = vus
     assert inpath.is_dir()
 
@@ -199,6 +201,7 @@ def check_example(inpath: Path, ref: Optional[Path], acceptable_sid_prefix: str)
 def check_vanilla(inpath: Path, ref: Optional[Path]) -> bool:
     assert inpath.is_dir()
     assert ref is None
+    done_ids = set()
 
     from asdc.schema.vanilla import VanillaUtterances
 
@@ -206,7 +209,13 @@ def check_vanilla(inpath: Path, ref: Optional[Path]) -> bool:
     for fname in sorted(inpath.glob("**/*.jsonl")):
         with fname.open() as inf:
             for line in inf:
-                _ = VanillaUtterances.parse_raw(line)
+                vus = VanillaUtterances.parse_raw(line)
+                if vus.meta.id in done_ids:
+                    print(f"Duplicated ID: {vus.meta.id}")
+                    ok = False
+                else:
+                    done_ids.add(vus.meta.id)
+
                 fdata = json.dumps(json.loads(line), ensure_ascii=False, sort_keys=True) + "\n"
                 if line != fdata:
                     print(f"Unformatted JSON: {fname}")
