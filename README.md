@@ -49,7 +49,7 @@ Please read [the documents](docs/supplemental/README.md) for more details.
 Files in ``data/supplemental/incorrect_scud`` are Supplemental fictitious dialogs with SCUD annotations.
 If ``meta['meta']`` of an example is ``true``, the example has incorrect SCUDs.
 
-## Vanilla part: [``data/vanilla``](data/vanilla): 86,933 dialogs
+## Vanilla part: [``data/vanilla``](data/vanilla): 87,811 dialogs
 
 Files in ``data/vanilla`` are fictitious dialogs or queries made by crowd workers with no SCUD annotations.
 The number is over 100,000.
