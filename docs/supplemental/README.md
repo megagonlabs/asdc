@@ -5,12 +5,6 @@ Supplemental SCUD annotations.
 
 ## Additional examples
 
-### Hotel
-
-SCUDS annotated to answers about hotels.
-
-- ``hotel.Example.jsonl``: 199 examples
-
 ### 2 turn
 
 SCUDS annotated to two turn dialogs made by crowd workers.
