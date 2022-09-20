@@ -207,9 +207,22 @@ def check_example(inpath: Path, ref: Optional[Path], acceptable_sid_prefix: str)
                     continue
                 org_text: str = vus.utterances[ex.sid.uttrid.num].text
                 if org_text != "".join(ex.sources):
-                    print(f"Invalid sources at  ({ex.sid})")
+                    print(f"Invalid sources ({ex.sid})")
                     ok = False
                     continue
+
+                if len(ex.context) != ex.sid.uttrid.num:
+                    print(f"Invalid length of context ({ex.sid})")
+                    ok = False
+                    continue
+                for ctx, exctx in zip(ex.context, vus.utterances[: ex.sid.uttrid.num]):
+                    if ctx.name != exctx.name:
+                        print(f"Invalid name of context ({ex.sid})")
+                        ok = False
+                    elif ctx.text != exctx.text:
+                        print(f"Invalid text of context ({ex.sid})")
+                        ok = False
+
     return ok
 
 
