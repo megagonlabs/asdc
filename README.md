@@ -36,15 +36,15 @@ The number of SCUDs is about 3,500.
 | User | はい、観光地をまわりやすい場所にあるといいですね。| ホテルが観光地をまわりやすい場所にあると良い。 | はい ||
 | | ただ1番の目的は出雲大社なので、そこまでアクセスがよければ助かります。|【customer】の1番の目的が出雲大社だ。<br>出雲大社までアクセスが良いホテルだと良い。|要求|出雲大社=>立地<br>アクセスがよければ=>立地|
 
-## Supplemental SCUD part: [``data/supplemental/scud``](data/supplemental/scud): 37,170 examples
+## Supplemental SCUD part: [``data/supplemental/scud``](data/supplemental/scud): 36,808 examples
 
 Files in ``data/supplemental/scud`` are Supplemental fictitious dialogs with SCUD annotations.
 Please read [the documents](docs/supplemental/README.md) for more details.
 
 - Most dialogs consist of a single pair of an agent utterance and a user utterance.
-- Dialogs are stored in files in [``data/supplemental/utterances``](data/supplemental/utterances) : 36,095 dialogs
+- Dialogs are stored in files in [``data/supplemental/utterances``](data/supplemental/utterances) : 36,010 dialogs
 
-## Supplemental incorrect SCUD part: [``data/supplemental/incorrect_scud``](data/supplemental/incorrect_scud): 3,591 examples
+## Supplemental incorrect SCUD part: [``data/supplemental/incorrect_scud``](data/supplemental/incorrect_scud): 3,435 examples
 
 Files in ``data/supplemental/incorrect_scud`` are Supplemental fictitious dialogs with SCUD annotations.
 If ``meta['meta']`` of an example is ``true``, the example has incorrect SCUDs.

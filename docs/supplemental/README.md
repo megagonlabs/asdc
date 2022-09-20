@@ -37,12 +37,6 @@ The original id is stored in ``meta.data["original_doc_id"]``.
 
 ## Featured examples
 
-### Conditional generation of Utterances
-
-- ``conditional.Example.jsonl``: 362 examples
-
-Some kinds of dialogs among ``negation`` ,``question`` ,``conditional_answer`` made by an annotator.
-
 ### YES/NO question
 
 Dialogs about YES/NO question made by crowd workers.
