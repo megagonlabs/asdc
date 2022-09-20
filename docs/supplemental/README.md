@@ -54,6 +54,12 @@ Dialogs about YES/NO question made by crowd workers.
 - ``yn_yes.Example.jsonl``: 2,709 examples
 - ``yn_no.Example.jsonl``: 2,709 examples
 
+### Question
+
+- ``question.long_a.Example.jsonl``: 0 examples
+    - This file contains pairs of question(s) and its answer.
+    - Most customers' utterances contain several sentences.
+
 ### Choices
 
 - ``2turn_choices.Example.jsonl``: 6,606 examples
