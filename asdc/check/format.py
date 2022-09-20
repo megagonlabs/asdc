@@ -259,7 +259,7 @@ def check_incorrect_example(inpath: Path, ref: Optional[Path]) -> bool:
         with fname.open() as inf:
             for line in inf:
                 ex = Example.parse_raw(line)
-                assert ex.sid.id not in sid2ex
+                assert ex.sid.id not in sid2ex, ex.sid.id
                 sid2ex[ex.sid.id] = ex
                 if ex.sid.id in done_sids:
                     ok = False
