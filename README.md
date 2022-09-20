@@ -42,7 +42,7 @@ Files in ``data/supplemental/scud`` are Supplemental fictitious dialogs with SCU
 Please read [the documents](docs/supplemental/README.md) for more details.
 
 - Most dialogs consist of a single pair of an agent utterance and a user utterance.
-- Dialogs containing are stored in files in [``data/supplemental/utterances``](data/supplemental/utterances) : 28,213 dialogs
+- Dialogs are stored in files in [``data/supplemental/utterances``](data/supplemental/utterances) : 32,124 dialogs
 
 ## Supplemental incorrect SCUD part: [``data/supplemental/incorrect_scud``](data/supplemental/incorrect_scud): 3,591 examples
 
