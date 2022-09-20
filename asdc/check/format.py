@@ -8,11 +8,11 @@ import sys
 import typing
 import unicodedata
 from pathlib import Path
-from typing import Callable, DefaultDict, Dict, Optional, Tuple
+from typing import Callable, DefaultDict, Dict, Optional, Set, Tuple
 
 from asdc.schema.dialog import GroupType, Scud, Utterances, open_scud_file_by_docid
 from asdc.schema.example import METACHAR_LINE_BREAK, METACHAR_SENTENCE_BOUNDARY, METAKEY_INCORRECT, Example
-from asdc.schema.id import SID, DocID
+from asdc.schema.id import SID, DocID, UttrID
 from asdc.schema.vanilla import VanillaUtterances
 
 
@@ -161,6 +161,7 @@ def check_scud_json(inpath: Path, ref: Optional[Path]) -> bool:
 
 def check_example(inpath: Path, ref: Optional[Path], acceptable_sid_prefix: str) -> bool:
     docid2vus: Optional[Dict[DocID, VanillaUtterances]] = None
+    user_uttr_ids: Set[UttrID] = set()
     if ref is not None:
         docid2vus = {}
         for f in ref.iterdir():
@@ -170,6 +171,12 @@ def check_example(inpath: Path, ref: Optional[Path], acceptable_sid_prefix: str)
                     if vus.meta.id in docid2vus:
                         raise KeyError(f"Duplicated ID: {vus.meta.id}")
                     docid2vus[vus.meta.id] = vus
+
+                    for idx, vu in enumerate(vus.utterances):
+                        if vu.name == "user":
+                            uttrid = UttrID(id=f"{vus.meta.id.id}.{idx}")
+                            assert uttrid.docid == vus.meta.id, (uttrid, vus.meta.id)
+                            user_uttr_ids.add(uttrid)
     assert inpath.is_dir()
 
     ok = True
@@ -181,6 +188,9 @@ def check_example(inpath: Path, ref: Optional[Path], acceptable_sid_prefix: str)
                     pass
                 elif not ex.sid.id.startswith(acceptable_sid_prefix):
                     print(f"Unacceptable SID: {ex.sid.id}")
+                    ok = False
+                elif "incorrect" not in ex.sid.id and (ex_uttrtid := ex.sid.uttrid) not in user_uttr_ids:
+                    print(f"Unacceptable UttrID: {ex_uttrtid.id} (in SID={ex.sid.id})")
                     ok = False
 
                 fdata = json.dumps(json.loads(line), ensure_ascii=False, sort_keys=True) + "\n"
