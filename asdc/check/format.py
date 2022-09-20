@@ -192,7 +192,7 @@ def check_example(inpath: Path, ref: Optional[Path], acceptable_sid_prefix: str)
                     continue
                 vus = docid2vus.get(ex.sid.docid)
                 if vus is None:
-                    print(f"Unknown docid: {ex.sid.docid} (ex.sid)")
+                    print(f"Unknown docid: {ex.sid.docid} (ex.sid) for {ex} in {fname}")
                     ok = False
                     continue
     return ok

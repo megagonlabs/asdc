@@ -291,7 +291,6 @@
 {"meta": {"id": {"id": "asdc.sup.2turn.2450"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "夕食は不要。朝はバイキングが食べれるところがいいです"}]}
 {"meta": {"id": {"id": "asdc.sup.2turn.2466"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "翌日の朝食のみ"}]}
 {"meta": {"id": {"id": "asdc.sup.2turn.2474"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "10人です。地区の集まりなんです。全員大人です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "10人です。地区の集まりなんです。全員大人です"}]}
 {"meta": {"id": {"id": "asdc.sup.2turn.2475"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "10名夫人団体"}]}
 {"meta": {"id": {"id": "asdc.sup.2turn.2483"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "2人います。私と妻です"}]}
 {"meta": {"id": {"id": "asdc.sup.2turn.2486"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "2人です。友達と泊まります"}]}
