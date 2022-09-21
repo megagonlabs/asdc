@@ -37,7 +37,6 @@
 {"meta": {"id": {"id": "asdc.sup.mul_req_02.036"},  "data": { "source": "mul_req_02", "supplement": true}}, "utterances": [{"name": "agent", "text": "お食事はいかがいたしましょうか?"}, {"name": "user", "text": "全員夕食はバイキングで、朝食はいりません。"}]}
 {"meta": {"id": {"id": "asdc.sup.mul_req_02.037"},  "data": { "source": "mul_req_02", "supplement": true}}, "utterances": [{"name": "agent", "text": "お食事はいかがいたしましょうか?"}, {"name": "user", "text": "朝ごはんはいらなくて夜はバイキング"}]}
 {"meta": {"id": {"id": "asdc.sup.mul_req_02.038"},  "data": { "source": "mul_req_02", "supplement": true}}, "utterances": [{"name": "agent", "text": "お食事はいかがいたしましょうか?"}, {"name": "user", "text": "朝ごはんはいりません。あと、夜ご飯はバイキング形式が良いです。"}]}
-{"meta": {"id": {"id": "asdc.sup.mul_req_02"},  "data": { "source": "mul_req_02", "supplement": true}}, "utterances": [{"name": "agent", "text": "お食事はいかがいたしましょうか?"}, {"name": "user", "text": "朝ごはんはいりません。あと、夜ご飯はバイキング形式が良いです。"}]}
 {"meta": {"id": {"id": "asdc.sup.mul_req_02.039"},  "data": { "source": "mul_req_02", "supplement": true}}, "utterances": [{"name": "agent", "text": "お食事はいかがいたしましょうか?"}, {"name": "user", "text": "朝ごはんは食べませんが、夕飯はバイキングにします"}]}
 {"meta": {"id": {"id": "asdc.sup.mul_req_02.040"},  "data": { "source": "mul_req_02", "supplement": true}}, "utterances": [{"name": "agent", "text": "お食事はいかがいたしましょうか?"}, {"name": "user", "text": "朝ごはんは不要で、夕食はバイキングでお願いします。"}]}
 {"meta": {"id": {"id": "asdc.sup.mul_req_02.041"},  "data": { "source": "mul_req_02", "supplement": true}}, "utterances": [{"name": "agent", "text": "お食事はいかがいたしましょうか?"}, {"name": "user", "text": "朝ごはんは不要で夜ご飯はバイキング"}]}
