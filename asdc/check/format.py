@@ -184,9 +184,7 @@ def check_example(inpath: Path, ref: Optional[Path], acceptable_sid_prefix: str)
         with fname.open() as inf:
             for line in inf:
                 ex = Example.parse_raw(line)
-                if ex.sid.id.startswith("asdc.vanilla."):  # FIXME: temporary
-                    pass
-                elif not ex.sid.id.startswith(acceptable_sid_prefix):
+                if not ex.sid.id.startswith(acceptable_sid_prefix):
                     print(f"Unacceptable SID: {ex.sid.id}")
                     ok = False
                 elif "incorrect" not in ex.sid.id and (ex_uttrtid := ex.sid.uttrid) not in user_uttr_ids:
