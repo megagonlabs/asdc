@@ -168,14 +168,14 @@ def check_example(inpath: Path, ref: Optional[Path], acceptable_sid_prefix: str)
             with f.open() as inf:
                 for line in inf:
                     vus = VanillaUtterances.parse_raw(line)
-                    if vus.meta.id in docid2vus:
-                        raise KeyError(f"Duplicated ID: {vus.meta.id}")
-                    docid2vus[vus.meta.id] = vus
+                    if vus.docid in docid2vus:
+                        raise KeyError(f"Duplicated ID: {vus.docid}")
+                    docid2vus[vus.docid] = vus
 
                     for idx, vu in enumerate(vus.utterances):
                         if vu.name == "user":
-                            uttrid = UttrID(id=f"{vus.meta.id.id}.{idx}")
-                            assert uttrid.docid == vus.meta.id, (uttrid, vus.meta.id)
+                            uttrid = UttrID(id=f"{vus.docid.id}.{idx}")
+                            assert uttrid.docid == vus.docid, (uttrid, vus.docid)
                             user_uttr_ids.add(uttrid)
     assert inpath.is_dir()
 
@@ -238,11 +238,11 @@ def check_vanilla(inpath: Path, ref: Optional[Path]) -> bool:
         with fname.open() as inf:
             for line in inf:
                 vus = VanillaUtterances.parse_raw(line)
-                if vus.meta.id in done_ids:
-                    print(f"Duplicated ID: {vus.meta.id}")
+                if vus.docid in done_ids:
+                    print(f"Duplicated ID: {vus.docid}")
                     ok = False
                 else:
-                    done_ids.add(vus.meta.id)
+                    done_ids.add(vus.docid)
 
                 fdata = json.dumps(json.loads(line), ensure_ascii=False, sort_keys=True) + "\n"
                 if line != fdata:
