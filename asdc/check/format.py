@@ -161,9 +161,10 @@ def check_scud_json(inpath: Path, ref: Optional[Path]) -> bool:
 
 def check_example(inpath: Path, ref: Optional[Path], acceptable_sid_prefix: str) -> bool:
     docid2vus: Optional[Dict[DocID, VanillaUtterances]] = None
-    user_uttr_ids: Set[UttrID] = set()
+    user_uttr_ids: Optional[Set[UttrID]] = None
     if ref is not None:
         docid2vus = {}
+        user_uttr_ids = set()
         for f in ref.iterdir():
             with f.open() as inf:
                 for line in inf:
@@ -187,7 +188,11 @@ def check_example(inpath: Path, ref: Optional[Path], acceptable_sid_prefix: str)
                 if not ex.sid.id.startswith(acceptable_sid_prefix):
                     print(f"Unacceptable SID: {ex.sid.id}")
                     ok = False
-                elif "incorrect" not in ex.sid.id and (ex_uttrtid := ex.sid.uttrid) not in user_uttr_ids:
+                elif (
+                    user_uttr_ids is not None
+                    and "incorrect" not in ex.sid.id
+                    and (ex_uttrtid := ex.sid.uttrid) not in user_uttr_ids
+                ):
                     print(f"Unacceptable UttrID: {ex_uttrtid.id} (in SID={ex.sid.id})")
                     ok = False
 
