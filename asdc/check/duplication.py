@@ -20,12 +20,12 @@ def operation(path_vuttr_list: List[Path], path_ex_list: List[Path]) -> None:
             with path_vuttr.open() as inf:
                 for line in inf:
                     vuttr = VanillaUtterances.parse_raw(line)
-                    if vuttr.meta.id in docids:
-                        raise KeyError(f"Duplicated DocID: {vuttr.meta.id} ({path_vuttr})")
+                    if vuttr.docid in docids:
+                        raise KeyError(f"Duplicated DocID: {vuttr.docid} ({path_vuttr})")
                     count_vuttrs += 1
                     count_vuttr += len(vuttr.utterances)
-                    docids.add(vuttr.meta.id)
-                    sids.add(SID(id=vuttr.meta.id.id + "-0"))
+                    docids.add(vuttr.docid)
+                    sids.add(SID(id=vuttr.docid.id + "-0"))
     print(f"# VanillaUtterances: {count_vuttrs:,}")
     print(f"# VanillaUtterance: {count_vuttr:,}")
 

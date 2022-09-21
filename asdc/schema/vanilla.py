@@ -1,17 +1,9 @@
 #!/usr/bin/env python3
-
-
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Literal
 
 from pydantic import BaseModel, validator
 
 from asdc.schema.id import DocID
-
-
-class Meta(BaseModel):
-    id: DocID
-    memo: str = ""
-    data: Dict[str, Any] = {}
 
 
 class VanillaUtterance(BaseModel):
@@ -26,5 +18,7 @@ class VanillaUtterance(BaseModel):
 
 
 class VanillaUtterances(BaseModel):
-    meta: Meta
+    docid: DocID
+    purpose: Literal["test", "train", "dev"]
+    meta: Dict[str, Any]
     utterances: List[VanillaUtterance]

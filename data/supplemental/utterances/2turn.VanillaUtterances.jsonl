@@ -1,351 +1,351 @@
-{"meta": {"id": {"id": "asdc.sup.2turn.000"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "今回のご旅行の目的を教えて下さい。"}, {"name": "user", "text": "ちょっとビジネスで"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.001"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "T字の剃刀を3本用意してもらえますか?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.002"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "Wi-Fiが欲しいです"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.003"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "wi-fiとATM付きのコンビニが必要です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.004"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "Wi-Fiは完備されてますか?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.005"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "Wi-Fi希望です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.006"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "WiFiを利用したいのですが可能ですか?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.007"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "喫煙NGの部屋でお願いします"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.008"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "食事がおいしい"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.009"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "夕食に少し遅れそうなんですが、大丈夫でしょうか"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.010"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "浴衣はLサイズがお願いできれば幸いです"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.013"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "夏休みに1週間"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.014"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "どれもなしで"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.015"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "夕食のみでお願いします。朝は早いので、不要です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.016"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "夕食は自室でお願いしたいんですが"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.018"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "家族3人。子供は二歳半です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.019"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "子供2人と行きます"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.020"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "二人で一人は車椅子です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.021"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "父と母と私の3人です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.024"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "2~3万で考えています"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.025"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "5~6万で探してます"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.027"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "今回のご旅行の目的を教えて下さい。"}, {"name": "user", "text": "熟年ですが、新婚旅行です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.028"},  "data": {"source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "今回のご旅行の目的を教えて下さい。"}, {"name": "user", "text": "友人のところに遊びに来ました"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.029"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "チェックインが深夜でもOKなところがいいです"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.030"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "ペットもOKな宿だとベストかな"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.039"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "夫婦で泊まろうと思います"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.040"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "友人の集まりで、5人。全員男性です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.041"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "10~12万くらいで考えています"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.044"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "今回のご旅行の目的を教えて下さい。"}, {"name": "user", "text": "友人に会いに行くついで"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.046"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "LANケーブルを用意しておいてほしい"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.047"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "チェックインが夜遅くなりそうなんだけど大丈夫ですかね?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.049"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "近くで用事があるのでチェックインの前に荷物を預かってほしいのですが"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.053"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "静かな所がいいんですけど、例えば、森の近くとか"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.054"},  "data": {"source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "遅く出るからチェックインは20時です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.056"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "部屋にあまり来ないで欲しい"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.057"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "物音が気になると眠れないので静かな部屋を用意できますか?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.058"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "門限無しで"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.059"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "夜10時過ぎるんですが、大丈夫ですか?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.060"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "料金を抑えたいからGo To トラベルが使える所で探してるんですけど"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.061"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "TDL近くのホテルを探しています"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.064"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "熊本なんですが、地震の影響は大丈夫ですか?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.065"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "山の中腹に山小屋があるでしょう。そこは予約できませんか?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.067"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "日本橋の方でもいいです"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.068"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "1月30日から3人で2~3泊したいと思っているのですが"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.072"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "ゴールデンウィークに3泊空いていますか?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.081"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "今から一泊できますか?どこも空いていなくて困っています"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.082"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "桜がちょうど見れる時期で、週末に1泊でいいんですが"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.083"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "明日とかって無理ですかね?2泊でいいんですけど"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.084"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "10時までやっている所がいいです"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.085"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "すべて不要です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.089"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "魚料理が多く"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.090"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "部屋で食べたいのだけどできますか?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.091"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "家族3人で父と母です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.092"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "妻と子供と3人です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.093"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "仕事だから俺ひとりだよ"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.094"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "私と妻の2人での利用を考えております"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.095"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "自分一人だけです"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.096"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "大人二人、子供が二人です。一人は幼児です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.099"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "10万円でスイートルーム希望です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.100"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "1まんです"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.101"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "うーん、大体一人あたり1万弱かな"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.104"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "素泊まりでいいので3000円で"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.105"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "素泊まりで良いんで6000円くらいで"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.106"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "予算は特に決まっていませんが10万以下が良いかな"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.114"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "今回のご旅行の目的を教えて下さい。"}, {"name": "user", "text": "リフレッシュです"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.117"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "アメニティはどこのですか"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.118"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "チェックインがおそくなりそうなんですけど、大丈夫ですか?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.119"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "チェックインははやめでもいいですか?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.127"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "USJの目の前のホテルでお願いします"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.128"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "あまり決まっていません"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.134"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "3月24日から4月8日までのあいだのどこかで1週間泊まれますか"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.135"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "お正月に1泊したいんですけど、あいてます?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.141"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "魚が苦手なので、朝夕ともに魚がないか、変更できるところがいいです"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.142"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "朝夕食付きで、酒もつけて下さい。ほかにオプションありますか?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.145"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "2人です。私と会社の人間です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.146"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "4人です。妻と子供二人です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.149"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "5にんです"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.150"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "5人です、家族でうち2人高齢者です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.154"},  "data": {"source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "最初は私1人ですが妻は所要を済ませてよる19自に来ます"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.155"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "私と家内での二人です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.158"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "男性一人です。外国人です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.159"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "二人です。同僚になります"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.160"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "友達みんなで行くから、10人くらいかな"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.161"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "3まんです"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.162"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "3万円で3泊したいです"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.164"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "ありません"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.168"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "今回のご旅行の目的を教えて下さい。"}, {"name": "user", "text": "GoToにのっかって、まあ、観光産業の支援ですかね"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.169"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "今回のご旅行の目的を教えて下さい。"}, {"name": "user", "text": "あちこち行きたいところがあって。日帰りでは到底回れませんのでね"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.171"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "今回のご旅行の目的を教えて下さい。"}, {"name": "user", "text": "カニの時期なので、お腹いっぱいカニを食べまくるのが楽しみなんです"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.172"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "今回のご旅行の目的を教えて下さい。"}, {"name": "user", "text": "コロナのストレス解消です!海産物を食べたいので"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.176"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "今回のご旅行の目的を教えて下さい。"}, {"name": "user", "text": "ハイキング"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.178"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "今回のご旅行の目的を教えて下さい。"}, {"name": "user", "text": "温泉"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.183"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "今回のご旅行の目的を教えて下さい。"}, {"name": "user", "text": "帰省も兼ねてゆっくりしてこようかと"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.190"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "今回のご旅行の目的を教えて下さい。"}, {"name": "user", "text": "周りの観光がしたいです"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.204"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "エキゾチックが良い"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.227"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "バリアフリーなお宿"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.238"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "モーニングコールはお願いできますか?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.241"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "モーニングコール頼みたいんだよね"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.243"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "一階で"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.254"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "見栄えがいいとこありますか?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.259"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "車椅子の人がいるのですが避難経路は?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.261"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "食事は少なめで"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.263"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "静かなところ"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.265"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "赤ちゃんを連れて行くので、ミルクを作りたいのです"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.266"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "赤ちゃん連れでもOKな所がいいです"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.267"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "送迎付きで"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.279"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "朝食ついてるとこはありますか?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.280"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "朝食はバイキングでもいいですが、コーヒーが飲めるところが希望です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.281"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "朝食を4人分お願いします"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.285"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "部屋食を希望してるのですが可能ですか?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.288"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "友人が夜来るのですが問題ない?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.290"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "夕食はバイキング形式だそうですが、部屋で食べる事は可能でしょうか?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.291"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "夕食は抜きで"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.293"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "連泊しても大丈夫ですか?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.297"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "USJに行くのに便利なところがいいです"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.298"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "USJへのアクセスが良いところで"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.311"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "海沿いで、部屋から海が見える所でオススメありませんか?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.314"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "京都にも大阪にも便利な奈良市内を考えています。ほら、新しいホテルができたでしょう"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.326"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "市内中心から外れてもいいので安い場所を探してください"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.327"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "宿の周りにお店がある所がいい"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.331"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "新大阪駅に行きやすい所がいいんです"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.334"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "大阪・神戸・京都のどれかで探しています"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.345"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "箱根の宿をお願いします"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.346"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "歩ける範囲ならすこし駅から離れても大丈夫です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.347"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "北海道の南の辺りでいいところない?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.351"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "1週間ぐらい滞在したいなぁ今月2日"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.357"},  "data": {"source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "2泊3日でお願いします23日"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.360"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "3月上旬あたりで一泊したい"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.361"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "3月半ば、2泊したい"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.367"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "4月15日から2泊であるかな?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.371"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "5連泊をお正月にしたいですが空いてますか"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.372"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "7月か8月に1週間ほど泊まりたいと思います"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.374"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "8月の第一土曜日に一泊です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.380"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "一週間後なんですけど、3泊4日でお願いします"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.382"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "夏頃だけどいつ空いてる 3泊したいなあ"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.385"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "春先予定しています。4月くらいかな、3〜4泊したいです"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.389"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "明日から4泊で"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.391"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "来月の10日から3日間同部屋で探してください"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.393"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "来月の第一週に3泊します"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.402"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "その日の夜と翌日の朝食で"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.413"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "鶏肉が食べられないのですが、代えていただくことは可能ですか?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.416"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "子供が小さいので子供が好む料理"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.424"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "素泊まりで大丈夫ですか?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.429"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "朝食、夕食とも付けて下さい。出来れば部屋食で"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.432"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "朝食が要りますが、夕食は要りません"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.438"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "朝食はありで。夜は大丈夫です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.439"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "朝食はバイキングがあるなら、そちらで、お願いします"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.443"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "朝早いので、朝食は結構です。かわりにおにぎりとか頼めますか?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.444"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "朝夕2食付きでお願いします"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.447"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "朝夕付きで頼みます"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.449"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "特に希望はないので普通に"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.457"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "夕食は塩分を控えめでお願いします"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.461"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "料理の種類が多い朝食バイキングの付いている宿を希望します"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.462"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "2家族計4人。夫婦2組みです"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.463"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "3人です。夫婦と子供ひとりです"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.465"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "4人で子供が二人います"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.467"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "5人です。みんな大人です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.468"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "7名団体で"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.471"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "すいません。まだはっきり決まってなくて、友達がまだ増えるかもしれなくて、4人から7人になると思うんですけど"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.480"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "私と家族の合計4人、うち子供2人です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.481"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "私と婚約者の二人です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.484"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "私ひとりだけです"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.485"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "私一人です。シングルルームはありますか?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.487"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "自分1人だけです"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.492"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "大学のサークル仲間で、3人で予定しているのですが"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.505"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "同じサークルの人達で、全員で6人です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.507"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "友人と5人で男2人、女3人で"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.520"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "1万円台でいけますか?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.522"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "2人で5万でありますか?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.529"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "5万円以内で家族で泊まりたいです"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.537"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "一人一泊10000円で収まると嬉しい"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.546"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "宿泊費は5万 食事は一人2万でかんがえています"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.553"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "朝夕の食事付きで2万円から2万5千円までならOKです"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.554"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "朝夕食付で、1人1万5千円以下で大丈夫ですか"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.557"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "泊まるだけなのでできるだけ安い所"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.558"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "評価の高いホテルなら予算はといませんよ"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.559"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "夫婦二人で、夕食・朝食付きのプランの価格帯を知りたいです"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.589"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "友人3人で行きます"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.605"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "今回のご旅行の目的を教えて下さい。"}, {"name": "user", "text": "食べ歩きです"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.612"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "今回のご旅行の目的を教えて下さい。"}, {"name": "user", "text": "美味しいお魚が食べたかったので"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.618"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "今回のご旅行の目的を教えて下さい。"}, {"name": "user", "text": "法事でやってきました"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.624"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "トリプルが良い"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.626"},  "data": {"source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "なるべく高い階層の部屋で止まれますか?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.627"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "なるべく高層階で"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.636"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "ペットをコンサートに行く間面倒を見ていてほしい"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.640"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "一番上の階で"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.658"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "眺めに良い部屋で"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.662"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "オーシャンビューだったらどこでも"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.678"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "電車での移動なので駅に近いところが良いですね"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.695"},  "data": {"source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "3月15日から一週間。22日に発ちますます"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.698"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "3月3日は空いてますか?2日間です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.704"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "お盆の時期に2泊したいです"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.716"},  "data": {"source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "今日1迫ですが空いてますか?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.717"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "今日すぐに入れて2日後チェックアウトします"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.723"},  "data": {"source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "二日泊めてください。明後日と明後日お願いします"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.726"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "明日からなんですけど、2泊以上できるところありますか?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.732"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "2食付きでお願いします"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.733"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "3食全てが無料提供されるところがあればそれに越したことはないのですが"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.735"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "ハシで食べたいのでフォークスプーンはお断りなんです"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.736"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "館内か近場で夕食に豪華なフレンチを頂ける宿を希望します"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.739"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "食事なし。素泊まりで"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.752"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "夕食はお願いします。朝食は出発が早いので結構です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.755"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "夕食は要らず、朝食のみでお願いしたいんですが、可能ですか?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.756"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "夕食は要りますが、朝食は早く出かけるので要りません"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.763"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "4人の同級生グループです"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.768"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "わたしと家内と子供の3人です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.773"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "妻と孫二人と4人です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.774"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "私と妻の2人だけです"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.775"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "私と妹、大人2人です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.776"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "私と友人、友人の子ども、大人2人と子ども1人です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.777"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "女性グループ、4名でお願いします"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.778"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "上司と一緒なので2人でお願いします"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.782"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "大人3人でうち一人車椅子なんだけど大丈夫ですか?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.787"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "夫と私の二人です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.790"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "友人2人と自分の3人です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.802"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "そうですね。高くても一人3万円くらいまでですかね"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.864"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "今回のご旅行の目的を教えて下さい。"}, {"name": "user", "text": "ゆっくりしたい。ただひたすらにね"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.878"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "今回のご旅行の目的を教えて下さい。"}, {"name": "user", "text": "温泉です。日頃の疲れを含めてリフレッシュしたいと考えています"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.918"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "今回のご旅行の目的を教えて下さい。"}, {"name": "user", "text": "観光です。宿からお城は近いですか?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.1003"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "今回のご旅行の目的を教えて下さい。"}, {"name": "user", "text": "卒業の思い出として"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.1107"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "おいしいお酒をおいているところで"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.1128"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "シングル希望しています"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.1133"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "スリッパを、付けて下さい"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.1149"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "チェックアウトの1時間ほど延長は出来ますか?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.1212"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "もしかしたら当日一人増えるかもしれませんが対応できます?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.1266"},  "data": {"source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "家族4人では入れる部屋をお願いします"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.1312"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "禁煙フロアーを希望します。できれば部屋も消臭して欲しいです"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.1318"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "近くで用事があるのでチェックアウトを少しだけ遅らせてほしいです"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.1352"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "腰が悪いので、夜は硬いベッドで寝たいのですが、ありますか"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.1353"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "今は特に思いつかないのでまた何かあれば連絡しても良いですか"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.1363"},  "data": {"source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "子供が好き嫌いが多いので苦いものはなるべき避けてください"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.1385"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "宿の近くに観光できるところはありますか"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.1410"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "食事は魚より肉がいいのですができますか?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.1436"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "先に荷物だけ送りたいのですがいいですか?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.1582"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "無料のWifiは使えますか?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.1585"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "夜は静かに寝たいので、そのような部屋だと嬉しいです"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.1620"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "余り部屋に来ないで欲しい"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.1665"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "綺麗なホテルならあとは特にないですね"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.1666"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "JR秋葉原駅近くのホテルを探しています"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.1668"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "お台場の付近でありますか?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.1673"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "そうですね、九州地方でお勧めの県ありますか?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.1692"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "りんかい線の最寄り駅にないでしょうか?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.1743"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "海沿いがいいですね。どうしても朝日がみたいので"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.1755"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "岐阜市内の近くに繁華街があるところが好ましいです"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.1767"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "近場で済ませたいです"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.1796"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "渋谷・恵比寿エリアを希望。できれば渋谷駅に近い方がいいです"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.1807"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "新宿エリアを希望、できれば西口で"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.1827"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "草津温泉で湯畑の近くにある宿ある?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.1845"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "地下鉄じゃなくてJR駅の近くで"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.1860"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "都心に近い場所が良い。新宿とか渋谷とか"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.1885"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "東京駅周辺高層階限定で"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.1889"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "東京都内かその近辺希望です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.1901"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "奈良市内、本当は法隆寺近辺がよいのですが、ありますか?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.1911"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "琵琶湖が見える辺りはありますか?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.1916"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "富士山が見える条件を満たすならば静岡県のどこでもいいです"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.1953"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "10月が良いのだけど、日数はまだ未定です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.1956"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "10月上旬で考えていて、5日間くらいだと思います"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.1970"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "1泊で、6月29日にチェックインします"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2020"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "3泊4日したいですがあいてますか?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2030"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "4月1日です。1泊です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2038"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "4月の週末で2泊できる日を教えてください"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2053"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "6月10日から泊まりたくて、まだ泊数は決めてないです"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2087"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "クリスマスに1泊したいんですけど、あります?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2103"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "バレンタインデーに1泊したいんですけど、ありますか?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2125"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "今月下旬なんですが、3〜4泊出来そうな宿探して下さい"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2141"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "今年のお盆のあたりで1泊したいんだよ"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2145"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "子どもの日あたりの1泊ぐらいがベストなんですが"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2150"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "正月明けの一月十日前後予約できますか?二泊か三泊を考えています"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2161"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "二泊できますか?休みとったんで、今週ならいつでも構わない"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2174"},  "data": {"source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "平日割とかあれば平日の相手いる日に2日ほど泊まりたいのですが"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2176"},  "data": {"source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "盆休みの前後で、1泊2日の空はありますか?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2235"},  "data": {"source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "ご飯入らないです。素泊まりで大丈夫です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2249"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "バイキングの朝食ならそれをお願いします"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2251"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "バイキング形式なら朝ごはんをお願いします"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2252"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "ピーナッツアレルギーなのでそれだけ注意してほしい"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2281"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "食事はこちらで買うのでなくてもいいです"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2304"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "素泊まりで、お願いします。持ち込み可能ですか?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2384"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "朝食付きでお願いします。夕食は結構ですよ"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2390"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "朝夕2食で。夕食にお造りを追加して欲しいんですが"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2392"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "朝夕セットでお願いします"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2394"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "朝夕つけてください"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2395"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "朝夕ともついてるほうがいいな"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2399"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "朝夕付があると嬉しいです"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2400"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "朝夕付が希望です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2402"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "朝夕付きでお願いします"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2403"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "朝夕付きを希望、できれば夕食は部屋食で"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2404"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "朝夕付でお願いします"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2419"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "夜のみ"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2429"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "夕食だけお願いしたいですね。朝食はいらないです"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2448"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "夕食は結構です。朝食のみお願いします"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2450"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "夕食は不要。朝はバイキングが食べれるところがいいです"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2466"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "翌日の朝食のみ"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2474"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "10人です。地区の集まりなんです。全員大人です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2475"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "10名夫人団体"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2483"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "2人います。私と妻です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2486"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "2人です。友達と泊まります"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2488"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "2人で同僚と"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2491"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "3にんです"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2493"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "3人います。私と妻と子供です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2496"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "3人です、家族で1人幼児です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2500"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "5人です。大人2人子供3人です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2502"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "5人で大人2、子供3"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2506"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "6人女子3人男子3人でお願いします"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2509"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "サークルのメンバーは全員で10人なので10人で泊まりたいです"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2527"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "家族3人で男1人、女2人です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2534"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "家族4名で、子供二人、大人二人です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2535"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "家族5人。大人2人、子供3人で"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2537"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "家族5人で電車で行きます"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2543"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "家族旅行で、私と妻と、小学生の子供が2人います。計4人ですね"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2546"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "会社の同僚たちと慰安旅行で、男が4人、女が3人で、全部で7人です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2559"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "三人です。家族です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2585"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "社員旅行で男性9人、女性7人で泊まりたいんだけど"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2594"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "小学生の子どもを2人連れて行くので、合計3名です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2607"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "全部で15人。大部屋はありますか?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2622"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "大人3人です。一人は車いすです"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2626"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "大人5人、職場の同僚です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2628"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "大人6人、子供3人です。大人は夫婦3組で、子供は小学生です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2648"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "二人です。妻と泊まります"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2658"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "夫婦と子供2人タクシーで行きます"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2660"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "夫婦と子供二人です。幼児がいます"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2665"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "夫婦ふたりです。車で行きます"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2673"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "父と母と自分の3人でお願いします"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2695"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "両親を連れての家族旅行で、大人が4人です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2701"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "15万円ちょっと付近でいいプランがあればと考えています"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2781"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "3泊しますので、合計で3万円以内でお願いしたいのですが"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2796"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "4人で5万円、夕食は部屋食で頼むわ"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2818"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "8000円以下でお願いします。食事はなしでも構いません"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2824"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "いくらでもいいから高級なホテルにしよう"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2831"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "お安く"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2845"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "できるだけ安い所がいいです。駅から離れていてもかまいません"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2847"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "できるだけ安く"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2861"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "はい。1万円以内で"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2862"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "はい。3人で25000円です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2863"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "はい。8000円です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2864"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "はい。一人5000円です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2865"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "ビジネス利用なので5000円程度です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2869"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "まだなんですよ。相場だと2泊でいくらぐらいですかね?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2920"},  "data": {"source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "交通費も混みで5万以内で3人で3泊したいと思っています"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2925"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "三泊四日で五万円位を考えています。ええ、わたしひとりです"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2930"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "条件によって費用は考えます"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2934"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "食事なしでいいので5000円ぐらいで泊まりたいです"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2935"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "食事なしでいいので8000円以下でお願いしたいです"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2938"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "心苦しい限りですが1泊5000円以下を考えております"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2949"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "相場がわからないので決まっていません"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2954"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "大人二人で一泊二万円まででどうでしょう?適当な部屋はありませんか?"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2978"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "二万くらいかな。ちょっとならオーバーしても大丈夫"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2981"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "夫婦二人なので5万円程度を考えています"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2986"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "予算?いくらでも。特別な日ですから"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2994"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "魚料理が楽しめる宿が希望です"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2995"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "魚料理は無しで"}]}
-{"meta": {"id": {"id": "asdc.sup.2turn.2996"},  "data": { "source": "2turn", "supplement": true}}, "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "高齢者がいるのでなるべく低層階にしてください"}]}
+{"docid": {"id": "asdc.sup.2turn.000"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "今回のご旅行の目的を教えて下さい。"}, {"name": "user", "text": "ちょっとビジネスで"}]}
+{"docid": {"id": "asdc.sup.2turn.001"}, "meta": {}, "purpose": "test", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "T字の剃刀を3本用意してもらえますか?"}]}
+{"docid": {"id": "asdc.sup.2turn.002"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "Wi-Fiが欲しいです"}]}
+{"docid": {"id": "asdc.sup.2turn.003"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "wi-fiとATM付きのコンビニが必要です"}]}
+{"docid": {"id": "asdc.sup.2turn.004"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "Wi-Fiは完備されてますか?"}]}
+{"docid": {"id": "asdc.sup.2turn.005"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "Wi-Fi希望です"}]}
+{"docid": {"id": "asdc.sup.2turn.006"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "WiFiを利用したいのですが可能ですか?"}]}
+{"docid": {"id": "asdc.sup.2turn.007"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "喫煙NGの部屋でお願いします"}]}
+{"docid": {"id": "asdc.sup.2turn.008"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "食事がおいしい"}]}
+{"docid": {"id": "asdc.sup.2turn.009"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "夕食に少し遅れそうなんですが、大丈夫でしょうか"}]}
+{"docid": {"id": "asdc.sup.2turn.010"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "浴衣はLサイズがお願いできれば幸いです"}]}
+{"docid": {"id": "asdc.sup.2turn.013"}, "meta": {}, "purpose": "test", "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "夏休みに1週間"}]}
+{"docid": {"id": "asdc.sup.2turn.014"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "どれもなしで"}]}
+{"docid": {"id": "asdc.sup.2turn.015"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "夕食のみでお願いします。朝は早いので、不要です"}]}
+{"docid": {"id": "asdc.sup.2turn.016"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "夕食は自室でお願いしたいんですが"}]}
+{"docid": {"id": "asdc.sup.2turn.018"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "家族3人。子供は二歳半です"}]}
+{"docid": {"id": "asdc.sup.2turn.019"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "子供2人と行きます"}]}
+{"docid": {"id": "asdc.sup.2turn.020"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "二人で一人は車椅子です"}]}
+{"docid": {"id": "asdc.sup.2turn.021"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "父と母と私の3人です"}]}
+{"docid": {"id": "asdc.sup.2turn.024"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "2~3万で考えています"}]}
+{"docid": {"id": "asdc.sup.2turn.025"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "5~6万で探してます"}]}
+{"docid": {"id": "asdc.sup.2turn.027"}, "meta": {}, "purpose": "test", "utterances": [{"name": "agent", "text": "今回のご旅行の目的を教えて下さい。"}, {"name": "user", "text": "熟年ですが、新婚旅行です"}]}
+{"docid": {"id": "asdc.sup.2turn.028"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "agent", "text": "今回のご旅行の目的を教えて下さい。"}, {"name": "user", "text": "友人のところに遊びに来ました"}]}
+{"docid": {"id": "asdc.sup.2turn.029"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "チェックインが深夜でもOKなところがいいです"}]}
+{"docid": {"id": "asdc.sup.2turn.030"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "ペットもOKな宿だとベストかな"}]}
+{"docid": {"id": "asdc.sup.2turn.039"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "夫婦で泊まろうと思います"}]}
+{"docid": {"id": "asdc.sup.2turn.040"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "友人の集まりで、5人。全員男性です"}]}
+{"docid": {"id": "asdc.sup.2turn.041"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "10~12万くらいで考えています"}]}
+{"docid": {"id": "asdc.sup.2turn.044"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "今回のご旅行の目的を教えて下さい。"}, {"name": "user", "text": "友人に会いに行くついで"}]}
+{"docid": {"id": "asdc.sup.2turn.046"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "LANケーブルを用意しておいてほしい"}]}
+{"docid": {"id": "asdc.sup.2turn.047"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "チェックインが夜遅くなりそうなんだけど大丈夫ですかね?"}]}
+{"docid": {"id": "asdc.sup.2turn.049"}, "meta": {}, "purpose": "test", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "近くで用事があるのでチェックインの前に荷物を預かってほしいのですが"}]}
+{"docid": {"id": "asdc.sup.2turn.053"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "静かな所がいいんですけど、例えば、森の近くとか"}]}
+{"docid": {"id": "asdc.sup.2turn.054"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "遅く出るからチェックインは20時です"}]}
+{"docid": {"id": "asdc.sup.2turn.056"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "部屋にあまり来ないで欲しい"}]}
+{"docid": {"id": "asdc.sup.2turn.057"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "物音が気になると眠れないので静かな部屋を用意できますか?"}]}
+{"docid": {"id": "asdc.sup.2turn.058"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "門限無しで"}]}
+{"docid": {"id": "asdc.sup.2turn.059"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "夜10時過ぎるんですが、大丈夫ですか?"}]}
+{"docid": {"id": "asdc.sup.2turn.060"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "料金を抑えたいからGo To トラベルが使える所で探してるんですけど"}]}
+{"docid": {"id": "asdc.sup.2turn.061"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "TDL近くのホテルを探しています"}]}
+{"docid": {"id": "asdc.sup.2turn.064"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "熊本なんですが、地震の影響は大丈夫ですか?"}]}
+{"docid": {"id": "asdc.sup.2turn.065"}, "meta": {}, "purpose": "test", "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "山の中腹に山小屋があるでしょう。そこは予約できませんか?"}]}
+{"docid": {"id": "asdc.sup.2turn.067"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "日本橋の方でもいいです"}]}
+{"docid": {"id": "asdc.sup.2turn.068"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "1月30日から3人で2~3泊したいと思っているのですが"}]}
+{"docid": {"id": "asdc.sup.2turn.072"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "ゴールデンウィークに3泊空いていますか?"}]}
+{"docid": {"id": "asdc.sup.2turn.081"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "今から一泊できますか?どこも空いていなくて困っています"}]}
+{"docid": {"id": "asdc.sup.2turn.082"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "桜がちょうど見れる時期で、週末に1泊でいいんですが"}]}
+{"docid": {"id": "asdc.sup.2turn.083"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "明日とかって無理ですかね?2泊でいいんですけど"}]}
+{"docid": {"id": "asdc.sup.2turn.084"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "10時までやっている所がいいです"}]}
+{"docid": {"id": "asdc.sup.2turn.085"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "すべて不要です"}]}
+{"docid": {"id": "asdc.sup.2turn.089"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "魚料理が多く"}]}
+{"docid": {"id": "asdc.sup.2turn.090"}, "meta": {}, "purpose": "test", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "部屋で食べたいのだけどできますか?"}]}
+{"docid": {"id": "asdc.sup.2turn.091"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "家族3人で父と母です"}]}
+{"docid": {"id": "asdc.sup.2turn.092"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "妻と子供と3人です"}]}
+{"docid": {"id": "asdc.sup.2turn.093"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "仕事だから俺ひとりだよ"}]}
+{"docid": {"id": "asdc.sup.2turn.094"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "私と妻の2人での利用を考えております"}]}
+{"docid": {"id": "asdc.sup.2turn.095"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "自分一人だけです"}]}
+{"docid": {"id": "asdc.sup.2turn.096"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "大人二人、子供が二人です。一人は幼児です"}]}
+{"docid": {"id": "asdc.sup.2turn.099"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "10万円でスイートルーム希望です"}]}
+{"docid": {"id": "asdc.sup.2turn.100"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "1まんです"}]}
+{"docid": {"id": "asdc.sup.2turn.101"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "うーん、大体一人あたり1万弱かな"}]}
+{"docid": {"id": "asdc.sup.2turn.104"}, "meta": {}, "purpose": "test", "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "素泊まりでいいので3000円で"}]}
+{"docid": {"id": "asdc.sup.2turn.105"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "素泊まりで良いんで6000円くらいで"}]}
+{"docid": {"id": "asdc.sup.2turn.106"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "予算は特に決まっていませんが10万以下が良いかな"}]}
+{"docid": {"id": "asdc.sup.2turn.114"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "今回のご旅行の目的を教えて下さい。"}, {"name": "user", "text": "リフレッシュです"}]}
+{"docid": {"id": "asdc.sup.2turn.117"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "アメニティはどこのですか"}]}
+{"docid": {"id": "asdc.sup.2turn.118"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "チェックインがおそくなりそうなんですけど、大丈夫ですか?"}]}
+{"docid": {"id": "asdc.sup.2turn.119"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "チェックインははやめでもいいですか?"}]}
+{"docid": {"id": "asdc.sup.2turn.127"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "USJの目の前のホテルでお願いします"}]}
+{"docid": {"id": "asdc.sup.2turn.128"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "あまり決まっていません"}]}
+{"docid": {"id": "asdc.sup.2turn.134"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "3月24日から4月8日までのあいだのどこかで1週間泊まれますか"}]}
+{"docid": {"id": "asdc.sup.2turn.135"}, "meta": {}, "purpose": "test", "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "お正月に1泊したいんですけど、あいてます?"}]}
+{"docid": {"id": "asdc.sup.2turn.141"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "魚が苦手なので、朝夕ともに魚がないか、変更できるところがいいです"}]}
+{"docid": {"id": "asdc.sup.2turn.142"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "朝夕食付きで、酒もつけて下さい。ほかにオプションありますか?"}]}
+{"docid": {"id": "asdc.sup.2turn.145"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "2人です。私と会社の人間です"}]}
+{"docid": {"id": "asdc.sup.2turn.146"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "4人です。妻と子供二人です"}]}
+{"docid": {"id": "asdc.sup.2turn.149"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "5にんです"}]}
+{"docid": {"id": "asdc.sup.2turn.150"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "5人です、家族でうち2人高齢者です"}]}
+{"docid": {"id": "asdc.sup.2turn.154"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "最初は私1人ですが妻は所要を済ませてよる19自に来ます"}]}
+{"docid": {"id": "asdc.sup.2turn.155"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "私と家内での二人です"}]}
+{"docid": {"id": "asdc.sup.2turn.158"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "男性一人です。外国人です"}]}
+{"docid": {"id": "asdc.sup.2turn.159"}, "meta": {}, "purpose": "test", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "二人です。同僚になります"}]}
+{"docid": {"id": "asdc.sup.2turn.160"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "友達みんなで行くから、10人くらいかな"}]}
+{"docid": {"id": "asdc.sup.2turn.161"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "3まんです"}]}
+{"docid": {"id": "asdc.sup.2turn.162"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "3万円で3泊したいです"}]}
+{"docid": {"id": "asdc.sup.2turn.164"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "ありません"}]}
+{"docid": {"id": "asdc.sup.2turn.168"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "今回のご旅行の目的を教えて下さい。"}, {"name": "user", "text": "GoToにのっかって、まあ、観光産業の支援ですかね"}]}
+{"docid": {"id": "asdc.sup.2turn.169"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "今回のご旅行の目的を教えて下さい。"}, {"name": "user", "text": "あちこち行きたいところがあって。日帰りでは到底回れませんのでね"}]}
+{"docid": {"id": "asdc.sup.2turn.171"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "今回のご旅行の目的を教えて下さい。"}, {"name": "user", "text": "カニの時期なので、お腹いっぱいカニを食べまくるのが楽しみなんです"}]}
+{"docid": {"id": "asdc.sup.2turn.172"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "今回のご旅行の目的を教えて下さい。"}, {"name": "user", "text": "コロナのストレス解消です!海産物を食べたいので"}]}
+{"docid": {"id": "asdc.sup.2turn.176"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "今回のご旅行の目的を教えて下さい。"}, {"name": "user", "text": "ハイキング"}]}
+{"docid": {"id": "asdc.sup.2turn.178"}, "meta": {}, "purpose": "test", "utterances": [{"name": "agent", "text": "今回のご旅行の目的を教えて下さい。"}, {"name": "user", "text": "温泉"}]}
+{"docid": {"id": "asdc.sup.2turn.183"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "agent", "text": "今回のご旅行の目的を教えて下さい。"}, {"name": "user", "text": "帰省も兼ねてゆっくりしてこようかと"}]}
+{"docid": {"id": "asdc.sup.2turn.190"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "今回のご旅行の目的を教えて下さい。"}, {"name": "user", "text": "周りの観光がしたいです"}]}
+{"docid": {"id": "asdc.sup.2turn.204"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "エキゾチックが良い"}]}
+{"docid": {"id": "asdc.sup.2turn.227"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "バリアフリーなお宿"}]}
+{"docid": {"id": "asdc.sup.2turn.238"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "モーニングコールはお願いできますか?"}]}
+{"docid": {"id": "asdc.sup.2turn.241"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "モーニングコール頼みたいんだよね"}]}
+{"docid": {"id": "asdc.sup.2turn.243"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "一階で"}]}
+{"docid": {"id": "asdc.sup.2turn.254"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "見栄えがいいとこありますか?"}]}
+{"docid": {"id": "asdc.sup.2turn.259"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "車椅子の人がいるのですが避難経路は?"}]}
+{"docid": {"id": "asdc.sup.2turn.261"}, "meta": {}, "purpose": "test", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "食事は少なめで"}]}
+{"docid": {"id": "asdc.sup.2turn.263"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "静かなところ"}]}
+{"docid": {"id": "asdc.sup.2turn.265"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "赤ちゃんを連れて行くので、ミルクを作りたいのです"}]}
+{"docid": {"id": "asdc.sup.2turn.266"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "赤ちゃん連れでもOKな所がいいです"}]}
+{"docid": {"id": "asdc.sup.2turn.267"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "送迎付きで"}]}
+{"docid": {"id": "asdc.sup.2turn.279"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "朝食ついてるとこはありますか?"}]}
+{"docid": {"id": "asdc.sup.2turn.280"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "朝食はバイキングでもいいですが、コーヒーが飲めるところが希望です"}]}
+{"docid": {"id": "asdc.sup.2turn.281"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "朝食を4人分お願いします"}]}
+{"docid": {"id": "asdc.sup.2turn.285"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "部屋食を希望してるのですが可能ですか?"}]}
+{"docid": {"id": "asdc.sup.2turn.288"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "友人が夜来るのですが問題ない?"}]}
+{"docid": {"id": "asdc.sup.2turn.290"}, "meta": {}, "purpose": "test", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "夕食はバイキング形式だそうですが、部屋で食べる事は可能でしょうか?"}]}
+{"docid": {"id": "asdc.sup.2turn.291"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "夕食は抜きで"}]}
+{"docid": {"id": "asdc.sup.2turn.293"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "連泊しても大丈夫ですか?"}]}
+{"docid": {"id": "asdc.sup.2turn.297"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "USJに行くのに便利なところがいいです"}]}
+{"docid": {"id": "asdc.sup.2turn.298"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "USJへのアクセスが良いところで"}]}
+{"docid": {"id": "asdc.sup.2turn.311"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "海沿いで、部屋から海が見える所でオススメありませんか?"}]}
+{"docid": {"id": "asdc.sup.2turn.314"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "京都にも大阪にも便利な奈良市内を考えています。ほら、新しいホテルができたでしょう"}]}
+{"docid": {"id": "asdc.sup.2turn.326"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "市内中心から外れてもいいので安い場所を探してください"}]}
+{"docid": {"id": "asdc.sup.2turn.327"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "宿の周りにお店がある所がいい"}]}
+{"docid": {"id": "asdc.sup.2turn.331"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "新大阪駅に行きやすい所がいいんです"}]}
+{"docid": {"id": "asdc.sup.2turn.334"}, "meta": {}, "purpose": "test", "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "大阪・神戸・京都のどれかで探しています"}]}
+{"docid": {"id": "asdc.sup.2turn.345"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "箱根の宿をお願いします"}]}
+{"docid": {"id": "asdc.sup.2turn.346"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "歩ける範囲ならすこし駅から離れても大丈夫です"}]}
+{"docid": {"id": "asdc.sup.2turn.347"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "北海道の南の辺りでいいところない?"}]}
+{"docid": {"id": "asdc.sup.2turn.351"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "1週間ぐらい滞在したいなぁ今月2日"}]}
+{"docid": {"id": "asdc.sup.2turn.357"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "2泊3日でお願いします23日"}]}
+{"docid": {"id": "asdc.sup.2turn.360"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "3月上旬あたりで一泊したい"}]}
+{"docid": {"id": "asdc.sup.2turn.361"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "3月半ば、2泊したい"}]}
+{"docid": {"id": "asdc.sup.2turn.367"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "4月15日から2泊であるかな?"}]}
+{"docid": {"id": "asdc.sup.2turn.371"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "5連泊をお正月にしたいですが空いてますか"}]}
+{"docid": {"id": "asdc.sup.2turn.372"}, "meta": {}, "purpose": "test", "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "7月か8月に1週間ほど泊まりたいと思います"}]}
+{"docid": {"id": "asdc.sup.2turn.374"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "8月の第一土曜日に一泊です"}]}
+{"docid": {"id": "asdc.sup.2turn.380"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "一週間後なんですけど、3泊4日でお願いします"}]}
+{"docid": {"id": "asdc.sup.2turn.382"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "夏頃だけどいつ空いてる 3泊したいなあ"}]}
+{"docid": {"id": "asdc.sup.2turn.385"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "春先予定しています。4月くらいかな、3〜4泊したいです"}]}
+{"docid": {"id": "asdc.sup.2turn.389"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "明日から4泊で"}]}
+{"docid": {"id": "asdc.sup.2turn.391"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "来月の10日から3日間同部屋で探してください"}]}
+{"docid": {"id": "asdc.sup.2turn.393"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "来月の第一週に3泊します"}]}
+{"docid": {"id": "asdc.sup.2turn.402"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "その日の夜と翌日の朝食で"}]}
+{"docid": {"id": "asdc.sup.2turn.413"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "鶏肉が食べられないのですが、代えていただくことは可能ですか?"}]}
+{"docid": {"id": "asdc.sup.2turn.416"}, "meta": {}, "purpose": "test", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "子供が小さいので子供が好む料理"}]}
+{"docid": {"id": "asdc.sup.2turn.424"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "素泊まりで大丈夫ですか?"}]}
+{"docid": {"id": "asdc.sup.2turn.429"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "朝食、夕食とも付けて下さい。出来れば部屋食で"}]}
+{"docid": {"id": "asdc.sup.2turn.432"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "朝食が要りますが、夕食は要りません"}]}
+{"docid": {"id": "asdc.sup.2turn.438"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "朝食はありで。夜は大丈夫です"}]}
+{"docid": {"id": "asdc.sup.2turn.439"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "朝食はバイキングがあるなら、そちらで、お願いします"}]}
+{"docid": {"id": "asdc.sup.2turn.443"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "朝早いので、朝食は結構です。かわりにおにぎりとか頼めますか?"}]}
+{"docid": {"id": "asdc.sup.2turn.444"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "朝夕2食付きでお願いします"}]}
+{"docid": {"id": "asdc.sup.2turn.447"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "朝夕付きで頼みます"}]}
+{"docid": {"id": "asdc.sup.2turn.449"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "特に希望はないので普通に"}]}
+{"docid": {"id": "asdc.sup.2turn.457"}, "meta": {}, "purpose": "test", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "夕食は塩分を控えめでお願いします"}]}
+{"docid": {"id": "asdc.sup.2turn.461"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "料理の種類が多い朝食バイキングの付いている宿を希望します"}]}
+{"docid": {"id": "asdc.sup.2turn.462"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "2家族計4人。夫婦2組みです"}]}
+{"docid": {"id": "asdc.sup.2turn.463"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "3人です。夫婦と子供ひとりです"}]}
+{"docid": {"id": "asdc.sup.2turn.465"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "4人で子供が二人います"}]}
+{"docid": {"id": "asdc.sup.2turn.467"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "5人です。みんな大人です"}]}
+{"docid": {"id": "asdc.sup.2turn.468"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "7名団体で"}]}
+{"docid": {"id": "asdc.sup.2turn.471"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "すいません。まだはっきり決まってなくて、友達がまだ増えるかもしれなくて、4人から7人になると思うんですけど"}]}
+{"docid": {"id": "asdc.sup.2turn.480"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "私と家族の合計4人、うち子供2人です"}]}
+{"docid": {"id": "asdc.sup.2turn.481"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "私と婚約者の二人です"}]}
+{"docid": {"id": "asdc.sup.2turn.484"}, "meta": {}, "purpose": "test", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "私ひとりだけです"}]}
+{"docid": {"id": "asdc.sup.2turn.485"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "私一人です。シングルルームはありますか?"}]}
+{"docid": {"id": "asdc.sup.2turn.487"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "自分1人だけです"}]}
+{"docid": {"id": "asdc.sup.2turn.492"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "大学のサークル仲間で、3人で予定しているのですが"}]}
+{"docid": {"id": "asdc.sup.2turn.505"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "同じサークルの人達で、全員で6人です"}]}
+{"docid": {"id": "asdc.sup.2turn.507"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "友人と5人で男2人、女3人で"}]}
+{"docid": {"id": "asdc.sup.2turn.520"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "1万円台でいけますか?"}]}
+{"docid": {"id": "asdc.sup.2turn.522"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "2人で5万でありますか?"}]}
+{"docid": {"id": "asdc.sup.2turn.529"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "5万円以内で家族で泊まりたいです"}]}
+{"docid": {"id": "asdc.sup.2turn.537"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "一人一泊10000円で収まると嬉しい"}]}
+{"docid": {"id": "asdc.sup.2turn.546"}, "meta": {}, "purpose": "test", "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "宿泊費は5万 食事は一人2万でかんがえています"}]}
+{"docid": {"id": "asdc.sup.2turn.553"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "朝夕の食事付きで2万円から2万5千円までならOKです"}]}
+{"docid": {"id": "asdc.sup.2turn.554"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "朝夕食付で、1人1万5千円以下で大丈夫ですか"}]}
+{"docid": {"id": "asdc.sup.2turn.557"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "泊まるだけなのでできるだけ安い所"}]}
+{"docid": {"id": "asdc.sup.2turn.558"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "評価の高いホテルなら予算はといませんよ"}]}
+{"docid": {"id": "asdc.sup.2turn.559"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "夫婦二人で、夕食・朝食付きのプランの価格帯を知りたいです"}]}
+{"docid": {"id": "asdc.sup.2turn.589"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "友人3人で行きます"}]}
+{"docid": {"id": "asdc.sup.2turn.605"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "今回のご旅行の目的を教えて下さい。"}, {"name": "user", "text": "食べ歩きです"}]}
+{"docid": {"id": "asdc.sup.2turn.612"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "今回のご旅行の目的を教えて下さい。"}, {"name": "user", "text": "美味しいお魚が食べたかったので"}]}
+{"docid": {"id": "asdc.sup.2turn.618"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "今回のご旅行の目的を教えて下さい。"}, {"name": "user", "text": "法事でやってきました"}]}
+{"docid": {"id": "asdc.sup.2turn.624"}, "meta": {}, "purpose": "test", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "トリプルが良い"}]}
+{"docid": {"id": "asdc.sup.2turn.626"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "なるべく高い階層の部屋で止まれますか?"}]}
+{"docid": {"id": "asdc.sup.2turn.627"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "なるべく高層階で"}]}
+{"docid": {"id": "asdc.sup.2turn.636"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "ペットをコンサートに行く間面倒を見ていてほしい"}]}
+{"docid": {"id": "asdc.sup.2turn.640"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "一番上の階で"}]}
+{"docid": {"id": "asdc.sup.2turn.658"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "眺めに良い部屋で"}]}
+{"docid": {"id": "asdc.sup.2turn.662"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "オーシャンビューだったらどこでも"}]}
+{"docid": {"id": "asdc.sup.2turn.678"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "電車での移動なので駅に近いところが良いですね"}]}
+{"docid": {"id": "asdc.sup.2turn.695"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "3月15日から一週間。22日に発ちますます"}]}
+{"docid": {"id": "asdc.sup.2turn.698"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "3月3日は空いてますか?2日間です"}]}
+{"docid": {"id": "asdc.sup.2turn.704"}, "meta": {}, "purpose": "test", "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "お盆の時期に2泊したいです"}]}
+{"docid": {"id": "asdc.sup.2turn.716"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "今日1迫ですが空いてますか?"}]}
+{"docid": {"id": "asdc.sup.2turn.717"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "今日すぐに入れて2日後チェックアウトします"}]}
+{"docid": {"id": "asdc.sup.2turn.723"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "二日泊めてください。明後日と明後日お願いします"}]}
+{"docid": {"id": "asdc.sup.2turn.726"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "明日からなんですけど、2泊以上できるところありますか?"}]}
+{"docid": {"id": "asdc.sup.2turn.732"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "2食付きでお願いします"}]}
+{"docid": {"id": "asdc.sup.2turn.733"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "3食全てが無料提供されるところがあればそれに越したことはないのですが"}]}
+{"docid": {"id": "asdc.sup.2turn.735"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "ハシで食べたいのでフォークスプーンはお断りなんです"}]}
+{"docid": {"id": "asdc.sup.2turn.736"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "館内か近場で夕食に豪華なフレンチを頂ける宿を希望します"}]}
+{"docid": {"id": "asdc.sup.2turn.739"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "食事なし。素泊まりで"}]}
+{"docid": {"id": "asdc.sup.2turn.752"}, "meta": {}, "purpose": "test", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "夕食はお願いします。朝食は出発が早いので結構です"}]}
+{"docid": {"id": "asdc.sup.2turn.755"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "夕食は要らず、朝食のみでお願いしたいんですが、可能ですか?"}]}
+{"docid": {"id": "asdc.sup.2turn.756"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "夕食は要りますが、朝食は早く出かけるので要りません"}]}
+{"docid": {"id": "asdc.sup.2turn.763"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "4人の同級生グループです"}]}
+{"docid": {"id": "asdc.sup.2turn.768"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "わたしと家内と子供の3人です"}]}
+{"docid": {"id": "asdc.sup.2turn.773"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "妻と孫二人と4人です"}]}
+{"docid": {"id": "asdc.sup.2turn.774"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "私と妻の2人だけです"}]}
+{"docid": {"id": "asdc.sup.2turn.775"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "私と妹、大人2人です"}]}
+{"docid": {"id": "asdc.sup.2turn.776"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "私と友人、友人の子ども、大人2人と子ども1人です"}]}
+{"docid": {"id": "asdc.sup.2turn.777"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "女性グループ、4名でお願いします"}]}
+{"docid": {"id": "asdc.sup.2turn.778"}, "meta": {}, "purpose": "test", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "上司と一緒なので2人でお願いします"}]}
+{"docid": {"id": "asdc.sup.2turn.782"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "大人3人でうち一人車椅子なんだけど大丈夫ですか?"}]}
+{"docid": {"id": "asdc.sup.2turn.787"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "夫と私の二人です"}]}
+{"docid": {"id": "asdc.sup.2turn.790"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "友人2人と自分の3人です"}]}
+{"docid": {"id": "asdc.sup.2turn.802"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "そうですね。高くても一人3万円くらいまでですかね"}]}
+{"docid": {"id": "asdc.sup.2turn.864"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "今回のご旅行の目的を教えて下さい。"}, {"name": "user", "text": "ゆっくりしたい。ただひたすらにね"}]}
+{"docid": {"id": "asdc.sup.2turn.878"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "今回のご旅行の目的を教えて下さい。"}, {"name": "user", "text": "温泉です。日頃の疲れを含めてリフレッシュしたいと考えています"}]}
+{"docid": {"id": "asdc.sup.2turn.918"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "今回のご旅行の目的を教えて下さい。"}, {"name": "user", "text": "観光です。宿からお城は近いですか?"}]}
+{"docid": {"id": "asdc.sup.2turn.1003"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "今回のご旅行の目的を教えて下さい。"}, {"name": "user", "text": "卒業の思い出として"}]}
+{"docid": {"id": "asdc.sup.2turn.1107"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "おいしいお酒をおいているところで"}]}
+{"docid": {"id": "asdc.sup.2turn.1128"}, "meta": {}, "purpose": "test", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "シングル希望しています"}]}
+{"docid": {"id": "asdc.sup.2turn.1133"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "スリッパを、付けて下さい"}]}
+{"docid": {"id": "asdc.sup.2turn.1149"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "チェックアウトの1時間ほど延長は出来ますか?"}]}
+{"docid": {"id": "asdc.sup.2turn.1212"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "もしかしたら当日一人増えるかもしれませんが対応できます?"}]}
+{"docid": {"id": "asdc.sup.2turn.1266"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "家族4人では入れる部屋をお願いします"}]}
+{"docid": {"id": "asdc.sup.2turn.1312"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "禁煙フロアーを希望します。できれば部屋も消臭して欲しいです"}]}
+{"docid": {"id": "asdc.sup.2turn.1318"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "近くで用事があるのでチェックアウトを少しだけ遅らせてほしいです"}]}
+{"docid": {"id": "asdc.sup.2turn.1352"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "腰が悪いので、夜は硬いベッドで寝たいのですが、ありますか"}]}
+{"docid": {"id": "asdc.sup.2turn.1353"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "今は特に思いつかないのでまた何かあれば連絡しても良いですか"}]}
+{"docid": {"id": "asdc.sup.2turn.1363"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "子供が好き嫌いが多いので苦いものはなるべき避けてください"}]}
+{"docid": {"id": "asdc.sup.2turn.1385"}, "meta": {}, "purpose": "test", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "宿の近くに観光できるところはありますか"}]}
+{"docid": {"id": "asdc.sup.2turn.1410"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "食事は魚より肉がいいのですができますか?"}]}
+{"docid": {"id": "asdc.sup.2turn.1436"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "先に荷物だけ送りたいのですがいいですか?"}]}
+{"docid": {"id": "asdc.sup.2turn.1582"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "無料のWifiは使えますか?"}]}
+{"docid": {"id": "asdc.sup.2turn.1585"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "夜は静かに寝たいので、そのような部屋だと嬉しいです"}]}
+{"docid": {"id": "asdc.sup.2turn.1620"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "余り部屋に来ないで欲しい"}]}
+{"docid": {"id": "asdc.sup.2turn.1665"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "綺麗なホテルならあとは特にないですね"}]}
+{"docid": {"id": "asdc.sup.2turn.1666"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "JR秋葉原駅近くのホテルを探しています"}]}
+{"docid": {"id": "asdc.sup.2turn.1668"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "お台場の付近でありますか?"}]}
+{"docid": {"id": "asdc.sup.2turn.1673"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "そうですね、九州地方でお勧めの県ありますか?"}]}
+{"docid": {"id": "asdc.sup.2turn.1692"}, "meta": {}, "purpose": "test", "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "りんかい線の最寄り駅にないでしょうか?"}]}
+{"docid": {"id": "asdc.sup.2turn.1743"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "海沿いがいいですね。どうしても朝日がみたいので"}]}
+{"docid": {"id": "asdc.sup.2turn.1755"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "岐阜市内の近くに繁華街があるところが好ましいです"}]}
+{"docid": {"id": "asdc.sup.2turn.1767"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "近場で済ませたいです"}]}
+{"docid": {"id": "asdc.sup.2turn.1796"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "渋谷・恵比寿エリアを希望。できれば渋谷駅に近い方がいいです"}]}
+{"docid": {"id": "asdc.sup.2turn.1807"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "新宿エリアを希望、できれば西口で"}]}
+{"docid": {"id": "asdc.sup.2turn.1827"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "草津温泉で湯畑の近くにある宿ある?"}]}
+{"docid": {"id": "asdc.sup.2turn.1845"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "地下鉄じゃなくてJR駅の近くで"}]}
+{"docid": {"id": "asdc.sup.2turn.1860"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "都心に近い場所が良い。新宿とか渋谷とか"}]}
+{"docid": {"id": "asdc.sup.2turn.1885"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "東京駅周辺高層階限定で"}]}
+{"docid": {"id": "asdc.sup.2turn.1889"}, "meta": {}, "purpose": "test", "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "東京都内かその近辺希望です"}]}
+{"docid": {"id": "asdc.sup.2turn.1901"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "奈良市内、本当は法隆寺近辺がよいのですが、ありますか?"}]}
+{"docid": {"id": "asdc.sup.2turn.1911"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "琵琶湖が見える辺りはありますか?"}]}
+{"docid": {"id": "asdc.sup.2turn.1916"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "富士山が見える条件を満たすならば静岡県のどこでもいいです"}]}
+{"docid": {"id": "asdc.sup.2turn.1953"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "10月が良いのだけど、日数はまだ未定です"}]}
+{"docid": {"id": "asdc.sup.2turn.1956"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "10月上旬で考えていて、5日間くらいだと思います"}]}
+{"docid": {"id": "asdc.sup.2turn.1970"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "1泊で、6月29日にチェックインします"}]}
+{"docid": {"id": "asdc.sup.2turn.2020"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "3泊4日したいですがあいてますか?"}]}
+{"docid": {"id": "asdc.sup.2turn.2030"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "4月1日です。1泊です"}]}
+{"docid": {"id": "asdc.sup.2turn.2038"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "4月の週末で2泊できる日を教えてください"}]}
+{"docid": {"id": "asdc.sup.2turn.2053"}, "meta": {}, "purpose": "test", "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "6月10日から泊まりたくて、まだ泊数は決めてないです"}]}
+{"docid": {"id": "asdc.sup.2turn.2087"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "クリスマスに1泊したいんですけど、あります?"}]}
+{"docid": {"id": "asdc.sup.2turn.2103"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "バレンタインデーに1泊したいんですけど、ありますか?"}]}
+{"docid": {"id": "asdc.sup.2turn.2125"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "今月下旬なんですが、3〜4泊出来そうな宿探して下さい"}]}
+{"docid": {"id": "asdc.sup.2turn.2141"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "今年のお盆のあたりで1泊したいんだよ"}]}
+{"docid": {"id": "asdc.sup.2turn.2145"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "子どもの日あたりの1泊ぐらいがベストなんですが"}]}
+{"docid": {"id": "asdc.sup.2turn.2150"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "正月明けの一月十日前後予約できますか?二泊か三泊を考えています"}]}
+{"docid": {"id": "asdc.sup.2turn.2161"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "二泊できますか?休みとったんで、今週ならいつでも構わない"}]}
+{"docid": {"id": "asdc.sup.2turn.2174"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "平日割とかあれば平日の相手いる日に2日ほど泊まりたいのですが"}]}
+{"docid": {"id": "asdc.sup.2turn.2176"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿泊日・日数を教えて下さい。"}, {"name": "user", "text": "盆休みの前後で、1泊2日の空はありますか?"}]}
+{"docid": {"id": "asdc.sup.2turn.2235"}, "meta": {}, "purpose": "test", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "ご飯入らないです。素泊まりで大丈夫です"}]}
+{"docid": {"id": "asdc.sup.2turn.2249"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "バイキングの朝食ならそれをお願いします"}]}
+{"docid": {"id": "asdc.sup.2turn.2251"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "バイキング形式なら朝ごはんをお願いします"}]}
+{"docid": {"id": "asdc.sup.2turn.2252"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "ピーナッツアレルギーなのでそれだけ注意してほしい"}]}
+{"docid": {"id": "asdc.sup.2turn.2281"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "食事はこちらで買うのでなくてもいいです"}]}
+{"docid": {"id": "asdc.sup.2turn.2304"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "素泊まりで、お願いします。持ち込み可能ですか?"}]}
+{"docid": {"id": "asdc.sup.2turn.2384"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "朝食付きでお願いします。夕食は結構ですよ"}]}
+{"docid": {"id": "asdc.sup.2turn.2390"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "朝夕2食で。夕食にお造りを追加して欲しいんですが"}]}
+{"docid": {"id": "asdc.sup.2turn.2392"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "朝夕セットでお願いします"}]}
+{"docid": {"id": "asdc.sup.2turn.2394"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "朝夕つけてください"}]}
+{"docid": {"id": "asdc.sup.2turn.2395"}, "meta": {}, "purpose": "test", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "朝夕ともついてるほうがいいな"}]}
+{"docid": {"id": "asdc.sup.2turn.2399"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "朝夕付があると嬉しいです"}]}
+{"docid": {"id": "asdc.sup.2turn.2400"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "朝夕付が希望です"}]}
+{"docid": {"id": "asdc.sup.2turn.2402"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "朝夕付きでお願いします"}]}
+{"docid": {"id": "asdc.sup.2turn.2403"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "朝夕付きを希望、できれば夕食は部屋食で"}]}
+{"docid": {"id": "asdc.sup.2turn.2404"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "朝夕付でお願いします"}]}
+{"docid": {"id": "asdc.sup.2turn.2419"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "夜のみ"}]}
+{"docid": {"id": "asdc.sup.2turn.2429"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "夕食だけお願いしたいですね。朝食はいらないです"}]}
+{"docid": {"id": "asdc.sup.2turn.2448"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "夕食は結構です。朝食のみお願いします"}]}
+{"docid": {"id": "asdc.sup.2turn.2450"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "夕食は不要。朝はバイキングが食べれるところがいいです"}]}
+{"docid": {"id": "asdc.sup.2turn.2466"}, "meta": {}, "purpose": "test", "utterances": [{"name": "agent", "text": "食事(朝夕付、朝食付、素泊まりなど)のご希望があれば教えてください。"}, {"name": "user", "text": "翌日の朝食のみ"}]}
+{"docid": {"id": "asdc.sup.2turn.2474"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "10人です。地区の集まりなんです。全員大人です"}]}
+{"docid": {"id": "asdc.sup.2turn.2475"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "10名夫人団体"}]}
+{"docid": {"id": "asdc.sup.2turn.2483"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "2人います。私と妻です"}]}
+{"docid": {"id": "asdc.sup.2turn.2486"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "2人です。友達と泊まります"}]}
+{"docid": {"id": "asdc.sup.2turn.2488"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "2人で同僚と"}]}
+{"docid": {"id": "asdc.sup.2turn.2491"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "3にんです"}]}
+{"docid": {"id": "asdc.sup.2turn.2493"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "3人います。私と妻と子供です"}]}
+{"docid": {"id": "asdc.sup.2turn.2496"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "3人です、家族で1人幼児です"}]}
+{"docid": {"id": "asdc.sup.2turn.2500"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "5人です。大人2人子供3人です"}]}
+{"docid": {"id": "asdc.sup.2turn.2502"}, "meta": {}, "purpose": "test", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "5人で大人2、子供3"}]}
+{"docid": {"id": "asdc.sup.2turn.2506"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "6人女子3人男子3人でお願いします"}]}
+{"docid": {"id": "asdc.sup.2turn.2509"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "サークルのメンバーは全員で10人なので10人で泊まりたいです"}]}
+{"docid": {"id": "asdc.sup.2turn.2527"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "家族3人で男1人、女2人です"}]}
+{"docid": {"id": "asdc.sup.2turn.2534"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "家族4名で、子供二人、大人二人です"}]}
+{"docid": {"id": "asdc.sup.2turn.2535"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "家族5人。大人2人、子供3人で"}]}
+{"docid": {"id": "asdc.sup.2turn.2537"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "家族5人で電車で行きます"}]}
+{"docid": {"id": "asdc.sup.2turn.2543"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "家族旅行で、私と妻と、小学生の子供が2人います。計4人ですね"}]}
+{"docid": {"id": "asdc.sup.2turn.2546"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "会社の同僚たちと慰安旅行で、男が4人、女が3人で、全部で7人です"}]}
+{"docid": {"id": "asdc.sup.2turn.2559"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "三人です。家族です"}]}
+{"docid": {"id": "asdc.sup.2turn.2585"}, "meta": {}, "purpose": "test", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "社員旅行で男性9人、女性7人で泊まりたいんだけど"}]}
+{"docid": {"id": "asdc.sup.2turn.2594"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "小学生の子どもを2人連れて行くので、合計3名です"}]}
+{"docid": {"id": "asdc.sup.2turn.2607"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "全部で15人。大部屋はありますか?"}]}
+{"docid": {"id": "asdc.sup.2turn.2622"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "大人3人です。一人は車いすです"}]}
+{"docid": {"id": "asdc.sup.2turn.2626"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "大人5人、職場の同僚です"}]}
+{"docid": {"id": "asdc.sup.2turn.2628"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "大人6人、子供3人です。大人は夫婦3組で、子供は小学生です"}]}
+{"docid": {"id": "asdc.sup.2turn.2648"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "二人です。妻と泊まります"}]}
+{"docid": {"id": "asdc.sup.2turn.2658"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "夫婦と子供2人タクシーで行きます"}]}
+{"docid": {"id": "asdc.sup.2turn.2660"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "夫婦と子供二人です。幼児がいます"}]}
+{"docid": {"id": "asdc.sup.2turn.2665"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "夫婦ふたりです。車で行きます"}]}
+{"docid": {"id": "asdc.sup.2turn.2673"}, "meta": {}, "purpose": "test", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "父と母と自分の3人でお願いします"}]}
+{"docid": {"id": "asdc.sup.2turn.2695"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "agent", "text": "人数を教えて下さい。"}, {"name": "user", "text": "両親を連れての家族旅行で、大人が4人です"}]}
+{"docid": {"id": "asdc.sup.2turn.2701"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "15万円ちょっと付近でいいプランがあればと考えています"}]}
+{"docid": {"id": "asdc.sup.2turn.2781"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "3泊しますので、合計で3万円以内でお願いしたいのですが"}]}
+{"docid": {"id": "asdc.sup.2turn.2796"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "4人で5万円、夕食は部屋食で頼むわ"}]}
+{"docid": {"id": "asdc.sup.2turn.2818"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "8000円以下でお願いします。食事はなしでも構いません"}]}
+{"docid": {"id": "asdc.sup.2turn.2824"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "いくらでもいいから高級なホテルにしよう"}]}
+{"docid": {"id": "asdc.sup.2turn.2831"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "お安く"}]}
+{"docid": {"id": "asdc.sup.2turn.2845"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "できるだけ安い所がいいです。駅から離れていてもかまいません"}]}
+{"docid": {"id": "asdc.sup.2turn.2847"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "できるだけ安く"}]}
+{"docid": {"id": "asdc.sup.2turn.2861"}, "meta": {}, "purpose": "test", "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "はい。1万円以内で"}]}
+{"docid": {"id": "asdc.sup.2turn.2862"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "はい。3人で25000円です"}]}
+{"docid": {"id": "asdc.sup.2turn.2863"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "はい。8000円です"}]}
+{"docid": {"id": "asdc.sup.2turn.2864"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "はい。一人5000円です"}]}
+{"docid": {"id": "asdc.sup.2turn.2865"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "ビジネス利用なので5000円程度です"}]}
+{"docid": {"id": "asdc.sup.2turn.2869"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "まだなんですよ。相場だと2泊でいくらぐらいですかね?"}]}
+{"docid": {"id": "asdc.sup.2turn.2920"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "交通費も混みで5万以内で3人で3泊したいと思っています"}]}
+{"docid": {"id": "asdc.sup.2turn.2925"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "三泊四日で五万円位を考えています。ええ、わたしひとりです"}]}
+{"docid": {"id": "asdc.sup.2turn.2930"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "条件によって費用は考えます"}]}
+{"docid": {"id": "asdc.sup.2turn.2934"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "食事なしでいいので5000円ぐらいで泊まりたいです"}]}
+{"docid": {"id": "asdc.sup.2turn.2935"}, "meta": {}, "purpose": "test", "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "食事なしでいいので8000円以下でお願いしたいです"}]}
+{"docid": {"id": "asdc.sup.2turn.2938"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "心苦しい限りですが1泊5000円以下を考えております"}]}
+{"docid": {"id": "asdc.sup.2turn.2949"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "相場がわからないので決まっていません"}]}
+{"docid": {"id": "asdc.sup.2turn.2954"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "大人二人で一泊二万円まででどうでしょう?適当な部屋はありませんか?"}]}
+{"docid": {"id": "asdc.sup.2turn.2978"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "二万くらいかな。ちょっとならオーバーしても大丈夫"}]}
+{"docid": {"id": "asdc.sup.2turn.2981"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "夫婦二人なので5万円程度を考えています"}]}
+{"docid": {"id": "asdc.sup.2turn.2986"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "予算?いくらでも。特別な日ですから"}]}
+{"docid": {"id": "asdc.sup.2turn.2994"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "魚料理が楽しめる宿が希望です"}]}
+{"docid": {"id": "asdc.sup.2turn.2995"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "魚料理は無しで"}]}
+{"docid": {"id": "asdc.sup.2turn.2996"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "高齢者がいるのでなるべく低層階にしてください"}]}
