@@ -50,6 +50,8 @@ def operation(path_in: Path, path_out: Path, path_ref: Path) -> None:
         idx_memo: int = header.index("メモ")
 
         for items in r:
+            if len(items[idx_sid]) < 2:
+                continue
             scuds = item2scuds(items[idx_scuds])
             memo = unicodedata.normalize("NFKC", items[idx_memo]).strip()
             kvs[items[idx_sid]] = {

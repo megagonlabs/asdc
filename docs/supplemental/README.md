@@ -86,7 +86,7 @@ Utterances made by crowd workers that are likely to generate multiple SCUDs.
 
 ## Talk about a specific topic
 
-- ``topic_talk.Example.jsonl``: 0 examples
+- ``topic_talk.Example.jsonl``: 169 examples
 
 ## Other examples
 
