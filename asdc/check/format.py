@@ -205,6 +205,11 @@ def check_example(inpath: Path, ref: Optional[Path], acceptable_sid_prefix: str)
                     print(f"Unknown docid: {ex.sid.docid} (ex.sid) for {ex} in {fname}")
                     ok = False
                     continue
+                if vus.purpose != ex.purpose:
+                    print(f"Wrong purpose: {ex} (not {vus.purpose}")
+                    ok = False
+                    continue
+
                 org_text: str = vus.utterances[ex.sid.uttrid.num].text
                 if org_text != "".join(ex.sources):
                     print(f"Invalid sources ({ex.sid})")
