@@ -44,8 +44,8 @@ def operation(path_in: Path, path_out: Path, path_ref: Path) -> None:
         uttrid2sents = {}
         uttrid2found = set()
 
-        idx_sid: int = header.index("ID")
-        idx_sent: int = header.index("客発話")
+        idx_sid: int = header.index("SID")
+        idx_sent: int = header.index("客")
         idx_scuds: int = header.index("解釈文")
         idx_memo: int = header.index("メモ")
 
