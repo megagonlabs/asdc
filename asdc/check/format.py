@@ -214,8 +214,8 @@ def check_example(inpath: Path, ref: Optional[Path], acceptable_sid_prefix: str)
                     continue
 
                 org_text: str = vus.utterances[ex.sid.uttrid.num].text
-                if org_text != "".join(ex.sources):
-                    print(f"Invalid sources ({ex.sid})")
+                if (ex_src := "".join(ex.sources)) != org_text:
+                    print(f"Invalid sources ({ex.sid}) / {org_text} / {ex_src}")
                     ok = False
                     continue
 
