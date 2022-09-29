@@ -39,6 +39,8 @@ class Example(BaseModel):
         for t in v:
             if "<none>" in t:
                 raise ValueError("<none> should not be in targets")
+            if len(t.strip()) == 0:
+                raise ValueError(f"Blank target should not be in targets {v}")
         return v
 
     def __lt__(self, other) -> bool:
