@@ -174,7 +174,7 @@ def check_example(inpath: Path, ref: Optional[Path], acceptable_sid_prefix: str)
                     docid2vus[vus.docid] = vus
 
                     for idx, vu in enumerate(vus.utterances):
-                        if vu.name == "user":
+                        if vu.name in {"user"}:
                             uttrid = UttrID(id=f"{vus.docid.id}.{idx}")
                             assert uttrid.docid == vus.docid, (uttrid, vus.docid)
                             user_uttr_ids.add(uttrid)
@@ -225,7 +225,7 @@ def check_example(inpath: Path, ref: Optional[Path], acceptable_sid_prefix: str)
                     continue
                 for ctx, exctx in zip(ex.context, vus.utterances[: ex.sid.uttrid.num]):
                     if ctx.name != exctx.name:
-                        print(f"Invalid name of context ({ex.sid})")
+                        print(f"Invalid name of context ({ex.sid}) ({ctx.name} != {exctx.name})")
                         ok = False
                     elif ctx.text != exctx.text:
                         print(f"Invalid text of context ({ex.sid})")

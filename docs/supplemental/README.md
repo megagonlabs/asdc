@@ -92,3 +92,11 @@ Utterances made by crowd workers that are likely to generate multiple SCUDs.
 
 - ``basic.Example.jsonl``: 76 examples
     - Basic test suite
+- ``hotel.Example.jsonl``: 199 examples
+    - This file contains pairs of a question about hotels and its answer.
+
+| Question | Answer |
+| --- | --- |
+| あなたが、小学校低学年の子どもと配偶者との家族旅行で泊まるとしたらどのようなホテルに泊まりたいですか? | 子どもが楽しめるホテル |
+| あなたが、夏に泊まるとしたらどのようなホテルに泊まりたいですか? | 空気が美味しいホテル |
+| あなたが、秋に泊まるとしたらどのようなホテルに泊まりたいですか? | 紅葉が美しい庭のあるホテル|

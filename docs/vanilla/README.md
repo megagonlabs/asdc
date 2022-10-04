@@ -6,18 +6,6 @@ Schema is [``asdc.schema.vanilla.VanillaUtterances``](asdc/schema/vanilla.py).
 
 All dialogs are fictitious by crowd workers.
 
-## ``hotel.VanillaUtterances.jsonl``: 8,445 dialogs
-
-This file contains pairs of a question about hotels and its answer.
-
-| Question | Answer |
-| --- | --- |
-| あなたが、小学校低学年の子どもと配偶者との家族旅行で泊まるとしたらどのようなホテルに泊まりたいですか? | 子どもが楽しめるホテル |
-| あなたが、夏に泊まるとしたらどのようなホテルに泊まりたいですか? | 空気が美味しいホテル |
-| あなたが、秋に泊まるとしたらどのようなホテルに泊まりたいですか? | 紅葉が美しい庭のあるホテル|
-
-Note: Dialogs with SCUDs are in ``data/supplemental/scud/hotel.Example.jsonl``
-
 ## ``travel.VanillaUtterances.jsonl``: 2,969 dialogs
 
 This file contains pairs of a question about travel and its answer.
