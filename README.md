@@ -52,7 +52,6 @@ If ``meta['meta']`` of an example is ``true``, the example has incorrect SCUDs.
 ## Vanilla part: [``data/vanilla``](data/vanilla): 75,395 dialogs
 
 Files in ``data/vanilla`` are fictitious dialogs or queries made by crowd workers with no SCUD annotations.
-The number is over 100,000.
 Please read [the documents](docs/vanilla/README.md) for more details.
 
 | Utterance 1 | Utterance 2 |
