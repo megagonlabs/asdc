@@ -44,10 +44,10 @@ Please read [the documents](docs/supplemental/README.md) for more details.
 - Most dialogs consist of a single pair of an agent utterance and a user utterance.
 - Dialogs are stored in files in [``data/supplemental/utterances``](data/supplemental/utterances) : 46,095 dialogs
 
-## Supplemental incorrect SCUD part: [``data/supplemental/incorrect_scud``](data/supplemental/incorrect_scud): 3,467 examples
+## Supplemental correctness-labeled SCUD part: [``data/supplemental/correctness_labeled_scud``](data/supplemental/correctness_labeled_scud): 3,467 examples
 
-Files in ``data/supplemental/incorrect_scud`` are Supplemental fictitious dialogs with SCUD annotations.
-If ``meta['meta']`` of an example is ``true``, the example has incorrect SCUDs.
+Files in ``data/supplemental/correctness_labeled_scud`` are Supplemental fictitious dialogs with SCUD and its correctness annotations.
+If ``meta['incorrect']`` of an example is ``true``, the example has incorrect SCUDs.
 
 ## Vanilla part: [``data/vanilla``](data/vanilla): 75,395 dialogs
 

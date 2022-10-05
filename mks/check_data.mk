@@ -67,12 +67,12 @@ check_supplemental_scud_linenum:
 	  --suffix '(data/supplemental/scud)' \
 	  --dir
 
-check_incorrect_supplemental_scud_linenum:
+check_correctness_labeled_supplemental_scud_linenum:
 	python3 -m asdc.check.linenum \
 	  -i ./README.md \
-	  --root $(DATA_ROOT_DIR)/supplemental/incorrect_scud \
+	  --root $(DATA_ROOT_DIR)/supplemental/correctness_labeled_scud \
 	  --tail examples \
-	  --suffix '(data/supplemental/incorrect_scud)' \
+	  --suffix '(data/supplemental/correctness_labeled_scud)' \
 	  --dir
 
 check_supplemental_utterances:
@@ -93,18 +93,18 @@ check_vanilla: check_vanilla_linenum \
 
 _check_sup_example_scud_dir:
 	python3 -m asdc.check.format -i $(DATA_SUP_SCUD_DIR) -t example --prefix asdc.sup. --ref $(DATA_ROOT_DIR)/supplemental/utterances
-_check_sup_example_incorrect_dir:
-	python3 -m asdc.check.format -i $(DATA_SUP_INCORRECT_SCUD_DIR) -t incorrect_example --ref $(DATA_SUP_SCUD_DIR)
-	python3 -m asdc.check.format -i $(DATA_SUP_INCORRECT_SCUD_DIR) -t example --prefix asdc.sup.
+_check_sup_example_correctness_labeled_dir:
+	python3 -m asdc.check.format -i $(DATA_SUP_CORRECTNESS_LABELED_SCUD_DIR) -t correctness_labeled_example --ref $(DATA_SUP_SCUD_DIR)
+	python3 -m asdc.check.format -i $(DATA_SUP_CORRECTNESS_LABELED_SCUD_DIR) -t example --prefix asdc.sup.
 
 check_sup_example: _check_sup_example_scud_dir \
-	_check_sup_example_incorrect_dir \
+	_check_sup_example_correctness_labeled_dir \
 	check_supplemental_scud_linenum \
-	check_incorrect_supplemental_scud_linenum \
+	check_correctness_labeled_supplemental_scud_linenum \
 	check_supplemental_utterances \
 
 check_duplication:
 	python -m asdc.check.duplication \
 		--vuttr $(DATA_ROOT_DIR)/vanilla \
 		--ex $(DATA_SUP_SCUD_DIR) \
-		--ex $(DATA_SUP_INCORRECT_SCUD_DIR) \
+		--ex $(DATA_SUP_CORRECTNESS_LABELED_SCUD_DIR) \
