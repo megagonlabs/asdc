@@ -25,7 +25,7 @@ The original id is stored in ``meta.data["original_doc_id"]``.
 - ``situation.short.Example.jsonl``: 1,887 examples
     - Original utterances: ``data/supplemental/utterances/situation.short.has_scud.VanillaUtterances.jsonl``
     - Utterances without SCUDs: ``data/vanilla/situation.short.VanillaUtterances.jsonl``
-- ``situation.normal.Example.jsonl``: 4,830 examples
+- ``situation.normal.Example.jsonl``: 8,320 examples
 
 ## Featured examples
 
