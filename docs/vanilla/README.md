@@ -39,15 +39,6 @@ Most operators' utterances contain several sentences.
 
 - ``meta.data["q_num_sentences"]``: The number of sentences of the operator's utterance
 
-## ``situation.normal.VanillaUtterances.jsonl``: 3,440 dialogs
-
-This file contains dialogs under specific situation.
-The situation is in ``meta.data["situation"]``.
-
-| Situation | Customer | Operator | Customer | Operator |
-| --- | --- | --- | --- | --- |
-| 出張 | 新幹線駅から近い宿はありますか? | ご旅行でしょうか? | いいえ出張で翌日早朝また移動なので新幹線の駅の近くがいいのですが | かしこまりました、新幹線の駅近くでお探ししますね |
-
 ## ``situation.normal.extend.VanillaUtterances.jsonl``: 841 dialogs
 
 This file contains the continuation of several conversations in Y ``situation.normal.VanillaUtterances.jsonl``.

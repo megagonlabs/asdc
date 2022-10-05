@@ -23,11 +23,9 @@ Crowd workers were asked to rewrite the client's utterances so that they were in
 The original id is stored in ``meta.data["original_doc_id"]``.
 
 - ``situation.short.Example.jsonl``: 1,887 examples
-    - Original utterances: ``data/supplemental/raw/situation.short.has_scud.VanillaUtterances.jsonl``
+    - Original utterances: ``data/supplemental/utterances/situation.short.has_scud.VanillaUtterances.jsonl``
     - Utterances without SCUDs: ``data/vanilla/situation.short.VanillaUtterances.jsonl``
 - ``situation.normal.Example.jsonl``: 4,830 examples
-    - Original utterances: ``data/supplemental/raw/situation.normal.has_scud.VanillaUtterances.jsonl``
-    - Utterances without SCUDs: ``data/vanilla/situation.normal.VanillaUtterances.jsonl``
 
 ## Featured examples
 
