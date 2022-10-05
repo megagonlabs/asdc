@@ -8,7 +8,7 @@ from asdc.schema.id import SID
 
 METACHAR_SENTENCE_BOUNDARY: str = "\u2502"
 METACHAR_LINE_BREAK: str = "\u2581"
-METAKEY_INCORRECT: str = "incorrect"
+METAKEY_CORRECT: str = "correct"
 METAKEY_ORIGINAL: str = "original"
 
 

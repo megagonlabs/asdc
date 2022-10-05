@@ -14,7 +14,7 @@ from asdc.schema.dialog import GroupType, Scud, Utterances, open_scud_file_by_do
 from asdc.schema.example import (
     METACHAR_LINE_BREAK,
     METACHAR_SENTENCE_BOUNDARY,
-    METAKEY_INCORRECT,
+    METAKEY_CORRECT,
     METAKEY_ORIGINAL,
     Example,
 )
@@ -266,12 +266,12 @@ def check_vanilla(inpath: Path, ref: Optional[Path]) -> bool:
 
 
 def check_correctness_labeled_example_meta(ex: Example) -> bool:
-    for mk in [METAKEY_ORIGINAL, METAKEY_INCORRECT]:
+    for mk in [METAKEY_ORIGINAL, METAKEY_CORRECT]:
         if mk not in ex.meta:
             print(f"Key {mk} does not exist in {ex.sid.id}")
             return False
 
-    k = ex.meta[METAKEY_INCORRECT]
+    k = ex.meta[METAKEY_CORRECT]
     if k is None or isinstance(k, bool):
         pass
     else:
