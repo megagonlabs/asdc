@@ -11,4 +11,4 @@ DATA_MAIN_SCUD_SENTENCE_DIR:=$(DATA_MAIN_ORIGINAL_DIR)/scud/sentence
 DATA_MAIN_SCUD_JSONL_DIR:=$(DATA_MAIN_DIR)/scud
 
 DATA_SUP_SCUD_DIR:=./data/supplemental/scud
-DATA_SUP_INCORRECT_SCUD_DIR:=./data/supplemental/incorrect_scud
+DATA_SUP_CORRECTNESS_LABELED_SCUD_DIR:=./data/supplemental/correctness_labeled_scud

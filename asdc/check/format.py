@@ -196,7 +196,7 @@ def check_example(inpath: Path, ref: Optional[Path], acceptable_sid_prefix: str)
                     ok = False
                 elif (
                     user_uttr_ids is not None
-                    and "incorrect" not in ex.sid.id
+                    and "correctness_labeled" not in ex.sid.id
                     and (ex_uttrtid := ex.sid.uttrid) not in user_uttr_ids
                 ):
                     print(f"Unacceptable UttrID: {ex_uttrtid.id} (in SID={ex.sid.id})")
@@ -265,7 +265,7 @@ def check_vanilla(inpath: Path, ref: Optional[Path]) -> bool:
     return ok
 
 
-def check_incorrect_example_meta(ex: Example) -> bool:
+def check_correctness_labeled_example_meta(ex: Example) -> bool:
     for mk in [METAKEY_ORIGINAL, METAKEY_INCORRECT]:
         if mk not in ex.meta:
             print(f"Key {mk} does not exist in {ex.sid.id}")
@@ -280,7 +280,7 @@ def check_incorrect_example_meta(ex: Example) -> bool:
     return True
 
 
-def check_incorrect_example(inpath: Path, ref: Optional[Path]) -> bool:
+def check_correctness_labeled_example(inpath: Path, ref: Optional[Path]) -> bool:
     assert inpath.is_dir()
     assert ref is not None
 
@@ -309,7 +309,7 @@ def check_incorrect_example(inpath: Path, ref: Optional[Path]) -> bool:
                     print(f"Duplicated SID: {ex.sid.id}")
                 done_sids.add(ex.sid.id)
 
-                ok &= check_incorrect_example_meta(ex)
+                ok &= check_correctness_labeled_example_meta(ex)
                 if not ok:
                     continue
 
@@ -340,7 +340,7 @@ DATA_TYPES: typing.Dict[str, Callable] = {
     "text": check_text,
     "scud_main": check_scud_main,
     "scud_json": check_scud_json,
-    "incorrect_example": check_incorrect_example,
+    "correctness_labeled_example": check_correctness_labeled_example,
     "vanilla": check_vanilla,
 }
 
