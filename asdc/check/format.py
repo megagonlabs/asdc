@@ -11,7 +11,13 @@ from pathlib import Path
 from typing import Callable, DefaultDict, Dict, Optional, Set, Tuple
 
 from asdc.schema.dialog import GroupType, Scud, Utterances, open_scud_file_by_docid
-from asdc.schema.example import METACHAR_LINE_BREAK, METACHAR_SENTENCE_BOUNDARY, METAKEY_INCORRECT, Example
+from asdc.schema.example import (
+    METACHAR_LINE_BREAK,
+    METACHAR_SENTENCE_BOUNDARY,
+    METAKEY_INCORRECT,
+    METAKEY_ORIGINAL,
+    Example,
+)
 from asdc.schema.id import SID, DocID, UttrID
 from asdc.schema.vanilla import VanillaUtterances
 
@@ -260,9 +266,10 @@ def check_vanilla(inpath: Path, ref: Optional[Path]) -> bool:
 
 
 def check_incorrect_example_meta(ex: Example) -> bool:
-    if METAKEY_INCORRECT not in ex.meta:
-        print("Key incorrect does not exist")
-        return False
+    for mk in [METAKEY_ORIGINAL, METAKEY_INCORRECT]:
+        if mk not in ex.meta:
+            print(f"Key {mk} does not exist in {ex.sid.id}")
+            return False
 
     k = ex.meta[METAKEY_INCORRECT]
     if k is None or isinstance(k, bool):
@@ -303,8 +310,10 @@ def check_incorrect_example(inpath: Path, ref: Optional[Path]) -> bool:
                 done_sids.add(ex.sid.id)
 
                 ok &= check_incorrect_example_meta(ex)
+                if not ok:
+                    continue
 
-                original_doc_id = ex.meta.get("original")
+                original_doc_id = ex.meta[METAKEY_ORIGINAL]
                 if original_doc_id is None:
                     continue
 
