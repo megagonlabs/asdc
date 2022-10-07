@@ -6,9 +6,8 @@ import unicodedata
 from pathlib import Path
 from typing import Dict, Optional
 
-from asdc.schema.example import Example, SimpleUtterance
+from asdc.schema.example import Example, SimpleUtterance, VanillaUtterances
 from asdc.schema.id import SID, DocID
-from asdc.schema.vanilla import VanillaUtterances
 
 
 def item2scuds(text: str):

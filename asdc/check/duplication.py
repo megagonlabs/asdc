@@ -4,9 +4,8 @@ import argparse
 from pathlib import Path
 from typing import List, Set
 
-from asdc.schema.example import Example
+from asdc.schema.example import Example, VanillaUtterances
 from asdc.schema.id import SID, DocID
-from asdc.schema.vanilla import VanillaUtterances
 
 
 def operation(path_vuttr_list: List[Path], path_ex_list: List[Path]) -> None:

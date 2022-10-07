@@ -17,9 +17,9 @@ from asdc.schema.example import (
     METAKEY_CORRECT,
     METAKEY_ORIGINAL,
     Example,
+    VanillaUtterances,
 )
 from asdc.schema.id import SID, DocID, UttrID
-from asdc.schema.vanilla import VanillaUtterances
 
 
 def check_setting(inpath: Path, ref: Optional[Path]) -> bool:
@@ -244,8 +244,6 @@ def check_vanilla(inpath: Path, ref: Optional[Path]) -> bool:
     assert inpath.is_dir()
     assert ref is None
     done_ids = set()
-
-    from asdc.schema.vanilla import VanillaUtterances
 
     ok = True
     for fname in sorted(inpath.glob("**/*.jsonl")):

@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
-
 from typing import Any, Dict, List, Literal
 
 from pydantic import BaseModel, Field, root_validator, validator
 
-from asdc.schema.id import SID
+from asdc.schema.id import SID, DocID
 
 METACHAR_SENTENCE_BOUNDARY: str = "\u2502"
 METACHAR_LINE_BREAK: str = "\u2581"
@@ -15,6 +14,13 @@ METAKEY_ORIGINAL: str = "original"
 class SimpleUtterance(BaseModel):
     name: Literal["user", "agent"]
     text: str
+
+
+class VanillaUtterances(BaseModel):
+    docid: DocID
+    purpose: Literal["test", "train", "dev"]
+    meta: Dict[str, Any]
+    utterances: List[SimpleUtterance]
 
 
 class Example(BaseModel):
