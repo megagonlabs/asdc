@@ -6,7 +6,7 @@ import unicodedata
 from pathlib import Path
 from typing import Dict, Optional
 
-from asdc.schema.example import Example, SimpleUtterance, VanillaUtterances
+from asdc.schema.example import Example, VanillaUtterance, VanillaUtterances
 from asdc.schema.id import SID, DocID
 
 
@@ -78,7 +78,7 @@ def operation(path_in: Path, path_out: Path, path_ref: Path) -> None:
             vus = docid2vus[sid.docid]
             for vu in vus.utterances[: sid.uttrid.num]:
                 assert vu.name == "user" or vu.name == "agent"
-                ctx.append(SimpleUtterance(name=vu.name, text=vu.text))
+                ctx.append(VanillaUtterance(name=vu.name, text=vu.text))
             ex = Example(
                 sid=sid,
                 sources=uttrid2sents[sid.uttrid.id],

@@ -5,7 +5,7 @@ from pathlib import Path
 from typing import DefaultDict, Iterator, List, Literal, Set
 
 from asdc.schema.dialog import Docid2Utterances, Scud, Utterances, open_scud_file_by_docid
-from asdc.schema.example import Example, SimpleUtterance
+from asdc.schema.example import Example, VanillaUtterance
 from asdc.schema.id import SID, DocID
 
 METACHAR_LINE_BREAK: str = "\u2581"
@@ -31,7 +31,7 @@ def scuds2examples(docid: DocID, scuds: List[Scud], uttrs: Utterances) -> Iterat
             continue
 
         for idx, _ in enumerate(uttr.yield_sentence()):
-            context: List[SimpleUtterance] = uttrs.get_contexts(sid=uttr.id.get_sid(0), same_uttr=False, by_uttr=True)
+            context: List[VanillaUtterance] = uttrs.get_contexts(sid=uttr.id.get_sid(0), same_uttr=False, by_uttr=True)
             sid = uttr.id.get_sid(idx)
             sources: List[str] = [s for s in uttrs.utterances[sid.uttrid.num].yield_sentence()]
 

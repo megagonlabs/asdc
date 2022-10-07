@@ -11,7 +11,7 @@ METAKEY_CORRECT: str = "correct"
 METAKEY_ORIGINAL: str = "original"
 
 
-class SimpleUtterance(BaseModel):
+class VanillaUtterance(BaseModel):
     name: Literal["user", "agent"]
     text: str
 
@@ -20,14 +20,14 @@ class VanillaUtterances(BaseModel):
     docid: DocID
     purpose: Literal["test", "train", "dev"]
     meta: Dict[str, Any]
-    utterances: List[SimpleUtterance]
+    utterances: List[VanillaUtterance]
 
 
 class Example(BaseModel):
     sid: SID
     sources: List[str] = Field(min_items=1)  # List of sentences
     targets: List[str]  # SCUDs of focused_source
-    context: List[SimpleUtterance]
+    context: List[VanillaUtterance]
     purpose: Literal["test", "train", "dev"]
     meta: Dict[str, Any]
 

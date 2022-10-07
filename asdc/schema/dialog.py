@@ -5,7 +5,7 @@ from typing import Dict, Iterator, List, NewType, Set, Tuple, Union
 
 from pydantic import BaseModel, validator
 
-from asdc.schema.example import METACHAR_LINE_BREAK, SimpleUtterance
+from asdc.schema.example import METACHAR_LINE_BREAK, VanillaUtterance
 from asdc.schema.id import SID, DocID, UttrID
 
 
@@ -255,11 +255,11 @@ class Utterances(BaseModel):
                 return sent
         raise KeyError
 
-    def get_contexts(self, sid: SID, same_uttr: bool, by_uttr: bool) -> List[SimpleUtterance]:
+    def get_contexts(self, sid: SID, same_uttr: bool, by_uttr: bool) -> List[VanillaUtterance]:
         uttr_id = sid.uttrid
         _idx = sid.sentence_num
 
-        out: List[SimpleUtterance] = []
+        out: List[VanillaUtterance] = []
         for u in self.utterances:
             name: str = "agent"
             if u.name.startswith("user"):
@@ -272,10 +272,10 @@ class Utterances(BaseModel):
                     return out
                 if by_uttr:
                     if lid == 0:
-                        out.append(SimpleUtterance(name=name, text=""))
+                        out.append(VanillaUtterance(name=name, text=""))
                     out[-1].text += sent
                 else:
-                    out.append(SimpleUtterance(name=name, text=sent))
+                    out.append(VanillaUtterance(name=name, text=sent))
         return out
 
 
