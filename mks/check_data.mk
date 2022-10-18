@@ -92,7 +92,7 @@ check_vanilla: check_vanilla_linenum \
 
 
 _check_sup_example_scud_dir:
-	python3 -m asdc.check.format -i $(DATA_SUP_SCUD_DIR) -t example --prefix asdc.sup. --ref $(DATA_ROOT_DIR)/supplemental/utterances
+	python3 -m asdc.check.format -i $(DATA_SUP_SCUD_DIR) -t example --prefix asdc.sup. --ref $(DATA_ROOT_DIR)/supplemental/utterances --all_correct
 _check_sup_example_correctness_labeled_dir:
 	python3 -m asdc.check.format -i $(DATA_SUP_CORRECTNESS_LABELED_SCUD_DIR) -t correctness_labeled_example --ref $(DATA_SUP_SCUD_DIR)
 	python3 -m asdc.check.format -i $(DATA_SUP_CORRECTNESS_LABELED_SCUD_DIR) -t example --prefix correctness_labeled.

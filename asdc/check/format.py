@@ -158,7 +158,12 @@ def check_scud_json(inpath: Path, ref: Optional[Path]) -> bool:
     return ok
 
 
-def check_example(inpath: Path, ref: Optional[Path], acceptable_sid_prefix: str) -> bool:
+def check_example(
+    inpath: Path,
+    ref: Optional[Path],
+    acceptable_sid_prefix: str,
+    all_correct: bool,
+) -> bool:
     docid2vus: Optional[Dict[DocID, VanillaUtterances]] = None
     user_uttr_ids: Optional[Set[UttrID]] = None
     if ref is not None:
@@ -184,6 +189,9 @@ def check_example(inpath: Path, ref: Optional[Path], acceptable_sid_prefix: str)
         with fname.open() as inf:
             for line in inf:
                 ex = Example.parse_raw(line)
+                if all_correct and ex.correct is not True:
+                    print(f"Should be correct: {ex.sid.id}")
+                    ok = False
                 if not ex.sid.id.startswith(acceptable_sid_prefix):
                     print(f"Unacceptable SID: {ex.sid.id}")
                     ok = False
@@ -316,10 +324,16 @@ DATA_TYPES: typing.Dict[str, Callable] = {
 }
 
 
-def check(inpath: Path, typename: str, ref: Optional[Path], acceptable_sid_prefix: Optional[str]) -> bool:
+def check(
+    inpath: Path,
+    typename: str,
+    ref: Optional[Path],
+    acceptable_sid_prefix: Optional[str],
+    all_correct: bool,
+) -> bool:
     if typename == "example":
         assert acceptable_sid_prefix is not None
-        return check_example(inpath, ref, acceptable_sid_prefix)
+        return check_example(inpath, ref, acceptable_sid_prefix, all_correct)
 
     func = DATA_TYPES.get(typename)
     if func is None:
@@ -334,12 +348,19 @@ def get_opts() -> argparse.Namespace:
     oparser.add_argument("--type", "-t", choices=list(DATA_TYPES.keys()) + ["example"], required=True)
     oparser.add_argument("--ref", type=Path)
     oparser.add_argument("--prefix")
+    oparser.add_argument("--all_correct", action="store_true")
     return oparser.parse_args()
 
 
 def main() -> None:
     opts = get_opts()
-    ok = check(opts.input, opts.type, opts.ref, opts.prefix)
+    ok = check(
+        opts.input,
+        opts.type,
+        opts.ref,
+        opts.prefix,
+        opts.all_correct,
+    )
     if not ok:
         sys.exit(1)
 
