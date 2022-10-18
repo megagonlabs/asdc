@@ -11,14 +11,7 @@ from pathlib import Path
 from typing import Callable, DefaultDict, Dict, Optional, Set, Tuple
 
 from asdc.schema.dialog import GroupType, Scud, Utterances, open_scud_file_by_docid
-from asdc.schema.example import (
-    METACHAR_LINE_BREAK,
-    METACHAR_SENTENCE_BOUNDARY,
-    METAKEY_CORRECT,
-    METAKEY_ORIGINAL,
-    Example,
-    VanillaUtterances,
-)
+from asdc.schema.example import METACHAR_LINE_BREAK, METACHAR_SENTENCE_BOUNDARY, Example, VanillaUtterances
 from asdc.schema.id import SID, DocID, UttrID
 
 
@@ -263,21 +256,6 @@ def check_vanilla(inpath: Path, ref: Optional[Path]) -> bool:
     return ok
 
 
-def check_correctness_labeled_example_meta(ex: Example) -> bool:
-    for mk in [METAKEY_ORIGINAL, METAKEY_CORRECT]:
-        if mk not in ex.meta:
-            print(f"Key {mk} does not exist in {ex.sid.id}")
-            return False
-
-    k = ex.meta[METAKEY_CORRECT]
-    if k is None or isinstance(k, bool):
-        pass
-    else:
-        print("Invalid type of value")
-        return False
-    return True
-
-
 def check_correctness_labeled_example(inpath: Path, ref: Optional[Path]) -> bool:
     assert inpath.is_dir()
     assert ref is not None
@@ -307,28 +285,23 @@ def check_correctness_labeled_example(inpath: Path, ref: Optional[Path]) -> bool
                     print(f"Duplicated SID: {ex.sid.id}")
                 done_sids.add(ex.sid.id)
 
-                ok &= check_correctness_labeled_example_meta(ex)
-                if not ok:
+                if ex.original_sid is None:
                     continue
 
-                original_doc_id = ex.meta[METAKEY_ORIGINAL]
-                if original_doc_id is None:
-                    continue
-
-                original_ex = sid2ex.get(original_doc_id)
-                if original_ex is None:
-                    print(f"Unknown original ID: {original_doc_id}, {ex}")
+                original_ex_sid = sid2ex.get(ex.original_sid.id)
+                if original_ex_sid is None:
+                    print(f"Unknown original ID: {ex.original_sid}, {ex}")
                     ok = False
                 else:
-                    if original_ex.context != ex.context:
-                        print(f"Mismatch context: {original_doc_id}", original_ex, ex)
+                    if original_ex_sid.context != ex.context:
+                        print(f"Mismatch context: {ex.original_sid}", original_ex_sid, ex)
                         ok = False
-                    if original_ex.sources != ex.sources:
-                        print(f"Mismatch sources: {original_doc_id}", original_ex.sources, ex.sources)
-                        #                         print(f"Mismatch sources: {original_doc_id}", original_ex, ex)
+                    if original_ex_sid.sources != ex.sources:
+                        print(f"Mismatch sources: {ex.original_sid}", original_ex_sid.sources, ex.sources)
+                        #                         print(f"Mismatch sources: {ex.original_sid}", original_ex_sid, ex)
                         ok = False
-                    if original_ex.targets == ex.targets:
-                        print(f"Same targets: {original_doc_id}", original_ex, ex)
+                    if original_ex_sid.targets == ex.targets:
+                        print(f"Same targets: {ex.original_sid}", original_ex_sid, ex)
                         ok = False
     return ok
 

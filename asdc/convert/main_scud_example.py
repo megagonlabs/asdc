@@ -45,6 +45,7 @@ def scuds2examples(docid: DocID, scuds: List[Scud], uttrs: Utterances) -> Iterat
                     context=context,
                     purpose=_get_purpose(uttrs.meta.purpose),
                     meta={},
+                    correct=True,
                 )
                 continue
 
@@ -71,6 +72,7 @@ def scuds2examples(docid: DocID, scuds: List[Scud], uttrs: Utterances) -> Iterat
                 context=context,
                 purpose=_get_purpose(uttrs.meta.purpose),
                 meta={},
+                correct=True,
             )
 
 

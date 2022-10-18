@@ -7,8 +7,6 @@ from asdc.schema.id import SID, DocID
 
 METACHAR_SENTENCE_BOUNDARY: str = "\u2502"
 METACHAR_LINE_BREAK: str = "\u2581"
-METAKEY_CORRECT: str = "correct"
-METAKEY_ORIGINAL: str = "original"
 
 
 class VanillaUtterance(BaseModel):
@@ -30,6 +28,10 @@ class Example(BaseModel):
     context: List[VanillaUtterance]
     purpose: Literal["test", "train", "dev"]
     meta: Dict[str, Any]
+
+    correct: Optional[bool]
+    example_type: Optional[str] = None
+    original_sid: Optional[SID] = None
 
     @property
     def focused_source(self) -> str:
