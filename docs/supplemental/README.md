@@ -90,7 +90,7 @@ Utterances made by crowd workers that are likely to generate multiple SCUDs.
 
 - ``basic.Example.jsonl``: 76 examples
     - Basic test suite
-- ``hotel.Example.jsonl``: 199 examples
+- ``hotel.Example.jsonl``: 8,500 examples
     - This file contains pairs of a question about hotels and its answer.
 
 | Question | Answer |
