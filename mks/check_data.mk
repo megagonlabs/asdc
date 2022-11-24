@@ -2,6 +2,7 @@
 check_data: check_setting check_text check_scud_main_json\
 	check_scud_main check_scud_main_convert \
 	check_scud_main_jsonl_conversion \
+	check_scud_main_example \
 	check_sup_example \
 	check_vanilla
 
@@ -40,6 +41,10 @@ check_scud_main_jsonl_conversion:
 	&& diff -r $(DATA_MAIN_SCUD_JSONL_DIR) "$${MYTMPDIR}" ;\
 	rm -rf "$${MYTMPDIR}"
 	
+check_scud_main_example:
+	python3 -m asdc.convert.main_scud_example \
+		-i $(DATA_MAIN_SCUD_JSONL_DIR) --ref $(DATA_MAIN_JSON_DIR) | diff - $(DATA_MAIN_SCUD_EXAMPLE)
+
 check_vanilla_linenum:
 	python3 -m asdc.check.linenum \
 	  -i ./docs/vanilla/README.md \

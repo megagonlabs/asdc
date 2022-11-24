@@ -1,10 +1,10 @@
 
 # 学習用データの作成
 
-## Text2Text用データ
+## Text2Text用データ: ``data/main/main.Example.jsonl``
 
 ```bash
-poetry run make -f ./mks/generate_example.mk all OUTPUT=./generated_examples_dir
+poetry run python3 -m asdc.convert.main_scud_example -i data/main/scud --ref data/main/dialog/json -o data/main/main.Example.jsonl
 ```
 
 - ``all.jsonl``: SCUDをまとめたファイル

@@ -14,3 +14,9 @@ We proposed it in the LREC 2022 paper.
         - ``Utterances``クラスの``meta.conditions``の要件と対応づいている
         - その要件が最も関係のある場合，``★`` (U+2605) を要件の先頭に付与
         - 要件として列挙されるべきだがされていない場合，``@`` (U+0040) を記入している
+
+## ``data/main/main.Example.jsonl``
+
+- ``asdc.convert.main_scud_example``を使って``data/main/scud``から変換したもの
+- SCUD自動生成の学習に用いる
+- スキーマは``asdc.schemaexample.Example``
