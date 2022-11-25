@@ -36,7 +36,7 @@
 {"docid": {"id": "asdc.sup.2turn.057"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "物音が気になると眠れないので静かな部屋を用意できますか?"}]}
 {"docid": {"id": "asdc.sup.2turn.058"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "門限無しで"}]}
 {"docid": {"id": "asdc.sup.2turn.059"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "夜10時過ぎるんですが、大丈夫ですか?"}]}
-{"docid": {"id": "asdc.sup.2turn.060"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "料金を抑えたいからGo To トラベルが使える所で探してるんですけど"}]}
+{"docid": {"id": "asdc.sup.2turn.060"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿に対する要望は何かございますでしょうか?"}, {"name": "user", "text": "料金を抑えたいからGo Toトラベルが使える所で探してるんですけど"}]}
 {"docid": {"id": "asdc.sup.2turn.061"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "TDL近くのホテルを探しています"}]}
 {"docid": {"id": "asdc.sup.2turn.064"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "熊本なんですが、地震の影響は大丈夫ですか?"}]}
 {"docid": {"id": "asdc.sup.2turn.065"}, "meta": {}, "purpose": "test", "utterances": [{"name": "agent", "text": "宿のエリアを教えて下さい。"}, {"name": "user", "text": "山の中腹に山小屋があるでしょう。そこは予約できませんか?"}]}
