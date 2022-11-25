@@ -33,7 +33,7 @@ The original id is stored in ``meta.data["original_doc_id"]``.
 
 Dialogs about YES/NO question made by crowd workers.
 
-- ``yn_multi.Example.jsonl``: 9,780 examples
+- ``yn_multi.Example.jsonl``: 9,779 examples
     - ``meta.instruction`` is a answer type among multiple options ``YES``, ``NYNN`` or ``NO``.
     - ``NYNN`` is answer that is neither yes nor no.
     - Some conversations consist of four turns
