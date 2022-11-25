@@ -7174,7 +7174,6 @@
 {"docid": {"id": "asdc.sup.yn_multi.32448_06562"}, "meta": {"instruction": "YES"}, "purpose": "dev", "utterances": [{"name": "agent", "text": "部屋は和室をご希望ですか"}, {"name": "user", "text": "はい、掘りごたつなどがあると嬉しいです"}]}
 {"docid": {"id": "asdc.sup.yn_multi.32448_06563"}, "meta": {"instruction": "YES"}, "purpose": "train", "utterances": [{"name": "agent", "text": "部屋は和室をご希望ですか"}, {"name": "user", "text": "はい、畳と敷布団でお願いします"}]}
 {"docid": {"id": "asdc.sup.yn_multi.32448_06564"}, "meta": {"instruction": "YES"}, "purpose": "train", "utterances": [{"name": "agent", "text": "部屋は和室をご希望ですか"}, {"name": "user", "text": "はい、大人数で泊まれる広間がいいです"}]}
-{"docid": {"id": "asdc.sup.yn_multi.32449_02395"}, "meta": {"instruction": "NO"}, "purpose": "train", "utterances": [{"name": "agent", "text": "部屋は和洋室どちらになりますか"}, {"name": "user", "text": "和洋室どちらもあります"}]}
 {"docid": {"id": "asdc.sup.yn_multi.32450_02396"}, "meta": {"instruction": "NO"}, "purpose": "train", "utterances": [{"name": "agent", "text": "部屋は山側になりますがよろしいですか?"}, {"name": "user", "text": "いいえ、海側がいいので空いてるなら変更お願いします。"}]}
 {"docid": {"id": "asdc.sup.yn_multi.32450_02397"}, "meta": {"instruction": "YES"}, "purpose": "train", "utterances": [{"name": "agent", "text": "部屋は山側になりますがよろしいですか?"}, {"name": "user", "text": "はい、安いなら山側でもいいです。"}]}
 {"docid": {"id": "asdc.sup.yn_multi.32450_02398"}, "meta": {"instruction": "YES"}, "purpose": "train", "utterances": [{"name": "agent", "text": "部屋は山側になりますがよろしいですか?"}, {"name": "user", "text": "はい、特に指定はありません。"}]}
