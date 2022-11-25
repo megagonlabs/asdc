@@ -187,7 +187,7 @@ def check_example(
     ok = True
     for fname in sorted(inpath.glob("**/*.jsonl")):
         with fname.open() as inf:
-            for line in inf:
+            for lid, line in enumerate(inf):
                 ex = Example.parse_raw(line)
                 if all_correct and ex.correct is not True:
                     print(f"Should be correct: {ex.sid.id}")
@@ -239,8 +239,14 @@ def check_example(
                         ok = False
 
                 for target in ex.targets:
-                    if target != target.strip() or "?。" in target or "。?" in target or not target.endswith("。"):
-                        print(f"Invalid target: {target}")
+                    if (
+                        target != target.strip()
+                        or "?。" in target
+                        or "。?" in target
+                        or not target.endswith("。")
+                        or target.count("。") > 1
+                    ):
+                        print(f"Invalid target: {target} ({fname}:{lid+1})")
                         ok = False
 
     return ok
