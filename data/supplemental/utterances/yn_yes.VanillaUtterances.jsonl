@@ -2031,7 +2031,7 @@
 {"docid": {"id": "asdc.sup.yn_yes.32842"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "agent", "text": "駐車場は24時間必要ですか?"}, {"name": "user", "text": "はい"}]}
 {"docid": {"id": "asdc.sup.yn_yes.32843"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "駐車場は2台必要ですか?"}, {"name": "user", "text": "はい"}]}
 {"docid": {"id": "asdc.sup.yn_yes.32844"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "駐車場は3台停められますがよろしいですか。"}, {"name": "user", "text": "はい"}]}
-{"docid": {"id": "asdc.sup.yn_yes.32846"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "駐車場は、屋根があってもなくても有料ですがよろしいですか?。"}, {"name": "user", "text": "はい"}]}
+{"docid": {"id": "asdc.sup.yn_yes.32846"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "駐車場は、屋根があってもなくても有料ですがよろしいですか?"}, {"name": "user", "text": "はい"}]}
 {"docid": {"id": "asdc.sup.yn_yes.32847"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "駐車場は、屋根無しの路面駐車でよろしいでしょうか。"}, {"name": "user", "text": "はい"}]}
 {"docid": {"id": "asdc.sup.yn_yes.32845"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "駐車場は、少し狭いのですが大丈夫ですか?"}, {"name": "user", "text": "はい"}]}
 {"docid": {"id": "asdc.sup.yn_yes.32848"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "駐車場はあったほうが良いですか?"}, {"name": "user", "text": "はい"}]}

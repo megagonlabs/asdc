@@ -5701,7 +5701,7 @@
 {"docid": {"id": "asdc.sup.topic.L1.1turn.06550"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "user", "text": "子供用の寝具はどうなりますか"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.06551"}, "meta": {}, "purpose": "test", "utterances": [{"name": "user", "text": "子供用の寝具をお願いします"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.06552"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用の寝巻きはありますか?"}]}
-{"docid": {"id": "asdc.sup.topic.L1.1turn.06553"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用の寝巻きはありますか?。5歳と3歳です"}]}
+{"docid": {"id": "asdc.sup.topic.L1.1turn.06553"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用の寝巻きはありますか?5歳と3歳です"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.06554"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用の寝間着が欲しい"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.06555"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用の寝間着はありますか?"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.06556"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用の寝間着をお願いします"}]}
