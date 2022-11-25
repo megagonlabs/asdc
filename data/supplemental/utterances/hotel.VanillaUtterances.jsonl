@@ -5250,7 +5250,7 @@
 {"docid": {"id": "asdc.sup.hotel.19.00140"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "agent", "text": "あなたが、海沿いで泊まるとしたらどのようなホテルに泊まりたいですか?"}, {"name": "user", "text": "海が見える部屋に泊まれるホテル"}]}
 {"docid": {"id": "asdc.sup.hotel.19.00141"}, "meta": {}, "purpose": "test", "utterances": [{"name": "agent", "text": "あなたが、海沿いで泊まるとしたらどのようなホテルに泊まりたいですか?"}, {"name": "user", "text": "海が見渡せるホテル"}]}
 {"docid": {"id": "asdc.sup.hotel.19.00142"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "あなたが、海沿いで泊まるとしたらどのようなホテルに泊まりたいですか?"}, {"name": "user", "text": "海が部屋の窓から一望できるホテル"}]}
-{"docid": {"id": "asdc.sup.hotel.19.00143"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "あなたが、海沿いで泊まるとしたらどのようなホテルに泊まりたいですか?"}, {"name": "user", "text": "海が間近に 見学 できるホテル"}]}
+{"docid": {"id": "asdc.sup.hotel.19.00143"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "あなたが、海沿いで泊まるとしたらどのようなホテルに泊まりたいですか?"}, {"name": "user", "text": "海が間近に見学できるホテル"}]}
 {"docid": {"id": "asdc.sup.hotel.19.00144"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "あなたが、海沿いで泊まるとしたらどのようなホテルに泊まりたいですか?"}, {"name": "user", "text": "海に幸がおいしいホテル"}]}
 {"docid": {"id": "asdc.sup.hotel.19.00145"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "あなたが、海沿いで泊まるとしたらどのようなホテルに泊まりたいですか?"}, {"name": "user", "text": "海に沈む夕日が見えるホテル"}]}
 {"docid": {"id": "asdc.sup.hotel.19.00146"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "あなたが、海沿いで泊まるとしたらどのようなホテルに泊まりたいですか?"}, {"name": "user", "text": "海に近いホテル"}]}
