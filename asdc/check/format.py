@@ -238,6 +238,11 @@ def check_example(
                         print(f"Invalid text of context ({ex.sid})")
                         ok = False
 
+                for target in ex.targets:
+                    if target != target.strip() or "?。" in target or "。?" in target or not target.endswith("。"):
+                        print(f"Invalid target: {target}")
+                        ok = False
+
     return ok
 
 
