@@ -7,7 +7,6 @@ from asdc.schema.example import Example
 
 
 def operation(path_in: Path, path_out: Path) -> None:
-    #     out = []
     with path_in.open() as inf, path_out.open("w") as outf:
         for line in inf:
             ex = Example.parse_raw(line)
@@ -16,21 +15,6 @@ def operation(path_in: Path, path_out: Path) -> None:
 
             for t in targets:
                 outf.write(f"{ex.sid.id}\t{p}\t{t}\n")
-
-
-#             ot = []
-
-#             for t in targets:
-#                 if not t.endswith("。"):
-#                     t = t.strip() + "。"
-#                 ot.append(t.replace("?。", "。"))
-#             ex.targets = ot
-#             out.append(ex.json(sort_keys=True, ensure_ascii=False))
-
-#     with path_in.open("w") as outf:
-#         for o in out:
-#             outf.write(o)
-#             outf.write("\n")
 
 
 def get_opts() -> argparse.Namespace:
