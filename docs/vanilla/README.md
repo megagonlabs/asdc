@@ -52,16 +52,6 @@ The candidate hotels are named with alphabets like ``Aホテル``, ``B旅館``, 
 - ``meta.data["finalize"]``: Whether the customer finally selects one candidate or not.
 - ``meta.data["single_candidates"]``: Whether the operator suggests only single accommodation.
 
-## ``situation.short.VanillaUtterances.jsonl``: 1,634 dialogs
-
-This file contains dialogs created by rewriting dialogs in ``situation.normal.VanillaUtterances.jsonl``.
-Crowd workers were asked to rewrite the client's utterances so that they were in multiple shorter sentences.
-The original id is stored in ``meta.data["original_doc_id"]``.
-
-| Situation | Customer | Operator | Customer | Operator |
-| --- | --- | --- | --- | --- |
-| 出張 | 今度新幹線を使うんです<br>なので駅から近い宿を探して欲しいです |ご旅行ですか? | いや、出張なんです<br>翌朝また移動します<br>だから新幹線の駅近くの宿がいいのですが | 承知致しました<br>新幹線の駅付近でお探し致します|
-
 ## ``topic.*.1turn.VanillaUtterance.VanillaUtterances.jsonl``
 
 These files contain customers' queries and dialogs about topics.

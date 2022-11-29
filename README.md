@@ -36,20 +36,20 @@ The number of SCUDs is about 3,500.
 | User | はい、観光地をまわりやすい場所にあるといいですね。| ホテルが観光地をまわりやすい場所にあると良い。 | はい ||
 | | ただ1番の目的は出雲大社なので、そこまでアクセスがよければ助かります。|【customer】の1番の目的が出雲大社だ。<br>出雲大社までアクセスが良いホテルだと良い。|要求|出雲大社=>立地<br>アクセスがよければ=>立地|
 
-## Supplemental SCUD part: [``data/supplemental/scud``](data/supplemental/scud): 49,160 examples
+## Supplemental SCUD part: [``data/supplemental/scud``](data/supplemental/scud): 57,055 examples
 
 Files in ``data/supplemental/scud`` are Supplemental fictitious dialogs with SCUD annotations.
 Please read [the documents](docs/supplemental/README.md) for more details.
 
 - Most dialogs consist of a single pair of an agent utterance and a user utterance.
-- Dialogs are stored in files in [``data/supplemental/utterances``](data/supplemental/utterances) : 49,390 dialogs
+- Dialogs are stored in files in [``data/supplemental/utterances``](data/supplemental/utterances) : 50,999 dialogs
 
 ## Supplemental correctness-labeled SCUD part: [``data/supplemental/correctness_labeled_scud``](data/supplemental/correctness_labeled_scud): 3,467 examples
 
 Files in ``data/supplemental/correctness_labeled_scud`` are Supplemental fictitious dialogs with SCUD and its correctness annotations.
 If ``meta['correct']`` of an example is ``false``, the example has incorrect SCUDs.
 
-## Vanilla part: [``data/vanilla``](data/vanilla): 73,397 dialogs
+## Vanilla part: [``data/vanilla``](data/vanilla): 71,763 dialogs
 
 Files in ``data/vanilla`` are fictitious dialogs or queries made by crowd workers with no SCUD annotations.
 Please read [the documents](docs/vanilla/README.md) for more details.
