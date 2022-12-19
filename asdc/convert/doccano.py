@@ -146,7 +146,7 @@ def get_temporary_groups(src: str, scud: str, sid: SID) -> List[SpanGroup]:
     s = difflib.SequenceMatcher(None, src, scud_no_lastdot)
     groups: List[SpanGroup] = []
 
-    for (op, a_0, a_1, b_0, b_1) in s.get_opcodes():
+    for op, a_0, a_1, b_0, b_1 in s.get_opcodes():
         if op == "replace":
             continue
         elif op == "insert":
@@ -263,7 +263,6 @@ def _open_doccano(rfname: Path) -> Sid2Annotations:
 
 
 def update_json(sid2scuds: Sid2Scuds, sid2annotations: Sid2Annotations) -> Iterator[str]:
-
     for sid, scuds in sorted(sid2scuds.items()):
         annotations = sorted(sid2annotations[sid])
         scuds = sorted(scuds)

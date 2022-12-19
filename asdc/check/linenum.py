@@ -19,7 +19,6 @@ def operation(
     tail_list: List[str],
     do_dir: bool,
 ) -> None:
-
     to_be_checked = []
     target_files = set([v.name for v in path_root.glob("*.jsonl")])
     with path_in.open() as inf:
