@@ -7599,7 +7599,7 @@
 {"docid": {"id": "asdc.sup.topic.L3.1turn.07639"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "ディナーは多めに頂けるバイキングでお願いします。"}]}
 {"docid": {"id": "asdc.sup.topic.L3.1turn.07640"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "user", "text": "バイキングで、多めにとっても大丈夫なお店にしてください。"}]}
 {"docid": {"id": "asdc.sup.topic.L3.1turn.07641"}, "meta": {}, "purpose": "test", "utterances": [{"name": "user", "text": "バリエーションが豊富で量が多めの食事に特徴のある宿とかありませんか?"}]}
-{"docid": {"id": "asdc.sup.topic.L3.1turn.07642"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "パンがが好きなので種類多めでお皿に盛ってください。"}]}
+{"docid": {"id": "asdc.sup.topic.L3.1turn.07642"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "パンが好きなので種類多めでお皿に盛ってください。"}]}
 {"docid": {"id": "asdc.sup.topic.L3.1turn.07643"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "メンバーの要望として食べ放題、飲み放題は必須とのことでしたので、それで探してください。"}]}
 {"docid": {"id": "asdc.sup.topic.L3.1turn.07644"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "主人がすぐにお腹か空いて目覚めてしまうので量を多めにしてください"}]}
 {"docid": {"id": "asdc.sup.topic.L3.1turn.07645"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "主人が身体に気を使っていて、サラダだけ量多めにして頂ける所、ありますか。"}]}

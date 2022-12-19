@@ -6138,7 +6138,7 @@
 {"docid": {"id": "asdc.sup.topic.L2.food.1turn.06190"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "user", "text": "子供がお誕生日なのですが、何かプレゼントは有りますか?"}, {"name": "agent", "text": "test"}]}
 {"docid": {"id": "asdc.sup.topic.L2.food.1turn.06191"}, "meta": {}, "purpose": "test", "utterances": [{"name": "user", "text": "子供がお風呂がすきなので部屋に露天風呂のある子供への配慮がしっかりした宿がいいです。"}, {"name": "agent", "text": "dev"}]}
 {"docid": {"id": "asdc.sup.topic.L2.food.1turn.06192"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供がかたい食べ物が苦手で、食事は全体的に柔らかい物だとありがたいです"}, {"name": "agent", "text": "train"}]}
-{"docid": {"id": "asdc.sup.topic.L2.food.1turn.06193"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供がが病気がちです。近くに夜間でも対応可能な病気はありますか"}, {"name": "agent", "text": "train"}]}
+{"docid": {"id": "asdc.sup.topic.L2.food.1turn.06193"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供が病気がちです。近くに夜間でも対応可能な病気はありますか"}, {"name": "agent", "text": "train"}]}
 {"docid": {"id": "asdc.sup.topic.L2.food.1turn.06194"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供がじっとして食事をする事のできない年齢なので部屋食を取れる宿はありますか?"}, {"name": "agent", "text": "train"}]}
 {"docid": {"id": "asdc.sup.topic.L2.food.1turn.06195"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供がその日の気分で食べたいものが変わるので、直前にメニュー変更しても問題ない宿はありますか?"}, {"name": "agent", "text": "train"}]}
 {"docid": {"id": "asdc.sup.topic.L2.food.1turn.06196"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供がそばアレルギーなんで、子供だけそばなしでお願いします。"}, {"name": "agent", "text": "train"}]}
@@ -9551,7 +9551,7 @@
 {"docid": {"id": "asdc.sup.topic.L2.food.1turn.09636"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "魚の調理法は焼いてください。"}, {"name": "agent", "text": "train"}]}
 {"docid": {"id": "asdc.sup.topic.L2.food.1turn.09637"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "魚は刺身で食べたいです。"}, {"name": "agent", "text": "train"}]}
 {"docid": {"id": "asdc.sup.topic.L2.food.1turn.09638"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "魚は天ぷらにして食べたいです。"}, {"name": "agent", "text": "train"}]}
-{"docid": {"id": "asdc.sup.topic.L2.food.1turn.09639"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "魚は生よりも焼いた方がが好きなので、焼き魚がおいしい宿に泊まりたい。"}, {"name": "agent", "text": "train"}]}
+{"docid": {"id": "asdc.sup.topic.L2.food.1turn.09639"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "魚は生よりも焼いた方が好きなので、焼き魚がおいしい宿に泊まりたい。"}, {"name": "agent", "text": "train"}]}
 {"docid": {"id": "asdc.sup.topic.L2.food.1turn.09640"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "user", "text": "魚や肉は、生ものが苦手なので、火を通してください。"}, {"name": "agent", "text": "test"}]}
 {"docid": {"id": "asdc.sup.topic.L2.food.1turn.09641"}, "meta": {}, "purpose": "test", "utterances": [{"name": "user", "text": "魚を様々な料理方を選ぶプランのあるところにして下さい。"}, {"name": "agent", "text": "dev"}]}
 {"docid": {"id": "asdc.sup.topic.L2.food.1turn.09642"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "魚を目の前で捌いて調理してくれるところが良いです"}, {"name": "agent", "text": "train"}]}
@@ -10037,7 +10037,7 @@
 {"docid": {"id": "asdc.sup.topic.L2.food.1turn.10129"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供がいるので、たくさん食べられるところがいいんですけど。"}, {"name": "agent", "text": "train"}]}
 {"docid": {"id": "asdc.sup.topic.L2.food.1turn.10130"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "user", "text": "子供がいるので味よりも量が食べられるところが希望です。"}, {"name": "agent", "text": "test"}]}
 {"docid": {"id": "asdc.sup.topic.L2.food.1turn.10131"}, "meta": {}, "purpose": "test", "utterances": [{"name": "user", "text": "子供がいるので食事は少なめで良いです。食事付きの宿を探してください"}, {"name": "agent", "text": "dev"}]}
-{"docid": {"id": "asdc.sup.topic.L2.food.1turn.10132"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供がが食べ盛りで食事は大人用とかできますか?"}, {"name": "agent", "text": "train"}]}
+{"docid": {"id": "asdc.sup.topic.L2.food.1turn.10132"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供が食べ盛りで食事は大人用とかできますか?"}, {"name": "agent", "text": "train"}]}
 {"docid": {"id": "asdc.sup.topic.L2.food.1turn.10133"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供がまだ離乳食なのでなにか柔らかいものを少量でお願いできたら"}, {"name": "agent", "text": "train"}]}
 {"docid": {"id": "asdc.sup.topic.L2.food.1turn.10134"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供が二人含まれていますので、大人よりも食事の量を減らしてもらえると助かります。"}, {"name": "agent", "text": "train"}]}
 {"docid": {"id": "asdc.sup.topic.L2.food.1turn.10135"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供が人一倍食べるので、大盛りに変更できる宿でお願いしたいです。"}, {"name": "agent", "text": "train"}]}

@@ -5306,7 +5306,7 @@
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.07010"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "user", "text": "部屋から夜景が見えると嬉しいです。"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.07011"}, "meta": {}, "purpose": "test", "utterances": [{"name": "user", "text": "部屋から夜景が見える高層ホテルでお勧めはありますか。"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.07012"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "部屋から夜景が見たいので、窓をきれいにしておいてください"}]}
-{"docid": {"id": "asdc.sup.topic.L2.misc.1turn.07013"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "部屋から夜景の景色がが見える高層ホテルが希望です。"}]}
+{"docid": {"id": "asdc.sup.topic.L2.misc.1turn.07013"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "部屋から夜景の景色が見える高層ホテルが希望です。"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.07014"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "部屋から大浴場に直ぐ行けると嬉しいです。"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.07015"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "部屋から大都会の景色を一望できるホテルはありますか?"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.07016"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "部屋から太平洋を一望できる宿がいいですね。"}]}
@@ -7700,7 +7700,7 @@
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.09474"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "こちらの立地にある宿は、周辺設備の中にコンビニはありますでしょうか?"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.09475"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "このコンビニでしか売っていないので、近くに無いと困ります。"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.09476"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "この立地だと周辺施設にはコンビニがありますか?"}]}
-{"docid": {"id": "asdc.sup.topic.L2.misc.1turn.09477"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "しばらく(2週間)滞在出来るお宿を探しています。小包の受け取りなども出来ると有難いので、この2点がが可能なお宿を探してもらえますか。"}]}
+{"docid": {"id": "asdc.sup.topic.L2.misc.1turn.09477"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "しばらく(2週間)滞在出来るお宿を探しています。小包の受け取りなども出来ると有難いので、この2点が可能なお宿を探してもらえますか。"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.09478"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "すぐ近くにコンビニみたいなお店があるというのが必須条件です。"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.09479"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "せっかく地方に行くので、その地方のローカルコンビニが近隣にあると嬉しいです。"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.09480"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "user", "text": "その宿の近所にあるコンビニでは下着等売ってないかご存じないでしょうか?"}]}
