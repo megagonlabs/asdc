@@ -3304,7 +3304,7 @@
 {"docid": {"id": "asdc.sup.topic.L3.1turn.03321"}, "meta": {}, "purpose": "test", "utterances": [{"name": "user", "text": "パソコンをつかうので部屋にテーブルはあるか"}]}
 {"docid": {"id": "asdc.sup.topic.L3.1turn.03322"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "ランチのテーブル席は予約制ですか?"}]}
 {"docid": {"id": "asdc.sup.topic.L3.1turn.03323"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "ランチは野外にしつらえたテーブルで2名で予約をお願いします。"}]}
-{"docid": {"id": "asdc.sup.topic.L3.1turn.03324"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "レストランには、いくつくらいのテーブル席はがありますか?"}]}
+{"docid": {"id": "asdc.sup.topic.L3.1turn.03324"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "レストランには、いくつくらいのテーブル席はありますか?"}]}
 {"docid": {"id": "asdc.sup.topic.L3.1turn.03325"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "一つのテーブルで6人座れるくらいの所がいいです。"}]}
 {"docid": {"id": "asdc.sup.topic.L3.1turn.03326"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "一つ一つ離れているテーブルで食事ができる宿で食事がしたいです。"}]}
 {"docid": {"id": "asdc.sup.topic.L3.1turn.03327"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "両親が高齢なので、座敷よりテーブルで食事をとれる場所を探してます"}]}

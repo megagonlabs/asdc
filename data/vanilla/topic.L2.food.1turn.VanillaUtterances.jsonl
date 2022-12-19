@@ -3647,7 +3647,7 @@
 {"docid": {"id": "asdc.sup.topic.L2.food.1turn.03670"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "user", "text": "神戸牛のフルコースのお値段はいくらでしょうか?"}, {"name": "agent", "text": "test"}]}
 {"docid": {"id": "asdc.sup.topic.L2.food.1turn.03671"}, "meta": {}, "purpose": "test", "utterances": [{"name": "user", "text": "私は沖縄料理が好きなので、アグー豚が楽しめるお店がいいですね。"}, {"name": "agent", "text": "dev"}]}
 {"docid": {"id": "asdc.sup.topic.L2.food.1turn.03672"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "私は沖縄料理が好きなので、ゴーヤを使った料理をたくさん食べることができふ宿がいいですね。"}, {"name": "agent", "text": "train"}]}
-{"docid": {"id": "asdc.sup.topic.L2.food.1turn.03673"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "私は沖縄料理が食べたいので、ソーキそばなどをいただける宿はがあるといいですね。"}, {"name": "agent", "text": "train"}]}
+{"docid": {"id": "asdc.sup.topic.L2.food.1turn.03673"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "私は沖縄料理が食べたいので、ソーキそばなどをいただける宿があるといいですね。"}, {"name": "agent", "text": "train"}]}
 {"docid": {"id": "asdc.sup.topic.L2.food.1turn.03674"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "私は茶碗蒸しが大好きで、夕食に追加して貰えますか?"}, {"name": "agent", "text": "train"}]}
 {"docid": {"id": "asdc.sup.topic.L2.food.1turn.03675"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "私は茶碗蒸しが大好物なので、茶碗蒸しにこだわりのある宿がいいですね。"}, {"name": "agent", "text": "train"}]}
 {"docid": {"id": "asdc.sup.topic.L2.food.1turn.03676"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "秋なのでフルーツの盛り合わせが食べたいです。"}, {"name": "agent", "text": "train"}]}
