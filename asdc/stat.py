@@ -7,6 +7,7 @@ from pathlib import Path
 from typing import Optional, Set
 
 from asdc.schema.dialog import GroupType, Scud, Utterances
+from asdc.schema.example import Example
 from asdc.schema.id import SID
 
 
@@ -80,6 +81,30 @@ def get_internal_sentence_distance(scud: Scud) -> Optional[int]:
     return max_distance_sentence
 
 
+def stat_example(path_in_dir_or_file: Path):
+    docids = set()
+    uttrids = set()
+    sids = set()
+
+    if path_in_dir_or_file.is_dir():
+        path_list = [path_in for path_in in path_in_dir_or_file.iterdir()]
+    else:
+        path_list = [path_in_dir_or_file]
+
+    for path_in in path_list:
+        with path_in.open() as inf:
+            for line in inf:
+                ex = Example.parse_raw(line)
+                assert ex.sid not in sids
+
+                docids.add(ex.sid.docid)
+                uttrids.add(ex.sid.uttrid)
+                sids.add(ex.sid)
+    print(f"# of Doc: {len(docids):,}")
+    print(f"# of Uttr: {len(uttrids):,}")
+    print(f"# of sentences: {len(sids):,}")
+
+
 def stat_scud(path_in: Path):
     num_query_match = DataStore("ScudMatch")
     num_query_non_match = DataStore("ScudNonMatch")
@@ -137,6 +162,7 @@ def get_opts() -> argparse.Namespace:
     oparser = argparse.ArgumentParser()
     oparser.add_argument("--input", "-i", type=Path, required=True)
     oparser.add_argument("--scud", action="store_true")
+    oparser.add_argument("--example", action="store_true")
     return oparser.parse_args()
 
 
@@ -144,6 +170,8 @@ def main() -> None:
     opts = get_opts()
     if opts.scud:
         stat_scud(opts.input)
+    elif opts.example:
+        stat_example(opts.input)
     else:
         stat_dialogs(opts.input)
 
