@@ -319,8 +319,8 @@ def check_correctness_labeled_example(inpath: Path, ref: Optional[Path]) -> bool
                         print(f"Mismatch sources: {ex.original_sid}", original_ex_sid.sources, ex.sources)
                         #                         print(f"Mismatch sources: {ex.original_sid}", original_ex_sid, ex)
                         ok = False
-                    if original_ex_sid.targets == ex.targets:
-                        print(f"Same targets: {ex.original_sid}", original_ex_sid, ex)
+                    if (original_ex_sid.sources == ex.sources) and (original_ex_sid.targets == ex.targets):
+                        print(f"Same sources and same targets: {ex.original_sid}", original_ex_sid, ex)
                         ok = False
     return ok
 
