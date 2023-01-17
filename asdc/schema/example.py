@@ -30,7 +30,7 @@ class Example(BaseModel):
     meta: Dict[str, Any]
 
     correct: Optional[bool]
-    example_type: Optional[str] = None
+    example_types: Optional[List[str]] = None
     original_sid: Optional[SID] = None
 
     @property
