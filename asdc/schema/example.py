@@ -30,8 +30,8 @@ class Example(BaseModel):
     meta: Dict[str, Any]
 
     correct: Optional[bool]
-    example_types: Optional[List[str]] = None
-    original_sid: Optional[SID] = None
+    example_types: Optional[List[str]]
+    original_sid: Optional[SID]
 
     @property
     def focused_source(self) -> str:

@@ -87,6 +87,8 @@ def operation(path_in: Path, path_out: Path, path_ref: Path) -> None:
                 purpose=vus.purpose,
                 meta={},
                 correct=True,
+                example_types=None,
+                original_sid=None,
             )
             if len(memo) > 0:
                 ex.meta["memo"] = memo
