@@ -21,6 +21,15 @@ class VanillaUtterances(BaseModel):
     utterances: List[VanillaUtterance]
 
 
+INCORRECT_TYPES = Literal[
+    "lack",
+    "limited",
+    "untruth",
+    "non_fluent",
+    "incorrect_none",
+]
+
+
 class Example(BaseModel):
     sid: SID
     sources: List[str] = Field(min_items=1)  # List of sentences
@@ -30,7 +39,7 @@ class Example(BaseModel):
     meta: Dict[str, Any]
 
     correct: Optional[bool]
-    example_types: Optional[List[str]]
+    example_types: Optional[List[INCORRECT_TYPES]]
     original_sid: Optional[SID]
 
     @property
