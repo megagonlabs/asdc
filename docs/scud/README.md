@@ -15,7 +15,7 @@ They are in two formats.
 
 ## ``data/main/scud``
 
-- Schema: The class ``Scud`` in [``asdc.schema.dialog``](../../asdc/schema/dialog.py)
+- Schema: [``asdc.schema.dialog.Scud``](../../asdc/schema/dialog.py)
     - ``groups``: SCUDと発話の対応関係 ([NLP 2021の論文](https://www.anlp.jp/proceedings/annual_meeting/2021/pdf_dir/P2-5.pdf) 3.2節を参照)
     - ``queries``: SCUDと対応する「対話の最後にオペレータが挙げる要件」 ([NLP 2021の論文](https://www.anlp.jp/proceedings/annual_meeting/2021/pdf_dir/P2-5.pdf) 3.3節を参照)
         - ``Utterances``クラスの``meta.conditions``の要件と対応づいている
