@@ -277,8 +277,8 @@ def check_vanilla(inpath: Path, ref: Optional[Path]) -> bool:
 
                 text: str = "".join([u.text for u in vus.utterances])
                 text = unicodedata.normalize("NFKC", text).replace(" ", "")
-                if (alread_id := read_text.get(text)) is not None:
-                    print(f"Duplicated vanilla text: {vus.docid.id}, {alread_id.id}")
+                if (old_id := read_text.get(text)) is not None:
+                    print(f"Duplicated vanilla text: {vus.docid.id}, {old_id.id}")
                     ok = False
                 else:
                     read_text[text] = vus.docid
