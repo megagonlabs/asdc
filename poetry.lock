@@ -235,8 +235,8 @@ setuptools = "*"
 
 [metadata]
 lock-version = "1.1"
-python-versions = ">=3.8,<3.11"
-content-hash = "69568481cad46cd1cdc00ebd11d2b32d70abb0dc9557ed40682d8f8ccb758a76"
+python-versions = ">=3.8,<3.12"
+content-hash = "8759c5312a17291daf890ce9bc0867f730f94374ce6d960918723856cac9d6d5"
 
 [metadata.files]
 black = [

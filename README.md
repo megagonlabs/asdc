@@ -2,6 +2,7 @@
 # Accommodation Search Dialog Corpus (in Japanese)
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Attribution 4.0 International License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
+![Python Versions](https://img.shields.io/badge/python-3.8%20%7C%203.9%20%7C%203.10%20%7C%203.11-blue)
 [![CI](https://github.com/megagonlabs/asdc/actions/workflows/ci.yml/badge.svg)](https://github.com/megagonlabs/asdc/actions/workflows/ci.yml)
 [![Typos](https://github.com/megagonlabs/asdc/actions/workflows/typos.yml/badge.svg)](https://github.com/megagonlabs/asdc/actions/workflows/typos.yml)
 
