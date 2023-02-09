@@ -119,7 +119,6 @@
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.01760"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "user", "text": "子供用のアメニティとしては何がありますか?"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.01761"}, "meta": {}, "purpose": "test", "utterances": [{"name": "user", "text": "子供用のアメニティの中身はなんですか?"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.01762"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用のアメニティは、気軽に使えて、その場で捨てられるようなものがいいです。"}]}
-{"docid": {"id": "asdc.sup.topic.L2.misc.1turn.01763"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用のアメニティはありますか?"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.01764"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用のアメニティはなにがありますか?"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.01765"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用のアメニティは別途費用がかかりますか?"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.01766"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用のアメニティは持ち帰り可能ですか?"}]}
@@ -137,12 +136,10 @@
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.01778"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用のシャンプー類もあると良い"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.01779"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用のスリッパが用意されていたり、そういう気遣いのある宿が良いですね。"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.01780"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "user", "text": "子供用のスリッパが用意できる宿を探しています。"}]}
-{"docid": {"id": "asdc.sup.topic.L2.misc.1turn.01781"}, "meta": {}, "purpose": "test", "utterances": [{"name": "user", "text": "子供用のスリッパはありますか"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.01782"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用のスリッパや歯ブラシのあるところがいいです"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.01783"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用のバスセットがあれば良いですね。"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.01784"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用のバスローブがあれば欲しいです。"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.01785"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用のパジャマが用意してあるホテルを探してください。"}]}
-{"docid": {"id": "asdc.sup.topic.L2.misc.1turn.01786"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用のパジャマはありますか?"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.01787"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用のボディーソープがあると良い"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.01788"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用の取り皿をください"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.01789"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用の夕飯メニューをください"}]}
@@ -870,7 +867,6 @@
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.02512"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用の食事は少量でお願いします。"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.02513"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用の食事もこだわりのある宿にしたいです。"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.02514"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用の食事を別途用意してください。"}]}
-{"docid": {"id": "asdc.sup.topic.L2.misc.1turn.02515"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用の食事を用意してほしいです"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.02516"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用の食事を用意してもらいたいのですが...。"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.02517"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用の食事代は大人の半額以下の値段でお願いします。"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.02518"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用は、お子様ランチに出来ますか。"}]}
@@ -2573,7 +2569,6 @@
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.04226"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "部屋で懐石料理食べたいので、旅館の予約を、お願いします。"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.04227"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "部屋で食事をいただける旅館をお願いします。"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.04228"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "部屋食がいいので、宿のタイプは断然旅館です!"}]}
-{"docid": {"id": "asdc.sup.topic.L2.misc.1turn.04229"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "部屋食を希望します"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.04230"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "user", "text": "部屋食可能で部屋に露天風呂がついた旅館があれば嬉しいです。"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.04231"}, "meta": {}, "purpose": "test", "utterances": [{"name": "user", "text": "離れがあり、縁側で隣部屋へ行き来できるタイプはありますか?"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.04232"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "雰囲気が良くて部屋食できる旅館タイプの宿を希望します。"}]}
@@ -5207,7 +5202,6 @@
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.06910"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "user", "text": "宿は部屋から景色が見えなくてもいいので予算を抑えたいです"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.06911"}, "meta": {}, "purpose": "test", "utterances": [{"name": "user", "text": "富士山が大好きで、部屋から富士山が見える宿を探してます。"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.06912"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "富士山が見える山側のお部屋を希望します。"}]}
-{"docid": {"id": "asdc.sup.topic.L2.misc.1turn.06913"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "富士山が見える部屋はありますか?"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.06914"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "富士山と駿河湾が部屋から望める、西伊豆の民宿に宿泊したい。"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.06915"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "富士山の裾野までキレイに見えて湖畔との眺めが美しいオススメの宿はありますか?"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.06916"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "富士山の近くの宿を探しています。出来たら部屋から富士山がよく見える宿がいいです。"}]}
@@ -6757,12 +6751,10 @@
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.08505"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "駐車場があるところがいいです。"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.08506"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "駐車場さえあれば、車は留めて出歩くつもりなので、そんな感じで頼んます."}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.08507"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "駐車場の事前予約は必要ですか。"}]}
-{"docid": {"id": "asdc.sup.topic.L2.misc.1turn.08508"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "駐車場の料金はいくらですか?"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.08509"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "駐車場の料金は別に支払うのですか?"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.08510"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "user", "text": "駐車場はありますか。"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.08511"}, "meta": {}, "purpose": "test", "utterances": [{"name": "user", "text": "駐車場は完備していますか。"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.08512"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "駐車場は完備してますか?"}]}
-{"docid": {"id": "asdc.sup.topic.L2.misc.1turn.08513"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "駐車場は近くにありますか?"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.08514"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "駐車場付きの宿か、宿から駐車場が近いところを探しています。"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.08515"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "高速の出入り口からあまり遠くない場所を探しています"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.08516"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "高速を使わずにアクセスしやすいリゾートホテルはありますか?"}]}
@@ -8986,7 +8978,6 @@
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.10798"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "温泉を楽しみにしているので、たくさん種類がある所がいいです"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.10799"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "温泉を満喫できる宿を探しています。"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.10800"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "user", "text": "温泉を貸切で使えるような旅館がいいです。"}]}
-{"docid": {"id": "asdc.sup.topic.L2.misc.1turn.10801"}, "meta": {}, "purpose": "test", "utterances": [{"name": "user", "text": "温泉付きの宿を探しています"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.10802"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "温泉併設のホテルがいいです。"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.10803"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "温泉地がいいんですけど、近くに美味しい飲食店がいっぱいあるお宿がいいですね。"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.10804"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "温泉地ですが、今回はあまり温泉にはこだわらないので、兎に角、海の見える、景色の良い部屋のある宿にして下さい。"}]}
@@ -9038,7 +9029,6 @@
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.10850"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "user", "text": "近くに温泉があるスキー場があったら文句無しです。"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.10851"}, "meta": {}, "purpose": "test", "utterances": [{"name": "user", "text": "近くに温泉さえあれば、どんなホテルでもいいです。"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.10852"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "近くに温泉のある宿を探しています。"}]}
-{"docid": {"id": "asdc.sup.topic.L2.misc.1turn.10853"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "近くに温泉はありますか?"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.10854"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "近くに温泉設備のある宿をお願いします。"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.10855"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "近くに色々な温泉のある宿をお願いします。"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.10856"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "近くに足湯もある様な温泉ならではの雰囲気を味わえる場所に程近いホテルが希望です。"}]}
@@ -9678,7 +9668,6 @@
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.11513"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "到着が遅くなりそうだから、ルームサービス使えるホテルで探して"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.11514"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "到着時刻にお部屋にお花とどけてもらえる?"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.11515"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "前回泊まったホテルがとにかく設備やらスタッフのサービスが悪かった。今回は絶対に避けたいのでルームサービスなどサービスが行き届いたホテルを探してください"}]}
-{"docid": {"id": "asdc.sup.topic.L2.misc.1turn.11516"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "加湿器はありますか?"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.11517"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "午前中はゆっくりしていたいので、ルームサービスの方は、来ないようにできるお宿がいいです。"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.11518"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "博多で1泊3万円位のホテルを探しているのですが、ルームサービスに24時間対応してくれるホテルは空いていますか?"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.11519"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "夕食と朝食がルームサービスになってるプランがあるホテルを予約したいです。"}]}
@@ -10044,7 +10033,6 @@
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.12121"}, "meta": {}, "purpose": "test", "utterances": [{"name": "user", "text": "ダブルの部屋がなければシングルベッドの部屋がありますか"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.12122"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "ダブルサイズのベッドの部屋をお願いします。"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.12123"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "ダブルベッドが2台ある部屋を探しています。"}]}
-{"docid": {"id": "asdc.sup.topic.L2.misc.1turn.12124"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "ダブルベッドがいいです"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.12125"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "ダブルベッドでも大きめを希望します。"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.12126"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "ダブルベッドのある部屋はありますか?"}]}
 {"docid": {"id": "asdc.sup.topic.L2.misc.1turn.12127"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "ダブルベッドは苦手なので、ツインにして下さい。"}]}

@@ -16,7 +16,7 @@ This file contains pairs of a question about travel and its answer.
 | あなたが、京都に旅行するとしたら、どのような旅行をしたいですか? | 清水寺を巡る旅行|
 | あなたが、学校低学年の子どもと配偶者との家族国内旅行をするとしたら、どのような旅行をしたいですか? | 子供が思いっきりはしゃげるような旅行|
 
-## ``question.single.VanillaUtterances.jsonl``: 1,061 dialogs
+## ``question.single.VanillaUtterances.jsonl``: 1,049 dialogs
 
 This file contains pairs of single question and its answer.
 
@@ -34,7 +34,7 @@ This file contains pairs of question(s) about numbers and its answer.
 
 ## ``question.number_long_a.VanillaUtterances.jsonl``: 1,442 dialogs
 
-## ``question.long_q.VanillaUtterances.jsonl``: 5,576 dialogs
+## ``question.long_q.VanillaUtterances.jsonl``: 5,574 dialogs
 
 This file contains pairs of question(s) and its answer.
 Most operators' utterances contain several sentences.
@@ -58,15 +58,15 @@ These files contain customers' queries and dialogs about topics.
 The topic id is stored in ``meta.data["topic"]``.
 
 - 1 turn
-    - ``topic.L1.1turn.VanillaUtterances.jsonl``: 17,334 queries
+    - ``topic.L1.1turn.VanillaUtterances.jsonl``: 17,031 queries
     - ``topic.L2.food.1turn.VanillaUtterances.jsonl``: 11,504 queries
         - ``meta.data["topics"]``: other topics if null
         - ``meta.data["topics_dist"]``: topic votes if null
-    - ``topic.L2.misc.1turn.VanillaUtterances.jsonl``: 10,926 queries
-    - ``topic.L3.1turn.VanillaUtterances.jsonl``: 8,681 queries
+    - ``topic.L2.misc.1turn.VanillaUtterances.jsonl``: 10,914 queries
+    - ``topic.L3.1turn.VanillaUtterances.jsonl``: 8,675 queries
 - 4 turn
-    - ``topic.L1.4turn.VanillaUtterances.jsonl``: 6,294 dialogs
-    - ``topic.L2.food.4turn.VanillaUtterances.jsonl``: 3,122 dialogs
+    - ``topic.L1.4turn.VanillaUtterances.jsonl``: 6,291 dialogs
+    - ``topic.L2.food.4turn.VanillaUtterances.jsonl``: 3,121 dialogs
 
 | Topic | Query |
 | --- | --- |
