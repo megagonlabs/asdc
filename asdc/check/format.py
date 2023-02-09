@@ -257,6 +257,8 @@ def check_vanilla(inpath: Path, ref: Optional[Path]) -> bool:
     assert ref is None
     done_ids = set()
 
+    read_text: Dict[str, DocID] = {}
+
     ok = True
     for fname in sorted(inpath.glob("**/*.jsonl")):
         with fname.open() as inf:
@@ -272,6 +274,15 @@ def check_vanilla(inpath: Path, ref: Optional[Path]) -> bool:
                 if line != fdata:
                     print(f"Unformatted JSON: {fname}")
                     ok = False
+
+                text: str = "".join([u.text for u in vus.utterances])
+                text = unicodedata.normalize("NFKC", text).replace(" ", "")
+                if (alread_id := read_text.get(text)) is not None:
+                    print(f"Duplicated vanilla text: {vus.docid.id}, {alread_id.id}")
+                    ok = False
+                else:
+                    read_text[text] = vus.docid
+
     return ok
 
 
