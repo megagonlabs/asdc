@@ -154,7 +154,6 @@
 {"docid": {"id": "asdc.sup.topic.L3.1turn.00153"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "くるみアレルギーですので、くるみ入りのパンは他のパンにしていただけると嬉しいです。"}]}
 {"docid": {"id": "asdc.sup.topic.L3.1turn.00154"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "このデザートにはナッツが入ってないですか?アレルギーもちなので。"}]}
 {"docid": {"id": "asdc.sup.topic.L3.1turn.00155"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "アレルギーがありまして、ナッツ類が使われていないか確認したいです。"}]}
-{"docid": {"id": "asdc.sup.topic.L3.1turn.00156"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "アレルギーがあります"}]}
 {"docid": {"id": "asdc.sup.topic.L3.1turn.00157"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "アレルギーがあるので、ナッツが入ってるメニューは出さないでください。"}]}
 {"docid": {"id": "asdc.sup.topic.L3.1turn.00158"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "アレルギーがあるので、ナッツを使った料理は、他の物に変えてください。"}]}
 {"docid": {"id": "asdc.sup.topic.L3.1turn.00159"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "アレルギーがあるので、ナッツを食事に使用しないでほしい。"}]}
@@ -489,7 +488,6 @@
 {"docid": {"id": "asdc.sup.topic.L3.1turn.00490"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "user", "text": "夫が小麦アレルギーなので、小麦を使わない食事に対応できる宿はありますか?"}]}
 {"docid": {"id": "asdc.sup.topic.L3.1turn.00491"}, "meta": {}, "purpose": "test", "utterances": [{"name": "user", "text": "夫婦揃って小麦アレルギーなので、小麦粉を使ったパンは、いりません。"}]}
 {"docid": {"id": "asdc.sup.topic.L3.1turn.00492"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "娘に小麦アレルギーがあるので、小麦を使用していない料理をお願いします。"}]}
-{"docid": {"id": "asdc.sup.topic.L3.1turn.00493"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "娘に小麦アレルギーがあるので、普通のパンではなく米粉のパンがあればお願いします。"}]}
 {"docid": {"id": "asdc.sup.topic.L3.1turn.00494"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子どもが小麦のアレルギーを持っていますので、料理に小麦を使わないようにしてくれる宿にしてください。"}]}
 {"docid": {"id": "asdc.sup.topic.L3.1turn.00495"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子どもが小麦アレルギーなので、子どもの食事は持ち込みたいのですが、できますか?"}]}
 {"docid": {"id": "asdc.sup.topic.L3.1turn.00496"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子どもが小麦アレルギーなので、小麦を使用していないメニューを提供してくれる宿が良いです。"}]}
@@ -614,7 +612,6 @@
 {"docid": {"id": "asdc.sup.topic.L3.1turn.00615"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "食事はアレルギーがあるので相談したいのですが"}]}
 {"docid": {"id": "asdc.sup.topic.L3.1turn.00616"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "食事は和食、洋食で選択できますか"}]}
 {"docid": {"id": "asdc.sup.topic.L3.1turn.00617"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "食事メニューでリクエストがあります。"}]}
-{"docid": {"id": "asdc.sup.topic.L3.1turn.00618"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "食物アレルギーがあります"}]}
 {"docid": {"id": "asdc.sup.topic.L3.1turn.00620"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "user", "text": "そのフルーツを煮込んだ南国カレーの食事気になります。家族に果実アレルギーの者がおりますので配慮をお願いします"}]}
 {"docid": {"id": "asdc.sup.topic.L3.1turn.00621"}, "meta": {}, "purpose": "test", "utterances": [{"name": "user", "text": "そんなにひどくはないんだけど、果物のキウイにアレルギーがあるので無しにして欲しい。"}]}
 {"docid": {"id": "asdc.sup.topic.L3.1turn.00622"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "アレルギーがありますので、メロンは抜いてください。"}]}
@@ -4800,7 +4797,6 @@
 {"docid": {"id": "asdc.sup.topic.L3.1turn.04820"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "user", "text": "子供用の椅子は、座面と背もたれの間に置く深く食べ残しが、堆積していることがあるので、良く清掃しておいて下さい。"}]}
 {"docid": {"id": "asdc.sup.topic.L3.1turn.04821"}, "meta": {}, "purpose": "test", "utterances": [{"name": "user", "text": "子供用の椅子は、汚すかもしれないので、ビニール貼りとかがいいかもしれません。"}]}
 {"docid": {"id": "asdc.sup.topic.L3.1turn.04822"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用の椅子は、高さが変えられますか。"}]}
-{"docid": {"id": "asdc.sup.topic.L3.1turn.04823"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用の椅子はありますか"}]}
 {"docid": {"id": "asdc.sup.topic.L3.1turn.04824"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用の椅子は座面の消毒を念入りにお願いします。"}]}
 {"docid": {"id": "asdc.sup.topic.L3.1turn.04825"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用の椅子を準備願います。"}]}
 {"docid": {"id": "asdc.sup.topic.L3.1turn.04826"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用の椅子を用意してくれて助かったなどの口コミがある宿があればお願いします。"}]}
@@ -5761,7 +5757,6 @@
 {"docid": {"id": "asdc.sup.topic.L3.1turn.05788"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "朝食は、洋食専門のバイキングでお願いします。"}]}
 {"docid": {"id": "asdc.sup.topic.L3.1turn.05789"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "朝食は和食ではなく洋食でお願いします。"}]}
 {"docid": {"id": "asdc.sup.topic.L3.1turn.05790"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "user", "text": "朝食は専門シェフによる洋食をお願いします。"}]}
-{"docid": {"id": "asdc.sup.topic.L3.1turn.05791"}, "meta": {}, "purpose": "test", "utterances": [{"name": "user", "text": "朝食は洋食でお願いします"}]}
 {"docid": {"id": "asdc.sup.topic.L3.1turn.05792"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "朝食は洋食も選べるところにしてください。"}]}
 {"docid": {"id": "asdc.sup.topic.L3.1turn.05793"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "朝食は洋食メインのバイキング希望"}]}
 {"docid": {"id": "asdc.sup.topic.L3.1turn.05794"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "朝食も和食よりも、パンやハムなどの洋食メニューがあるところでお願いします。"}]}
@@ -7246,7 +7241,6 @@
 {"docid": {"id": "asdc.sup.topic.L3.1turn.07280"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "user", "text": "食事は和食でお願いします。"}]}
 {"docid": {"id": "asdc.sup.topic.L3.1turn.07281"}, "meta": {}, "purpose": "test", "utterances": [{"name": "user", "text": "食事は和食ですか?"}]}
 {"docid": {"id": "asdc.sup.topic.L3.1turn.07282"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "食事は目の前で地元の海産物を浜焼きにして欲しいです。"}]}
-{"docid": {"id": "asdc.sup.topic.L3.1turn.07283"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "食事は部屋食ですか?"}]}
 {"docid": {"id": "asdc.sup.topic.L3.1turn.07284"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "食事を目の前で頂く時に調理法を聞けますか?"}]}
 {"docid": {"id": "asdc.sup.topic.L3.1turn.07285"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "魚を目の前で板前さんが捌いてくれる海鮮料理を出してくれる宿をお願いします。"}]}
 {"docid": {"id": "asdc.sup.topic.L3.1turn.07286"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "2人で行きますが、2人とも同じ品目でお願いします。"}]}
