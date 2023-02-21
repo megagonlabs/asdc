@@ -1,20 +1,36 @@
 #!/usr/bin/env python3
 
 import argparse
+import json
+from collections import defaultdict
 from pathlib import Path
 
 from asdc.schema.example import Example
 
 
 def operation(path_in: Path, path_out: Path) -> None:
+    text2purpose2ids = {}
     with path_in.open() as inf, path_out.open("w") as outf:
         for line in inf:
             ex = Example.parse_raw(line)
-            p = ex.purpose
-            targets = ex.targets
 
-            for t in targets:
-                outf.write(f"{ex.sid.id}\t{p}\t{t}\n")
+            for t in ex.targets:
+                if t not in text2purpose2ids:
+                    text2purpose2ids[t] = defaultdict(list)
+                text2purpose2ids[t][ex.purpose] = ex.sid.id
+
+        for text, purpose2ids in sorted(text2purpose2ids.items()):
+            outf.write(f"{text}\t")
+            if "test" in purpose2ids:
+                outf.write("test")
+            elif "dev" in purpose2ids:
+                outf.write("dev")
+            else:
+                outf.write("train")
+            outf.write("\t")
+
+            outf.write(json.dumps(purpose2ids, sort_keys=True))
+            outf.write("\n")
 
 
 def get_opts() -> argparse.Namespace:
