@@ -239,6 +239,9 @@ def check_example(
                         ok = False
 
                 for target in ex.targets:
+                    if target != unicodedata.normalize("NFKC", target):
+                        print(f"Not NFKC normalized: {target} ({fname}:{lid+1})")
+                        ok = False
                     if (
                         target != target.strip()
                         or "?。" in target
