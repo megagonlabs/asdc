@@ -177,7 +177,7 @@ python-versions = ">=3.6"
 
 [[package]]
 name = "setuptools"
-version = "67.3.2"
+version = "67.3.3"
 description = "Easily download, build, install, upgrade, and uninstall Python packages"
 category = "dev"
 optional = false
@@ -441,8 +441,8 @@ pyyaml = [
     {file = "PyYAML-6.0.tar.gz", hash = "sha256:68fb519c14306fec9720a2a5b45bc9f0c8d1b9c72adf45c37baedfcd949c35a2"},
 ]
 setuptools = [
-    {file = "setuptools-67.3.2-py3-none-any.whl", hash = "sha256:bb6d8e508de562768f2027902929f8523932fcd1fb784e6d573d2cafac995a48"},
-    {file = "setuptools-67.3.2.tar.gz", hash = "sha256:95f00380ef2ffa41d9bba85d95b27689d923c93dfbafed4aecd7cf988a25e012"},
+    {file = "setuptools-67.3.3-py3-none-any.whl", hash = "sha256:9d3de8591bd6f6522594406fa46a6418eabd0562dacb267f8556675762801514"},
+    {file = "setuptools-67.3.3.tar.gz", hash = "sha256:ed4e75fafe103c79b692f217158ba87edf38d31004b9dbc1913debb48793c828"},
 ]
 snowballstemmer = [
     {file = "snowballstemmer-2.2.0-py2.py3-none-any.whl", hash = "sha256:c8e1716e83cc398ae16824e5572ae04e0d9fc2c6b985fb0f900f5f0c96ecba1a"},
