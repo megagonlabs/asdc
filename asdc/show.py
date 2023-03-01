@@ -17,7 +17,7 @@ def operation(path_in: Path, path_out: Path) -> None:
             for t in ex.targets:
                 if t not in text2purpose2ids:
                     text2purpose2ids[t] = defaultdict(list)
-                text2purpose2ids[t][ex.purpose] = ex.sid.id
+                text2purpose2ids[t][ex.purpose].append(ex.sid.id)
 
         for text, purpose2ids in sorted(text2purpose2ids.items()):
             outf.write(f"{text}\t")
