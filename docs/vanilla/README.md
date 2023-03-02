@@ -55,13 +55,13 @@ The candidate hotels are named with alphabets like ``Aホテル``, ``B旅館``, 
 ## ``topic.*.1turn.VanillaUtterance.VanillaUtterances.jsonl``
 
 These files contain customers' queries and dialogs about topics.
-The topic id is stored in ``meta.data["topic"]``.
+The topic id is stored in ``meta["topic"]``.
 
 - 1 turn
     - ``topic.L1.1turn.VanillaUtterances.jsonl``: 16,997 queries
     - ``topic.L2.food.1turn.VanillaUtterances.jsonl``: 11,485 queries
-        - ``meta.data["topics"]``: other topics if null
-        - ``meta.data["topics_dist"]``: topic votes if null
+        - ``meta["topics"]``: other topics if null
+        - ``meta["topics_dist"]``: topic votes if null
     - ``topic.L2.misc.1turn.VanillaUtterances.jsonl``: 10,914 queries
     - ``topic.L3.1turn.VanillaUtterances.jsonl``: 8,675 queries
 - 4 turn
