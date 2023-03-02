@@ -44,13 +44,13 @@ Most operators' utterances contain several sentences.
 ## ``situation.normal.extend.VanillaUtterances.jsonl``: 841 dialogs
 
 This file contains the continuation of several conversations in Y ``situation.normal.VanillaUtterances.jsonl``.
-The original id is stored in ``meta.data["original_doc_id"]``.
+The original id is stored in ``meta["original_doc_id"]``.
 
 Crowd workers as asked to make operators suggest two or more accommodations.
 The candidate hotels are named with alphabets like ``Aホテル``, ``B旅館``, and ``Cホテル``.
 
-- ``meta.data["finalize"]``: Whether the customer finally selects one candidate or not.
-- ``meta.data["single_candidates"]``: Whether the operator suggests only single accommodation.
+- ``meta["finalize"]``: Whether the customer finally selects one candidate or not.
+- ``meta["single_candidates"]``: Whether the operator suggests only single accommodation.
 
 ## ``topic.*.1turn.VanillaUtterance.VanillaUtterances.jsonl``
 
