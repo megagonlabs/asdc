@@ -48,7 +48,7 @@ Please read [the documents](docs/supplemental/README.md) for more details.
 ## Supplemental correctness-labeled SCUD part: [``data/supplemental/correctness_labeled_scud``](data/supplemental/correctness_labeled_scud): 3,467 examples
 
 Files in ``data/supplemental/correctness_labeled_scud`` are Supplemental fictitious dialogs with SCUD and its correctness annotations.
-If ``meta['correct']`` of an example is ``false``, the example has incorrect SCUDs.
+If the value ``correct`` of an example is ``false``, the example has incorrect SCUDs.
 
 ## Vanilla part: [``data/vanilla``](data/vanilla): 71,424 dialogs
 
