@@ -52,7 +52,7 @@ The candidate hotels are named with alphabets like ``Aホテル``, ``B旅館``, 
 - ``meta["finalize"]``: Whether the customer finally selects one candidate or not.
 - ``meta["single_candidates"]``: Whether the operator suggests only single accommodation.
 
-## ``topic.*.1turn.VanillaUtterance.VanillaUtterances.jsonl``
+## ``topic.**.VanillaUtterance.VanillaUtterances.jsonl``
 
 These files contain customers' queries and dialogs about topics.
 The topic id is stored in ``meta["topic"]``.
