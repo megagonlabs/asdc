@@ -58,8 +58,8 @@ These files contain customers' queries and dialogs about topics.
 The topic id is stored in ``meta.data["topic"]``.
 
 - 1 turn
-    - ``topic.L1.1turn.VanillaUtterances.jsonl``: 17,031 queries
-    - ``topic.L2.food.1turn.VanillaUtterances.jsonl``: 11,504 queries
+    - ``topic.L1.1turn.VanillaUtterances.jsonl``: 16,998 queries
+    - ``topic.L2.food.1turn.VanillaUtterances.jsonl``: 11,485 queries
         - ``meta.data["topics"]``: other topics if null
         - ``meta.data["topics_dist"]``: topic votes if null
     - ``topic.L2.misc.1turn.VanillaUtterances.jsonl``: 10,914 queries

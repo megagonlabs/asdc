@@ -830,7 +830,6 @@
 {"docid": {"id": "asdc.sup.topic.L1.1turn.00935"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用のボディーミルクが欲しいです"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.00936"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用の小さなスリッパを用意してください"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.00937"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用の歯ブラシはありますか?"}]}
-{"docid": {"id": "asdc.sup.topic.L1.1turn.00938"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用の浴衣はありますか?"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.00939"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用の物が充実していると良いです"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.00940"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "user", "text": "子供用はありますか?"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.00941"}, "meta": {}, "purpose": "test", "utterances": [{"name": "user", "text": "子供用もありますか?"}]}
@@ -1778,7 +1777,6 @@
 {"docid": {"id": "asdc.sup.topic.L1.1turn.02033"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "ベッドはシングルでお願いします"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.02034"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "ベッドはダブルベッドでお願いします"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.02035"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "ベッドはツインでお願いします"}]}
-{"docid": {"id": "asdc.sup.topic.L1.1turn.02036"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "ベッドは使いやすくて広い?"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.02037"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "ベッドは固めがよいです"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.02038"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "ベッドは固めが良いんですが"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.02039"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "ベッドは大きめでないと不安なのですが、どのサイズですか?"}]}
@@ -1827,9 +1825,7 @@
 {"docid": {"id": "asdc.sup.topic.L1.1turn.02083"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "ベッド追加できますか?"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.02084"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "ベビーガードをつけてください"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.02085"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "ベビーガードを設置しておいてください"}]}
-{"docid": {"id": "asdc.sup.topic.L1.1turn.02086"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "ベビーベッドを用意していただけますか?"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.02087"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "ベビーベッドがあると助かります"}]}
-{"docid": {"id": "asdc.sup.topic.L1.1turn.02088"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "ベビーベッドはありますか?"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.02089"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "ベビーベッドを1つお願いします。0歳の女の子1人です"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.02090"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "user", "text": "ベッドではなく布団ありますか?"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.02091"}, "meta": {}, "purpose": "test", "utterances": [{"name": "user", "text": "ペットと一緒に宿泊することができますか"}]}
@@ -2218,7 +2214,6 @@
 {"docid": {"id": "asdc.sup.topic.L1.1turn.02537"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "枕は2個欲しい"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.02538"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "枕は2個用意してください"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.02539"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "枕は、硬めがいいです"}]}
-{"docid": {"id": "asdc.sup.topic.L1.1turn.02540"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "user", "text": "枕は、頭にフィットして使いやすいのかなぁ"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.02541"}, "meta": {}, "purpose": "test", "utterances": [{"name": "user", "text": "枕はいくつありますか?"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.02542"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "枕はいりません"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.02543"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "枕はそば殻は避けてください"}]}
@@ -2861,7 +2856,6 @@
 {"docid": {"id": "asdc.sup.topic.L1.1turn.03315"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "バスローブを用意してください"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.03316"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "バス・トイレは別になっている方がいいです"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.03317"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "バリアフリーがしっかりしている所がいいです"}]}
-{"docid": {"id": "asdc.sup.topic.L1.1turn.03319"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "バリアフリーですか"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.03320"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "user", "text": "バリアフリーですか?"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.03321"}, "meta": {}, "purpose": "test", "utterances": [{"name": "user", "text": "バリアフリーの部屋があればお願いしたい"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.03322"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "バリアフリーの部屋はありますか"}]}
@@ -3597,7 +3591,6 @@
 {"docid": {"id": "asdc.sup.topic.L1.1turn.04184"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "部屋風呂があれば嬉しいです"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.04185"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "部屋風呂がよいです"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.04186"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "部屋風呂は露天風呂付きにしてください"}]}
-{"docid": {"id": "asdc.sup.topic.L1.1turn.04187"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "部屋食がいいです"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.04188"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "部屋食ができる部屋お願いします"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.04189"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "部屋食でお願いします"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.04190"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "user", "text": "部屋食にできますか?"}]}
@@ -5054,7 +5047,6 @@
 {"docid": {"id": "asdc.sup.topic.L1.1turn.05897"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "アレルギー対応食はできますか"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.05898"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "アレルギー食はありますか"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.05899"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "ウェルカムドリンクの種類をたくさんあるといいな"}]}
-{"docid": {"id": "asdc.sup.topic.L1.1turn.05900"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "user", "text": "エキストラベッドがありますか?"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.05901"}, "meta": {}, "purpose": "test", "utterances": [{"name": "user", "text": "エキストラベッドを入れられるますか?"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.05902"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "エキストラベッドを希望します"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.05903"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "エキストラベッドを用意してください"}]}
@@ -5088,7 +5080,6 @@
 {"docid": {"id": "asdc.sup.topic.L1.1turn.05933"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "ゲームはプレイできますか"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.05934"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "ゲームコーナーがあるとありがたいです"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.05935"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "ゲームコーナーがあるところ"}]}
-{"docid": {"id": "asdc.sup.topic.L1.1turn.05936"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "ゲームコーナーはありますか?"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.05937"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "ゲームセンターありますか"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.05938"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "ゲームセンターはありますか"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.05939"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "ゲームセンターやカラオケボックス等、施設が充実している所が良いです"}]}
@@ -5437,7 +5428,6 @@
 {"docid": {"id": "asdc.sup.topic.L1.1turn.06317"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供が遊べるキッズルームはありますか"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.06318"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供が遊べるゲームセンターありますか?"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.06319"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供が遊べるスペースがあると嬉しいです"}]}
-{"docid": {"id": "asdc.sup.topic.L1.1turn.06320"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "user", "text": "子供が遊べるスペースはありますか?"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.06321"}, "meta": {}, "purpose": "test", "utterances": [{"name": "user", "text": "子供が遊べるスペースはあるか"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.06322"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供が遊べるスペースや遊具などはありますか"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.06323"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供が遊べるプログラムがあれば教えてください"}]}
@@ -5673,7 +5663,6 @@
 {"docid": {"id": "asdc.sup.topic.L1.1turn.06561"}, "meta": {}, "purpose": "test", "utterances": [{"name": "user", "text": "子供用の布団の準備はありますか?"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.06562"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用の布団はありますか"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.06564"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用の布団を準備してほしい"}]}
-{"docid": {"id": "asdc.sup.topic.L1.1turn.06565"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用の布団を用意してください"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.06566"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用の布団を用意してほしいです"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.06567"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用の掛布.ブランケット等の用意がありますか?"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.06568"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用の料理がありますか"}]}
@@ -5691,7 +5680,6 @@
 {"docid": {"id": "asdc.sup.topic.L1.1turn.06580"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "user", "text": "子供用の椅子があればそれを使いたい"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.06581"}, "meta": {}, "purpose": "test", "utterances": [{"name": "user", "text": "子供用の椅子とかのご準備はございますか?"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.06582"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用の椅子はありますか"}]}
-{"docid": {"id": "asdc.sup.topic.L1.1turn.06583"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用の椅子はありますか?"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.06584"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用の椅子をお願いします"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.06585"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用の椅子を使いたいです"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.06586"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用の椅子を時間してください"}]}
@@ -5733,7 +5721,6 @@
 {"docid": {"id": "asdc.sup.topic.L1.1turn.06625"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用の部屋着、歯ブラシはありますか?"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.06626"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用の部屋着か浴衣などがあれば用意してほしい"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.06627"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用の部屋着があると助かります"}]}
-{"docid": {"id": "asdc.sup.topic.L1.1turn.06628"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用の部屋着はありますか?"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.06629"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供用の部屋着を準備してください"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.06630"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "user", "text": "子供用の部屋食メニューは有りますか?"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.06631"}, "meta": {}, "purpose": "test", "utterances": [{"name": "user", "text": "子供用の風呂桶をお願いします"}]}
@@ -6227,7 +6214,6 @@
 {"docid": {"id": "asdc.sup.topic.L1.1turn.07168"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "食事は座敷の個室がいいです"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.07169"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "食事は数種類選べると嬉しい"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.07170"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "user", "text": "食事は普通で大丈夫です"}]}
-{"docid": {"id": "asdc.sup.topic.L1.1turn.07171"}, "meta": {}, "purpose": "test", "utterances": [{"name": "user", "text": "食事は部屋でとることができますか?"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.07172"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "食事は部屋出しでお願いします"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.07174"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "食事を一つ子供が食べそうなものをください"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.07175"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "食事を子供向けのものを用意して欲しい"}]}
@@ -7559,7 +7545,6 @@
 {"docid": {"id": "asdc.sup.topic.L1.1turn.08877"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "天然温泉ですか?"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.08878"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供がいるので離れたところがいいです"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.08879"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "子供に特典、サービスはありますか"}]}
-{"docid": {"id": "asdc.sup.topic.L1.1turn.08880"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "user", "text": "子供用の部屋がある宿がいいです"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.08883"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "安全であるところがいい"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.08884"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "客室から海が見える宿教えて"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.08885"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "客室から海の見える宿を希望します"}]}
@@ -14331,7 +14316,6 @@
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17294"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "露天風呂はあるかな"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17295"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "露天風呂はあるでしょうか"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17296"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "露天風呂はあるところをお願いします"}]}
-{"docid": {"id": "asdc.sup.topic.L1.1turn.17297"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "露天風呂はあるの"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17300"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "user", "text": "露天風呂はあるのかな"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17301"}, "meta": {}, "purpose": "test", "utterances": [{"name": "user", "text": "露天風呂はいくつありますか?"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17302"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "露天風呂はうれしいです"}]}
@@ -14548,7 +14532,6 @@
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17559"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "おいしい旬の魚料理がいただけると幸いです"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17560"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "user", "text": "おかずの種類をもっと多くしてほしい"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17562"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "おかず多めで"}]}
-{"docid": {"id": "asdc.sup.topic.L1.1turn.17563"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "おかわりは自由ですか?"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17565"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "おすすめ料理を一品追加でお願いします"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17566"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "おまかせで!"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17567"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "お任せでお願いします"}]}
@@ -14568,7 +14551,6 @@
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17582"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "お米は柔らかめがいいです"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17583"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "お肉が好きなので、お肉料理があると嬉しいです"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17584"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "お肉が苦手です"}]}
-{"docid": {"id": "asdc.sup.topic.L1.1turn.17585"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "お肉が食べたい"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17586"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "お肉が食べたいです"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17587"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "お肉はミディアムでお願いします"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17588"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "お肉中心で"}]}
@@ -14576,7 +14558,6 @@
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17590"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "user", "text": "お肉料理がいい"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17591"}, "meta": {}, "purpose": "test", "utterances": [{"name": "user", "text": "お肉料理がいいです"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17592"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "お肉料理が堪能できる宿はどこ"}]}
-{"docid": {"id": "asdc.sup.topic.L1.1turn.17593"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "お肉料理が食べたいです"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17594"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "お肉料理でお願いします"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17595"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "お肉料理をください"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17596"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "お肉食べたいです"}]}
@@ -14587,7 +14568,6 @@
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17604"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "お部屋での食事をお願いします"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17605"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "お部屋で料理を食べたいです"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17606"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "お部屋で食べたいです"}]}
-{"docid": {"id": "asdc.sup.topic.L1.1turn.17607"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "お部屋で食べられますか?"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17608"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "お部屋で食べられるとありがたいです"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17609"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "お部屋で食べる事ができますか?"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17610"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "user", "text": "お部屋で食べれる方がいい"}]}
@@ -14670,7 +14650,6 @@
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17699"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "ひとりは和食、ひとりは洋食というのは無理でしょうか"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17701"}, "meta": {}, "purpose": "test", "utterances": [{"name": "user", "text": "ゆっくりとできる場所で食べたい"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17703"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "りんごのアレルギーがあります"}]}
-{"docid": {"id": "asdc.sup.topic.L1.1turn.17704"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "わさび抜きでお願いします"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17705"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "アサリが食べられないので抜いてほしい"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17706"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "アップグレードできるコースを希望します"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17707"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "アラカルトを教えてください"}]}
@@ -14776,7 +14755,6 @@
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17815"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "シャンプーハットを用意して欲しい"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17816"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "シングル利用でいくらですか"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17817"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "ステーキについては、レアでお願いいたします"}]}
-{"docid": {"id": "asdc.sup.topic.L1.1turn.17818"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "ステーキはよく焼いてください"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17819"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "ステーキはカットして出してもらえますか?"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17820"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "user", "text": "ステーキは高級和牛でお願いします"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17821"}, "meta": {}, "purpose": "test", "utterances": [{"name": "user", "text": "スプーンも用意してください"}]}
@@ -14824,7 +14802,6 @@
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17872"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "バイキングが希望です"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17873"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "バイキングが楽しめるところがいいですね"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17874"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "バイキングが食べたい!"}]}
-{"docid": {"id": "asdc.sup.topic.L1.1turn.17875"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "バイキングが食べたいです"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17876"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "バイキングだったら良いな"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17877"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "バイキングでおねがいします"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17878"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "バイキングでお願いしたい"}]}
@@ -14840,7 +14817,6 @@
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17889"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "バイキングを希望する"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17890"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "user", "text": "バイキング希望"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17891"}, "meta": {}, "purpose": "test", "utterances": [{"name": "user", "text": "バイキング希望です"}]}
-{"docid": {"id": "asdc.sup.topic.L1.1turn.17893"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "バイキング形式がいいです"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17894"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "バイキング形式が希望です"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17895"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "バイキング形式が良いです"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17896"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "バイキング形式だと嬉しいです"}]}
@@ -14856,7 +14832,6 @@
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17906"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "バイキング形式は嬉しいけど足が不自由なので利用しずらい"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17907"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "バイキング形式は避けたい"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17908"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "バイキング形式を希望"}]}
-{"docid": {"id": "asdc.sup.topic.L1.1turn.17909"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "バイキング形式希望"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17910"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "user", "text": "バイキング方式ですか?"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17911"}, "meta": {}, "purpose": "test", "utterances": [{"name": "user", "text": "バイキング方式で好きなものを食べたいです"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17912"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "バスタオルは大きめにして欲しい"}]}
@@ -14870,7 +14845,6 @@
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17921"}, "meta": {}, "purpose": "test", "utterances": [{"name": "user", "text": "ビュッフェでいろんな料理が食べられるといいです"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17922"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "ビュッフェですか?"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17923"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "ビュッフェスタイルがいい"}]}
-{"docid": {"id": "asdc.sup.topic.L1.1turn.17924"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "ビュッフェスタイルがいいです"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17925"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "ビュッフェスタイルのレストランはありますか?"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17926"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "ビュッフェスタイルの食事が好きです"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.17927"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "ビュッフェ式がいいです"}]}
@@ -15061,8 +15035,6 @@
 {"docid": {"id": "asdc.sup.topic.L1.1turn.18127"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "和食が美味しいのが望ましい"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.18128"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "和食が良いです"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.18129"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "和食が良いのですが?"}]}
-{"docid": {"id": "asdc.sup.topic.L1.1turn.18130"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "user", "text": "和食が食べたい"}]}
-{"docid": {"id": "asdc.sup.topic.L1.1turn.18131"}, "meta": {}, "purpose": "test", "utterances": [{"name": "user", "text": "和食が食べたいです"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.18132"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "和食でお願い"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.18133"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "和食でお願いいたします"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.18134"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "和食でお願いしたいです"}]}
@@ -15579,7 +15551,6 @@
 {"docid": {"id": "asdc.sup.topic.L1.1turn.18692"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "良い景色が見える場所で食べたい"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.18693"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "色々なおかずをちょっとずつで沢山の種類を楽しめる盛り合わせが良いです"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.18694"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "苦手なものが多いので、メニューの変更が事前にできるようだと助かります"}]}
-{"docid": {"id": "asdc.sup.topic.L1.1turn.18695"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "茶碗蒸しが食べたいです"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.18696"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "蕎麦が食べたい"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.18697"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "蕎麦アレルギーなので出さないでください"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.18698"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "蟹は苦手なので、入れないでほしい"}]}
@@ -15671,10 +15642,8 @@
 {"docid": {"id": "asdc.sup.topic.L1.1turn.18798"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "部屋食に変更してほしい"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.18799"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "部屋食の時間は変更できますか?"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.18800"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "user", "text": "部屋食は可能ですか"}]}
-{"docid": {"id": "asdc.sup.topic.L1.1turn.18801"}, "meta": {}, "purpose": "test", "utterances": [{"name": "user", "text": "部屋食は可能ですか?"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.18802"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "部屋食をお願いしたいです"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.18803"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "部屋食を希望したい"}]}
-{"docid": {"id": "asdc.sup.topic.L1.1turn.18804"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "部屋食を希望します"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.18805"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "部屋食を望みます"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.18806"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "部屋食希望"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.18808"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "郷土料理が入っているメニューはありますか"}]}
@@ -15713,7 +15682,6 @@
 {"docid": {"id": "asdc.sup.topic.L1.1turn.18847"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "集団会場での食事でも構いません。隣との間隔を充分に保ってください"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.18848"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "離乳食のメニューは対応可能ですか?"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.18849"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "離乳食の持ち込みは可能ですか?"}]}
-{"docid": {"id": "asdc.sup.topic.L1.1turn.18850"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "user", "text": "離乳食の用意はありますか?"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.18851"}, "meta": {}, "purpose": "test", "utterances": [{"name": "user", "text": "離乳食を提供してくれるお店がいいです"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.18852"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "離乳食を頂けると嬉しいです"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.18853"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "青魚が苦手なので、抜いてもらえますか?"}]}
@@ -15727,7 +15695,6 @@
 {"docid": {"id": "asdc.sup.topic.L1.1turn.18863"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "食べ放題が充実してる宿はどこ"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.18864"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "食べ放題でない方が良いです"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.18865"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "食べ放題のプランがあると聞いたのですが"}]}
-{"docid": {"id": "asdc.sup.topic.L1.1turn.18866"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "食べ放題を希望します"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.18867"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "食べ放題希望"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.18869"}, "meta": {}, "purpose": "train", "utterances": [{"name": "user", "text": "食事と一緒にお酒も楽しみたいです"}]}
 {"docid": {"id": "asdc.sup.topic.L1.1turn.18870"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "user", "text": "食事なしにできますか"}]}
