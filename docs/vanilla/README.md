@@ -43,7 +43,7 @@ Most operators' utterances contain several sentences.
 
 ## ``situation.normal.extend.VanillaUtterances.jsonl``: 841 dialogs
 
-This file contains the continuation of several conversations in Y ``situation.normal.VanillaUtterances.jsonl``.
+This file contains the continuation of several conversations in ``situation.normal.VanillaUtterances.jsonl``.
 The original id is stored in ``meta["original_doc_id"]``.
 
 Crowd workers as asked to make operators suggest two or more accommodations.
