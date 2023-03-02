@@ -28,9 +28,9 @@ This file contains pairs of single question and its answer.
 
 This file contains pairs of question(s) about numbers and its answer.
 
-- ``meta.data["instruction"]``: The instructed type of numbers to make a pair.
-- ``meta.data["num_number_q"]``: The crowd worker must use a number greater than or equal to the number written here in the question.
-- ``meta.data["num_number_a"]``: The crowd worker must use a number greater than or equal to the number written here in the answer.
+- ``meta["instruction"]``: The instructed type of numbers to make a pair.
+- ``meta["num_number_q"]``: The crowd worker must use a number greater than or equal to the number written here in the question.
+- ``meta["num_number_a"]``: The crowd worker must use a number greater than or equal to the number written here in the answer.
 
 ## ``question.number_long_a.VanillaUtterances.jsonl``: 1,442 dialogs
 
@@ -39,7 +39,7 @@ This file contains pairs of question(s) about numbers and its answer.
 This file contains pairs of question(s) and its answer.
 Most operators' utterances contain several sentences.
 
-- ``meta.data["q_num_sentences"]``: The number of sentences of the operator's utterance
+- ``meta["q_num_sentences"]``: The number of sentences of the operator's utterance
 
 ## ``situation.normal.extend.VanillaUtterances.jsonl``: 841 dialogs
 
