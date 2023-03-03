@@ -2505,7 +2505,7 @@
 {"docid": {"id": "asdc.sup.yn_no.31267"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "予算は決まっていますか"}, {"name": "user", "text": "いいえ"}]}
 {"docid": {"id": "asdc.sup.yn_no.31268"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "予算は決まっていますか?"}, {"name": "user", "text": "いいえ"}]}
 {"docid": {"id": "asdc.sup.yn_no.31269"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "予算は高い方がよいですか?"}, {"name": "user", "text": "いいえ"}]}
-{"docid": {"id": "asdc.sup.yn_no.31270"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "予讃はお決まりでしょうか?"}, {"name": "user", "text": "いいえ"}]}
+{"docid": {"id": "asdc.sup.yn_no.31270"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "予算はお決まりでしょうか?"}, {"name": "user", "text": "いいえ"}]}
 {"docid": {"id": "asdc.sup.yn_no.31260"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "予定している予算以上ですが、大丈夫ですか?"}, {"name": "user", "text": "いいえ"}]}
 {"docid": {"id": "asdc.sup.yn_no.31802"}, "meta": {}, "purpose": "dev", "utterances": [{"name": "agent", "text": "幼稚園以下のお子さんはいますか"}, {"name": "user", "text": "いいえ"}]}
 {"docid": {"id": "asdc.sup.yn_no.31998"}, "meta": {}, "purpose": "train", "utterances": [{"name": "agent", "text": "洋室がよろしいでしょうか?"}, {"name": "user", "text": "いいえ"}]}
