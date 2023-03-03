@@ -7,7 +7,7 @@ We proposed it in the LREC 2022 paper.
 There are SCUD annotations for 210 dialogs in `main`.
 They are in two formats.
 
-## ``data/main/main.Example.jsonl``
+## ``data/main/scud_example/main.Example.jsonl``
 
 - Schema: [``asdc.schemaexample.Example``](../../asdc/schema/example.py)
 - Auto generated from ``data/main/scud`` by using ``asdc.convert.main_scud_example``

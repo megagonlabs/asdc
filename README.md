@@ -23,7 +23,7 @@ Please read [documents](docs/dialog) for more details.
 
 | Name | Doc | Data |
 | --- | --- | --- |
-| SCUD | [Doc](docs/scud) | [``data/main/main.Example.jsonl``](data/main/main.Example.jsonl), [``data/main/scud``](data/main/scud) |
+| SCUD | [Doc](docs/scud) | [``data/main/scud_example/main.Example.jsonl``](data/main/scud_example/main.Example.jsonl), [``data/main/scud``](data/main/scud) |
 | Dialog act | [Doc](docs/dialog_act) | [``data/main/dialog_act``](data/main/dialog_act) |
 | Request spans | [Doc](docs/request_span) | [``data/main/request_span``](data/main/request_span) |
 
