@@ -291,22 +291,22 @@ def check_vanilla(inpath: Path, ref: Optional[Path]) -> bool:
 
 def check_correctness_labeled_example(inpath: Path, ref: Optional[Path]) -> bool:
     assert inpath.is_dir()
-    assert ref is not None
 
     ok: bool = True
     sid2ex: Dict[str, Example] = {}
     done_sids = set()
 
-    for fname in sorted(ref.glob("**/*.jsonl")):
-        with fname.open() as inf:
-            for line in inf:
-                ex = Example.parse_raw(line)
-                assert ex.sid.id not in sid2ex, ex.sid.id
-                sid2ex[ex.sid.id] = ex
-                if ex.sid.id in done_sids:
-                    ok = False
-                    print(f"Duplicated SID: {ex.sid.id}")
-                done_sids.add(ex.sid.id)
+    if ref is not None:
+        for fname in sorted(ref.glob("**/*.jsonl")):
+            with fname.open() as inf:
+                for line in inf:
+                    ex = Example.parse_raw(line)
+                    assert ex.sid.id not in sid2ex, ex.sid.id
+                    sid2ex[ex.sid.id] = ex
+                    if ex.sid.id in done_sids:
+                        ok = False
+                        print(f"Duplicated SID: {ex.sid.id}")
+                    done_sids.add(ex.sid.id)
 
     for fname in sorted(inpath.glob("**/*.jsonl")):
         with fname.open() as inf:
@@ -318,6 +318,23 @@ def check_correctness_labeled_example(inpath: Path, ref: Optional[Path]) -> bool
                     print(f"Duplicated SID: {ex.sid.id}")
                 done_sids.add(ex.sid.id)
 
+                if ex.correct is True:
+                    if ex.example_types is not None:
+                        print(
+                            f"Example_types is given for the correct example: {ex.sid}",
+                            ex,
+                        )
+                        ok = False
+                elif ex.correct is False:
+                    if ex.example_types is None or len(ex.example_types) == 0:
+                        print(
+                            f"No example_types is given for the incorrect example: {ex.sid}",
+                            ex,
+                        )
+                        ok = False
+
+                if ref is None:
+                    continue
                 if ex.original_sid is None:
                     continue
 
@@ -335,23 +352,6 @@ def check_correctness_labeled_example(inpath: Path, ref: Optional[Path]) -> bool
                         ok = False
                     if (original_ex_sid.sources == ex.sources) and (original_ex_sid.targets == ex.targets):
                         print(f"Same sources and same targets: {ex.original_sid}", original_ex_sid, ex)
-                        ok = False
-
-                if ex.correct is True:
-                    if ex.example_types is not None:
-                        print(
-                            f"Example_types is given for the correct example: {ex.original_sid}",
-                            original_ex_sid,
-                            ex,
-                        )
-                        ok = False
-                elif ex.correct is False:
-                    if ex.example_types is None or len(ex.example_types) == 0:
-                        print(
-                            f"No example_types is given for the incorrect example: {ex.original_sid}",
-                            original_ex_sid,
-                            ex,
-                        )
                         ok = False
     return ok
 
