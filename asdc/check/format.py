@@ -336,6 +336,15 @@ def check_correctness_labeled_example(inpath: Path, ref: Optional[Path]) -> bool
                     if (original_ex_sid.sources == ex.sources) and (original_ex_sid.targets == ex.targets):
                         print(f"Same sources and same targets: {ex.original_sid}", original_ex_sid, ex)
                         ok = False
+
+                if ex.correct is False:
+                    if ex.example_types is None or len(ex.example_types) == 0:
+                        print(
+                            f"No example_types is given for the incorrect example: {ex.original_sid}",
+                            original_ex_sid,
+                            ex,
+                        )
+                        ok = False
     return ok
 
 
