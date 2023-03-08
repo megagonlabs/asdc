@@ -353,6 +353,13 @@ def check_correctness_labeled_example(inpath: Path, ref: Optional[Path]) -> bool
                     if (original_ex_sid.sources == ex.sources) and (original_ex_sid.targets == ex.targets):
                         print(f"Same sources and same targets: {ex.original_sid}", original_ex_sid, ex)
                         ok = False
+                    if original_ex_sid.purpose != ex.purpose:
+                        print(
+                            f"Purpose inconsistent: {original_ex_sid.purpose} != {ex.purpose}",
+                            original_ex_sid.sid,
+                            ex.sid,
+                        )
+                        ok = False
     return ok
 
 
