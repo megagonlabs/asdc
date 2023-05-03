@@ -4,7 +4,7 @@
     "devDependencies": {
         "markdown-it": ">=12.3.2",
         "markdownlint-cli": "^0.32.2",
-        "pyright": "^1.1.305"
+        "pyright": "^1.1.306"
     },
     "license": "",
     "main": "",
