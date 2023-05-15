@@ -2,7 +2,7 @@
 import argparse
 import collections
 from pathlib import Path
-from typing import DefaultDict, Iterator, List, Literal, Set
+from typing import DefaultDict, Iterator, Literal
 
 from asdc.schema.dialog import Docid2Utterances, Scud, Utterances, open_scud_file_by_docid
 from asdc.schema.example import Example, VanillaUtterance
@@ -21,8 +21,8 @@ def _get_purpose(orig: str) -> Literal["test", "train", "dev"]:
     return "train"
 
 
-def scuds2examples(docid: DocID, scuds: List[Scud], uttrs: Utterances) -> Iterator[Example]:
-    sid2scuds: DefaultDict[SID, List[Scud]] = collections.defaultdict(list)
+def scuds2examples(docid: DocID, scuds: list[Scud], uttrs: Utterances) -> Iterator[Example]:
+    sid2scuds: DefaultDict[SID, list[Scud]] = collections.defaultdict(list)
     for scud in scuds:
         sid2scuds[scud.sid].append(scud)
 
@@ -31,9 +31,9 @@ def scuds2examples(docid: DocID, scuds: List[Scud], uttrs: Utterances) -> Iterat
             continue
 
         for idx, _ in enumerate(uttr.yield_sentence()):
-            context: List[VanillaUtterance] = uttrs.get_contexts(sid=uttr.id.get_sid(0), same_uttr=False, by_uttr=True)
+            context: list[VanillaUtterance] = uttrs.get_contexts(sid=uttr.id.get_sid(0), same_uttr=False, by_uttr=True)
             sid = uttr.id.get_sid(idx)
-            sources: List[str] = [s for s in uttrs.utterances[sid.uttrid.num].yield_sentence()]
+            sources: list[str] = [s for s in uttrs.utterances[sid.uttrid.num].yield_sentence()]
 
             my_scuds = sid2scuds.get(sid)
             if my_scuds is None:
@@ -53,7 +53,7 @@ def scuds2examples(docid: DocID, scuds: List[Scud], uttrs: Utterances) -> Iterat
 
             gts = set()
             uttr_ids = set()
-            internal_sids: Set[SID] = set()
+            internal_sids: set[SID] = set()
             for scud in sid2scuds[sid]:
                 for sg in scud.groups:
                     gts.add(str(sg.group_type))

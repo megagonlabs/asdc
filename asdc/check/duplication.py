@@ -2,15 +2,14 @@
 
 import argparse
 from pathlib import Path
-from typing import List, Set
 
 from asdc.schema.example import Example, VanillaUtterances
 from asdc.schema.id import SID, DocID
 
 
-def operation(path_vuttr_list: List[Path], path_ex_list: List[Path]) -> None:
-    docids: Set[DocID] = set()
-    sids: Set[SID] = set()
+def operation(path_vuttr_list: list[Path], path_ex_list: list[Path]) -> None:
+    docids: set[DocID] = set()
+    sids: set[SID] = set()
 
     count_vuttrs: int = 0
     count_vuttr: int = 0

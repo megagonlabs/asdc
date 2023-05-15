@@ -4,7 +4,7 @@ import argparse
 import collections
 import statistics
 from pathlib import Path
-from typing import Optional, Set
+from typing import Optional
 
 from asdc.schema.dialog import GroupType, Scud, Utterances
 from asdc.schema.example import Example
@@ -69,7 +69,7 @@ def get_uttr_distance(scud: Scud) -> int:
 
 
 def get_internal_sentence_distance(scud: Scud) -> Optional[int]:
-    internal_sids: Set[SID] = set()
+    internal_sids: set[SID] = set()
     for sg in scud.groups:
         for _span in sg.spans:
             if len(sg.spans) > 1 and _span.sid.uttrid == scud.sid.uttrid:

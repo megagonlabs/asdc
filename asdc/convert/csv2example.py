@@ -4,7 +4,7 @@ import argparse
 import csv
 import unicodedata
 from pathlib import Path
-from typing import Dict, Optional
+from typing import Optional
 
 from asdc.schema.example import Example, VanillaUtterance, VanillaUtterances
 from asdc.schema.id import SID, DocID
@@ -25,7 +25,7 @@ def item2scuds(text: str):
 
 
 def operation(path_in: Path, path_out: Path, path_ref: Path) -> None:
-    docid2vus: Optional[Dict[DocID, VanillaUtterances]] = None
+    docid2vus: Optional[dict[DocID, VanillaUtterances]] = None
     docid2vus = {}
     for f in path_ref.iterdir():
         with f.open() as inf:

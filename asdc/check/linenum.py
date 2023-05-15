@@ -2,10 +2,9 @@
 
 import argparse
 from pathlib import Path
-from typing import List
 
 
-def check_end(tail_list: List[str], line: str) -> bool:
+def check_end(tail_list: list[str], line: str) -> bool:
     for tail in tail_list:
         if line.strip().endswith(tail):
             return True
@@ -16,7 +15,7 @@ def operation(
     path_in: Path,
     path_root: Path,
     suffix: str,
-    tail_list: List[str],
+    tail_list: list[str],
     do_dir: bool,
 ) -> None:
     to_be_checked = []

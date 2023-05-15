@@ -4,7 +4,6 @@ import argparse
 import csv
 import sys
 from pathlib import Path
-from typing import List, Set, Tuple
 
 from asdc.check.format import check_scud_groups
 from asdc.schema.dialog import open_scud_file
@@ -41,7 +40,7 @@ def update(oldscud, new: str, memo: str):
     oldscud.scud = new  # update
     oldscud.memo += memo  # update
 
-    error_idxs: List[Tuple[int, int]] = []
+    error_idxs: list[tuple[int, int]] = []
     for gidx, grps in enumerate(oldscud.groups):
         for sidx, span in enumerate(grps.spans):
             if not span.is_target:
@@ -64,8 +63,8 @@ def update(oldscud, new: str, memo: str):
 
 def operation(path_in: Path, path_scud: Path, path_out: Path, no_same: bool) -> None:
     sid2scuds = open_scud_file(path_scud)
-    sids_rewrite: Set[SID] = set()
-    sids_rewrite_pair: Set[Tuple[SID, str]] = set()
+    sids_rewrite: set[SID] = set()
+    sids_rewrite_pair: set[tuple[SID, str]] = set()
 
     with path_in.open() as inf, path_out.open("w") as outf:
         r = csv.reader(inf, delimiter=",")
@@ -107,7 +106,7 @@ def operation(path_in: Path, path_scud: Path, path_out: Path, no_same: bool) -> 
                 update(oldscud_target, new, memo)
 
         nun_insufficient_annotation: int = 0
-        done_output: Set[Tuple[SID, str]] = set()
+        done_output: set[tuple[SID, str]] = set()
         for sid, scuds in sorted(sid2scuds.items()):
             for scud in sorted(scuds):
                 if check_scud_groups(scud):

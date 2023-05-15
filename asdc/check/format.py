@@ -5,10 +5,9 @@ import collections
 import csv
 import json
 import sys
-import typing
 import unicodedata
 from pathlib import Path
-from typing import Callable, DefaultDict, Dict, Optional, Set, Tuple
+from typing import Callable, DefaultDict, Optional
 
 from asdc.schema.dialog import GroupType, Scud, Utterances, open_scud_file_by_docid
 from asdc.schema.example import METACHAR_LINE_BREAK, METACHAR_SENTENCE_BOUNDARY, Example, VanillaUtterances
@@ -133,7 +132,7 @@ def check_scud_main(inpath: Path, ref: Optional[Path]) -> bool:
                     print(f"Invalid number of ★ in {docid.id}: {_q}")
                     ok = False
 
-        scud_idxs: DefaultDict[Tuple[SID, int], int] = collections.defaultdict(int)
+        scud_idxs: DefaultDict[tuple[SID, int], int] = collections.defaultdict(int)
         for _s in scuds:
             scud_idxs[(_s.sid, _s.idx)] += 1
         for (sid, idx), cnt in scud_idxs.items():
@@ -164,8 +163,8 @@ def check_example(
     acceptable_sid_prefix: str,
     all_correct: bool,
 ) -> bool:
-    docid2vus: Optional[Dict[DocID, VanillaUtterances]] = None
-    user_uttr_ids: Optional[Set[UttrID]] = None
+    docid2vus: Optional[dict[DocID, VanillaUtterances]] = None
+    user_uttr_ids: Optional[set[UttrID]] = None
     if ref is not None:
         docid2vus = {}
         user_uttr_ids = set()
@@ -260,7 +259,7 @@ def check_vanilla(inpath: Path, ref: Optional[Path]) -> bool:
     assert ref is None
     done_ids = set()
 
-    read_text: Dict[str, DocID] = {}
+    read_text: dict[str, DocID] = {}
 
     ok = True
     for fname in sorted(inpath.glob("**/*.jsonl")):
@@ -293,7 +292,7 @@ def check_correctness_labeled_example(inpath: Path, ref: Optional[Path]) -> bool
     assert inpath.is_dir()
 
     ok: bool = True
-    sid2ex: Dict[str, Example] = {}
+    sid2ex: dict[str, Example] = {}
     done_sids = set()
 
     if ref is not None:
@@ -363,7 +362,7 @@ def check_correctness_labeled_example(inpath: Path, ref: Optional[Path]) -> bool
     return ok
 
 
-DATA_TYPES: typing.Dict[str, Callable] = {
+DATA_TYPES: dict[str, Callable] = {
     "setting": check_setting,
     "text": check_text,
     "scud_main": check_scud_main,

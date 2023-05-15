@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import enum
 from pathlib import Path
-from typing import Dict, Iterator, List, NewType, Set, Tuple, Union
+from typing import Iterator, NewType, Union
 
 from pydantic import BaseModel, validator
 
@@ -40,7 +40,7 @@ class GroupType(enum.Enum):
 
 class SpanGroup(BaseModel):
     group_type: GroupType
-    spans: List[Span]
+    spans: list[Span]
 
     def __lt__(self, other) -> bool:
         if self.group_type != other.group_type:
@@ -68,7 +68,7 @@ class AlignmentSpan(BaseModel):
     start: int
     end: int
 
-    def get_text(self, strs: List[str]) -> str:
+    def get_text(self, strs: list[str]) -> str:
         # strs should be "sources" if origins_in_context is False, otherwise "context"
         return strs[self.index][self.start : self.end]
 
@@ -113,9 +113,9 @@ class Scud(BaseModel):
     idx: int
     text: str
     scud: str
-    queries: List[str]
+    queries: list[str]
     memo: str
-    groups: List[SpanGroup]
+    groups: list[SpanGroup]
 
     @property
     def id(self) -> str:
@@ -139,7 +139,7 @@ class Scud(BaseModel):
     @validator("groups")
     def validate_alignment(cls, v):
         # check span duplication
-        covered: Set[Tuple[bool, SID, int]] = set()
+        covered: set[tuple[bool, SID, int]] = set()
         for sg in v:
             span: Span
             for span in sg.spans:
@@ -151,7 +151,7 @@ class Scud(BaseModel):
         return v
 
 
-Sid2Scuds = NewType("Sid2Scuds", Dict[SID, List[Scud]])
+Sid2Scuds = NewType("Sid2Scuds", dict[SID, list[Scud]])
 
 
 def open_scud_file(ifname: Path) -> Sid2Scuds:
@@ -168,7 +168,7 @@ def open_scud_file(ifname: Path) -> Sid2Scuds:
     return sid2scuds
 
 
-Docid2Scuds = NewType("Docid2Scuds", Dict[DocID, List[Scud]])
+Docid2Scuds = NewType("Docid2Scuds", dict[DocID, list[Scud]])
 
 
 def open_scud_file_by_docid(ifname: Path) -> Docid2Scuds:
@@ -207,7 +207,7 @@ class Utterance(BaseModel):
     id: UttrID
     name: str
     text: str
-    text_sbs: List[int]
+    text_sbs: list[int]
     time: float
 
     def yield_sentence(self, meta: bool = False) -> Iterator[str]:
@@ -230,7 +230,7 @@ class Meta(BaseModel):
     travel_duration: int
     num_adult: int
     num_child: int
-    conditions: List[str]
+    conditions: list[str]
     memo: str
     purpose: str
 
@@ -243,7 +243,7 @@ class Meta(BaseModel):
 
 class Utterances(BaseModel):
     meta: Meta
-    utterances: List[Utterance]
+    utterances: list[Utterance]
 
     def get(self, *, sid: SID) -> str:
         uttr_idx: int = sid.uttrid.num
@@ -255,11 +255,11 @@ class Utterances(BaseModel):
                 return sent
         raise KeyError
 
-    def get_contexts(self, sid: SID, same_uttr: bool, by_uttr: bool) -> List[VanillaUtterance]:
+    def get_contexts(self, sid: SID, same_uttr: bool, by_uttr: bool) -> list[VanillaUtterance]:
         uttr_id = sid.uttrid
         _idx = sid.sentence_num
 
-        out: List[VanillaUtterance] = []
+        out: list[VanillaUtterance] = []
         for u in self.utterances:
             name: str = "agent"
             if u.name.startswith("user"):

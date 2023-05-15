@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from typing import Any, Dict, List, Literal, Optional
+from typing import Any, Literal, Optional
 
 from pydantic import BaseModel, Field, root_validator, validator
 
@@ -17,8 +17,8 @@ class VanillaUtterance(BaseModel):
 class VanillaUtterances(BaseModel):
     docid: DocID
     purpose: Literal["test", "train", "dev"]
-    meta: Dict[str, Any]
-    utterances: List[VanillaUtterance]
+    meta: dict[str, Any]
+    utterances: list[VanillaUtterance]
 
 
 INCORRECT_TYPES = Literal[
@@ -32,14 +32,14 @@ INCORRECT_TYPES = Literal[
 
 class Example(BaseModel):
     sid: SID
-    sources: List[str] = Field(min_items=1)  # List of sentences
-    targets: List[str]  # SCUDs of focused_source
-    context: List[VanillaUtterance]
+    sources: list[str] = Field(min_items=1)  # List of sentences
+    targets: list[str]  # SCUDs of focused_source
+    context: list[VanillaUtterance]
     purpose: Literal["test", "train", "dev"]
-    meta: Dict[str, Any]
+    meta: dict[str, Any]
 
     correct: Optional[bool]
-    example_types: Optional[List[INCORRECT_TYPES]]
+    example_types: Optional[list[INCORRECT_TYPES]]
     original_sid: Optional[SID]
 
     @property

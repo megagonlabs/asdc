@@ -7,7 +7,7 @@ import sys
 from collections import defaultdict
 from itertools import zip_longest
 from pathlib import Path
-from typing import Any, DefaultDict, Dict, Iterator, List, NewType, Optional, Tuple, Union
+from typing import Any, DefaultDict, Iterator, NewType, Optional, Union
 
 from pydantic import BaseModel
 
@@ -34,8 +34,8 @@ def label2group_type(label: str) -> GroupType:
 class DoccanoAnnotation(BaseModel):
     id: str
     text: str
-    meta: Dict[str, Any]
-    labels: List[List[Union[int, str]]]
+    meta: dict[str, Any]
+    labels: list[list[Union[int, str]]]
     annotation_approver: Optional[str]
 
     def get_sid(self) -> SID:
@@ -62,7 +62,7 @@ class DoccanoAnnotation(BaseModel):
         items = self.text.split(SEPARATOR)
         return len(SEPARATOR.join([v for v in items[:-1]])) + len(SEPARATOR)
 
-    def get_sid_and_offset(self, original_idx: int, uttrs: Utterances) -> Tuple[SID, int]:
+    def get_sid_and_offset(self, original_idx: int, uttrs: Utterances) -> tuple[SID, int]:
         cnt = 0
         for _us in uttrs.utterances:
             for sidx, sent in enumerate(_us.yield_sentence(meta=True)):
@@ -74,14 +74,14 @@ class DoccanoAnnotation(BaseModel):
                 return _us.id.get_sid(sidx), offset
         raise KeyError
 
-    def get_groups(self, uttrs: Utterances) -> List[SpanGroup]:
+    def get_groups(self, uttrs: Utterances) -> list[SpanGroup]:
         offset_sid = self.get_offset_sid()
         offset_sent = self.get_offset_sentence()
         offset_scud = self.get_offset_scud()
         assert offset_sent < offset_scud
 
-        groups: List[SpanGroup] = []
-        label2gidx: Dict[str, int] = {}
+        groups: list[SpanGroup] = []
+        label2gidx: dict[str, int] = {}
         for ant in self.labels:
             s: int = int(ant[0])
             e: int = int(ant[1])
@@ -133,7 +133,7 @@ class TrimmedDoccanoAnnotation(BaseModel):
     sid: SID
     idx: int
     scud: str
-    groups: List[SpanGroup]
+    groups: list[SpanGroup]
 
     def __lt__(self, other) -> bool:
         if self.sid != other.sid:
@@ -141,10 +141,10 @@ class TrimmedDoccanoAnnotation(BaseModel):
         return self.idx < other.idx
 
 
-def get_temporary_groups(src: str, scud: str, sid: SID) -> List[SpanGroup]:
+def get_temporary_groups(src: str, scud: str, sid: SID) -> list[SpanGroup]:
     scud_no_lastdot = scud.rstrip("。")
     s = difflib.SequenceMatcher(None, src, scud_no_lastdot)
-    groups: List[SpanGroup] = []
+    groups: list[SpanGroup] = []
 
     for op, a_0, a_1, b_0, b_1 in s.get_opcodes():
         if op == "replace":
@@ -205,7 +205,7 @@ def convert_one(scud: Scud, uttrs: Utterances):
                 if span.sid == sid:
                     _offset = offset_src
                 else:
-                    _ctx: List[str] = [c.text for c in uttrs.get_contexts(sid=span.sid, same_uttr=True, by_uttr=False)]
+                    _ctx: list[str] = [c.text for c in uttrs.get_contexts(sid=span.sid, same_uttr=True, by_uttr=False)]
                     _offset = len(SEPARATOR.join(_ctx) + SEPARATOR)
             labels.append([span.start + _offset, span.end + _offset, _str_label])
     labels.sort()
@@ -244,7 +244,7 @@ def convert(
                 yield json.dumps(out_one, ensure_ascii=False, sort_keys=True)
 
 
-Sid2Annotations = NewType("Sid2Annotations", Dict[SID, List[TrimmedDoccanoAnnotation]])
+Sid2Annotations = NewType("Sid2Annotations", dict[SID, list[TrimmedDoccanoAnnotation]])
 
 
 def _open_doccano(rfname: Path) -> Sid2Annotations:
@@ -278,7 +278,7 @@ def parse_doccano(sid2scuds: Sid2Scuds, sid2annotations: Sid2Annotations, ref: P
 
     found_error: bool = False
     for sid, scuds in sorted(sid2scuds.items()):
-        annotations: List[TrimmedDoccanoAnnotation] = []
+        annotations: list[TrimmedDoccanoAnnotation] = []
         try:
             annotations = sorted(sid2annotations[sid])
         except IndexError:
@@ -350,7 +350,7 @@ def output_final_scud(
     path_ref: Path,
     path_out: Path,
 ):
-    docidstr2scuds: DefaultDict[str, List[Scud]] = defaultdict(list)
+    docidstr2scuds: DefaultDict[str, list[Scud]] = defaultdict(list)
     for sa in parse_doccano(sid2scuds, sid2annotations, path_ref):
         docidstr: str = sa.sid.docid.doc_num_str
         docidstr2scuds[docidstr].append(sa)
