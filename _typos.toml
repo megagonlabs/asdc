@@ -8,4 +8,4 @@ als = "als"
 THANN = "THANN"
 
 [files]
-extend-exclude = ["*.json*", "package-lock.json", "*.out.txt"]
+extend-exclude = ["*.json*", "package-lock.json", "*.out.txt", "*.tsv"]
