@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 from typing import Any, Literal, Optional
 
-from pydantic import BaseModel, Field, root_validator, validator
+from pydantic.v1 import BaseModel, Field, root_validator, validator
 
 from asdc.schema.id import SID, DocID
 

@@ -9,7 +9,7 @@ from itertools import zip_longest
 from pathlib import Path
 from typing import Any, DefaultDict, Iterator, NewType, Optional, Union
 
-from pydantic import BaseModel
+from pydantic.v1 import BaseModel
 
 from asdc.check.format import check_scud_groups
 from asdc.schema.dialog import Docid2Utterances, GroupType, Scud, Sid2Scuds, Span, SpanGroup, Utterances, open_scud_file

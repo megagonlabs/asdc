@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 
-from pydantic import BaseModel, validator
+from pydantic.v1 import BaseModel, validator
 
 
 class DocID(BaseModel):
