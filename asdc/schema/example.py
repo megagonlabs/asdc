@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 from typing import Any, Literal, Optional
 
-from pydantic import BaseModel, Field, FieldValidationInfo, field_validator
+from pydantic import BaseModel, Field, FieldValidationInfo, field_validator, model_validator
 
 from asdc.schema.id import SID, DocID
 
@@ -46,10 +46,10 @@ class Example(BaseModel):
     def focused_source(self) -> str:
         return self.sources[self.sid.sentence_num]
 
-    @field_validator("sid")
-    def validate_sid(cls, v: SID, info: FieldValidationInfo):
-        if 0 <= v.sentence_num < len(info.data["sources"]):
-            return v
+    @model_validator(mode="after")
+    def validate_sid(self, info):
+        if 0 <= self.sid.sentence_num < len(self.sources):
+            return self
         raise ValueError("Invalid sentence number")
 
     @field_validator("targets")

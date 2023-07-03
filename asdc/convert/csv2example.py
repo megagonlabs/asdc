@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-
 import argparse
 import csv
+import json
 import unicodedata
 from pathlib import Path
 from typing import Optional
@@ -30,7 +30,7 @@ def operation(path_in: Path, path_out: Path, path_ref: Path) -> None:
     for f in path_ref.iterdir():
         with f.open() as inf:
             for line in inf:
-                vus = VanillaUtterances.parse_raw(line)
+                vus = VanillaUtterances.model_validate_json(line)
                 if vus.docid in docid2vus:
                     raise KeyError(f"Duplicated ID: {vus.docid}")
                 docid2vus[vus.docid] = vus
@@ -93,7 +93,7 @@ def operation(path_in: Path, path_out: Path, path_ref: Path) -> None:
             if len(memo) > 0:
                 ex.meta["memo"] = memo
 
-            outf.write(ex.json(ensure_ascii=False, sort_keys=True))
+            outf.write(json.dumps(ex.model_dump(), ensure_ascii=False, sort_keys=True))
             outf.write("\n")
 
 

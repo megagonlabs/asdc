@@ -123,7 +123,7 @@ class DoccanoAnnotation(BaseModel):
             if g.group_type == GroupType.OUTSIDE and len(set(s.sid for s in g.spans)) == 1:
                 g.group_type = GroupType.EXOPHORA
             g.spans.sort()
-            vals = [v.json() for v in g.spans]
+            vals = [v.model_dump_json() for v in g.spans]
             assert len(set(vals)) == len(vals), f"Duplicated spans in: {g.spans}"
         groups.sort()
         return groups
@@ -231,13 +231,13 @@ def convert(
         if path_use is not None:
             with list(path_use.glob(f"{docid.doc_num_str}.*"))[0].open() as inf:
                 for line in inf:
-                    scud = Scud.parse_raw(line)
+                    scud = Scud.model_validate_json(line)
                     one = convert_one(scud, uttrs)
                     cache[get_key(one)] = one
 
         with list(path_in.glob(f"{docid.doc_num_str}.*"))[0].open() as inf:
             for line in inf:
-                scud = Scud.parse_raw(line)
+                scud = Scud.model_validate_json(line)
                 one = convert_one(scud, uttrs)
                 key = get_key(one)
                 out_one = cache.get(key, one)
@@ -254,7 +254,7 @@ def _open_doccano(rfname: Path) -> Sid2Annotations:
     for _rfp in rfname.iterdir():
         with _rfp.open() as rf:
             for rline in rf:
-                onedata = TrimmedDoccanoAnnotation.parse_raw(rline)
+                onedata = TrimmedDoccanoAnnotation.model_validate_json(rline)
                 sid = onedata.sid
                 if sid not in sid2annotations:
                     sid2annotations[sid] = []
@@ -270,7 +270,7 @@ def update_json(sid2scuds: Sid2Scuds, sid2annotations: Sid2Annotations) -> Itera
         for scud, annotation in zip(scuds, annotations):
             assert scud.idx == annotation.idx, f"In {sid}: Idx mismatch"
             scud.scud = annotation.scud
-            yield scud.json(ensure_ascii=False, sort_keys=True)
+            yield json.dumps(scud.model_dump(), ensure_ascii=False, sort_keys=True)
 
 
 def parse_doccano(sid2scuds: Sid2Scuds, sid2annotations: Sid2Annotations, ref: Path) -> Iterator[Scud]:
@@ -320,7 +320,7 @@ def trim(inpath: Path, ref: Path, outpath: Path):
     docid2outs = {}
     with inpath.open() as inf:
         for inline in inf:
-            onedata: DoccanoAnnotation = DoccanoAnnotation.parse_raw(inline)
+            onedata: DoccanoAnnotation = DoccanoAnnotation.model_validate_json(inline)
             sid: SID = onedata.get_sid()
             assert onedata.meta["sid"] == sid.id
             idx = onedata.get_idx()
@@ -340,7 +340,7 @@ def trim(inpath: Path, ref: Path, outpath: Path):
         for docid, outs in docid2outs.items():
             with outpath.joinpath(f"{docid}.TrimmedDoccanoAnnotation.jsonl").open("w") as outf:
                 for out in sorted(outs):
-                    outf.write(out.json(sort_keys=True, ensure_ascii=False))
+                    outf.write(json.dumps(out.model_dump(), sort_keys=True, ensure_ascii=False))
                     outf.write("\n")
 
 
@@ -357,7 +357,7 @@ def output_final_scud(
     for docidstr, scuds in docidstr2scuds.items():
         with path_out.joinpath(f"{docidstr}.jsonl").open("w") as outf:
             for scud in sorted(scuds):
-                outf.write(scud.json(sort_keys=True, ensure_ascii=False))
+                outf.write(json.dumps(scud.model_dump(), sort_keys=True, ensure_ascii=False))
                 outf.write("\n")
 
 

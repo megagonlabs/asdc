@@ -2,6 +2,7 @@
 
 import argparse
 import copy
+import json
 import random
 from pathlib import Path
 
@@ -72,7 +73,7 @@ def operation(
                         meta={},
                         utterances=vus_list,
                     )
-                    outf_vanilla.write(vus.json(ensure_ascii=False, sort_keys=True) + "\n")
+                    outf_vanilla.write(json.dumps(vus.model_dump(), ensure_ascii=False, sort_keys=True) + "\n")
 
                     # OK
                     ex_gold = Example(
@@ -90,7 +91,7 @@ def operation(
                         example_types=None,  # type: ignore
                         original_sid=None,
                     )
-                    outf_scud.write(ex_gold.json(ensure_ascii=False, sort_keys=True) + "\n")
+                    outf_scud.write(json.dumps(ex_gold.model_dump(), ensure_ascii=False, sort_keys=True) + "\n")
 
                     # NG
                     ngprice: int = price
@@ -105,7 +106,7 @@ def operation(
                     ex_ng.correct = False
                     ex_ng.targets = [ng_text]
                     ex_ng.example_types = ["untruth"]
-                    outf_correct.write(ex_ng.json(ensure_ascii=False, sort_keys=True) + "\n")
+                    outf_correct.write(json.dumps(ex_ng.model_dump(), ensure_ascii=False, sort_keys=True) + "\n")
 
 
 def get_opts() -> argparse.Namespace:

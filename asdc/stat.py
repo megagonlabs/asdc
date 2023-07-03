@@ -94,7 +94,7 @@ def stat_example(path_in_dir_or_file: Path):
     for path_in in path_list:
         with path_in.open() as inf:
             for line in inf:
-                ex = Example.parse_raw(line)
+                ex = Example.model_validate_json(line)
                 assert ex.sid not in sids
 
                 docids.add(ex.sid.docid)
@@ -116,7 +116,7 @@ def stat_scud(path_in: Path):
     with path_in.open() as inf:
         for line in inf:
             total += 1
-            scud = Scud.parse_raw(line)
+            scud = Scud.model_validate_json(line)
             max_distance_uttr: int = get_uttr_distance(scud)
             num_uttr_distance.append(max_distance_uttr)
             max_distance_sent: Optional[int] = get_internal_sentence_distance(scud)

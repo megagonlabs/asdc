@@ -3,6 +3,7 @@
 import argparse
 import collections
 import csv
+import json
 import typing
 import unicodedata
 from pathlib import Path
@@ -30,7 +31,7 @@ def parse(path_in: Path, scud: ScudData, path_out: Path):
 
                     for _s in _scuds:
                         _s.text = sent
-                        outaf.write(_s.json(ensure_ascii=False, sort_keys=True))
+                        outaf.write(json.dumps(_s.model_dump(), ensure_ascii=False, sort_keys=True))
                         outaf.write("\n")
 
 
