@@ -17,7 +17,8 @@ ScudData = typing.NewType("ScudData", typing.DefaultDict[SID, typing.List[Scud]]
 def parse(path_in: Path, scud: ScudData, path_out: Path):
     path_out.mkdir(exist_ok=True, parents=True)
     for fpath in sorted(path_in.iterdir()):
-        uttrs = Utterances.parse_file(fpath)
+        with fpath.open() as fp:
+            uttrs = Utterances.model_validate_json(fp.read())
         myid: str = uttrs.meta.id.doc_num_str
 
         with path_out.joinpath(f"{myid}.scud.jsonl").open("w") as outaf:

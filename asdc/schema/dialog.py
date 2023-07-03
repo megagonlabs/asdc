@@ -283,5 +283,6 @@ class Docid2Utterances(dict):
     def __init__(self, ref: Path):
         assert ref.is_dir()
         for afile in ref.iterdir():
-            uttrs = Utterances.parse_file(afile)
+            with afile.open() as af:
+                uttrs = Utterances.model_validate_json(af.read())
             self[uttrs.meta.id] = uttrs

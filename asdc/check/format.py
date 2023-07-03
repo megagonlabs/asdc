@@ -29,7 +29,8 @@ def check_text(inpath: Path, ref: Optional[Path]) -> bool:
     assert ref is not None
     for fname in inpath.iterdir():
         path_json: Path = ref.joinpath(fname.stem + ".json")
-        uttrs = Utterances.parse_file(path_json)
+        with path_json.open() as pf:
+            uttrs = Utterances.model_validate_json(pf.read())
 
         with fname.open() as inf:
             for lid, line in enumerate(inf):
@@ -84,7 +85,8 @@ def check_scud_main(inpath: Path, ref: Optional[Path]) -> bool:
     ok = True
     for docid, scuds in sorted(docid2scuds.items()):
         path_json: Path = ref.joinpath(f"{docid.doc_num_str}.json")
-        uttrs = Utterances.parse_file(path_json)
+        with path_json.open() as pf:
+            uttrs = Utterances.model_validate_json(pf.read())
 
         _all_queriers: DefaultDict[str, int] = collections.defaultdict(int)
         _num_representative: DefaultDict[str, int] = collections.defaultdict(int)

@@ -34,7 +34,8 @@ def stat_dialogs(path_in: Path):
     num_sents_c = DataStore("Sentences_user")
     num_sents_o = DataStore("Sentences_agent")
     for fpath in sorted(path_in.iterdir()):
-        uttrs = Utterances.parse_file(fpath)
+        with fpath.open() as inf:
+            uttrs = Utterances.model_validate_json(inf.read())
         uttr_cnt = 0
         prev_user = ""
         for u in uttrs.utterances:
