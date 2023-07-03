@@ -3,7 +3,7 @@ import enum
 from pathlib import Path
 from typing import Iterator, NewType, Union
 
-from pydantic.v1 import BaseModel, validator
+from pydantic import BaseModel, validator
 
 from asdc.schema.example import METACHAR_LINE_BREAK, VanillaUtterance
 from asdc.schema.id import SID, DocID, UttrID

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 from typing import Any, Literal, Optional
 
-from pydantic.v1 import BaseModel, Field, root_validator, validator
+from pydantic import BaseModel, Field, FieldValidationInfo, field_validator
 
 from asdc.schema.id import SID, DocID
 
@@ -32,7 +32,7 @@ INCORRECT_TYPES = Literal[
 
 class Example(BaseModel):
     sid: SID
-    sources: list[str] = Field(min_items=1)  # List of sentences
+    sources: list[str] = Field(min_length=1)  # List of sentences
     targets: list[str]  # SCUDs of focused_source
     context: list[VanillaUtterance]
     purpose: Literal["test", "train", "dev"]
@@ -46,14 +46,14 @@ class Example(BaseModel):
     def focused_source(self) -> str:
         return self.sources[self.sid.sentence_num]
 
-    @root_validator
-    def validate_sid(cls, values):
-        if 0 <= values["sid"].sentence_num < len(values["sources"]):
-            return values
+    @field_validator("sid")
+    def validate_sid(cls, v: SID, info: FieldValidationInfo):
+        if 0 <= v.sentence_num < len(info.data["sources"]):
+            return v
         raise ValueError("Invalid sentence number")
 
-    @validator("targets")
-    def validate_targets(cls, v):
+    @field_validator("targets")
+    def validate_targets(cls, v: list[str], info: FieldValidationInfo):
         for t in v:
             if "<none>" in t:
                 raise ValueError("<none> should not be in targets")
