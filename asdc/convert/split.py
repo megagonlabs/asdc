@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import argparse
+import json
 from pathlib import Path
 
 from asdc.schema.example import Example
@@ -16,9 +17,9 @@ def operation(
         "w"
     ) as outf_test, path_in.open() as inf:
         for line in inf:
-            ex = Example.parse_raw(line)
+            ex = Example.model_validate_json(line)
             purpose = ex.purpose
-            outline: str = ex.json(ensure_ascii=False, sort_keys=True) + "\n"
+            outline: str = json.dumps(ex.model_dump(), ensure_ascii=False, sort_keys=True) + "\n"
 
             if purpose == "train":
                 outf_train.write(outline)

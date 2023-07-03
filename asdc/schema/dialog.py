@@ -3,7 +3,7 @@ import enum
 from pathlib import Path
 from typing import Iterator, NewType, Union
 
-from pydantic.v1 import BaseModel, validator
+from pydantic import BaseModel, validator
 
 from asdc.schema.example import METACHAR_LINE_BREAK, VanillaUtterance
 from asdc.schema.id import SID, DocID, UttrID
@@ -30,7 +30,7 @@ class Span(BaseModel):
         return self.end < other.end
 
 
-class GroupType(enum.Enum):
+class GroupType(str, enum.Enum):
     ERROR = "ERROR"
     INSIDE = "INSIDE"
     BOTHSIDE = "BOTHSIDE"
@@ -161,7 +161,7 @@ def open_scud_file(ifname: Path) -> Sid2Scuds:
     for _in in ifname.iterdir():
         with _in.open() as inf:
             for line in inf:
-                scud = Scud.parse_raw(line)
+                scud = Scud.model_validate_json(line)
                 if scud.sid not in sid2scuds:
                     sid2scuds[scud.sid] = []
                 sid2scuds[scud.sid].append(scud)
@@ -176,7 +176,7 @@ def open_scud_file_by_docid(ifname: Path) -> Docid2Scuds:
     for _i in ifname.iterdir():
         with _i.open() as inf:
             for line in inf:
-                scud = Scud.parse_raw(line)
+                scud = Scud.model_validate_json(line)
                 docid = scud.sid.docid
                 if docid not in docid2scuds:
                     docid2scuds[docid] = []

@@ -17,7 +17,7 @@ def operation(path_vuttr_list: list[Path], path_ex_list: list[Path]) -> None:
         for path_vuttr in _path_vuttr.iterdir():
             with path_vuttr.open() as inf:
                 for line in inf:
-                    vuttr = VanillaUtterances.parse_raw(line)
+                    vuttr = VanillaUtterances.model_validate_json(line)
                     if vuttr.docid in docids:
                         raise KeyError(f"Duplicated DocID: {vuttr.docid} ({path_vuttr})")
                     count_vuttrs += 1
@@ -32,7 +32,7 @@ def operation(path_vuttr_list: list[Path], path_ex_list: list[Path]) -> None:
         for path_ex in _path_ex.iterdir():
             with path_ex.open() as inf:
                 for line in inf:
-                    ex = Example.parse_raw(line)
+                    ex = Example.model_validate_json(line)
                     if ex.sid in sids:
                         raise KeyError(f"Duplicated SID: {ex.sid} ({path_ex})")
                     sids.add(ex.sid)

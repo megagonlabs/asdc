@@ -12,7 +12,7 @@ def operation(path_in: Path, path_out: Path) -> None:
     text2purpose2ids = {}
     with path_in.open() as inf, path_out.open("w") as outf:
         for line in inf:
-            ex = Example.parse_raw(line)
+            ex = Example.model_validate_json(line)
 
             for t in ex.targets:
                 if t not in text2purpose2ids:

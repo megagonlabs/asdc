@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import argparse
 import collections
+import json
 from pathlib import Path
 from typing import DefaultDict, Iterator, Literal
 
@@ -102,7 +103,8 @@ def main() -> None:
     opts = get_opts()
     with opts.output.open("w") as outf:
         for e in generate(opts.input, opts.ref):
-            outf.write(f"{e.json(ensure_ascii=False, sort_keys=True)}\n")
+            v = json.dumps(e.model_dump(), ensure_ascii=False, sort_keys=True)
+            outf.write(f"{v}\n")
 
 
 if __name__ == "__main__":

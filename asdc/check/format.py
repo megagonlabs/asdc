@@ -149,7 +149,7 @@ def check_scud_json(inpath: Path, ref: Optional[Path]) -> bool:
     ok = True
     for fname in sorted(inpath.iterdir()):
         data = fname.open().read()
-        _ = Utterances.parse_raw(data)
+        _ = Utterances.model_validate_json(data)
         fdata = json.dumps(json.loads(data), indent=4, ensure_ascii=False, sort_keys=True) + "\n"
         if data != fdata:
             print(f"Unformatted JSON: {fname}")
@@ -171,7 +171,7 @@ def check_example(
         for f in ref.iterdir():
             with f.open() as inf:
                 for line in inf:
-                    vus = VanillaUtterances.parse_raw(line)
+                    vus = VanillaUtterances.model_validate_json(line)
                     if vus.docid in docid2vus:
                         raise KeyError(f"Duplicated ID: {vus.docid}")
                     docid2vus[vus.docid] = vus
@@ -187,7 +187,7 @@ def check_example(
     for fname in sorted(inpath.glob("**/*.jsonl")):
         with fname.open() as inf:
             for lid, line in enumerate(inf):
-                ex = Example.parse_raw(line)
+                ex = Example.model_validate_json(line)
                 if all_correct and ex.correct is not True:
                     print(f"Should be correct: {ex.sid.id}")
                     ok = False
@@ -265,7 +265,7 @@ def check_vanilla(inpath: Path, ref: Optional[Path]) -> bool:
     for fname in sorted(inpath.glob("**/*.jsonl")):
         with fname.open() as inf:
             for line in inf:
-                vus = VanillaUtterances.parse_raw(line)
+                vus = VanillaUtterances.model_validate_json(line)
                 if vus.docid in done_ids:
                     print(f"Duplicated ID: {vus.docid}")
                     ok = False
@@ -299,7 +299,7 @@ def check_correctness_labeled_example(inpath: Path, ref: Optional[Path]) -> bool
         for fname in sorted(ref.glob("**/*.jsonl")):
             with fname.open() as inf:
                 for line in inf:
-                    ex = Example.parse_raw(line)
+                    ex = Example.model_validate_json(line)
                     assert ex.sid.id not in sid2ex, ex.sid.id
                     sid2ex[ex.sid.id] = ex
                     if ex.sid.id in done_sids:
@@ -310,7 +310,7 @@ def check_correctness_labeled_example(inpath: Path, ref: Optional[Path]) -> bool
     for fname in sorted(inpath.glob("**/*.jsonl")):
         with fname.open() as inf:
             for line in inf:
-                ex = Example.parse_raw(line)
+                ex = Example.model_validate_json(line)
 
                 if ex.sid.id in done_sids:
                     ok = False

@@ -2,6 +2,7 @@
 
 import argparse
 import csv
+import json
 import sys
 from pathlib import Path
 
@@ -111,7 +112,7 @@ def operation(path_in: Path, path_scud: Path, path_out: Path, no_same: bool) -> 
             for scud in sorted(scuds):
                 if check_scud_groups(scud):
                     continue
-                outf.write(scud.json(ensure_ascii=False, sort_keys=False))
+                outf.write(json.dumps(scud.model_dump(), ensure_ascii=False, sort_keys=False))
                 outf.write("\n")
                 nun_insufficient_annotation += 1
 
@@ -125,7 +126,7 @@ def operation(path_in: Path, path_scud: Path, path_out: Path, no_same: bool) -> 
                     continue
                 elif (sid, scud.scud) in done_output:
                     continue
-                outf.write(scud.json(ensure_ascii=False, sort_keys=False))
+                outf.write(json.dumps(scud.model_dump(), ensure_ascii=False, sort_keys=False))
                 outf.write("\n")
                 num_rewrite += 1
 
@@ -140,7 +141,7 @@ def operation(path_in: Path, path_scud: Path, path_out: Path, no_same: bool) -> 
                     continue
                 elif (sid, scud.scud) in done_output:
                     continue
-                outf.write(scud.json(ensure_ascii=False, sort_keys=False))
+                outf.write(json.dumps(scud.model_dump(), ensure_ascii=False, sort_keys=False))
                 outf.write("\n")
 
 
