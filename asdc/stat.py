@@ -57,12 +57,12 @@ def stat_dialogs(path_in: Path):
 
 
 def get_uttr_distance(scud: Scud) -> int:
-    uttr_ids = set()
+    uttr_ids: set[int] = set()
     for sg in scud.groups:
         if sg.group_type == GroupType.EXOPHORA:
             continue
         for _span in sg.spans:
-            uttr_ids.add(_span.sid.uttrid)
+            uttr_ids.add(_span.sid.uttrid.num)
 
     assert len(uttr_ids) > 0
     max_distance_uttr: int = max(uttr_ids) - min(uttr_ids)
